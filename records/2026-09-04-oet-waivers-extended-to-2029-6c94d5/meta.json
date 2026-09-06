@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-04-oet-waivers-extended-to-2029-6c94d5",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "OET Waivers (UAS and routers) extended to 2029",
+  "issuing_body": "FCC",
+  "doc_type": "waiver",
+  "doc_date": "2026-05-08",
+  "docket": "ET Docket No. 21-232; DA 26-454",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Federal Communications Commission Office of Engineering and Technology",
+    "Department of War",
+    "Department of Homeland Security"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-454A1.pdf",
+  "source_copy_public": true,
+  "notes": "drones and routers through 2029",
+  "source_file": "source.pdf",
+  "sha256": "6c94d5f1274a26ce06629c4540bf53c7adce0a05cc0b98ca0e38fc89100b7cf0",
+  "approved_at": "2026-09-06T10:56:23Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:58Z"
+}

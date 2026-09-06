@@ -1,0 +1,37 @@
+{
+  "id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Drone Router Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-24",
+  "docket": "DA 26-768; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Exedy Globalparts Corporation",
+    "Parallel Flight Technologies",
+    "Inc.",
+    "Calix",
+    "Inc.",
+    "Sagemcom USA",
+    "LLC",
+    "Humax Networks USA",
+    "Inc.",
+    "Askey Computer Corp."
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-768A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "b741bf0cc1c21f02aaebc916fa6beb95da79aa99319a80efaf2cc72a43d59047",
+  "approved_at": "2026-09-06T03:06:39Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:02Z"
+}

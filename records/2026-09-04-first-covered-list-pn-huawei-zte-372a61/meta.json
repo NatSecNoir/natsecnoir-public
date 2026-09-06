@@ -1,0 +1,35 @@
+{
+  "id": "2026-09-04-first-covered-list-pn-huawei-zte-372a61",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "First Covered List PN Huawei ZTE",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2021-03-12",
+  "docket": "WC Docket No. 18-89; DA 21-309",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Huawei Technologies Company",
+    "ZTE Corporation",
+    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "Federal Communications Commission",
+    "Public Safety and Homeland Security Bureau",
+    "Jeffery Goldthorp"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-21-309A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "372a617ba53e510a0d61276de8f759bbb3593107872268adef2cf1823863423d",
+  "approved_at": "2026-09-06T02:09:12Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:15Z"
+}

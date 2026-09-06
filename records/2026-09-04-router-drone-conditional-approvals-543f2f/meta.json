@@ -1,0 +1,41 @@
+{
+  "id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Router Drone Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-05-06",
+  "docket": "DA 26-437; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Air6 System GmbH",
+    "Calix",
+    "Inc.",
+    "SiFly Aviation",
+    "Inc.",
+    "Mobilicom",
+    "ScoutDI",
+    "Verge",
+    "Inc.",
+    "Sees.ai",
+    "Netgear",
+    "Inc.",
+    "Adtran Inc.",
+    "eero LLC"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-437A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "543f2fea254b3eae62d7f37e157519ebe104c9d2ceb9ddb37ca4df28186653b0",
+  "approved_at": "2026-09-06T10:56:11Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:55:17Z"
+}

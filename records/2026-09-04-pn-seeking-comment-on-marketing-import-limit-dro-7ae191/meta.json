@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-04-pn-seeking-comment-on-marketing-import-limit-dro-7ae191",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "PN Seeking Comment on Marketing Import Limit Drone Clones",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-17",
+  "docket": "PS Docket No. 26-184; DA 26-742",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Cogito Tech Company",
+    "Limited",
+    "Fikaxo Technology Inc.",
+    "Lyno Dynamics LLC",
+    "Skyhigh Tech LLC",
+    "Spatial Hover Inc.",
+    "SZ Knowact Robot Technology Co.",
+    "Ltd.",
+    "WaveGo Tech LLC",
+    "Xtra Technology LLC",
+    "Guangzhou Xaircraft Technology Co. Ltd. (XAG)"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-742A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "7ae19190356bf87cef35d94592c34bc718447a6871f57baae3314e8a88e86428",
+  "approved_at": "2026-09-06T03:02:30Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:10Z"
+}

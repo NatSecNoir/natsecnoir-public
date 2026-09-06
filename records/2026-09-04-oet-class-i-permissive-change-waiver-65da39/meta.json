@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-oet-class-i-permissive-change-waiver-65da39",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "OET Class I Permissive Change Waiver",
+  "issuing_body": "FCC",
+  "doc_type": "waiver",
+  "doc_date": "2026-01-21",
+  "docket": "DA 26-69; ET Docket No. 21-232",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-69A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "65da39bbbffe999a446854263ecca4618bdd07a7b45cfb0a354713a716118aaf",
+  "approved_at": "2026-09-06T10:53:03Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:47Z"
+}

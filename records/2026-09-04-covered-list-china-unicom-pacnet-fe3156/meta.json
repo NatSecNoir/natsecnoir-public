@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-04-covered-list-china-unicom-pacnet-fe3156",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Covered List China Unicom PacNet",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2022-09-20",
+  "docket": "WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233; DA 22-979",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Pacific Networks Corp. (PacNet)",
+    "ComNet (USA) LLC",
+    "China Unicom (Americas) Operations Limited",
+    "Federal Communications Commission Public Safety and Homeland Security Bureau",
+    "National Telecommunications and Information Administration",
+    "U.S. Department of Justice",
+    "U.S. Department of Defense",
+    "CITIC Group Corporation",
+    "Government of the People’s Republic of China"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-22-979A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "fe31569c8fa396c7a68f145e4173ab16fb06100587902f4acee1c822ce4d613e",
+  "approved_at": "2026-09-06T10:50:30Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:58:25Z"
+}

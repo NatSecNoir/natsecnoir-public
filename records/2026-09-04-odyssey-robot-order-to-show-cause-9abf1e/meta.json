@@ -1,0 +1,34 @@
+{
+  "id": "2026-09-04-odyssey-robot-order-to-show-cause-9abf1e",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Odyssey Robot Order to Show Cause",
+  "issuing_body": "FCC",
+  "doc_type": "order to show cause",
+  "doc_date": "2026-07-21",
+  "docket": "ET Docket No. 26-186; DA 26-746",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Odyssey Robot LLC",
+    "Federal Communications Commission",
+    "Office of Engineering and Technology",
+    "Public Safety and Homeland Security Bureau",
+    "eTak Worldwide Corporation",
+    "Konrad Iturbe",
+    "TÜV Rheinland (Shenzhen) Co. Ltd."
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-746A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "9abf1ec58351f847d3db05e4d7e1454666b33db5947c01cd19b70218b3867ca0",
+  "approved_at": "2026-09-06T03:04:10Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:42Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-04-covered-list-natsec-advisory-subs-affil-0d6727",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Covered List NatSec Advisory Subs Affil",
+  "issuing_body": "FCC",
+  "doc_type": "advisory",
+  "doc_date": "2025-10-14",
+  "docket": "DA 25-927; WC Docket No. 18-89; ET Docket Nos. 21-232, 24-136; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "Huawei Technologies Company",
+    "ZTE Corporation",
+    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "Zhejiang Dahua Technology Co.",
+    "Ltd.",
+    "AO Kaspersky Lab",
+    "Kaspersky Lab",
+    "Inc.",
+    "China Mobile International USA Inc.",
+    "China Telecom (Americas) Corp.",
+    "Pacific Networks Corp",
+    "ComNet (USA) LLC",
+    "China Unicom (Americas) Operations Limited"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-25-927A1.pdf",
+  "source_copy_public": true,
+  "notes": "Reminder to add subs and affiliates to Consolidated Prohibited Entities - List of Lists",
+  "source_file": "source.pdf",
+  "sha256": "0d67271c694b93db6632f7408edbdca08c9a329dac608eee88e8c6e0b26a8543",
+  "approved_at": "2026-09-06T11:03:25Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:58:34Z"
+}

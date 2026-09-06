@@ -1,0 +1,41 @@
+{
+  "id": "2026-09-04-bad-labs-1-0-r-o-6990e0",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Bad Labs 1.0 R&O",
+  "issuing_body": "FCC",
+  "doc_type": "report and order",
+  "doc_date": "2025-05-27",
+  "docket": "FCC 25-27; ET Docket No. 24-136",
+  "lists": [
+    "covered-list",
+    "1260h",
+    "icts",
+    "entity-list"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "FCC Public Safety and Homeland Security Bureau",
+    "Department of Commerce Bureau of Industry and Security",
+    "Department of Defense",
+    "Department of Homeland Security",
+    "Department of the Treasury Office of Foreign Assets Control",
+    "Semiconductor Manufacturing International Corporation (SMIC)",
+    "ChangXin Memory Technologies (CXMT)",
+    "Yangtze Memory Technologies (YMTC)",
+    "People’s Republic of China",
+    "Nicolas Maduro"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-27A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "6990e0850ec4e34317f8c60e55188620c48bfe3e6e02e30a3fd4a77b600c2087",
+  "approved_at": "2026-09-06T02:16:34Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:58:18Z"
+}

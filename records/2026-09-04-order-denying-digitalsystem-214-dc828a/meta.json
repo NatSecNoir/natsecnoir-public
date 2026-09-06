@@ -1,0 +1,35 @@
+{
+  "id": "2026-09-04-order-denying-digitalsystem-214-dc828a",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Order Denying DigitalSystem 214",
+  "issuing_body": "FCC",
+  "doc_type": "order",
+  "doc_date": "2026-07-07",
+  "docket": "FCC 26-44; ITC-214-20240326-00054",
+  "lists": [
+    "team-telecom"
+  ],
+  "entities": [
+    "Digitalsystem Technology Inc.",
+    "Hui Xie",
+    "Yi Zhou",
+    "Committee for the Assessment of Foreign Participation in the U.S. Telecommunications Services Sector",
+    "National Telecommunications and Information Administration",
+    "Federal Communications Commission",
+    "Government of China",
+    "Hong Kong"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-44A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "dc828a2441761e8391b846806cdc962d219431639bc2356543401b73cedb8a41",
+  "approved_at": "2026-09-06T02:59:31Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:04Z"
+}

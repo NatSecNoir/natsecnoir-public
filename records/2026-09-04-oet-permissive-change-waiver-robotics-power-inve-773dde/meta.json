@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-oet-permissive-change-waiver-robotics-power-inve-773dde",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "OET Permissive Change Waiver - Robotics Power Inverters",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-28",
+  "docket": "DA 26-789; ET Docket No. 21-232",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-789A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "773dde835c62c163b434e61333f2c65e308bf0dd586ad2e9c9f3e4ac4fb03a39",
+  "approved_at": "2026-09-06T03:08:06Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:53Z"
+}

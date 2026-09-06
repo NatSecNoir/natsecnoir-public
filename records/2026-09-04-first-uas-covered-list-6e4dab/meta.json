@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-04-first-uas-covered-list-6e4dab",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "First UAS Covered List",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2025-12-22",
+  "docket": "DA 25-1086; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "Public Safety and Homeland Security Bureau",
+    "Department of War",
+    "Department of Homeland Security",
+    "Huawei Technologies Company",
+    "ZTE Corporation",
+    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "AO Kaspersky Lab",
+    "China Mobile International USA Inc.",
+    "China Telecom (Americas) Corp.",
+    "Pacific Networks Corp.",
+    "ComNet (USA) LLC",
+    "China Unicom (Americas) Operations Limited"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "6e4dab158fe094cffd549992caa1813d606b53e29204d4325d5619c0e40fbaa8",
+  "approved_at": "2026-09-06T10:52:32Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:20Z"
+}

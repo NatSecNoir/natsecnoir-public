@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-04-router-conditional-approvals-a0069d",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Router Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-08",
+  "docket": "DA 26-688; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Vantiva USA",
+    "LLC"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-688A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "a0069d2d24c801ae527057ea6fa046a3d2a4086d3810410514580046ba88664a",
+  "approved_at": "2026-09-06T03:00:22Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:51Z"
+}

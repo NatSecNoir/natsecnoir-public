@@ -1,0 +1,41 @@
+{
+  "id": "2026-09-04-pre-2024-covered-list-marketing-import-limitatio-85e98f",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Pre-2024 Covered List Marketing Import Limitation",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-06-26",
+  "docket": "DA 26-635; PS Docket No. 26-72",
+  "lists": [
+    "covered-list",
+    "icts",
+    "litigation"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "Public Safety and Homeland Security Bureau",
+    "Office of Engineering and Technology",
+    "Hikvision USA",
+    "Inc.",
+    "Hytera-US",
+    "Inc.",
+    "Hytera Communications Corporation Limited",
+    "Kaspersky Lab",
+    "Inc.",
+    "CTIA",
+    "Foundation for Defense of Democracies"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-635A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "85e98f866af9f559c9795240cf9886cbc298e6dbf6ecd2fa20fa1ef2318cfeab",
+  "approved_at": "2026-09-06T02:57:45Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:21Z"
+}
