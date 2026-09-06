@@ -1201,13 +1201,18 @@
    "lists": [
     "covered-list"
    ],
-   "entities": [],
+   "entities": [
+    "SiFly Aviation",
+    "Mobilicom",
+    "ScoutDI",
+    "Verge"
+   ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-253A1.pdf",
    "source_copy_public": true,
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "7ef9ff9210d22202c89385f86f1369d27791f1c0266e6240f25ab3b092fa7776",
-   "approved_at": "2026-09-06T10:54:45Z",
+   "approved_at": "2026-09-06T18:52:46Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
