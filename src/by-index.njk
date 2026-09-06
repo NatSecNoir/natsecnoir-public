@@ -1,0 +1,18 @@
+---
+layout: base.njk
+pagination:
+  data: facets
+  size: 1
+  alias: f
+permalink: "/by/{{ f.key }}/"
+eleventyComputed:
+  nav: "{{ f.key }}"
+  title: "{{ f.title }}"
+---
+<div class="shead"><h2>{{ f.title }}</h2><span class="n">{{ f.groups.length }}</span></div>
+<div class="groups">
+{% for g in f.groups %}
+  <a class="group" href="/by/{{ f.key }}/{{ g.slug }}/"><span class="gl">{{ g.label }}</span><span class="gn">{{ g.records.length }}</span>{% if g.gloss %}<span class="gg">{{ g.gloss }}</span>{% endif %}</a>
+{% endfor %}
+{% if not f.groups.length %}<p class="empty">No records yet.</p>{% endif %}
+</div>

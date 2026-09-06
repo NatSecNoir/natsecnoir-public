@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>{% if title %}{{ title }} · {% endif %}{{ site.name }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ description or site.tagline }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+</head><body>
+<header class="banner">
+  <div class="pic" aria-hidden="true"></div>
+  <div class="wash" aria-hidden="true"></div>
+  <div class="in">
+    <hr class="thin">
+    <a class="brand" href="/" aria-label="{{ site.name }}"><span class="w1">NatSec</span><span class="w2">Noir</span></a>
+    <hr class="thin b">
+    <div class="tag">{{ site.tagline }}</div>
+  </div>
+  <nav>
+    <a{% if nav == "feed" %} class="on"{% endif %} href="/">Feed</a>
+    <a{% if nav == "list" %} class="on"{% endif %} href="/by/list/">By list</a>
+    <a{% if nav == "agency" %} class="on"{% endif %} href="/by/agency/">By agency</a>
+    <a{% if nav == "type" %} class="on"{% endif %} href="/by/type/">By type</a>
+    <a href="/feed.xml">RSS</a>
+    <a href="{{ site.newsletter }}">Newsletter ↗</a>
+  </nav>
+</header>
+<main>
+{{ content | safe }}
+{% if nav != "record" %}
+<section class="letter">
+  <div><h2>The Late Edition</h2><p>New records and one short read, when there is something worth knowing. Sent from newsletter.natsecnoir.com.</p></div>
+  <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="Your address" required><button type="submit">Subscribe</button></form>
+</section>
+{% endif %}
+</main>
+<footer><div class="in"><span>© {{ site.year }} NatSecNoir.com</span><span>Summaries are the author's; documents are public records.</span><span><a href="{{ site.repo }}">Public repository</a></span></div></footer>
+</body></html>

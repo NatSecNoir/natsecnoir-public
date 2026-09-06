@@ -1,0 +1,31 @@
+---
+layout: base.njk
+nav: record
+pagination:
+  data: records.all
+  size: 1
+  alias: r
+permalink: "{{ r.url }}"
+eleventyComputed:
+  title: "{{ r.title }}"
+  description: "{{ r.excerpt }}"
+---
+<article class="record">
+  <div class="crumb"><a href="/">Feed</a></div>
+  <h1>{{ r.title }}</h1>
+  <div class="meta">
+    <span class="d">{{ r.doc_date }}</span>
+    <span class="k"><a href="/by/agency/{{ r.agencySlug }}/">{{ r.issuing_body }}</a></span>
+    <span><a href="/by/type/{{ r.typeSlug }}/">{{ r.doc_type }}</a></span>
+    {% if r.docket %}<span>{{ r.docket }}</span>{% endif %}
+  </div>
+  {% if r.lists.length %}<div class="chips">{% for l in r.lists %}<a class="chip" href="/by/list/{{ l.slug }}/">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+  <div class="summary">{{ r.summary | markdown | safe }}</div>
+  <div class="src">
+    {% if r.source_url %}<a href="{{ r.source_url }}">Source document ↗</a>{% endif %}
+    {% if r.copy %}<a href="{{ r.copy }}">Stored copy</a>{% endif %}
+    <a href="/records/{{ r.id }}/meta.json">meta.json</a>
+  </div>
+  {% if r.entities.length %}<div class="ents"><span class="lbl">Named</span> {{ r.entities | join(" · ") }}</div>{% endif %}
+  <div class="stamp">Approved {{ (r.approved_at or "").slice(0, 10) }}{% if r.published_at %} · published {{ r.published_at.slice(0, 10) }}{% endif %}</div>
+</article>
