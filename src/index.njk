@@ -4,7 +4,7 @@ nav: feed
 permalink: /
 ---
 <div class="shead"><h2>Latest records</h2><span class="n">{{ records.all.length }} record{% if records.all.length != 1 %}s{% endif %}</span></div>
-{% include "datefilter.njk" %}
+{% include "filter.njk" %}
 <div class="feed" data-items>
 {% for r in records.all %}{% include "item.njk" %}{% endfor %}
 {% if not records.all.length %}<p class="empty">No records yet.</p>{% endif %}

@@ -94,11 +94,12 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .crumb { padding-top: 28px; font-size: 14px; color: var(--ink-3); } .crumb a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
 .crumb + .shead { padding-top: 12px; }
 .gloss { color: var(--ink-2); font-size: 15px; margin: -4px 0 18px; }
-.dates { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 0 0 16px; }
-.dates label { display: inline-flex; gap: 8px; align-items: center; }
-.dates input { background: rgba(5,12,22,.5); border: 1px solid var(--rule2); color: var(--ink); font: 14px var(--body); padding: 5px 8px; color-scheme: dark; }
-.dates button { background: transparent; border: 1px solid var(--rule); color: var(--ink-2); font: 14px var(--body); padding: 5px 10px; cursor: pointer; } .dates button:hover { border-color: var(--accent); color: var(--accent); }
-.dates .count { font-variant-numeric: tabular-nums; }
+.filter { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 0 0 16px; }
+.filter input { flex: 1 1 260px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2); color: var(--ink); font: 15px var(--body); padding: 7px 10px; color-scheme: dark; }
+.filter input::placeholder { color: var(--ink-3); } .filter input:focus { outline: none; border-color: var(--accent); }
+.filter input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.filter button { background: transparent; border: 1px solid var(--rule); color: var(--ink-2); font: 14px var(--body); padding: 6px 10px; cursor: pointer; } .filter button:hover { border-color: var(--accent); color: var(--accent); }
+.filter .count { font-variant-numeric: tabular-nums; }
 .item[hidden] { display: none; }
 .empty { color: var(--ink-3); }
 .groups { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }

@@ -12,7 +12,7 @@ eleventyComputed:
 <div class="crumb"><a href="/by/{{ g.key }}/">{{ g.facetTitle }}</a></div>
 <div class="shead"><h2>{{ g.label }}</h2><span class="n">{{ g.records.length }} record{% if g.records.length != 1 %}s{% endif %}</span></div>
 {% if g.gloss %}<p class="gloss">{{ g.gloss }}</p>{% endif %}
-{% include "datefilter.njk" %}
+{% include "filter.njk" %}
 <div class="feed" data-items>
 {% for r in g.records %}{% include "item.njk" %}{% endfor %}
 </div>
