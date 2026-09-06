@@ -2,6 +2,7 @@ name: Build and deploy site
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,10 +21,13 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
         with: { path: _site }
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
