@@ -12,11 +12,15 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 
 /* The room continues under the whole page: the masthead's two panels, blurred and cooled, pinned behind everything.
    Lanterns on the left, skyline on the right, a soft fade where they meet. Knobs: blur radius, brightness, and the veil below. */
-.room { position: fixed; inset: -4%; z-index: -3; display: grid; grid-template-columns: 1fr 1fr; background: #030608;
-  filter: blur(6px) saturate(.6) hue-rotate(-28deg) brightness(.72) contrast(1.08); pointer-events: none; }
-.room::before, .room::after { content: ""; display: block; background: url("/img/banner-left.jpg") center 45% / cover no-repeat;
-  mask: linear-gradient(90deg, #000 75%, rgba(0,0,0,.35) 100%); -webkit-mask: linear-gradient(90deg, #000 75%, rgba(0,0,0,.35) 100%); }
-.room::after { background-image: url("/img/banner-right.jpg"); mask: linear-gradient(270deg, #000 75%, rgba(0,0,0,.35) 100%); -webkit-mask: linear-gradient(270deg, #000 75%, rgba(0,0,0,.35) 100%); }
+.room { position: fixed; inset: -3%; z-index: -3; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; background: #030608;
+  filter: blur(3px) saturate(.6) hue-rotate(-28deg) brightness(.72) contrast(1.08); pointer-events: none; }
+/* four crops of the two masthead panels, chosen for the room rather than the people: lanterns and smoke, the table lamp
+   and coupes, the sign and the Bund, the palm and lantern by the window. Edges fade so the tiles read as one scene. */
+.room span { display: block; background-repeat: no-repeat; mask: radial-gradient(ellipse 100% 100% at 50% 50%, #000 55%, rgba(0,0,0,.2) 100%); -webkit-mask: radial-gradient(ellipse 100% 100% at 50% 50%, #000 55%, rgba(0,0,0,.2) 100%); }
+.room .r1 { background: url("/img/banner-left.jpg") 50% 12% / 150% auto no-repeat; }
+.room .r2 { background: url("/img/banner-right.jpg") 55% 40% / 160% auto no-repeat; }
+.room .r3 { background: url("/img/banner-left.jpg") 80% 82% / 190% auto no-repeat; }
+.room .r4 { background: url("/img/banner-right.jpg") 100% 12% / 200% auto no-repeat; }
 .roomveil { position: fixed; inset: 0; z-index: -2; pointer-events: none; background: linear-gradient(180deg, rgba(5,12,22,.18), rgba(5,12,22,.3)); }
 
 /* Banner: the club scene runs full-bleed; the dark centre of the picture is where the name sits. */
