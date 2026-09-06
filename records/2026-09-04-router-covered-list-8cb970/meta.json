@@ -10,25 +10,13 @@
   "lists": [
     "covered-list"
   ],
-  "entities": [
-    "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Department of War",
-    "Department of Homeland Security",
-    "White House",
-    "Cybersecurity and Infrastructure Security Agency",
-    "Federal Bureau of Investigation",
-    "National Security Agency",
-    "Cyber National Mission Force",
-    "National Institute of Standards and Technology",
-    "Microsoft"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-278A1.pdf",
   "source_copy_public": true,
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "8cb970701a85334520fd7395596f5f9affd679b22e8e8761ab334d7fd616a697",
-  "approved_at": "2026-09-06T10:55:02Z",
+  "approved_at": "2026-09-06T19:52:30Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
