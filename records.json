@@ -8,7 +8,7 @@
    "title": "Robotics and Power Inverters Covered List",
    "issuing_body": "FCC",
    "doc_type": "public notice",
-   "doc_date": "2028-07-28",
+   "doc_date": "2026-07-28",
    "docket": "DA 26-786; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
     "covered-list"
@@ -35,7 +35,7 @@
    "notes": "Definition of power inverter (updated 8/20/2026); include definition of advanced robotics device",
    "source_file": "source.pdf",
    "sha256": "d605d1eae1eb7aed9580ee1b4cfd98b90cf8711c09430ab004e897e35c6c7e7c",
-   "approved_at": "2026-09-06T02:29:52Z",
+   "approved_at": "2026-09-06T14:13:12Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
