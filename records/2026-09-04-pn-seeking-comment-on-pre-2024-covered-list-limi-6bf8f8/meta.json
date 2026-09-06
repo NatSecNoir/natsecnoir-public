@@ -1,0 +1,32 @@
+{
+  "id": "2026-09-04-pn-seeking-comment-on-pre-2024-covered-list-limi-6bf8f8",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "PN Seeking Comment on pre-2024 Covered List Limitation",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-03-27",
+  "docket": "PS Docket No. 26-72; DA 26-294",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "huawei",
+    "zte",
+    "hytera",
+    "hikvision",
+    "dahua"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-294A1.pdf",
+  "source_copy_public": true,
+  "notes": "did not include specific names, just 2024 or earlier",
+  "source_file": "source.pdf",
+  "sha256": "6bf8f8a506f90e43f8080f2c24822f66d45f5ccab58ac9542ae48a6e59bc1fa9",
+  "approved_at": "2026-09-06T10:55:30Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:16Z"
+}

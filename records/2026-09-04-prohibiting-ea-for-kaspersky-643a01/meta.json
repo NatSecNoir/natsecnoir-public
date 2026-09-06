@@ -1,0 +1,35 @@
+{
+  "id": "2026-09-04-prohibiting-ea-for-kaspersky-643a01",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Prohibiting EA for Kaspersky",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2024-09-03",
+  "docket": "DA 24-886; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list",
+    "icts"
+  ],
+  "entities": [
+    "Kaspersky Lab",
+    "Inc.",
+    "AO Kaspersky Lab",
+    "Federal Communications Commission",
+    "Office of Engineering and Technology",
+    "Public Safety and Homeland Security Bureau",
+    "U.S. Department of Commerce"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-24-886A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "643a01505bf3217207e64c07b8ef8650acda1f2ea9e2d12ee52c6d0a119b16a8",
+  "approved_at": "2026-09-06T10:51:55Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:25Z"
+}

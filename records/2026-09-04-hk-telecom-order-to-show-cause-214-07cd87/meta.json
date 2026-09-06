@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-04-hk-telecom-order-to-show-cause-214-07cd87",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "HK Telecom Order to Show Cause 214",
+  "issuing_body": "FCC",
+  "doc_type": "order to show cause",
+  "doc_date": "2025-10-15",
+  "docket": "DA 25-928; GN Docket No. 25-308; ITC-214-19980303-00158; ITC-214-19980930-00689; ITC-214-19981218-00880; ITC-214-19990601-00305; ITC-214-19990601-00306; ITC-214-19990601-00307; ITC-214-19990601-00308; ITC-214-19991122-00725; ITC-214-19991122-00726; ITC-214-19991122-00727; ITC-MOD-20020829-00511; ITC-214-20021024-00567",
+  "lists": [
+    "team-telecom"
+  ],
+  "entities": [
+    "HKT (International) Limited",
+    "PCCW Global",
+    "Inc.",
+    "PCCW Global Limited",
+    "Gateway Global Communications Inc.",
+    "PCCW Global (UK) Limited",
+    "China Unicom Group Corporation (BVI) Limited",
+    "China United Network Communications Group Company Limited",
+    "State-owned Assets Supervision and Administration Commission of the State Council",
+    "PCCW Limited",
+    "Federal Bureau of Investigation",
+    "U.S. Department of Justice",
+    "U.S. Department of Homeland Security"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-25-928A1_Rcd.pdf",
+  "source_copy_public": true,
+  "notes": "add revocation to the lists",
+  "source_file": "source.pdf",
+  "sha256": "07cd874100a6f3476c80a018d443cac7b684ed3165b004a3e51ceb273561bfdf",
+  "approved_at": "2026-09-06T02:22:03Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:53:27Z"
+}

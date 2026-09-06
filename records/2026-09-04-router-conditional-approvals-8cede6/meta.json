@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-04-router-conditional-approvals-8cede6",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Router Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-20",
+  "docket": "DA 26-756; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Gryphon Safety Online",
+    "Inc.",
+    "Sercomm Corporation"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-756A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "8cede6710a4e5332a5d024f207bf15e97f545ec0a53d0fbef8369d86b93f09ac",
+  "approved_at": "2026-09-06T03:03:25Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:45Z"
+}

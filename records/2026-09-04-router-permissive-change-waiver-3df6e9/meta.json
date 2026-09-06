@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-router-permissive-change-waiver-3df6e9",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Router Permissive Change Waiver",
+  "issuing_body": "FCC",
+  "doc_type": "waiver",
+  "doc_date": "2026-03-23",
+  "docket": "DA 26-286; ET Docket No. 21-232",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-286A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "3df6e9ddfbc4597457ab2bea665f75f62721951a4c751e222c8288604c9ed7d0",
+  "approved_at": "2026-09-06T10:55:16Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:55:32Z"
+}

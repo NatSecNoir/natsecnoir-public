@@ -1,0 +1,35 @@
+{
+  "id": "2026-09-04-digitalsystem-added-to-covered-list-b04176",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Digitalsystem added to Covered List",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-07",
+  "docket": "DA 26-673; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list",
+    "team-telecom"
+  ],
+  "entities": [
+    "Digitalsystem Technology Inc.",
+    "Federal Communications Commission",
+    "FCC Public Safety and Homeland Security Bureau",
+    "Committee for the Assessment of Foreign Participation in the U.S. Telecommunications Services Sector",
+    "Department of Justice",
+    "Department of Homeland Security",
+    "Department of War"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-673A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "b04176b31b9b7408d4a765955773d908a532a2aa92e3bd648fcc930043565a63",
+  "approved_at": "2026-09-06T02:58:42Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:58:45Z"
+}

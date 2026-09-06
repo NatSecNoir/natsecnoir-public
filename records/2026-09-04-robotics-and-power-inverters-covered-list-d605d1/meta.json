@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-04-robotics-and-power-inverters-covered-list-d605d1",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Robotics and Power Inverters Covered List",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2028-07-28",
+  "docket": "DA 26-786; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "FCC Public Safety and Homeland Security Bureau",
+    "Department of War",
+    "Department of Homeland Security",
+    "Huawei Technologies Company",
+    "ZTE Corporation",
+    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "AO Kaspersky Lab",
+    "China Mobile International USA Inc.",
+    "China Telecom (Americas) Corp.",
+    "Pacific Networks Corp.",
+    "China Unicom (Americas) Operations Limited",
+    "Digitalsystem Technology Inc."
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf",
+  "source_copy_public": true,
+  "notes": "Definition of power inverter (updated 8/20/2026); include definition of advanced robotics device",
+  "source_file": "source.pdf",
+  "sha256": "d605d1eae1eb7aed9580ee1b4cfd98b90cf8711c09430ab004e897e35c6c7e7c",
+  "approved_at": "2026-09-06T02:29:52Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:31Z"
+}

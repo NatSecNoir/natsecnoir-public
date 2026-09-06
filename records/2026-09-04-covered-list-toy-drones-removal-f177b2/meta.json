@@ -1,0 +1,32 @@
+{
+  "id": "2026-09-04-covered-list-toy-drones-removal-f177b2",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Covered List Toy Drones Removal",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-06-15",
+  "docket": "DA 26-588; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Federal Communications Commission",
+    "FCC Public Safety and Homeland Security Bureau",
+    "Department of War",
+    "Department of Homeland Security",
+    "Defense Contract Management Agency"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-588A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "f177b26ab4fe6b4b3f28c433adaa9e66109206e6f0c734f43618f536ba9fc2c4",
+  "approved_at": "2026-09-06T02:56:18Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:58:40Z"
+}

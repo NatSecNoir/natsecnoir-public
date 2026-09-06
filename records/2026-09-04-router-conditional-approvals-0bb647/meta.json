@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-04-router-conditional-approvals-0bb647",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:22Z",
+  "title": "Router Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-04-22",
+  "docket": "DA 26-390; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "eero LLC",
+    "Amazon Leo"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-390A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "0bb64711c8f3420b8ddb51448515534a718e3a994901f1bbf2bae645a16b1f75",
+  "approved_at": "2026-09-06T10:55:57Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:35Z"
+}

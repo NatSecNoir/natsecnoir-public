@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-04-router-conditional-approvals-e558e5",
+  "status": "approved",
+  "ingested_at": "2026-09-04T08:02:23Z",
+  "title": "Router Conditional Approvals",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-07-27",
+  "docket": "DA 26-775; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "SpaceX Services",
+    "Inc."
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-775A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "e558e5b62d0baeaa358afacc7f05e8dd969297093b9e2bc5cb4a5007d41372ed",
+  "approved_at": "2026-09-06T03:07:18Z",
+  "published_at": "2026-09-06T11:20:38Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-06T01:54:56Z"
+}
