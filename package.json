@@ -1,0 +1,16 @@
+{
+  "name": "natsecnoir-site",
+  "private": true,
+  "type": "module",
+  "description": "Static site for the NatSec Noir public corpus",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "node tests/check.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "markdown-it": "^14.1.0"
+  }
+}
