@@ -16,3 +16,10 @@ npm run serve     # local preview
 ```
 
 Summaries are Markdown rendered with raw HTML disabled, so quoted source text can never become markup. Only records whose `meta.json` says `approved` are rendered. Each record is published at `/records/<id>/` with its `meta.json`, `summary.md`, and stored copy beside it; `/feed.xml` is RSS; `/by/list/`, `/by/agency/`, `/by/type/` are the indexes.
+
+## Editing the site
+
+Work on a branch, preview with `npm run serve`, run `npm test`, then merge to `main` and push. Only pushes to
+`main` deploy. Site text lives in `src/_data/site.js` and `src/_includes/base.njk`; list labels in
+`src/_data/lists.js`; styles in `src/css/site.css`. `records/` and `records.json` are generated; edit records
+in the review tool, not here.
