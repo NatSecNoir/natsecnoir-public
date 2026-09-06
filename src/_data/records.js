@@ -37,6 +37,9 @@ export default function () {
       lists: (meta.lists || []).map((l) => ({ slug: l, label: (listInfo[l] || {}).label || l })),
       agencySlug: slug(meta.issuing_body || "unknown"),
       typeSlug: slug(meta.doc_type || "unknown"),
+      search: [meta.title, meta.issuing_body, meta.doc_type, meta.docket, meta.doc_date,
+        ...(meta.lists || []).map((l) => (listInfo[l] || {}).label || l), ...(meta.entities || []), excerpt(summary)]
+        .filter(Boolean).join(" | ").toLowerCase().replace(/\s+/g, " "),
     });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
