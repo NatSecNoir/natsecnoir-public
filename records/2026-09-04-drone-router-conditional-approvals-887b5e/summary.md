@@ -9,5 +9,6 @@ The FCC’s Public Safety and Homeland Security Bureau announces that specified 
 **Key dates and numbers**
 - Released June 12, 2026, as DA 26-584.
 - Relevant proceedings: WC Docket No. 18-89, ET Docket No. 21-232, and EA Docket No. 21-233.
-- Flock Alpha approval runs through December 31, 2026; Miri X10 approval runs through December 12, 2027.
+- Flock Alpha approval runs through December 31, 2026; 
+- Miri X10 approval runs through December 12, 2027.
 - The Covered List’s foreign-produced UAS category and router category retain their broader exclusions for devices with DoW or DHS Conditional Approval.
