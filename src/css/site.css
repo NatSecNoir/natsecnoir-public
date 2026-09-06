@@ -1,4 +1,4 @@
-/* NatSec Noir public site. Source of truth for the look is mockups/site-cool.html in the corpus repo; keep in step. */
+/* NatSec Noir public site. Source of truth for the look is mockups/front-B-ledger.html in the corpus repo; keep in step. */
 :root { --bg:#050C16; --card:rgba(10,24,40,.55); --band:rgba(10,24,40,.6); --ink:#E3EDF3; --ink-2:rgba(227,237,243,.78); --ink-3:rgba(227,237,243,.5);
   --rule:rgba(140,190,215,.22); --rule2:rgba(140,190,215,.45); --rule-bright:rgba(220,240,250,.62); --rule-glow:rgba(150,220,240,.5);
   --accent:#8FDDEA; --accent-glow:rgba(143,221,234,.45); --neon:#B98CFF; --neon-wash:rgba(120,150,255,.22); --mint:#9CE8D8;
@@ -10,9 +10,18 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 var(
 a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+/* The room continues under the whole page: the masthead's two panels, blurred and cooled, pinned behind everything.
+   Lanterns on the left, skyline on the right, a soft fade where they meet. Knobs: blur radius, brightness, and the veil below. */
+.room { position: fixed; inset: -4%; z-index: -3; display: grid; grid-template-columns: 1fr 1fr; background: #030608;
+  filter: blur(6px) saturate(.6) hue-rotate(-28deg) brightness(.72) contrast(1.08); pointer-events: none; }
+.room::before, .room::after { content: ""; display: block; background: url("/img/banner-left.jpg") center 45% / cover no-repeat;
+  mask: linear-gradient(90deg, #000 75%, rgba(0,0,0,.35) 100%); -webkit-mask: linear-gradient(90deg, #000 75%, rgba(0,0,0,.35) 100%); }
+.room::after { background-image: url("/img/banner-right.jpg"); mask: linear-gradient(270deg, #000 75%, rgba(0,0,0,.35) 100%); -webkit-mask: linear-gradient(270deg, #000 75%, rgba(0,0,0,.35) 100%); }
+.roomveil { position: fixed; inset: 0; z-index: -2; pointer-events: none; background: linear-gradient(180deg, rgba(5,12,22,.18), rgba(5,12,22,.3)); }
+
 /* Banner: the club scene runs full-bleed; the dark centre of the picture is where the name sits. */
 .banner { position: relative; isolation: isolate; text-align: center; overflow: hidden; }
-.banner .pic { position: absolute; inset: 0; z-index: -2; display: grid; grid-template-columns: 1fr min(var(--mast-mid, 600px), 100%) 1fr; background: #030608;
+.banner .pic { position: absolute; inset: 0; z-index: -2; display: grid; grid-template-columns: 1fr min(var(--mast-mid, 600px), 100%) 1fr; background: transparent;
   filter: saturate(.55) hue-rotate(-28deg) contrast(1.06) brightness(.92); }
 /* the club scene is two side panels around a fixed dark centre: the centre holds the name at a set width, the panels
    take whatever is left and show more of the room as the window widens (cover, anchored outward, inner edge faded) */
@@ -20,7 +29,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
   mask: linear-gradient(90deg, #000 70%, transparent 100%); -webkit-mask: linear-gradient(90deg, #000 70%, transparent 100%); }
 .banner .pic::after { grid-column: 3; background-image: url("/img/banner-right.jpg"); mask: linear-gradient(270deg, #000 70%, transparent 100%); -webkit-mask: linear-gradient(270deg, #000 70%, transparent 100%); }
 .banner .wash { position: absolute; inset: 0; z-index: -1; background:
-  linear-gradient(180deg, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 62%, var(--bg) 100%),
+  linear-gradient(180deg, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 62%, rgba(5,12,22,.45) 100%),
   radial-gradient(48% 70% at 50% 46%, rgba(3,9,18,.84) 0%, transparent 100%),
   linear-gradient(180deg, rgba(40,110,150,.22), rgba(6,14,26,.42)); }
 .banner .in { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; padding: clamp(56px, 9vw, 96px) 20px 0; }
@@ -31,7 +40,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .banner .brand .w2 { margin-left: .22em; }
 .banner .tag { font-size: 15px; color: var(--ink-2); max-width: 500px; margin: 16px auto 0; text-shadow: 0 1px 12px rgba(0,0,0,.9); text-wrap: balance; }
 .banner nav { margin: clamp(48px, 8vw, 84px) auto 0; padding: 13px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); max-width: 760px;
-  display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; font-size: 15px; background: color-mix(in srgb, var(--bg) 78%, transparent); backdrop-filter: blur(10px); }
+  display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; font-size: 15px; background: rgba(5,12,22,.5); backdrop-filter: blur(10px); }
 .banner nav a { color: var(--ink); } .banner nav a:hover, .banner nav a.on { color: var(--accent); text-decoration: none; }
 .banner .brand:hover, .banner .brand:focus-visible { text-decoration: none; color: var(--brand-ink); }
 .banner nav a.on { text-shadow: 0 0 10px var(--accent-glow); }
@@ -43,16 +52,27 @@ main { padding-bottom: 40px; }
 .shead a { font-size: 15px; border-bottom: 1px solid var(--rule); }
 .meta { font-size: 14px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 18px; font-variant-numeric: tabular-nums; }
 .meta .k { color: var(--accent); letter-spacing: .02em; }
-.feed { display: grid; gap: 14px; }
-.feed .item { position: relative; overflow: hidden; display: block; padding: 22px 24px; border: 1px solid var(--rule); background: var(--card); backdrop-filter: blur(8px); transition: border-color .3s; }
-.feed .item::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, var(--card-sheen), transparent 40%); pointer-events: none; }
-.feed .item:first-child::before { background: linear-gradient(180deg, var(--card-sheen), transparent 40%), radial-gradient(60% 60% at 85% 15%, var(--neon-wash), transparent 70%); }
-.feed .item:hover { border-color: var(--accent); }
-.feed .item h2 { font: 800 24px/1.1 var(--display); letter-spacing: -.015em; margin: 6px 0 8px; text-wrap: balance; } .feed .item h2 a { color: var(--ink); }
-.feed .item .meta { margin-bottom: 8px; }
-.feed .item p { margin: 0; color: var(--ink-2); font-size: 16px; }
+/* The ledger: no boxes. Records are entries separated by hairlines, date in a right column, the newest set larger.
+   A soft-edged scrim under the column keeps text readable over the room. */
+main { position: relative; }
+main::before { content: ""; position: absolute; inset: 0 -56px; z-index: -1; pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(5,12,22,.5) 56px, rgba(5,12,22,.5) calc(100% - 56px), transparent),
+              linear-gradient(180deg, transparent, rgba(5,12,22,.15) 140px); }
+.feed .item h2 a, .feed .item p, .shead h2 { text-shadow: 0 1px 10px rgba(0,0,0,.85); }
+.feed { display: block; }
+.feed .item { display: grid; grid-template-columns: 1fr 96px; gap: 6px 24px; padding: 20px 0; border-bottom: 1px solid var(--rule); transition: border-color .3s; }
+.feed .item:hover { border-bottom-color: var(--rule2); }
+.feed .item h2 { grid-column: 1; font: 800 22px/1.15 var(--display); letter-spacing: -.015em; margin: 0; text-wrap: balance; } .feed .item h2 a { color: var(--ink); }
+.feed .item h2 a:hover { color: var(--accent); text-decoration: none; }
+.feed .item .when { grid-column: 2; grid-row: 1; text-align: right; font-size: 14px; color: var(--ink-3); font-variant-numeric: tabular-nums; padding-top: 5px; }
+.feed .item .meta { grid-column: 1; margin-bottom: 0; }
+.feed .item p { grid-column: 1; margin: 2px 0 0; color: var(--ink-2); font-size: 16px; }
+.feed .item.top { padding: 26px 0 28px; }
+.feed .item.top h2 { font-size: 30px; }
+.feed .item.top p { font-size: 17px; }
+@media (max-width: 560px) { .feed .item { grid-template-columns: 1fr; } .feed .item .when { grid-column: 1; grid-row: auto; text-align: left; padding-top: 0; } }
 .lists { color: var(--ink-3); }
-.letter { margin-top: 48px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--band); padding: 26px 24px; display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
+.letter { margin-top: 48px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--band); backdrop-filter: blur(12px); padding: 26px 24px; display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
 .letter h2 { font: 800 22px var(--display); margin: 0; } .letter p { color: var(--ink-2); font-size: 15px; margin: 4px 0 0; }
 .letter form { display: flex; border: 1px solid var(--rule2); }
 .letter input { width: 240px; padding: 11px 14px; background: transparent; border: 0; color: var(--ink); font: 15px var(--body); } .letter input::placeholder { color: var(--ink-3); } .letter input:focus { outline: 0; }
@@ -71,7 +91,7 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .gloss { color: var(--ink-2); font-size: 15px; margin: -4px 0 18px; }
 .dates { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 0 0 16px; }
 .dates label { display: inline-flex; gap: 8px; align-items: center; }
-.dates input { background: transparent; border: 1px solid var(--rule2); color: var(--ink); font: 14px var(--body); padding: 5px 8px; color-scheme: dark; }
+.dates input { background: rgba(5,12,22,.5); border: 1px solid var(--rule2); color: var(--ink); font: 14px var(--body); padding: 5px 8px; color-scheme: dark; }
 .dates button { background: transparent; border: 1px solid var(--rule); color: var(--ink-2); font: 14px var(--body); padding: 5px 10px; cursor: pointer; } .dates button:hover { border-color: var(--accent); color: var(--accent); }
 .dates .count { font-variant-numeric: tabular-nums; }
 .item[hidden] { display: none; }

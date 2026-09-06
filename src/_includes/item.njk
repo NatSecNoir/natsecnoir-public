@@ -1,5 +1,6 @@
-<article class="item" data-date="{{ r.doc_date }}">
+<article class="item{% if loop.first %} top{% endif %}" data-date="{{ r.doc_date }}">
   <h2><a href="{{ r.url }}">{{ r.title }}</a></h2>
-  <div class="meta"><span class="d">{{ r.doc_date }}</span><span class="k">{{ r.issuing_body }}</span><span>{{ r.doc_type }}</span>{% if r.docket %}<span>{{ r.docket.split(";")[0] }}</span>{% endif %}{% if r.lists.length %}<span class="lists">{% for l in r.lists %}{{ l.label }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</div>
+  <span class="when">{{ r.doc_date }}</span>
+  <div class="meta"><span class="k">{{ r.issuing_body }}</span><span>{{ r.doc_type }}</span>{% if r.docket %}<span>{{ r.docket.split(";")[0] }}</span>{% endif %}{% if r.lists.length %}<span class="lists">{% for l in r.lists %}{{ l.label }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</div>
   <p>{{ r.excerpt }}</p>
 </article>

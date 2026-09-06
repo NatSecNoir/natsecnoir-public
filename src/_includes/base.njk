@@ -7,6 +7,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 </head><body>
+<div class="room" aria-hidden="true"></div>
+<div class="roomveil" aria-hidden="true"></div>
 <header class="banner">
   <div class="pic" aria-hidden="true"></div>
   <div class="wash" aria-hidden="true"></div>
@@ -14,7 +16,6 @@
     <hr class="thin">
     <a class="brand" href="/" aria-label="{{ site.name }}"><span class="w1">NatSec</span><span class="w2">Noir</span></a>
     <hr class="thin b">
-    <div class="tag">{{ site.tagline }}</div>
   </div>
   <nav>
     <a{% if nav == "feed" %} class="on"{% endif %} href="/">Feed</a>
