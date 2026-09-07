@@ -1,5 +1,5 @@
 {
- "count": 46,
+ "count": 47,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -1566,6 +1566,46 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:29Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-07-21-1233-2023-01-12-b86acd",
+   "status": "approved",
+   "ingested_at": "2026-09-07T16:19:38Z",
+   "title": "China Telecom (Americas) Corp. v. FCC",
+   "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
+   "doc_date": "2022-12-20",
+   "docket": "No. 21-1233",
+   "lists": [
+    "team-telecom",
+    "litigation"
+   ],
+   "entities": [
+    "China Telecom (Americas) Corporation",
+    "Federal Communications Commission",
+    "United States of America",
+    "Department of Justice",
+    "Department of Homeland Security",
+    "Department of Defense",
+    "Federal Bureau of Investigation"
+   ],
+   "source_url": "",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "b86acd4f369ee15206a6589df2bc19b716610cdf0247426b7db22620ed53a02d",
+   "approved_at": "2026-09-07T17:43:07Z",
+   "published_at": "2026-09-07T17:43:38Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-07T16:19:44Z",
    "files": [
     "meta.json",
     "summary.md",
