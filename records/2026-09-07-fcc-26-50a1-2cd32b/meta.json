@@ -10,15 +10,13 @@
   "lists": [
     "covered-list"
   ],
-  "entities": [
-    "https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf"
-  ],
-  "source_url": "",
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf",
   "source_copy_public": true,
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "2cd32b8af0f2f383b08ecb22b9c4359170d78d7e18b639ca6a7c7b272bf849a2",
-  "approved_at": "2026-09-07T11:49:21Z",
+  "approved_at": "2026-09-07T12:15:07Z",
   "published_at": "2026-09-07T11:49:21Z",
   "reason": "",
   "error": "",
