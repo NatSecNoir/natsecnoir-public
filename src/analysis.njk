@@ -1,0 +1,53 @@
+---
+layout: base.njk
+nav: record
+pagination:
+  data: analyses.all
+  size: 1
+  alias: a
+permalink: "{{ a.url }}"
+eleventyComputed:
+  title: "{{ a.title }}"
+  description: "{{ a.excerpt }}"
+---
+<article class="record analysis">
+  <div class="crumb"><a href="/">Feed</a></div>
+  <h1><span class="tag analysis">Analysis</span> {{ a.title }}</h1>
+  <div class="meta">
+    <span class="d">{{ a.doc_date }}</span>
+    <span class="k">{{ a.baseline_source or a.baseline }}</span>
+    <span>{{ a.entries.length }} entries</span>
+  </div>
+  <div class="summary">
+  {% for e in a.entries %}
+    <h3>{{ e.label }}</h3>
+    <p>{{ e.text }}</p>
+    {% if e.date or e.cites.length %}
+    <p class="prov"><i>{% if e.date %}Added {{ e.date }}{% if e.updates.length %}; updated {{ e.updates | join(", ") }}{% endif %}.{% endif %}{% if e.cites.length %} Sources: {% for c in e.cites %}{% set s = a.sources[c.src] %}{% if s and s.url %}<a href="{{ s.url }}{% if c.page %}#page={{ c.page }}{% endif %}">{{ c.label or c.src }}</a>{% else %}{{ c.label or c.src }}{% endif %}{% if c.note %} ({{ c.note }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}.{% endif %}</i></p>
+    {% endif %}
+  {% else %}
+    <p class="empty">No entries yet.</p>
+  {% endfor %}
+  </div>
+  <div class="src">
+    <a href="/analyses/{{ a.id }}/mesh.json">mesh.json</a>
+  </div>
+  {% if a.archive.length %}
+  <div class="ents"><span class="lbl">Change log</span>
+    <ul class="archivelog">
+    {% for e in a.archive | reverse %}
+      <li>{{ e.at.slice(0, 10) }} · {{ e.decision }} · {{ e.label or e.key }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  <div class="stamp">Currency checked {{ a.currency_date or "—" }}{% if a.published_at %} · published {{ a.published_at.slice(0, 10) }}{% endif %}</div>
+  {% if a.footnotes.length %}
+  <ul class="footnotes">
+    {% for f in a.footnotes %}<li>{{ f }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  <div class="methodology">
+    <p>Rendered from the mesh. Architecture after Raymond Sun, <a href="https://www.techieray.com/LiveAndBreathingEssay">The Live and Breathing Essay</a> (CC BY 4.0). Look after <a href="https://natsecnoir.com">NatSecNoir</a>.</p>
+  </div>
+</article>
