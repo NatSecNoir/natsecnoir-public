@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "title": "Fixture Analysis",
+  "excerpt": "A fixture analysis with one entry.",
+  "baseline": "2026-01-01",
+  "baseline_source": "Fixture List, DA 26-0",
+  "currency_date": "2026-01-03",
+  "last_changed": "2026-01-02",
+  "entries": [
+    {
+      "key": "one",
+      "kind": "category",
+      "label": "Entry one",
+      "date": "2026-01-02",
+      "updates": [],
+      "source": "da-26-0",
+      "text": "Line one of entry one.\n(a) part a; and\n(b) part b with <script>alert(1)</script> in it.",
+      "definitions": [],
+      "cites": [{"src": "da-26-0", "label": "DA 26-0", "page": 3, "note": "defined at p.3"}]
+    }
+  ],
+  "footnotes": ["A fixture footnote."],
+  "sources": {"da-26-0": {"title": "DA 26-0", "url": "https://example.org/da-26-0.pdf"}},
+  "manifest": [{"id": "fixture", "url": "https://example.org/list", "added": "2026-01-01"}],
+  "pending": [],
+  "archive": [],
+  "ledger": [],
+  "runs": [],
+  "published_at": "2026-01-03T00:00:00Z"
+}

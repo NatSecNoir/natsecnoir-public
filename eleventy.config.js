@@ -33,6 +33,10 @@ export default function (eleventyConfig) {
     }
   });
   eleventyConfig.addPassthroughCopy({ "records.json": "records.json" });
+  // Analyses are always public: every analyses/<id>/mesh.json is served next to its page.
+  const analyses = process.env.ANALYSES_DIR || "analyses";
+  if (fs.existsSync(analyses)) eleventyConfig.addPassthroughCopy({ [analyses]: "analyses" });
+  if (fs.existsSync("analyses.json")) eleventyConfig.addPassthroughCopy({ "analyses.json": "analyses.json" });
 
   // RSS: src/feed.njk renders records newest-first with the summary as the item body; the plugin supplies the filters.
   eleventyConfig.addPlugin(pluginRss);

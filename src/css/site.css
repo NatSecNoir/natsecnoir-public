@@ -118,3 +118,18 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .src { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 24px 0 18px; padding: 16px 18px; border: 1px solid var(--rule2); background: var(--band); font-size: 15px; }
 .ents { font-size: 14px; color: var(--ink-3); line-height: 1.7; } .ents .lbl { color: var(--accent); letter-spacing: .02em; }
 .stamp { margin-top: 18px; font-size: 13px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+/* analyses: mesh-rendered documents. Entry text is plain text from mesh.json, so newlines are the only structure it has. */
+.record.analysis .summary p { white-space: pre-line; }
+.record.analysis .summary .prov { font-size: 15px; color: var(--ink-2); }
+.tag.analysis { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+  color: #3DE07A; border: 1px solid #3DE07A; padding: 1px 7px; border-radius: 2px; vertical-align: middle; }
+.feed .item h2 .tag.analysis { margin-right: 6px; }
+.record.analysis h1 .tag.analysis { margin-right: 8px; font-size: 13px; }
+.archivelog { list-style: none; margin: 6px 0 0; padding: 0; }
+.archivelog li { padding: 2px 0; }
+.footnotes { margin: 18px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-3); line-height: 1.7; }
+.footnotes li { margin-bottom: 6px; }
+.methodology { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-3); }
+.methodology a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
+.methodology a:hover { color: var(--accent); }
