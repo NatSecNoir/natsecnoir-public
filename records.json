@@ -1,5 +1,5 @@
 {
- "count": 51,
+ "count": 52,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -32,6 +32,43 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-07T16:35:45Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-07-25-5367-2026-08-14-3acc86",
+   "status": "approved",
+   "ingested_at": "2026-09-07T16:34:40Z",
+   "title": "DJI v. DoD",
+   "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
+   "doc_date": "2026-08-14",
+   "docket": "No. 25-5367; No. 1:24-cv-02970",
+   "lists": [
+    "1260h",
+    "litigation"
+   ],
+   "entities": [
+    "SZ DJI Technology Co.",
+    "Ltd.",
+    "SZ DJI Baiwang Technology Co.",
+    "Ltd."
+   ],
+   "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/25-5367/25-5367-2026-08-14.pdf?ts=1786717965",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "3acc86a4b2dd05782bf6065db847eca7fd1f8a442b81f060ae73e3ea12dbfe04",
+   "approved_at": "2026-09-07T17:59:36Z",
+   "published_at": "2026-09-07T17:59:51Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-07T16:35:20Z",
    "files": [
     "meta.json",
     "summary.md",
