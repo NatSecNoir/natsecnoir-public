@@ -1,0 +1,32 @@
+{
+  "id": "2026-09-07-22-70029-2024-12-24-ae52f8",
+  "status": "approved",
+  "ingested_at": "2026-09-07T16:29:39Z",
+  "title": "China Unicom v FCC",
+  "issuing_body": "9th Circuit",
+  "doc_type": "opinion",
+  "doc_date": "2024-12-24",
+  "docket": "9th Cir No. 22-70029",
+  "lists": [
+    "team-telecom",
+    "litigation"
+  ],
+  "entities": [
+    "China Unicom (Americas) Operations Limited",
+    "China Unicom Global Limited",
+    "China Unicom (Hong Kong) Limited",
+    "China United Network Communications Group Company Limited"
+  ],
+  "source_url": "https://cases.justia.com/federal/appellate-courts/ca9/22-70029/22-70029-2024-12-24.pdf?ts=1735061430",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "ae52f84a554a44ffb5f1e3ecaaad9741a3f2975f8a05ec02e016fd9b44738b54",
+  "approved_at": "2026-09-07T17:54:27Z",
+  "published_at": "2026-09-07T17:55:17Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-07T16:29:47Z"
+}
