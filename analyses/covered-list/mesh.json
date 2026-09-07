@@ -1,0 +1,198 @@
+{
+  "title": "Covered List: Foreign-Produced Equipment Definitions",
+  "excerpt": "The FCC's four categorical Covered List entries — UAS, routers, power inverters, advanced robotic devices — with the Covered List text and National Security Determination definitions quoted verbatim, kept current against the FCC's public notices.",
+  "baseline": "2026-08-20",
+  "baseline_source": "FCC Covered List, DA 26-870",
+  "currency_date": "2026-09-07",
+  "last_changed": "2026-08-20",
+  "check_cadence_days": 7,
+  "auto_check": false,
+  "entries": [
+    {
+      "key": "uas",
+      "kind": "category",
+      "label": "UAS and UAS critical components",
+      "date": "2025-12-22",
+      "updates": [
+        "2026-01-07",
+        "2026-03-18",
+        "2026-06-15",
+        "2026-07-21"
+      ],
+      "source": "da-25-1086",
+      "nsd": null,
+      "text": "Covered List entry, verbatim: \"Uncrewed aircraft systems (UAS) and UAS critical components produced in a foreign country—except:\n(a) UAS and UAS critical components included on the Defense Contract Management Agency's (DCMA's) Blue UAS Cleared List, until January 1, 2028;\n(b) UAS and UAS critical components that qualify as 'domestic end products' under the Buy American Standard, 48 CFR 25.101(a), until January 1, 2028;\n(c) devices which have been granted a Conditional Approval by DoW or DHS; and\n(d) foreign-produced 'Toy Drones,' as defined in the National Security Determination, and 'Toy Drones that contain foreign-produced components.'\n\nAll communications and video surveillance equipment and services listed in Section 1709(a)(1) of the FY25 National Defense Authorization Act (Pub. L. 118-159).\"\n\nDefinitions, DA 25-1086 (47 CFR 88.5, incorporated by reference):\n\"Uncrewed Aircraft (UA): An aircraft operated without the possibility of direct human intervention from within or on the aircraft.\"\n\"Uncrewed Aircraft System (UAS): An Uncrewed Aircraft and its associated elements (including an uncrewed aircraft station, communication links, and the components not on board the UA that control the UA) that are required for the safe and efficient operation of the UA in the airspace of the United States.\"\n\"UAS Critical Components: includes but is not limited to the following UAS components and any associated software:\nData transmission devices; Communications systems; Flight controllers; Ground control stations and UAS controllers; Navigation systems; Sensors and Cameras; Batteries and Battery Management Systems; Motors.\"\n\nToy Drone criteria, DA 26-588 (from the National Security Determination): \"A device is considered a 'Toy Drone' only if it meets all of the below criteria:\nMaximum Take-off Weight is equal to or less than 150 grams;\nOperation is limited to line-of-sight operations equal to or less than 100 meters;\nMaximum sustained altitude must be equal to or less than 300 feet;\nNo GPS/GNSS or equivalent system (e.g., no return-to-home, waypoint missions, or subject tracking);\nNo connectivity or network capability (e.g., no connection to Internet, mobile apps, cellular networks, Wi-Fi), but may include a dedicated radio-frequency link between controller and drone, typically on 2.4 GHz or 5.8 GHz bands;\nNo imaging or sensing capabilities (e.g., no photo/video camera, microphones, live video feed, onboard recording, or sensors capable of surveillance or data gathering on the toy);\nFlight time must be equal to or less than 10 minutes;\nMaximum horizontal speed must be equal to or less than 10 meters/second;\nExplicitly marketed as a toy for recreational use;\nNo modular payload interface, such as airdrop and release mechanisms, search lights and strobes, and micro-FPV cameras and protection cages;\nDoes not contain brushless motors; and\nIs not produced by an entity identified in Section 1709 of the Fiscal Year 2025 National Defense Authorization Act.\"",
+      "definitions": [],
+      "cites": [
+        {
+          "src": "da-25-1086",
+          "label": "DA 25-1086",
+          "page": 8,
+          "note": "definitions at p.8"
+        },
+        {
+          "src": "da-26-22",
+          "label": "DA 26-22",
+          "note": ""
+        },
+        {
+          "src": "da-26-588",
+          "label": "DA 26-588",
+          "page": 2,
+          "note": "Toy Drone criteria at p.2"
+        }
+      ]
+    },
+    {
+      "key": "routers",
+      "kind": "category",
+      "label": "Routers produced in a foreign country",
+      "date": "2026-03-23",
+      "updates": [],
+      "source": "da-26-278",
+      "nsd": null,
+      "text": "Covered List entry, verbatim: \"Routers produced in a foreign country, except routers which have been granted a Conditional Approval by DoW or DHS.\"\n\nDefinition, DA 26-278: \"Routers: For the purpose of this determination, the term 'Routers' is defined by National Institute of Science and Technology's Internal Report 8425A to include consumer-grade networking devices that are primarily intended for residential use and can be installed by the customer. Routers forward data packets, most commonly Internet Protocol (IP) packets, between networked systems.\" The notice separately states: \"Production generally includes any major stage of the process through which the device is made, including manufacturing, assembly, design, and development.\"",
+      "definitions": [],
+      "cites": [
+        {
+          "src": "da-26-278",
+          "label": "DA 26-278",
+          "page": 10,
+          "note": "\"Routers\" defined at p.10, Appendix C"
+        },
+        {
+          "src": "fcc-faq-routers",
+          "label": "FCC FAQ on routers",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "key": "inverters",
+      "kind": "category",
+      "label": "Foreign-produced power inverters",
+      "date": "2026-07-28",
+      "updates": [
+        "2026-08-20"
+      ],
+      "source": "da-26-786",
+      "nsd": null,
+      "text": "Covered List entry, verbatim: \"Foreign-produced power inverters, except power inverters which have been granted a Conditional Approval by DoW or DHS.\"\n\nOriginal definitions, DA 26-786: \"Power Inverter: For the purpose of this determination, the term 'power inverter' shall mean a device:\n(a) A bi-directional power device or system that converts direct current electricity to alternating current electricity, or converts alternating current electricity to direct current electricity, to include microinverters, string inverters, central inverters, and hybrid (battery-based) inverters; and\n(b) Contains components that enable remote communication, control, sensing, data-collection, or monitoring through Wi-Fi, cellular, Bluetooth, or other similar connections.\"\n\n\"Foreign-Produced: the term 'foreign-produced' refers to any article that does not qualify as a 'domestic end product,' as that term is defined in 48 CFR § 25.101(a).\"\n\nRevised definitions, DA 26-870 (Second Power Inverter National Security Determination): \"Power inverters: The term 'power inverters' shall mean—\n(a) Changes dc power to ac power, to include bidirectional devices, that is intended for use in parallel with an electric utility to supply common loads and sometimes deliver power to the utility, i.e., a utility-interactive inverter as that term is defined in UL 1741 sections 2.1.23, 2.1.52; and\n(b) Contains, or is designed, equipped, or configured to accept, a component that enables remote communication, control, sensing, data-collection, or monitoring through Ethernet, Wi-Fi, cellular, Bluetooth, or other similar connections, whether wired or wireless.\"\n\n\"Foreign-produced power inverters: The term 'foreign-produced power inverters' shall mean power inverters as defined above that are not either—\n(a) Eligible for the Advanced Manufacturing Tax Credit in 26 U.S. Code § 45X for domestic production or\n(b) A domestic end product as defined in 48 CFR § 25.101(a) because they are manufactured in the United States and the cost of domestic components exceeds 65% of the total component cost for items delivered in calendar years 2024 through 2028 or 75% for items delivered starting in calendar year 2029.\"",
+      "definitions": [],
+      "cites": [
+        {
+          "src": "da-26-786",
+          "label": "DA 26-786",
+          "page": 10,
+          "note": "\"power inverter\" defined at p.10"
+        },
+        {
+          "src": "da-26-870",
+          "label": "DA 26-870",
+          "page": 5,
+          "note": "second NSD, revised definition at p.5"
+        },
+        {
+          "src": "fcc-faq-robots",
+          "label": "FCC FAQ on robots and inverters",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "key": "robotics",
+      "kind": "category",
+      "label": "Foreign-produced advanced robotic devices",
+      "date": "2026-07-28",
+      "updates": [],
+      "source": "da-26-786",
+      "nsd": null,
+      "text": "Covered List entry, verbatim: \"Foreign-produced advanced robotic devices, except advanced robotic devices which have been granted a Conditional Approval by DoW.\"\n\nDefinition, DA 26-786: \"Advanced Robotic Devices: For the purpose of this determination, the term 'advanced robotic devices' means:\n\n(A) A mechanical mobile device, including autonomous mobile robots, humanoid robots, and quadrupeds, that —\n  (i) Is capable of locomotion, obstacle avoidance, navigation, or movement on the ground;\n  (ii) Operates at a distance from a human operator or supervisor based on commands or in response to sensor data or any combination thereof; and\n  (iii) The combined weight of the device and, if applicable, ground station or docking station is over 4.4lbs; and\n  (iv) Contains a component falling within each of the below subparagraphs:\n    (i) a sensor capable of perceiving its environment;\n    (ii) a component that is capable of providing network connectivity (wired or wireless, including Bluetooth/WiFi, cellular, or satellite) with connection speeds of at least 200 kbps in either direction; and\n    (iii) software running either locally or remotely, including firmware and AI or machine-learning model weights, that controls the robot's autonomous navigation or movement perception, data collection, or remote command-and-control; and\n\n(B) Does not include:\n  (i) A 'connected vehicle,' as that term is defined in 15 CFR § 791.301, but including a connected vehicle of any gross weight;\n  (ii) A vehicle operated only on a rail line;\n  (iii) An 'uncrewed aircraft' or 'uncrewed aircraft system,' as defined in 47 CFR § 88.5;\n  (iv) An unmanned underwater vehicle that is able to operate without a human occupant;\n  (v) Items that are classified as devices under section 513 of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. §360c), including surgical instruments, medical and surgical robotic systems, external limb prostheses and their components, and ambulatory and mobility assistive devices (such as canes, crutches, walkers, and wheelchairs), whether or not powered, and whether the item was cleared under section 510(k), approved under section 515, classified under section 513(f)(2), or exempt from premarket notification; and\n  (vi) A fixed, stationary, non-mobile robot, including articulating, parallel/delta, Cartesian/gantry, or Selective Compliance Assembly, or Articulated, Robot Arm (SCARA) robots intended for industrial or medical use.\"",
+      "definitions": [],
+      "cites": [
+        {
+          "src": "da-26-786",
+          "label": "DA 26-786",
+          "page": 14,
+          "note": "\"advanced robotic devices\" defined at p.14–15"
+        },
+        {
+          "src": "fcc-faq-robots",
+          "label": "FCC FAQ on robots and inverters",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "This copy tracks only the categorical, place-of-production entries. Entity-named entries (Huawei, ZTE, Hytera, Hikvision, Dahua, Kaspersky, the section 214 carriers, Digitalsystem) are out of scope and not proposed by the check.",
+    "The inclusion of producers or providers named on this list should be read to include their subsidiaries and affiliates.",
+    "Where equipment or services are identified by category, the category includes only equipment or services capable of the functions in 47 U.S.C. §1601(b)(2)(A)–(C).",
+    "For each categorical entry the FCC incorporates the definitions in the associated National Security Determination."
+  ],
+  "sources": {
+    "manual": {
+      "title": "Manual edit (see Archive)",
+      "url": ""
+    },
+    "fcc-page": {
+      "title": "FCC Covered List page",
+      "url": "https://www.fcc.gov/supplychain/coveredlist"
+    },
+    "da-25-1086": {
+      "title": "DA 25-1086, UAS and UAS critical components added (Dec 22, 2025)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf"
+    },
+    "da-26-22": {
+      "title": "DA 26-22, Blue UAS and Buy American exemptions (Jan 7, 2026)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-22A1.txt"
+    },
+    "da-26-278": {
+      "title": "DA 26-278, Routers added (Mar 23, 2026)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-278A1.pdf"
+    },
+    "da-26-588": {
+      "title": "DA 26-588, Toy Drones removed (Jun 15, 2026)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-588A1.pdf"
+    },
+    "da-26-786": {
+      "title": "DA 26-786, Power inverters and advanced robotic devices added (Jul 28, 2026)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf"
+    },
+    "da-26-870": {
+      "title": "DA 26-870, Power inverters entry modified (Aug 20, 2026)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-870A1.pdf"
+    },
+    "fcc-faq-routers": {
+      "title": "FCC FAQ on routers",
+      "url": "https://www.fcc.gov/faqs-recent-updates-fcc-covered-list-regarding-routers-produced-foreign-countries"
+    },
+    "fcc-faq-robots": {
+      "title": "FCC FAQ on advanced robotic devices and power inverters",
+      "url": "https://www.fcc.gov/covered-list-faqs-robots-inverters"
+    }
+  },
+  "manifest": [
+    {
+      "id": "fcc-covered-list",
+      "url": "https://www.fcc.gov/supplychain/coveredlist",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "fcc-edocs-pshsb",
+      "url": "https://docs.fcc.gov/public/attachments/",
+      "added": "2026-09-07"
+    },
+    {
+      "id": "natsecnoir-feed",
+      "url": "https://natsecnoir.com/feed.xml",
+      "added": "2026-09-07"
+    }
+  ],
+  "schema_version": 1,
+  "pending": [],
+  "archive": [],
+  "ledger": [],
+  "runs": [],
+  "published_at": ""
+}
