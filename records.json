@@ -1,5 +1,5 @@
 {
- "count": 47,
+ "count": 48,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -1566,6 +1566,45 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:29Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-07-22-1054-2023-08-15-0e3cfe",
+   "status": "approved",
+   "ingested_at": "2026-09-07T16:29:39Z",
+   "title": "Pacific Networks and ComNet (USA) v. FCC",
+   "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
+   "doc_date": "2023-08-15",
+   "docket": "No. 22-1054",
+   "lists": [
+    "team-telecom",
+    "litigation"
+   ],
+   "entities": [
+    "Pacific Networks Corp.",
+    "ComNet (USA) LLC",
+    "Federal Communications Commission",
+    "United States of America",
+    "China Telecom (Americas) Corp.",
+    "China Mobile International (USA) Inc."
+   ],
+   "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/22-1054/22-1054-2023-08-15.pdf?ts=1692113663",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "0e3cfea05b2117e1554df9b995152ba5e624ec1a8704764822397d6345096096",
+   "approved_at": "2026-09-07T17:44:50Z",
+   "published_at": "2026-09-07T17:45:00Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-07T16:31:26Z",
    "files": [
     "meta.json",
     "summary.md",
