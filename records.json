@@ -1,5 +1,5 @@
 {
- "count": 48,
+ "count": 49,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -1566,6 +1566,52 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:29Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-07-23-1032-2024-04-02-b1aef1",
+   "status": "approved",
+   "ingested_at": "2026-09-07T16:34:40Z",
+   "title": "Hikvision USA, Inc. v. FCC",
+   "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
+   "doc_date": "2024-04-02",
+   "docket": "DC Cir. No. 23-1032; Consolidated with 23-1073",
+   "lists": [
+    "covered-list",
+    "litigation"
+   ],
+   "entities": [
+    "Hikvision USA",
+    "Inc.",
+    "Dahua Technology USA Inc.",
+    "Federal Communications Commission",
+    "United States of America",
+    "Motorola Solutions",
+    "Inc.",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "Hytera Communications Corporation",
+    "Cybersecurity and Infrastructure Security Agency",
+    "National Risk Management Center",
+    "Congress"
+   ],
+   "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/23-1032/23-1032-2024-04-02.pdf?ts=1712068316",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "b1aef1105684f36b188b14f3fd62c1dce2a44b28104adde37282c94a27fb159f",
+   "approved_at": "2026-09-07T17:51:55Z",
+   "published_at": "2026-09-07T17:52:22Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-07T16:34:47Z",
    "files": [
     "meta.json",
     "summary.md",
