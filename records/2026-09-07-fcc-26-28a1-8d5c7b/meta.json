@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-07-fcc-26-28a1-8d5c7b",
+  "status": "approved",
+  "ingested_at": "2026-09-07T02:27:48Z",
+  "title": "Bad Labs 2.0",
+  "issuing_body": "FCC",
+  "doc_type": "report and order",
+  "doc_date": "2026-04-30",
+  "docket": "FCC 26-28; ET Docket No. 24-136",
+  "lists": [
+    "bad-labs"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-28A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "8d5c7b83b4cb3205ed74f40b9e98bfa5187c3a2c11150f28ed5607a3f7c752b3",
+  "approved_at": "2026-09-07T02:48:37Z",
+  "published_at": "2026-09-07T02:51:05Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-07T02:27:56Z"
+}
