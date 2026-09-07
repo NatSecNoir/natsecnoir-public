@@ -1898,11 +1898,11 @@
    "id": "2026-09-07-19-60896-2021-06-18-aa4ff0",
    "status": "approved",
    "ingested_at": "2026-09-07T16:34:41Z",
-   "title": "19-60896-2021-06-18",
-   "issuing_body": "DC Circuit",
+   "title": "Huawei v FCC",
+   "issuing_body": "5th Cir",
    "doc_type": "opinion",
    "doc_date": "2021-06-18",
-   "docket": "No. 19-60896; FCC No. 19-121",
+   "docket": "5th Cir Docket No. No. 19-60896; FCC No. 19-121",
    "lists": [
     "covered-list",
     "litigation"
@@ -1918,7 +1918,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "aa4ff0bceaf604dba80f9e7198ad612428dfeca81d419d176607cb6f16c6ddab",
-   "approved_at": "2026-09-07T17:30:09Z",
+   "approved_at": "2026-09-07T18:02:08Z",
    "published_at": "2026-09-07T17:30:09Z",
    "reason": "",
    "error": "",
