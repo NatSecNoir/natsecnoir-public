@@ -1,0 +1,32 @@
+{
+  "id": "2026-09-07-19-60896-2021-06-18-aa4ff0",
+  "status": "approved",
+  "ingested_at": "2026-09-07T16:34:41Z",
+  "title": "19-60896-2021-06-18",
+  "issuing_body": "DC Circuit",
+  "doc_type": "opinion",
+  "doc_date": "2021-06-18",
+  "docket": "No. 19-60896; FCC No. 19-121",
+  "lists": [
+    "covered-list",
+    "litigation"
+  ],
+  "entities": [
+    "Huawei Technologies Company",
+    "Limited",
+    "Huawei Technologies USA",
+    "Inc."
+  ],
+  "source_url": "https://cases.justia.com/federal/appellate-courts/ca5/19-60896/19-60896-2021-06-18.pdf?ts=1624059021",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "aa4ff0bceaf604dba80f9e7198ad612428dfeca81d419d176607cb6f16c6ddab",
+  "approved_at": "2026-09-07T17:30:09Z",
+  "published_at": "2026-09-07T17:30:09Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-07T16:36:05Z"
+}
