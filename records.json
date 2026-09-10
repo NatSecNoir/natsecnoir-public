@@ -1,5 +1,5 @@
 {
- "count": 52,
+ "count": 53,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -1803,6 +1803,50 @@
     "meta.json",
     "summary.md",
     "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-09-record-b7d5e8",
+   "status": "approved",
+   "ingested_at": "2026-09-09T23:52:07Z",
+   "title": "record",
+   "issuing_body": "FCC",
+   "doc_type": "report and order",
+   "doc_date": "2022-11-11",
+   "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
+   "lists": [
+    "covered-list",
+    "team-telecom"
+   ],
+   "entities": [
+    "Federal Communications Commission",
+    "Huawei Technologies Company",
+    "ZTE Corporation",
+    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Company",
+    "Dahua Technology Company",
+    "Public Safety and Homeland Security Bureau",
+    "Team Telecom",
+    "Department of Homeland Security",
+    "Department of Justice",
+    "Department of Defense",
+    "Federal Communications Commission Chairwoman Jessica Rosenworcel"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-22-84A1_Rcd.pdf",
+   "source_copy_public": false,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "b7d5e82efd892e8beadd198ea1ff904ac50bfc4082fbee9dd9b6ef153c94ea7f",
+   "approved_at": "2026-09-09T23:55:09Z",
+   "published_at": "2026-09-10T00:07:15Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-09T23:52:25Z",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
