@@ -1,5 +1,5 @@
 {
- "count": 54,
+ "count": 55,
  "records": [
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
@@ -1520,6 +1520,51 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:34Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-10-record-8a4ad9",
+   "status": "approved",
+   "ingested_at": "2026-09-10T00:09:19Z",
+   "title": "Submarine Cable First Report and Order",
+   "issuing_body": "FCC",
+   "doc_type": "report and order",
+   "doc_date": "2025-08-07",
+   "docket": "FCC 25-49; OI Docket No. 24-523; MD Docket No. 24-524",
+   "lists": [
+    "covered-list",
+    "team-telecom"
+   ],
+   "entities": [
+    "Federal Communications Commission",
+    "Department of Commerce",
+    "Committee for the Assessment of Foreign Participation in the United States Telecommunications Services Sector",
+    "China Mobile International (USA) Inc.",
+    "China Telecom (Americas) Corporation",
+    "China Unicom (Americas) Operations Limited",
+    "Pacific Networks Corp.",
+    "ComNet (USA) LLC",
+    "Empresa de Telecomunicaciones de Cuba S.A. (ETECSA)",
+    "Amazon Web Services",
+    "Inc.",
+    "Microsoft Corporation"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-49A1_Rcd.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "8a4ad9b20c4ce259f26429920c27a293a5b89e3c783cd5a7e737eb77f9c0f15e",
+   "approved_at": "2026-09-10T00:27:44Z",
+   "published_at": "2026-09-10T00:36:10Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-10T00:09:31Z",
    "files": [
     "meta.json",
     "summary.md",
