@@ -1,5 +1,5 @@
 {
- "count": 58,
+ "count": 59,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -1660,6 +1660,38 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:18Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-12-da-25-418a1-e8cf53",
+   "status": "approved",
+   "ingested_at": "2026-09-12T20:11:38Z",
+   "title": "ICTS Connected Vehicles  PN",
+   "issuing_body": "FCC",
+   "doc_type": "public notice",
+   "doc_date": "2025-05-23",
+   "docket": "DA 25-418; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+   "lists": [
+    "covered-list",
+    "icts"
+   ],
+   "entities": [],
+   "source_url": "https://docs.fcc.gov/public/attachments/DA-25-418A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "e8cf5390c79266f1141318836454da8da1862fbafa34eb18d1bd88151bd45fb2",
+   "approved_at": "2026-09-12T20:46:10Z",
+   "published_at": "2026-09-12T20:46:17Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-12T20:15:30Z",
    "files": [
     "meta.json",
     "summary.md",
