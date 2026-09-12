@@ -1,5 +1,5 @@
 {
- "count": 59,
+ "count": 60,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -1333,6 +1333,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:55:54Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-12-fcc-26-2a1-039e89",
+   "status": "approved",
+   "ingested_at": "2026-09-12T20:11:37Z",
+   "title": "Foreign Adversary Control Report and Order",
+   "issuing_body": "FCC",
+   "doc_type": "report and order",
+   "doc_date": "2026-01-29",
+   "docket": "FCC 26-2; GN Docket No. 25-166",
+   "lists": [
+    "covered-list"
+   ],
+   "entities": [
+    "Federal Communications Commission"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-2A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "039e89d888038ec2c4b2c3d85101c17a1f3aeba4acda6277afd171e808aa58bc",
+   "approved_at": "2026-09-12T20:47:12Z",
+   "published_at": "2026-09-12T20:51:03Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-12T20:11:47Z",
    "files": [
     "meta.json",
     "summary.md",
