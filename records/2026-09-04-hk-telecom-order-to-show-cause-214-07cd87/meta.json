@@ -11,19 +11,15 @@
     "team-telecom"
   ],
   "entities": [
-    "HKT (International) Limited",
-    "PCCW Global",
-    "Inc.",
-    "PCCW Global Limited",
+    "HKT (International) Ltd.",
+    "PCCW Global Ltd.",
     "Gateway Global Communications Inc.",
-    "PCCW Global (UK) Limited",
-    "China Unicom Group Corporation (BVI) Limited",
-    "China United Network Communications Group Company Limited",
+    "China United Network Communications Group Co., Ltd.",
     "State-owned Assets Supervision and Administration Commission of the State Council",
-    "PCCW Limited",
+    "PCCW Ltd.",
     "Federal Bureau of Investigation",
-    "U.S. Department of Justice",
-    "U.S. Department of Homeland Security"
+    "Department of Justice",
+    "Department of Homeland Security"
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-25-928A1_Rcd.pdf",
   "source_copy_public": true,

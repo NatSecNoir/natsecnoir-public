@@ -13,18 +13,13 @@
   ],
   "entities": [
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Office of Engineering and Technology",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
     "Hikvision USA",
-    "Inc.",
-    "Dahua Technology USA",
-    "Inc.",
-    "Telecommunications Certification Bodies"
+    "Dahua Technology USA Inc."
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-71A1.pdf",
   "source_copy_public": true,

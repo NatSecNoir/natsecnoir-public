@@ -13,14 +13,11 @@
   ],
   "entities": [
     "Federal Communications Commission",
-    "Covered List entities",
-    "China Telecom (Americas) Corporation",
-    "China Unicom (Americas) Operations Limited",
+    "China Telecom (Americas) Corp.",
+    "China Unicom (Americas) Operations Ltd.",
     "Pacific Networks Corp.",
     "ComNet (USA) LLC",
-    "Team Telecom",
-    "Brendan Carr",
-    "Olivia Trusty"
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)"
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-29A1.pdf",
   "source_copy_public": true,

@@ -13,17 +13,15 @@
   ],
   "entities": [
     "Federal Communications Commission",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
-    "Public Safety and Homeland Security Bureau",
-    "Team Telecom",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "Department of Homeland Security",
     "Department of Justice",
-    "Department of Defense",
-    "Federal Communications Commission Chairwoman Jessica Rosenworcel"
+    "Department of War"
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-22-84A1_Rcd.pdf",
   "source_copy_public": true,
