@@ -12,13 +12,9 @@
     "icts"
   ],
   "entities": [
-    "Kaspersky Lab",
-    "Inc.",
     "AO Kaspersky Lab",
     "Federal Communications Commission",
-    "Office of Engineering and Technology",
-    "Public Safety and Homeland Security Bureau",
-    "U.S. Department of Commerce"
+    "Department of Commerce"
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-24-886A1.pdf",
   "source_copy_public": true,

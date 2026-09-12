@@ -12,10 +12,8 @@
   ],
   "entities": [
     "Federal Communications Commission",
-    "FCC Public Safety and Homeland Security Bureau",
     "Department of War",
-    "Department of Homeland Security",
-    "Defense Contract Management Agency"
+    "Department of Homeland Security"
   ],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-588A1.pdf",
   "source_copy_public": true,

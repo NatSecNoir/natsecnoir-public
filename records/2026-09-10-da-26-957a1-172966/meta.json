@@ -1,0 +1,31 @@
+{
+  "id": "2026-09-10-da-26-957a1-172966",
+  "status": "approved",
+  "ingested_at": "2026-09-10T20:08:49Z",
+  "title": "Conditional Approvals: ASUS and Comtrend Routers, Husqvarna robotic platforms",
+  "issuing_body": "FCC",
+  "doc_type": "public notice",
+  "doc_date": "2026-09-09",
+  "docket": "DA 26-957; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list",
+    "conditional-approval"
+  ],
+  "entities": [
+    "ASUS",
+    "Comtrend",
+    "Husqvarna"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-957A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "1729669d3130af02c5202146af856b1ba53348c72f74263976770c8f5be92b3d",
+  "approved_at": "2026-09-12T00:35:34Z",
+  "published_at": "2026-09-12T00:35:53Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-10T20:08:58Z"
+}

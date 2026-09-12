@@ -1,6 +1,42 @@
 {
- "count": 55,
+ "count": 56,
  "records": [
+  {
+   "id": "2026-09-10-da-26-957a1-172966",
+   "status": "approved",
+   "ingested_at": "2026-09-10T20:08:49Z",
+   "title": "Conditional Approvals: ASUS and Comtrend Routers, Husqvarna robotic platforms",
+   "issuing_body": "FCC",
+   "doc_type": "public notice",
+   "doc_date": "2026-09-09",
+   "docket": "DA 26-957; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+   "lists": [
+    "covered-list",
+    "conditional-approval"
+   ],
+   "entities": [
+    "ASUS",
+    "Comtrend",
+    "Husqvarna"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-957A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "1729669d3130af02c5202146af856b1ba53348c72f74263976770c8f5be92b3d",
+   "approved_at": "2026-09-12T00:35:34Z",
+   "published_at": "2026-09-12T00:35:53Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-10T20:08:58Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
   {
    "id": "2026-09-07-25-5256-2188737-5c12a6",
    "status": "approved",
@@ -15,10 +51,7 @@
     "litigation"
    ],
    "entities": [
-    "Hesai Technology Co.",
-    "Ltd.",
-    "Hesai",
-    "Inc."
+    "Hesai Technology Co., Ltd."
    ],
    "source_url": "https://media.cadc.uscourts.gov/opinions/docs/2026/08/25-5256-2188737.pdf",
    "source_copy_public": true,
@@ -52,10 +85,8 @@
     "litigation"
    ],
    "entities": [
-    "SZ DJI Technology Co.",
-    "Ltd.",
-    "SZ DJI Baiwang Technology Co.",
-    "Ltd."
+    "SZ DJI Technology Co., Ltd.",
+    "SZ DJI Baiwang Technology Co."
    ],
    "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/25-5367/25-5367-2026-08-14.pdf?ts=1786717965",
    "source_copy_public": true,
@@ -150,8 +181,7 @@
     "covered-list"
    ],
    "entities": [
-    "SpaceX Services",
-    "Inc."
+    "SpaceX Services"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-775A1.pdf",
    "source_copy_public": true,
@@ -186,13 +216,9 @@
    "entities": [
     "Exedy Globalparts Corporation",
     "Parallel Flight Technologies",
-    "Inc.",
     "Calix",
-    "Inc.",
     "Sagemcom USA",
-    "LLC",
     "Humax Networks USA",
-    "Inc.",
     "Askey Computer Corp."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-768A1.pdf",
@@ -292,10 +318,6 @@
    "entities": [
     "Odyssey Robot LLC",
     "Federal Communications Commission",
-    "Office of Engineering and Technology",
-    "Public Safety and Homeland Security Bureau",
-    "eTak Worldwide Corporation",
-    "Konrad Iturbe",
     "TÜV Rheinland (Shenzhen) Co. Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-746A1.pdf",
@@ -330,7 +352,6 @@
    ],
    "entities": [
     "Gryphon Safety Online",
-    "Inc.",
     "Sercomm Corporation"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-756A1.pdf",
@@ -365,13 +386,11 @@
    ],
    "entities": [
     "Cogito Tech Company",
-    "Limited",
     "Fikaxo Technology Inc.",
     "Lyno Dynamics LLC",
     "Skyhigh Tech LLC",
     "Spatial Hover Inc.",
     "SZ Knowact Robot Technology Co.",
-    "Ltd.",
     "WaveGo Tech LLC",
     "Xtra Technology LLC",
     "Guangzhou Xaircraft Technology Co. Ltd. (XAG)"
@@ -407,8 +426,7 @@
     "covered-list"
    ],
    "entities": [
-    "Gemtek Technology Co.",
-    "Ltd."
+    "Gemtek Technology Co."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-704A1.pdf",
    "source_copy_public": true,
@@ -441,8 +459,7 @@
     "covered-list"
    ],
    "entities": [
-    "Vantiva USA",
-    "LLC"
+    "Vantiva USA"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-688A1.pdf",
    "source_copy_public": true,
@@ -476,12 +493,10 @@
    ],
    "entities": [
     "Digitalsystem Technology Inc.",
-    "Hui Xie",
-    "Yi Zhou",
-    "Committee for the Assessment of Foreign Participation in the U.S. Telecommunications Services Sector",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "National Telecommunications and Information Administration",
     "Federal Communications Commission",
-    "Government of China",
+    "Government of the People's Republic of China",
     "Hong Kong"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-44A1.pdf",
@@ -518,8 +533,7 @@
    "entities": [
     "Digitalsystem Technology Inc.",
     "Federal Communications Commission",
-    "FCC Public Safety and Homeland Security Bureau",
-    "Committee for the Assessment of Foreign Participation in the U.S. Telecommunications Services Sector",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "Department of Justice",
     "Department of Homeland Security",
     "Department of War"
@@ -558,15 +572,10 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Office of Engineering and Technology",
     "Hikvision USA",
-    "Inc.",
-    "Hytera-US",
-    "Inc.",
-    "Hytera Communications Corporation Limited",
-    "Kaspersky Lab",
-    "Inc.",
+    "Hytera US",
+    "Hytera Communications Corp. Ltd.",
+    "AO Kaspersky Lab",
     "CTIA",
     "Foundation for Defense of Democracies"
    ],
@@ -602,10 +611,8 @@
    ],
    "entities": [
     "Real-Time Robotics",
-    "Inc.",
     "Ceres Air LLC",
-    "Hitron Technologies Americas",
-    "Inc."
+    "Hitron Technologies Americas"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-616A1.pdf",
    "source_copy_public": true,
@@ -639,10 +646,8 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "FCC Public Safety and Homeland Security Bureau",
     "Department of War",
-    "Department of Homeland Security",
-    "Defense Contract Management Agency"
+    "Department of Homeland Security"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-588A1.pdf",
    "source_copy_public": true,
@@ -676,9 +681,7 @@
    ],
    "entities": [
     "Flock Group",
-    "Inc. (d/b/a Flock Safety)",
-    "Miri Technologies",
-    "Inc."
+    "Miri Technologies"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-584A1.pdf",
    "source_copy_public": true,
@@ -746,9 +749,7 @@
    ],
    "entities": [
     "Innovation First International",
-    "Inc.",
-    "Sagemcom USA",
-    "LLC"
+    "Sagemcom USA"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-548A1.pdf",
    "source_copy_public": true,
@@ -782,7 +783,6 @@
    ],
    "entities": [
     "Calix",
-    "Inc.",
     "Alpha Networks Inc. USA"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-542A1.pdf",
@@ -817,10 +817,8 @@
    ],
    "entities": [
     "Blueflite",
-    "Inc.",
     "Verity AG",
-    "Air VEV",
-    "Inc."
+    "Air VEV"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-524A1.pdf",
    "source_copy_public": true,
@@ -855,21 +853,16 @@
    "entities": [
     "Nokia Corporation",
     "Netgear",
-    "Inc.",
     "Adtran Inc.",
     "eero LLC",
     "Calix",
-    "Inc.",
     "SiFly Aviation",
-    "Inc.",
     "Mobilicom",
     "ScoutDI",
     "Verge",
-    "Inc.",
     "Sees.ai",
     "Air6 System GmbH",
-    "Elevon Aerial",
-    "LLC"
+    "Elevon Aerial"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-495A1.pdf",
    "source_copy_public": true,
@@ -903,7 +896,6 @@
    ],
    "entities": [
     "Elevon Aerial",
-    "LLC (doing business as Elevon Aerial AG)",
     "Nokia Corporation"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-489A1.pdf",
@@ -937,7 +929,7 @@
     "covered-list"
    ],
    "entities": [
-    "Federal Communications Commission Office of Engineering and Technology",
+    "Federal Communications Commission",
     "Department of War",
     "Department of Homeland Security"
    ],
@@ -973,8 +965,7 @@
    ],
    "entities": [
     "Air6 System GmbH",
-    "Calix",
-    "Inc."
+    "Calix"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-437A1.pdf",
    "source_copy_public": true,
@@ -1009,14 +1000,11 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Covered List entities",
-    "China Telecom (Americas) Corporation",
-    "China Unicom (Americas) Operations Limited",
+    "China Telecom (Americas) Corp.",
+    "China Unicom (Americas) Operations Ltd.",
     "Pacific Networks Corp.",
     "ComNet (USA) LLC",
-    "Team Telecom",
-    "Brendan Carr",
-    "Olivia Trusty"
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-29A1.pdf",
    "source_copy_public": true,
@@ -1115,7 +1103,6 @@
    ],
    "entities": [
     "Netgear",
-    "Inc.",
     "Adtran Inc.",
     "Sees.ai"
    ],
@@ -1150,11 +1137,11 @@
     "covered-list"
    ],
    "entities": [
-    "huawei",
-    "zte",
-    "hytera",
-    "hikvision",
-    "dahua"
+    "Huawei Technologies Co., Ltd.",
+    "ZTE Corporation",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-294A1.pdf",
    "source_copy_public": true,
@@ -1317,9 +1304,7 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
     "Department of War",
-    "Defense Contract Management Agency",
     "Department of Homeland Security"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-22A1.pdf",
@@ -1354,20 +1339,19 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
     "Department of War",
     "Department of Homeland Security",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
     "AO Kaspersky Lab",
-    "China Mobile International USA Inc.",
+    "China Mobile International (USA) Inc.",
     "China Telecom (Americas) Corp.",
     "Pacific Networks Corp.",
     "ComNet (USA) LLC",
-    "China Unicom (Americas) Operations Limited"
+    "China Unicom (Americas) Operations Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf",
    "source_copy_public": true,
@@ -1402,18 +1386,13 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Office of Engineering and Technology",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
     "Hikvision USA",
-    "Inc.",
-    "Dahua Technology USA",
-    "Inc.",
-    "Telecommunications Certification Bodies"
+    "Dahua Technology USA Inc."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-71A1.pdf",
    "source_copy_public": true,
@@ -1446,19 +1425,15 @@
     "team-telecom"
    ],
    "entities": [
-    "HKT (International) Limited",
-    "PCCW Global",
-    "Inc.",
-    "PCCW Global Limited",
+    "HKT (International) Ltd.",
+    "PCCW Global Ltd.",
     "Gateway Global Communications Inc.",
-    "PCCW Global (UK) Limited",
-    "China Unicom Group Corporation (BVI) Limited",
-    "China United Network Communications Group Company Limited",
+    "China United Network Communications Group Co., Ltd.",
     "State-owned Assets Supervision and Administration Commission of the State Council",
-    "PCCW Limited",
+    "PCCW Ltd.",
     "Federal Bureau of Investigation",
-    "U.S. Department of Justice",
-    "U.S. Department of Homeland Security"
+    "Department of Justice",
+    "Department of Homeland Security"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-25-928A1_Rcd.pdf",
    "source_copy_public": true,
@@ -1492,21 +1467,17 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
-    "Zhejiang Dahua Technology Co.",
-    "Ltd.",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
     "AO Kaspersky Lab",
-    "Kaspersky Lab",
-    "Inc.",
-    "China Mobile International USA Inc.",
+    "China Mobile International (USA) Inc.",
     "China Telecom (Americas) Corp.",
-    "Pacific Networks Corp",
+    "Pacific Networks Corp.",
     "ComNet (USA) LLC",
-    "China Unicom (Americas) Operations Limited"
+    "China Unicom (Americas) Operations Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-25-927A1.pdf",
    "source_copy_public": true,
@@ -1542,15 +1513,14 @@
    "entities": [
     "Federal Communications Commission",
     "Department of Commerce",
-    "Committee for the Assessment of Foreign Participation in the United States Telecommunications Services Sector",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "China Mobile International (USA) Inc.",
-    "China Telecom (Americas) Corporation",
-    "China Unicom (Americas) Operations Limited",
+    "China Telecom (Americas) Corp.",
+    "China Unicom (Americas) Operations Ltd.",
     "Pacific Networks Corp.",
     "ComNet (USA) LLC",
     "Empresa de Telecomunicaciones de Cuba S.A. (ETECSA)",
     "Amazon Web Services",
-    "Inc.",
     "Microsoft Corporation"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-49A1_Rcd.pdf",
@@ -1588,15 +1558,14 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "FCC Public Safety and Homeland Security Bureau",
-    "Department of Commerce Bureau of Industry and Security",
-    "Department of Defense",
+    "Bureau of Industry and Security",
+    "Department of War",
     "Department of Homeland Security",
     "Department of the Treasury Office of Foreign Assets Control",
-    "Semiconductor Manufacturing International Corporation (SMIC)",
+    "Semiconductor Manufacturing International Corp. (SMIC)",
     "ChangXin Memory Technologies (CXMT)",
     "Yangtze Memory Technologies (YMTC)",
-    "People’s Republic of China",
+    "Government of the People's Republic of China",
     "Nicolas Maduro"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-27A1.pdf",
@@ -1665,10 +1634,8 @@
     "litigation"
    ],
    "entities": [
-    "China Unicom (Americas) Operations Limited",
-    "China Unicom Global Limited",
-    "China Unicom (Hong Kong) Limited",
-    "China United Network Communications Group Company Limited"
+    "China Unicom (Americas) Operations Ltd.",
+    "China United Network Communications Group Co., Ltd."
    ],
    "source_url": "https://cases.justia.com/federal/appellate-courts/ca9/22-70029/22-70029-2024-12-24.pdf?ts=1735061430",
    "source_copy_public": true,
@@ -1702,13 +1669,9 @@
     "icts"
    ],
    "entities": [
-    "Kaspersky Lab",
-    "Inc.",
     "AO Kaspersky Lab",
     "Federal Communications Commission",
-    "Office of Engineering and Technology",
-    "Public Safety and Homeland Security Bureau",
-    "U.S. Department of Commerce"
+    "Department of Commerce"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-24-886A1.pdf",
    "source_copy_public": true,
@@ -1742,12 +1705,9 @@
     "icts"
    ],
    "entities": [
-    "Kaspersky Lab",
-    "Inc.",
+    "AO Kaspersky Lab",
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Department of Commerce",
-    "AO Kaspersky Lab"
+    "Department of Commerce"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-24-712A1.pdf",
    "source_copy_public": true,
@@ -1782,15 +1742,12 @@
    ],
    "entities": [
     "Hikvision USA",
-    "Inc.",
     "Dahua Technology USA Inc.",
     "Federal Communications Commission",
-    "United States of America",
     "Motorola Solutions",
-    "Inc.",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
-    "Hytera Communications Corporation",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
+    "Hytera Communications Corp. Ltd.",
     "Cybersecurity and Infrastructure Security Agency",
     "National Risk Management Center",
     "Congress"
@@ -1830,7 +1787,6 @@
     "Pacific Networks Corp.",
     "ComNet (USA) LLC",
     "Federal Communications Commission",
-    "United States of America",
     "China Telecom (Americas) Corp.",
     "China Mobile International (USA) Inc."
    ],
@@ -1866,12 +1822,11 @@
     "litigation"
    ],
    "entities": [
-    "China Telecom (Americas) Corporation",
+    "China Telecom (Americas) Corp.",
     "Federal Communications Commission",
-    "United States of America",
     "Department of Justice",
     "Department of Homeland Security",
-    "Department of Defense",
+    "Department of War",
     "Federal Bureau of Investigation"
    ],
    "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/21-1233/21-1233-2023-01-12.pdf?ts=1673545137",
@@ -1907,17 +1862,15 @@
    ],
    "entities": [
     "Federal Communications Commission",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
-    "Public Safety and Homeland Security Bureau",
-    "Team Telecom",
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "Department of Homeland Security",
     "Department of Justice",
-    "Department of Defense",
-    "Federal Communications Commission Chairwoman Jessica Rosenworcel"
+    "Department of War"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-22-84A1_Rcd.pdf",
    "source_copy_public": true,
@@ -1950,15 +1903,15 @@
     "covered-list"
    ],
    "entities": [
-    "Pacific Networks Corp. (PacNet)",
+    "Pacific Networks Corp.",
     "ComNet (USA) LLC",
-    "China Unicom (Americas) Operations Limited",
-    "Federal Communications Commission Public Safety and Homeland Security Bureau",
+    "China Unicom (Americas) Operations Ltd.",
+    "Federal Communications Commission",
     "National Telecommunications and Information Administration",
-    "U.S. Department of Justice",
-    "U.S. Department of Defense",
+    "Department of Justice",
+    "Department of War",
     "CITIC Group Corporation",
-    "Government of the People’s Republic of China"
+    "Government of the People's Republic of China"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-22-979A1.pdf",
    "source_copy_public": true,
@@ -1992,21 +1945,20 @@
     "team-telecom"
    ],
    "entities": [
-    "China Mobile International USA Inc.",
+    "China Mobile International (USA) Inc.",
     "China Telecom (Americas) Corp.",
     "AO Kaspersky Lab",
     "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
     "Department of Homeland Security",
-    "Committee for the Assessment of Foreign Participation in the United States Telecommunications Services Sector",
+    "Committee on Foreign Participation in the U.S. Telecom Services Sector (Team Telecom)",
     "Department of Justice",
-    "Department of Defense",
+    "Department of War",
     "Department of State",
     "Department of Commerce",
     "Office of the United States Trade Representative",
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation"
+    "Hytera Communications Corp. Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-22-320A1.pdf",
    "source_copy_public": true,
@@ -2040,10 +1992,8 @@
     "litigation"
    ],
    "entities": [
-    "Huawei Technologies Company",
-    "Limited",
-    "Huawei Technologies USA",
-    "Inc."
+    "Huawei Technologies Co., Ltd.",
+    "Huawei Technologies USA"
    ],
    "source_url": "https://cases.justia.com/federal/appellate-courts/ca5/19-60896/19-60896-2021-06-18.pdf?ts=1624059021",
    "source_copy_public": true,
@@ -2076,14 +2026,12 @@
     "covered-list"
    ],
    "entities": [
-    "Huawei Technologies Company",
+    "Huawei Technologies Co., Ltd.",
     "ZTE Corporation",
-    "Hytera Communications Corporation",
-    "Hangzhou Hikvision Digital Technology Company",
-    "Dahua Technology Company",
-    "Federal Communications Commission",
-    "Public Safety and Homeland Security Bureau",
-    "Jeffery Goldthorp"
+    "Hytera Communications Corp. Ltd.",
+    "Hangzhou Hikvision Digital Technology Co.",
+    "Zhejiang Dahua Technology Co., Ltd.",
+    "Federal Communications Commission"
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-21-309A1.pdf",
    "source_copy_public": true,
