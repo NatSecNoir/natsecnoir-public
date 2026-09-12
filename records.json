@@ -1,5 +1,5 @@
 {
- "count": 57,
+ "count": 58,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -633,6 +633,53 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:54:21Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-10-record-bc9ec0",
+   "status": "approved",
+   "ingested_at": "2026-09-10T00:09:57Z",
+   "title": "Submarine Cable 2nd Report and Order and 2nd Further Notice",
+   "issuing_body": "FCC",
+   "doc_type": "report and order",
+   "doc_date": "2026-06-25",
+   "docket": "OI Docket No. 24-523, MD Docket No. 24-524",
+   "lists": [
+    "team-telecom"
+   ],
+   "entities": [
+    "FCC",
+    "U.S. Department of State",
+    "U.S. Department of Homeland Security",
+    "U.S. Department of Justice",
+    "U.S. Department of Defense",
+    "Committee for the Assessment of Foreign Participation in the United States Telecommunications Services Sector (Team Telecom)",
+    "Anthropic",
+    "Microsoft",
+    "Crosslake Fiber USA, LP",
+    "Lockheed Martin Corporation",
+    "Hornbeck Offshore Services, LLC",
+    "North American Submarine Cable Association",
+    "International Connectivity Coalition",
+    "Telecommunications Industry Association",
+    "National Telecommunications and Information Administration"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-42A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "bc9ec019e821de8d1a8534f480159fa64ddcc4161053aa4ecaf0923f57daf378",
+   "approved_at": "2026-09-12T20:05:40Z",
+   "published_at": "2026-09-12T20:05:40Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-12T20:02:41Z",
    "files": [
     "meta.json",
     "summary.md",
