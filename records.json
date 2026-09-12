@@ -147,7 +147,7 @@
    "issuing_body": "House China Committee",
    "doc_type": "report",
    "doc_date": "2026-08-04",
-   "docket": "",
+   "docket": "NA",
    "lists": [
     "covered-list",
     "team-telecom",
@@ -160,7 +160,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "68a524c1b816ba4319ecffd578d8cf70c9b7d22838b17ee96dd700f2d12059bc",
-   "approved_at": "2026-09-12T20:51:39Z",
+   "approved_at": "2026-09-12T20:53:28Z",
    "published_at": "2026-09-12T20:51:44Z",
    "reason": "",
    "error": "",
