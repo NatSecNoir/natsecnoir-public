@@ -1,0 +1,110 @@
+---
+layout: base.njk
+nav: record
+permalink: /analyses/supply-chain-watch-lists/
+title: Supply-Chain Watch Lists
+description: One deduped ledger of U.S. government restricted-entity lists, assembled only from authoritative U.S. government sources.
+---
+<article class="ledger-page">
+  <div class="crumb"><a href="/">Feed</a></div>
+  <h1>USG Supply Chain Watch Lists</h1>
+  <p class="sub">One deduped ledger — authoritative U.S. government
+    (<code>.gov</code>/<code>.mil</code>) sources only.</p>
+
+{% if not ledger.present %}
+  <p class="empty">The ledger has not been published yet.</p>
+{% else %}
+  <details class="prov" aria-label="Sources and currency">
+    <summary>Sources, authorities &amp; definitions — {{ ledger.lists | length }} lists · compiled {{ ledger.compiled_at | head(10) }}</summary>
+    {% for l in ledger.lists %}
+    <div class="row">
+      <div><span class="lbl">{{ l.label }}</span>
+        <span class="meta"> — {{ l.authority_cite }}</span>
+        {% if l.gloss %}<div class="gloss">{{ l.gloss }}</div>{% endif %}
+        {% if l.newer_notice_date %}<span class="stale"> · newer notice detected on {{ l.newer_notice_date }} — awaiting re-snapshot</span>
+        {% elif not l.currency_date %}<span class="stale"> · currency date pending human check</span>{% endif %}
+      </div>
+      <div class="meta">
+        {% if l.currency_date %}as of {{ l.currency_date }} · {% endif %}
+        {% set href = l.source_url | govsource %}
+        {% if href %}<a href="{{ href }}" target="_blank" rel="noopener noreferrer">source ({{ l.count }})</a>
+        {% else %}source ({{ l.count }}){% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    {% if ledger.newest_archive %}
+    <div class="row"><div class="meta">Download a self-contained snapshot that opens offline.</div>
+      <div class="meta"><a href="/ledger/archive/{{ ledger.newest_archive }}" download>Download archive ({{ ledger.newest_archive }})</a></div></div>
+    {% endif %}
+  </details>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by name, aka, country, or list…" aria-label="Filter entities">
+    <div class="chips" role="group" aria-label="Filter by list">
+      {% for l in ledger.lists %}
+      <button class="chip {{ l.chip_class }}" data-list="{{ l.slug }}" aria-pressed="false">{{ l.label }}</button>
+      {% endfor %}
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="scroll">
+  <table id="ledger">
+    <colgroup>
+      <col style="width:22%"><col style="width:18%"><col style="width:9%"><col style="width:18%">
+      <col style="width:10%"><col style="width:13%"><col style="width:10%">
+    </colgroup>
+    <thead><tr>
+      <th data-key="canonical" aria-sort="ascending"><span class="lab">Entity</span></th>
+      <th data-key="aka"><span class="lab">AKA</span></th>
+      <th data-key="country"><span class="lab">Country</span></th>
+      <th data-key="lists"><span class="lab">Source list</span></th>
+      <th data-key="added"><span class="lab">Added</span></th>
+      <th data-key="cite"><span class="lab">Cite</span></th>
+      <th data-key="source"><span class="lab">Source</span></th>
+    </tr></thead>
+    <tbody>
+    {% for e in ledger.entities %}
+      {% set first = e.memberships[0] if e.memberships else none %}
+      <tr class="row {{ 'former' if e.formerly_listed }}"
+          data-search="{{ e.search }}"
+          data-lists="{{ e.list_slugs }}">
+        <td>
+          <button class="expand" aria-expanded="false" aria-label="Toggle details">details</button>
+          {{ e.canonical }}
+          {% if e.verified %}<span class="vchk" title="Human-checked {{ e.verified.date }} — correct as listed{% if e.verified.note %}: {{ e.verified.note }}{% endif %}">✓</span>{% endif %}
+          {% if e.formerly_listed %}<span class="basis"> (formerly listed{% if e.last_archive %} —
+            <a href="/ledger/{{ e.last_archive }}">last archive</a>{% endif %})</span>{% endif %}
+          {% if e.subsidiaries_note %}<div class="basis">Includes named subsidiaries and affiliates:
+            {{ e.subsidiaries | join(', ') }}.</div>{% endif %}
+        </td>
+        <td>{{ e.aka | join(', ') }}</td>
+        <td>{{ e.country }}</td>
+        <td>{% for m in e.memberships %}<span class="tag">{{ m.list }}</span>{% endfor %}</td>
+        <td>{{ e.date_added_first }}</td>
+        <td>{% if first %}{{ first.cite | frcite | safe }}{% endif %}</td>
+        <td>{% set href = first.source_url | govsource if first else '' %}{% if href %}<a href="{{ href }}" target="_blank" rel="noopener noreferrer">source</a>{% endif %}</td>
+      </tr>
+      <tr class="detail" hidden><td colspan="7">
+        <ul>
+        {% for m in e.memberships %}
+          <li><strong>{{ m.list }}</strong>
+            {% if m.category %}· {{ m.category }}{% endif %}
+            {% if m.date_added %}· added {{ m.date_added }}{% endif %}
+            {% if m.cite %}· {{ m.cite | frcite | safe }}{% endif %}
+            <span class="basis">· {{ m.listing_basis }}{% if m.basis_note %} ({{ m.basis_note }}){% endif %}</span>
+            {% if m.verified %}<span class="vchk">· ✓ human-checked {{ m.verified.date }} — correct as listed{% if m.verified.note %}: {{ m.verified.note }}{% endif %}</span>{% endif %}
+            {% set href = m.source_url | govsource %}
+            {% if href %}· <a href="{{ href }}" target="_blank" rel="noopener noreferrer">source</a>{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </td></tr>
+    {% endfor %}
+      <tr class="noresults" hidden><td colspan="7">No entities match the current filter.</td></tr>
+    </tbody>
+  </table>
+  </div>
+{% endif %}
+</article>
+<script src="/js/ledger.js" defer></script>

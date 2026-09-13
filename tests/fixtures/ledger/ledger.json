@@ -1,0 +1,44 @@
+{
+  "schema": "natsecnoir/ledger@1",
+  "compiled_at": "2026-09-12T00:00:00+00:00",
+  "lists": [
+    {
+      "slug": "covered-list", "label": "FCC Covered List", "chip_class": "chip-covered",
+      "gloss": "Equipment and services the FCC has found to pose an unacceptable risk.",
+      "authority_cite": "47 U.S.C. § 1601",
+      "source_url": "https://www.fcc.gov/supplychain/coveredlist",
+      "currency_date": "2026-06-01", "count": 1
+    },
+    {
+      "slug": "1260h", "label": "DoD 1260H", "chip_class": "chip-1260h",
+      "gloss": "Department of Defense list of Chinese military companies.",
+      "authority_cite": "FY21 NDAA § 1260H",
+      "source_url": "https://media.defense.gov/2026/1260h-list.pdf",
+      "currency_date": "2026-01-31", "newer_notice_date": "2026-09-01", "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "canonical": "Huawei Technologies Co., Ltd.", "aka": ["Huawei"], "country": "China",
+      "subsidiaries": ["HiSilicon"], "subsidiaries_note": true,
+      "memberships": [{"list": "covered-list", "category": "Telecom", "date_added": "2021-03-12",
+                       "cite": "FCC Covered List", "listing_basis": "direct",
+                       "source_url": "https://www.fcc.gov/supplychain/coveredlist"}],
+      "search": "huawei technologies co., ltd. huawei china fcc covered list"
+    },
+    {
+      "canonical": "Inspur Group Co., Ltd.", "aka": [], "country": "China",
+      "subsidiaries": [], "subsidiaries_note": false,
+      "memberships": [{"list": "1260h", "category": "", "date_added": "2023-01-31",
+                       "cite": "1260H List", "listing_basis": "direct",
+                       "source_url": "https://media.defense.gov/2026/1260h-list.pdf"}],
+      "search": "inspur group co., ltd. china dod 1260h"
+    },
+    {
+      "canonical": "Delisted Example Corp", "aka": [], "country": "China",
+      "subsidiaries": [], "subsidiaries_note": false,
+      "memberships": [], "formerly_listed": true, "last_archive": "archive/2026-06-01.html",
+      "search": "delisted example corp china"
+    }
+  ]
+}
