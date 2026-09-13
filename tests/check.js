@@ -7,24 +7,29 @@ import path from "node:path";
 import assert from "node:assert/strict";
 
 const root = path.resolve(import.meta.dirname, "..");
-function build(recordsDir, analysesDir, out) {
+function build(recordsDir, analysesDir, ledgerDir, out) {
   fs.rmSync(out, { recursive: true, force: true });
   execFileSync("npx", ["eleventy", "--quiet"], { cwd: root, stdio: "inherit",
-    env: { ...process.env, RECORDS_DIR: recordsDir, ANALYSES_DIR: analysesDir, OUTPUT_DIR: out } });
+    env: { ...process.env, RECORDS_DIR: recordsDir, ANALYSES_DIR: analysesDir, LEDGER_DIR: ledgerDir, OUTPUT_DIR: out } });
 }
 const outEmpty = path.join(root, "tests/_out/empty");
 const outFix = path.join(root, "tests/_out/fixtures");
 const empty = path.join(root, "tests/_out/no-records");
 const noAnalyses = path.join(root, "tests/_out/no-analyses");
+const noLedger = path.join(root, "tests/_out/no-ledger");
 fs.mkdirSync(empty, { recursive: true });
 
-build(empty, noAnalyses, outEmpty);
+build(empty, noAnalyses, noLedger, outEmpty);
 const home = fs.readFileSync(path.join(outEmpty, "index.html"), "utf8");
 assert.match(home, /No records yet/);
 assert.ok(fs.existsSync(path.join(outEmpty, "feed.xml")), "feed.xml with zero records");
 assert.ok(fs.existsSync(path.join(outEmpty, "by/list/index.html")), "list hub with zero records");
+// The ledger page builds even with no ledger published, showing the not-yet-published state.
+const ledgerEmpty = fs.readFileSync(path.join(outEmpty, "analyses/supply-chain-watch-lists/index.html"), "utf8");
+assert.match(ledgerEmpty, /has not been published yet/, "ledger page has an empty state");
 
-build(path.join(root, "tests/fixtures/records"), path.join(root, "tests/fixtures/analyses"), outFix);
+build(path.join(root, "tests/fixtures/records"), path.join(root, "tests/fixtures/analyses"),
+      path.join(root, "tests/fixtures/ledger"), outFix);
 const page = fs.readFileSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/index.html"), "utf8");
 assert.match(page, /https:\/\/example\.org\/order\.pdf/, "links to the source URL");
 assert.match(page, /barring untrusted labs/, "shows the summary");
@@ -49,4 +54,45 @@ assert.match(analysis, /A fixture footnote/, "footnotes render");
 assert.ok(fs.existsSync(path.join(outFix, "analyses/fixture-analysis/mesh.json")), "mesh.json is published beside the page");
 assert.match(feedIdx, /class="tag analysis">Analysis<\/span> <a href="\/analyses\/fixture-analysis\/"/, "analysis is badged in the feed");
 assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-bbbbbb"), "analysis interleaves by date");
+
+// ---- ledger page (U6/U7) ----
+const ledgerPath = path.join(outFix, "analyses/supply-chain-watch-lists/index.html");
+const ledger = fs.readFileSync(ledgerPath, "utf8");
+const led = JSON.parse(fs.readFileSync(path.join(root, "tests/fixtures/ledger/ledger.json"), "utf8"));
+// One <tr class="row"> per canonical entity in ledger.json.
+const rowCount = (ledger.match(/<tr class="row/g) || []).length;
+assert.equal(rowCount, led.entities.length, "one table row per canonical entity");
+// Each list produces a provenance entry with its currency date and a .gov/.mil source link.
+assert.match(ledger, /FCC Covered List/, "list label in the provenance strip");
+assert.match(ledger, /as of 2026-06-01/, "list currency date is shown");
+assert.match(ledger, /href="https:\/\/www\.fcc\.gov\/supplychain\/coveredlist"/, "a .gov source link");
+assert.match(ledger, /href="https:\/\/media\.defense\.gov\/2026\/1260h-list\.pdf"/, "a .mil source link");
+// Download-archive link points at a ledger/archive/*.html that exists in the output.
+const dl = ledger.match(/href="(\/ledger\/archive\/[^"]+\.html)" download/);
+assert.ok(dl, "a Download-archive link is rendered");
+assert.equal(dl[1], "/ledger/archive/2026-09-12.html", "download link points at the newest archive");
+assert.ok(fs.existsSync(path.join(outFix, dl[1].slice(1))), "the downloadable archive exists in the output");
+// A whitespace-flattened copy for markers that wrap across template lines.
+const flat = ledger.replace(/\s+/g, " ");
+// subsidiaries_note renders the standing note.
+assert.match(flat, /Includes named subsidiaries and affiliates: HiSilicon\./, "subsidiaries note renders");
+// A no-results row exists (controls stay usable; JS toggles it).
+assert.match(ledger, /class="noresults"[^>]*>\s*<td[^>]*>No entities match/, "no-results row is present");
+// A list flagged-but-not-resnapshotted shows the awaiting-re-snapshot marker.
+assert.match(flat, /newer notice detected on 2026-09-01 — awaiting re-snapshot/, "awaiting-re-snapshot marker");
+// An entity dropped from all lists renders the formerly-listed marker with a last-archive link.
+assert.match(flat, /formerly listed — <a href="\/ledger\/archive\/2026-06-01\.html">last archive<\/a>/, "formerly-listed marker with last-archive link");
+// Every absolute source href in the ledger article is https on the .gov/.mil allowlist (the base
+// layout's own links — newsletter, repo — are outside the article and not source links).
+const article = ledger.slice(ledger.indexOf('<article class="ledger-page">'), ledger.indexOf("</article>"));
+for (const m of article.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
+  const u = new URL(m[1]);
+  assert.ok(u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname), `source link is on the .gov/.mil allowlist: ${m[1]}`);
+}
+// The interaction script is wired up and shipped.
+assert.match(ledger, /<script src="\/js\/ledger\.js" defer><\/script>/, "ledger.js is referenced");
+assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is published");
+// Graceful degradation: without JS every entity row is present (not hidden) and source links resolve.
+assert.doesNotMatch(ledger, /<tr class="row[^"]*" hidden/, "rows are visible without JS");
+
 console.log("site check: ok");
