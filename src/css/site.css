@@ -133,3 +133,42 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .methodology { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-3); }
 .methodology a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
 .methodology a:hover { color: var(--accent); }
+
+/* Ledger page (/analyses/supply-chain-watch-lists/). One deduped table of U.S. government
+   restricted-entity lists; shares the site palette. Everything is scoped under .ledger-page so the
+   table's .tag/.count/.meta rules don't collide with the feed's. Look after mockups/front-B-ledger.html. */
+.ledger-page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 64px; }
+.ledger-page .crumb { font-size: 14px; margin: 0 0 10px; }
+.ledger-page h1 { font: 800 clamp(26px, 4vw, 34px) var(--display); color: var(--brand-ink); letter-spacing: -.01em; margin: 0 0 8px; }
+.ledger-page .sub { color: var(--ink-3); font-size: 14px; margin: 0 0 20px; max-width: 720px; }
+.ledger-page .empty { color: var(--ink-3); }
+.ledger-page .prov { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--band);
+  padding: 16px; margin: 0 0 20px; display: grid; gap: 12px; }
+.ledger-page .prov .row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: baseline; font-size: 14px; }
+.ledger-page .prov .lbl { color: var(--brand-ink); font-weight: 600; }
+.ledger-page .prov .meta { color: var(--ink-2); font-size: 14px; display: block; }
+.ledger-page .prov .gloss { color: var(--ink-3); font-size: 13px; margin-top: 3px; }
+.ledger-page .stale { color: #F2C572; font-size: 13px; }
+.ledger-page .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 16px; }
+.ledger-page .controls input { flex: 1 1 260px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2);
+  color: var(--ink); font: 15px var(--body); padding: 8px 11px; }
+.ledger-page .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ledger-page .chip { background: transparent; border: 1px solid var(--rule2); color: var(--ink-2); font: 13px var(--body);
+  padding: 5px 11px; border-radius: 999px; cursor: pointer; }
+.ledger-page .chip[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.ledger-page .count { color: var(--ink-3); font-size: 13px; }
+.ledger-page .scroll { overflow-x: auto; border: 1px solid var(--rule); }
+.ledger-page table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 14px; }
+.ledger-page th, .ledger-page td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger-page th { position: sticky; top: 0; background: #0A1828; color: var(--brand-ink); font-weight: 600; cursor: pointer; white-space: nowrap; }
+.ledger-page th[aria-sort="ascending"]::after { content: " ▲"; color: var(--accent); }
+.ledger-page th[aria-sort="descending"]::after { content: " ▼"; color: var(--accent); }
+.ledger-page tr.detail > td { background: rgba(5,12,22,.5); color: var(--ink-2); font-size: 13px; }
+.ledger-page tr.detail ul { margin: 4px 0; padding-left: 18px; }
+.ledger-page .tag { display: inline-block; background: rgba(143,221,234,.14); border: 1px solid var(--rule2); color: var(--accent);
+  font-size: 12px; padding: 1px 7px; border-radius: 4px; margin: 1px 3px 1px 0; white-space: nowrap; }
+.ledger-page .basis { color: #C9B8F2; font-size: 13px; }
+.ledger-page .expand { background: transparent; border: 1px solid var(--rule); color: var(--ink-2); cursor: pointer;
+  font: 12px var(--body); padding: 2px 8px; border-radius: 4px; margin-right: 6px; }
+.ledger-page tr.former { opacity: .6; font-style: italic; }
+.ledger-page tr.noresults td { color: var(--ink-3); text-align: center; padding: 22px; }
