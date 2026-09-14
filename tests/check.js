@@ -52,7 +52,7 @@ assert.match(analysis, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/, "raw HTML in 
 assert.match(analysis, /href="https:\/\/example\.org\/da-26-0\.pdf#page=3"/, "citation links to the page anchor");
 assert.match(analysis, /A fixture footnote/, "footnotes render");
 assert.ok(fs.existsSync(path.join(outFix, "analyses/fixture-analysis/mesh.json")), "mesh.json is published beside the page");
-assert.match(feedIdx, /class="tag analysis">Analysis<\/span> <a href="\/analyses\/fixture-analysis\/"/, "analysis is badged in the feed");
+assert.match(feedIdx, /class="item analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?href="\/analyses\/fixture-analysis\/"/, "analysis is badged in the feed");
 assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-bbbbbb"), "analysis interleaves by date");
 
 // ---- ledger page (U6/U7) ----
