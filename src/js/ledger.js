@@ -112,12 +112,20 @@
     function store() {
       try { localStorage.setItem(STORE, JSON.stringify(cols.map(function (c) { return parseFloat(c.style.width) || 0; }))); } catch (e) {}
     }
+    var last = cols.length - 1;
     var init = saved();
-    if (init && init.length === cols.length && init.every(function (w) { return w > 0; })) {
-      cols.forEach(function (c, i) { c.style.width = init[i] + "px"; });
+    if (init && init.length === cols.length) {
+      // Restore every column but the last as a fixed width; the last stays
+      // auto so it absorbs any slack and the table always fills 100%.
+      cols.forEach(function (c, i) { if (i < last && init[i] > 0) c.style.width = init[i] + "px"; });
     }
     function freeze() {
-      ths.forEach(function (th, i) { cols[i].style.width = th.getBoundingClientRect().width + "px"; });
+      // Pin every column except the last to its current pixel width. Leaving
+      // the last auto lets it soak up freed space when a column shrinks, so
+      // the table never ends up narrower than the page — and overflows into
+      // the scroll wrapper when a column grows past the available width.
+      ths.forEach(function (th, i) { if (i < last) cols[i].style.width = th.getBoundingClientRect().width + "px"; });
+      cols[last].style.width = "";
     }
     ths.forEach(function (th, i) {
       var grip = document.createElement("span");
