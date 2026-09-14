@@ -1,0 +1,13 @@
+---
+layout: base.njk
+nav: analysis
+permalink: /analyses/
+title: Analysis
+---
+<div class="shead"><h2>Analysis</h2><span class="n">{{ analyses.all.length + 1 }}</span></div>
+<div class="groups">
+{% for a in analyses.all %}
+  <a class="group" href="{{ a.url }}"><span class="gl">{{ a.title }}</span><span class="gn">{{ a.entries.length }}</span>{% if a.excerpt %}<span class="gg">{{ a.excerpt }}</span>{% endif %}</a>
+{% endfor %}
+  <a class="group" href="/analyses/supply-chain-watch-lists/"><span class="gl">Supply-Chain Watch Lists</span>{% if ledger.present %}<span class="gn">{{ ledger.lists | length }}</span>{% endif %}<span class="gg">One deduped ledger of U.S. government restricted-entity lists, assembled only from authoritative U.S. government sources.</span></a>
+</div>
