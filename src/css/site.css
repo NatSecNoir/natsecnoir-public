@@ -1,92 +1,101 @@
-/* NatSec Noir public site. Source of truth for the look is mockups/front-B-ledger.html in the corpus repo; keep in step. */
-:root { --bg:#050C16; --card:rgba(10,24,40,.55); --band:rgba(10,24,40,.6); --ink:#E3EDF3; --ink-2:rgba(227,237,243,.78); --ink-3:rgba(227,237,243,.5);
-  --rule:rgba(140,190,215,.22); --rule2:rgba(140,190,215,.45); --rule-bright:rgba(220,240,250,.62); --rule-glow:rgba(150,220,240,.5);
-  --accent:#8FDDEA; --accent-glow:rgba(143,221,234,.45); --neon:#B98CFF; --neon-wash:rgba(120,150,255,.22); --mint:#9CE8D8;
-  --brand-ink:#F2FAFF; --glow1:rgba(160,225,240,.55); --glow2:rgba(120,190,230,.35); --card-sheen:rgba(143,221,234,.10);
-  --display:"Archivo","Helvetica Neue",Arial,sans-serif; --body:"Manrope",Helvetica,Arial,sans-serif; --brand:"Limelight",Georgia,serif; }
+/* NatSec Noir public site — iteration-11 identity. Tokens + system are documented in
+   mockups/NatSec-Noir-Design-Guide.html; the front page mirrors mockups/v11.html. Keep in step. */
+:root {
+  --bg:#0B0C0F; --panel:#121317;
+  --ink:#ECF0F3; --dim:#A9B2BA; --ash:rgba(236,240,243,.5);
+  --accent:#4BB394; --jade:#1E6B58; --vermilion:#C4432F;
+  --hair:rgba(75,179,148,.2); --hair2:rgba(75,179,148,.34); --hair3:rgba(75,179,148,.55);
+  --mast:"Poiret One","Josefin Sans","Century Gothic",sans-serif;
+  --serif:"EB Garamond",Garamond,Georgia,serif;
+  --mono:"Courier Prime","Courier New",Courier,monospace;
+  --measure:830px; --refcol:118px; --gut:32px;
+  /* compatibility aliases: the record/analysis/watch-list component CSS below still uses the old names */
+  --ink-2:var(--dim); --ink-3:var(--ash); --rule:var(--hair); --rule2:var(--hair2); --rule-bright:var(--hair3); --rule-glow:var(--hair3);
+  --accent-glow:var(--hair2); --band:var(--panel); --card:var(--panel); --card-sheen:var(--hair); --brand-ink:var(--ink);
+  --glow1:transparent; --glow2:transparent; --neon:var(--accent); --neon-wash:var(--hair); --mint:#7FE0A8; --rose:#F2A6B8;
+  --display:var(--serif); --body:var(--serif); --brand:var(--mast); }
 * { box-sizing: border-box; }
-html { color-scheme: dark; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+html { color-scheme: dark; background: var(--bg); }
+body { margin: 0; min-height: 100vh; position: relative; background: var(--bg); color: var(--ink); font: 18px/1.5 var(--body); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  background-image: radial-gradient(120% 90% at 50% 30%, transparent 50%, rgba(0,0,0,.6)); background-repeat: no-repeat; }
+/* soft film grain over the whole page — pointer-events none so it never blocks clicks */
+body::before { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 50; opacity: .08; mix-blend-mode: screen;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
 a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
-a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* small caps and mono numeral helpers, per the design guide's "labels as small caps, dates in mono" */
+.sc { font-family: var(--serif); text-transform: uppercase; letter-spacing: .1em; font-size: .78em; }
+.date { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: 0; }
 
-/* The room continues under the whole page: the masthead's two panels, blurred and cooled, pinned behind everything.
-   Lanterns on the left, skyline on the right, a soft fade where they meet. Knobs: blur radius, brightness, and the veil below. */
-.room { position: fixed; inset: -3%; z-index: -3; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; background: #030608;
-  filter: blur(3px) saturate(.6) hue-rotate(-28deg) brightness(.72) contrast(1.08); pointer-events: none; }
-/* four crops of the two masthead panels, chosen for the room rather than the people: lanterns and smoke, the table lamp
-   and coupes, the sign and the Bund, the palm and lantern by the window. Edges fade so the tiles read as one scene. */
-.room span { display: block; background-repeat: no-repeat; mask: radial-gradient(ellipse 100% 100% at 50% 50%, #000 55%, rgba(0,0,0,.2) 100%); -webkit-mask: radial-gradient(ellipse 100% 100% at 50% 50%, #000 55%, rgba(0,0,0,.2) 100%); }
-.room .r1 { background: url("/img/banner-left.jpg") 50% 12% / 150% auto no-repeat; }
-.room .r2 { background: url("/img/banner-right.jpg") 55% 40% / 160% auto no-repeat; }
-.room .r3 { background: url("/img/banner-left.jpg") 80% 82% / 190% auto no-repeat; }
-.room .r4 { background: url("/img/banner-right.jpg") 100% 12% / 200% auto no-repeat; }
-.roomveil { position: fixed; inset: 0; z-index: -2; pointer-events: none; background: linear-gradient(180deg, rgba(5,12,22,.18), rgba(5,12,22,.3)); }
+/* Nameplate: the wordmark on the page ground (Poiret One), a single italic tagline. No photo. */
+.plate { text-align: center; padding: 60px 0 0; }
+.plate .mark { display: block; margin: 0; font: 400 clamp(40px, 5vw, 68px)/1 var(--mast); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
+.plate .mark a { color: inherit; } .plate .mark a:hover { text-decoration: none; }
+.plate .mark .w2 { margin-left: .06em; }
+.plate .tag { max-width: var(--measure); margin: 18px auto 0; padding: 0 var(--gut) 9px; font: italic 400 19px/1.4 var(--serif); color: var(--ink); opacity: .85; text-wrap: balance; }
 
-/* Banner: the club scene runs full-bleed; the dark centre of the picture is where the name sits. */
-.banner { position: relative; isolation: isolate; text-align: center; overflow: hidden; }
-.banner .pic { position: absolute; inset: 0; z-index: -2; display: grid; grid-template-columns: 1fr min(var(--mast-mid, 600px), 100%) 1fr; background: transparent;
-  filter: saturate(.55) hue-rotate(-28deg) contrast(1.06) brightness(.92); }
-/* the club scene is two side panels around a fixed dark centre: the centre holds the name at a set width, the panels
-   take whatever is left and show more of the room as the window widens (cover, anchored outward, inner edge faded) */
-.banner .pic::before, .banner .pic::after { content: ""; display: block; background: url("/img/banner-left.jpg") center 45% / cover no-repeat;
-  mask: linear-gradient(90deg, #000 70%, transparent 100%); -webkit-mask: linear-gradient(90deg, #000 70%, transparent 100%); }
-.banner .pic::after { grid-column: 3; background-image: url("/img/banner-right.jpg"); mask: linear-gradient(270deg, #000 70%, transparent 100%); -webkit-mask: linear-gradient(270deg, #000 70%, transparent 100%); }
-.banner .wash { position: absolute; inset: 0; z-index: -1; background:
-  linear-gradient(180deg, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 62%, rgba(5,12,22,.45) 100%),
-  radial-gradient(48% 70% at 50% 46%, rgba(3,9,18,.84) 0%, transparent 100%),
-  linear-gradient(180deg, rgba(40,110,150,.22), rgba(6,14,26,.42)); }
-.banner .in { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; padding: clamp(56px, 9vw, 96px) 20px 0; }
-.thin { border: 0; height: 1px; background: var(--rule-bright); width: min(100%, 520px); margin: 0 auto; }
-.thin.b { box-shadow: 0 0 10px var(--rule-glow); }
-.banner .brand { display: block; padding: 20px 0 18px; font: 400 clamp(40px, 7vw, 64px)/1 var(--brand); letter-spacing: .04em; color: var(--brand-ink);
-  text-shadow: 0 2px 0 rgba(0,0,0,.55), 0 0 64px var(--glow2), 0 6px 28px rgba(0,0,0,.85); -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
-.banner .brand .w2 { margin-left: .22em; }
-.banner .tag { font-size: 15px; color: var(--ink-2); max-width: 500px; margin: 16px auto 0; text-shadow: 0 1px 12px rgba(0,0,0,.9); text-wrap: balance; }
-.banner nav { margin: clamp(48px, 8vw, 84px) auto 0; padding: 13px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); max-width: 760px;
-  display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; font-size: 15px; background: rgba(5,12,22,.5); backdrop-filter: blur(10px); }
-.banner nav a { color: var(--ink); } .banner nav a:hover, .banner nav a.on { color: var(--accent); text-decoration: none; }
-.banner .brand { cursor: default; }
-.banner .brand:hover, .banner .brand:focus-visible { text-decoration: none; color: var(--brand-ink); }
-.banner nav a.on { text-shadow: 0 0 10px var(--accent-glow); }
+/* Sticky nav strip: a gold double-hairline band. Links left, "Updated <date>" right. Subscribe lives in the letter. */
+.strip { position: sticky; top: 0; z-index: 5; margin-top: 8px; background: rgba(11,12,15,.93); backdrop-filter: blur(8px);
+  border-top: 1px solid var(--hair3); border-bottom: 1px solid var(--hair2); box-shadow: 0 -5px 0 0 var(--bg), 0 -8px 0 0 var(--hair3); }
+.strip .wrap { display: flex; align-items: stretch; gap: 24px; font-size: 17px; }
+.strip .nav { display: flex; gap: 26px; flex-wrap: wrap; }
+.strip a { display: inline-flex; align-items: center; padding: 13px 0; color: var(--dim); }
+.strip a:hover { color: var(--ink); text-decoration: none; }
+.strip a.on { color: var(--ink); position: relative; }
+.strip a.on::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--accent); }
+.strip .dl { display: flex; align-items: center; color: var(--dim); margin-left: auto; }
+.strip .dl .date { font-size: 12px; margin-left: .5em; }
+@media (max-width: 820px) { .strip .dl { display: none; } }
 
-main, footer .in { max-width: 760px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+.wrap, main { max-width: var(--measure); margin: 0 auto; padding-left: var(--gut); padding-right: var(--gut); }
 main { padding-bottom: 40px; }
 .shead { display: flex; align-items: baseline; justify-content: space-between; padding: 36px 0 12px; border-bottom: 1px solid var(--rule); margin-bottom: 14px; }
 .shead h2 { font: 800 20px var(--display); letter-spacing: -.01em; margin: 0; }
 .shead a { font-size: 15px; border-bottom: 1px solid var(--rule); }
 .meta { font-size: 14px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 18px; font-variant-numeric: tabular-nums; }
 .meta .k { color: var(--accent); letter-spacing: .02em; }
-/* The ledger: no boxes. Records are entries separated by hairlines, date in a right column, the newest set larger.
-   A soft-edged scrim under the column keeps text readable over the room. */
-main { position: relative; }
-main::before { content: ""; position: absolute; inset: 0 -56px; z-index: -1; pointer-events: none;
-  background: linear-gradient(90deg, transparent, rgba(5,12,22,.5) 56px, rgba(5,12,22,.5) calc(100% - 56px), transparent),
-              linear-gradient(180deg, transparent, rgba(5,12,22,.15) 140px); }
-.feed .item h2 a, .feed .item p, .shead h2 { text-shadow: 0 1px 10px rgba(0,0,0,.85); }
-.feed { display: block; }
-.feed .item { display: grid; grid-template-columns: 1fr 96px; gap: 6px 24px; padding: 20px 0; border-bottom: 1px solid var(--rule); transition: border-color .3s; }
-.feed .item:hover { border-bottom-color: var(--rule2); }
-.feed .item h2 { grid-column: 1; font: 800 22px/1.15 var(--display); letter-spacing: -.015em; margin: 0; text-wrap: balance; } .feed .item h2 a { color: var(--ink); }
-.feed .item h2 a:hover { color: var(--accent); text-decoration: none; }
-.feed .item .when { grid-column: 2; grid-row: 1; text-align: right; font-size: 14px; color: var(--ink-3); font-variant-numeric: tabular-nums; padding-top: 5px; }
-.feed .item .meta { grid-column: 1; margin-bottom: 0; }
-.feed .item p { grid-column: 1; margin: 2px 0 0; color: var(--ink-2); font-size: 16px; }
-.feed .item.top { padding: 26px 0 28px; }
-.feed .item.top h2 { font-size: 30px; }
-.feed .item.top p { font-size: 17px; }
-@media (max-width: 560px) { .feed .item { grid-template-columns: 1fr; } .feed .item .when { grid-column: 1; grid-row: auto; text-align: left; padding-top: 0; } }
-.lists { color: var(--ink-3); }
-.letter { margin-top: 48px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--band); backdrop-filter: blur(12px); padding: 26px 24px; display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
-.letter h2 { font: 800 22px var(--display); margin: 0; } .letter p { color: var(--ink-2); font-size: 15px; margin: 4px 0 0; }
-.letter form { display: flex; border: 1px solid var(--rule2); }
-.letter input { width: 240px; padding: 11px 14px; background: transparent; border: 0; color: var(--ink); font: 15px var(--body); } .letter input::placeholder { color: var(--ink-3); } .letter input:focus { outline: 0; }
-.letter button { padding: 11px 18px; border: 0; border-left: 1px solid var(--rule2); background: var(--accent); color: var(--bg); font: 600 15px var(--body); cursor: pointer; }
-footer { color: var(--ink-3); font-size: 14px; }
-footer .in { padding: 24px 20px 50px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: space-between; }
-footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
-@media (max-width: 720px) { .letter { grid-template-columns: 1fr; } .letter form, .letter input { width: 100%; } }
-@media (prefers-reduced-motion: reduce) { .feed .item { transition: none; } }
+/* The ledger: no boxes, no lead story — records are equals, separated by 56px of space, with a
+   hairline down the margin column that carries the mono date + docket. Summaries clamp to 2 lines. */
+.ledger { position: relative; margin-top: 44px; }
+.ledger::before { content: ""; position: absolute; top: 0; bottom: 0; left: var(--refcol); width: 1px; background: var(--hair); }
+.item { display: grid; grid-template-columns: var(--refcol) 1fr; grid-template-rows: auto auto auto; column-gap: var(--gut); align-items: baseline; padding: 0 0 56px; }
+.item[hidden] { display: none; }
+.item .slug { grid-column: 2; grid-row: 1; color: var(--dim); font-size: 16px; }
+.item .slug .type { color: var(--dim); }
+.item .slug .sep { margin: 0 .5em; color: var(--hair3); }
+.item .slug .tag { color: var(--ink); }
+.item .slug .bad { color: var(--vermilion); }
+.item .ref { grid-column: 1; grid-row: 1 / span 2; align-self: start; padding-right: 14px; padding-top: 3px; color: var(--ash); font-size: 14px; line-height: 1.55; }
+.item .ref .date { color: var(--ink); display: block; }
+.item h3 { grid-column: 2; grid-row: 2; margin: 12px 0 0; max-width: 640px; text-wrap: balance; font: 500 34px/1.12 var(--serif); letter-spacing: -.006em; color: var(--ink); }
+.item h3 a { color: var(--ink); }
+.item h3 a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 5px; text-decoration-thickness: 1px; }
+.item p { grid-column: 2; grid-row: 3; margin: 8px 0 0; max-width: 600px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--dim); font-size: 18px; line-height: 1.5; }
+@media (max-width: 640px) {
+  .ledger::before { display: none; }
+  .item { grid-template-columns: 1fr; grid-template-rows: auto auto auto auto; row-gap: 4px; }
+  .item .slug { grid-column: 1; grid-row: 1; } .item .ref { grid-column: 1; grid-row: 2; padding: 0; }
+  .item h3 { grid-column: 1; grid-row: 3; } .item p { grid-column: 1; grid-row: 4; }
+}
+.folio { display: flex; justify-content: space-between; align-items: baseline; padding: 16px 0 0; border-top: 1px solid var(--hair3); color: var(--dim); font-size: 16px; }
+.folio a { color: var(--dim); font-family: var(--serif); font-style: italic; text-transform: none; letter-spacing: 0; font-size: 17px; } .folio a:hover { color: var(--ink); }
+
+/* Newsletter: a gold double rule opens it; typeset form line, bordered jade button. */
+.letter { margin: 56px auto 0; }
+.letter .box { position: relative; border-top: 3px double var(--hair3); padding: 36px 0 56px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+.letter h2 { font: 600 16px/1 var(--serif); letter-spacing: .14em; text-transform: uppercase; margin: 0; color: var(--ink); }
+.letter p { color: var(--dim); font-size: 17px; margin: 10px 0 0; max-width: 50ch; }
+.letter form { display: flex; align-items: flex-end; gap: 18px; }
+.letter input { width: 220px; padding: 8px 2px; background: transparent; border: 0; border-bottom: 1px solid var(--hair3); color: var(--ink); font: 18px var(--serif); } .letter input::placeholder { color: var(--ash); } .letter input:focus { outline: 0; }
+.letter button { padding: 10px 20px 9px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font: 500 13px var(--serif); letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
+.letter button:hover { background: var(--jade); color: #fff; border-color: var(--jade); }
+@media (max-width: 720px) { .letter .box { grid-template-columns: 1fr; padding: 28px 0; } .letter form { flex-wrap: wrap; } .letter input { width: 100%; } }
+
+/* Colophon: one rule, one line. */
+footer { margin-top: 0; border-top: 1px solid var(--hair); color: var(--dim); font-size: 14px; }
+footer .wrap { display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; padding: 22px var(--gut) 72px; color: var(--dim); }
+footer a { color: var(--dim); } footer a:hover { color: var(--ink); }
+.lists { color: var(--ash); }
 
 /* pages beyond the mockup */
 .vh { position: absolute; left: -9999px; }
@@ -94,7 +103,7 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .crumb { padding-top: 28px; font-size: 14px; color: var(--ink-3); } .crumb a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
 .crumb + .shead { padding-top: 12px; }
 .gloss { color: var(--ink-2); font-size: 15px; margin: -4px 0 18px; }
-.filter { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 0 0 16px; }
+.filter { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; font-size: 14px; color: var(--ink-3); margin: 32px 0 0; }
 .filter input { flex: 1 1 260px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2); color: var(--ink); font: 15px var(--body); padding: 7px 10px; color-scheme: dark; }
 .filter input::placeholder { color: var(--ink-3); } .filter input:focus { outline: none; border-color: var(--accent); }
 .filter input::-webkit-search-cancel-button { -webkit-appearance: none; }
@@ -134,41 +143,76 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .methodology a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
 .methodology a:hover { color: var(--accent); }
 
-/* Ledger page (/analyses/supply-chain-watch-lists/). One deduped table of U.S. government
-   restricted-entity lists; shares the site palette. Everything is scoped under .ledger-page so the
-   table's .tag/.count/.meta rules don't collide with the feed's. Look after mockups/front-B-ledger.html. */
-.ledger-page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 64px; }
-.ledger-page .crumb { font-size: 14px; margin: 0 0 10px; }
-.ledger-page h1 { font: 800 clamp(26px, 4vw, 34px) var(--display); color: var(--brand-ink); letter-spacing: -.01em; margin: 0 0 8px; }
-.ledger-page .sub { color: var(--ink-3); font-size: 14px; margin: 0 0 20px; max-width: 720px; }
-.ledger-page .empty { color: var(--ink-3); }
-.ledger-page .prov { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--band);
-  padding: 16px; margin: 0 0 20px; display: grid; gap: 12px; }
-.ledger-page .prov .row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: baseline; font-size: 14px; }
-.ledger-page .prov .lbl { color: var(--brand-ink); font-weight: 600; }
-.ledger-page .prov .meta { color: var(--ink-2); font-size: 14px; display: block; }
-.ledger-page .prov .gloss { color: var(--ink-3); font-size: 13px; margin-top: 3px; }
-.ledger-page .stale { color: #F2C572; font-size: 13px; }
-.ledger-page .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 16px; }
-.ledger-page .controls input { flex: 1 1 260px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2);
-  color: var(--ink); font: 15px var(--body); padding: 8px 11px; }
-.ledger-page .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.ledger-page .chip { background: transparent; border: 1px solid var(--rule2); color: var(--ink-2); font: 13px var(--body);
-  padding: 5px 11px; border-radius: 999px; cursor: pointer; }
-.ledger-page .chip[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-.ledger-page .count { color: var(--ink-3); font-size: 13px; }
-.ledger-page .scroll { overflow-x: auto; border: 1px solid var(--rule); }
-.ledger-page table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 14px; }
-.ledger-page th, .ledger-page td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
-.ledger-page th { position: sticky; top: 0; background: #0A1828; color: var(--brand-ink); font-weight: 600; cursor: pointer; white-space: nowrap; }
-.ledger-page th[aria-sort="ascending"]::after { content: " ▲"; color: var(--accent); }
-.ledger-page th[aria-sort="descending"]::after { content: " ▼"; color: var(--accent); }
-.ledger-page tr.detail > td { background: rgba(5,12,22,.5); color: var(--ink-2); font-size: 13px; }
-.ledger-page tr.detail ul { margin: 4px 0; padding-left: 18px; }
-.ledger-page .tag { display: inline-block; background: rgba(143,221,234,.14); border: 1px solid var(--rule2); color: var(--accent);
-  font-size: 12px; padding: 1px 7px; border-radius: 4px; margin: 1px 3px 1px 0; white-space: nowrap; }
-.ledger-page .basis { color: #C9B8F2; font-size: 13px; }
-.ledger-page .expand { background: transparent; border: 1px solid var(--rule); color: var(--ink-2); cursor: pointer;
-  font: 12px var(--body); padding: 2px 8px; border-radius: 4px; margin-right: 6px; }
-.ledger-page tr.former { opacity: .6; font-style: italic; }
-.ledger-page tr.noresults td { color: var(--ink-3); text-align: center; padding: 22px; }
+/* ── Supply-chain watch-list ledger ─────────────────────────────────────────
+   A dense reference table — deliberately unlike the rest of the site's feed.
+   It breaks out wider than the 760px reading column and carries its own scrim
+   so it stays legible over the room. Columns are user-resizable (see ledger.js);
+   the fixed layout wraps cells so nothing forces the page to scroll sideways. */
+.ledger-page h1 { font: 800 clamp(26px,4.5vw,36px)/1.1 var(--display); letter-spacing: -.02em; margin: 10px 0 12px; text-wrap: balance; }
+.ledger-page .sub { color: var(--ink-2); font-size: 16px; margin: 0 0 12px; max-width: 68ch; }
+.ledger-page .sub code { font-family: ui-monospace, monospace; font-size: .9em; color: var(--ink-2); }
+.ledger-page .empty { color: var(--ink-3); padding: 24px 0; }
+
+/* provenance: collapsed by default so the table gets the spotlight; the full
+   per-list authority/currency/definition detail is one click away in the disclosure. */
+.prov { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin: 16px 0 14px;
+  position: relative; left: 50%; transform: translateX(-50%); width: min(100vw - 24px, 1280px); }
+.prov > summary { list-style: none; cursor: pointer; padding: 10px 0; font-size: 14px;
+  color: var(--ink-3); display: flex; align-items: center; gap: 8px; }
+.prov > summary::-webkit-details-marker { display: none; }
+.prov > summary::before { content: "▸"; color: var(--accent); font-size: 12px; transition: transform .12s; }
+.prov[open] > summary::before { transform: rotate(90deg); }
+.prov > summary:hover { color: var(--ink-2); }
+.prov[open] > summary { border-bottom: 1px solid var(--rule); margin-bottom: 6px; }
+.prov .row { display: grid; grid-template-columns: 1fr auto; gap: 1px 24px; padding: 6px 0; align-items: baseline; font-size: 14px; }
+.prov .lbl { font: 800 15px var(--display); }
+.prov .row > div:first-child .meta { display: inline; }
+.prov .gloss { grid-column: 1; color: var(--ink-2); font-size: 14px; margin: 2px 0 0; }
+.prov .row .meta { justify-self: end; text-align: right; margin: 0; }
+.prov .stale { color: var(--rose, #F2A6B8); }
+
+/* "human-checked, correct-as-written" marker: subtle ✓ in the grid (hover for the note),
+   full line in the detail expansion. Analyst-owned, set per-membership in the store. */
+.vchk { color: var(--mint, #7FE0A8); font-size: 12px; cursor: help; margin-left: 3px; }
+tr.detail .vchk { font-size: inherit; cursor: default; }
+
+/* controls: keyword box, list chips, live count */
+/* Controls break out to the table panel's width so the 7 list chips fit one row on
+   desktop; they keep wrapping (flex-wrap) on narrow/phone widths — no sideways scroll. */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 0 0 14px;
+  position: relative; left: 50%; transform: translateX(-50%); width: min(100vw - 24px, 1280px); }
+.controls #q { flex: 1 1 280px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2); color: var(--ink); font: 15px var(--body); padding: 8px 11px; color-scheme: dark; }
+.controls #q::placeholder { color: var(--ink-3); } .controls #q:focus { outline: none; border-color: var(--accent); }
+.controls #q::-webkit-search-cancel-button { -webkit-appearance: none; }
+.controls .chips { margin: 0; flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 8px; }
+.controls .chip { cursor: pointer; background: transparent; }
+.controls .chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: rgba(143,221,234,.12); }
+.controls .count { margin-left: auto; font-size: 14px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+/* the table breaks out of the reading column and carries its own panel */
+.scroll { position: relative; left: 50%; transform: translateX(-50%);
+  width: min(100vw - 24px, 1280px); overflow: auto; max-height: 82vh; overscroll-behavior: contain;
+  background: rgba(6,15,26,.74); backdrop-filter: blur(10px); border: 1px solid var(--rule); }
+#ledger { width: 100%; border-collapse: collapse; table-layout: fixed;
+  font: 13px/1.42 var(--body); font-variant-numeric: tabular-nums; }
+#ledger th, #ledger td { text-align: left; padding: 7px 10px; vertical-align: top; overflow-wrap: anywhere; border-bottom: 1px solid var(--rule); }
+#ledger thead th { position: sticky; top: 0; z-index: 2; cursor: pointer; user-select: none; white-space: nowrap;
+  background: rgba(9,20,33,.97); backdrop-filter: blur(6px); border-bottom: 1px solid var(--rule2);
+  font: 700 12px/1.3 var(--body); letter-spacing: .03em; text-transform: uppercase; color: var(--ink-2); }
+#ledger thead th[aria-sort="ascending"] .lab::after { content: " ▲"; color: var(--accent); font-size: 10px; }
+#ledger thead th[aria-sort="descending"] .lab::after { content: " ▼"; color: var(--accent); font-size: 10px; }
+#ledger tbody tr.row:hover > td { background: rgba(143,221,234,.05); }
+#ledger tbody tr.former td { color: var(--ink-3); }
+#ledger .tag { display: inline-block; font-size: 11px; padding: 1px 6px; margin: 0 4px 3px 0; border: 1px solid var(--rule2); border-radius: 2px; color: var(--ink-2); white-space: nowrap; }
+.expand { background: transparent; border: 1px solid var(--rule); color: var(--ink-3); font: 11px var(--body); padding: 1px 6px; margin-right: 6px; cursor: pointer; border-radius: 2px; }
+.expand:hover, .expand[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+.basis { display: block; color: var(--ink-3); font-size: 12px; margin-top: 3px; }
+#ledger tr.detail td { background: rgba(5,12,22,.55); }
+#ledger tr.detail ul { margin: 0; padding-left: 18px; } #ledger tr.detail li { margin: 3px 0; }
+#ledger tr.detail .basis { display: inline; margin: 0; }
+#ledger .noresults td { color: var(--ink-3); text-align: center; padding: 22px; }
+/* drag grip on each header to resize its column */
+#ledger thead th { position: relative; position: sticky; }
+.col-grip { position: absolute; top: 0; right: 0; width: 9px; height: 100%; cursor: col-resize; touch-action: none; }
+.col-grip:hover, .col-grip.active { background: linear-gradient(to right, transparent, var(--accent-glow)); }
+body.col-resizing { cursor: col-resize; user-select: none; }
