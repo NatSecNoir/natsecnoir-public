@@ -3,9 +3,9 @@ layout: base.njk
 nav: feed
 permalink: /
 ---
-<div class="shead"><h2>Latest records</h2><span class="n">{{ feed.all.length }} item{% if feed.all.length != 1 %}s{% endif %}</span></div>
 {% include "filter.njk" %}
-<div class="feed" data-items>
+<div class="ledger" data-items>
 {% for r in feed.all %}{% include "item.njk" %}{% endfor %}
 {% if not feed.all.length %}<p class="empty">No records yet.</p>{% endif %}
 </div>
+{% if feed.all.length %}<div class="folio sc"><span>{{ feed.all.length }} records</span><a href="/by/list/">Browse by tag</a></div>{% endif %}

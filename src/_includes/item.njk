@@ -1,10 +1,11 @@
-<article class="item{% if loop.first %} top{% endif %}{% if r.kind == "analysis" %} analysis{% endif %}" data-date="{{ r.doc_date }}" data-search="{{ r.search }}">
-  <h2>{% if r.kind == "analysis" %}<span class="tag analysis">Analysis</span> {% endif %}<a href="{{ r.url }}">{{ r.title }}</a></h2>
-  <span class="when">{{ r.doc_date }}</span>
+<article class="item{% if r.kind == "analysis" %} analysis{% endif %}" data-date="{{ r.doc_date }}" data-search="{{ r.search }}">
   {% if r.kind == "analysis" %}
-  <div class="meta"><span class="k">{{ r.baseline_source or r.baseline }}</span><span>{{ r.entries.length }} entries</span></div>
+  <div class="slug sc"><span class="type">Analysis</span>{% if r.baseline_source or r.baseline %}<span class="sep">·</span><span class="tag">{{ r.baseline_source or r.baseline }}</span>{% endif %}</div>
+  <div class="ref date"><span class="date">{{ r.doc_date }}</span>{{ r.entries.length }} entries</div>
   {% else %}
-  <div class="meta"><span class="k">{{ r.issuing_body }}</span><span>{{ r.doc_type }}</span>{% if r.docket %}<span>{{ r.docket.split(";")[0] }}</span>{% endif %}{% if r.lists.length %}<span class="lists">{% for l in r.lists %}{{ l.label }}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}</div>
+  <div class="slug sc"><span class="type">{{ r.doc_type }}</span>{% for l in r.lists %}<span class="sep">·</span><span class="{% if l.label == "Bad Labs" %}bad{% else %}tag{% endif %}">{{ l.label }}</span>{% endfor %}</div>
+  <div class="ref date"><span class="date">{{ r.doc_date }}</span>{% if r.docket %}{{ r.docket.split(";")[0] }}{% endif %}</div>
   {% endif %}
+  <h3><a href="{{ r.url }}">{{ r.title }}</a></h3>
   <p>{{ r.excerpt }}</p>
 </article>
