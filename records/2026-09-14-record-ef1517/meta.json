@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-14-record-ef1517",
+  "status": "approved",
+  "ingested_at": "2026-09-14T02:07:53Z",
+  "title": "SLG-CPC - Copy-Paste Lab #1- Instituting Order",
+  "issuing_body": "FCC",
+  "doc_type": "order",
+  "doc_date": "2026-06-09",
+  "docket": "ET Docket No. 26-140; DA 26-569",
+  "lists": [
+    "bad-labs"
+  ],
+  "entities": [
+    "SLG-CPC"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-569A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "ef1517e30d0d6b8d89f88f091280c5e9594089b942c9a8c588f93e0ec71edb2c",
+  "approved_at": "2026-09-14T02:18:00Z",
+  "published_at": "2026-09-14T02:18:10Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-14T02:08:02Z"
+}
