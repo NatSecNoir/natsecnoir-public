@@ -4,12 +4,13 @@
 <meta name="description" content="{{ description or site.tagline }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 </head><body>
 <header class="plate">
-  <h1 class="mark"><a href="/" aria-label="{{ site.name }}"><span class="w1">NatSec</span> <span class="w2">Noir</span></a></h1>
-  <p class="tag">Taking public records out of dark, smoky government backrooms</p>
+  <h1 class="mark" data-text="NatSec Noir"><span class="t"><span class="w1">NatSec</span> <span class="w2">Noir</span></span></h1>
+  <p class="tag">Taking public records out of shadowy, smoky bureaucratic backrooms</p>
+  <div class="lit" aria-hidden="true"><div class="mark"><span class="w1">NatSec</span> <span class="w2">Noir</span></div></div>
 </header>
 <div class="strip"><div class="wrap">
   <div class="nav sc">
@@ -32,5 +33,29 @@
 </section>
 {% endif %}
 </main>
-<footer><div class="wrap sc"><span>© {{ site.year }} NatSecNoir.com</span><span>Public records · Author's summaries · <a href="{{ site.repo }}">Repository</a></span></div></footer>
+<footer><div class="wrap">
+  <div>
+    <div class="fm"><span class="w1">NatSec</span> <span class="w2">Noir</span></div>
+    <p class="ft">Taking public records out of shadowy, smoky bureaucratic backrooms</p>
+  </div>
+  <div>
+    <h2>Sections</h2>
+    <ul class="sc">
+      <li><a href="/">Feed</a></li>
+      <li><a href="/by/list/">By tags</a></li>
+      <li><a href="/by/agency/">By source</a></li>
+      <li><a href="/by/type/">By type</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h2>Colophon</h2>
+    <p>© {{ site.year }} NatSecNoir.com</p>
+    <p>Public records. Author's summaries.</p>
+    <ul>
+      <li><a href="{{ site.repo }}">Repository</a></li>
+      <li><a href="{{ site.newsletter }}">Newsletter</a></li>
+    </ul>
+  </div>
+</div></footer>
 </body></html>
