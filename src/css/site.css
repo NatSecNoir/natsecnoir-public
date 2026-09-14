@@ -152,8 +152,8 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .ledger-page .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 16px; }
 .ledger-page .controls input { flex: 1 1 260px; max-width: 460px; background: rgba(5,12,22,.5); border: 1px solid var(--rule2);
   color: var(--ink); font: 15px var(--body); padding: 8px 11px; }
-.ledger-page .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.ledger-page .chip { background: transparent; border: 1px solid var(--rule2); color: var(--ink-2); font: 13px var(--body);
+.ledger-page .chips { display: flex; flex-wrap: nowrap; gap: 8px; flex: 1 1 100%; overflow-x: auto; scrollbar-width: thin; padding-bottom: 2px; }
+.ledger-page .chip { flex: 0 0 auto; white-space: nowrap; background: transparent; border: 1px solid var(--rule2); color: var(--ink-2); font: 13px var(--body);
   padding: 5px 11px; border-radius: 999px; cursor: pointer; }
 .ledger-page .chip[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .ledger-page .count { color: var(--ink-3); font-size: 13px; }
@@ -163,6 +163,12 @@ footer a { color: var(--ink-3); } footer a:hover { color: var(--accent); }
 .ledger-page th { position: sticky; top: 0; background: #0A1828; color: var(--brand-ink); font-weight: 600; cursor: pointer; white-space: nowrap; }
 .ledger-page th[aria-sort="ascending"]::after { content: " ▲"; color: var(--accent); }
 .ledger-page th[aria-sort="descending"]::after { content: " ▼"; color: var(--accent); }
+.ledger-page th { padding-right: 16px; }
+.ledger-page .col-grip { position: absolute; top: 0; right: 0; width: 10px; height: 100%; cursor: col-resize;
+  touch-action: none; user-select: none; }
+.ledger-page .col-grip::before { content: ""; position: absolute; top: 25%; bottom: 25%; right: 4px; width: 1px; background: var(--rule2); }
+.ledger-page .col-grip:hover::before, .ledger-page .col-grip.active::before { background: var(--accent); width: 2px; }
+body.col-resizing { cursor: col-resize; user-select: none; }
 .ledger-page tr.detail > td { background: rgba(5,12,22,.5); color: var(--ink-2); font-size: 13px; }
 .ledger-page tr.detail ul { margin: 4px 0; padding-left: 18px; }
 .ledger-page .tag { display: inline-block; background: rgba(143,221,234,.14); border: 1px solid var(--rule2); color: var(--accent);
