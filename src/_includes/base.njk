@@ -24,7 +24,7 @@
 </div></div>
 <main class="wrap">
 {{ content | safe }}
-{% if nav != "record" %}
+{% if nav != "record" and nav != "feed" %}{# front page renders the newsletter inside its rail (U3); interior by-pages keep the standalone card #}
 <section class="letter">
   <div class="box">
     <div><h2>The Late Edition</h2><p>New records and one short read, when there is something worth knowing. Sent from newsletter.natsecnoir.com.</p></div>
