@@ -2,13 +2,13 @@
  "count": 1,
  "wiki": [
   {
-   "id": "routers",
+   "id": "netgear",
    "scope": "covered-list",
-   "node_type": "topic",
+   "node_type": "entity",
    "kind": "wiki",
-   "title": "Routers",
-   "last_changed": "2026-09-15T07:08:54Z",
-   "published_at": "2026-09-15T07:08:51Z"
+   "title": "Netgear",
+   "last_changed": "2026-09-15T07:14:27Z",
+   "published_at": ""
   }
  ]
 }
