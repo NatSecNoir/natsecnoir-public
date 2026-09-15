@@ -1,0 +1,86 @@
+{
+  "title": "Calix",
+  "manifest": [],
+  "scope": "covered-list",
+  "node_type": "entity",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "e-928d9e0ee3",
+      "kind": "emergent",
+      "label": "Router Drone Conditional Approvals",
+      "date": "2026-09-15T00:28:45Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "DoW granted Calix a Conditional Approval for its 7u6.2 router, part number 100-06200, with the approval terminating October 31, 2027.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+        "page": 2,
+        "paragraph": null,
+        "quote": "Calix, Inc.’s 7u6.2 router, part number (100-06200) (terminating October 31, 2027)"
+      }
+    }
+  ],
+  "sources": {},
+  "pending": [
+    {
+      "op": "add",
+      "key": "e-47a439648e",
+      "label": "Drone Router Conditional Approvals",
+      "text": "A later Conditional Approval covered Calix’s GigaSpire class routers—including models 7u6m.2, 7u4txg, 7u4, and 7u6.2—and the Giga Pro (7p6), terminating November 22, 2027.",
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "page": 3,
+      "paragraph": null,
+      "quote": "Calix, Inc.’s (Calix) GigaSpire class routers (including 7u6m.2, 7u4txg, 7u4, 7u6.2) and Giga Pro (7p6) (terminating November 22, 2027)",
+      "hash": "58574419d1c1",
+      "proposed_at": "2026-09-15T00:23:23Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-540379a33c",
+      "label": "Drone Router Conditional Approvals",
+      "text": "The FCC stated that the Calix product-class approval addresses the entire product class, including models that had previously received Conditional Approval.",
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "page": 3,
+      "paragraph": null,
+      "quote": "The present Conditional Approval addresses the entire product class, including the previous models that received Conditional Approval.",
+      "hash": "189e2a46e6da",
+      "proposed_at": "2026-09-15T00:23:23Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-2314fd32cc",
+      "label": "Drone Router Conditional Approvals",
+      "text": "The FCC concluded that each Conditional Approval is a specific DoW determination that the covered devices do not pose risks to U.S. national security, requiring the Covered List to exclude them.",
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "page": 3,
+      "paragraph": null,
+      "quote": "We find that each of the Conditional Approvals constitutes “a specific determination” by DoW that such devices do not pose risks to U.S. national security.",
+      "hash": "d443e014691d",
+      "proposed_at": "2026-09-15T00:23:23Z",
+      "kind": "emergent"
+    }
+  ],
+  "archive": [
+    {
+      "at": "2026-09-15T00:28:45Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-928d9e0ee3",
+      "label": "Router Drone Conditional Approvals",
+      "hash": "ae178b4ed37b",
+      "note": "",
+      "text": "DoW granted Calix a Conditional Approval for its 7u6.2 router, part number 100-06200, with the approval terminating October 31, 2027."
+    }
+  ],
+  "ledger": [
+    "ae178b4ed37b"
+  ],
+  "runs": [],
+  "published_at": "",
+  "last_changed": "2026-09-15T00:28:45Z"
+}
