@@ -522,7 +522,8 @@
    "doc_date": "2026-07-08",
    "docket": "DA 26-688; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "Vantiva USA"
@@ -532,7 +533,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "a0069d2d24c801ae527057ea6fa046a3d2a4086d3810410514580046ba88664a",
-   "approved_at": "2026-09-06T03:00:22Z",
+   "approved_at": "2026-09-15T07:03:01Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
