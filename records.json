@@ -790,7 +790,8 @@
    "doc_date": "2026-06-12",
    "docket": "DA 26-584; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "Flock Group",
@@ -801,7 +802,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "887b5e0ba4ba895b3490f4e709fe46f9b6032cd89f2bfb1717bdadece624f74d",
-   "approved_at": "2026-09-06T18:57:19Z",
+   "approved_at": "2026-09-15T07:02:37Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
