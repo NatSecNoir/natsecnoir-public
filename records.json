@@ -414,7 +414,8 @@
    "doc_date": "2026-07-20",
    "docket": "DA 26-756; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "Gryphon Safety Online",
@@ -425,7 +426,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "8cede6710a4e5332a5d024f207bf15e97f545ec0a53d0fbef8369d86b93f09ac",
-   "approved_at": "2026-09-06T03:03:25Z",
+   "approved_at": "2026-09-15T07:03:24Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
