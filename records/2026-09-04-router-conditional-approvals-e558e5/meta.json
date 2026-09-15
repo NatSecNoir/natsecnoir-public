@@ -8,7 +8,8 @@
   "doc_date": "2026-07-27",
   "docket": "DA 26-775; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "SpaceX Services"
@@ -18,7 +19,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "e558e5b62d0baeaa358afacc7f05e8dd969297093b9e2bc5cb4a5007d41372ed",
-  "approved_at": "2026-09-06T03:07:18Z",
+  "approved_at": "2026-09-15T07:03:48Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
