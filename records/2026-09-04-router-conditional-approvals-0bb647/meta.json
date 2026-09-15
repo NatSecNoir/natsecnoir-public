@@ -2,13 +2,14 @@
   "id": "2026-09-04-router-conditional-approvals-0bb647",
   "status": "approved",
   "ingested_at": "2026-09-04T08:02:22Z",
-  "title": "Router Conditional Approvals",
+  "title": "Conditional Approvals - Amazon eero, Amazon Leo (routers)",
   "issuing_body": "FCC",
   "doc_type": "public notice",
   "doc_date": "2026-04-22",
   "docket": "DA 26-390; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "eero LLC",
@@ -19,7 +20,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "0bb64711c8f3420b8ddb51448515534a718e3a994901f1bbf2bae645a16b1f75",
-  "approved_at": "2026-09-06T10:55:57Z",
+  "approved_at": "2026-09-15T06:57:29Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
