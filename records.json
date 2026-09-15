@@ -1038,7 +1038,8 @@
    "doc_date": "2026-05-15",
    "docket": "DA 26-489; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "Elevon Aerial",
@@ -1049,7 +1050,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "e6b8b3086d07d5690602bb96e315ec0edcb189dcfd3027061284d3d6a91a1568",
-   "approved_at": "2026-09-06T18:54:35Z",
+   "approved_at": "2026-09-15T06:59:13Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
