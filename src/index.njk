@@ -24,7 +24,8 @@ permalink: /
   </section>{% endif %}
   {% if rail.tags.length %}<section>
     <h2>Tags</h2>
-    <ul class="counts">{% for t in rail.tags %}<li><b{% if t.label == "Bad Labs" %} class="bad"{% endif %}>{{ t.label }}</b><span class="n">{{ t.count }}</span></li>{% endfor %}</ul>
+    <ul class="counts">{% for t in rail.tags %}<li><a href="{{ t.url }}"><b{% if t.label == "Bad Labs" %} class="bad"{% endif %}>{{ t.label }}</b><span class="n">{{ t.count }}</span></a></li>{% endfor %}</ul>
+    <a class="more" href="/by/list/">All tags</a>
   </section>{% endif %}
 </aside>
 </div>
