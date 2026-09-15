@@ -147,13 +147,13 @@
       "text": "The proceeding addresses revisions to the FCC’s equipment authorization program as part of broader efforts to protect equipment supply chains and eliminate potential security vulnerabilities in communications networks and supply chains."
     },
     {
-      "at": "2026-09-15T06:50:03Z",
+      "at": "2026-09-15T06:51:54Z",
       "decision": "retracted",
       "op": "remove",
       "key": "e-551644d299",
       "label": "EA Security 2.0",
-      "hash": "d7741b8dca21",
-      "note": "test",
+      "hash": "f9dfa830baeb",
+      "note": "",
       "text": "In the Second Further Notice of Proposed Rulemaking, the Commission sought comment on modular transmitters and component parts, critical infrastructure, modifications by Covered List entities, and the scope and enforcement of equipment-marketing prohibitions."
     }
   ],
@@ -172,5 +172,5 @@
   ],
   "runs": [],
   "published_at": "2026-09-15T00:27:50Z",
-  "last_changed": "2026-09-15T06:50:03Z"
+  "last_changed": "2026-09-15T06:51:54Z"
 }
