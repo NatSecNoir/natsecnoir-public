@@ -2,13 +2,14 @@
   "id": "2026-09-04-drone-conditional-approvals-3aa5ad",
   "status": "approved",
   "ingested_at": "2026-09-04T08:02:22Z",
-  "title": "Drone Conditional Approvals",
+  "title": "Conditional Approvals - Blueflite, Verity AG, Air VEV (drones)",
   "issuing_body": "FCC",
   "doc_type": "public notice",
   "doc_date": "2026-05-26",
   "docket": "DA 26-524; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Blueflite",
@@ -20,7 +21,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "3aa5adc879e9c5bf78b688d4856ef58c7637c7a4fb62a4e59a2dc96cccc1a0ff",
-  "approved_at": "2026-09-06T18:55:18Z",
+  "approved_at": "2026-09-15T07:01:26Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
