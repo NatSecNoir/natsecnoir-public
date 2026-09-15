@@ -144,7 +144,7 @@
    "status": "approved",
    "ingested_at": "2026-09-12T20:11:39Z",
    "title": "Stranger Pings: Chinese Telecom Companies Infiltrate US Infrastructure",
-   "issuing_body": "House China Committee",
+   "issuing_body": "Congress",
    "doc_type": "report",
    "doc_date": "2026-08-04",
    "docket": "NA",
@@ -156,11 +156,11 @@
    ],
    "entities": [],
    "source_url": "https://files.constantcontact.com/f0eecb46901/f655c442-2d93-45ea-8cab-9d58a3a04052.pdf",
-   "source_copy_public": false,
+   "source_copy_public": true,
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "68a524c1b816ba4319ecffd578d8cf70c9b7d22838b17ee96dd700f2d12059bc",
-   "approved_at": "2026-09-12T20:53:28Z",
+   "approved_at": "2026-09-15T07:11:26Z",
    "published_at": "2026-09-12T20:51:44Z",
    "reason": "",
    "error": "",
@@ -169,7 +169,8 @@
    "drafted_at": "2026-09-12T20:15:40Z",
    "files": [
     "meta.json",
-    "summary.md"
+    "summary.md",
+    "source.pdf"
    ]
   },
   {
