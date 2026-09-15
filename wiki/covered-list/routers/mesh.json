@@ -55,23 +55,27 @@
         "paragraph": 1,
         "quote": "eero LLC’s eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers April 22, 2026 – October 31, 2027"
       }
+    },
+    {
+      "key": "e-c420685363",
+      "kind": "emergent",
+      "label": "Router Conditional Approvals",
+      "date": "2026-09-15T07:08:51Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Conditional approvals also cover specified Calix routers, including the 7u6.2, 7p6, 7u6m.2, 7u4txg, and 7u4 models, from May 6 or June 1, 2026, through October 31, 2027 or November 22, 2027, depending on the listed product.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+        "page": 5,
+        "paragraph": 1,
+        "quote": "Calix, Inc.’s 7u6.2 router, part number (100-06200) Calix, Inc.’s 7p6, 7u6m.2, 7u4txg, and 7u4 broadband routers Calix, Inc.’s GigaSpire class routers (7u6m.2, 7u4txg, 7u4, 7u6.2) and Giga Pro (7p6) May 6, 2026 – October 31, 2027 June 1, 2026 – November 22, 2027 July 24, 2026 – November 22, 2027"
+      }
     }
   ],
   "sources": {},
   "pending": [
-    {
-      "op": "add",
-      "key": "e-c420685363",
-      "label": "Router Conditional Approvals",
-      "text": "Conditional approvals also cover specified Calix routers, including the 7u6.2, 7p6, 7u6m.2, 7u4txg, and 7u4 models, from May 6 or June 1, 2026, through October 31, 2027 or November 22, 2027, depending on the listed product.",
-      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
-      "page": 5,
-      "paragraph": 1,
-      "quote": "Calix, Inc.’s 7u6.2 router, part number (100-06200) Calix, Inc.’s 7p6, 7u6m.2, 7u4txg, and 7u4 broadband routers Calix, Inc.’s GigaSpire class routers (7u6m.2, 7u4txg, 7u4, 7u6.2) and Giga Pro (7p6) May 6, 2026 – October 31, 2027 June 1, 2026 – November 22, 2027 July 24, 2026 – November 22, 2027",
-      "hash": "5eb85d4e785d",
-      "proposed_at": "2026-09-14T03:14:19Z",
-      "kind": "emergent"
-    },
     {
       "op": "add",
       "key": "e-1f043f014b",
@@ -126,15 +130,26 @@
       "hash": "9f137f15ecad",
       "note": "",
       "text": "eero’s listed eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers have conditional approval from April 22, 2026, through October 31, 2027."
+    },
+    {
+      "at": "2026-09-15T07:08:51Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-c420685363",
+      "label": "Router Conditional Approvals",
+      "hash": "5eb85d4e785d",
+      "note": "",
+      "text": "Conditional approvals also cover specified Calix routers, including the 7u6.2, 7p6, 7u6m.2, 7u4txg, and 7u4 models, from May 6 or June 1, 2026, through October 31, 2027 or November 22, 2027, depending on the listed product."
     }
   ],
   "ledger": [
     "c114563d6289",
     "adab59794f71",
     "c04797fe547a",
-    "9f137f15ecad"
+    "9f137f15ecad",
+    "5eb85d4e785d"
   ],
   "runs": [],
-  "published_at": "2026-09-15T07:08:44Z",
-  "last_changed": "2026-09-15T07:08:48Z"
+  "published_at": "2026-09-15T07:08:48Z",
+  "last_changed": "2026-09-15T07:08:51Z"
 }
