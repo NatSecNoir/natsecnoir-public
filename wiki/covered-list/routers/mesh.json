@@ -1,0 +1,112 @@
+{
+  "title": "Routers",
+  "manifest": [],
+  "scope": "covered-list",
+  "node_type": "topic",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "e-202273d278",
+      "kind": "emergent",
+      "label": "Router Conditional Approvals",
+      "date": "2026-09-15T07:08:16Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Netgear’s listed Nighthawk and Orbi consumer routers, along with its cable gateways and cable modems, have conditional approval from April 14, 2026, through October 1, 2027.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+        "page": 5,
+        "paragraph": 1,
+        "quote": "Netgear, Inc.’s Nighthawk consumer mesh, mobile and standalone routers (R, RAX, RAXE, RS, MK, MR, M and MH series), Orbi consumer mesh, mobile and standalone routers (RBK, RBE, RBR, RBRE, LBR, LBK and CBK series), cable gateways (CAX series) and cable modems (CM series) April 14, 2026 – October 1, 2027"
+      }
+    }
+  ],
+  "sources": {},
+  "pending": [
+    {
+      "op": "add",
+      "key": "e-f9bd4df73c",
+      "label": "EA Security 3.0",
+      "text": "For purposes of the Covered List, routers are defined as consumer-grade networking devices primarily intended for residential use that can be installed by the customer and forward data packets between networked systems. The Commission identified all three elements as required for a device to qualify as a router.",
+      "record_id": "2026-09-07-record-b3934b",
+      "page": 69,
+      "paragraph": 204,
+      "quote": "The Commission adopted that same definition in its Routers Public Notice and FAQs, more explicitly finding that a device is a router if the following elements are present: (1) it is a consumer-grade networking device that is primarily intended for residential use; (2) it can be, but is not required to be, installed by the customer; and (3) it forwards data packets, most commonly Internet Protocol (IP) packets, between networked systems.",
+      "hash": "adab59794f71",
+      "proposed_at": "2026-09-14T03:14:19Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-1e91b07000",
+      "label": "Router Conditional Approvals",
+      "text": "Adtran’s Service Delivery Gateway class routers have conditional approval from April 14, 2026, through October 1, 2027.",
+      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+      "page": 5,
+      "paragraph": 1,
+      "quote": "Adtran Inc.’s Service Delivery Gateway (SDG) class routers April 14, 2026 – October 1, 2027",
+      "hash": "c04797fe547a",
+      "proposed_at": "2026-09-14T03:14:19Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-b38698315b",
+      "label": "Router Conditional Approvals",
+      "text": "eero’s listed eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers have conditional approval from April 22, 2026, through October 31, 2027.",
+      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+      "page": 5,
+      "paragraph": 1,
+      "quote": "eero LLC’s eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers April 22, 2026 – October 31, 2027",
+      "hash": "9f137f15ecad",
+      "proposed_at": "2026-09-14T03:14:19Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-c420685363",
+      "label": "Router Conditional Approvals",
+      "text": "Conditional approvals also cover specified Calix routers, including the 7u6.2, 7p6, 7u6m.2, 7u4txg, and 7u4 models, from May 6 or June 1, 2026, through October 31, 2027 or November 22, 2027, depending on the listed product.",
+      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+      "page": 5,
+      "paragraph": 1,
+      "quote": "Calix, Inc.’s 7u6.2 router, part number (100-06200) Calix, Inc.’s 7p6, 7u6m.2, 7u4txg, and 7u4 broadband routers Calix, Inc.’s GigaSpire class routers (7u6m.2, 7u4txg, 7u4, 7u6.2) and Giga Pro (7p6) May 6, 2026 – October 31, 2027 June 1, 2026 – November 22, 2027 July 24, 2026 – November 22, 2027",
+      "hash": "5eb85d4e785d",
+      "proposed_at": "2026-09-14T03:14:19Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-1f043f014b",
+      "label": "Router Conditional Approvals",
+      "text": "Conditional approvals cover Nokia’s wireless-fidelity 8 router and its Beacons, ONT-based Beacons, and Fastmile Gateway routers, with approval periods ending October 31, 2027.",
+      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+      "page": 5,
+      "paragraph": 1,
+      "quote": "Nokia Corporation’s wireless-fidelity 8 router Nokia Corporation’s Beacons, Open Network Terminal (ONT) Based Beacons, and Fastmile Gateway routers May 15, 2026 – October 31, 2027 May 18, 2026 – October 31, 2027",
+      "hash": "4c899a73d7fa",
+      "proposed_at": "2026-09-14T03:14:19Z",
+      "kind": "emergent"
+    }
+  ],
+  "archive": [
+    {
+      "at": "2026-09-15T07:08:16Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-202273d278",
+      "label": "Router Conditional Approvals",
+      "hash": "c114563d6289",
+      "note": "",
+      "text": "Netgear’s listed Nighthawk and Orbi consumer routers, along with its cable gateways and cable modems, have conditional approval from April 14, 2026, through October 1, 2027."
+    }
+  ],
+  "ledger": [
+    "c114563d6289"
+  ],
+  "runs": [],
+  "published_at": "",
+  "last_changed": "2026-09-15T07:08:16Z"
+}
