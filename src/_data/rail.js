@@ -1,8 +1,9 @@
 // Front-page rail: derived content for the home page's side rail. No new authoring pipeline —
 // everything here is computed from the already-loaded records/facets machinery.
 //
-//   rail.tags  = [{ label, count }]        top ~6 tags by record count (same numbers the
-//                                          "By tags" pages show — sourced from facets key "list")
+//   rail.tags  = [{ label, count, url }]   top ~6 tags by record count (same numbers the
+//                                          "By tags" pages show — sourced from facets key "list");
+//                                          url points at the tag's own "By tags" page (/by/list/<slug>/)
 //   rail.quote = { present: true, text, docket, source }   pull-quote from the newest record
 //              | { present: false }                        explicit absent state (no usable quote)
 import facets from "./facets.js";
@@ -21,7 +22,7 @@ export default function () {
   const listFacet = facets().find((f) => f.key === "list");
   const tags = (listFacet ? listFacet.groups : [])
     .slice(0, TAG_LIMIT)
-    .map((g) => ({ label: g.label, count: g.records.length }));
+    .map((g) => ({ label: g.label, count: g.records.length, url: `/by/list/${g.slug}/` }));
 
   // From the record: newest record (records().all is sorted newest-first, same as the feed).
   const records = loadRecords().all;

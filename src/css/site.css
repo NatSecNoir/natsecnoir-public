@@ -78,10 +78,15 @@ main { padding-bottom: 40px; }
 .rail .letter{margin:0 0 40px}
 .rail h2{margin:0 0 12px;padding:0 0 8px;border-bottom:1px solid var(--hair2);font:500 13px/1 var(--serif);letter-spacing:.14em;text-transform:uppercase;color:var(--ash)}
 .counts{margin:0;padding:0;list-style:none;font-size:16px}
-.counts li{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0;border-bottom:1px solid rgba(236,240,243,.06);color:var(--dim)}
+.counts li{border-bottom:1px solid rgba(236,240,243,.06)}
+.counts li a{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0;color:var(--dim);text-decoration:none}
+.counts li a:hover b{color:var(--gold)}
 .counts li b{font-weight:400;color:var(--ink)}
 .counts li .n{font-family:var(--mono);font-size:14px;color:var(--ash)}
 .counts li .bad{color:var(--vermilion)}
+.counts li a:hover .bad{color:var(--vermilion);filter:brightness(1.15)}
+a.more{display:inline-block;margin-top:12px;font:500 12px/1 var(--serif);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+a.more:hover{text-decoration:underline}
 .quote{margin:0;font:italic 400 21px/1.35 var(--serif);color:var(--ink);text-wrap:pretty}
 .quote::before{content:"\201C";color:var(--hair3);margin-right:.05em}
 .quote::after{content:"\201D";color:var(--hair3)}
