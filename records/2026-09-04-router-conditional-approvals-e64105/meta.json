@@ -8,7 +8,8 @@
   "doc_date": "2026-07-10",
   "docket": "DA 26-704; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Gemtek Technology Co."
@@ -18,7 +19,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "e64105612835c9488f8ab740a0943561c35c4d9fd8ef97e65cad85b4d5430960",
-  "approved_at": "2026-09-06T03:01:10Z",
+  "approved_at": "2026-09-15T07:03:13Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
