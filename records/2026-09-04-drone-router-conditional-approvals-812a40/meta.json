@@ -8,7 +8,8 @@
   "doc_date": "2026-06-22",
   "docket": "DA 26-616; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Real-Time Robotics",
@@ -20,7 +21,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "812a40c92f6f8ebdacd395aeccb90d6e0fc7127da0129ce53839aaec8cd0b050",
-  "approved_at": "2026-09-06T18:58:08Z",
+  "approved_at": "2026-09-15T07:02:50Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
