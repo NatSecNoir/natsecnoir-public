@@ -925,7 +925,8 @@
    "doc_date": "2026-06-01",
    "docket": "DA 26-542; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "Calix",
@@ -936,7 +937,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "2f427686d91979121e9e9f928c9bc438944bd72f845bc583ee86ef2c02d0ae45",
-   "approved_at": "2026-09-06T02:51:27Z",
+   "approved_at": "2026-09-15T07:01:49Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
