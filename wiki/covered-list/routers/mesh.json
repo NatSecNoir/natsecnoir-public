@@ -38,23 +38,27 @@
         "paragraph": 1,
         "quote": "Adtran Inc.’s Service Delivery Gateway (SDG) class routers April 14, 2026 – October 1, 2027"
       }
+    },
+    {
+      "key": "e-b38698315b",
+      "kind": "emergent",
+      "label": "Router Conditional Approvals",
+      "date": "2026-09-15T07:08:48Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "eero’s listed eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers have conditional approval from April 22, 2026, through October 31, 2027.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+        "page": 5,
+        "paragraph": 1,
+        "quote": "eero LLC’s eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers April 22, 2026 – October 31, 2027"
+      }
     }
   ],
   "sources": {},
   "pending": [
-    {
-      "op": "add",
-      "key": "e-b38698315b",
-      "label": "Router Conditional Approvals",
-      "text": "eero’s listed eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers have conditional approval from April 22, 2026, through October 31, 2027.",
-      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
-      "page": 5,
-      "paragraph": 1,
-      "quote": "eero LLC’s eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers April 22, 2026 – October 31, 2027",
-      "hash": "9f137f15ecad",
-      "proposed_at": "2026-09-14T03:14:19Z",
-      "kind": "emergent"
-    },
     {
       "op": "add",
       "key": "e-c420685363",
@@ -112,14 +116,25 @@
       "hash": "c04797fe547a",
       "note": "",
       "text": "Adtran’s Service Delivery Gateway class routers have conditional approval from April 14, 2026, through October 1, 2027."
+    },
+    {
+      "at": "2026-09-15T07:08:48Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-b38698315b",
+      "label": "Router Conditional Approvals",
+      "hash": "9f137f15ecad",
+      "note": "",
+      "text": "eero’s listed eero, eero Pro, eero Max, eero PoE, eero Outdoor, eero Signal, and Amazon Leo routers have conditional approval from April 22, 2026, through October 31, 2027."
     }
   ],
   "ledger": [
     "c114563d6289",
     "adab59794f71",
-    "c04797fe547a"
+    "c04797fe547a",
+    "9f137f15ecad"
   ],
   "runs": [],
-  "published_at": "2026-09-15T07:08:16Z",
-  "last_changed": "2026-09-15T07:08:44Z"
+  "published_at": "2026-09-15T07:08:44Z",
+  "last_changed": "2026-09-15T07:08:48Z"
 }
