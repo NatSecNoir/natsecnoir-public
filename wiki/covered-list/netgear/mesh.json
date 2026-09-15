@@ -1,0 +1,46 @@
+{
+  "title": "Netgear",
+  "manifest": [],
+  "scope": "covered-list",
+  "node_type": "entity",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "e-85bdd0b3f3",
+      "kind": "emergent",
+      "label": "Router Conditional Approvals",
+      "date": "2026-09-15T07:14:27Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Netgear, Inc.’s listed conditional approval covers its Nighthawk consumer mesh, mobile, and standalone routers in the R, RAX, RAXE, RS, MK, MR, M, and MH series; Orbi consumer mesh, mobile, and standalone routers in the RBK, RBE, RBR, RBRE, LBR, LBK, and CBK series; and CAX cable gateways and CM cable modems. The approval runs from April 14, 2026, through October 1, 2027.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-2f4276",
+        "page": 5,
+        "paragraph": null,
+        "quote": "Netgear, Inc.’s Nighthawk consumer mesh, mobile and standalone routers (R, RAX, RAXE, RS, MK, MR, M and MH series), Orbi consumer mesh, mobile and standalone routers (RBK, RBE, RBR, RBRE, LBR, LBK and CBK series), cable gateways (CAX series) and cable modems (CM series) April 14, 2026-October 1, 2027"
+      }
+    }
+  ],
+  "sources": {},
+  "pending": [],
+  "archive": [
+    {
+      "at": "2026-09-15T07:14:27Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-85bdd0b3f3",
+      "label": "Router Conditional Approvals",
+      "hash": "6d3e455e1943",
+      "note": "",
+      "text": "Netgear, Inc.’s listed conditional approval covers its Nighthawk consumer mesh, mobile, and standalone routers in the R, RAX, RAXE, RS, MK, MR, M, and MH series; Orbi consumer mesh, mobile, and standalone routers in the RBK, RBE, RBR, RBRE, LBR, LBK, and CBK series; and CAX cable gateways and CM cable modems. The approval runs from April 14, 2026, through October 1, 2027."
+    }
+  ],
+  "ledger": [
+    "6d3e455e1943"
+  ],
+  "runs": [],
+  "published_at": "",
+  "last_changed": "2026-09-15T07:14:27Z"
+}

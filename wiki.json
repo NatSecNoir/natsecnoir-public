@@ -2,12 +2,12 @@
  "count": 1,
  "wiki": [
   {
-   "id": "hikvision",
+   "id": "netgear",
    "scope": "covered-list",
    "node_type": "entity",
    "kind": "wiki",
-   "title": "Hikvision",
-   "last_changed": "2026-09-15T07:14:18Z",
+   "title": "Netgear",
+   "last_changed": "2026-09-15T07:14:27Z",
    "published_at": ""
   }
  ]
