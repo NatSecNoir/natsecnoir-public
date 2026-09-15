@@ -8,7 +8,8 @@
   "doc_date": "2026-05-06",
   "docket": "DA 26-437; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Air6 System GmbH",
@@ -19,7 +20,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "543f2fea254b3eae62d7f37e157519ebe104c9d2ceb9ddb37ca4df28186653b0",
-  "approved_at": "2026-09-06T18:54:07Z",
+  "approved_at": "2026-09-15T06:58:54Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
