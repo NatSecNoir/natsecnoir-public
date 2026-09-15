@@ -1,0 +1,190 @@
+{
+  "title": "ET Docket 21-232 — EA Security",
+  "manifest": [],
+  "scope": "covered-list",
+  "node_type": "proceeding",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "e-551644d299",
+      "kind": "emergent",
+      "label": "EA Security 2.0",
+      "date": "2026-09-15T00:26:46Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "In the Second Further Notice of Proposed Rulemaking, the Commission sought comment on modular transmitters and component parts, critical infrastructure, modifications by Covered List entities, and the scope and enforcement of equipment-marketing prohibitions.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+        "page": 30,
+        "paragraph": 57,
+        "quote": "We seek additional comment on modular transmitters and component parts in relation to covered equipment. We address the partial remand of the Commission’s decision in its November 2022 EA Security R&O by proposing a definition of “critical infrastructure” as used on the Covered List and seeking comment on the implementation of that definition."
+      }
+    }
+  ],
+  "sources": {},
+  "pending": [
+    {
+      "op": "add",
+      "key": "e-3d66c6c482",
+      "label": "EA Security 2.0",
+      "text": "ET Docket No. 21-232 concerns the Commission’s proceeding on protecting against national security threats to the communications supply chain through its Equipment Authorization Program.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 1,
+      "paragraph": null,
+      "quote": "In the Matter of Protecting Against National Security Threats to the Communications Supply Chain through the Equipment Authorization Program",
+      "hash": "81e7c077c569",
+      "proposed_at": "2026-09-14T03:13:59Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-0e72440f61",
+      "label": "EA Security 2.0",
+      "text": "The Commission initiated the ET Docket No. 21-232 proceeding in June 2021 through its Equipment Authorization Security Notice of Proposed Rulemaking.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "In June 2021, the Commission initiated this proceeding in its Equipment Authorization Security Notice of Proposed Rulemaking (EA Security NPRM), ET Docket No. 21-232.",
+      "hash": "a022df37b36f",
+      "proposed_at": "2026-09-14T03:13:59Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-11eb6bd607",
+      "label": "EA Security 2.0",
+      "text": "The proceeding involves revising the Commission’s equipment authorization program as part of efforts to protect equipment supply chains and identify and eliminate potential security vulnerabilities in communications networks and supply chains.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "The Commission noted that this proceeding – which involves revising the Commission’s equipment authorization program – is part of the Commission’s overall efforts in carrying out its important role in protecting the security of America’s equipment supply chains",
+      "hash": "ad0e367fa4e9",
+      "proposed_at": "2026-09-14T03:13:59Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-dce08e9310",
+      "label": "record",
+      "text": "The Secure Equipment Act required the Commission to adopt rules in ET Docket No. 21-232 by November 11, 2022, clarifying that it would no longer review or approve applications for authorization of equipment on the Covered List.",
+      "record_id": "2026-09-09-record-b7d5e8",
+      "page": 18,
+      "paragraph": 36,
+      "quote": "The Secure Equipment Act requires that, by November 11, 2022, the Commission adopt rules in the instant proceeding (ET Docket 21-232) to update “the equipment authorization procedures of the Commission” to “clarify that the Commission will no longer review or approve any application for authorization of equipment that is on the list of covered communications equipment or services”",
+      "hash": "d4b983c23be9",
+      "proposed_at": "2026-09-14T03:13:59Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-6a40f36fb8",
+      "label": "EA Security 2.0",
+      "text": "ET Docket No. 21-232 concerns the FCC’s proceeding on protecting against national-security threats to the communications supply chain through its Equipment Authorization Program.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "In June 2021, the Commission initiated this proceeding in its Equipment Authorization Security Notice of Proposed Rulemaking (EA Security NPRM), ET Docket No. 21-232.",
+      "hash": "fcca8f277679",
+      "proposed_at": "2026-09-15T00:23:30Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-7f4d7a337b",
+      "label": "EA Security 2.0",
+      "text": "The proceeding was initiated in June 2021 as part of the FCC’s broader efforts to protect equipment supply chains and identify and eliminate potential security vulnerabilities in communications networks and supply chains.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "The Commission noted that this proceeding – which involves revising the Commission’s equipment authorization program – is part of the Commission’s overall efforts in carrying out its important role in protecting the security of America’s equipment supply chains, and also is part of the ongoing efforts of Congress, the Executive Branch, and the Commission to identify and eliminate potential security vulnerabilities in communications networks and supply chains.",
+      "hash": "074248b3328b",
+      "proposed_at": "2026-09-15T00:23:30Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-c4b7e0f93b",
+      "label": "record",
+      "text": "The Secure Equipment Act required the Commission to adopt rules by November 11, 2022, clarifying that it would no longer review or approve applications to authorize equipment on the Covered List.",
+      "record_id": "2026-09-09-record-b7d5e8",
+      "page": 18,
+      "paragraph": 36,
+      "quote": "The Secure Equipment Act requires that, by November 11, 2022, the Commission adopt rules in the instant proceeding (ET Docket 21-232) to update “the equipment authorization procedures of the Commission” to “clarify that the Commission will no longer review or approve any application for authorization of equipment that is on the list of covered communications equipment or services” (i.e., the Covered List).",
+      "hash": "b6d2dd3a9e92",
+      "proposed_at": "2026-09-15T00:23:30Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-15b5f67cf6",
+      "label": "EA Security 2.0",
+      "text": "The proceeding addresses whether equipment authorization rules should cover component parts, including whether applicants should attest that their equipment contains no Covered List equipment.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 17,
+      "paragraph": 30,
+      "quote": "Congress thus directed the Commission to adopt final rules in a proceeding which had proposed to require that applicants “attest that no equipment (including component parts) is comprised of any ‘covered’ equipment, as identified on the [Covered List].”",
+      "hash": "95e52fea5085",
+      "proposed_at": "2026-09-15T00:23:30Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-0009717577",
+      "label": "EA Security 2.0",
+      "text": "ET Docket No. 21-232 concerns the FCC’s proceeding on protecting against national-security threats to the communications supply chain through the Equipment Authorization Program.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "In June 2021, the Commission initiated this proceeding in its Equipment Authorization Security Notice of Proposed Rulemaking (EA Security NPRM), ET Docket No. 21-232.",
+      "hash": "b85bbb2e492e",
+      "proposed_at": "2026-09-15T00:25:47Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-42c8991f39",
+      "label": "EA Security 2.0",
+      "text": "The proceeding addresses revisions to the FCC’s equipment authorization program as part of broader efforts to protect equipment supply chains and eliminate potential security vulnerabilities in communications networks and supply chains.",
+      "record_id": "2026-09-04-ea-security-2nd-ro-bd58d8",
+      "page": 3,
+      "paragraph": 5,
+      "quote": "The Commission noted that this proceeding – which involves revising the Commission’s equipment authorization program – is part of the Commission’s overall efforts in carrying out its important role in protecting the security of America’s equipment supply chains",
+      "hash": "bc99cdbab573",
+      "proposed_at": "2026-09-15T00:25:47Z",
+      "kind": "emergent"
+    },
+    {
+      "op": "add",
+      "key": "e-70b45e71d8",
+      "label": "record",
+      "text": "The Secure Equipment Act required the Commission to adopt rules in this proceeding clarifying that it would no longer review or approve applications for authorization of equipment on the Covered List.",
+      "record_id": "2026-09-09-record-b7d5e8",
+      "page": 18,
+      "paragraph": 36,
+      "quote": "The Secure Equipment Act requires that, by November 11, 2022, the Commission adopt rules in the instant proceeding (ET Docket 21-232) to update “the equipment authorization procedures of the Commission”",
+      "hash": "0852a13b2b3d",
+      "proposed_at": "2026-09-15T00:25:47Z",
+      "kind": "emergent"
+    }
+  ],
+  "archive": [
+    {
+      "at": "2026-09-15T00:26:46Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-551644d299",
+      "label": "EA Security 2.0",
+      "hash": "a812b5bcdb28",
+      "note": "",
+      "text": "In the Second Further Notice of Proposed Rulemaking, the Commission sought comment on modular transmitters and component parts, critical infrastructure, modifications by Covered List entities, and the scope and enforcement of equipment-marketing prohibitions."
+    }
+  ],
+  "ledger": [
+    "a812b5bcdb28"
+  ],
+  "runs": [],
+  "published_at": "",
+  "last_changed": "2026-09-15T00:26:46Z"
+}
