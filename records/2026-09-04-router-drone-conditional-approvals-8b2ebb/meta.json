@@ -8,7 +8,8 @@
   "doc_date": "2026-04-14",
   "docket": "DA 26-351; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Netgear",
@@ -20,7 +21,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "8b2ebbe5896ec3506e1827e4fefa9d470f69f88013d718e9d7504a8af0c94d24",
-  "approved_at": "2026-09-15T06:56:33Z",
+  "approved_at": "2026-09-15T06:58:07Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
