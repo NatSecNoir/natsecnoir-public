@@ -824,7 +824,8 @@
    "doc_date": "2026-06-12",
    "docket": "DA 26-585; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
    ],
    "entities": [
     "ABZ Innovation Kft.",
@@ -835,7 +836,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "c9e7bea1611ef74a29e9b5eed4028df53f334395c521b3bb1493033f85e27c54",
-   "approved_at": "2026-09-06T18:56:44Z",
+   "approved_at": "2026-09-15T07:02:26Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
