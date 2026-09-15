@@ -1,0 +1,101 @@
+{
+  "title": "Hikvision",
+  "manifest": [],
+  "scope": "covered-list",
+  "node_type": "entity",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "e-bf9be6c711",
+      "kind": "emergent",
+      "label": "record",
+      "date": "2026-09-15T07:14:18Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The Commission concluded that covered video-surveillance equipment includes not only cameras but also associated video recorders, servers, and data-storage devices that use broadband capabilities.",
+      "definitions": [],
+      "citation": {
+        "record_id": "2026-09-09-record-b7d5e8",
+        "page": 83,
+        "paragraph": 206,
+        "quote": "We believe it intended to take the broad view on what constitutes video surveillance equipment, and conclude that it includes not only surveillance cameras, but also video surveillance equipment associated with video surveillance services that make use of broadband capabilities, such as video recorders, video surveillance servers, and video surveillance data storage devices."
+      }
+    }
+  ],
+  "sources": {},
+  "pending": [],
+  "archive": [
+    {
+      "at": "2026-09-15T07:06:02Z",
+      "decision": "rejected",
+      "op": "add",
+      "key": "e-83751afbfd",
+      "label": "record",
+      "hash": "ea52b73ad72a",
+      "note": "",
+      "text": "The Commission received extensive submissions addressing whether Hikvision equipment qualifies as “covered” equipment and whether authorization of its equipment should be prohibited."
+    },
+    {
+      "at": "2026-09-15T07:06:08Z",
+      "decision": "rejected",
+      "op": "add",
+      "key": "e-589578f3c6",
+      "label": "record",
+      "hash": "79d31c4f17d7",
+      "note": "",
+      "text": "Hikvision argued that its equipment generally was not covered equipment and should not be prohibited from obtaining equipment authorizations; the Commission noted Hikvision’s significant presence in the U.S. video-surveillance market."
+    },
+    {
+      "at": "2026-09-15T07:06:28Z",
+      "decision": "rejected",
+      "op": "add",
+      "key": "e-0cbdb84fbf",
+      "label": "record",
+      "hash": "d6fa8400777a",
+      "note": "",
+      "text": "The Commission was also unpersuaded by Hikvision’s separation-of-powers challenge concerning FCC Commissioners’ appointment and removal protections."
+    },
+    {
+      "at": "2026-09-15T07:06:35Z",
+      "decision": "rejected",
+      "op": "add",
+      "key": "e-1d2f07dbec",
+      "label": "record",
+      "hash": "bdab5d08ec9c",
+      "note": "",
+      "text": "The Commission rejected Hikvision’s characterization of its video-surveillance equipment as merely peripheral or customer-premises equipment, emphasizing that section 889(f)(3) treats video-surveillance equipment as covered."
+    },
+    {
+      "at": "2026-09-15T07:07:03Z",
+      "decision": "rejected",
+      "op": "add",
+      "key": "e-21f582c5eb",
+      "label": "record",
+      "hash": "19c7b1a7c531",
+      "note": "",
+      "text": "The Commission was unpersuaded by Hikvision’s claim that the Secure Equipment Act imposed punishment based on Congress’s motivations for enacting it."
+    },
+    {
+      "at": "2026-09-15T07:14:18Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "e-bf9be6c711",
+      "label": "record",
+      "hash": "6b005b5407a0",
+      "note": "",
+      "text": "The Commission concluded that covered video-surveillance equipment includes not only cameras but also associated video recorders, servers, and data-storage devices that use broadband capabilities."
+    }
+  ],
+  "ledger": [
+    "ea52b73ad72a",
+    "79d31c4f17d7",
+    "d6fa8400777a",
+    "bdab5d08ec9c",
+    "19c7b1a7c531",
+    "6b005b5407a0"
+  ],
+  "runs": [],
+  "published_at": "",
+  "last_changed": "2026-09-15T07:14:18Z"
+}
