@@ -8,7 +8,8 @@
   "doc_date": "2026-07-24",
   "docket": "DA 26-768; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "conditional-approval"
   ],
   "entities": [
     "Exedy Globalparts Corporation",
@@ -23,7 +24,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "b741bf0cc1c21f02aaebc916fa6beb95da79aa99319a80efaf2cc72a43d59047",
-  "approved_at": "2026-09-06T03:06:39Z",
+  "approved_at": "2026-09-15T07:03:35Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
