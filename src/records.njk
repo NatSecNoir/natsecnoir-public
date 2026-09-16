@@ -16,7 +16,7 @@ eleventyComputed:
   <div class="meta">
     <span class="d">{{ r.doc_date }}</span>
     <span class="k"><a href="/by/agency/{{ r.agencySlug }}/">{{ r.issuing_body }}</a></span>
-    <span><a href="/by/type/{{ r.typeSlug }}/">{{ r.doc_type }}</a></span>
+    <span>{{ r.doc_type }}</span>
     {% if r.docket %}<span>{{ r.docket }}</span>{% endif %}
   </div>
   {% if r.lists.length %}<div class="chips">{% for l in r.lists %}<a class="chip" href="/by/list/{{ l.slug }}/">{{ l.label }}</a>{% endfor %}</div>{% endif %}
