@@ -16,7 +16,7 @@ function slug(s) {
 }
 
 export default function () {
-  if (!fs.existsSync(root)) return { all: [], byList: [], byAgency: [], byType: [] };
+  if (!fs.existsSync(root)) return { all: [], byList: [], byAgency: [] };
   const all = [];
   for (const id of fs.readdirSync(root).sort()) {
     const dir = path.join(root, id);
@@ -36,7 +36,6 @@ export default function () {
       copy: meta.source_copy_public && copy ? `/records/${id}/${copy}` : "",
       lists: (meta.lists || []).map((l) => ({ slug: l, label: (listInfo[l] || {}).label || l })),
       agencySlug: slug(meta.issuing_body || "unknown"),
-      typeSlug: slug(meta.doc_type || "unknown"),
       search: [meta.title, meta.issuing_body, meta.doc_type, meta.docket, meta.doc_date,
         ...(meta.lists || []).map((l) => (listInfo[l] || {}).label || l), ...(meta.entities || []), excerpt(summary)]
         .filter(Boolean).join(" | ").toLowerCase().replace(/\s+/g, " "),
@@ -56,6 +55,5 @@ export default function () {
     all,
     byList: group((r) => r.lists.map((l) => ({ ...l, gloss: (listInfo[l.slug] || {}).gloss }))),
     byAgency: group((r) => [{ slug: r.agencySlug, label: r.issuing_body || "Unknown" }]),
-    byType: group((r) => [{ slug: r.typeSlug, label: r.doc_type || "unknown" }]),
   };
 }
