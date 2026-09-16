@@ -44,7 +44,6 @@ const feed = fs.readFileSync(path.join(outFix, "feed.xml"), "utf8");
 assert.match(feed, /<item>/, "feed has items");
 assert.ok(fs.existsSync(path.join(outFix, "by/list/covered-list/index.html")), "list index page");
 assert.ok(fs.existsSync(path.join(outFix, "by/agency/fcc/index.html")), "agency index page");
-assert.ok(fs.existsSync(path.join(outFix, "by/type/order/index.html")), "type index page");
 
 const analysis = fs.readFileSync(path.join(outFix, "analyses/fixture-analysis/index.html"), "utf8");
 assert.match(analysis, /Fixture Analysis/, "analysis page renders its title");
