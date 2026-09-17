@@ -1,5 +1,5 @@
 {
- "count": 62,
+ "count": 63,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -7,7 +7,6 @@
    "ingested_at": "2026-09-12T18:26:55Z",
    "title": "Derycom Citation - Failure to Submit Truthful information",
    "issuing_body": "FCC",
-   "doc_type": "other",
    "doc_date": "2026-09-11",
    "docket": "EB-SED-26-00041408; DA 26-970",
    "lists": [
@@ -40,7 +39,6 @@
    "ingested_at": "2026-09-10T20:08:49Z",
    "title": "Conditional Approvals: Asus, Comtrend (Routers), Husqvarna (robots)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-09-09",
    "docket": "DA 26-957; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -76,7 +74,6 @@
    "ingested_at": "2026-09-07T16:34:41Z",
    "title": "Hesai v DoD",
    "issuing_body": "DC Circuit",
-   "doc_type": "opinion",
    "doc_date": "2026-08-18",
    "docket": "DC Cir. No. 25-5256",
    "lists": [
@@ -110,7 +107,6 @@
    "ingested_at": "2026-09-07T16:34:40Z",
    "title": "DJI v. DoD",
    "issuing_body": "DC Circuit",
-   "doc_type": "opinion",
    "doc_date": "2026-08-14",
    "docket": "No. 25-5367; No. 1:24-cv-02970",
    "lists": [
@@ -145,7 +141,6 @@
    "ingested_at": "2026-09-12T20:11:39Z",
    "title": "Stranger Pings: Chinese Telecom Companies Infiltrate US Infrastructure",
    "issuing_body": "Congress",
-   "doc_type": "report",
    "doc_date": "2026-08-04",
    "docket": "NA",
    "lists": [
@@ -179,7 +174,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Robotics and Power Inverters Covered List",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-28",
    "docket": "DA 26-786; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -210,7 +204,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "OET Permissive Change Waiver - Robotics Power Inverters",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-28",
    "docket": "DA 26-789; ET Docket No. 21-232",
    "lists": [
@@ -241,7 +234,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - SpaceX (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-27",
    "docket": "DA 26-775; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -275,7 +267,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Exedy, Parallel Flight (drones), Calix, Sagemcom, Humax, Askey (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-24",
    "docket": "DA 26-768; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -314,7 +305,6 @@
    "ingested_at": "2026-09-07T00:41:06Z",
    "title": "EA Security 3.0",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2026-07-22",
    "docket": "FCC-26-50; ET Docket No. 21-232",
    "lists": [
@@ -345,7 +335,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Shenzhen STS -CopyPaste-2 Order to Show Cause",
    "issuing_body": "FCC",
-   "doc_type": "order to show cause",
    "doc_date": "2026-07-21",
    "docket": "ET Docket No. 26-140; DA 26-745",
    "lists": [
@@ -378,7 +367,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Odyssey Robot Order to Show Cause",
    "issuing_body": "FCC",
-   "doc_type": "order to show cause",
    "doc_date": "2026-07-21",
    "docket": "ET Docket No. 26-186; DA 26-746",
    "lists": [
@@ -413,7 +401,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Gryphon, Sercomm (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-20",
    "docket": "DA 26-756; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -448,7 +435,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "PN Seeking Comment on Marketing Import Limit Drone Clones",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-17",
    "docket": "PS Docket No. 26-184; DA 26-742",
    "lists": [
@@ -489,7 +475,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Gemtek (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-10",
    "docket": "DA 26-704; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -523,7 +508,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Vantiva (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-08",
    "docket": "DA 26-688; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -557,7 +541,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Order Denying DigitalSystem 214",
    "issuing_body": "FCC",
-   "doc_type": "order",
    "doc_date": "2026-07-07",
    "docket": "FCC 26-44; ITC-214-20240326-00054",
    "lists": [
@@ -595,7 +578,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Digitalsystem added to Covered List",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-07-07",
    "docket": "DA 26-673; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -634,7 +616,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Pre-2024 Covered List Marketing Import Limitation",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-26",
    "docket": "DA 26-635; PS Docket No. 26-72",
    "lists": [
@@ -675,7 +656,6 @@
    "ingested_at": "2026-09-10T00:09:57Z",
    "title": "Submarine Cable 2nd Report and Order and 2nd Further Notice",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2026-06-25",
    "docket": "OI Docket No. 24-523, MD Docket No. 24-524",
    "lists": [
@@ -722,7 +702,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Real-Time Robotics and Ceres Air (drones), Hitron (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-22",
    "docket": "DA 26-616; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -758,7 +737,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Covered List Toy Drones Removal",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-15",
    "docket": "DA 26-588; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -793,7 +771,6 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Flock Group (drones), Miri Technologies (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-12",
    "docket": "DA 26-584; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -828,7 +805,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals  ABZ Innovation Kft. (drone) and Arcadyan (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-12",
    "docket": "DA 26-585; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -863,7 +839,6 @@
    "ingested_at": "2026-09-14T02:07:53Z",
    "title": "SLG-CPC - Copy-Paste Lab #1- Instituting Order",
    "issuing_body": "FCC",
-   "doc_type": "order",
    "doc_date": "2026-06-09",
    "docket": "ET Docket No. 26-140; DA 26-569",
    "lists": [
@@ -896,7 +871,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Innovation First VEX AIR (drone) and Sagemcom (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-04",
    "docket": "DA 26-548; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -931,7 +905,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Calix, Alpha Networks (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-06-01",
    "docket": "DA 26-542; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -966,7 +939,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Blueflite, Verity AG, Air VEV (drones)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-05-26",
    "docket": "DA 26-524; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1002,7 +974,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Nokia",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-05-18",
    "docket": "DA 26-495; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1036,7 +1007,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Elevon Aerial (drones), Nokia (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-05-15",
    "docket": "DA 26-489; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1071,7 +1041,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "OET Waivers (UAS and routers) extended to 2029",
    "issuing_body": "FCC",
-   "doc_type": "waiver",
    "doc_date": "2026-05-08",
    "docket": "ET Docket No. 21-232; DA 26-454",
    "lists": [
@@ -1106,7 +1075,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Air6 (drones), Calix (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-05-06",
    "docket": "DA 26-437; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1141,7 +1109,6 @@
    "ingested_at": "2026-09-09T23:55:24Z",
    "title": "record",
    "issuing_body": "FCC",
-   "doc_type": "notice of proposed rulemaking",
    "doc_date": "2026-05-01",
    "docket": "FCC 26-29; WC Docket No. 26-82",
    "lists": [
@@ -1180,7 +1147,6 @@
    "ingested_at": "2026-09-07T02:27:48Z",
    "title": "Bad Labs 2.0",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2026-04-30",
    "docket": "FCC 26-28; ET Docket No. 24-136",
    "lists": [
@@ -1211,7 +1177,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Amazon eero, Amazon Leo (routers)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-04-22",
    "docket": "DA 26-390; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1246,7 +1211,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Netgear, Adtran (routers), Sees.ai (drone)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-04-14",
    "docket": "DA 26-351; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1282,7 +1246,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "PN Seeking Comment on pre-2024 Covered List Limitation",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-03-27",
    "docket": "PS Docket No. 26-72; DA 26-294",
    "lists": [
@@ -1319,7 +1282,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Router Permissive Change Waiver",
    "issuing_body": "FCC",
-   "doc_type": "waiver",
    "doc_date": "2026-03-23",
    "docket": "DA 26-286; ET Docket No. 21-232",
    "lists": [
@@ -1350,7 +1312,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Router Covered List",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-03-23",
    "docket": "DA 26-278; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1381,7 +1342,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - SiFly Aviation, Mobilicom, ScoutDI, Verge (drones)",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-03-18",
    "docket": "DA 26-253; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1418,7 +1378,6 @@
    "ingested_at": "2026-09-12T20:11:37Z",
    "title": "Foreign Adversary Control Report and Order",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2026-01-29",
    "docket": "FCC 26-2; GN Docket No. 25-166",
    "lists": [
@@ -1451,7 +1410,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "OET Class I Permissive Change Waiver",
    "issuing_body": "FCC",
-   "doc_type": "waiver",
    "doc_date": "2026-01-21",
    "docket": "DA 26-69; ET Docket No. 21-232",
    "lists": [
@@ -1482,7 +1440,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Second UAS Covered List Blue UAS",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2026-01-07",
    "docket": "DA 26-22; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1517,7 +1474,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "First UAS Covered List",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2025-12-22",
    "docket": "DA 25-1086; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1563,7 +1519,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "EA Security 2.0",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2025-10-29",
    "docket": "FCC 25-71; ET Docket No. 21-232",
    "lists": [
@@ -1604,7 +1559,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "HK Telecom Order to Show Cause 214",
    "issuing_body": "FCC",
-   "doc_type": "order to show cause",
    "doc_date": "2025-10-15",
    "docket": "DA 25-928; GN Docket No. 25-308; ITC-214-19980303-00158; ITC-214-19980930-00689; ITC-214-19981218-00880; ITC-214-19990601-00305; ITC-214-19990601-00306; ITC-214-19990601-00307; ITC-214-19990601-00308; ITC-214-19991122-00725; ITC-214-19991122-00726; ITC-214-19991122-00727; ITC-MOD-20020829-00511; ITC-214-20021024-00567",
    "lists": [
@@ -1645,7 +1599,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List NatSec Advisory Subs Affil",
    "issuing_body": "FCC",
-   "doc_type": "advisory",
    "doc_date": "2025-10-14",
    "docket": "DA 25-927; WC Docket No. 18-89; ET Docket Nos. 21-232, 24-136; EA Docket No. 21-233",
    "lists": [
@@ -1689,7 +1642,6 @@
    "ingested_at": "2026-09-10T00:09:19Z",
    "title": "Submarine Cable First Report and Order",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2025-08-07",
    "docket": "FCC 25-49; OI Docket No. 24-523; MD Docket No. 24-524",
    "lists": [
@@ -1733,7 +1685,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Bad Labs 1.0 R&O",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2025-05-27",
    "docket": "FCC 25-27; ET Docket No. 24-136",
    "lists": [
@@ -1778,7 +1729,6 @@
    "ingested_at": "2026-09-12T20:11:38Z",
    "title": "ICTS Connected Vehicles  PN",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2025-05-23",
    "docket": "DA 25-418; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1810,7 +1760,6 @@
    "ingested_at": "2026-09-07T16:34:42Z",
    "title": "TikTok Inc. v.  Garland",
    "issuing_body": "SCOTUS",
-   "doc_type": "opinion",
    "doc_date": "2025-01-17",
    "docket": "SCOTUS Docket Nos. 24-656 and 24-657",
    "lists": [
@@ -1844,7 +1793,6 @@
    "ingested_at": "2026-09-07T16:29:39Z",
    "title": "China Unicom v FCC",
    "issuing_body": "9th Circuit",
-   "doc_type": "opinion",
    "doc_date": "2024-12-24",
    "docket": "9th Cir No. 22-70029",
    "lists": [
@@ -1879,7 +1827,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Prohibiting EA for Kaspersky",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2024-09-03",
    "docket": "DA 24-886; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1915,7 +1862,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List Kaspersky ICTS hardware",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2024-07-23",
    "docket": "DA 24-712; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1951,7 +1897,6 @@
    "ingested_at": "2026-09-07T16:34:40Z",
    "title": "Hikvision USA, Inc. v. FCC",
    "issuing_body": "DC Circuit",
-   "doc_type": "opinion",
    "doc_date": "2024-04-02",
    "docket": "DC Cir. No. 23-1032; Consolidated with 23-1073",
    "lists": [
@@ -1994,7 +1939,6 @@
    "ingested_at": "2026-09-07T16:29:39Z",
    "title": "Pacific Networks and ComNet (USA) v. FCC",
    "issuing_body": "DC Circuit",
-   "doc_type": "opinion",
    "doc_date": "2023-08-15",
    "docket": "No. 22-1054",
    "lists": [
@@ -2032,7 +1976,6 @@
    "ingested_at": "2026-09-07T16:19:38Z",
    "title": "China Telecom (Americas) Corp. v. FCC",
    "issuing_body": "DC Circuit",
-   "doc_type": "opinion",
    "doc_date": "2022-12-20",
    "docket": "No. 21-1233",
    "lists": [
@@ -2071,7 +2014,6 @@
    "ingested_at": "2026-09-09T23:52:07Z",
    "title": "record",
    "issuing_body": "FCC",
-   "doc_type": "report and order",
    "doc_date": "2022-11-11",
    "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
    "lists": [
@@ -2114,7 +2056,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List China Unicom PacNet",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2022-09-20",
    "docket": "WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233; DA 22-979",
    "lists": [
@@ -2155,7 +2096,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Second Covered List China Mobile Telecom Kaspersky",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2022-03-25",
    "docket": "WC Docket No. 18-89; DA 22-320",
    "lists": [
@@ -2197,12 +2137,46 @@
    ]
   },
   {
+   "id": "2026-09-16-fcc-21-114a1-rcd-75bb74",
+   "status": "approved",
+   "ingested_at": "2026-09-16T11:35:58Z",
+   "title": "China Telecom Revocation Order",
+   "issuing_body": "FCC",
+   "doc_date": "2021-11-02",
+   "docket": "FCC 21-114; GN Docket No. 20-109",
+   "lists": [
+    "team-telecom",
+    "litigation"
+   ],
+   "entities": [
+    "China Telecom (Americas) Corporation",
+    "China Telecom Corporation Limited",
+    "China Telecommunications Corporation"
+   ],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-21-114A1_Rcd.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "75bb742366c8209cadea99880694c4b376bbad014a2b560751c089eab2e2f3de",
+   "approved_at": "2026-09-17T03:17:21Z",
+   "published_at": "2026-09-17T03:17:21Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-16T11:36:08Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
    "id": "2026-09-07-19-60896-2021-06-18-aa4ff0",
    "status": "approved",
    "ingested_at": "2026-09-07T16:34:41Z",
    "title": "Huawei v FCC",
    "issuing_body": "5th Cir",
-   "doc_type": "opinion",
    "doc_date": "2021-06-18",
    "docket": "5th Cir Docket No. No. 19-60896; FCC No. 19-121",
    "lists": [
@@ -2237,7 +2211,6 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "First Covered List PN Huawei ZTE",
    "issuing_body": "FCC",
-   "doc_type": "public notice",
    "doc_date": "2021-03-12",
    "docket": "WC Docket No. 18-89; DA 21-309",
    "lists": [
