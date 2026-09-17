@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-16-fcc-21-114a1-rcd-75bb74",
+  "status": "approved",
+  "ingested_at": "2026-09-16T11:35:58Z",
+  "title": "China Telecom Revocation Order",
+  "issuing_body": "FCC",
+  "doc_date": "2021-11-02",
+  "docket": "FCC 21-114; GN Docket No. 20-109",
+  "lists": [
+    "team-telecom",
+    "litigation"
+  ],
+  "entities": [
+    "China Telecom (Americas) Corporation",
+    "China Telecom Corporation Limited",
+    "China Telecommunications Corporation"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-21-114A1_Rcd.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "75bb742366c8209cadea99880694c4b376bbad014a2b560751c089eab2e2f3de",
+  "approved_at": "2026-09-17T03:17:21Z",
+  "published_at": "2026-09-17T03:17:21Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-16T11:36:08Z"
+}
