@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-16-record-92731a",
+  "status": "approved",
+  "ingested_at": "2026-09-16T01:29:06Z",
+  "title": "Hytera and ZTE Notice of Apparent Liability",
+  "issuing_body": "FCC",
+  "doc_date": "2026-08-28",
+  "docket": "EB-SED-25-00038006",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "ZTE Corporation",
+    "Hytera Communications Corp. Ltd."
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-60A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "92731a28da8eb9f7ff4a0ce2a3b74595c9fc137a21ce489ea5f99c4eb59c4c0e",
+  "approved_at": "2026-09-17T03:17:29Z",
+  "published_at": "2026-09-17T03:17:29Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-16T01:29:14Z"
+}
