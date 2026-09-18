@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-17-record-d5f306",
+  "status": "approved",
+  "ingested_at": "2026-09-17T03:18:25Z",
+  "title": "record",
+  "issuing_body": "FCC",
+  "doc_date": "2026-08-31",
+  "docket": "DA 26-912; EB-SED-26-00040760; NAL/Acct No. 202632100004",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Cogito Tech Company"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-912A1.pdf",
+  "source_copy_public": true,
+  "notes": "drone clones",
+  "source_file": "source.pdf",
+  "sha256": "d5f3069f2dff82598052686ea7866d99245e510189227fa7615128005b1521a3",
+  "approved_at": "2026-09-18T11:28:36Z",
+  "published_at": "2026-09-18T11:28:53Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-17T03:18:38Z"
+}
