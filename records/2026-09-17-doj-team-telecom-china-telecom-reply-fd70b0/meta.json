@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-17-doj-team-telecom-china-telecom-reply-fd70b0",
+  "status": "approved",
+  "ingested_at": "2026-09-17T03:30:20Z",
+  "title": "DOJ Team Telecom China Telecom Reply",
+  "issuing_body": "FCC",
+  "doc_date": "2021-01-14",
+  "docket": "GN Docket 20-109; ITC-214-20010613-00346; ITC-214-20020716-00371; ITC-T/C-20070725-00285",
+  "lists": [
+    "team-telecom",
+    "litigation"
+  ],
+  "entities": [
+    "China Telecom (Americas) Corporation"
+  ],
+  "source_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=ITC-T%2FC-20070725-00285",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "fd70b0983fddaef9c3da5c7e594cf9ec26e07e03e02fc69f716c9f124de0572e",
+  "approved_at": "2026-09-19T20:53:01Z",
+  "published_at": "2026-09-19T20:53:26Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-17T03:32:02Z"
+}
