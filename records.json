@@ -1,5 +1,5 @@
 {
- "count": 67,
+ "count": 68,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -2366,6 +2366,38 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:53:15Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-17-doj-team-telecom-revoke-china-telecom-623023",
+   "status": "approved",
+   "ingested_at": "2026-09-17T03:29:56Z",
+   "title": "DOJ Team Telecom Revoke China Telecom",
+   "issuing_body": "FCC",
+   "doc_date": "2020-04-09",
+   "docket": "ITC-214-20010613-00346; ITC-214-20020716-00371; ITC-T/C-20070725-00285",
+   "lists": [
+    "team-telecom"
+   ],
+   "entities": [
+    "China Telecom (Americas) Corporation"
+   ],
+   "source_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=ITC-T%2FC-20070725-00285",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "623023f534df68133b0b491c4487f4ca5ea524eb15ef48ea38e7989361aeafb7",
+   "approved_at": "2026-09-19T20:52:34Z",
+   "published_at": "2026-09-19T20:52:37Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-17T03:30:24Z",
    "files": [
     "meta.json",
     "summary.md",
