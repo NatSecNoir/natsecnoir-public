@@ -1,5 +1,5 @@
 {
- "count": 69,
+ "count": 70,
  "records": [
   {
    "id": "2026-09-12-record-58b8c9",
@@ -2214,6 +2214,42 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:25Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-2022-5-23-peerless-tt-214-loa-edf691",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:05:31Z",
+   "title": "2022 5 23 Peerless TT 214 LOA",
+   "issuing_body": "FCC",
+   "doc_date": "2022-05-23",
+   "docket": "WC Docket No. 03-216; WT Docket No. 02-229",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Peerless Network",
+    "Airus",
+    "WaveNation",
+    "Infobip"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/33f4a84a-c1ee-4c86-ab6d-b58a17a5a0ac?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "edf6919365fb1e3dd3e5af24307061b49b9fceb4d2e800dbd7940f1ec94c1b66",
+   "approved_at": "2026-09-19T20:57:55Z",
+   "published_at": "2026-09-19T20:57:55Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:06:36Z",
    "files": [
     "meta.json",
     "summary.md",
