@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-18-da-26-996a1-3919ef",
+  "status": "approved",
+  "ingested_at": "2026-09-18T21:07:57Z",
+  "title": "Conditionatl Approval: ANSCER Robotics",
+  "issuing_body": "FCC",
+  "doc_date": "2026-09-18",
+  "docket": "DA 26-996; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "covered-list",
+    "conditional-approval"
+  ],
+  "entities": [
+    "ANSCER Robotics"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "3919ef72eb2ba3b61d647a5c038278b76564ed3e42f3db0191db16c38e5a0f83",
+  "approved_at": "2026-09-20T14:15:50Z",
+  "published_at": "2026-09-20T14:16:10Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-18T21:08:04Z"
+}
