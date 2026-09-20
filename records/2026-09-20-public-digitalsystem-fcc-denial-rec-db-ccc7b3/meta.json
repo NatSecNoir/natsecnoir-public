@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-20-public-digitalsystem-fcc-denial-rec-db-ccc7b3",
+  "status": "approved",
+  "ingested_at": "2026-09-20T14:10:55Z",
+  "title": "Digitalsystem: Team Telecom Recommendation to Deny Section 214",
+  "issuing_body": "FCC",
+  "doc_date": "2026-04-01",
+  "docket": "File No. ITC-214-20240326-00054",
+  "lists": [
+    "team-telecom"
+  ],
+  "entities": [
+    "Digitalsystem Technology Inc."
+  ],
+  "source_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=ITC-214-20240326-00054",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "ccc7b3c3a347c26fb09f87454d47ba8ba8e169de4e4d9fb296ca4b8bf3bf3450",
+  "approved_at": "2026-09-20T14:13:15Z",
+  "published_at": "2026-09-20T14:14:21Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-20T14:11:03Z"
+}
