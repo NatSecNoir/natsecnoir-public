@@ -1,5 +1,5 @@
 {
- "count": 72,
+ "count": 73,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2279,6 +2279,40 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:25Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-2022-5-31-plant-loa-signed-440b1a",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:05:30Z",
+   "title": "2022 5 31 Plant LOA- Signed",
+   "issuing_body": "DOJ",
+   "doc_date": "2022-05-31",
+   "docket": "WT Docket No. 02-229",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Plant Telephone",
+    "TruVista"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/57c4d5ed-9b53-4c76-899f-04cb3212dcf5?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "440b1a199d5840c57bbacc62efaf742a5e006e65150eb855064f436c8bdfc2ec",
+   "approved_at": "2026-09-21T00:27:57Z",
+   "published_at": "2026-09-21T00:28:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:05:38Z",
    "files": [
     "meta.json",
     "summary.md",
