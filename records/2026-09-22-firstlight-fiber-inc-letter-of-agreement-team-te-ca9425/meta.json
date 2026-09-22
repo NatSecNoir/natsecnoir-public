@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-22-firstlight-fiber-inc-letter-of-agreement-team-te-ca9425",
+  "status": "approved",
+  "ingested_at": "2026-09-22T08:07:45Z",
+  "title": "FirstLight Fiber, Inc. — Letter of Agreement",
+  "issuing_body": "FCC",
+  "doc_date": "2018-07-09",
+  "docket": "18-83; ISP-PDR-20180319-00001",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "FirstLight Fiber"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3206ba7e975ae61046e139b0f053af57",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0051622; dockets named by the instrument: 18-83",
+  "source_file": "source.pdf",
+  "sha256": "ca9425fb9256dc30f47a75a5cbf14bac57f9c12ed4d08ff60ac3a14502b9075a",
+  "approved_at": "2026-09-22T11:16:59Z",
+  "published_at": "2026-09-22T11:17:27Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-22T08:08:51Z"
+}
