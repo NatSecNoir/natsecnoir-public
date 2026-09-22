@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-22-onvoy-spectrum-llc-letter-of-agreement-team-tele-73e4da",
+  "status": "approved",
+  "ingested_at": "2026-09-22T08:07:11Z",
+  "title": "Onvoy Spectrum, LLC — Letter of Agreement (Team Telecom, Docket ISP-PDR-20170316-00001)",
+  "issuing_body": "FCC",
+  "doc_date": "2017-11-21",
+  "docket": "ISP-PDR-20170316-00001",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Onvoy Spectrum"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f326d93297d2e61046e139b0f053af6b",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "73e4da996c54de862c845ad65f564f087711e6d03b45f123c23002556a00b2e3",
+  "approved_at": "2026-09-22T11:17:55Z",
+  "published_at": "2026-09-22T11:18:03Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-22T08:08:25Z"
+}
