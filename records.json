@@ -1,5 +1,5 @@
 {
- "count": 81,
+ "count": 82,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -1978,6 +1978,41 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-12T20:15:30Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:11:28Z",
+   "title": "Lumos (T-Mobile - EQT)",
+   "issuing_body": "FCC",
+   "doc_date": "2025-02-14",
+   "docket": "WC Docket No. 24-151; TT 24-029 to -031",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "T-Mobile US",
+    "Gridiron Fiber",
+    "Lumos"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/4816a833-51fb-411f-b3f4-36c775eb759e?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "ed23fddf8f912ad5c809a44463d59797039888dacd2cae605e17a0e6615b8e49",
+   "approved_at": "2026-09-22T23:33:36Z",
+   "published_at": "2026-09-22T23:33:51Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:21:31Z",
    "files": [
     "meta.json",
     "summary.md",
