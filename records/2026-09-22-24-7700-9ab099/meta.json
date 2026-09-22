@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-22-24-7700-9ab099",
+  "status": "approved",
+  "ingested_at": "2026-09-22T10:58:03Z",
+  "title": "Doe v GitHub and OpenAI (9th Cir 2026)",
+  "issuing_body": "9th Circuit",
+  "doc_date": "2026-09-16",
+  "docket": "9th Cir Case No. 24-7700; N.D. Cal. Case No. 4:22-cv-06823",
+  "lists": [
+    "litigation",
+    "ai"
+  ],
+  "entities": [
+    "GitHub",
+    "Microsoft Corporation",
+    "OpenAI"
+  ],
+  "source_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/09/16/24-7700.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "9ab099e42347ab30593cbb94ff141fff7a01aec79e0f1fdd7c6d803e20e2b76e",
+  "approved_at": "2026-09-22T11:31:13Z",
+  "published_at": "2026-09-22T11:31:20Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "2026-09-19-24-7700-9ab099",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-22T10:58:09Z"
+}
