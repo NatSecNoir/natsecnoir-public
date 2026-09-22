@@ -1,5 +1,5 @@
 {
- "count": 77,
+ "count": 78,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2599,6 +2599,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-17T03:30:24Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8",
+   "status": "approved",
+   "ingested_at": "2026-09-22T08:07:52Z",
+   "title": "Tampnet Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20180824-00003)",
+   "issuing_body": "FCC",
+   "doc_date": "2019-02-13",
+   "docket": "ISP-PDR-20180824-00003; ECFS 18-255",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Tampnet Inc."
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/53856f32975ee61046e139b0f053af2e",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0057380; dockets named by the instrument: 18-255",
+   "source_file": "source.pdf",
+   "sha256": "032cc8f5ca03f77df65cf37203db33808b89803744ab8847c43585582f72b1bc",
+   "approved_at": "2026-09-22T11:23:12Z",
+   "published_at": "2026-09-22T11:23:36Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-22T08:09:18Z",
    "files": [
     "meta.json",
     "summary.md",
