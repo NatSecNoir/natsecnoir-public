@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa",
+  "status": "approved",
+  "ingested_at": "2026-09-22T08:11:35Z",
+  "title": "BCE Holding Corporation — Letter of Agreement (Team Telecom, Docket ISP-PDR-20241206-00005)",
+  "issuing_body": "FCC",
+  "doc_date": "2019-11-21",
+  "docket": "ISP-PDR-20241206-00005; ECFS 24-692; ECFS 19-188",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Northwest Fiber"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6435d4db97126a1046e139b0f053af4c",
+  "source_copy_public": true,
+  "notes": "dockets named by the instrument: 24-692, 19-188",
+  "source_file": "source.pdf",
+  "sha256": "b4d2fa3b86b2dd539ed48ea885914c25ff7bcf891b67e587bc8fcd2313482e4d",
+  "approved_at": "2026-09-22T11:25:32Z",
+  "published_at": "2026-09-22T11:25:46Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-22T08:16:15Z"
+}
