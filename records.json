@@ -1,5 +1,5 @@
 {
- "count": 79,
+ "count": 80,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2599,6 +2599,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-17T03:30:24Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+   "status": "approved",
+   "ingested_at": "2026-09-22T08:08:51Z",
+   "title": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
+   "issuing_body": "FCC",
+   "doc_date": "2019-11-21",
+   "docket": "ISP-PDR-20190708-00006",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Northwest Fiber"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ff4c504797122a1046e139b0f053af6b",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0065816; dockets named by the instrument: 19-188",
+   "source_file": "source.pdf",
+   "sha256": "44da7165380a4275c05a6cbf65f7b1b6498cb7c5774e191c8caf17744f281bcc",
+   "approved_at": "2026-09-22T11:26:09Z",
+   "published_at": "2026-09-22T11:26:36Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-22T08:10:58Z",
    "files": [
     "meta.json",
     "summary.md",
