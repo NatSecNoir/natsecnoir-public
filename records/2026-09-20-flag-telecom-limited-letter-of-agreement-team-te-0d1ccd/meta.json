@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
+  "status": "approved",
+  "ingested_at": "2026-09-20T21:30:58Z",
+  "title": "FLAG Telecom Limited — Letter of Agreement",
+  "issuing_body": "FCC",
+  "doc_date": "2022-07-18",
+  "docket": "ITC-T/C-20211124-00181",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "FLAG Telecom"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1c1ed24f97d62a1046e139b0f053af0a",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0084757",
+  "source_file": "source.pdf",
+  "sha256": "0d1ccd183fe8d036010762de3f08b60bf02d64e677838d79718f2a8c6c6d96a0",
+  "approved_at": "2026-09-23T02:30:51Z",
+  "published_at": "2026-09-23T02:31:36Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-20T21:31:35Z"
+}
