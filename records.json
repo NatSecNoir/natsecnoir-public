@@ -1,5 +1,5 @@
 {
- "count": 83,
+ "count": 84,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2637,6 +2637,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-17T03:32:02Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-22-frontier-communications-corporation-debtor-in-po-c552a9",
+   "status": "approved",
+   "ingested_at": "2026-09-22T08:09:03Z",
+   "title": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
+   "issuing_body": "FCC",
+   "doc_date": "2020-12-17",
+   "docket": "ISP-PDR-20200624-00005",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Frontier Communications"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3259594f97d22a1046e139b0f053af74",
+   "source_copy_public": true,
+   "notes": "TT 20-025 to -040",
+   "source_file": "source.pdf",
+   "sha256": "c552a96d4bfabb77d8c6e29fd79b8c280ea6d73348717a704b5c79d895f81ffe",
+   "approved_at": "2026-09-23T02:24:26Z",
+   "published_at": "2026-09-23T02:24:43Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-22T08:11:32Z",
    "files": [
     "meta.json",
     "summary.md",
