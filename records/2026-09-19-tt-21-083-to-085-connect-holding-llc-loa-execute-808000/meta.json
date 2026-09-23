@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-19-tt-21-083-to-085-connect-holding-llc-loa-execute-808000",
+  "status": "approved",
+  "ingested_at": "2026-09-19T19:05:39Z",
+  "title": "Consolidated Communications - Team Telecom LOA",
+  "issuing_body": "FCC",
+  "doc_date": "2022-07-19",
+  "docket": "WC Docket No. 21-350",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Consolidated Communications"
+  ],
+  "source_url": "https://files.fcc.gov/ecfs/download/96d55d36-d36c-4d49-b230-58231cfb50f2?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+  "source_copy_public": true,
+  "notes": "TT 21-083 to -085",
+  "source_file": "source.pdf",
+  "sha256": "808000ed7831c3854efc6d20e878f49b7f76eb643a0ac18a9bac7fc4624a0ad2",
+  "approved_at": "2026-09-23T02:35:01Z",
+  "published_at": "2026-09-23T02:35:40Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-19T19:09:01Z"
+}
