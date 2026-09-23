@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
+  "status": "approved",
+  "ingested_at": "2026-09-19T19:06:20Z",
+  "title": "GCX LOA - Team Telecom",
+  "issuing_body": "FCC",
+  "doc_date": "2022-07-18",
+  "docket": "WC Docket No. 21-463",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "GCX"
+  ],
+  "source_url": "https://files.fcc.gov/ecfs/download/7a475cea-ac24-4871-9da0-a1d8942a97d4?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "0d1ccd183fe8d036010762de3f08b60bf02d64e677838d79718f2a8c6c6d96a0",
+  "approved_at": "2026-09-23T02:28:09Z",
+  "published_at": "2026-09-23T02:28:51Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-19T19:10:17Z"
+}
