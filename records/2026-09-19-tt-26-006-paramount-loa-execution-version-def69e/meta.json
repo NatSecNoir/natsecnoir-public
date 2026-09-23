@@ -1,0 +1,30 @@
+{
+  "id": "2026-09-19-tt-26-006-paramount-loa-execution-version-def69e",
+  "status": "approved",
+  "ingested_at": "2026-09-19T14:49:47Z",
+  "title": "Paramount LOA Execution Version",
+  "issuing_body": "FCC",
+  "doc_date": "2026-09-03",
+  "docket": "MB Docket No. 26-93",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Paramount Global",
+    "Paramount Skydance",
+    "Warner Bros. Discovery"
+  ],
+  "source_url": "https://files.fcc.gov/ecfs/download/96495c97-960c-43ac-b27c-35bd8a97293b?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "def69e214668967536a460d6985b944ed93577e71d3bdef780d0070b5c93948c",
+  "approved_at": "2026-09-23T02:38:06Z",
+  "published_at": "2026-09-23T02:38:08Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-19T14:49:54Z"
+}
