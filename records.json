@@ -1,5 +1,5 @@
 {
- "count": 90,
+ "count": 91,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2349,6 +2349,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:25Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
+   "status": "approved",
+   "ingested_at": "2026-09-20T21:30:58Z",
+   "title": "FLAG Telecom - FLAG Atlantic Cable System (FA-1) LOA",
+   "issuing_body": "FCC",
+   "doc_date": "2022-07-18",
+   "docket": "SCL-T/C-20211124-00049",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "FLAG Telecom"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7f0ed24f97d62a1046e139b0f053af07",
+   "source_copy_public": true,
+   "notes": "check if dupe",
+   "source_file": "source.pdf",
+   "sha256": "cbc7975747d6e2a07130ae95e5b260c97ead69c976cf36abf166702591f0d422",
+   "approved_at": "2026-09-23T02:32:43Z",
+   "published_at": "2026-09-23T02:33:05Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-20T21:31:03Z",
    "files": [
     "meta.json",
     "summary.md",
