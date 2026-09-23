@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-22-zayo-group-llc-letter-of-agreement-team-telecom-e326a2",
+  "status": "approved",
+  "ingested_at": "2026-09-22T08:08:44Z",
+  "title": "Zayo Group, LLC — Letter of Agreement",
+  "issuing_body": "FCC",
+  "doc_date": "2020-01-21",
+  "docket": "ISP-PDR-20190620-00004",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Zayo"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f222a88b97122a1046e139b0f053af6b",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0066906; dockets named by the instrument: 19-166",
+  "source_file": "source.pdf",
+  "sha256": "e326a2e03174eccb2425281a77903ced9a7747be04db8ffc0492aa01fa76d1e7",
+  "approved_at": "2026-09-23T02:23:35Z",
+  "published_at": "2026-09-23T02:24:25Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-22T08:09:53Z"
+}
