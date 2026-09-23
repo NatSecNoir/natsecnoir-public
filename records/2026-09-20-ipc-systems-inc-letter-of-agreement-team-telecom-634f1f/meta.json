@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
+  "status": "approved",
+  "ingested_at": "2026-09-20T21:33:59Z",
+  "title": "IPC Systems, Inc. — Letter of Agreement",
+  "issuing_body": "FCC",
+  "doc_date": "2022-07-05",
+  "docket": "ITC-T/C-20211105-00179",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "IPC Systems"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d31c5a8b97d62a1046e139b0f053afe3",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "634f1feeae08af616a339b4de186438e1751893393ef90cb6be5077a73a6c7dd",
+  "approved_at": "2026-09-23T02:26:14Z",
+  "published_at": "2026-09-23T02:26:58Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-21T00:27:22Z"
+}
