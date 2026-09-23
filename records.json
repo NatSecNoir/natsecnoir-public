@@ -1,5 +1,5 @@
 {
- "count": 84,
+ "count": 85,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2452,6 +2452,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:06:36Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
+   "status": "approved",
+   "ingested_at": "2026-09-22T08:07:01Z",
+   "title": "Gigsky, Inc. — Letter of Agreement",
+   "issuing_body": "FCC",
+   "doc_date": "2022-05-05",
+   "docket": "ISP-PDR-20160415-00008",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Gigsky"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b2f5cac797962a1046e139b0f053af18",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "03445f12eaad9af7fbe0664ffa121ccaf2d5de32085b54626fed5e108712d89e",
+   "approved_at": "2026-09-23T02:25:20Z",
+   "published_at": "2026-09-23T02:25:26Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-22T08:07:50Z",
    "files": [
     "meta.json",
     "summary.md",
