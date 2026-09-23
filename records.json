@@ -1,5 +1,5 @@
 {
- "count": 86,
+ "count": 87,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2349,6 +2349,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:25Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-tt-21-080-to-082-gtt-communications-loa-final-ex-cbb28a",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:05:37Z",
+   "title": "GTT Communications - Team Telecom agreement",
+   "issuing_body": "FCC",
+   "doc_date": "2022-07-12",
+   "docket": "WC Docket No. 21-445",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "GTT Communications"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/19b1c254-e3ef-4303-9c05-04cbc40fc529?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "cbb28a447e3a6bb277966ee9cea1613241cc21da52b467ae26c9bc906defbe66",
+   "approved_at": "2026-09-23T02:27:16Z",
+   "published_at": "2026-09-23T02:27:30Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:08:22Z",
    "files": [
     "meta.json",
     "summary.md",
