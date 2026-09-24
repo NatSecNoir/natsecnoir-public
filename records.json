@@ -1,5 +1,5 @@
 {
- "count": 96,
+ "count": 97,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2264,6 +2264,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-07T16:31:26Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-22-windstream-holdings-ii-llc-letter-of-agreement-t-e096a7",
+   "status": "approved",
+   "ingested_at": "2026-09-22T08:09:18Z",
+   "title": "Windstream — Letter of Agreement",
+   "issuing_body": "FCC",
+   "doc_date": "2023-01-17",
+   "docket": "ISP-PDR-20201021-00010",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Windstream Holdings II"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/955a2a4b971a2a1046e139b0f053af08",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0087193; dockets named by the instrument: 22-129",
+   "source_file": "source.pdf",
+   "sha256": "e096a732ada23396caffb527cce89a84d2933d0d879f86038fde5b19354ac824",
+   "approved_at": "2026-09-24T12:25:11Z",
+   "published_at": "2026-09-24T12:25:55Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-22T08:11:56Z",
    "files": [
     "meta.json",
     "summary.md",
