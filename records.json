@@ -1,5 +1,5 @@
 {
- "count": 97,
+ "count": 98,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2264,6 +2264,41 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-07T16:31:26Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-07-24-23-oneweb-eutelsat-loa-tt-22-049-to-061-si-f766e1",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:07:35Z",
+   "title": "OneWeb Eutelsat LOA",
+   "issuing_body": "DoD",
+   "doc_date": "2023-07-25",
+   "docket": "IB Docket No. 22-404",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Eutelsat",
+    "WorldVu Satellites",
+    "OneWeb"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/aadef3c7-bbe9-4ad7-9ff8-283910b4cf08?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "f766e113d1b6301f26d088c55018a9495e8da1ccee90a533dd1c13899f0627a7",
+   "approved_at": "2026-09-24T12:27:15Z",
+   "published_at": "2026-09-24T12:27:56Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:13:34Z",
    "files": [
     "meta.json",
     "summary.md",
