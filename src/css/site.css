@@ -153,7 +153,6 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
   .ledger td.l { grid-column: 1 / -1; grid-row: 3; width: auto; padding-top: 4px; }
   .ledger td.l span { display: inline; } .ledger td.l span + span::before { content: " · "; }
 }
-.lists { color: var(--ash); }
 
 /* ---- interior pages: by-list, by-source, analysis index (retoned, structure unchanged) ---- */
 .shead { display: flex; align-items: baseline; justify-content: space-between; padding: 28px 0 10px; border-bottom: 1px solid var(--ink); margin-bottom: 12px; }
