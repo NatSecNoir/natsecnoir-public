@@ -7,6 +7,7 @@ pagination:
 permalink: "/by/{{ g.key }}/{{ g.slug }}/"
 eleventyComputed:
   nav: "{{ g.key }}"
+  navSlug: "{{ g.slug }}"
   title: "{{ g.label }}"
 ---
 <div class="crumb"><a href="/by/{{ g.key }}/">{{ g.facetTitle }}</a></div>

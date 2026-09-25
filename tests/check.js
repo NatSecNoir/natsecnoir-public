@@ -94,4 +94,35 @@ assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is publis
 // Graceful degradation: without JS every entity row is present (not hidden) and source links resolve.
 assert.doesNotMatch(ledger, /<tr class="row[^"]*" hidden/, "rows are visible without JS");
 
+// ---- chrome (editorial redesign, U2) ----
+// Every page carries one nav.main listing The file, the lists.js keys in file order, Restricted entities.
+const listKeys = Object.keys((await import("../src/_data/lists.js")).default);
+const expectedNav = ["The file", ...listKeys.map((k) => `/by/list/${k}/`), "Restricted entities"];
+function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => d.isDirectory() ? walk(path.join(dir, d.name)) : d.name === "index.html" ? [path.join(dir, d.name)] : []); }
+for (const f of walk(outFix)) {
+  const html = fs.readFileSync(f, "utf8");
+  const navs = html.match(/<nav class="main"[\s\S]*?<\/nav>/g) || [];
+  assert.equal(navs.length, 1, `one primary nav on ${path.relative(outFix, f)}`);
+  const links = [...navs[0].matchAll(/<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map((m) => m[2] === "The file" || m[2] === "Restricted entities" ? m[2] : m[1]);
+  assert.deepEqual(links, expectedNav, `nav order on ${path.relative(outFix, f)}`);
+}
+assert.match(feedIdx, /last filed 2026-01-01/, "sub row shows the newest doc_date");
+assert.doesNotMatch(home, /last filed/, "sub row omits the timestamp with zero records");
+
+// ---- palette guard (editorial redesign, KTD10) ----
+// Every colour literal in the stylesheet must be greyscale: hex with equal channels, rgb()/rgba()
+// with equal r/g/b, or transparent. A jade, gold or any other accent slipping back in fails the build.
+const css = fs.readFileSync(path.join(root, "src/css/site.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
+const offenders = [];
+for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
+  const h = m[1].toLowerCase();
+  const rgb = h.length <= 4 ? [h[0], h[1], h[2]] : [h.slice(0, 2), h.slice(2, 4), h.slice(4, 6)];
+  if (![3, 4, 6, 8].includes(h.length) || !(rgb[0] === rgb[1] && rgb[1] === rgb[2])) offenders.push(m[0]);
+}
+for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
+  if (!(m[1] === m[2] && m[2] === m[3])) offenders.push(m[0]);
+}
+assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
+assert.doesNotMatch(css, /\.strip[^{]*\{[^}]*position:\s*sticky/, "the strip is not sticky");
+
 console.log("site check: ok");

@@ -4,57 +4,58 @@
 <meta name="description" content="{{ description or site.tagline }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Limelight&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Libre+Franklin:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 </head><body>
-<header class="plate">
-  <h1 class="mark" data-text="NatSec Noir"><a href="/" aria-label="NatSec Noir — home"><span class="t"><span class="w1">NatSec</span> <span class="w2">Noir</span></span></a></h1>
-  <p class="tag">Public records, out of the bureaucratic shadows</p>
-  <div class="lit" aria-hidden="true"><div class="mark"><span class="w1">NatSec</span> <span class="w2">Noir</span></div></div>
-</header>
 <div class="strip"><div class="wrap">
-  <div class="nav sc">
-    <a{% if nav == "feed" %} class="on"{% endif %} href="/">Feed</a>
-    <a{% if nav == "list" %} class="on"{% endif %} href="/by/list/">By tags</a>
-    <a{% if nav == "agency" %} class="on"{% endif %} href="/by/agency/">By source</a>
-    <a{% if nav == "analysis" %} class="on"{% endif %} href="/analyses/">Analysis</a>
-    <a href="/feed.xml">RSS</a>
-  </div>
-  {% if feed.all.length %}<div class="dl sc">Updated<span class="date">{{ feed.all[0].doc_date }}</span></div>{% endif %}
+  <span class="l">{{ site.descriptor }}</span>
+  <span class="r"><a href="{{ site.newsletter }}">Newsletter</a><span class="sep">·</span><a href="/feed.xml">RSS</a><span class="sep">·</span><a href="{{ site.about }}">About</a></span>
 </div></div>
+<header class="mast">
+  <h1 class="mark"><a href="/" aria-label="NatSec Noir — home">N<small>at</small>S<small>ec</small> N<small>oir</small></a></h1>
+  <p class="tag">{{ site.motto }}</p>
+</header>
+<nav class="main" aria-label="Primary">
+  <a{% if nav == "feed" %} class="on"{% endif %} href="/">The file</a>
+  {%- for slug, l in lists %}
+  <a{% if nav == "list" and navSlug == slug %} class="on"{% endif %} href="/by/list/{{ slug }}/">{{ l.label }}</a>
+  {%- endfor %}
+  <a{% if page.url == "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/supply-chain-watch-lists/">Restricted entities</a>
+</nav>
+<div class="sub">
+  <a{% if nav == "list" %} class="on"{% endif %} href="/by/list/">By list</a>
+  <a{% if nav == "agency" %} class="on"{% endif %} href="/by/agency/">By source</a>
+  <a{% if nav == "analysis" %} class="on"{% endif %} href="/analyses/">Analyses</a>
+  {% if records.all.length %}<span class="rt mono">last filed {{ records.all[0].doc_date }}</span>{% endif %}
+</div>
 <main class="wrap">
 {{ content | safe }}
-{% if nav != "record" and nav != "feed" %}{# front page renders the newsletter inside its rail (U3); interior by-pages keep the standalone card #}
+{% if nav != "record" and nav != "feed" %}{# front page renders the newsletter inside its rail (U3); interior pages keep the standalone panel #}
 <section class="letter">
   <div class="box">
-    <div><h2>The Late Edition</h2><p>New records and one short read, when there is something worth knowing. Sent from newsletter.natsecnoir.com.</p></div>
-    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="Your address" required><button type="submit">Subscribe</button></form>
+    <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
+    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
   </div>
 </section>
 {% endif %}
 </main>
 <footer><div class="wrap">
   <div>
-    <div class="fm"><span class="w1">NatSec</span> <span class="w2">Noir</span></div>
-    <p class="ft">Public records, out of the bureaucratic shadows</p>
+    <div class="fm">N<small>at</small>S<small>ec</small> N<small>oir</small></div>
+    <p class="ft">{{ site.motto }}</p>
   </div>
   <div>
-    <h2>Sections</h2>
-    <ul class="sc">
-      <li><a href="/">Feed</a></li>
-      <li><a href="/by/list/">By tags</a></li>
-      <li><a href="/by/agency/">By source</a></li>
-      <li><a href="/analyses/">Analysis</a></li>
-      <li><a href="/feed.xml">RSS</a></li>
-    </ul>
-  </div>
-  <div class="col">
-    <h2>Colophon</h2>
+    <p>{{ site.tagline }}</p>
     <p>© {{ site.year }} NatSecNoir.com</p>
-    <p>Public records. Author's summaries.</p>
+  </div>
+  <div>
     <ul>
       <li><a href="{{ site.newsletter }}">Newsletter</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+      <li><a href="{{ site.about }}">About</a></li>
+      <li><a href="/analyses/">Analyses</a></li>
     </ul>
+    <p class="disc">{{ site.disclaimer }}</p>
   </div>
 </div></footer>
 </body></html>
