@@ -9,6 +9,7 @@ eleventyComputed:
   nav: "{{ f.key }}"
   title: "{{ f.title }}"
 ---
+<div class="crumb"><a href="/">The file</a></div>
 <div class="shead"><h2>{{ f.title }}</h2><span class="n">{{ f.groups.length }}</span></div>
 <div class="groups">
 {% for g in f.groups %}

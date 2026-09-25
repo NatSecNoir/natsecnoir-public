@@ -151,4 +151,10 @@ for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
 assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
 assert.doesNotMatch(css, /\.strip[^{]*\{[^}]*position:\s*sticky/, "the strip is not sticky");
 
+// ---- interior retone (editorial redesign, U5): no retired v14 token names, no compat aliases, no images ----
+const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rule-glow|accent-glow|band|card|card-sheen|brand-ink|glow1|glow2|neon|neon-wash|mint|rose|display|body|brand|mast|gold|jade|jade-deep|jade-hi|hair|hair2|hair3|panel|bg|dim|vermilion)\b/g) || [];
+assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
+assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
+for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
+
 console.log("site check: ok");
