@@ -94,6 +94,19 @@ assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is publis
 // Graceful degradation: without JS every entity row is present (not hidden) and source links resolve.
 assert.doesNotMatch(ledger, /<tr class="row[^"]*" hidden/, "rows are visible without JS");
 
+// ---- front page (editorial redesign, U3) ----
+// Lead article, then the remaining feed as a real table; the lead is not repeated as a row.
+assert.match(feedIdx, /<article class="item lead[^"]*analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?1 entries/, "lead meta line shows the analysis entry count");
+const ledgerTable = feedIdx.match(/<table class="ledger">[\s\S]*?<\/table>/);
+assert.ok(ledgerTable, "front page renders a ledger table");
+assert.doesNotMatch(ledgerTable[0], /fixture-analysis/, "the lead is not repeated as a table row");
+assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*data-search="[^"]*"[\s\S]*?<td class="ref[^"]*">FCC 26-1<\/td>/, "a record row carries data attributes and its docket in the Reference cell");
+assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
+assert.match(feedIdx, /From the record/, "rail pull-quote renders with fixtures");
+assert.match(feedIdx, /Persons of interest[\s\S]*?href="\/\?q=Federal%20Communications%20Commission"/, "rail people link prefills the filter");
+assert.doesNotMatch(home, /From the record|Persons of interest/, "rail derived sections are omitted with zero records");
+assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
+
 // ---- chrome (editorial redesign, U2) ----
 // Every page carries one nav.main listing The file, the lists.js keys in file order, Restricted entities.
 const listKeys = Object.keys((await import("../src/_data/lists.js")).default);

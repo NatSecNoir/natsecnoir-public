@@ -6,15 +6,14 @@
 //                                          url points at the tag's own "By tags" page (/by/list/<slug>/)
 //   rail.quote = { present: true, text, docket, source }   pull-quote from the newest record
 //              | { present: false }                        explicit absent state (no usable quote)
+//   rail.people = [{ label, count, url }]  top ~6 named entities by record count; url prefills the
+//                                          front-page keyword filter (/?q=<entity>)
 import facets from "./facets.js";
 import loadRecords from "./records.js";
+import { firstSentence } from "../lib/text.js";
 
 const TAG_LIMIT = 6;
-
-function firstSentence(s) {
-  const m = String(s).match(/^.*?[.!?](?=\s|$)/);
-  return (m ? m[0] : String(s)).trim();
-}
+const PEOPLE_LIMIT = 6;
 
 export default function () {
   // Tags: reuse the exact facet the by-tag pages render ("By tags" == facet key "list").
@@ -43,5 +42,13 @@ export default function () {
     }
   }
 
-  return { tags, quote };
+  // Persons of interest: entity counts across all records, ties broken alphabetically.
+  const counts = new Map();
+  for (const r of records) for (const e of r.entities || []) counts.set(e, (counts.get(e) || 0) + 1);
+  const people = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, PEOPLE_LIMIT)
+    .map(([label, count]) => ({ label, count, url: `/?q=${encodeURIComponent(label)}` }));
+
+  return { tags, quote, people };
 }

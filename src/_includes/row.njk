@@ -1,0 +1,8 @@
+{#- One ledger row (front page after the lead). Keeps class="item", data-date and data-search so
+    filter.js and the feed-badge check work unchanged; the Analysis label is typographic (R13). -#}
+<tr class="item{% if r.kind == "analysis" %} analysis{% endif %}" data-date="{{ r.doc_date }}" data-search="{{ r.search }}">
+  <td class="d mono">{{ r.doc_date }}</td>
+  <td class="t">{% if r.kind == "analysis" %}<span class="type">Analysis</span>{% endif %}<h3><a href="{{ r.url }}">{{ r.title }}</a></h3>{% if r.standfirst %}<p>{{ r.standfirst }}</p>{% endif %}</td>
+  <td class="l">{% if r.kind == "analysis" %}<span>{{ r.baseline_source or r.baseline }}</span>{% else %}{% for l in r.lists %}<span>{{ l.label }}</span>{% endfor %}{% endif %}</td>
+  <td class="ref mono">{% if r.kind == "analysis" %}{{ r.entries.length }} entries{% elif r.docket %}{{ r.docket.split(";")[0] }}{% endif %}</td>
+</tr>
