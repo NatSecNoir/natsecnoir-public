@@ -10,14 +10,18 @@ eleventyComputed:
   title: "{{ a.title }}"
   description: "{{ a.excerpt }}"
 ---
+<div class="rec">
 <article class="record analysis">
-  <div class="crumb"><a href="/">Feed</a></div>
-  <h1><span class="tag analysis">Analysis</span> {{ a.title }}</h1>
-  <div class="meta">
-    <span class="d">{{ a.doc_date }}</span>
-    <span class="k">{{ a.baseline_source or a.baseline }}</span>
-    <span>{{ a.entries.length }} entries</span>
-  </div>
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
+  <span class="k cat">Analysis{% if a.baseline_source or a.baseline %} · {{ a.baseline_source or a.baseline }}{% endif %}</span>
+  <h1>{{ a.title }}</h1>
+  {% if a.excerpt %}<p class="stand">{{ a.excerpt }}</p>{% endif %}
+  <dl class="meta">
+    {% if a.baseline_source or a.baseline %}<dt>Baseline</dt><dd>{{ a.baseline_source or a.baseline }}</dd>{% endif %}
+    <dt>Entries</dt><dd class="mono">{{ a.entries.length }}</dd>
+    <dt>Currency checked</dt><dd class="mono">{{ a.currency_date or "—" }}</dd>
+    {% if a.published_at %}<dt>Entered</dt><dd class="mono">{{ a.published_at.slice(0, 10) }}</dd>{% endif %}
+  </dl>
   <div class="summary">
   {% for e in a.entries %}
     <h3>{{ e.label }}</h3>
@@ -29,19 +33,15 @@ eleventyComputed:
     <p class="empty">No entries yet.</p>
   {% endfor %}
   </div>
-  <div class="src">
-    <a href="/analyses/{{ a.id }}/mesh.json">mesh.json</a>
-  </div>
   {% if a.archive.length %}
-  <div class="ents"><span class="lbl">Change log</span>
-    <ul class="archivelog">
+  <div class="ents"><span class="k lbl">Change log</span>
+    <ul class="archivelog mono">
     {% for e in a.archive | reverse %}
       <li>{{ e.at.slice(0, 10) }} · {{ e.decision }} · {{ e.label or e.key }}</li>
     {% endfor %}
     </ul>
   </div>
   {% endif %}
-  <div class="stamp">Currency checked {{ a.currency_date or "—" }}{% if a.published_at %} · published {{ a.published_at.slice(0, 10) }}{% endif %}</div>
   {% if a.footnotes.length %}
   <ul class="footnotes">
     {% for f in a.footnotes %}<li>{{ f }}</li>{% endfor %}
@@ -51,3 +51,17 @@ eleventyComputed:
     <p>Rendered from the mesh. Architecture after Raymond Sun, <a href="https://www.techieray.com/LiveAndBreathingEssay">The Live and Breathing Essay</a> (CC BY 4.0). Look after <a href="https://natsecnoir.com">NatSecNoir</a>.</p>
   </div>
 </article>
+<aside class="rail">
+  <section class="src">
+    <h2>Source</h2>
+    <ul><li><a href="/analyses/{{ a.id }}/mesh.json">mesh.json</a></li></ul>
+    <p>Every entry cites its source document by page.</p>
+  </section>
+  <section class="citebox">
+    <h2>Cite this analysis</h2>
+    <pre class="cite">NatSec Noir, "{{ a.title }}", {{ a.doc_date }}, {{ site.url }}{{ a.url }}</pre>
+    <button type="button" class="k" data-copy hidden>Copy citation</button><span class="vh" data-copied aria-live="polite"></span>
+  </section>
+</aside>
+</div>
+<script src="/js/cite.js" defer></script>

@@ -94,6 +94,19 @@ assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is publis
 // Graceful degradation: without JS every entity row is present (not hidden) and source links resolve.
 assert.doesNotMatch(ledger, /<tr class="row[^"]*" hidden/, "rows are visible without JS");
 
+// ---- record and analysis pages (editorial redesign, U4) ----
+assert.match(page, /<pre class="cite">NatSec Noir, "Fixture Order with &lt;b&gt;bold&lt;\/b&gt; in the title", 2026-01-01, https:\/\/natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/<\/pre>/, "citation block carries site, title, doc_date and canonical URL");
+assert.match(page, /<dt>Persons of interest<\/dt>\s*<dd>[\s\S]*?Federal Communications Commission/, "persons of interest row lists the fixture entity");
+const notice = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/index.html"), "utf8");
+assert.doesNotMatch(notice, /<dt>Persons of interest<\/dt>/, "persons row is omitted when a record names nobody");
+assert.match(page, /<dt>Document date<\/dt>\s*<dd[^>]*>2026-01-01<\/dd>[\s\S]*?<dt>Entered<\/dt>\s*<dd[^>]*>2026-01-02<\/dd>/, "metadata shows document date and entered date");
+const related = page.match(/<section class="related">[\s\S]*?<\/section>/);
+assert.ok(related, "related records section renders when a record shares a list");
+assert.match(related[0], /fixture-notice-bbbbbb/, "related list names the record sharing covered-list");
+assert.doesNotMatch(related[0], /fixture-order-aaaaaa/, "related list never names the record itself");
+assert.match(page, /<script src="\/js\/cite\.js" defer><\/script>/, "cite.js is referenced");
+assert.ok(fs.existsSync(path.join(outFix, "js/cite.js")), "cite.js is published");
+
 // ---- front page (editorial redesign, U3) ----
 // Lead article, then the remaining feed as a real table; the lead is not repeated as a row.
 assert.match(feedIdx, /<article class="item lead[^"]*analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?1 entries/, "lead meta line shows the analysis entry count");

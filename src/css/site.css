@@ -168,8 +168,6 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
 .shead { display: flex; align-items: baseline; justify-content: space-between; padding: 36px 0 12px; border-bottom: 1px solid var(--rule); margin-bottom: 14px; }
 .shead h2 { font: 800 20px var(--display); letter-spacing: -.01em; margin: 0; }
 .shead a { font-size: 15px; border-bottom: 1px solid var(--rule); }
-.meta { font-size: 14px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 18px; font-variant-numeric: tabular-nums; }
-.meta .k { color: var(--accent); letter-spacing: .02em; }
 .lists { color: var(--ash); }
 
 /* pages beyond the mockup */
@@ -190,32 +188,56 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
 .group:hover { border-color: var(--accent); text-decoration: none; }
 .group .gl { font: 800 17px var(--display); } .group .gn { color: var(--accent); font-variant-numeric: tabular-nums; align-self: start; }
 .group .gg { grid-column: 1 / -1; font-size: 14px; color: var(--ink-3); }
-.record h1 { font: 800 clamp(26px, 4.5vw, 36px)/1.1 var(--display); letter-spacing: -.02em; margin: 10px 0 12px; text-wrap: balance; }
-.record .meta a { color: inherit; border-bottom: 1px solid var(--rule); } .record .meta .k a { color: var(--accent); }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: -6px 0 22px; }
-.chip { font-size: 13px; padding: 3px 10px; border: 1px solid var(--rule2); color: var(--ink-2); border-radius: 2px; } .chip:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
-.summary { border-top: 1px solid var(--rule); padding-top: 18px; font-size: 17px; }
-.summary p { margin: 0 0 14px; } .summary ul, .summary ol { padding-left: 22px; margin: 0 0 14px; } .summary li { margin: 4px 0; }
-.summary h1, .summary h2, .summary h3 { font: 800 18px var(--display); margin: 22px 0 8px; }
-.summary strong { color: var(--ink); } .summary code { font-family: ui-monospace, monospace; font-size: .92em; }
-.src { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 24px 0 18px; padding: 16px 18px; border: 1px solid var(--rule2); background: var(--band); font-size: 15px; }
-.ents { font-size: 14px; color: var(--ink-3); line-height: 1.7; } .ents .lbl { color: var(--accent); letter-spacing: .02em; }
-.stamp { margin-top: 18px; font-size: 13px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
-
+/* ---- record and analysis pages: dossier shape ---- */
+.rec { display: grid; grid-template-columns: minmax(0,1fr) var(--rail); column-gap: var(--railgap); align-items: start; padding-top: 28px; }
+.rec .rail { padding-top: 0; }
+@media (max-width:1099px) { .rec { grid-template-columns: 1fr; } .rec .rail { max-width: 600px; padding-top: 32px; } }
+.record .crumb { padding: 0; margin: 0 0 18px; font-size: 12.5px; color: var(--smoke); }
+.record .crumb a { color: var(--smoke); }
+.record .cat { display: block; color: var(--ink); }
+.record h1 { margin: 10px 0 16px; font: 500 clamp(30px, 4vw, 46px)/1.08 var(--serif); letter-spacing: -.005em; text-wrap: balance; }
+.record .stand { margin: 0 0 22px; font: italic 500 19px/1.4 var(--serif); color: var(--soot); max-width: 60ch; }
+.record dl.meta { display: grid; grid-template-columns: 160px 1fr; gap: 6px 18px; margin: 0 0 26px; padding: 14px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--fog); font-size: 13.5px; }
+.record dl.meta dt { font: 600 11px/1.9 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--soot); }
+.record dl.meta dd { margin: 0; }
+.record dl.meta dd.mono { font-size: 13px; color: var(--ink); }
+.record dl.meta a { border-bottom: 1px solid var(--ash); } .record dl.meta a:hover { text-decoration: none; border-color: var(--ink); }
+@media (max-width:640px) { .record dl.meta { grid-template-columns: 1fr; gap: 2px 0; } .record dl.meta dd { margin-bottom: 8px; } }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-block; font: 500 10.5px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; padding: 5px 8px; border: 1px solid var(--ash); color: var(--ink); }
+.chip:hover { border-color: var(--ink); text-decoration: none; }
+.summary { font: 300 16.5px/1.65 var(--sans); max-width: 66ch; }
+.summary p { margin: 0 0 16px; } .summary ul, .summary ol { padding-left: 22px; margin: 0 0 16px; } .summary li { margin: 4px 0; }
+.summary h1, .summary h2, .summary h3 { font: 500 24px/1.2 var(--serif); margin: 26px 0 8px; }
+.summary strong { font-weight: 600; } .summary code { font-family: var(--mono); font-size: .9em; }
+.summary blockquote { margin: 18px 0; padding: 0 0 0 20px; border-left: 2px solid var(--ink); font: italic 500 18px/1.45 var(--serif); }
+.summary a { border-bottom: 1px solid var(--ash); } .summary a:hover { text-decoration: none; border-color: var(--ink); }
+.stamp { margin-top: 26px; font-size: 12px; color: var(--smoke); }
+.rec .rail section { margin: 0 0 24px; padding-top: 12px; border-top: 1px solid var(--ink); }
+.rec .rail h2 { margin: 0 0 10px; font: 600 11px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
+.rec .rail p { margin: 0 0 6px; font-size: 13px; line-height: 1.5; color: var(--soot); }
+.rec .rail .src { border: 1px solid var(--ink); border-top-width: 1px; padding: 14px 16px 12px; }
+.rec .rail .src ul { list-style: none; margin: 0 0 10px; padding: 0; }
+.rec .rail .src li { padding: 4px 0; font-size: 13.5px; }
+.rec .rail .src li:first-child a { display: inline-block; background: var(--ink); color: var(--paper); padding: 9px 14px; font: 600 11px/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+.rec .rail .src li:first-child a:hover { text-decoration: none; }
+.rec .rail .src .mono { font-size: 12px; color: var(--smoke); overflow-wrap: anywhere; }
+.rec .rail .counts li a span:first-child { font-size: 13.5px; }
+.rec .rail .counts li .n { flex: 0 0 auto; }
+pre.cite { margin: 0 0 10px; white-space: pre-wrap; overflow-wrap: anywhere; font: 12.5px/1.55 var(--mono); color: var(--ink); }
+.citebox button { background: transparent; border: 1px solid var(--ink); color: var(--ink); padding: 6px 10px; cursor: pointer; }
+.citebox button:hover { background: var(--ink); color: var(--paper); }
 /* analyses: mesh-rendered documents. Entry text is plain text from mesh.json, so newlines are the only structure it has. */
 .record.analysis .summary p { white-space: pre-line; }
-.record.analysis .summary .prov { font-size: 15px; color: var(--ink-2); }
-.tag.analysis { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
-  color: var(--jade-hi); border: 1px solid var(--jade-hi); padding: 1px 7px; border-radius: 2px; vertical-align: middle; }
-.feed .item h2 .tag.analysis { margin-right: 6px; }
-.record.analysis h1 .tag.analysis { margin-right: 8px; font-size: 13px; }
-.archivelog { list-style: none; margin: 6px 0 0; padding: 0; }
-.archivelog li { padding: 2px 0; }
-.footnotes { margin: 18px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-3); line-height: 1.7; }
+.record.analysis .summary .prov { font-size: 14px; color: var(--smoke); }
+.ents { margin-top: 24px; font-size: 13.5px; line-height: 1.7; }
+.ents .lbl { display: block; margin-bottom: 6px; }
+.archivelog { list-style: none; margin: 0; padding: 0; font-size: 12.5px; color: var(--soot); }
+.archivelog li { padding: 2px 0; border-bottom: 1px solid var(--fog); }
+.footnotes { margin: 22px 0 0; padding-left: 18px; font-size: 13px; color: var(--soot); line-height: 1.7; }
 .footnotes li { margin-bottom: 6px; }
-.methodology { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-3); }
-.methodology a { color: var(--ink-3); border-bottom: 1px solid var(--rule); }
-.methodology a:hover { color: var(--accent); }
+.methodology { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--fog); font-size: 12.5px; color: var(--smoke); }
+.methodology a { border-bottom: 1px solid var(--ash); }
 
 /* ── Supply-chain watch-list ledger ─────────────────────────────────────────
    A dense reference table — deliberately unlike the rest of the site's feed.

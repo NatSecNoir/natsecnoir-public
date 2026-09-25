@@ -12,6 +12,13 @@ function excerpt(summary) {
   return first.replace(/\*\*|__|`/g, "").replace(/\s+/g, " ").trim();
 }
 
+// The summary without its first paragraph (the record page shows that paragraph as standfirst + excerpt).
+function summaryRest(summary) {
+  const paras = summary.split(/\n\s*\n/);
+  const i = paras.findIndex((p) => p.trim());
+  return i === -1 ? "" : paras.slice(i + 1).join("\n\n").trim();
+}
+
 // Display label for a list slug with no lists.js entry: "mitigation-agreement" → "Mitigation agreement".
 function labelOf(l) {
   const info = listInfo[l];
@@ -43,6 +50,7 @@ export default function () {
       id,
       summary,
       excerpt: ex,
+      summaryRest: summaryRest(summary),
       ...splitExcerpt(ex),
       format: fmt ? fmt.toUpperCase().replace("HTM", "HTML") : "",
       url: `/records/${id}/`,
@@ -55,6 +63,19 @@ export default function () {
     });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
+
+  // Related records (record page rail): same first docket segment first, then any shared list slug;
+  // newest first within each tier, deduplicated, never the record itself, at most four.
+  const firstDocket = (r) => String(r.docket || "").split(";")[0].trim().toLowerCase();
+  for (const r of all) {
+    const seen = new Set([r.id]);
+    const pick = [];
+    const take = (pred) => { for (const o of all) if (!seen.has(o.id) && pred(o)) { seen.add(o.id); pick.push(o); } };
+    if (firstDocket(r)) take((o) => firstDocket(o) === firstDocket(r));
+    const slugs = new Set(r.lists.map((l) => l.slug));
+    take((o) => o.lists.some((l) => slugs.has(l.slug)));
+    r.related = pick.slice(0, 4).map((o) => ({ title: o.title, url: o.url, doc_date: o.doc_date }));
+  }
 
   const group = (keyOf) => {
     const m = new Map();
