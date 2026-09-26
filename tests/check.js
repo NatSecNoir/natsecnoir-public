@@ -245,6 +245,30 @@ for (const f of walk(outFix)) {
 assert.match(feedIdx, /last filed 2026-01-01/, "sub row shows the newest doc_date");
 assert.doesNotMatch(home, /last filed/, "sub row omits the timestamp with zero records");
 
+// ---- masthead spire band (2026-09-26) ----
+// Every page opens with one black masthead band carrying the spire svg and the folded
+// Newsletter/RSS/About links; the separate strip is gone, the favicon is linked, and the fonts
+// request loads Poiret One, not Jost (AE1, AE3, AE4).
+for (const [label, html] of [["front", feedIdx], ["record", page], ["empty front", home]]) {
+  const masts = html.match(/<header class="mast">[\s\S]*?<\/header>/g) || [];
+  assert.equal(masts.length, 1, `one masthead band on the ${label} page`);
+  assert.match(masts[0], /<svg class="spire"/, `${label} masthead carries the inline spire`);
+  assert.match(masts[0], />Newsletter</, `${label} masthead keeps the Newsletter link`);
+  assert.match(masts[0], />RSS</, `${label} masthead keeps the RSS link`);
+  assert.match(masts[0], />About</, `${label} masthead keeps the About link`);
+  assert.doesNotMatch(html, /class="strip"/, `${label} page shows no separate strip`);
+  assert.match(html, /<link rel="icon" href="\/favicon\.svg" type="image\/svg\+xml">/, `${label} head links the favicon`);
+  assert.match(html, /fonts\.googleapis\.com\/css2\?family=Poiret\+One/, `${label} loads Poiret One`);
+  assert.doesNotMatch(html, /family=Jost/, `${label} no longer loads Jost`);
+}
+// The favicon passes through into every build output; its source shapes match the inline mark.
+// (CI runs this test before `npm run build`, so assert the check's own out-dirs, never _site/.)
+assert.ok(fs.existsSync(path.join(outFix, "favicon.svg")), "favicon.svg is published in the build");
+assert.ok(fs.existsSync(path.join(outEmpty, "favicon.svg")), "favicon.svg is published with zero records");
+const favicon = fs.readFileSync(path.join(root, "src/favicon.svg"), "utf8");
+assert.match(favicon, /<polygon points="47,22 50,4 53,22"\s*\/>/, "favicon spire tip matches the inline mark");
+assert.match(favicon, /<rect x="16" y="92" width="68" height="3"\s*\/>/, "favicon spire base matches the inline mark");
+
 // ---- palette guard (editorial redesign, KTD10) ----
 // Every colour literal in the stylesheet must be greyscale: hex with equal channels, rgb()/rgba()
 // with equal r/g/b, or transparent. A jade, gold or any other accent slipping back in fails the build.
