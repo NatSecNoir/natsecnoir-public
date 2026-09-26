@@ -2,9 +2,10 @@
 layout: base.njk
 nav: analysis
 permalink: /analyses/
-title: Analysis
+title: Analyses
 ---
-<div class="shead"><h2>Analysis</h2><span class="n">{{ analyses.all.length + 1 }}</span></div>
+<div class="crumb"><a href="/">The file</a></div>
+<div class="shead"><h2>Analyses</h2><span class="n">{{ analyses.all.length + 1 }}</span></div>
 <div class="groups">
 {% for a in analyses.all %}
   <a class="group" href="{{ a.url }}"><span class="gl">{{ a.title }}</span><span class="gn">{{ a.entries.length }}</span>{% if a.excerpt %}<span class="gg">{{ a.excerpt }}</span>{% endif %}</a>

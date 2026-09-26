@@ -1,4 +1,4 @@
-// Client-side keyword filter for feed and index pages. Every word typed must appear in the item's
+// Client-side keyword filter for feed and index pages. A ?q= parameter prefills the box (rail links). Every word typed must appear in the item's
 // data-search text (title, issuing body, document type, docket, lists, entities, excerpt).
 (function () {
   var form = document.querySelector("[data-filter]");
@@ -16,5 +16,7 @@
   }
   form.addEventListener("input", apply);
   form.querySelector("[data-clear]").addEventListener("click", function () { q.value = ""; apply(); q.focus(); });
+  var param = new URLSearchParams(location.search).get("q");
+  if (param && !q.value) q.value = param;
   if (q.value) apply();
 })();

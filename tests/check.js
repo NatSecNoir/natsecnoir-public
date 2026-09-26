@@ -94,4 +94,67 @@ assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is publis
 // Graceful degradation: without JS every entity row is present (not hidden) and source links resolve.
 assert.doesNotMatch(ledger, /<tr class="row[^"]*" hidden/, "rows are visible without JS");
 
+// ---- record and analysis pages (editorial redesign, U4) ----
+assert.match(page, /<pre class="cite">NatSec Noir, "Fixture Order with &lt;b&gt;bold&lt;\/b&gt; in the title", 2026-01-01, https:\/\/natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/<\/pre>/, "citation block carries site, title, doc_date and canonical URL");
+assert.match(page, /<dt>Persons of interest<\/dt>\s*<dd>[\s\S]*?Federal Communications Commission/, "persons of interest row lists the fixture entity");
+const notice = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/index.html"), "utf8");
+assert.doesNotMatch(notice, /<dt>Persons of interest<\/dt>/, "persons row is omitted when a record names nobody");
+assert.match(page, /<dt>Document date<\/dt>\s*<dd[^>]*>2026-01-01<\/dd>[\s\S]*?<dt>Entered<\/dt>\s*<dd[^>]*>2026-01-02<\/dd>/, "metadata shows document date and entered date");
+const related = page.match(/<section class="related">[\s\S]*?<\/section>/);
+assert.ok(related, "related records section renders when a record shares a list");
+assert.match(related[0], /fixture-notice-bbbbbb/, "related list names the record sharing covered-list");
+assert.doesNotMatch(related[0], /fixture-order-aaaaaa/, "related list never names the record itself");
+assert.match(page, /<script src="\/js\/cite\.js" defer><\/script>/, "cite.js is referenced");
+assert.ok(fs.existsSync(path.join(outFix, "js/cite.js")), "cite.js is published");
+
+// ---- front page (editorial redesign, U3) ----
+// Lead article, then the remaining feed as a real table; the lead is not repeated as a row.
+assert.match(feedIdx, /<article class="item lead[^"]*analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?1 entries/, "lead meta line shows the analysis entry count");
+const ledgerTable = feedIdx.match(/<table class="ledger">[\s\S]*?<\/table>/);
+assert.ok(ledgerTable, "front page renders a ledger table");
+assert.doesNotMatch(ledgerTable[0], /fixture-analysis/, "the lead is not repeated as a table row");
+assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*data-search="[^"]*"[\s\S]*?<td class="ref[^"]*">FCC 26-1<\/td>/, "a record row carries data attributes and its docket in the Reference cell");
+assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
+assert.match(feedIdx, /From the record/, "rail pull-quote renders with fixtures");
+assert.match(feedIdx, /Persons of interest[\s\S]*?href="\/\?q=Federal%20Communications%20Commission"/, "rail people link prefills the filter");
+assert.doesNotMatch(home, /From the record|Persons of interest/, "rail derived sections are omitted with zero records");
+assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
+
+// ---- chrome (editorial redesign, U2) ----
+// Every page carries one nav.main: The file, Analyses, the lists.js keys in file order, Restricted entities.
+const listKeys = Object.keys((await import("../src/_data/lists.js")).default);
+const expectedNav = ["The file", "/analyses/", ...listKeys.map((k) => `/by/list/${k}/`), "Restricted entities"];
+function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => d.isDirectory() ? walk(path.join(dir, d.name)) : d.name === "index.html" ? [path.join(dir, d.name)] : []); }
+for (const f of walk(outFix)) {
+  const html = fs.readFileSync(f, "utf8");
+  const navs = html.match(/<nav class="main"[\s\S]*?<\/nav>/g) || [];
+  assert.equal(navs.length, 1, `one primary nav on ${path.relative(outFix, f)}`);
+  const links = [...navs[0].matchAll(/<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map((m) => m[2] === "The file" || m[2] === "Restricted entities" ? m[2] : m[1]);
+  assert.deepEqual(links, expectedNav, `nav order on ${path.relative(outFix, f)}`);
+}
+assert.match(feedIdx, /last filed 2026-01-01/, "sub row shows the newest doc_date");
+assert.doesNotMatch(home, /last filed/, "sub row omits the timestamp with zero records");
+
+// ---- palette guard (editorial redesign, KTD10) ----
+// Every colour literal in the stylesheet must be greyscale: hex with equal channels, rgb()/rgba()
+// with equal r/g/b, or transparent. A jade, gold or any other accent slipping back in fails the build.
+const css = fs.readFileSync(path.join(root, "src/css/site.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
+const offenders = [];
+for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
+  const h = m[1].toLowerCase();
+  const rgb = h.length <= 4 ? [h[0], h[1], h[2]] : [h.slice(0, 2), h.slice(2, 4), h.slice(4, 6)];
+  if (![3, 4, 6, 8].includes(h.length) || !(rgb[0] === rgb[1] && rgb[1] === rgb[2])) offenders.push(m[0]);
+}
+for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
+  if (!(m[1] === m[2] && m[2] === m[3])) offenders.push(m[0]);
+}
+assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
+assert.doesNotMatch(css, /\.strip[^{]*\{[^}]*position:\s*sticky/, "the strip is not sticky");
+
+// ---- interior retone (editorial redesign, U5): no retired v14 token names, no compat aliases, no images ----
+const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rule-glow|accent-glow|band|card|card-sheen|brand-ink|glow1|glow2|neon|neon-wash|mint|rose|display|body|brand|mast|gold|jade|jade-deep|jade-hi|hair|hair2|hair3|panel|bg|dim|vermilion)\b/g) || [];
+assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
+assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
+for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
+
 console.log("site check: ok");
