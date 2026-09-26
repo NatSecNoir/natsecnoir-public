@@ -16,10 +16,11 @@
 </header>
 <nav class="main" aria-label="Primary">
   <a{% if nav == "feed" %} class="on"{% endif %} href="/">The file</a>
-  <a{% if nav == "analysis" and page.url != "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/">Analyses</a>
+  <a{% if nav == "analysis" and page.url != "/analyses/supply-chain-watch-lists/" and page.url != "/analyses/team-telecom-agreements/" %} class="on"{% endif %} href="/analyses/">Analyses</a>
   {%- for slug, l in lists %}
   <a{% if nav == "list" and navSlug == slug %} class="on"{% endif %} href="/by/list/{{ slug }}/">{{ l.label }}</a>
   {%- endfor %}
+  <a{% if page.url == "/analyses/team-telecom-agreements/" %} class="on"{% endif %} href="/analyses/team-telecom-agreements/">Team Telecom</a>
   <a{% if page.url == "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/supply-chain-watch-lists/">Restricted entities</a>
 </nav>
 <div class="sub">
