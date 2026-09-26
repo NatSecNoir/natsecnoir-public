@@ -1,12 +1,14 @@
 /* NatSec Noir public site — editorial redesign (2026-09-25). White ground, black type, six greys,
    no accent. The design reference is mockups/front-hybrid-dossier.html in the corpus repo (its
    <head> comment block is the spec: tokens, type roles, measures, vocabulary). Retone through the
-   :root tokens only; tests/check.js rejects any non-greyscale colour literal in this file. */
+   :root tokens only; tests/check.js rejects any non-greyscale colour literal in this file.
+   Masthead (2026-09-26): a black band replaces the strip + white mast — spire mark, 1px rule,
+   Poiret One wordmark and folded Newsletter/RSS/About links; spec in mockups/front-masthead-spire.html. */
 :root {
   /* colour: text may use ink, soot, smoke only; ash and fog are for rules and grounds */
   --ink:#000; --soot:#2a2a2a; --smoke:#666; --ash:#b3b3b3; --fog:#e6e6e6; --paper:#fff;
   /* type roles */
-  --wordmark:"Jost","Futura","Century Gothic",sans-serif;
+  --wordmark:"Poiret One","Jost","Century Gothic",sans-serif;
   --serif:"EB Garamond",Garamond,Georgia,serif;
   --sans:"Libre Franklin","Helvetica Neue",Helvetica,Arial,sans-serif;
   --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
@@ -27,19 +29,22 @@ h1, h2, h3, h4 { font-weight: 500; }
 .date, .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: 0; }
 .vh { position: absolute; left: -9999px; }
 
-/* ---- chrome: strip › mast › nav › sub › main › footer ---- */
+/* ---- chrome: mast (black band, links folded top-right) › nav › sub › main › footer ---- */
 .wrap { max-width: var(--page); margin: 0 auto; padding-left: var(--gut); padding-right: var(--gut); }
-.strip { background: var(--ink); color: var(--paper); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
-.strip .wrap { display: flex; justify-content: flex-end; align-items: center; height: 44px; gap: 16px; }
-.strip .r { color: var(--ash); white-space: nowrap; }
-.strip .r a { color: var(--ash); } .strip .r a:first-child { color: var(--paper); font-weight: 500; }
-.strip .r a:hover { color: var(--paper); text-decoration: none; }
-.strip .r .sep { margin: 0 .5em; }
-.mast { text-align: center; padding: 34px 0 0; }
-.mast .mark { display: inline-block; margin: 0; font: 600 42px/1 var(--wordmark); letter-spacing: .14em; padding-left: .14em; color: var(--ink); }
-.mast .mark a { color: inherit; } .mast .mark a:hover { text-decoration: none; }
-.mark small { font-size: .72em; text-transform: uppercase; letter-spacing: inherit; font-weight: inherit; }
-.mast .tag { margin: 2px 0 0; font: italic 500 16px/1.4 var(--serif); color: var(--soot); }
+.mast { background: var(--ink); color: var(--paper); }
+.mast .wrap { position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px; padding-top: 40px; padding-bottom: 30px; }
+.mast .r { position: absolute; top: 14px; right: var(--gut); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ash); white-space: nowrap; }
+.mast .r a { color: var(--ash); } .mast .r a:first-child { color: var(--paper); font-weight: 500; }
+.mast .r a:hover { color: var(--paper); text-decoration: none; }
+.mast .r .sep { margin: 0 .5em; }
+.mast .lockup { display: flex; align-items: center; gap: 26px; color: var(--paper); }
+.mast .lockup:hover { text-decoration: none; }
+.mast .spire { width: 84px; height: 84px; flex: none; display: block; }
+.mast .spire .cut { fill: var(--ink); }
+.mast .rule { width: 1px; height: 64px; background: var(--paper); }
+.mast .mark { margin: 0; font: 400 54px/1 var(--wordmark); letter-spacing: .15em; padding-left: .15em; color: var(--paper); white-space: nowrap; }
+.mark small, footer .fm small { font-size: .72em; text-transform: uppercase; letter-spacing: inherit; font-weight: inherit; }
+.mast .tag { margin: 0; font: italic 500 17px/1.4 var(--serif); color: var(--paper); }
 nav.main { margin: 22px auto 0; max-width: var(--page); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink);
   display: flex; justify-content: flex-start; gap: 0; font-size: 12.5px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase;
   overflow-x: auto; scrollbar-width: none; }
@@ -55,9 +60,14 @@ nav.main a.on::after { content: ""; position: absolute; left: 18px; right: 18px;
 .sub .rt { margin-left: auto; font-size: 12px; white-space: nowrap; }
 @media (max-width:820px){ .sub .rt { display: none; } }
 @media (max-width:640px){
-  .mast { padding-top: 22px; }
-  .mast .mark { font-size: 28px; }
-  .mast .tag { font-size: 14px; }
+  .mast .wrap { padding-top: 14px; padding-bottom: 16px; gap: 6px; }
+  .mast .r { position: static; align-self: flex-end; top: auto; right: auto; margin-bottom: 2px; font-size: 11px; }
+  .mast .lockup { gap: 12px; }
+  .mast .spire { width: 32px; height: 32px; }
+  .mast .spire .cut { display: none; }
+  .mast .rule { display: none; }
+  .mast .mark { font-size: 26px; letter-spacing: .1em; padding-left: .1em; }
+  .mast .tag { font-size: 13px; }
   nav.main { margin: 16px var(--gut) 0; font-size: 11px; }
   nav.main a { padding: 10px 12px; }
 }
@@ -78,7 +88,7 @@ main > .letter { max-width: 420px; }
 /* footer: wordmark and tagline, one-sentence description, links, disclaimer */
 footer { margin-top: 72px; border-top: 1px solid var(--ink); font-size: 13px; color: var(--soot); }
 footer .wrap { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; padding: 26px var(--gut) 40px; }
-footer .fm { font: 600 22px/1 var(--wordmark); letter-spacing: .14em; color: var(--ink); }
+footer .fm { font: 400 22px/1 var(--wordmark); letter-spacing: .15em; color: var(--ink); }
 footer .ft { margin: 6px 0 0; font: italic 400 14px/1.4 var(--serif); color: var(--soot); max-width: 30ch; }
 footer p { margin: 0 0 6px; font-weight: 300; }
 footer ul { margin: 0 0 8px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 0 .5em; }
