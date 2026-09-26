@@ -1,5 +1,5 @@
 {
- "count": 111,
+ "count": 108,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -3021,72 +3021,6 @@
    ]
   },
   {
-   "id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
-   "status": "approved",
-   "ingested_at": "2026-09-20T21:30:58Z",
-   "title": "FLAG Telecom - FLAG Atlantic Cable System (FA-1) LOA",
-   "issuing_body": "FCC",
-   "doc_date": "2022-07-18",
-   "docket": "SCL-T/C-20211124-00049",
-   "lists": [
-    "team-telecom",
-    "mitigation-agreement"
-   ],
-   "entities": [
-    "FLAG Telecom"
-   ],
-   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7f0ed24f97d62a1046e139b0f053af07",
-   "source_copy_public": true,
-   "notes": "check if dupe",
-   "source_file": "source.pdf",
-   "sha256": "cbc7975747d6e2a07130ae95e5b260c97ead69c976cf36abf166702591f0d422",
-   "approved_at": "2026-09-23T02:32:43Z",
-   "published_at": "2026-09-23T02:33:05Z",
-   "reason": "",
-   "error": "",
-   "duplicate_of": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
-   "draft_model": "openai/gpt-5.6-luna",
-   "drafted_at": "2026-09-20T21:31:03Z",
-   "files": [
-    "meta.json",
-    "summary.md",
-    "source.pdf"
-   ]
-  },
-  {
-   "id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
-   "status": "approved",
-   "ingested_at": "2026-09-20T21:30:58Z",
-   "title": "FLAG Telecom Limited — Letter of Agreement",
-   "issuing_body": "FCC",
-   "doc_date": "2022-07-18",
-   "docket": "ITC-T/C-20211124-00181",
-   "lists": [
-    "team-telecom",
-    "mitigation-agreement"
-   ],
-   "entities": [
-    "FLAG Telecom"
-   ],
-   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1c1ed24f97d62a1046e139b0f053af0a",
-   "source_copy_public": true,
-   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0084757",
-   "source_file": "source.pdf",
-   "sha256": "0d1ccd183fe8d036010762de3f08b60bf02d64e677838d79718f2a8c6c6d96a0",
-   "approved_at": "2026-09-23T02:30:51Z",
-   "published_at": "2026-09-23T02:31:36Z",
-   "reason": "",
-   "error": "",
-   "duplicate_of": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
-   "draft_model": "openai/gpt-5.6-luna",
-   "drafted_at": "2026-09-20T21:31:35Z",
-   "files": [
-    "meta.json",
-    "summary.md",
-    "source.pdf"
-   ]
-  },
-  {
    "id": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
    "status": "approved",
    "ingested_at": "2026-09-19T19:06:20Z",
@@ -3210,42 +3144,9 @@
    "published_at": "2026-09-23T02:26:58Z",
    "reason": "",
    "error": "",
-   "duplicate_of": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
-   "draft_model": "openai/gpt-5.6-luna",
-   "drafted_at": "2026-09-21T00:27:22Z",
-   "files": [
-    "meta.json",
-    "summary.md",
-    "source.pdf"
-   ]
-  },
-  {
-   "id": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
-   "status": "approved",
-   "ingested_at": "2026-09-19T19:05:36Z",
-   "title": "Hummingbird IPC LOA Final",
-   "issuing_body": "FCC",
-   "doc_date": "2022-07-05",
-   "docket": "WC Docket No. 21-436",
-   "lists": [
-    "team-telecom",
-    "mitigation-agreement"
-   ],
-   "entities": [
-    "Hummingbird Circle"
-   ],
-   "source_url": "https://files.fcc.gov/ecfs/download/7bdfa213-9aa7-4907-be6c-3763cd5417fa?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
-   "source_copy_public": true,
-   "notes": "",
-   "source_file": "source.pdf",
-   "sha256": "634f1feeae08af616a339b4de186438e1751893393ef90cb6be5077a73a6c7dd",
-   "approved_at": "2026-09-21T00:29:39Z",
-   "published_at": "2026-09-21T00:30:25Z",
-   "reason": "",
-   "error": "",
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
-   "drafted_at": "2026-09-19T19:07:30Z",
+   "drafted_at": "2026-09-21T00:27:22Z",
    "files": [
     "meta.json",
     "summary.md",
