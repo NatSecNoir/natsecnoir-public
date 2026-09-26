@@ -121,9 +121,9 @@ assert.doesNotMatch(home, /From the record|Persons of interest/, "rail derived s
 assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
 
 // ---- chrome (editorial redesign, U2) ----
-// Every page carries one nav.main listing The file, the lists.js keys in file order, Restricted entities.
+// Every page carries one nav.main: The file, Analyses, the lists.js keys in file order, Restricted entities.
 const listKeys = Object.keys((await import("../src/_data/lists.js")).default);
-const expectedNav = ["The file", ...listKeys.map((k) => `/by/list/${k}/`), "Restricted entities"];
+const expectedNav = ["The file", "/analyses/", ...listKeys.map((k) => `/by/list/${k}/`), "Restricted entities"];
 function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => d.isDirectory() ? walk(path.join(dir, d.name)) : d.name === "index.html" ? [path.join(dir, d.name)] : []); }
 for (const f of walk(outFix)) {
   const html = fs.readFileSync(f, "utf8");

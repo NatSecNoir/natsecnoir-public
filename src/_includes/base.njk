@@ -16,6 +16,7 @@
 </header>
 <nav class="main" aria-label="Primary">
   <a{% if nav == "feed" %} class="on"{% endif %} href="/">The file</a>
+  <a{% if nav == "analysis" and page.url != "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/">Analyses</a>
   {%- for slug, l in lists %}
   <a{% if nav == "list" and navSlug == slug %} class="on"{% endif %} href="/by/list/{{ slug }}/">{{ l.label }}</a>
   {%- endfor %}
@@ -24,7 +25,6 @@
 <div class="sub">
   <a{% if nav == "list" %} class="on"{% endif %} href="/by/list/">By list</a>
   <a{% if nav == "agency" %} class="on"{% endif %} href="/by/agency/">By source</a>
-  <a{% if nav == "analysis" %} class="on"{% endif %} href="/analyses/">Analyses</a>
   {% if records.all.length %}<span class="rt mono">last filed {{ records.all[0].doc_date }}</span>{% endif %}
 </div>
 <main class="wrap">
