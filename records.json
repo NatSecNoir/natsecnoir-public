@@ -1,5 +1,5 @@
 {
- "count": 110,
+ "count": 111,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -1163,6 +1163,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:55:12Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-tt25-016-to-017-zayo-crown-castle-loa-executable-3147db",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:13:05Z",
+   "title": "Zayo - Team Telecom Mitigation Agreement",
+   "issuing_body": "FCC",
+   "doc_date": "2026-05-15",
+   "docket": "WC Docket No. 25-174",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Zayo"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/3294a72e-4be6-495b-b35f-9c830f670e11?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "3147db236ed8372aad3cbbf826470e54b707d637e79393a01ad85789121b56de",
+   "approved_at": "2026-09-26T11:01:40Z",
+   "published_at": "2026-09-26T11:01:52Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:25:23Z",
    "files": [
     "meta.json",
     "summary.md",
