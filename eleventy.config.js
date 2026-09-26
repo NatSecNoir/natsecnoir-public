@@ -33,6 +33,7 @@ export default function (eleventyConfig) {
 
   const records = process.env.RECORDS_DIR || "records";
   eleventyConfig.addPassthroughCopy({ "src/css": "css", "src/js": "js", "src/img": "img" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
   // Each approved record's public files are published at /records/<id>/<name>, the same path as in
   // the repo (Eleventy's glob passthrough would flatten them). Non-approved folders are skipped.
   eleventyConfig.on("eleventy.after", ({ dir }) => {
