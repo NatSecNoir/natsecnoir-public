@@ -1,5 +1,5 @@
 {
- "count": 108,
+ "count": 109,
  "records": [
   {
    "id": "2026-09-18-da-26-996a1-3919ef",
@@ -2013,6 +2013,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-12T20:15:30Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-19-windstream-executed-loa-ed0bfe",
+   "status": "approved",
+   "ingested_at": "2026-09-19T19:11:42Z",
+   "title": "Windstream - Mitigation Agreement",
+   "issuing_body": "FCC",
+   "doc_date": "2025-04-25",
+   "docket": "WC Docket No. 24-165",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "Windstream Holdings II"
+   ],
+   "source_url": "https://files.fcc.gov/ecfs/download/4b91ab9b-b553-4dbb-8120-cad68b97692f?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "ed0bfe84e477064ebda72529973522bd8d416b560a9d599a2524d5770888ed18",
+   "approved_at": "2026-09-26T10:58:22Z",
+   "published_at": "2026-09-26T10:58:41Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-19T19:22:14Z",
    "files": [
     "meta.json",
     "summary.md",
