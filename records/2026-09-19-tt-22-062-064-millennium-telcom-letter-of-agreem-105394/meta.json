@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-19-tt-22-062-064-millennium-telcom-letter-of-agreem-105394",
+  "status": "approved",
+  "ingested_at": "2026-09-19T19:08:23Z",
+  "title": "Millennium Telcom Letter of Agreement",
+  "issuing_body": "FCC",
+  "doc_date": "2023-10-03",
+  "docket": "WC Docket No. 22-31",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [
+    "Millennium Telecom"
+  ],
+  "source_url": "https://files.fcc.gov/ecfs/download/c73d0699-b0a1-4d2b-b0c1-67ec648be029?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "105394d3ade61a6d1525c3d516488b6300ac473ddad9adb1d82747f3d909e12d",
+  "approved_at": "2026-09-26T10:44:41Z",
+  "published_at": "2026-09-26T10:45:33Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-19T19:16:25Z"
+}
