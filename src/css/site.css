@@ -153,7 +153,7 @@ a.more { display: inline-block; margin-top: 10px; font: 500 11px/1 var(--sans); 
 .item.lead .slug { color: var(--ink); }
 .item.lead .slug .sep { margin: 0 .45em; color: var(--smoke); }
 .item.lead .slug .type { color: var(--soot); }
-.item.lead h2 { margin: 14px 0 12px; font: 500 clamp(32px, 4.2vw, 50px)/1.06 var(--serif); letter-spacing: -.005em; max-width: 22ch; text-wrap: balance; }
+.item.lead h2 { margin: 12px 0 10px; font: 500 clamp(26px, 2.6vw, 34px)/1.12 var(--serif); letter-spacing: -.003em; max-width: 28ch; text-wrap: balance; }
 .item.lead h2 a:hover { text-decoration: underline; text-underline-offset: 6px; }
 .item.lead .stand { margin: 0 0 12px; font: italic 500 19px/1.4 var(--serif); color: var(--soot); max-width: 60ch; }
 .item.lead .ex { margin: 0 0 14px; font: 300 16.5px/1.6 var(--sans); color: var(--ink); max-width: 64ch; }
@@ -175,7 +175,7 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
 .folio { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 0 0; font-size: 12.5px; color: var(--smoke); }
 .folio a { font: 500 11px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
 @media (max-width:640px) {
-  .item.lead h2 { font-size: 32px; }
+  .item.lead h2 { font-size: 26px; }
   .item.lead .stand { font-size: 17px; }
   table.ledger, .ledger tbody { display: block; }
   .ledger thead { display: none; }
