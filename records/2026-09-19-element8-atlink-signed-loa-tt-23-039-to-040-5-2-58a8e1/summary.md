@@ -1,0 +1,14 @@
+Element8 Technology Investment Group, Inc. and AtLink Services, LLC executed a Team Telecom mitigation agreement with the U.S. Department of Justice, including the FBI, addressing national-security and law-enforcement risks associated with Element8’s proposed foreign investment in and control transfer of AtLink.
+
+**What it does** The Letter of Agreement (LOA) conditions the parties’ support for FCC approval of a section 310(b)(4) petition and a section 214 transfer-of-control application on extensive compliance commitments. These include a U.S. law-enforcement point of contact, a U.S.-based security officer eligible for a Secret clearance, compliance with lawful interception requirements and CALEA, U.S. handling of responsive records, controls on foreign access and foreign-government requests, cybersecurity and system-security plans, incident reporting, equipment and service-provider disclosures, network diagrams, annual reports, audits, and DOJ site visits. DOJ may object to or require review of many submissions, including personnel, equipment, service providers, network operations centers, and security plans.
+
+**Who it affects** The obligations bind Element8 and AtLink, their successors and assigns, and extend to personnel, foreign persons with access, principal-equipment vendors, managed network service providers, service providers, and other contractors handling domestic communications infrastructure or U.S. records. The arrangement also involves DOJ, the FBI, and the FCC, with references to the Departments of Defense and Homeland Security, CISA, and the Committee for the Assessment of Foreign Participation in the United States Telecommunications Services Sector.
+
+**Why it matters** The LOA illustrates Team Telecom’s use of enforceable operational, personnel, data-governance, cybersecurity, supply-chain, and reporting controls to mitigate risks arising from foreign ownership and telecommunications control. It also links noncompliance to potential FCC modification, conditioning, revocation, cancellation, or termination of relevant authorizations, while requiring notice and review of equipment or providers associated with foreign adversaries, the FCC Covered List, or the Commerce Entity List.
+
+**Key dates and numbers**
+- Executed May 2, 2024; the LOA identifies FCC ICFS Docket No. ISP-PDR-20230807-00007, WC Docket No. 23-268, and TT 23-039 to -040.
+- Within 15 days of FCC approval, Petitioners must provide LEPOC information and nominate a security officer; many initial disclosures are due within 30 or 60 days.
+- Security incidents and specified breaches must be reported to DOJ within 72 hours; CPNI incidents must be reported to the FBI and Secret Service within seven business days.
+- Annual reports are due one year after the FCC approval date and every year thereafter.
+- DOJ may request a neutral third-party compliance audit no more frequently than annually, unless an audit is unsatisfactory.
