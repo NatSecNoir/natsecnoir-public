@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import listInfo from "./lists.js";
+import loadAnalyses from "./analyses.js";
 import { splitExcerpt } from "../lib/text.js";
 
 const root = process.env.RECORDS_DIR || "records";
@@ -75,6 +76,16 @@ export default function () {
     const slugs = new Set(r.lists.map((l) => l.slug));
     take((o) => o.lists.some((l) => slugs.has(l.slug)));
     r.related = pick.slice(0, 4).map((o) => ({ title: o.title, url: o.url, doc_date: o.doc_date }));
+  }
+
+  // Ledger backlinks (R16): each record links to every ledger-kind analysis whose membership it
+  // satisfies — record lists contain every slug in the ledger's membership.lists_all.
+  const ledgers = loadAnalyses().all.filter((a) => a.kind === "ledger");
+  for (const r of all) {
+    const slugs = new Set(r.lists.map((l) => l.slug));
+    r.ledgers = ledgers
+      .filter((lg) => ((lg.membership && lg.membership.lists_all) || []).every((s) => slugs.has(s)))
+      .map((lg) => ({ id: lg.id, title: lg.title, url: `/analyses/${lg.id}/` }));
   }
 
   const group = (keyOf) => {

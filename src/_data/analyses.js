@@ -13,7 +13,7 @@ function excerpt(mesh) {
 }
 
 export default function () {
-  if (!fs.existsSync(root)) return { all: [] };
+  if (!fs.existsSync(root)) return { all: [], pages: [] };
   const all = [];
   for (const id of fs.readdirSync(root).sort()) {
     const meshPath = path.join(root, id, "mesh.json");
@@ -30,5 +30,9 @@ export default function () {
     });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
-  return { all };
+  // `pages` is what analysis.njk paginates: every non-ledger analysis. Ledger-kind meshes are
+  // rendered by analysis-ledger.njk (from ledgers.js) instead, so they must not also feed the
+  // generic template or the two would collide on the /analyses/<id>/ permalink.
+  const pages = all.filter((a) => a.kind !== "ledger");
+  return { all, pages };
 }

@@ -1,0 +1,87 @@
+---
+layout: base.njk
+nav: analysis
+pagination:
+  data: ledgers.all
+  size: 1
+  alias: l
+permalink: "{{ l.url }}"
+eleventyComputed:
+  title: "{{ l.title }}"
+  description: "{{ l.excerpt }}"
+---
+<article class="ledger-page">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
+  <h1>{{ l.title }}</h1>
+  <p class="sub">Every executed Team Telecom mitigation agreement held in the corpus — Records tagged
+    both <code>team-telecom</code> and <code>mitigation-agreement</code> — one row per instrument,
+    newest first, with superseding and companion instruments folded beneath their row.</p>
+
+  <p class="stamp">Currency: last accepted change {{ l.currency_date or "—" }} · {{ l.count }} agreement{{ "s" if l.count != 1 }}.</p>
+  <p class="stamp-note">Transaction type, signing agencies, foreign-owner country, and terms summaries
+    are analyst-reviewed summaries drawn from the executed instrument — not the instrument text itself.
+    Fields not yet reviewed show as <span class="pending">pending</span>.</p>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by company, type, agency, country, or docket…" aria-label="Filter agreements">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="scroll">
+  <table id="ledger">
+    <colgroup>
+      <col style="width:9%"><col style="width:23%"><col style="width:14%"><col style="width:11%">
+      <col style="width:9%"><col style="width:16%"><col style="width:9%"><col style="width:9%">
+    </colgroup>
+    <thead><tr>
+      <th data-key="date" aria-sort="descending"><span class="lab">Date</span></th>
+      <th data-key="company"><span class="lab">Company</span></th>
+      <th data-key="type"><span class="lab">Transaction type</span></th>
+      <th data-key="agencies"><span class="lab">Agencies</span></th>
+      <th data-key="country"><span class="lab">Country</span></th>
+      <th data-key="docket"><span class="lab">Docket / TT case</span></th>
+      <th data-key="terms"><span class="lab">Terms</span></th>
+      <th data-key="links"><span class="lab">Links</span></th>
+    </tr></thead>
+    <tbody>
+    {% for row in l.rows %}
+      <tr class="row" data-search="{{ row.search }}">
+        <td class="date">{{ row.date }}</td>
+        <td><button class="expand" aria-expanded="false" aria-label="Toggle details">details</button> {{ row.company }}{% if row.history.length %}<span class="foldnote">+ {{ row.history.length }} folded: {{ row.foldsummary }}</span>{% endif %}</td>
+        <td>{% if row.pending.type %}<span class="pending">pending</span>{% else %}{{ row.transaction_type }}{% endif %}</td>
+        <td>{% if row.pending.agencies %}<span class="pending">pending</span>{% else %}{{ row.agencies | join(" · ") }}{% endif %}</td>
+        <td>{% if row.pending.country %}<span class="pending">pending</span>{% else %}{{ row.country }}{% endif %}</td>
+        <td>{{ row.docket }}</td>
+        <td>{% if row.pending.terms %}<span class="pending">pending</span>{% else %}<span class="tcount">{{ row.terms.length }} bullet{{ "s" if row.terms.length != 1 }}</span>{% endif %}</td>
+        <td><a href="{{ row.record_url }}">record</a>{% if row.pdf_url %} · <a href="{{ row.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</td>
+      </tr>
+      <tr class="detail" hidden><td colspan="8">
+        <div class="terms{% if row.pending.terms %} pending-note{% endif %}">
+          <strong>Terms</strong>
+          {% if row.pending.terms %}<span class="pending">Terms summary pending — not yet extracted or accepted.</span>
+          {% else %}<ul>{% for t in row.terms %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+        </div>
+        {% if row.history.length %}
+        <div class="history"><strong>Instrument history</strong>
+          <ul>
+          {% for h in row.history %}
+            <li><span class="rel{% if h.rel == 'companion' %} companion{% endif %}">{{ h.rel }}</span>{{ h.label }} · <span class="date">{{ h.date }}</span>{% if h.docket %} · {{ h.docket }}{% endif %} · <a href="{{ h.record_url }}">record</a>{% if h.pdf_url %} · <a href="{{ h.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</li>
+          {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </td></tr>
+    {% endfor %}
+      <tr class="noresults" hidden><td colspan="8">No agreements match the current filter.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="methodology">
+    <p>Rendered at build time from the mirrored Records and the analysis mesh. Terms are
+    analyst-reviewed summaries of the executed instrument, each accepted with a citation to the
+    Record and page — not the instrument text. Fields marked <span class="pending">pending</span>
+    have not yet been reviewed.</p>
+  </div>
+</article>
+<script src="/js/ledger.js" defer></script>

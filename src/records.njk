@@ -34,6 +34,7 @@ eleventyComputed:
     <ul>
       {% if r.source_url %}<li><a href="{{ r.source_url }}">Open the source{% if r.format %} · {{ r.format }}{% endif %} ↗</a></li>{% endif %}
       {% if r.copy %}<li><a href="{{ r.copy }}">Stored copy</a></li>{% endif %}
+      {% for lg in r.ledgers %}<li><a href="{{ lg.url }}">Tracked in {{ lg.title }}</a></li>{% endfor %}
       <li><a href="/records/{{ r.id }}/meta.json">meta.json</a></li>
     </ul>
     {% if r.pages %}<p class="mono">{{ r.pages }} pp.</p>{% endif %}
