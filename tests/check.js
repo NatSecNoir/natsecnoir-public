@@ -54,6 +54,116 @@ assert.ok(fs.existsSync(path.join(outFix, "analyses/fixture-analysis/mesh.json")
 assert.match(feedIdx, /class="item[^"]*analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?href="\/analyses\/fixture-analysis\/"/, "analysis is badged in the feed");
 assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-bbbbbb"), "analysis interleaves by date");
 
+// ---- Team Telecom agreements ledger (U5) ----
+const tt = fs.readFileSync(path.join(outFix, "analyses/fixture-ledger/index.html"), "utf8");
+const ttFlat = tt.replace(/\s+/g, " ");
+// Each main row is bounded by its own </tr>; a lazy match stops before the following detail row.
+const ttMainRows = tt.match(/<tr class="row"[\s\S]*?<\/tr>/g) || [];
+// Slice one row's <tr class="row"> (main) by the record id in its Links cell.
+function ttRow(id) {
+  const at = tt.indexOf(`/records/${id}/`);
+  assert.ok(at > 0, `row for ${id} is present`);
+  const start = tt.lastIndexOf('<tr class="row"', at);
+  return tt.slice(start, tt.indexOf("</tr>", at) + 5);
+}
+// The detail row immediately follows its main row.
+function ttDetail(id) {
+  const rowEnd = tt.indexOf("</tr>", tt.indexOf(`/records/${id}/`)) + 5;
+  const ds = tt.indexOf('<tr class="detail"', rowEnd);
+  return tt.slice(ds, tt.indexOf("</tr>", tt.indexOf("</td>", ds)) + 5);
+}
+// One <tr class="row"> per unfolded member: five rows (lumos, partial, gigsky-2022, ziply, newco).
+assert.equal((tt.match(/<tr class="row/g) || []).length, 5, "one ledger row per unfolded member");
+
+// AE1: a member with no overlay entry renders with its date, title, docket, record + PDF links, and
+// a pending marker in each of the four analyst columns.
+const newco = ttRow("2020-01-01-fix-loa-newco-aaaa01");
+assert.match(newco, /2020-01-01/, "AE1 row shows the doc date");
+assert.match(newco, /NewCo Letter of Agreement/, "AE1 row shows the record title as company");
+assert.match(newco, /ISP-PDR-20200101-00001/, "AE1 row shows the docket");
+assert.match(newco, /href="\/records\/2020-01-01-fix-loa-newco-aaaa01\/">record<\/a>/, "AE1 row links its record");
+assert.match(newco, /href="\/records\/2020-01-01-fix-loa-newco-aaaa01\/source\.pdf"/, "AE1 row links its stored PDF");
+assert.equal((newco.match(/class="pending"/g) || []).length, 4, "AE1 row shows four pending markers");
+
+// AE2: Gigsky is one parent row dated by the 2022 instrument, with a fold note and a history row for
+// the 2017 instrument that links to its own record and PDF.
+const gig = ttRow("2022-05-05-fix-gigsky-2022-bbbb02");
+assert.match(gig, /2022-05-05/, "AE2 Gigsky row is dated by the newer instrument");
+assert.match(gig.replace(/\s+/g, " "), /\+ 1 folded: superseded · GigSky \(2017 LOA\)/, "AE2 fold note names the superseded instrument");
+assert.ok(tt.indexOf("2017-10-20-fix-gigsky-2017-cccc03") < 0 ? false : true);
+const gigDetail = ttDetail("2022-05-05-fix-gigsky-2022-bbbb02").replace(/\s+/g, " ");
+assert.match(gigDetail, /Instrument history/, "AE2 detail row has an instrument-history block");
+assert.match(gigDetail, /superseded<\/span>GigSky \(2017 LOA\)/, "AE2 history tags the 2017 instrument superseded");
+assert.match(gigDetail, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/">record<\/a>/, "AE2 history links the 2017 record");
+assert.match(gigDetail, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/source\.pdf"/, "AE2 history links the 2017 PDF");
+// The folded 2017 instrument has no row of its own.
+assert.ok(!ttMainRows.some((r) => r.includes("/records/2017-10-20-fix-gigsky-2017-cccc03/")), "the superseded 2017 instrument is not a standalone row");
+
+// AE3: an overlay entry with fields and three terms lines renders its fields in the columns and
+// three bullets in the detail; the currency stamp is the mesh last_changed, not the run date.
+const lumos = ttRow("2024-06-01-fix-lumos-dddd04");
+assert.match(lumos, /transfer of control/, "AE3 transaction type in its column");
+assert.match(lumos, /DOJ · DHS · DoD/, "AE3 agencies joined in their column");
+assert.match(lumos, /United States/, "AE3 country in its column");
+assert.match(lumos, /3 bullets/, "AE3 terms cell shows the bullet count");
+assert.doesNotMatch(lumos, /class="pending"/, "AE3 fully-extracted row shows no pending marker");
+const lumosDetail = ttDetail("2024-06-01-fix-lumos-dddd04");
+assert.equal((lumosDetail.match(/<li>/g) || []).length, 3, "AE3 detail row renders three term bullets");
+assert.match(tt, /last accepted change 2026-02-15/, "R14 currency stamp is the mesh last_changed");
+assert.doesNotMatch(tt, /last accepted change 2026-09-01/, "R14 stamp is not the mesh currency_date");
+
+// R7 partial: an accepted field renders in its column while each absent field is an independent
+// pending marker.
+const partial = ttRow("2023-01-01-fix-partial-gggg07");
+assert.match(partial, /cable landing/, "R7 accepted transaction type renders");
+assert.equal((partial.match(/class="pending"/g) || []).length, 3, "R7 leaves agencies, country and terms pending");
+
+// AE4: a record with only team-telecom does not appear, even though an overlay entry names its id.
+assert.doesNotMatch(tt, /fix-teamonly-hhhh08/, "AE4 a non-member is absent even with an overlay entry");
+assert.doesNotMatch(tt, /Should Not Render/, "AE4 the non-member's overlay label never renders");
+
+// Companion: the Ziply row is dated by its own instrument with a companion history row for BCE.
+const ziply = ttRow("2021-03-03-fix-ziply-eeee05");
+assert.match(ziply, /2021-03-03/, "companion parent dated by its own instrument");
+assert.match(ziply.replace(/\s+/g, " "), /\+ 1 folded: companion · BCE Holding Corporation/, "companion fold note");
+const ziplyDetail = ttDetail("2021-03-03-fix-ziply-eeee05").replace(/\s+/g, " ");
+assert.match(ziplyDetail, /companion<\/span>BCE Holding Corporation/, "companion history tags BCE companion");
+assert.match(ziplyDetail, /href="\/records\/2019-11-21-fix-bce-ffff06\/">record<\/a>/, "companion history links the BCE record");
+
+// Sort: rows are doc_date descending (lumos 2024 first, newco 2020 last).
+assert.ok(tt.indexOf("2024-06-01-fix-lumos-dddd04") < tt.indexOf("2022-05-05-fix-gigsky-2022-bbbb02"), "rows are newest first");
+assert.ok(tt.indexOf("2022-05-05-fix-gigsky-2022-bbbb02") < tt.indexOf("2020-01-01-fix-loa-newco-aaaa01"), "oldest unfolded row is last");
+
+// Chain integrity: no member id appears in more than one row's chain and no row is dropped.
+const foldedIds = ["2017-10-20-fix-gigsky-2017-cccc03", "2019-11-21-fix-bce-ffff06"];
+for (const id of foldedIds) assert.ok(!ttMainRows.some((r) => r.includes(`/records/${id}/`)), `folded ${id} is not a top-level row`);
+
+// Index: the ledger card shows its row count (5), not its overlay entry count (7).
+const idx = fs.readFileSync(path.join(outFix, "analyses/index.html"), "utf8");
+const card = idx.match(/href="\/analyses\/fixture-ledger\/"[\s\S]*?<\/a>/);
+assert.ok(card, "the ledger has a card on the analyses index");
+assert.match(card[0], /<span class="gn">5<\/span>/, "index card shows the row count, not the 7 overlay entries");
+
+// Backlink (R16): a member record links to the ledger; a non-member record does not.
+const newcoPage = fs.readFileSync(path.join(outFix, "records/2020-01-01-fix-loa-newco-aaaa01/index.html"), "utf8");
+assert.match(newcoPage, /href="\/analyses\/fixture-ledger\/">Tracked in Team Telecom Agreements/, "a member record backlinks the ledger");
+assert.doesNotMatch(page, /\/analyses\/fixture-ledger\//, "a non-member record does not backlink the ledger");
+
+// Feed opt-out (AE5): the ledger is absent from the front-page feed and from RSS.
+assert.doesNotMatch(feedIdx, /\/analyses\/fixture-ledger\//, "the ledger is not on the front-page feed");
+assert.doesNotMatch(feed, /fixture-ledger/, "the ledger is not in the RSS feed");
+
+// Degradation + safety: every row is present without JS, and every absolute href in the article is
+// on the same .gov/.mil allowlist the watch-lists page uses (there should be none — links are relative).
+assert.doesNotMatch(tt, /<tr class="row[^"]*" hidden/, "ledger rows are visible without JS");
+assert.match(tt, /<script src="\/js\/ledger\.js" defer><\/script>/, "the ledger reuses ledger.js");
+const ttArticle = tt.slice(tt.indexOf('<article class="ledger-page">'), tt.indexOf("</article>"));
+for (const m of ttArticle.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
+  const u = new URL(m[1]);
+  assert.ok(u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname), `ledger source link on the allowlist: ${m[1]}`);
+}
+
+
 // ---- ledger page (U6/U7) ----
 const ledgerPath = path.join(outFix, "analyses/supply-chain-watch-lists/index.html");
 const ledger = fs.readFileSync(ledgerPath, "utf8");
