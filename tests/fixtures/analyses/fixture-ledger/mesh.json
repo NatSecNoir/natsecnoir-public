@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "title": "Team Telecom Agreements",
+  "kind": "ledger",
+  "feed": false,
+  "excerpt": "Every executed Team Telecom mitigation agreement in the corpus, newest instrument first, with signing agencies, foreign-owner country, and analyst-reviewed terms.",
+  "membership": {
+    "lists_all": [
+      "team-telecom",
+      "mitigation-agreement"
+    ]
+  },
+  "currency_date": "2026-09-01",
+  "last_changed": "2026-02-15",
+  "entries": [
+    {
+      "key": "2024-06-01-fix-lumos-dddd04",
+      "kind": "agreement",
+      "label": "Lumos (T-Mobile \u00b7 EQT)",
+      "fields": {
+        "transaction_type": "transfer of control",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United States"
+      },
+      "text": "Designate a U.S.-based security officer and security committee.\nStore and process domestic communications on U.S. soil; restrict remote access.\nProvide lawful-process points of contact and 30-day change notice.",
+      "chain": {
+        "supersedes": [],
+        "companion": []
+      },
+      "date": "2026-02-15",
+      "updates": [],
+      "source": "overlay",
+      "definitions": []
+    },
+    {
+      "key": "2022-05-05-fix-gigsky-2022-bbbb02",
+      "kind": "agreement",
+      "label": "GigSky",
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS"
+        ],
+        "country": "United States"
+      },
+      "text": "Route domestic traffic through a U.S. point of presence.\nMaintain a domestic communications assistance capability.",
+      "chain": {
+        "supersedes": [
+          "2017-10-20-fix-gigsky-2017-cccc03"
+        ],
+        "companion": []
+      },
+      "date": "2026-02-10",
+      "updates": [],
+      "source": "overlay",
+      "definitions": []
+    },
+    {
+      "key": "2021-03-03-fix-ziply-eeee05",
+      "kind": "agreement",
+      "label": "Ziply Fiber / BCE Inc.",
+      "chain": {
+        "supersedes": [],
+        "companion": [
+          "2019-11-21-fix-bce-ffff06"
+        ]
+      },
+      "date": "2026-01-20",
+      "updates": [],
+      "source": "overlay",
+      "text": "",
+      "definitions": []
+    },
+    {
+      "key": "2023-01-01-fix-partial-gggg07",
+      "kind": "agreement",
+      "label": "Partial Fields Co.",
+      "fields": {
+        "transaction_type": "cable landing",
+        "agencies": [],
+        "country": ""
+      },
+      "chain": {},
+      "date": "2026-01-10",
+      "updates": [],
+      "source": "overlay",
+      "text": "",
+      "definitions": []
+    },
+    {
+      "key": "2025-01-01-fix-teamonly-hhhh08",
+      "kind": "agreement",
+      "label": "Should Not Render",
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": "United States"
+      },
+      "chain": {},
+      "date": "2026-01-05",
+      "updates": [],
+      "source": "overlay",
+      "text": "Should not appear.",
+      "definitions": []
+    },
+    {
+      "key": "2017-10-20-fix-gigsky-2017-cccc03",
+      "kind": "agreement",
+      "label": "GigSky (2017 LOA)",
+      "chain": {},
+      "date": "2026-02-10",
+      "updates": [],
+      "source": "overlay",
+      "text": "",
+      "definitions": []
+    },
+    {
+      "key": "2019-11-21-fix-bce-ffff06",
+      "kind": "agreement",
+      "label": "BCE Holding Corporation",
+      "chain": {},
+      "date": "2026-01-20",
+      "updates": [],
+      "source": "overlay",
+      "text": "",
+      "definitions": []
+    }
+  ],
+  "footnotes": [],
+  "sources": {},
+  "manifest": [],
+  "pending": [],
+  "archive": [],
+  "ledger": [],
+  "runs": [],
+  "published_at": "2026-02-15T00:00:00Z"
+}

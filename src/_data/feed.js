@@ -9,7 +9,9 @@ export default function () {
   const analyses = loadAnalyses();
   const items = [
     ...records.all.map((r) => ({ ...r, kind: "record" })),
-    ...analyses.all.map((a) => ({ ...a, ...splitExcerpt(a.excerpt), kind: "analysis" })),
+    // R15: an analysis can opt out of the feed with `feed: false` in its mesh (the ledger does);
+    // every existing analysis has no `feed` key and stays in.
+    ...analyses.all.filter((a) => a.feed !== false).map((a) => ({ ...a, ...splitExcerpt(a.excerpt), kind: "analysis" })),
   ];
   items.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
   return { all: items };
