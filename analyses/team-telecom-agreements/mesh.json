@@ -1,0 +1,1480 @@
+{
+  "title": "Team Telecom Mitigation Agreements",
+  "excerpt": "Every executed Team Telecom mitigation agreement held in the corpus — Records double-tagged team-telecom and mitigation-agreement — one row per instrument, newest first, with superseding and companion instruments folded beneath their row.",
+  "kind": "ledger",
+  "feed": false,
+  "membership": {
+    "lists_all": [
+      "team-telecom",
+      "mitigation-agreement"
+    ]
+  },
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "2026-09-19-07-24-23-oneweb-eutelsat-loa-tt-22-049-to-061-si-f766e1",
+      "kind": "ingest",
+      "label": "OneWeb Eutelsat LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain U.S. law enforcement points of contact subject to USG Parties’ approval.\nProvide responsive information for Lawful U.S. Process within the United States and within the required time.\nPrevent unauthorized access to U.S. Records, domestic communications, and domestic communications infrastructure.\nReport known or suspected security incidents and material breaches to USG Parties within 72 hours.\nObtain review or non-objection before introducing or modifying Principal Equipment.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "satellite",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-19-07-24-23-oneweb-eutelsat-loa-tt-22-049-to-061-si-f766e1",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-2022-5-23-peerless-tt-214-loa-edf691",
+      "kind": "ingest",
+      "label": "2022 5 23 Peerless TT 214 LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S.-based law-enforcement point of contact subject to DOJ and FBI approval.\nKeep U.S. Records responsive to lawful U.S. process within the United States and provide them promptly.\nDo not disclose or provide access to U.S. Records, domestic communications, or related infrastructure to foreign governments, entities, or persons without DOJ or U.S. court approval.\nReport security incidents and specified breaches to DOJ within 72 hours.\nSubmit and maintain cybersecurity and system security plans for DOJ review. ",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-19-2022-5-23-peerless-tt-214-loa-edf691",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-2022-5-31-plant-loa-signed-440b1a",
+      "kind": "ingest",
+      "label": "Plant LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ and FBI approval.\nProvide responsive U.S. Records promptly in response to lawful U.S. process, no later than five days unless DOJ grants an extension.\nDo not disclose or provide access to U.S. Records, domestic communications, or domestic communications infrastructure to a foreign government without prior written DOJ consent or a U.S. court order.\nPrepare and implement cybersecurity and system security plans guided by current NIST standards.\nReport known or suspected security incidents, unauthorized access or disclosure, and material breaches to DOJ within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-2022-5-31-plant-loa-signed-440b1a",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-all-west-communications-inc-et-al-signed-loa-tt-9ad0e2",
+      "kind": "ingest",
+      "label": "All West Communications - Team Telecom mitigation agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law-enforcement point of contact approved by DOJ/FBI.\nDesignate and maintain a qualified U.S. citizen security officer.\nScreen personnel who have access to covered systems or records.\nProvide responsive information within the United States upon lawful process.\nReport security incidents or material breaches to DOJ within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-all-west-communications-inc-et-al-signed-loa-tt-9ad0e2",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-doj-sbs-loa-11-28-22-1-ec38fd",
+      "kind": "ingest",
+      "label": "Spanish Broadcasting System LOA - Team Telecom",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Provide advance notice of material business, corporate, headquarters, and operations changes.\nReport new owners holding 5% or more equity and identified non-U.S. Class A Common stock owners.\nRetain and pay for neutral third-party financial audits, including internal-controls audits.\nPermit DOJ site visits, employee interviews, and access to documents needed to verify compliance.\nResolve national-security or law-enforcement concerns raised by DOJ.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-doj-sbs-loa-11-28-22-1-ec38fd",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-element8-atlink-signed-loa-tt-23-039-to-040-5-2-58a8e1",
+      "kind": "ingest",
+      "label": "Element8 AtLink  Team Telecom mitigation agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ/FBI.\nComply with lawful interception requirements and certify CALEA compliance.\nKeep U.S. Records, Domestic Communications, and related infrastructure protected from unauthorized access and disclosure.\nReport known or suspected security incidents and material breaches to DOJ within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-element8-atlink-signed-loa-tt-23-039-to-040-5-2-58a8e1",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-everfast-fiber-networks-signed-loa-tt-22-022-to-a1926b",
+      "kind": "ingest",
+      "label": "Everfast Fiber Networks SIGNED LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nKeep U.S. Records and domestic communications infrastructure within the United States when required by lawful U.S. process.\nReport known or suspected security incidents or material breaches to DOJ within the stated deadlines.\nScreen personnel who have access to domestic communications or U.S. Records.\nProvide DOJ with lists of principal equipment and outsourced or offshore service providers for review.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-everfast-fiber-networks-signed-loa-tt-22-022-to-a1926b",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-fusion-connect-inc-et-al-signed-loa-tt-22-018-to-e4ac31",
+      "kind": "ingest",
+      "label": "Fusion Connect LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate a U.S. law-enforcement point of contact approved by DOJ/FBI.\nScreen personnel who can access domestic communications or U.S. records.\nKeep responsive information within the United States when served with lawful U.S. process.\nReport security incidents and material breaches to DOJ within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-fusion-connect-inc-et-al-signed-loa-tt-22-018-to-e4ac31",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
+      "kind": "ingest",
+      "label": "GCX LOA - Team Telecom",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ and FBI approval.\nProvide U.S. Records promptly in response to lawful U.S. process, generally within five days.\nDo not provide U.S. Records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without DOJ or U.S. court consent.\nReport known or suspected security incidents and material breaches to DOJ within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
+      "kind": "ingest",
+      "label": "GCX - FLAG Atlantic1 (FA-1) Cable LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S.-based Security Officer available 24/7 for CMA inquiries.\nProvide FA-1 network, equipment, vendor, and restoration information within required timeframes.\nMaintain the ability to interrupt U.S. traffic and suspend FA-1 communications functionality.\nReport specified incidents, breaches, and material LOA violations to the CMAs within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "cable landing",
+        "agencies": [
+          "DHS",
+          "DoD",
+          "DOJ"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
+      "kind": "ingest",
+      "label": "Hummingbird IPC LOA Final",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide U.S. Records promptly in response to Lawful U.S. Process, generally within five days.\nNotify DOJ of Security Incidents or specified breaches within 72 hours.\nObtain DOJ review or non-objection for specified foreign-person access, principal equipment, and service providers.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United States"
+      },
+      "citation": {
+        "record_id": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd",
+      "kind": "ingest",
+      "label": "Lumos (T-Mobile - EQT)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the agencies.\nDesignate and maintain a U.S. citizen security officer residing in the United States or its territories.\nScreen personnel who have access to domestic communications, related infrastructure, lawful U.S. process, or U.S. records.\nKeep information responsive to lawful U.S. process within the territorial boundaries of the United States.\nReport known or suspected security incidents or breaches to the agencies within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-loa-metronet-t-mobile-kkr-tt-24-044-to-048-final-bab18d",
+      "kind": "ingest",
+      "label": "Metronet T-Mobile - Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to agency approval.\nDesignate and maintain a U.S. citizen security officer eligible for a Secret-level or higher clearance.\nReport known or suspected security incidents to the agencies within 72 hours.\nKeep information responsive to lawful U.S. process within U.S. territorial boundaries.\nObtain agency review before granting foreign persons privileged access.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-loa-metronet-t-mobile-kkr-tt-24-044-to-048-final-bab18d",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-mashell-execution-copy-ad6a53",
+      "kind": "ingest",
+      "label": "Mashell Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ and the FBI.\nKeep responsive information within the United States after receiving lawful U.S. process.\nDo not disclose U.S. records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without DOJ or court approval.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-mashell-execution-copy-ad6a53",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-meriplex-mitigation-agreement-executed-02e970",
+      "kind": "ingest",
+      "label": "Meriplex Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide responsive information to lawful U.S. process within the United States and comply with the process.\nPrevent unauthorized access to U.S. records, lawful process, domestic communications, and related infrastructure.\nReport known or suspected security incidents or material breaches to DOJ within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-meriplex-mitigation-agreement-executed-02e970",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-signed-loa-cbts-ts-cbts-and-cbts-borrower-tt-24-06a6b1",
+      "kind": "ingest",
+      "label": "Cincinnati Bell - Team Telecom Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law enforcement point of contact approved by DOJ/FBI.\nMaintain a U.S. citizen security officer responsible for LOA compliance.\nScreen personnel who have access to U.S. communications, systems, process, or records.\nReport known or suspected security incidents or breaches to DOJ within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-signed-loa-cbts-ts-cbts-and-cbts-borrower-tt-24-06a6b1",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-truphone-inc-tp-global-signed-loa-tt-23-045-to-0-050fc8",
+      "kind": "ingest",
+      "label": "Truphone - Team Telecom mitigation agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact who is subject to DOJ and FBI approval.\nComply with lawful interception requirements and certify compliance with CALEA.\nKeep information responsive to lawful U.S. process within the United States.\nReport known or suspected security incidents and material breaches to DOJ within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-19-truphone-inc-tp-global-signed-loa-tt-23-045-to-0-050fc8",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-tt-21-080-to-082-gtt-communications-loa-final-ex-cbb28a",
+      "kind": "ingest",
+      "label": "GTT Communications - Team Telecom agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to CMA approval.\nScreen personnel with access to domestic communications, infrastructure, or U.S. records.\nKeep information responsive to lawful U.S. process within the United States.\nReport known or suspected security incidents to the CMAs within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-tt-21-080-to-082-gtt-communications-loa-final-ex-cbb28a",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-tt-21-083-to-085-connect-holding-llc-loa-execute-808000",
+      "kind": "ingest",
+      "label": "Consolidated Communications - Team Telecom LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact in the United States.\nProvide U.S. Records promptly in response to lawful U.S. process, no later than five days unless extended.\nPrevent unauthorized access to U.S. Records, domestic communications, and domestic communications infrastructure.\nReport known or suspected security incidents or material breaches to the compliance agencies within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-tt-21-083-to-085-connect-holding-llc-loa-execute-808000",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-tt-22-062-064-millennium-telcom-letter-of-agreem-105394",
+      "kind": "ingest",
+      "label": "Millennium Telcom Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ/FBI approval.\nScreen personnel who have access to domestic communications, lawful U.S. process, or U.S. records.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.\nKeep responsive information within the United States upon receipt of lawful U.S. process.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DoD",
+          "DHS"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-tt-22-062-064-millennium-telcom-letter-of-agreem-105394",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-tt-26-006-paramount-loa-execution-version-def69e",
+      "kind": "ingest",
+      "label": "Paramount LOA Execution Version",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Notify the Compliance Monitoring Agency of closing within two calendar days.\nPrevent unauthorized access to or unlawful use of U.S. person data.\nSubmit post-closing data-security policies and plans within 90 days for agency review.\nEnsure foreign investors hold only non-voting stock without governance, information, or data-access rights.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-tt-26-006-paramount-loa-execution-version-def69e",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-tt25-016-to-017-zayo-crown-castle-loa-executable-3147db",
+      "kind": "ingest",
+      "label": "Zayo - Team Telecom Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the agencies.\nDesignate and maintain a U.S. security officer who is a U.S. citizen and eligible for a Secret-level or higher clearance.\nScreen newly hired personnel who have access to covered communications, systems, lawful process, or records.\nReport known or suspected security incidents to the agencies within 72 hours.\nKeep responsive information for lawful U.S. process within the territorial boundaries of the United States.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-tt25-016-to-017-zayo-crown-castle-loa-executable-3147db",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-19-windstream-executed-loa-ed0bfe",
+      "kind": "ingest",
+      "label": "Windstream - Mitigation Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the CMAs.\nDesignate and maintain a U.S. citizen security officer, unless the CMAs agree otherwise.\nScreen personnel who have access to U.S. communications, systems, lawful process, or records.\nKeep information responsive to lawful U.S. process within the United States and provide it to requesting officials.\nReport known or suspected security incidents to the CMAs within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-19-windstream-executed-loa-ed0bfe",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
+      "kind": "ingest",
+      "label": "FLAG Telecom Limited — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact who can access U.S. Records and respond to lawful U.S. process.\nDesignate and maintain a non-dual U.S. citizen Security Officer residing in the United States.\nDo not provide U.S. Records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without required U.S. approval.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.\nProvide DOJ with lists of principal equipment and outsourced or offshored service providers for review.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
+      "kind": "ingest",
+      "label": "FLAG Telecom - FLAG Atlantic Cable System (FA-1) LOA",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S.-citizen Security Officer residing in the United States and available to the agencies.\nProvide FA-1 cable-system information, equipment lists, and related operational details upon request.\nEnable prompt interruption of U.S. traffic on FA-1 and suspension of its communications functionality.\nReport qualifying incidents, breaches, and material violations to the agencies within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DHS",
+          "DoD",
+          "DOJ"
+        ],
+        "country": "United Kingdom"
+      },
+      "citation": {
+        "record_id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
+      "kind": "ingest",
+      "label": "IPC Systems, Inc. — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ/FBI and provide access to U.S. records for lawful process.\nScreen personnel who can access domestic communications, infrastructure, or U.S. records.\nReport security incidents, unauthorized access, and material breaches to DOJ within 72 hours.\nObtain DOJ review or non-objection for specified principal equipment, service providers, and network changes.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa",
+      "kind": "ingest",
+      "label": "BCE Holding Corporation — Letter of Agreement (Team Telecom, Docket ISP-PDR-20241206-00005)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact subject to agency approval.\nMaintain a U.S. citizen security officer eligible for a Secret-level or higher clearance.\nComply with lawful U.S. process and keep responsive information within the United States.\nReport known or suspected security incidents to the agencies within 72 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS"
+        ],
+        "country": "Canada"
+      },
+      "citation": {
+        "record_id": "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa",
+        "page": 7,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-firstlight-fiber-inc-letter-of-agreement-team-te-ca9425",
+      "kind": "ingest",
+      "label": "FirstLight Fiber, Inc. — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Provide DOJ at least 60 days’ notice before outsourcing or offshoring network-related services.\nProvide DOJ 60 days’ notice before installing major network equipment from foreign-based or foreign-government-controlled companies.\nDo not disclose U.S. Records or Domestic Communications to a non-U.S. government without satisfying U.S. law and obtaining DOJ consent or U.S. court authorization.\nKeep U.S. Records in the United States and protect them from mandatory destruction under foreign law.\nDesignate a U.S. law-enforcement point of contact to receive U.S. process and assist with lawful requests.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": "France"
+      },
+      "citation": {
+        "record_id": "2026-09-22-firstlight-fiber-inc-letter-of-agreement-team-te-ca9425",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-frontier-communications-corporation-debtor-in-po-c552a9",
+      "kind": "ingest",
+      "label": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law enforcement point of contact subject to DOJ approval.\nComply with lawful U.S. process and provide responsive information within the United States.\nPrevent unauthorized access to U.S. records and domestic communications.\nReport security incidents and breaches to DOJ within the required timeframes.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-frontier-communications-corporation-debtor-in-po-c552a9",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
+      "kind": "ingest",
+      "label": "Gigsky, Inc. — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain company headquarters in the United States.\nScreen personnel with unescorted access to Domestic Communications Infrastructure.\nProvide DOJ advance notice of ownership, business, service, and certain vendor changes.\nStore all U.S. Records in the United States.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      },
+      "chain": {
+        "supersedes": [
+          "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143"
+        ]
+      }
+    },
+    {
+      "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143",
+      "kind": "ingest",
+      "label": "Gigsky, Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20160415-00008)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain company headquarters in the United States.\nImplement personnel screening for personnel with unescorted access to Domestic Communications Infrastructure.\nProvide DOJ 30 days’ advance notice of ownership, business-model, and specified service changes.\nStore all U.S. Records in the United States.\nComply with applicable lawful-interception requirements, including CALEA.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-lightspeed-networks-inc-letter-of-agreement-team-2f30c6",
+      "kind": "ingest",
+      "label": "Lightspeed Networks, Inc. — Letter of Agreement (Team Telecom)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact approved by the compliance monitoring agencies.\nKeep U.S. Records, Domestic Communications, and related infrastructure within U.S. territorial boundaries when required by lawful U.S. process.\nDo not disclose or provide access to U.S. Records, Domestic Communications Infrastructure, or Domestic Communications to foreign governments, entities, or persons without required consent.\nReport known or suspected security incidents or material breaches to the compliance monitoring agencies within 48 hours.\nPrepare and maintain cybersecurity and system security plans for agency review.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-lightspeed-networks-inc-letter-of-agreement-team-2f30c6",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+      "kind": "ingest",
+      "label": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Comply with all lawful U.S. process and keep responsive information within the United States.\nDo not disclose U.S. records, domestic communications, or call content to foreign governments or unauthorized foreign persons without approval.\nMaintain a U.S. law-enforcement point of contact who is a U.S. citizen residing in the United States unless DOJ agrees otherwise.\nImplement personnel screening for personnel with access to U.S. records, domestic communications, domestic communications infrastructure, or call content.\nReport security incidents and breaches to DOJ within the stated deadlines.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      },
+      "chain": {
+        "companion": [
+          "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa"
+        ]
+      }
+    },
+    {
+      "key": "2026-09-22-onvoy-spectrum-llc-letter-of-agreement-team-tele-73e4da",
+      "kind": "ingest",
+      "label": "Onvoy Spectrum, LLC — Letter of Agreement (Team Telecom, Docket ISP-PDR-20170316-00001)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Comply with applicable lawful-interception laws and lawful U.S. process.\nNotify DOJ about changes to services, business, ownership, and operations.\nSubmit a Network and Systems Security Plan to DOJ for review and approval.\nKeep U.S. Records in the United States and notify DOJ before changing their storage location.\nAppoint a DOJ-approved U.S.-based law-enforcement point of contact.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-onvoy-spectrum-llc-letter-of-agreement-team-tele-73e4da",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-panther-parent-inc-letter-of-agreement-team-tele-1bc68d",
+      "kind": "ingest",
+      "label": "Lumos — Letter of Agreement (Team Telecom)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ and the FBI.\nProvide U.S. Records in response to lawful U.S. process within five days unless DOJ grants an extension.\nDo not disclose U.S. Records or Domestic Communications to unapproved foreign governments or foreign persons without DOJ consent or a U.S. court order.\nNotify the agencies of security incidents or material breaches within fifteen days of discovery.\nSubmit an annual compliance report to the agencies.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-panther-parent-inc-letter-of-agreement-team-tele-1bc68d",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-searchlight-wcm-holdco-llc-letter-of-agreement-t-07a475",
+      "kind": "ingest",
+      "label": "Searchlight — Mitigation Agreement (Team Telecom)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Provide USDOJ advance notice of specified business, ownership, corporate, headquarters, and operations changes.\nDo not disclose or provide access to U.S. Records, domestic communications infrastructure, or domestic communications to a foreign government or foreign government-controlled entity without required consent or court order.\nRefer foreign-government requests for covered information or access to USDOJ within five days, unless disclosure is legally prohibited.\nPermit USDOJ site visits, employee interviews, and requests for documents needed to verify compliance.\nSubmit an annual compliance report to USDOJ.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": "Canada, Germany, United Arab Emirates, Singapore"
+      },
+      "citation": {
+        "record_id": "2026-09-22-searchlight-wcm-holdco-llc-letter-of-agreement-t-07a475",
+        "page": 5,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8",
+      "kind": "ingest",
+      "label": "Tampnet Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20180824-00003)",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Comply with applicable lawful interception requirements, including CALEA, and lawful U.S. process.\nPlace requested information within the United States upon receipt of lawful U.S. process.\nProvide USDOJ a Principal Equipment List and notice before deploying previously unlisted equipment.\nImplement a NIST-compliant cybersecurity plan and submit it to USDOJ.\nMaintain a U.S.-based law enforcement point of contact able to receive and respond to lawful U.S. process.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "214 transfer",
+        "agencies": [
+          "DOJ"
+        ],
+        "country": "Norway"
+      },
+      "citation": {
+        "record_id": "2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-windstream-holdings-ii-llc-letter-of-agreement-t-e096a7",
+      "kind": "ingest",
+      "label": "Windstream — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide U.S. Records promptly in response to lawful U.S. process, generally no later than five days after receipt.\nPrepare and maintain cybersecurity and system security plans for CMA review.\nReport security incidents and certain breaches to the Compliance Monitoring Agencies within 72 hours.\nObtain CMA review or non-objection for specified foreign-person access, principal equipment, and outsourced or offshored service providers.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ",
+          "DHS",
+          "DoD"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-windstream-holdings-ii-llc-letter-of-agreement-t-e096a7",
+        "page": 6,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-09-22-zayo-group-llc-letter-of-agreement-team-telecom-e326a2",
+      "kind": "ingest",
+      "label": "Zayo Group, LLC — Letter of Agreement",
+      "date": "2026-09-26T12:02:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Comply with Lawful U.S. Process and keep responsive information within the United States.\nDo not disclose U.S. Records, Domestic Communications, or call data to unauthorized foreign governments or foreign persons without required approval.\nDesignate a U.S. law-enforcement point of contact and a Security Officer.\nReport specified security incidents and data breaches to the USG Parties within 48 hours.",
+      "definitions": [],
+      "fields": {
+        "transaction_type": "PDR",
+        "agencies": [
+          "DOJ",
+          "DHS"
+        ],
+        "country": ""
+      },
+      "citation": {
+        "record_id": "2026-09-22-zayo-group-llc-letter-of-agreement-team-telecom-e326a2",
+        "page": 8,
+        "paragraph": null,
+        "quote": ""
+      }
+    }
+  ],
+  "sources": {},
+  "manifest": [],
+  "pending": [],
+  "archive": [
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-07-24-23-oneweb-eutelsat-loa-tt-22-049-to-061-si-f766e1",
+      "label": "OneWeb Eutelsat LOA",
+      "hash": "f50934c84724",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain U.S. law enforcement points of contact subject to USG Parties’ approval.\nProvide responsive information for Lawful U.S. Process within the United States and within the required time.\nPrevent unauthorized access to U.S. Records, domestic communications, and domestic communications infrastructure.\nReport known or suspected security incidents and material breaches to USG Parties within 72 hours.\nObtain review or non-objection before introducing or modifying Principal Equipment."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-2022-5-23-peerless-tt-214-loa-edf691",
+      "label": "2022 5 23 Peerless TT 214 LOA",
+      "hash": "5e14cb13a81d",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S.-based law-enforcement point of contact subject to DOJ and FBI approval.\nKeep U.S. Records responsive to lawful U.S. process within the United States and provide them promptly.\nDo not disclose or provide access to U.S. Records, domestic communications, or related infrastructure to foreign governments, entities, or persons without DOJ or U.S. court approval.\nReport security incidents and specified breaches to DOJ within 72 hours.\nSubmit and maintain cybersecurity and system security plans for DOJ review. "
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-2022-5-31-plant-loa-signed-440b1a",
+      "label": "Plant LOA",
+      "hash": "c348e47ad92e",
+      "note": "",
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ and FBI approval.\nProvide responsive U.S. Records promptly in response to lawful U.S. process, no later than five days unless DOJ grants an extension.\nDo not disclose or provide access to U.S. Records, domestic communications, or domestic communications infrastructure to a foreign government without prior written DOJ consent or a U.S. court order.\nPrepare and implement cybersecurity and system security plans guided by current NIST standards.\nReport known or suspected security incidents, unauthorized access or disclosure, and material breaches to DOJ within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-all-west-communications-inc-et-al-signed-loa-tt-9ad0e2",
+      "label": "All West Communications - Team Telecom mitigation agreement",
+      "hash": "6bc017692a55",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law-enforcement point of contact approved by DOJ/FBI.\nDesignate and maintain a qualified U.S. citizen security officer.\nScreen personnel who have access to covered systems or records.\nProvide responsive information within the United States upon lawful process.\nReport security incidents or material breaches to DOJ within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-doj-sbs-loa-11-28-22-1-ec38fd",
+      "label": "Spanish Broadcasting System LOA - Team Telecom",
+      "hash": "1ab9964908ca",
+      "note": "",
+      "text": "Provide advance notice of material business, corporate, headquarters, and operations changes.\nReport new owners holding 5% or more equity and identified non-U.S. Class A Common stock owners.\nRetain and pay for neutral third-party financial audits, including internal-controls audits.\nPermit DOJ site visits, employee interviews, and access to documents needed to verify compliance.\nResolve national-security or law-enforcement concerns raised by DOJ."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-element8-atlink-signed-loa-tt-23-039-to-040-5-2-58a8e1",
+      "label": "Element8 AtLink  Team Telecom mitigation agreement",
+      "hash": "fd907f043d09",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ/FBI.\nComply with lawful interception requirements and certify CALEA compliance.\nKeep U.S. Records, Domestic Communications, and related infrastructure protected from unauthorized access and disclosure.\nReport known or suspected security incidents and material breaches to DOJ within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-everfast-fiber-networks-signed-loa-tt-22-022-to-a1926b",
+      "label": "Everfast Fiber Networks SIGNED LOA",
+      "hash": "139570b719de",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nKeep U.S. Records and domestic communications infrastructure within the United States when required by lawful U.S. process.\nReport known or suspected security incidents or material breaches to DOJ within the stated deadlines.\nScreen personnel who have access to domestic communications or U.S. Records.\nProvide DOJ with lists of principal equipment and outsourced or offshore service providers for review."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-fusion-connect-inc-et-al-signed-loa-tt-22-018-to-e4ac31",
+      "label": "Fusion Connect LOA",
+      "hash": "259e07ebf386",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate a U.S. law-enforcement point of contact approved by DOJ/FBI.\nScreen personnel who can access domestic communications or U.S. records.\nKeep responsive information within the United States when served with lawful U.S. process.\nReport security incidents and material breaches to DOJ within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
+      "label": "GCX LOA - Team Telecom",
+      "hash": "a155820d8fc3",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ and FBI approval.\nProvide U.S. Records promptly in response to lawful U.S. process, generally within five days.\nDo not provide U.S. Records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without DOJ or U.S. court consent.\nReport known or suspected security incidents and material breaches to DOJ within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
+      "label": "GCX - FLAG Atlantic1 (FA-1) Cable LOA",
+      "hash": "e045cbbcbca1",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S.-based Security Officer available 24/7 for CMA inquiries.\nProvide FA-1 network, equipment, vendor, and restoration information within required timeframes.\nMaintain the ability to interrupt U.S. traffic and suspend FA-1 communications functionality.\nReport specified incidents, breaches, and material LOA violations to the CMAs within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
+      "label": "Hummingbird IPC LOA Final",
+      "hash": "5e6057bb13e2",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide U.S. Records promptly in response to Lawful U.S. Process, generally within five days.\nNotify DOJ of Security Incidents or specified breaches within 72 hours.\nObtain DOJ review or non-objection for specified foreign-person access, principal equipment, and service providers."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd",
+      "label": "Lumos (T-Mobile - EQT)",
+      "hash": "e76f50071014",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the agencies.\nDesignate and maintain a U.S. citizen security officer residing in the United States or its territories.\nScreen personnel who have access to domestic communications, related infrastructure, lawful U.S. process, or U.S. records.\nKeep information responsive to lawful U.S. process within the territorial boundaries of the United States.\nReport known or suspected security incidents or breaches to the agencies within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-loa-metronet-t-mobile-kkr-tt-24-044-to-048-final-bab18d",
+      "label": "Metronet T-Mobile - Mitigation Agreement",
+      "hash": "415bd8c2cd2c",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to agency approval.\nDesignate and maintain a U.S. citizen security officer eligible for a Secret-level or higher clearance.\nReport known or suspected security incidents to the agencies within 72 hours.\nKeep information responsive to lawful U.S. process within U.S. territorial boundaries.\nObtain agency review before granting foreign persons privileged access."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-mashell-execution-copy-ad6a53",
+      "label": "Mashell Mitigation Agreement",
+      "hash": "ea769592f45b",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ and the FBI.\nKeep responsive information within the United States after receiving lawful U.S. process.\nDo not disclose U.S. records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without DOJ or court approval.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-meriplex-mitigation-agreement-executed-02e970",
+      "label": "Meriplex Mitigation Agreement",
+      "hash": "f365b4cc0311",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide responsive information to lawful U.S. process within the United States and comply with the process.\nPrevent unauthorized access to U.S. records, lawful process, domestic communications, and related infrastructure.\nReport known or suspected security incidents or material breaches to DOJ within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-signed-loa-cbts-ts-cbts-and-cbts-borrower-tt-24-06a6b1",
+      "label": "Cincinnati Bell - Team Telecom Mitigation Agreement",
+      "hash": "f4551c5cb8a3",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law enforcement point of contact approved by DOJ/FBI.\nMaintain a U.S. citizen security officer responsible for LOA compliance.\nScreen personnel who have access to U.S. communications, systems, process, or records.\nReport known or suspected security incidents or breaches to DOJ within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-truphone-inc-tp-global-signed-loa-tt-23-045-to-0-050fc8",
+      "label": "Truphone - Team Telecom mitigation agreement",
+      "hash": "93f2435f741e",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact who is subject to DOJ and FBI approval.\nComply with lawful interception requirements and certify compliance with CALEA.\nKeep information responsive to lawful U.S. process within the United States.\nReport known or suspected security incidents and material breaches to DOJ within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-tt-21-080-to-082-gtt-communications-loa-final-ex-cbb28a",
+      "label": "GTT Communications - Team Telecom agreement",
+      "hash": "3297821250d0",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to CMA approval.\nScreen personnel with access to domestic communications, infrastructure, or U.S. records.\nKeep information responsive to lawful U.S. process within the United States.\nReport known or suspected security incidents to the CMAs within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-tt-21-083-to-085-connect-holding-llc-loa-execute-808000",
+      "label": "Consolidated Communications - Team Telecom LOA",
+      "hash": "1d5c8882db1e",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact in the United States.\nProvide U.S. Records promptly in response to lawful U.S. process, no later than five days unless extended.\nPrevent unauthorized access to U.S. Records, domestic communications, and domestic communications infrastructure.\nReport known or suspected security incidents or material breaches to the compliance agencies within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-tt-22-062-064-millennium-telcom-letter-of-agreem-105394",
+      "label": "Millennium Telcom Letter of Agreement",
+      "hash": "3e959b5034e8",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law-enforcement point of contact subject to DOJ/FBI approval.\nScreen personnel who have access to domestic communications, lawful U.S. process, or U.S. records.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.\nKeep responsive information within the United States upon receipt of lawful U.S. process."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-tt-26-006-paramount-loa-execution-version-def69e",
+      "label": "Paramount LOA Execution Version",
+      "hash": "98ef1a9b04e1",
+      "note": "",
+      "text": "Notify the Compliance Monitoring Agency of closing within two calendar days.\nPrevent unauthorized access to or unlawful use of U.S. person data.\nSubmit post-closing data-security policies and plans within 90 days for agency review.\nEnsure foreign investors hold only non-voting stock without governance, information, or data-access rights."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-tt25-016-to-017-zayo-crown-castle-loa-executable-3147db",
+      "label": "Zayo - Team Telecom Mitigation Agreement",
+      "hash": "f7374d02fe30",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the agencies.\nDesignate and maintain a U.S. security officer who is a U.S. citizen and eligible for a Secret-level or higher clearance.\nScreen newly hired personnel who have access to covered communications, systems, lawful process, or records.\nReport known or suspected security incidents to the agencies within 72 hours.\nKeep responsive information for lawful U.S. process within the territorial boundaries of the United States."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-19-windstream-executed-loa-ed0bfe",
+      "label": "Windstream - Mitigation Agreement",
+      "hash": "8ede5c6de370",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact approved by the CMAs.\nDesignate and maintain a U.S. citizen security officer, unless the CMAs agree otherwise.\nScreen personnel who have access to U.S. communications, systems, lawful process, or records.\nKeep information responsive to lawful U.S. process within the United States and provide it to requesting officials.\nReport known or suspected security incidents to the CMAs within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
+      "label": "FLAG Telecom Limited — Letter of Agreement",
+      "hash": "2f05610f8c10",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact who can access U.S. Records and respond to lawful U.S. process.\nDesignate and maintain a non-dual U.S. citizen Security Officer residing in the United States.\nDo not provide U.S. Records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without required U.S. approval.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.\nProvide DOJ with lists of principal equipment and outsourced or offshored service providers for review."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
+      "label": "FLAG Telecom - FLAG Atlantic Cable System (FA-1) LOA",
+      "hash": "efdbe12f4bc5",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S.-citizen Security Officer residing in the United States and available to the agencies.\nProvide FA-1 cable-system information, equipment lists, and related operational details upon request.\nEnable prompt interruption of U.S. traffic on FA-1 and suspension of its communications functionality.\nReport qualifying incidents, breaches, and material violations to the agencies within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
+      "label": "IPC Systems, Inc. — Letter of Agreement",
+      "hash": "e2abc40d7075",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ/FBI and provide access to U.S. records for lawful process.\nScreen personnel who can access domestic communications, infrastructure, or U.S. records.\nReport security incidents, unauthorized access, and material breaches to DOJ within 72 hours.\nObtain DOJ review or non-objection for specified principal equipment, service providers, and network changes."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa",
+      "label": "BCE Holding Corporation — Letter of Agreement (Team Telecom, Docket ISP-PDR-20241206-00005)",
+      "hash": "2c07c81f31c5",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact subject to agency approval.\nMaintain a U.S. citizen security officer eligible for a Secret-level or higher clearance.\nComply with lawful U.S. process and keep responsive information within the United States.\nReport known or suspected security incidents to the agencies within 72 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-firstlight-fiber-inc-letter-of-agreement-team-te-ca9425",
+      "label": "FirstLight Fiber, Inc. — Letter of Agreement",
+      "hash": "73bb600db0cd",
+      "note": "",
+      "text": "Provide DOJ at least 60 days’ notice before outsourcing or offshoring network-related services.\nProvide DOJ 60 days’ notice before installing major network equipment from foreign-based or foreign-government-controlled companies.\nDo not disclose U.S. Records or Domestic Communications to a non-U.S. government without satisfying U.S. law and obtaining DOJ consent or U.S. court authorization.\nKeep U.S. Records in the United States and protect them from mandatory destruction under foreign law.\nDesignate a U.S. law-enforcement point of contact to receive U.S. process and assist with lawful requests."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-frontier-communications-corporation-debtor-in-po-c552a9",
+      "label": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
+      "hash": "eba10144e8bd",
+      "note": "",
+      "text": "Maintain a U.S. law enforcement point of contact subject to DOJ approval.\nComply with lawful U.S. process and provide responsive information within the United States.\nPrevent unauthorized access to U.S. records and domestic communications.\nReport security incidents and breaches to DOJ within the required timeframes."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
+      "label": "Gigsky, Inc. — Letter of Agreement",
+      "hash": "36979a6b4069",
+      "note": "",
+      "text": "Maintain company headquarters in the United States.\nScreen personnel with unescorted access to Domestic Communications Infrastructure.\nProvide DOJ advance notice of ownership, business, service, and certain vendor changes.\nStore all U.S. Records in the United States."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143",
+      "label": "Gigsky, Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20160415-00008)",
+      "hash": "7b0792cd3b70",
+      "note": "",
+      "text": "Maintain company headquarters in the United States.\nImplement personnel screening for personnel with unescorted access to Domestic Communications Infrastructure.\nProvide DOJ 30 days’ advance notice of ownership, business-model, and specified service changes.\nStore all U.S. Records in the United States.\nComply with applicable lawful-interception requirements, including CALEA."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-lightspeed-networks-inc-letter-of-agreement-team-2f30c6",
+      "label": "Lightspeed Networks, Inc. — Letter of Agreement (Team Telecom)",
+      "hash": "80a0590065a4",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Maintain a U.S. law-enforcement point of contact approved by the compliance monitoring agencies.\nKeep U.S. Records, Domestic Communications, and related infrastructure within U.S. territorial boundaries when required by lawful U.S. process.\nDo not disclose or provide access to U.S. Records, Domestic Communications Infrastructure, or Domestic Communications to foreign governments, entities, or persons without required consent.\nReport known or suspected security incidents or material breaches to the compliance monitoring agencies within 48 hours.\nPrepare and maintain cybersecurity and system security plans for agency review."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+      "label": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
+      "hash": "945eac07eb48",
+      "note": "",
+      "text": "Comply with all lawful U.S. process and keep responsive information within the United States.\nDo not disclose U.S. records, domestic communications, or call content to foreign governments or unauthorized foreign persons without approval.\nMaintain a U.S. law-enforcement point of contact who is a U.S. citizen residing in the United States unless DOJ agrees otherwise.\nImplement personnel screening for personnel with access to U.S. records, domestic communications, domestic communications infrastructure, or call content.\nReport security incidents and breaches to DOJ within the stated deadlines."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-onvoy-spectrum-llc-letter-of-agreement-team-tele-73e4da",
+      "label": "Onvoy Spectrum, LLC — Letter of Agreement (Team Telecom, Docket ISP-PDR-20170316-00001)",
+      "hash": "be185f783836",
+      "note": "",
+      "text": "Comply with applicable lawful-interception laws and lawful U.S. process.\nNotify DOJ about changes to services, business, ownership, and operations.\nSubmit a Network and Systems Security Plan to DOJ for review and approval.\nKeep U.S. Records in the United States and notify DOJ before changing their storage location.\nAppoint a DOJ-approved U.S.-based law-enforcement point of contact."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-panther-parent-inc-letter-of-agreement-team-tele-1bc68d",
+      "label": "Lumos — Letter of Agreement (Team Telecom)",
+      "hash": "3c07f5a50576",
+      "note": "",
+      "text": "Maintain a U.S. law-enforcement point of contact approved by DOJ and the FBI.\nProvide U.S. Records in response to lawful U.S. process within five days unless DOJ grants an extension.\nDo not disclose U.S. Records or Domestic Communications to unapproved foreign governments or foreign persons without DOJ consent or a U.S. court order.\nNotify the agencies of security incidents or material breaches within fifteen days of discovery.\nSubmit an annual compliance report to the agencies."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-searchlight-wcm-holdco-llc-letter-of-agreement-t-07a475",
+      "label": "Searchlight — Mitigation Agreement (Team Telecom)",
+      "hash": "92dd3e028142",
+      "note": "",
+      "text": "Provide USDOJ advance notice of specified business, ownership, corporate, headquarters, and operations changes.\nDo not disclose or provide access to U.S. Records, domestic communications infrastructure, or domestic communications to a foreign government or foreign government-controlled entity without required consent or court order.\nRefer foreign-government requests for covered information or access to USDOJ within five days, unless disclosure is legally prohibited.\nPermit USDOJ site visits, employee interviews, and requests for documents needed to verify compliance.\nSubmit an annual compliance report to USDOJ."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8",
+      "label": "Tampnet Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20180824-00003)",
+      "hash": "0dda51d27c62",
+      "note": "",
+      "text": "Comply with applicable lawful interception requirements, including CALEA, and lawful U.S. process.\nPlace requested information within the United States upon receipt of lawful U.S. process.\nProvide USDOJ a Principal Equipment List and notice before deploying previously unlisted equipment.\nImplement a NIST-compliant cybersecurity plan and submit it to USDOJ.\nMaintain a U.S.-based law enforcement point of contact able to receive and respond to lawful U.S. process."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-windstream-holdings-ii-llc-letter-of-agreement-t-e096a7",
+      "label": "Windstream — Letter of Agreement",
+      "hash": "d550646ea7b2",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide U.S. Records promptly in response to lawful U.S. process, generally no later than five days after receipt.\nPrepare and maintain cybersecurity and system security plans for CMA review.\nReport security incidents and certain breaches to the Compliance Monitoring Agencies within 72 hours.\nObtain CMA review or non-objection for specified foreign-person access, principal equipment, and outsourced or offshored service providers."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "accepted",
+      "op": "add",
+      "key": "2026-09-22-zayo-group-llc-letter-of-agreement-team-telecom-e326a2",
+      "label": "Zayo Group, LLC — Letter of Agreement",
+      "hash": "4c9e083269bc",
+      "note": "agreement text truncated to 40000 chars before extraction",
+      "text": "Comply with Lawful U.S. Process and keep responsive information within the United States.\nDo not disclose U.S. Records, Domestic Communications, or call data to unauthorized foreign governments or foreign persons without required approval.\nDesignate a U.S. law-enforcement point of contact and a Security Officer.\nReport specified security incidents and data breaches to the USG Parties within 48 hours."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "overlay",
+      "op": "overlay",
+      "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
+      "label": "Gigsky, Inc. — Letter of Agreement",
+      "hash": "0ec1d3826a97",
+      "note": "GigSky 2022 LOA supersedes the 2016/2017 LOA (same PDR docket)",
+      "text": "Maintain company headquarters in the United States.\nScreen personnel with unescorted access to Domestic Communications Infrastructure.\nProvide DOJ advance notice of ownership, business, service, and certain vendor changes.\nStore all U.S. Records in the United States."
+    },
+    {
+      "at": "2026-09-26T12:02:53Z",
+      "decision": "overlay",
+      "op": "overlay",
+      "key": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+      "label": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
+      "hash": "32e6c17a81ca",
+      "note": "BCE Holding companion instrument to the Ziply Fiber LOA",
+      "text": "Comply with all lawful U.S. process and keep responsive information within the United States.\nDo not disclose U.S. records, domestic communications, or call content to foreign governments or unauthorized foreign persons without approval.\nMaintain a U.S. law-enforcement point of contact who is a U.S. citizen residing in the United States unless DOJ agrees otherwise.\nImplement personnel screening for personnel with access to U.S. records, domestic communications, domestic communications infrastructure, or call content.\nReport security incidents and breaches to DOJ within the stated deadlines."
+    }
+  ],
+  "ledger": [
+    "f50934c84724",
+    "5e14cb13a81d",
+    "c348e47ad92e",
+    "6bc017692a55",
+    "1ab9964908ca",
+    "fd907f043d09",
+    "139570b719de",
+    "259e07ebf386",
+    "a155820d8fc3",
+    "e045cbbcbca1",
+    "5e6057bb13e2",
+    "e76f50071014",
+    "415bd8c2cd2c",
+    "ea769592f45b",
+    "f365b4cc0311",
+    "f4551c5cb8a3",
+    "93f2435f741e",
+    "3297821250d0",
+    "1d5c8882db1e",
+    "3e959b5034e8",
+    "98ef1a9b04e1",
+    "f7374d02fe30",
+    "8ede5c6de370",
+    "2f05610f8c10",
+    "efdbe12f4bc5",
+    "e2abc40d7075",
+    "2c07c81f31c5",
+    "73bb600db0cd",
+    "eba10144e8bd",
+    "36979a6b4069",
+    "7b0792cd3b70",
+    "80a0590065a4",
+    "945eac07eb48",
+    "be185f783836",
+    "3c07f5a50576",
+    "92dd3e028142",
+    "0dda51d27c62",
+    "d550646ea7b2",
+    "4c9e083269bc"
+  ],
+  "runs": [
+    {
+      "at": "2026-09-26T11:58:15Z",
+      "model": "openai/gpt-5.6-luna",
+      "proposals": 39,
+      "new": 39,
+      "records_checked": 39,
+      "records_skipped": 0,
+      "records_errored": 0
+    }
+  ],
+  "published_at": "",
+  "currency_date": "2026-09-26",
+  "last_changed": "2026-09-26T12:02:53Z"
+}
