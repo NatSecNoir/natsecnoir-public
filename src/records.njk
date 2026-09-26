@@ -10,22 +10,45 @@ eleventyComputed:
   title: "{{ r.title }}"
   description: "{{ r.excerpt }}"
 ---
+<div class="rec">
 <article class="record">
-  <div class="crumb"><a href="/">Feed</a></div>
+  <div class="crumb"><a href="/">The file</a>{% if r.lists.length %} › <a href="/by/list/{{ r.lists[0].slug }}/">{{ r.lists[0].label }}</a>{% endif %}</div>
+  <span class="k cat">{{ r.doc_type or "Record" }}{% if r.issuing_body %} · {{ r.issuing_body }}{% endif %}</span>
   <h1>{{ r.title }}</h1>
-  <div class="meta">
-    <span class="d">{{ r.doc_date }}</span>
-    <span class="k"><a href="/by/agency/{{ r.agencySlug }}/">{{ r.issuing_body }}</a></span>
-    <span>{{ r.doc_type }}</span>
-    {% if r.docket %}<span>{{ r.docket }}</span>{% endif %}
-  </div>
-  {% if r.lists.length %}<div class="chips">{% for l in r.lists %}<a class="chip" href="/by/list/{{ l.slug }}/">{{ l.label }}</a>{% endfor %}</div>{% endif %}
-  <div class="summary">{{ r.summary | markdown | safe }}</div>
-  <div class="src">
-    {% if r.source_url %}<a href="{{ r.source_url }}">Source document ↗</a>{% endif %}
-    {% if r.copy %}<a href="{{ r.copy }}">Stored copy</a>{% endif %}
-    <a href="/records/{{ r.id }}/meta.json">meta.json</a>
-  </div>
-  {% if r.entities.length %}<div class="ents"><span class="lbl">Named</span> {{ r.entities | join(" · ") }}</div>{% endif %}
-  <div class="stamp">Approved {{ (r.approved_at or "").slice(0, 10) }}{% if r.published_at %} · published {{ r.published_at.slice(0, 10) }}{% endif %}</div>
+  {% if r.standfirst %}<p class="stand">{{ r.standfirst }}</p>{% endif %}
+  <dl class="meta">
+    {% if r.docket %}<dt>Docket</dt><dd class="mono">{{ r.docket }}</dd>{% endif %}
+    {% if r.issuing_body %}<dt>Issuing body</dt><dd><a href="/by/agency/{{ r.agencySlug }}/">{{ r.issuing_body }}</a></dd>{% endif %}
+    <dt>Document date</dt><dd class="mono">{{ r.doc_date }}</dd>
+    {% set entered = (r.published_at or r.approved_at or "").slice(0, 10) %}
+    {% if entered %}<dt>Entered</dt><dd class="mono">{{ entered }}</dd>{% endif %}
+    {% if r.entities.length %}<dt>Persons of interest</dt><dd>{{ r.entities | join(" · ") }}</dd>{% endif %}
+    {% if r.lists.length %}<dt>Lists</dt><dd class="chips">{% for l in r.lists %}<a class="chip" href="/by/list/{{ l.slug }}/">{{ l.label }}</a>{% endfor %}</dd>{% endif %}
+  </dl>
+  <div class="summary">{% if r.excerptRest %}<p>{{ r.excerptRest }}</p>{% endif %}{{ r.summaryRest | markdown | safe }}</div>
+  <div class="stamp mono">Approved {{ (r.approved_at or "").slice(0, 10) }}{% if r.published_at %} · published {{ r.published_at.slice(0, 10) }}{% endif %}</div>
 </article>
+<aside class="rail">
+  <section class="src">
+    <h2>Source document</h2>
+    <ul>
+      {% if r.source_url %}<li><a href="{{ r.source_url }}">Open the source{% if r.format %} · {{ r.format }}{% endif %} ↗</a></li>{% endif %}
+      {% if r.copy %}<li><a href="{{ r.copy }}">Stored copy</a></li>{% endif %}
+      <li><a href="/records/{{ r.id }}/meta.json">meta.json</a></li>
+    </ul>
+    {% if r.pages %}<p class="mono">{{ r.pages }} pp.</p>{% endif %}
+    {% if r.sha256 %}<p class="mono hash" title="{{ r.sha256 }}">sha256 {{ r.sha256.slice(0, 8) }}…{{ r.sha256.slice(-6) }}</p>{% endif %}
+    {% if r.source_url %}<p class="mono host">{{ r.source_url.replace("https://", "").replace("http://", "") }}</p>{% endif %}
+  </section>
+  {% if r.related.length %}<section class="related">
+    <h2>Related records</h2>
+    <ul class="counts">{% for o in r.related %}<li><a href="{{ o.url }}"><span>{{ o.title }}</span><span class="n mono">{{ o.doc_date }}</span></a></li>{% endfor %}</ul>
+  </section>{% endif %}
+  <section class="citebox">
+    <h2>Cite this record</h2>
+    <pre class="cite">NatSec Noir, "{{ r.title }}", {{ r.doc_date }}, {{ site.url }}{{ r.url }}</pre>
+    <button type="button" class="k" data-copy hidden>Copy citation</button><span class="vh" data-copied aria-live="polite"></span>
+  </section>
+</aside>
+</div>
+<script src="/js/cite.js" defer></script>

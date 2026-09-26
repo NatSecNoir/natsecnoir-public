@@ -1,11 +1,18 @@
+{#- Lead article (front page) — the newest record or analysis. Rows after the lead use row.njk. -#}
 <article class="item{% if isLead %} lead{% endif %}{% if r.kind == "analysis" %} analysis{% endif %}" data-date="{{ r.doc_date }}" data-search="{{ r.search }}">
   {% if r.kind == "analysis" %}
-  <div class="slug sc"><span class="type">Analysis</span>{% if r.baseline_source or r.baseline %}<span class="sep">·</span><span class="tag">{{ r.baseline_source or r.baseline }}</span>{% endif %}</div>
-  <div class="ref"><span class="date">{{ r.doc_date }}</span><span class="docket">{{ r.entries.length }} entries</span></div>
+  <div class="slug k"><span class="type">Analysis</span>{% if r.baseline_source or r.baseline %}<span class="sep">·</span><span class="tag">{{ r.baseline_source or r.baseline }}</span>{% endif %}</div>
   {% else %}
-  <div class="slug sc"><span class="type">{{ r.doc_type }}</span>{% for l in r.lists %}<span class="sep">·</span><span class="{% if l.label == "Bad Labs" %}bad{% else %}tag{% endif %}">{{ l.label }}</span>{% endfor %}</div>
-  <div class="ref"><span class="date">{{ r.doc_date }}</span>{% if r.docket %}<span class="docket">{{ r.docket.split(";")[0] }}</span>{% endif %}</div>
+  <div class="slug k">{% for l in r.lists %}<span class="tag">{{ l.label }}</span><span class="sep">·</span>{% endfor %}<span class="type">{{ r.doc_type or "Record" }}</span>{% if r.issuing_body %}<span class="sep">·</span><span class="tag">{{ r.issuing_body }}</span>{% endif %}</div>
   {% endif %}
-  <h3><a href="{{ r.url }}">{{ r.title }}</a></h3>
-  <p>{{ r.excerpt }}</p>
+  <h2><a href="{{ r.url }}">{{ r.title }}</a></h2>
+  {% if r.standfirst %}<p class="stand">{{ r.standfirst }}</p>{% endif %}
+  {% if r.excerptRest %}<p class="ex">{{ r.excerptRest }}</p>{% endif %}
+  <div class="ref mono">
+    {%- if r.kind == "analysis" -%}
+    <span class="docket">{{ r.entries.length }} entries</span><span class="date">doc date {{ r.doc_date }}</span>
+    {%- else -%}
+    {% if r.docket %}<span class="docket">{{ r.docket.split(";")[0] }}</span>{% endif %}<span class="date">doc date {{ r.doc_date }}</span>{% if r.format %}<span class="fmt">source: {{ r.format }}</span>{% endif %}
+    {%- endif -%}
+  </div>
 </article>

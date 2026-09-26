@@ -6,26 +6,44 @@ permalink: /
 <div class="page">
 <div class="main">
 {% include "filter.njk" %}
-<div class="ledger" data-items>
-{% for r in feed.all %}{% set isLead = loop.first %}{% include "item.njk" %}{% endfor %}
-{% if not feed.all.length %}<p class="empty">No records yet.</p>{% endif %}
+<div class="file" data-items>
+{% if feed.all.length %}
+{% set r = feed.all[0] %}{% set isLead = true %}{% include "item.njk" %}
+{% if feed.all.length > 1 %}
+<table class="ledger">
+  <thead><tr><th class="d">Filed</th><th>Record</th><th class="l">Lists</th><th class="ref">Reference</th></tr></thead>
+  <tbody>
+{% for r in feed.all %}{% if not loop.first %}{% include "row.njk" %}{% endif %}{% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% else %}<p class="empty">No records yet.</p>{% endif %}
 </div>
-{% if feed.all.length %}<div class="folio sc"><span>{{ feed.all.length }} records</span><a href="/by/list/">Browse by tag</a></div>{% endif %}
+{% if feed.all.length %}<div class="folio"><span class="mono">{{ feed.all.length }} records on file</span><a href="/by/list/">Browse by list →</a></div>{% endif %}
 </div>
 <aside class="rail">
   <section class="letter"><div class="box">
-    <div><h2>The Late Edition</h2><p>New records and one short read, when there is something worth knowing. Sent from newsletter.natsecnoir.com.</p></div>
-    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="Your address" required><button type="submit">Subscribe</button></form>
+    <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
+    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
   </div></section>
   {% if rail.quote.present %}<section>
     <h2>From the record</h2>
     <p class="quote">{{ rail.quote.text }}</p>
-    <p class="src">{% if rail.quote.docket %}<span class="date">{{ rail.quote.docket }}</span>{% endif %}{% if rail.quote.source %} · {{ rail.quote.source }}{% endif %}</p>
+    <p class="src mono">{% if rail.quote.docket %}{{ rail.quote.docket.split(";")[0] }}{% endif %}{% if rail.quote.source %}{% if rail.quote.docket %} · {% endif %}{{ rail.quote.source }}{% endif %}</p>
   </section>{% endif %}
   {% if rail.tags.length %}<section>
-    <h2>Tags</h2>
-    <ul class="counts">{% for t in rail.tags %}<li><a href="{{ t.url }}"><b{% if t.label == "Bad Labs" %} class="bad"{% endif %}>{{ t.label }}</b><span class="n">{{ t.count }}</span></a></li>{% endfor %}</ul>
-    <a class="more" href="/by/list/">All tags</a>
+    <h2>Records by list</h2>
+    <ul class="counts">{% for t in rail.tags %}<li><a href="{{ t.url }}"><span>{{ t.label }}</span><span class="n mono">{{ t.count }}</span></a></li>{% endfor %}</ul>
+    <a class="more" href="/by/list/">All lists →</a>
   </section>{% endif %}
+  {% if rail.people.length %}<section>
+    <h2>Persons of interest</h2>
+    <ul class="counts">{% for p in rail.people %}<li><a href="{{ p.url }}"><span>{{ p.label }}</span><span class="n mono">{{ p.count }}</span></a></li>{% endfor %}</ul>
+  </section>{% endif %}
+  <section>
+    <h2>Restricted-entity ledger</h2>
+    <p>One deduped ledger of US government restricted-entity lists{% if ledger.present %}, {{ ledger.lists | length }} lists{% endif %}, from the .gov sources only.</p>
+    <a class="more" href="/analyses/supply-chain-watch-lists/">Open the ledger →</a>
+  </section>
 </aside>
 </div>
