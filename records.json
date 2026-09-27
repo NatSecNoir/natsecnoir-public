@@ -1,5 +1,5 @@
 {
- "count": 113,
+ "count": 114,
  "records": [
   {
    "id": "2026-09-27-26-1049-2194984-ede67c",
@@ -2316,6 +2316,40 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:21:31Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-27-judge-bibas-sj-order-rejects-fair-use-defense-0e2452",
+   "status": "approved",
+   "ingested_at": "2026-09-27T21:13:29Z",
+   "title": "Thomson Reuters v Ross Intelligence (D. Del. Feb 11, 2025)",
+   "issuing_body": "D. Del",
+   "doc_date": "2025-02-11",
+   "docket": "D Del Case No 1:20-cv-613, ECF No 770",
+   "lists": [
+    "litigation",
+    "ai"
+   ],
+   "entities": [
+    "Thomson Reuters",
+    "Ross Intelligence"
+   ],
+   "source_url": "https://chatgptiseatingtheworld.com/wp-content/uploads/2025/02/Judge-Bibas-SJ-order-rejects-fair-use-defense.pdf",
+   "source_copy_public": true,
+   "notes": "Judge Stephanos Bibas",
+   "source_file": "source.pdf",
+   "sha256": "0e24523d3af1ad523804667a00caef21dcaaea3eb8e601a202365e351d09e6aa",
+   "approved_at": "2026-09-27T21:29:02Z",
+   "published_at": "2026-09-27T21:29:31Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-27T21:13:36Z",
    "files": [
     "meta.json",
     "summary.md",
