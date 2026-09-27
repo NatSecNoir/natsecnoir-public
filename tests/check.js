@@ -225,10 +225,9 @@ assert.ok(ledgerTable, "front page renders a ledger table");
 assert.doesNotMatch(ledgerTable[0], /fixture-analysis/, "the lead is not repeated as a table row");
 assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*data-search="[^"]*"[\s\S]*?<td class="ref[^"]*">FCC 26-1<\/td>/, "a record row carries data attributes and its docket in the Reference cell");
 assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
-// Front-page rail: Browse chips (one per list in lists.js order), By source, last filed.
-const railKeys = Object.keys((await import("../src/_data/lists.js")).default);
+// Front-page rail: three curated Browse chips, By source, last filed.
 const railChips = [...feedIdx.matchAll(/<a class="chip" href="\/by\/list\/([^/]+)\/">/g)].map((m) => m[1]);
-assert.deepEqual(railChips, railKeys, "rail Browse renders one chip per list in lists.js order");
+assert.deepEqual(railChips, ["covered-list", "bad-labs", "litigation"], "rail Browse renders the three curated list chips in order");
 assert.match(feedIdx, /<a class="more" href="\/by\/agency\/">By source/, "rail links to the source index");
 assert.doesNotMatch(feedIdx, /From the record|Persons of interest/, "derived pull-quote and people sections are gone");
 assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");

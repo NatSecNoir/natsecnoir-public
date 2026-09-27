@@ -9,8 +9,8 @@ permalink: /
   <section class="browse">
     <h2>Browse</h2>
     <div class="railchips">
-      {%- for slug, l in lists %}
-      <a class="chip" href="/by/list/{{ slug }}/">{{ l.label }}</a>
+      {%- for slug in ["covered-list", "bad-labs", "litigation"] %}
+      <a class="chip" href="/by/list/{{ slug }}/">{{ lists[slug].label }}</a>
       {%- endfor %}
     </div>
     <a class="more" href="/by/agency/">By source →</a>
