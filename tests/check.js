@@ -225,30 +225,41 @@ assert.ok(ledgerTable, "front page renders a ledger table");
 assert.doesNotMatch(ledgerTable[0], /fixture-analysis/, "the lead is not repeated as a table row");
 assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*data-search="[^"]*"[\s\S]*?<td class="ref[^"]*">FCC 26-1<\/td>/, "a record row carries data attributes and its docket in the Reference cell");
 assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
-assert.match(feedIdx, /From the record/, "rail pull-quote renders with fixtures");
-assert.match(feedIdx, /Persons of interest[\s\S]*?href="\/\?q=Federal%20Communications%20Commission"/, "rail people link prefills the filter");
-assert.doesNotMatch(home, /From the record|Persons of interest/, "rail derived sections are omitted with zero records");
+// Front-page rail: Browse chips (one per list in lists.js order), By source, last filed, Sources on file.
+const railKeys = Object.keys((await import("../src/_data/lists.js")).default);
+const railChips = [...feedIdx.matchAll(/<a class="chip" href="\/by\/list\/([^/]+)\/">/g)].map((m) => m[1]);
+assert.deepEqual(railChips, railKeys, "rail Browse renders one chip per list in lists.js order");
+assert.match(feedIdx, /<a class="more" href="\/by\/agency\/">By source/, "rail links to the source index");
+assert.match(feedIdx, /Sources on file[\s\S]*?href="\/by\/agency\/fcc\/"/, "rail lists sources on file from the agency facet");
+assert.doesNotMatch(feedIdx, /From the record|Persons of interest/, "derived pull-quote and people sections are gone");
 assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
 
-// ---- chrome (editorial redesign, U2) ----
-// Every page carries one nav.main: The file, Analyses, the lists.js keys in file order, Restricted entities.
-const listKeys = Object.keys((await import("../src/_data/lists.js")).default);
-const expectedNav = ["The file", "/analyses/", ...listKeys.map((k) => `/by/list/${k}/`), "Restricted entities"];
+// ---- chrome (visual redesign v2, U3) ----
+// Every page carries exactly one nav.main with four tabs and one theme toggle; no secondary sub-row.
+const expectedNav = ["/", "/analyses/", "/by/list/covered-list/", "/by/list/bad-labs/"];
 function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap((d) => d.isDirectory() ? walk(path.join(dir, d.name)) : d.name === "index.html" ? [path.join(dir, d.name)] : []); }
 for (const f of walk(outFix)) {
   const html = fs.readFileSync(f, "utf8");
   const navs = html.match(/<nav class="main"[\s\S]*?<\/nav>/g) || [];
   assert.equal(navs.length, 1, `one primary nav on ${path.relative(outFix, f)}`);
-  const links = [...navs[0].matchAll(/<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map((m) => m[2] === "The file" || m[2] === "Restricted entities" ? m[2] : m[1]);
+  const links = [...navs[0].matchAll(/<a[^>]*href="([^"]+)"[^>]*>/g)].map((m) => m[1]);
   assert.deepEqual(links, expectedNav, `nav order on ${path.relative(outFix, f)}`);
+  assert.equal((html.match(/id="theme"/g) || []).length, 1, `exactly one theme toggle on ${path.relative(outFix, f)}`);
+  // Every page ships the deferred theme script and the pre-paint anti-flash inline script, and the
+  // anti-flash script runs before the stylesheet link so the stored theme applies before first paint.
+  assert.match(html, /<script src="\/js\/theme\.js" defer><\/script>/, `theme.js on ${path.relative(outFix, f)}`);
+  assert.match(html, /localStorage\.getItem\('theme'\)/, `anti-flash script on ${path.relative(outFix, f)}`);
+  assert.ok(html.indexOf("localStorage.getItem('theme')") < html.indexOf('/css/site.css'), `anti-flash precedes the stylesheet on ${path.relative(outFix, f)}`);
+  assert.doesNotMatch(html, /<div class="sub"/, `no secondary nav sub-row on ${path.relative(outFix, f)}`);
 }
-assert.match(feedIdx, /last filed 2026-01-01/, "sub row shows the newest doc_date");
-assert.doesNotMatch(home, /last filed/, "sub row omits the timestamp with zero records");
+assert.ok(fs.existsSync(path.join(outFix, "js/theme.js")), "theme.js is published");
+assert.match(feedIdx, /last filed 2026-01-01/, "rail shows the newest doc_date");
+assert.doesNotMatch(home, /last filed/, "rail omits the last-filed line with zero records");
 
 // ---- masthead spire band (2026-09-26) ----
 // Every page opens with one black masthead band carrying the spire svg and the folded
 // Newsletter/RSS/About links; the separate strip is gone, the favicon is linked, and the fonts
-// request loads Poiret One, not Jost (AE1, AE3, AE4).
+// request loads Marcellus SC, not Poiret One / Jost / EB Garamond (visual-redesign-v2 U2).
 for (const [label, html] of [["front", feedIdx], ["record", page], ["empty front", home]]) {
   const masts = html.match(/<header class="mast">[\s\S]*?<\/header>/g) || [];
   assert.equal(masts.length, 1, `one masthead band on the ${label} page`);
@@ -258,8 +269,12 @@ for (const [label, html] of [["front", feedIdx], ["record", page], ["empty front
   assert.match(masts[0], />About</, `${label} masthead keeps the About link`);
   assert.doesNotMatch(html, /class="strip"/, `${label} page shows no separate strip`);
   assert.match(html, /<link rel="icon" href="\/favicon\.svg" type="image\/svg\+xml">/, `${label} head links the favicon`);
-  assert.match(html, /fonts\.googleapis\.com\/css2\?family=Poiret\+One/, `${label} loads Poiret One`);
+  assert.match(html, /fonts\.googleapis\.com\/css2\?family=Marcellus\+SC/, `${label} loads Marcellus SC`);
+  assert.doesNotMatch(html, /family=Poiret\+One/, `${label} no longer loads Poiret One`);
   assert.doesNotMatch(html, /family=Jost/, `${label} no longer loads Jost`);
+  assert.doesNotMatch(html, /family=EB\+Garamond/, `${label} no longer loads EB Garamond`);
+  assert.match(masts[0], /Tech and geopolitics out of the shadows/, `${label} masthead carries the v2 tagline`);
+  assert.doesNotMatch(html, /bureaucratic shadows/, `${label} drops the old bureaucratic-shadows motto`);
 }
 // The favicon passes through into every build output; its source shapes match the inline mark.
 // (CI runs this test before `npm run build`, so assert the check's own out-dirs, never _site/.)
@@ -273,9 +288,13 @@ assert.match(favicon, /<rect x="16" y="92" width="68" height="3"\s*\/>/, "favico
 // Every colour literal in the stylesheet must be greyscale: hex with equal channels, rgb()/rgba()
 // with equal r/g/b, or transparent. A jade, gold or any other accent slipping back in fails the build.
 const css = fs.readFileSync(path.join(root, "src/css/site.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
+// The v2 palette (KTD6): the intentional navy/ground/ink tokens are whitelisted; every other colour
+// literal must still be greyscale (equal-channel hex, equal-channel rgb()/rgba(), or transparent).
+const allowed = new Set(["ffffff","f7f7f7","0c0f14","5b6270","8e96a3","e2e2e2","24406b","090b0f","f1f4f7","0d1015","13161c","e8ecf1","9aa3b0","68717f","6f9bd8","04060a"]);
 const offenders = [];
 for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
   const h = m[1].toLowerCase();
+  if (allowed.has(h)) continue;
   const rgb = h.length <= 4 ? [h[0], h[1], h[2]] : [h.slice(0, 2), h.slice(2, 4), h.slice(4, 6)];
   if (![3, 4, 6, 8].includes(h.length) || !(rgb[0] === rgb[1] && rgb[1] === rgb[2])) offenders.push(m[0]);
 }

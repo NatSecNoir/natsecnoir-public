@@ -4,8 +4,30 @@ nav: feed
 permalink: /
 ---
 <div class="page">
+<aside class="rail">
+  <section class="rfilter">{% include "filter.njk" %}</section>
+  <section class="browse">
+    <h2>Browse</h2>
+    <div class="railchips">
+      {%- for slug, l in lists %}
+      <a class="chip" href="/by/list/{{ slug }}/">{{ l.label }}</a>
+      {%- endfor %}
+    </div>
+    <a class="more" href="/by/agency/">By source →</a>
+    {% if records.all.length %}<p class="lastfiled mono">last filed {{ records.all[0].doc_date }}</p>{% endif %}
+  </section>
+  {%- for f in facets %}{% if f.key == "agency" and f.groups.length %}
+  <section class="sources">
+    <h2>Sources on file</h2>
+    <ul class="counts">{% for g in f.groups %}<li><a href="/by/agency/{{ g.slug }}/"><span>{{ g.label }}</span><span class="n mono">{{ g.records.length }}</span></a></li>{% endfor %}</ul>
+  </section>
+  {% endif %}{%- endfor %}
+  <section class="letter"><div class="box">
+    <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
+    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
+  </div></section>
+</aside>
 <div class="main">
-{% include "filter.njk" %}
 <div class="file" data-items>
 {% if feed.all.length %}
 {% set r = feed.all[0] %}{% set isLead = true %}{% include "item.njk" %}
@@ -21,29 +43,4 @@ permalink: /
 </div>
 {% if feed.all.length %}<div class="folio"><span class="mono">{{ feed.all.length }} records on file</span><a href="/by/list/">Browse by list →</a></div>{% endif %}
 </div>
-<aside class="rail">
-  <section class="letter"><div class="box">
-    <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
-    <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
-  </div></section>
-  {% if rail.quote.present %}<section>
-    <h2>From the record</h2>
-    <p class="quote">{{ rail.quote.text }}</p>
-    <p class="src mono">{% if rail.quote.docket %}{{ rail.quote.docket.split(";")[0] }}{% endif %}{% if rail.quote.source %}{% if rail.quote.docket %} · {% endif %}{{ rail.quote.source }}{% endif %}</p>
-  </section>{% endif %}
-  {% if rail.tags.length %}<section>
-    <h2>Records by list</h2>
-    <ul class="counts">{% for t in rail.tags %}<li><a href="{{ t.url }}"><span>{{ t.label }}</span><span class="n mono">{{ t.count }}</span></a></li>{% endfor %}</ul>
-    <a class="more" href="/by/list/">All lists →</a>
-  </section>{% endif %}
-  {% if rail.people.length %}<section>
-    <h2>Persons of interest</h2>
-    <ul class="counts">{% for p in rail.people %}<li><a href="{{ p.url }}"><span>{{ p.label }}</span><span class="n mono">{{ p.count }}</span></a></li>{% endfor %}</ul>
-  </section>{% endif %}
-  <section>
-    <h2>Restricted-entity ledger</h2>
-    <p>One deduped ledger of US government restricted-entity lists{% if ledger.present %}, {{ ledger.lists | length }} lists{% endif %}, from the .gov sources only.</p>
-    <a class="more" href="/analyses/supply-chain-watch-lists/">Open the ledger →</a>
-  </section>
-</aside>
 </div>
