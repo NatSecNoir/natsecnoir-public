@@ -83,7 +83,6 @@ nav.main .rcount { font-size: 11px; letter-spacing: .12em; color: var(--muted); 
   nav.main { font-size: 11px; }
   nav.main .tabs a { padding: 12px 12px 12px 0; margin-right: 12px; }
   /* rail on phone: a few browse chips, newsletter without the descriptive line */
-  .rail .railchips .chip:nth-child(n+5) { display: none; }
   .rail .letter .box p { display: none; }
 }
 
