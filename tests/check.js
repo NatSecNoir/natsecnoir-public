@@ -273,6 +273,8 @@ for (const [label, html] of [["front", feedIdx], ["record", page], ["empty front
   assert.doesNotMatch(html, /family=Poiret\+One/, `${label} no longer loads Poiret One`);
   assert.doesNotMatch(html, /family=Jost/, `${label} no longer loads Jost`);
   assert.doesNotMatch(html, /family=EB\+Garamond/, `${label} no longer loads EB Garamond`);
+  assert.match(masts[0], /Tech and geopolitics out of the shadows/, `${label} masthead carries the v2 tagline`);
+  assert.doesNotMatch(html, /bureaucratic shadows/, `${label} drops the old bureaucratic-shadows motto`);
 }
 // The favicon passes through into every build output; its source shapes match the inline mark.
 // (CI runs this test before `npm run build`, so assert the check's own out-dirs, never _site/.)
