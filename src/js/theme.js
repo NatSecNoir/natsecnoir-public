@@ -27,3 +27,15 @@
   });
   syncTheme();
 })();
+
+// Sticky nav shadow: add .scrolled to nav.main once the page scrolls past the masthead.
+(function () {
+  var nav = document.querySelector('nav.main');
+  if (!nav) return;
+  function onScroll() {
+    if (window.scrollY > 8) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+})();

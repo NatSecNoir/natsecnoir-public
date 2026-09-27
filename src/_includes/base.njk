@@ -16,7 +16,6 @@
 <script src="/js/theme.js" defer></script>
 </head><body>
 <header class="mast"><div class="wrap">
-  <span class="r"><a href="{{ site.newsletter }}">Newsletter</a><span class="sep">·</span><a href="/feed.xml">RSS</a><span class="sep">·</span><a href="{{ site.about }}">About</a></span>
   <a class="lockup" href="/" aria-label="NatSec Noir — home">
     <svg class="spire" viewBox="0 0 100 100" aria-hidden="true">
       <g fill="currentColor">
@@ -37,20 +36,24 @@
     <h1 class="mark">N<small>at</small>S<small>ec</small> N<small>oir</small></h1>
   </a>
   <p class="tag">{{ site.motto }}</p>
+  <span class="r"><a href="{{ site.newsletter }}">Newsletter</a><span class="sep">·</span><a href="/feed.xml">RSS</a><span class="sep">·</span><a href="{{ site.about }}">About</a></span>
 </div></header>
 <nav class="main" aria-label="Primary">
-  <a{% if nav == "feed" %} class="on"{% endif %} href="/">The file</a>
-  <a{% if nav == "analysis" and page.url != "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/">Analyses</a>
-  {%- for slug, l in lists %}
-  <a{% if nav == "list" and navSlug == slug %} class="on"{% endif %} href="/by/list/{{ slug }}/">{{ l.label }}</a>
-  {%- endfor %}
-  <a{% if page.url == "/analyses/supply-chain-watch-lists/" %} class="on"{% endif %} href="/analyses/supply-chain-watch-lists/">Restricted entities</a>
+  <span class="tabs">
+    <a{% if nav == "feed" %} class="on"{% endif %} href="/">The File</a>
+    <a{% if nav == "analysis" %} class="on"{% endif %} href="/analyses/">Analyses</a>
+    <a{% if nav == "list" and navSlug == "covered-list" %} class="on"{% endif %} href="/by/list/covered-list/">Covered List</a>
+    <a{% if nav == "list" and navSlug == "bad-labs" %} class="on"{% endif %} href="/by/list/bad-labs/">Bad Labs</a>
+  </span>
+  <span class="navx">
+    <span class="rcount mono">{{ records.all.length }} records</span>
+    <button id="theme" type="button" aria-label="Switch to dark theme" title="Toggle light / dark">
+      <svg class="icon-sun" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.4 4.4l1.7 1.7M17.9 17.9l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.4 19.6l1.7-1.7M17.9 6.1l1.7-1.7"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true" hidden><path d="M20 14.2A8 8 0 0 1 9.8 4 7 7 0 1 0 20 14.2z"/></svg>
+      <span id="theme-label">Dark</span>
+    </button>
+  </span>
 </nav>
-<div class="sub">
-  <a{% if nav == "list" %} class="on"{% endif %} href="/by/list/">By list</a>
-  <a{% if nav == "agency" %} class="on"{% endif %} href="/by/agency/">By source</a>
-  {% if records.all.length %}<span class="rt mono">last filed {{ records.all[0].doc_date }}</span>{% endif %}
-</div>
 <main class="wrap">
 {{ content | safe }}
 {% if nav != "record" and nav != "feed" %}{# front page renders the newsletter inside its rail (U3); interior pages keep the standalone panel #}
@@ -77,6 +80,10 @@
       <li><a href="/feed.xml">RSS</a></li>
       <li><a href="{{ site.about }}">About</a></li>
       <li><a href="/analyses/">Analyses</a></li>
+      {%- for slug, l in lists %}
+      <li><a href="/by/list/{{ slug }}/">{{ l.label }}</a></li>
+      {%- endfor %}
+      <li><a href="/by/agency/">By source</a></li>
     </ul>
     <p class="disc">{{ site.disclaimer }}</p>
   </div>
