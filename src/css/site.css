@@ -83,7 +83,6 @@ nav.main .rcount { font-size: 11px; letter-spacing: .12em; color: var(--muted); 
   nav.main { font-size: 11px; }
   nav.main .tabs a { padding: 12px 12px 12px 0; margin-right: 12px; }
   /* rail on phone: a few browse chips, newsletter without the descriptive line */
-  .rail .letter .box p { display: none; }
 }
 
 main.wrap { padding-bottom: 40px; }
@@ -99,6 +98,9 @@ main.wrap { padding-bottom: 40px; }
 .letter button { flex: 0 0 auto; padding: 8px 0 8px 12px; background: transparent; border: 0; color: var(--topband-ink); font: 600 11px var(--sans); letter-spacing: .16em; text-transform: uppercase; cursor: pointer; }
 .letter button:hover { text-decoration: underline; text-underline-offset: 4px; }
 main > .letter { max-width: 420px; }
+/* front-page rail: compact subscribe-only box with even spacing */
+.rail .letter .box { padding: 16px 18px; }
+.rail .letter form { margin-top: 0; }
 
 /* footer: wordmark and tagline, one-sentence description, links, disclaimer */
 footer { margin-top: 72px; border-top: 1px solid var(--ink); font-size: 13px; color: var(--ink); }
@@ -119,7 +121,7 @@ footer .disc { font: 12px/1.5 var(--mono); color: var(--muted); }
 .rail { padding-top: 0; }
 .rail section { margin: 0 0 30px; padding-top: 14px; border-top: 1px solid var(--line); }
 .rail section.rfilter { border-top: 0; padding-top: 0; }
-.rail section.letter { border-top: 0; padding-top: 0; margin: 0; }
+.rail section.letter { border-top: 0; padding-top: 0; margin: 34px 0; }
 .rail h2 { margin: 0 0 12px; font: 600 11px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
 .rail p { margin: 0 0 8px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
 .railchips { display: flex; flex-wrap: wrap; gap: 8px; }
