@@ -1,19 +1,29 @@
-/* NatSec Noir public site — editorial redesign (2026-09-25). White ground, black type, six greys,
-   no accent. The design reference is mockups/front-hybrid-dossier.html in the corpus repo (its
-   <head> comment block is the spec: tokens, type roles, measures, vocabulary). Retone through the
-   :root tokens only; tests/check.js rejects any non-greyscale colour literal in this file.
-   Masthead (2026-09-26): a black band replaces the strip + white mast — spire mark, 1px rule,
-   Poiret One wordmark and folded Newsletter/RSS/About links; spec in mockups/front-masthead-spire.html. */
+/* NatSec Noir public site — visual redesign v2 (2026-09-27). White ground, navy accent, a light/dark
+   toggle. The design reference is mockups/natsecnoir-index.html and mockups/v2-public-record.html in the
+   corpus repo (their <head> comment blocks are the spec: tokens, type roles, theme, vocabulary).
+   Retone through the :root tokens only; tests/check.js whitelists the intentional navy hexes and rejects
+   any other non-greyscale colour literal in this file. Light is the default (owner directive 2026-09-27);
+   dark is reached only via the #theme toggle, never by OS preference.
+   Text uses --ink / --muted (both >=4.5:1 on --paper and --raised); --faint is for rules and decoration only. */
 :root {
-  /* colour: text may use ink, soot, smoke only; ash and fog are for rules and grounds */
-  --ink:#000; --soot:#2a2a2a; --smoke:#666; --ash:#b3b3b3; --fog:#e6e6e6; --paper:#fff;
+  /* colour tokens (KTD1). Text: --ink, --muted. Decorative/rules: --faint, --line. Accent: --navy. */
+  --paper:#FFFFFF; --raised:#F7F7F7; --ink:#0C0F14; --muted:#5B6270; --faint:#8E96A3;
+  --line:#E2E2E2; --navy:#24406B; --topband:#090B0F; --topband-ink:#F1F4F7;
   /* type roles */
-  --wordmark:"Poiret One","Jost","Century Gothic",sans-serif;
-  --serif:"EB Garamond",Garamond,Georgia,serif;
-  --sans:"Libre Franklin","Helvetica Neue",Helvetica,Arial,sans-serif;
-  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+  --wordmark:"Marcellus SC","Georgia","Times New Roman",serif;
+  --serif:"Instrument Serif","Georgia","Times New Roman",serif;
+  --sans:"Hanken Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:"JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace;
   /* measures */
   --page:1240px; --gut:48px; --rail:300px; --railgap:56px;
+  /* temporary aliases (deleted in U4) so interior sections keep rendering until each is retoned */
+  --soot:var(--ink); --smoke:var(--muted); --ash:var(--line); --fog:var(--line);
+}
+/* dark theme — explicit opt-in only; no prefers-color-scheme auto-dark (owner directive 2026-09-27) */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper:#0D1015; --raised:#13161C; --ink:#E8ECF1; --muted:#9AA3B0; --faint:#68717F;
+  --line:rgba(255,255,255,0.10); --navy:#6F9BD8; --topband:#04060A; --topband-ink:#F1F4F7;
 }
 @media (max-width:640px){ :root{ --gut:16px; } }
 * { box-sizing: border-box; }
