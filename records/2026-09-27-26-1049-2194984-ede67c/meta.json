@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-27-26-1049-2194984-ede67c",
+  "status": "approved",
+  "ingested_at": "2026-09-27T19:53:17Z",
+  "title": "Anthropic v Hegseth",
+  "issuing_body": "DC Circuit",
+  "doc_date": "2026-09-25",
+  "docket": "DC Cir Case No. 26-1049; consolidated with Case No. 26-1162",
+  "lists": [
+    "litigation",
+    "ai"
+  ],
+  "entities": [
+    "Anthropic"
+  ],
+  "source_url": "https://media.cadc.uscourts.gov/opinions/docs/2026/09/26-1049-2194984.pdf",
+  "source_copy_public": true,
+  "notes": "9/27/2026 - need to read full text",
+  "source_file": "source.pdf",
+  "sha256": "ede67c3674f3cde84dfe7a1e29170785ba80f266e1baa57b4e321957c4817a19",
+  "approved_at": "2026-09-27T20:04:24Z",
+  "published_at": "2026-09-27T20:04:43Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-27T19:53:24Z"
+}
