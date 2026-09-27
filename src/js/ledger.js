@@ -62,6 +62,8 @@
     var open = detail.hidden;
     detail.hidden = !open;
     btn.setAttribute("aria-expanded", open ? "true" : "false");
+    btn.textContent = open ? "\u2212" : "+"; // minus sign when expanded
+    btn.setAttribute("aria-label", open ? "Hide details" : "Show details");
   });
 
   var headers = table.querySelectorAll("th");

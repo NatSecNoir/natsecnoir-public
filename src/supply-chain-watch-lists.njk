@@ -70,7 +70,7 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
           data-search="{{ e.search }}"
           data-lists="{{ e.list_slugs }}">
         <td>
-          <button class="expand" aria-expanded="false" aria-label="Toggle details">details</button>
+          <button class="expand" aria-expanded="false" aria-label="Show details">+</button>
           {{ e.canonical }}
           {% if e.verified %}<span class="vchk" title="Human-checked {{ e.verified.date }} — correct as listed{% if e.verified.note %}: {{ e.verified.note }}{% endif %}">✓</span>{% endif %}
           {% if e.formerly_listed %}<span class="basis"> (formerly listed{% if e.last_archive %} —
