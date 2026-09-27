@@ -1,5 +1,5 @@
 {
- "count": 111,
+ "count": 112,
  "records": [
   {
    "id": "2026-09-27-26-1049-2194984-ede67c",
@@ -1813,6 +1813,40 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:53:09Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-27-0-44ab50",
+   "status": "approved",
+   "ingested_at": "2026-09-27T20:13:19Z",
+   "title": "Bartz v Anthropic (ND Cal. Oct 17, 2025) - Judge Alsup Opinion re preliminary settlement approval",
+   "issuing_body": "ND Cal",
+   "doc_date": "2025-10-17",
+   "docket": "ND Cal Case No 24-cv-05417 (ECF No 437)",
+   "lists": [
+    "litigation",
+    "ai"
+   ],
+   "entities": [
+    "Anthropic",
+    "Andrea Bartz"
+   ],
+   "source_url": "https://cases.justia.com/federal/district-courts/california/candce/3:2024cv05417/434709/437/0.pdf?ts=1761158790",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "44ab5079f127731a328371cdbbf314baa7b2016f9e68b2b0a53b83b8c6c9a09c",
+   "approved_at": "2026-09-27T20:32:11Z",
+   "published_at": "2026-09-27T20:32:39Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-27T20:13:25Z",
    "files": [
     "meta.json",
     "summary.md",
