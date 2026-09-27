@@ -16,12 +16,6 @@ permalink: /
     <a class="more" href="/by/agency/">By source →</a>
     {% if records.all.length %}<p class="lastfiled mono">last filed {{ records.all[0].doc_date }}</p>{% endif %}
   </section>
-  {%- for f in facets %}{% if f.key == "agency" and f.groups.length %}
-  <section class="sources">
-    <h2>Sources on file</h2>
-    <ul class="counts">{% for g in f.groups %}<li><a href="/by/agency/{{ g.slug }}/"><span>{{ g.label }}</span><span class="n mono">{{ g.records.length }}</span></a></li>{% endfor %}</ul>
-  </section>
-  {% endif %}{%- endfor %}
   <section class="letter"><div class="box">
     <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
     <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
