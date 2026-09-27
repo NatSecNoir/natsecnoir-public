@@ -305,7 +305,7 @@ tr.detail .vchk { font-size: inherit; cursor: default; }
 #ledger tbody tr.row:hover > td { background: rgba(0,0,0,.03); }
 #ledger tbody tr.former td { color: var(--muted); }
 #ledger .tag { display: inline-block; font: 11px var(--mono); padding: 1px 6px; margin: 0 4px 3px 0; border: 1px solid var(--line); color: var(--ink); white-space: nowrap; }
-.expand { background: transparent; border: 1px solid var(--line); color: var(--ink); font: 10.5px var(--sans); letter-spacing: .06em; text-transform: uppercase; padding: 1px 6px; margin-right: 6px; cursor: pointer; }
+.expand { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; flex: 0 0 auto; background: transparent; border: 1px solid var(--line); color: var(--ink); font: 500 15px var(--sans); line-height: 1; padding: 0; margin-right: 7px; cursor: pointer; vertical-align: -2px; }
 .expand:hover, .expand[aria-expanded="true"] { border-color: var(--ink); color: var(--ink); }
 .basis { display: block; color: var(--muted); font-size: 12px; margin-top: 3px; }
 #ledger tr.detail td { background: rgba(0,0,0,.03); }
