@@ -1,5 +1,5 @@
 {
- "count": 109,
+ "count": 110,
  "records": [
   {
    "id": "2026-09-27-26-1049-2194984-ede67c",
@@ -1971,6 +1971,39 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:23:56Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-27-0-fce58c",
+   "status": "approved",
+   "ingested_at": "2026-09-27T20:03:18Z",
+   "title": "Bartz v Anthropic",
+   "issuing_body": "ND Cal",
+   "doc_date": "2025-06-23",
+   "docket": "ND Cal Case No. 24-cv-05417 (Judge Alsup)",
+   "lists": [
+    "litigation",
+    "ai"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "source_url": "https://cases.justia.com/federal/district-courts/california/candce/3:2024cv05417/434709/231/0.pdf?ts=1750837198",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "fce58c30936ee1570a6bb2bf7518e46d7c639b1e68491cfcd309e0c2028869e5",
+   "approved_at": "2026-09-27T20:08:19Z",
+   "published_at": "2026-09-27T20:10:02Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-27T20:03:26Z",
    "files": [
     "meta.json",
     "summary.md",
