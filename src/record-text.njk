@@ -1,0 +1,25 @@
+---
+layout: base.njk
+nav: record
+pagination:
+  data: records.withText
+  size: 1
+  alias: t
+permalink: "{{ t.r.textUrl }}"
+eleventyComputed:
+  title: "{{ t.r.title }} · full text"
+  description: "Full text of {{ t.r.title }}"
+---
+{% set r = t.r %}
+<article class="record fulltext">
+  <div class="crumb"><a href="/">The file</a> › <a href="{{ r.url }}">{{ r.title }}</a> › Full text</div>
+  <span class="k cat">{{ r.doc_type or "Record" }}{% if r.issuing_body %} · {{ r.issuing_body }}{% endif %}</span>
+  <h1>{{ r.title }}</h1>
+  <p class="note mono">Text extracted from the source{% if r.format %} {{ r.format }}{% endif %}{% if t.corrected %}, with {{ t.corrected }} page{{ "s" if t.corrected != 1 }} corrected by hand{% endif %}. Page numbers follow the source; cite the source document, not this transcription.{% if r.source_url %} <a href="{{ r.source_url }}">Open the source ↗</a>{% endif %}</p>
+  {% for pg in t.pages %}
+  <section class="pg" id="p{{ pg.n }}">
+    <a class="pgno mono" href="#p{{ pg.n }}">p. {{ pg.n }}</a>
+    {% for para in pg.paras %}<p>{{ para }}</p>{% endfor %}
+  </section>
+  {% endfor %}
+</article>

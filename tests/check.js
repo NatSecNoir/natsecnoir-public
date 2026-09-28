@@ -445,6 +445,16 @@ for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
 assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
 assert.doesNotMatch(css, /\.strip[^{]*\{[^}]*position:\s*sticky/, "the strip is not sticky");
 
+// ---- litigation full text: text.json gets its own page, linked from the record rail ----
+const withText = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/index.html"), "utf8");
+assert.match(withText, /href="\/records\/2025-11-15-fixture-notice-bbbbbb\/text\/">Read the full text · 2 pp\./, "record rail links its full text");
+const textPage = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/text/index.html"), "utf8");
+assert.match(textPage, /id="p2"/, "text page anchors each source page");
+assert.match(textPage, /with 1 page corrected by hand/, "text page discloses hand corrections");
+assert.match(textPage, /&lt;script&gt;alert\(2\)/, "text page escapes the transcription");
+assert.doesNotMatch(page, /Read the full text/, "records without text.json get no full-text link");
+assert.ok(!fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/text/index.html")), "no text page without text.json");
+
 // ---- interior retone (editorial redesign, U5): no retired v14 token names, no compat aliases, no images ----
 const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rule-glow|accent-glow|band|card|card-sheen|brand-ink|glow1|glow2|neon|neon-wash|mint|rose|display|body|brand|mast|gold|jade|jade-deep|jade-hi|hair|hair2|hair3|panel|bg|dim|vermilion)\b/g) || [];
 assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
