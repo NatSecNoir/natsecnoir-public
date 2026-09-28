@@ -857,20 +857,19 @@
     "covered-list"
    ],
    "entities": [
-    "Federal Communications Commission",
-    "Hikvision USA",
+    "Hangzhou Hikvision Digital Technology Co.",
     "Hytera US",
-    "Hytera Communications Corp. Ltd.",
     "AO Kaspersky Lab",
-    "CTIA",
-    "Foundation for Defense of Democracies"
+    "Huawei Technologies Co., Ltd.",
+    "ZTE Corporation",
+    "Zhejiang Dahua Technology Co., Ltd."
    ],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-635A1.pdf",
    "source_copy_public": true,
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "85e98f866af9f559c9795240cf9886cbc298e6dbf6ecd2fa20fa1ef2318cfeab",
-   "approved_at": "2026-09-28T02:54:45Z",
+   "approved_at": "2026-09-28T03:20:24Z",
    "published_at": "2026-09-06T11:20:38Z",
    "reason": "",
    "error": "",
