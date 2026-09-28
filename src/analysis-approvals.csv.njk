@@ -1,0 +1,12 @@
+---
+pagination:
+  data: ledgers.rowGrain
+  size: 1
+  alias: l
+permalink: "{{ l.url }}{{ l.id }}.csv"
+eleventyExcludeFromCollections: true
+---
+{{ ["id","record_id","entity","category","issuer","models","pn_date","termination_date","status","da","record_url","pdf_url","source_url"] | csv | safe }}
+{%- for r in l.export_rows %}
+{{ [r.id, r.record_id, r.entity, r.category, r.issuer, r.models | join("; "), r.pn_date, r.termination_date, r.status, r.da, r.record_url, r.pdf_url, r.source_url] | csv | safe }}
+{%- endfor %}

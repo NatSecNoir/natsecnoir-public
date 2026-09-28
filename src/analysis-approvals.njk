@@ -1,0 +1,111 @@
+---
+layout: base.njk
+nav: analysis
+pagination:
+  data: ledgers.rowGrain
+  size: 1
+  alias: l
+permalink: "{{ l.url }}"
+eleventyComputed:
+  title: "{{ l.title }}"
+  description: "{{ l.excerpt }}"
+---
+<article class="ledger-page approvals-page">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
+  <p class="eyebrow">FCC · Covered List · Conditional Approvals</p>
+  <h1>{{ l.title }}</h1>
+  <p class="sub">Every Department of War / DHS Conditional Approval that exempts a specific device from the FCC
+    Covered List — Records tagged both <code>covered-list</code> and <code>conditional-approval</code> — one row per
+    <strong>entity × device category</strong>, newest public notice first, with model names, dates, and a computed
+    exemption status. Built for industry: sortable, searchable, and exportable.</p>
+
+  <div class="authority">This is a reviewed, reader-friendly derivative. The authoritative list is the FCC's
+    <a href="{{ l.authority_url }}" target="_blank" rel="noopener">Covered List and Conditional Approvals</a>
+    <span class="src">(fcc.gov/supplychain/coveredlist)</span>. Where this page and the FCC tab differ, the FCC tab governs.</div>
+
+  <div class="asof-banner" id="asofBanner">Viewing status <strong>as of a simulated date</strong> via <code>?asof=</code>
+    — this is not today. Remove the parameter to see live status.</div>
+
+  <p class="stamp">Currency: last accepted change {{ l.currency_date or "—" }} · {{ l.count }} row{{ "s" if l.count != 1 }}
+    · status computed as you view (<span id="asofdate"></span>).</p>
+  <p class="stamp-note">Model names, issuer, and termination dates are analyst-reviewed fields drawn from each public
+    notice. Fields not yet reviewed show as <span class="pending">pending</span>. Status
+    (<span class="status active">active</span> <span class="status expiring">expiring</span>
+    <span class="status expired">expired</span>) is computed in your browser from the termination date; expired
+    approvals stay listed.</p>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by entity, model, category, issuer, or DA…" aria-label="Filter approvals">
+    {% if l.categories.length %}
+    <div class="chip-group" data-group="category">
+      <span class="grp-lbl">Category</span>
+      {% for c in l.categories %}
+      <button class="chip" data-group="category" data-list="{{ c }}" aria-pressed="false">{{ c | capitalize }}</button>
+      {% endfor %}
+    </div>
+    <span class="chip-sep" aria-hidden="true"></span>
+    {% endif %}
+    <div class="chip-group" data-group="status">
+      <span class="grp-lbl">Status</span>
+      <button class="chip" data-group="status" data-list="active" aria-pressed="false">Active</button>
+      <button class="chip" data-group="status" data-list="expiring" aria-pressed="false">Expiring</button>
+      <button class="chip" data-group="status" data-list="expired" aria-pressed="false">Expired</button>
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+  <p class="exports">Machine-readable exports (accepted rows, with build timestamp):
+    <a href="{{ l.url }}{{ l.id }}.csv">Download CSV</a> ·
+    <a href="{{ l.url }}{{ l.id }}.json">JSON</a></p>
+
+  <div class="scroll">
+  <table id="ledger" data-noun="rows" data-expiring-days="{{ l.expiring_days }}">
+    <colgroup>
+      <col style="width:9%"><col style="width:17%"><col style="width:11%"><col style="width:8%">
+      <col style="width:21%"><col style="width:11%"><col style="width:9%"><col style="width:14%">
+    </colgroup>
+    <thead><tr>
+      <th data-key="date" aria-sort="descending"><span class="lab">Date</span></th>
+      <th data-key="entity"><span class="lab">Entity</span></th>
+      <th data-key="category"><span class="lab">Category</span></th>
+      <th data-key="issuer"><span class="lab">Issuer</span></th>
+      <th data-key="models"><span class="lab">Models / series</span></th>
+      <th data-key="term"><span class="lab">Termination</span></th>
+      <th data-key="status"><span class="lab">Status</span></th>
+      <th data-key="links"><span class="lab">DA / Links</span></th>
+    </tr></thead>
+    <tbody>
+    {% for row in l.rows %}
+      <tr class="row{% if row.placeholder %} placeholder{% endif %}" data-search="{{ row.search }}" data-lists="{{ row.lists | join(' ') }}" data-terminates="{{ row.termination_date or '' }}"{% if not row.placeholder %} data-status="{{ row.status_at_build }}"{% endif %}>
+        <td class="date">{{ row.doc_date }}</td>
+        <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.entity }}</td>
+        <td>{% if row.pending.category %}<span class="pending">pending</span>{% else %}{{ row.category | capitalize }}{% endif %}</td>
+        <td>{% if row.pending.issuer %}<span class="pending">pending</span>{% else %}{{ row.issuer }}{% endif %}</td>
+        <td>{% if row.pending.models %}<span class="status pending">pending extraction</span>{% else %}<span class="models">{{ row.models[0] }}{% if row.models.length > 1 %} <span class="more">+{{ row.models.length - 1 }} more</span>{% endif %}</span>{% endif %}</td>
+        <td class="term">{% if row.termination_date %}{{ row.termination_date }}{% else %}none stated{% endif %}{% if row.amendments.length %} <span class="amend-badge">amended</span>{% endif %}</td>
+        <td class="statuscell">{% if not row.placeholder %}<span class="status {{ row.status_at_build }}">{{ row.status_at_build | capitalize }}</span>{% endif %}</td>
+        <td>{% if row.da %}<span class="da">{{ row.da }}</span> · {% endif %}<a href="{{ row.record_url }}">record</a>{% if row.pdf_url %} · <a href="{{ row.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</td>
+      </tr>
+      <tr class="detail" hidden><td colspan="8">
+        <div class="terms">
+          {% if row.pending.models %}<span class="pending">Model list pending analyst extraction.</span>
+          {% else %}<strong>Models / series:</strong> {{ row.models | join(", ") }}{% endif %}
+        </div>
+        {% for a in row.amendments %}
+        <div class="amend-note"><span class="rel">amended by {{ a.da }}{% if a.page %}, p. {{ a.page }}{% endif %}</span>{{ a.note }}{% if a.record_url %} · <a href="{{ a.record_url }}">record</a>{% endif %}</div>
+        {% endfor %}
+      </td></tr>
+    {% endfor %}
+      <tr class="noresults" hidden><td colspan="8">No approvals match the current filter.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="methodology">
+    <p>Rendered at build time from the mirrored Records and the analysis mesh, then re-timed in your browser so the
+    status reflects the day you read it. Model names, issuer, and termination dates are analyst-reviewed fields, each
+    accepted with a citation to the Record and page. Rows still awaiting extraction show as
+    <span class="pending">pending</span>. Where this page and the FCC tab differ, the FCC tab governs.</p>
+  </div>
+</article>
+<script src="/js/approvals-status.js" defer></script>
+<script src="/js/ledger.js" defer></script>
