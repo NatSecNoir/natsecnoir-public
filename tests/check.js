@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { rowGrainRows } from "../src/lib/ledger-rows.js";
+import { firstSentence } from "../src/lib/text.js";
 import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -450,5 +451,14 @@ const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rul
 assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
 assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
 for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
+
+// ---- standfirst: an abbreviation's period does not end the first sentence ----
+assert.equal(firstSentence("The D.C. Circuit upheld the order. It also held more."), "The D.C. Circuit upheld the order.");
+assert.equal(firstSentence("Pacific Networks Corp. and ComNet lost. Next."), "Pacific Networks Corp. and ComNet lost.");
+assert.equal(firstSentence("Commitments to the U.S. Department of Justice. Next."), "Commitments to the U.S. Department of Justice.");
+assert.equal(firstSentence("Risks to U.S. national security. Next."), "Risks to U.S. national security.");
+assert.equal(firstSentence("The FCC acted. Then it stopped."), "The FCC acted.");
+assert.equal(firstSentence("Is it final? Yes."), "Is it final?");
+assert.equal(firstSentence("No period here"), "No period here");
 
 console.log("site check: ok");
