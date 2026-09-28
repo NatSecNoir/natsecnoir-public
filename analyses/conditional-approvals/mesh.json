@@ -1,0 +1,1077 @@
+{
+  "title": "Conditional Approvals",
+  "excerpt": "Every DoW and DHS Conditional Approval that exempts a specific device from the FCC Covered List, one row per entity and device category, drawn from the numbered Public Notices in WC Docket No. 18-89.",
+  "kind": "ledger",
+  "feed": false,
+  "grain": "row",
+  "profile": "conditional-approval",
+  "membership": {
+    "lists_all": [
+      "covered-list",
+      "conditional-approval"
+    ]
+  },
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "da-26-524-blueflite-inc-uas",
+      "kind": "ingest",
+      "label": "Blueflite, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Cobalt 461 Uncrewed Aircraft System (UAS) and related UAS critical components including data transmission devices, communications systems, and flight controllers",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad"
+      },
+      "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-524-verity-ag-uas",
+      "kind": "ingest",
+      "label": "Verity AG",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Series 4 Indoor Autonomous Inventory System Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad"
+      },
+      "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-524-air-vev-inc-uas",
+      "kind": "ingest",
+      "label": "Air VEV, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "120C and 060C Unmanned Aerial Systems",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad"
+      },
+      "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-conditional-approvals-3aa5ad",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-585-abz-innovation-kft-uas",
+      "kind": "ingest",
+      "label": "ABZ Innovation Kft.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "L50 Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-585-arcadyan-technology-corporation-routers",
+      "kind": "ingest",
+      "label": "Arcadyan Technology Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "G5AR\nG5MAR\nGxMAR\nGxMAR-ODU\nGxAR Series (5G FWA)\nAT&T BGW 720\nVerizon C46BE (XC Series)\nCR100B (WG Series)\nCE1000A\nE3200 (WE Series)",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-12-12",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-2nd-c9e7be",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-616-real-time-robotics-inc-uas",
+      "kind": "ingest",
+      "label": "Real-Time Robotics, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "HERA Tactical Uncrewed Aircraft Systems Platform",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-616-ceres-air-llc-uas",
+      "kind": "ingest",
+      "label": "Ceres Air LLC",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "C40\nC31\nC26\nC20\nC6",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-616-hitron-technologies-americas-inc-routers",
+      "kind": "ingest",
+      "label": "Hitron Technologies Americas, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "DOCSIS 4.0 Wi-Fi Gateway\nDOCSIS 3.1 Wi-Fi Gateway\nXGSPON Wi-Fi Gateway\nStandalone Wi-Fi routers\n5G FWA Wi-Fi Gateway\n5G FWA Wi-Fi Hotspot",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-12-18",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-812a40",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-548-innovation-first-international-inc-uas",
+      "kind": "ingest",
+      "label": "Innovation First International, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "VEX AIR Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-548-sagemcom-usa-llc-routers",
+      "kind": "ingest",
+      "label": "Sagemcom USA, LLC",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "“FAST” Broadband Class of Gateways and Routers (including FAST3994, FAST3897, FAST5698, FAST5699, FAST5999)",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-12-05",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "DA 26-768 FAST Broadband class approval — addresses the entire FAST class, subsuming the earlier model-specific approval (DA 26-548). Terminates December 5, 2027."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-8829e8",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-584-flock-group-inc-doing-business-as-flock-safety-uas",
+      "kind": "ingest",
+      "label": "Flock Group, Inc. (doing business as Flock Safety)",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Flock Alpha Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-584-miri-technologies-inc-routers",
+      "kind": "ingest",
+      "label": "Miri Technologies, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Miri X10 Travel router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-12-12",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-887b5e",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-768-exedy-globalparts-corporation-uas",
+      "kind": "ingest",
+      "label": "Exedy Globalparts Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Ayre CX uncrewed aircraft system",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-768-parallel-flight-technologies-inc-uas",
+      "kind": "ingest",
+      "label": "Parallel Flight Technologies, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Firefly uncrewed aircraft system",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-768-humax-networks-usa-inc-routers",
+      "kind": "ingest",
+      "label": "Humax Networks USA, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "HNR2306\nHNRM30",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-17",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-768-askey-computer-corp-routers",
+      "kind": "ingest",
+      "label": "Askey Computer Corp.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "ASK-NCM300\nASK-NCQ8000 (Wi-Fi 8 Gateways)",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-17",
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf"
+      },
+      "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+      "citation": {
+        "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-390-eero-llc-routers",
+      "kind": "ingest",
+      "label": "eero LLC",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "eero\neero Pro\neero Max\neero PoE\neero Outdoor\neero Signal\nAmazon Leo routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-10-31",
+        "record_id": "2026-09-04-router-conditional-approvals-0bb647"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-0bb647",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-0bb647",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-542-alpha-networks-inc-usa-routers",
+      "kind": "ingest",
+      "label": "Alpha Networks Inc. USA",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "1700 series\n2700 series",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-11-22",
+        "record_id": "2026-09-04-router-conditional-approvals-2f4276"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-2f4276",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-2f4276",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-756-gryphon-safety-online-inc-routers",
+      "kind": "ingest",
+      "label": "Gryphon Safety Online, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Parental Control WiFi Router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-10",
+        "record_id": "2026-09-04-router-conditional-approvals-8cede6"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-8cede6",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-8cede6",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-756-sercomm-corporation-routers",
+      "kind": "ingest",
+      "label": "Sercomm Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Air4992 Wi-Fi 7 Router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-10",
+        "record_id": "2026-09-04-router-conditional-approvals-8cede6"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-8cede6",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-8cede6",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-688-vantiva-usa-llc-routers",
+      "kind": "ingest",
+      "label": "Vantiva USA, LLC",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "CWA438TX",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-03",
+        "record_id": "2026-09-04-router-conditional-approvals-a0069d"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-a0069d",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-a0069d",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-775-spacex-services-inc-routers",
+      "kind": "ingest",
+      "label": "SpaceX Services, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Starlink routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-02-01",
+        "record_id": "2026-09-04-router-conditional-approvals-e558e5"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-e558e5",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-704-gemtek-technology-co-ltd-s-routers",
+      "kind": "ingest",
+      "label": "Gemtek Technology Co., Ltd.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "WRTQ-411BE\nWNRFQQ-113BE",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-01-03",
+        "record_id": "2026-09-04-router-conditional-approvals-e64105"
+      },
+      "record_id": "2026-09-04-router-conditional-approvals-e64105",
+      "citation": {
+        "record_id": "2026-09-04-router-conditional-approvals-e64105",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-495-nokia-corporation-routers",
+      "kind": "ingest",
+      "label": "Nokia Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Beacons, Open Network Terminal (ONT) Based Beacons, and Fastmile Gateway routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-10-31",
+        "record_id": "2026-09-04-router-drone-conditional-approvals-1e5ef7"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-1e5ef7",
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-1e5ef7",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-437-air6-system-gmbh-uas",
+      "kind": "ingest",
+      "label": "Air6 System GmbH",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "AIR8 Medium Lifter\nAIR8 Compact\nAIR4 Rugged\nAIR4 Light\nAIR4 Micro\nAIR4 Nano E\nAIR4 Nano Unmanned Aerial Systems",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-437-calix-inc-routers",
+      "kind": "ingest",
+      "label": "Calix, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "GigaSpire class routers (including 7u6m.2, 7u4txg, 7u4, 7u6.2)\nGiga Pro (7p6)",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-11-22",
+        "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "DA 26-768 GigaSpire class approval — addresses the entire Calix product class, subsuming the earlier model-specific approvals (DA 26-437: 7u6.2 router; DA 26-542: 7p6/7u6m.2/7u4txg/7u4). Terminates November 22, 2027."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-543f2f",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-351-sees-ai-uas",
+      "kind": "ingest",
+      "label": "Sees.ai",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "v.USA. 1.0 Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-351-netgear-inc-routers",
+      "kind": "ingest",
+      "label": "Netgear, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Nighthawk consumer mesh, mobile and standalone routers (R, RAX, RAXE, RS, MK, MR, M and MH series)\nOrbi consumer mesh, mobile and standalone routers (RBK, RBE, RBR, RBRE, LBR, LBK and CBK series)\ncable gateways (CAX series)\ncable modems (CM series)",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-10-01",
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-351-adtran-inc-routers",
+      "kind": "ingest",
+      "label": "Adtran Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Service Delivery Gateway (SDG) class routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-10-01",
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-8b2ebb",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-489-elevon-aerial-llc-doing-business-as-elevon-aerial-ag-uas",
+      "kind": "ingest",
+      "label": "Elevon Aerial, LLC, doing business as Elevon Aerial AG",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Z30\nZ50\nZ80",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-489-nokia-corporation-routers",
+      "kind": "ingest",
+      "label": "Nokia Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "wireless-fidelity 8 router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-10-31",
+        "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3"
+      },
+      "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3",
+      "citation": {
+        "record_id": "2026-09-04-router-drone-conditional-approvals-e6b8b3",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-253-sifly-aviation-inc-uas",
+      "kind": "ingest",
+      "label": "SiFly Aviation, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Q12 Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff"
+      },
+      "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-253-mobilicom-uas",
+      "kind": "ingest",
+      "label": "Mobilicom",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "SkyHopper Series / M Band / Tactical Data Link, Various Controllers, and ICE, OS3 Security Software",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff"
+      },
+      "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-253-scoutdi-uas",
+      "kind": "ingest",
+      "label": "ScoutDI",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Scout 137 Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff"
+      },
+      "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-253-verge-inc-uas",
+      "kind": "ingest",
+      "label": "Verge, Inc.",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "X1 Uncrewed Aircraft System",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff"
+      },
+      "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+      "amendments": [
+        {
+          "record_id": "2026-09-04-drone-router-conditional-approvals-b741bf",
+          "page": 2,
+          "note": "Termination lifted: DoW National Security Determination (2026-07-21, DA 26-761) — UAS Conditional Approvals no longer carry a termination date and remain effective indefinitely, as reflected in DA 26-768 Appendix B. The originating PN stated a 2026-12-31 termination."
+        }
+      ],
+      "citation": {
+        "record_id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-957-asus-computer-international-routers",
+      "kind": "ingest",
+      "label": "ASUS Computer International",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "RT Router Series\nROG GT Series\nROG Strix GS Series\nTUF Gaming Series\nExpertWiFi Series\nZenWiFi Mesh Series\n5G MiFi Series\nrepeaters\nwireless access points",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-03-06",
+        "record_id": "2026-09-10-da-26-957a1-172966"
+      },
+      "record_id": "2026-09-10-da-26-957a1-172966",
+      "citation": {
+        "record_id": "2026-09-10-da-26-957a1-172966",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-957-comtrend-corporation-routers",
+      "kind": "ingest",
+      "label": "Comtrend Corporation",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "GRG-4366u\nVG-8043u\nPBL-6201\nNL-3131 wireless routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-03-06",
+        "record_id": "2026-09-10-da-26-957a1-172966"
+      },
+      "record_id": "2026-09-10-da-26-957a1-172966",
+      "citation": {
+        "record_id": "2026-09-10-da-26-957a1-172966",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-957-husqvarna-ab-robotics",
+      "kind": "ingest",
+      "label": "Husqvarna AB",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "305v IQ\n310v IQ\n420v IQ\n440v IQ robotic platforms",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-10-da-26-957a1-172966"
+      },
+      "record_id": "2026-09-10-da-26-957a1-172966",
+      "citation": {
+        "record_id": "2026-09-10-da-26-957a1-172966",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-996-anscer-robotics-robotics",
+      "kind": "ingest",
+      "label": "ANSCER Robotics",
+      "date": "2026-09-28T01:37:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "AR250\nAR650\nAR1250",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-09-18-da-26-996a1-3919ef"
+      },
+      "record_id": "2026-09-18-da-26-996a1-3919ef",
+      "citation": {
+        "record_id": "2026-09-18-da-26-996a1-3919ef",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
+    }
+  ],
+  "sources": {},
+  "manifest": [],
+  "published_at": "",
+  "currency_date": "2026-09-27",
+  "last_changed": "2026-09-28T01:37:55Z"
+}
