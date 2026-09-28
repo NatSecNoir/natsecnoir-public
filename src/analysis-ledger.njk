@@ -2,7 +2,7 @@
 layout: base.njk
 nav: analysis
 pagination:
-  data: ledgers.all
+  data: ledgers.recordGrain
   size: 1
   alias: l
 permalink: "{{ l.url }}"
@@ -47,7 +47,7 @@ eleventyComputed:
     {% for row in l.rows %}
       <tr class="row" data-search="{{ row.search }}">
         <td class="date">{{ row.date }}</td>
-        <td><button class="expand" aria-expanded="false" aria-label="Toggle details">details</button> {{ row.company }}{% if row.history.length %}<span class="foldnote">+ {{ row.history.length }} folded: {{ row.foldsummary }}</span>{% endif %}</td>
+        <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.company }}{% if row.history.length %}<span class="foldnote">+ {{ row.history.length }} folded: {{ row.foldsummary }}</span>{% endif %}</td>
         <td>{% if row.pending.type %}<span class="pending">pending</span>{% else %}{{ row.transaction_type }}{% endif %}</td>
         <td>{% if row.pending.agencies %}<span class="pending">pending</span>{% else %}{{ row.agencies | join(" · ") }}{% endif %}</td>
         <td>{% if row.pending.country %}<span class="pending">pending</span>{% else %}{{ row.country }}{% endif %}</td>

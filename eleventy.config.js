@@ -11,6 +11,15 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", (s) => md.render(s || ""));
   eleventyConfig.addFilter("head", (a, n) => (a || []).slice(0, n));
+  // CSV row: quote a cell only when it holds a comma, quote, or newline (RFC 4180), doubling any
+  // embedded quote. Used by src/analysis-approvals.csv.njk for the machine-readable export.
+  eleventyConfig.addFilter("csv", (cells) =>
+    (cells || []).map((c) => {
+      const s = c == null ? "" : String(c);
+      return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+    }).join(","));
+  // Pretty JSON for the export template (Nunjucks `dump` gives compact, unindented output).
+  eleventyConfig.addFilter("json", (v) => JSON.stringify(v, null, 2));
   // Ledger source links must be https on the authoritative .gov/.mil allowlist (mirrors
   // noir/ledger.py valid_source_url). Returns "" for anything off-allowlist so the page never
   // renders a non-government URL as a source href.

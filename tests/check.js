@@ -5,6 +5,8 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
+import { rowGrainRows } from "../src/lib/ledger-rows.js";
+import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
 
 const root = path.resolve(import.meta.dirname, "..");
 function build(recordsDir, analysesDir, ledgerDir, out) {
@@ -164,6 +166,141 @@ for (const m of ttArticle.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
 }
 
 
+
+// ---- Conditional Approvals row-grain ledger (U5) ----
+// Data-layer coverage: rowGrainRows and the status helper are pure functions. The row-grain page
+// template and its HTML render assertions (3 rendered rows, pending cells, exports) land with the
+// template in U6; here we prove the assembled row data those assertions will build on.
+const approvalsMesh = JSON.parse(fs.readFileSync(
+  path.join(root, "tests/fixtures/analyses/fixture-approvals/mesh.json"), "utf8"));
+// Two double-tagged member Records, shaped as records.js emits them (only the fields the assembler reads).
+const mkRec = (id, doc_date, docket, title, lists) => ({
+  id, doc_date, docket, title, url: `/records/${id}/`, copy: `/records/${id}/source.pdf`,
+  lists: lists.map((slug) => ({ slug })),
+});
+const PN1 = "2025-08-10-fix-approvals-pn1-aa0001";
+const PN2 = "2025-09-15-fix-approvals-pn2-aa0002";
+const approvalsRecords = [
+  mkRec(PN1, "2025-08-10", "DA 26-000; ET Docket No. 21-232", "Fixture Conditional Approval Notice One",
+        ["covered-list", "conditional-approval"]),
+  mkRec(PN2, "2025-09-15", "DA 26-001; ET Docket No. 21-232", "Fixture Conditional Approval Notice Two",
+        ["covered-list", "conditional-approval"]),
+];
+const asof = new Date("2026-09-27T00:00:00Z");
+const dayOut = (n) => { const d = new Date(asof); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+
+// statusOf: the single rule used at build and (in U6) in the browser (R6).
+assert.equal(statusOf(null, asof), "active", "no termination date is active");
+assert.equal(statusOf(dayOut(-1), asof), "expired", "yesterday is expired");
+assert.equal(statusOf(dayOut(30), asof), "expiring", "30 days out is expiring");
+assert.equal(statusOf(dayOut(120), asof), "active", "120 days out is active");
+assert.equal(statusOf(dayOut(90), asof), "expiring", "exactly 90 days out is expiring");
+assert.equal(EXPIRING_DAYS, 90, "the shared threshold is 90 days");
+assert.equal(daOfDocket("DA 26-957; ET Docket 21-232"), "DA 26-957", "the DA token is read from the docket");
+assert.equal(daOfDocket("ISP-PDR-20200101-00001"), "", "a docket with no DA token yields empty");
+assert.equal(NO_MODELS_SENTINEL, "(no models stated)", "the shared no-models sentinel");
+
+const approvalsRows = rowGrainRows(approvalsMesh, approvalsRecords, asof);
+// Two accepted rows for PN1 plus one placeholder for PN2 (R1, R2).
+assert.equal(approvalsRows.length, 3, "two accepted rows and one placeholder");
+const byRowId = Object.fromEntries(approvalsRows.map((r) => [r.id, r]));
+// R4: the synthetic row id is stable across builds.
+assert.deepEqual(rowGrainRows(approvalsMesh, approvalsRecords, asof).map((r) => r.id),
+  approvalsRows.map((r) => r.id), "row ids are stable across two builds");
+const routers = byRowId["da-26-000-fixture-co-routers"];
+assert.ok(routers, "the router grant keeps its synthetic row id (R4)");
+assert.equal(routers.record_id, PN1, "the row back-points at its member Record");
+assert.equal(routers.doc_date, "2025-08-10", "PN date is joined from the Record, never stored on the row");
+assert.equal(routers.da, "DA 26-000", "DA token is joined from the docket");
+assert.equal(routers.record_url, `/records/${PN1}/`, "row links its Record");
+assert.equal(routers.pdf_url, `/records/${PN1}/source.pdf`, "row links its stored PDF");
+assert.deepEqual(routers.models, ["Model X, Rev 2", "Series 9000"], "models come from the entry text");
+assert.equal(routers.category, "routers");
+assert.equal(routers.issuer, "DoW");
+assert.equal(routers.status_at_build, "active", "a far-future termination is active at build");
+assert.equal(routers.placeholder, false);
+assert.deepEqual(routers.lists, ["routers", "active"], "chip tokens are category + build status");
+assert.match(routers.search, /fixture co/, "search carries the entity");
+assert.match(routers.search, /da 26-000/, "search carries the DA");
+assert.equal(routers.pending.category, false, "an extracted category is not pending");
+// The amendment folds onto the row and marks the amending Record covered (no placeholder for it).
+assert.equal(routers.amendments.length, 1, "the amendment rides the row");
+assert.equal(routers.amendments[0].record_id, "2026-03-10-fix-approvals-amend-aa0003", "amendment names its Record");
+assert.equal(routers.amendments[0].page, 3, "amendment carries its page citation");
+
+// R8: the no-models sentinel becomes an empty models list flagged pending, never literal text.
+const uas = byRowId["da-26-000-widgetworks-uas"];
+assert.deepEqual(uas.models, [], "the sentinel yields an empty models list");
+assert.equal(uas.pending.models, true, "an empty models list is a pending marker");
+assert.doesNotMatch(uas.search, /no models stated/, "the sentinel never leaks into search");
+assert.equal(uas.status_at_build, "active", "a null termination is active");
+
+// Placeholder row for the member PN with no entry (R1): every column pending, its Record linked.
+const placeholder = approvalsRows.find((r) => r.placeholder);
+assert.equal(placeholder.record_id, PN2, "the placeholder is the un-extracted member");
+assert.equal(placeholder.record_url, `/records/${PN2}/`, "the placeholder links its Record");
+for (const k of ["models", "category", "issuer", "termination_date"]) {
+  assert.equal(placeholder.pending[k], true, `placeholder ${k} is pending`);
+}
+
+// R3: a member that loses the conditional-approval tag drops all of its rows.
+const untagged = approvalsRecords.map((r) => r.id === PN1 ? { ...r, lists: [{ slug: "covered-list" }] } : r);
+const afterDrop = rowGrainRows(approvalsMesh, untagged, asof);
+assert.ok(!afterDrop.some((r) => r.record_id === PN1), "dropping the tag removes both of PN1's rows");
+assert.equal(afterDrop.length, 1, "only PN2's placeholder remains");
+
+// Rows are newest-first by PN date, then by id (the PN2 placeholder is newer than PN1's grants).
+assert.equal(approvalsRows[0].id, PN2, "the newest PN (the placeholder) sorts first");
+
+// ---- Conditional Approvals public page + exports (U6) ----
+const appv = fs.readFileSync(path.join(outFix, "analyses/fixture-approvals/index.html"), "utf8");
+// R11: the authority callout carries the fcc.gov link and the "derivative / FCC governs" wording.
+assert.match(appv, /href="https:\/\/www\.fcc\.gov\/supplychain\/coveredlist"/, "authority callout links the fcc.gov Covered List");
+assert.match(appv, /reviewed, reader-friendly derivative/, "authority callout carries the derivative wording");
+assert.match(appv, /the FCC tab governs/, "authority callout states the FCC tab governs (R11)");
+// The approvals fixture is rendered once (one article <h1>), not double-rendered by the record-grain template.
+assert.equal((appv.match(/<h1>Conditional Approvals \(fixture\)<\/h1>/g) || []).length, 1, "the approvals fixture renders exactly one title h1");
+// R6: an accepted row carries data-terminates equal to its fixture date and a build-time status cell.
+const routersTr = appv.match(/<tr class="row"[^>]*data-terminates="2027-06-30"[\s\S]*?<\/tr>/);
+assert.ok(routersTr, "the routers row carries data-terminates from the fixture");
+const expectStatus = statusOf("2027-06-30", new Date());
+assert.ok(routersTr[0].includes(`status ${expectStatus}`), `the routers status cell class matches the build-time rule (${expectStatus})`);
+assert.ok(routersTr[0].includes('data-lists="routers active"'), "the accepted row seeds data-lists with category + build status");
+// Grouped chips (R7): category chips carry data-group="category", status chips data-group="status".
+assert.match(appv, /class="chip" data-group="category" data-list="routers"/, "a category chip carries data-group=category");
+assert.match(appv, /class="chip" data-group="category" data-list="uas"/, "the uas category chip is derived from the rows");
+assert.match(appv, /class="chip" data-group="status" data-list="expired"/, "a status chip carries data-group=status");
+// The Team Telecom fixture ledger is unaffected — its (record-grain) page carries no grouped chips.
+assert.ok(!tt.includes("data-group"), "the Team Telecom ledger page carries no grouped chips");
+// R6/AE2/AE3: the status script loads before the chip/filter script so the first filter sees live status.
+assert.ok(appv.indexOf('src="/js/approvals-status.js"') < appv.indexOf('src="/js/ledger.js"'),
+  "approvals-status.js is loaded before ledger.js");
+assert.ok(fs.existsSync(path.join(outFix, "js/approvals-status.js")), "approvals-status.js is published");
+// R1: the placeholder row shows pending markers and no status badge other than "pending".
+const placeholderTr = appv.match(/<tr class="row placeholder"[\s\S]*?<\/tr>/);
+assert.ok(placeholderTr, "the un-extracted member renders as a placeholder row");
+assert.match(placeholderTr[0], /class="status pending">pending extraction/, "the placeholder shows the pending-extraction marker");
+assert.ok(!/status (active|expiring|expired)/.test(placeholderTr[0]), "the placeholder carries no active/expiring/expired badge");
+// R12: both exports are linked from the page.
+assert.match(appv, /href="\/analyses\/fixture-approvals\/fixture-approvals\.csv"/, "the page links the CSV export");
+assert.match(appv, /href="\/analyses\/fixture-approvals\/fixture-approvals\.json"/, "the page links the JSON export");
+
+// CSV export (R12): exact header, accepted rows only, models joined with "; ", comma cells quoted.
+const csv = fs.readFileSync(path.join(outFix, "analyses/fixture-approvals/fixture-approvals.csv"), "utf8").trim();
+const csvLines = csv.split("\n");
+assert.equal(csvLines[0], "id,record_id,entity,category,issuer,models,pn_date,termination_date,status,da,record_url,pdf_url,source_url", "CSV header is the exact contract");
+assert.equal(csvLines.length, 3, "CSV has the header plus 2 data lines (the placeholder is excluded)");
+assert.ok(csv.includes('"Model X, Rev 2; Series 9000"'), "a multi-model cell is joined with '; ' and quoted for its comma");
+assert.match(csv, /,https:\/\/www\.fcc\.gov\/fix-approvals-pn1\.pdf$/m, "source_url is the record's original fcc.gov URL");
+
+// JSON export (R4/R12): top-level stamp + accepted rows only.
+const jexp = JSON.parse(fs.readFileSync(path.join(outFix, "analyses/fixture-approvals/fixture-approvals.json"), "utf8"));
+assert.equal(jexp.rows.length, 2, "JSON carries the 2 accepted rows");
+assert.equal(jexp.pending_records, 1, "JSON reports 1 pending (placeholder) record");
+assert.ok(jexp.built_at && jexp.expiring_days === EXPIRING_DAYS, "JSON top level has built_at and expiring_days");
+for (const r of jexp.rows) assert.ok("id" in r && "status" in r && "termination_date" in r, "each JSON row has id, status, termination_date");
+
+
 // ---- ledger page (U6/U7) ----
 const ledgerPath = path.join(outFix, "analyses/supply-chain-watch-lists/index.html");
 const ledger = fs.readFileSync(ledgerPath, "utf8");
@@ -288,7 +425,12 @@ assert.match(favicon, /<rect x="16" y="92" width="68" height="3"\s*\/>/, "favico
 const css = fs.readFileSync(path.join(root, "src/css/site.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
 // The v2 palette (KTD6): the intentional navy/ground/ink tokens are whitelisted; every other colour
 // literal must still be greyscale (equal-channel hex, equal-channel rgb()/rgba(), or transparent).
-const allowed = new Set(["ffffff","f7f7f7","0c0f14","5b6270","8e96a3","e2e2e2","24406b","090b0f","f1f4f7","0d1015","13161c","e8ecf1","9aa3b0","68717f","6f9bd8","04060a"]);
+const allowed = new Set(["ffffff","f7f7f7","0c0f14","5b6270","8e96a3","e2e2e2","24406b","090b0f","f1f4f7","0d1015","13161c","e8ecf1","9aa3b0","68717f","6f9bd8","04060a",
+  // U6 exemption-status badges — the deliberate semantic-colour exception (light + dark ok/warn/bad).
+  "1b7a47","8a5a00","a23a32","5bc49a","e0b04a","ec7a6e"]);
+// The status badges also carry tinted backgrounds; these exact rgb triples are the only
+// non-greyscale rgba() allowed (used only for --ok-bg/--warn-bg/--bad-bg).
+const allowedRgb = new Set(["27,122,71","138,90,0","162,58,50","91,196,154","224,176,74","236,122,110"]);
 const offenders = [];
 for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
   const h = m[1].toLowerCase();
@@ -297,6 +439,7 @@ for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
   if (![3, 4, 6, 8].includes(h.length) || !(rgb[0] === rgb[1] && rgb[1] === rgb[2])) offenders.push(m[0]);
 }
 for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
+  if (allowedRgb.has(`${m[1]},${m[2]},${m[3]}`)) continue;
   if (!(m[1] === m[2] && m[2] === m[3])) offenders.push(m[0]);
 }
 assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
