@@ -7,29 +7,15 @@
   "doc_date": "2025-05-27",
   "docket": "FCC 25-27; ET Docket No. 24-136",
   "lists": [
-    "covered-list",
-    "1260h",
-    "icts",
-    "entity-list"
+    "bad-labs"
   ],
-  "entities": [
-    "Federal Communications Commission",
-    "Bureau of Industry and Security",
-    "Department of War",
-    "Department of Homeland Security",
-    "Department of the Treasury Office of Foreign Assets Control",
-    "Semiconductor Manufacturing International Corp. (SMIC)",
-    "ChangXin Memory Technologies (CXMT)",
-    "Yangtze Memory Technologies (YMTC)",
-    "Government of the People's Republic of China",
-    "Nicolas Maduro"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-27A1.pdf",
   "source_copy_public": true,
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "6990e0850ec4e34317f8c60e55188620c48bfe3e6e02e30a3fd4a77b600c2087",
-  "approved_at": "2026-09-06T02:16:34Z",
+  "approved_at": "2026-09-28T03:18:51Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
