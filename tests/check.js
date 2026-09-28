@@ -5,6 +5,8 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
+import { rowGrainRows } from "../src/lib/ledger-rows.js";
+import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
 
 const root = path.resolve(import.meta.dirname, "..");
 function build(recordsDir, analysesDir, ledgerDir, out) {
@@ -162,6 +164,93 @@ for (const m of ttArticle.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
   const u = new URL(m[1]);
   assert.ok(u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname), `ledger source link on the allowlist: ${m[1]}`);
 }
+
+
+
+// ---- Conditional Approvals row-grain ledger (U5) ----
+// Data-layer coverage: rowGrainRows and the status helper are pure functions. The row-grain page
+// template and its HTML render assertions (3 rendered rows, pending cells, exports) land with the
+// template in U6; here we prove the assembled row data those assertions will build on.
+const approvalsMesh = JSON.parse(fs.readFileSync(
+  path.join(root, "tests/fixtures/analyses/fixture-approvals/mesh.json"), "utf8"));
+// Two double-tagged member Records, shaped as records.js emits them (only the fields the assembler reads).
+const mkRec = (id, doc_date, docket, title, lists) => ({
+  id, doc_date, docket, title, url: `/records/${id}/`, copy: `/records/${id}/source.pdf`,
+  lists: lists.map((slug) => ({ slug })),
+});
+const PN1 = "2025-08-10-fix-approvals-pn1-aa0001";
+const PN2 = "2025-09-15-fix-approvals-pn2-aa0002";
+const approvalsRecords = [
+  mkRec(PN1, "2025-08-10", "DA 26-000; ET Docket No. 21-232", "Fixture Conditional Approval Notice One",
+        ["covered-list", "conditional-approval"]),
+  mkRec(PN2, "2025-09-15", "DA 26-001; ET Docket No. 21-232", "Fixture Conditional Approval Notice Two",
+        ["covered-list", "conditional-approval"]),
+];
+const asof = new Date("2026-09-27T00:00:00Z");
+const dayOut = (n) => { const d = new Date(asof); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+
+// statusOf: the single rule used at build and (in U6) in the browser (R6).
+assert.equal(statusOf(null, asof), "active", "no termination date is active");
+assert.equal(statusOf(dayOut(-1), asof), "expired", "yesterday is expired");
+assert.equal(statusOf(dayOut(30), asof), "expiring", "30 days out is expiring");
+assert.equal(statusOf(dayOut(120), asof), "active", "120 days out is active");
+assert.equal(statusOf(dayOut(90), asof), "expiring", "exactly 90 days out is expiring");
+assert.equal(EXPIRING_DAYS, 90, "the shared threshold is 90 days");
+assert.equal(daOfDocket("DA 26-957; ET Docket 21-232"), "DA 26-957", "the DA token is read from the docket");
+assert.equal(daOfDocket("ISP-PDR-20200101-00001"), "", "a docket with no DA token yields empty");
+assert.equal(NO_MODELS_SENTINEL, "(no models stated)", "the shared no-models sentinel");
+
+const approvalsRows = rowGrainRows(approvalsMesh, approvalsRecords, asof);
+// Two accepted rows for PN1 plus one placeholder for PN2 (R1, R2).
+assert.equal(approvalsRows.length, 3, "two accepted rows and one placeholder");
+const byRowId = Object.fromEntries(approvalsRows.map((r) => [r.id, r]));
+// R4: the synthetic row id is stable across builds.
+assert.deepEqual(rowGrainRows(approvalsMesh, approvalsRecords, asof).map((r) => r.id),
+  approvalsRows.map((r) => r.id), "row ids are stable across two builds");
+const routers = byRowId["da-26-000-fixture-co-routers"];
+assert.ok(routers, "the router grant keeps its synthetic row id (R4)");
+assert.equal(routers.record_id, PN1, "the row back-points at its member Record");
+assert.equal(routers.doc_date, "2025-08-10", "PN date is joined from the Record, never stored on the row");
+assert.equal(routers.da, "DA 26-000", "DA token is joined from the docket");
+assert.equal(routers.record_url, `/records/${PN1}/`, "row links its Record");
+assert.equal(routers.pdf_url, `/records/${PN1}/source.pdf`, "row links its stored PDF");
+assert.deepEqual(routers.models, ["Model X, Rev 2", "Series 9000"], "models come from the entry text");
+assert.equal(routers.category, "routers");
+assert.equal(routers.issuer, "DoW");
+assert.equal(routers.status_at_build, "active", "a far-future termination is active at build");
+assert.equal(routers.placeholder, false);
+assert.deepEqual(routers.lists, ["routers", "active"], "chip tokens are category + build status");
+assert.match(routers.search, /fixture co/, "search carries the entity");
+assert.match(routers.search, /da 26-000/, "search carries the DA");
+assert.equal(routers.pending.category, false, "an extracted category is not pending");
+// The amendment folds onto the row and marks the amending Record covered (no placeholder for it).
+assert.equal(routers.amendments.length, 1, "the amendment rides the row");
+assert.equal(routers.amendments[0].record_id, "2026-03-10-fix-approvals-amend-aa0003", "amendment names its Record");
+assert.equal(routers.amendments[0].page, 3, "amendment carries its page citation");
+
+// R8: the no-models sentinel becomes an empty models list flagged pending, never literal text.
+const uas = byRowId["da-26-000-widgetworks-uas"];
+assert.deepEqual(uas.models, [], "the sentinel yields an empty models list");
+assert.equal(uas.pending.models, true, "an empty models list is a pending marker");
+assert.doesNotMatch(uas.search, /no models stated/, "the sentinel never leaks into search");
+assert.equal(uas.status_at_build, "active", "a null termination is active");
+
+// Placeholder row for the member PN with no entry (R1): every column pending, its Record linked.
+const placeholder = approvalsRows.find((r) => r.placeholder);
+assert.equal(placeholder.record_id, PN2, "the placeholder is the un-extracted member");
+assert.equal(placeholder.record_url, `/records/${PN2}/`, "the placeholder links its Record");
+for (const k of ["models", "category", "issuer", "termination_date"]) {
+  assert.equal(placeholder.pending[k], true, `placeholder ${k} is pending`);
+}
+
+// R3: a member that loses the conditional-approval tag drops all of its rows.
+const untagged = approvalsRecords.map((r) => r.id === PN1 ? { ...r, lists: [{ slug: "covered-list" }] } : r);
+const afterDrop = rowGrainRows(approvalsMesh, untagged, asof);
+assert.ok(!afterDrop.some((r) => r.record_id === PN1), "dropping the tag removes both of PN1's rows");
+assert.equal(afterDrop.length, 1, "only PN2's placeholder remains");
+
+// Rows are newest-first by PN date, then by id (the PN2 placeholder is newer than PN1's grants).
+assert.equal(approvalsRows[0].id, PN2, "the newest PN (the placeholder) sorts first");
 
 
 // ---- ledger page (U6/U7) ----
