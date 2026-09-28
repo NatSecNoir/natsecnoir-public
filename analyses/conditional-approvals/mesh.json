@@ -7,7 +7,6 @@
   "profile": "conditional-approval",
   "membership": {
     "lists_all": [
-      "covered-list",
       "conditional-approval"
     ]
   },
@@ -1071,7 +1070,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "",
-  "currency_date": "2026-09-27",
+  "published_at": "2026-09-28T01:46:57Z",
+  "currency_date": "2026-09-28",
   "last_changed": "2026-09-28T01:37:55Z"
 }
