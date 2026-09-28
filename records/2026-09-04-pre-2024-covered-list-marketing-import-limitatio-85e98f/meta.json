@@ -7,9 +7,7 @@
   "doc_date": "2026-06-26",
   "docket": "DA 26-635; PS Docket No. 26-72",
   "lists": [
-    "covered-list",
-    "icts",
-    "litigation"
+    "covered-list"
   ],
   "entities": [
     "Federal Communications Commission",
@@ -25,7 +23,7 @@
   "notes": "",
   "source_file": "source.pdf",
   "sha256": "85e98f866af9f559c9795240cf9886cbc298e6dbf6ecd2fa20fa1ef2318cfeab",
-  "approved_at": "2026-09-06T02:57:45Z",
+  "approved_at": "2026-09-28T02:54:45Z",
   "published_at": "2026-09-06T11:20:38Z",
   "reason": "",
   "error": "",
