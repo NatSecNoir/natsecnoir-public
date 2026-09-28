@@ -509,7 +509,8 @@
    "doc_date": "2026-07-22",
    "docket": "FCC-26-50; ET Docket No. 21-232",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "litigation"
    ],
    "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf",
@@ -517,7 +518,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "b3934bd20d16827f3c65b5c52d1d37959a5db8de699da90f2877298e0043e70c",
-   "approved_at": "2026-09-07T02:50:02Z",
+   "approved_at": "2026-09-28T03:18:23Z",
    "published_at": "2026-09-07T02:51:05Z",
    "reason": "",
    "error": "",
@@ -527,7 +528,8 @@
    "files": [
     "meta.json",
     "summary.md",
-    "source.pdf"
+    "source.pdf",
+    "text.json"
    ]
   },
   {
@@ -3137,7 +3139,8 @@
    "doc_date": "2022-11-11",
    "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
    "lists": [
-    "covered-list"
+    "covered-list",
+    "litigation"
    ],
    "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-22-84A1_Rcd.pdf",
@@ -3155,7 +3158,8 @@
    "files": [
     "meta.json",
     "summary.md",
-    "source.pdf"
+    "source.pdf",
+    "text.json"
    ]
   },
   {
