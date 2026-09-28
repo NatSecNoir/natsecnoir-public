@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "title": "Conditional Approvals (fixture)",
+  "kind": "ledger",
+  "grain": "row",
+  "profile": "conditional-approval",
+  "feed": false,
+  "excerpt": "Fixture Conditional Approvals ledger: one row per entity × device category granted an exemption from the Covered List.",
+  "membership": {
+    "lists_all": ["covered-list", "conditional-approval"]
+  },
+  "currency_date": "2026-03-01",
+  "last_changed": "2026-02-25",
+  "entries": [
+    {
+      "key": "da-26-000-fixture-co-routers",
+      "kind": "approval",
+      "label": "Fixture Co",
+      "text": "Model X, Rev 2\nSeries 9000",
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2027-06-30",
+        "record_id": "2025-08-10-fix-approvals-pn1-aa0001"
+      },
+      "record_id": "2025-08-10-fix-approvals-pn1-aa0001",
+      "amendments": [
+        {
+          "record_id": "2026-03-10-fix-approvals-amend-aa0003",
+          "page": 3,
+          "note": "termination extended to 2027-06-30"
+        }
+      ],
+      "date": "2026-02-25",
+      "source": "overlay"
+    },
+    {
+      "key": "da-26-000-widgetworks-uas",
+      "kind": "approval",
+      "label": "Widgetworks",
+      "text": "(no models stated)",
+      "fields": {
+        "category": "uas",
+        "issuer": "DHS",
+        "termination_date": null,
+        "record_id": "2025-08-10-fix-approvals-pn1-aa0001"
+      },
+      "record_id": "2025-08-10-fix-approvals-pn1-aa0001",
+      "date": "2026-02-25",
+      "source": "overlay"
+    }
+  ],
+  "footnotes": [],
+  "sources": {},
+  "manifest": [],
+  "pending": [],
+  "archive": [],
+  "ledger": [],
+  "runs": [],
+  "published_at": "2026-02-25T00:00:00Z"
+}
