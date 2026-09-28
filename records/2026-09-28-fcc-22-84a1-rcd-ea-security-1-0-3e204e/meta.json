@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-28-fcc-22-84a1-rcd-ea-security-1-0-3e204e",
+  "status": "approved",
+  "ingested_at": "2026-09-28T02:46:57Z",
+  "title": "FCC-22-84A1_Rcd-EA-Security-1.0",
+  "issuing_body": "FCC",
+  "doc_date": "2022-11-11",
+  "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-22-84A1_Rcd.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "3e204ef811331dce2f73fbe91a919f7fdd393f9298610f92748fbc6938932dbd",
+  "approved_at": "2026-09-28T02:51:09Z",
+  "published_at": "2026-09-28T02:53:21Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-09-28T02:47:06Z"
+}
