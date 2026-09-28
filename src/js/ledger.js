@@ -10,6 +10,7 @@
   var q = document.getElementById("q");
   var count = document.getElementById("count");
   var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
+  var noun = table.getAttribute("data-noun") || "entities";
   var noresults = tbody.querySelector(".noresults");
 
   function rowPairs() {
@@ -21,26 +22,33 @@
   }
   var pairs = rowPairs();
 
-  function activeChips() {
-    return chips.filter(function (c) { return c.getAttribute("aria-pressed") === "true"; })
-                .map(function (c) { return c.getAttribute("data-list"); });
+  function activeByGroup() {
+    var g = {};
+    chips.forEach(function (c) {
+      if (c.getAttribute("aria-pressed") !== "true") return;
+      var grp = c.getAttribute("data-group") || "";
+      (g[grp] = g[grp] || []).push(c.getAttribute("data-list"));
+    });
+    return g;
   }
   function apply() {
     var words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
-    var lists = activeChips();
+    var groups = activeByGroup();
     var shown = 0;
     pairs.forEach(function (p) {
       var hay = p.main.getAttribute("data-search") || "";
       var rowLists = (p.main.getAttribute("data-lists") || "").split(/\s+/);
       var textOk = words.every(function (w) { return hay.indexOf(w) >= 0; });
-      var listOk = !lists.length || lists.some(function (s) { return rowLists.indexOf(s) >= 0; });
+      var listOk = Object.keys(groups).every(function (grp) {
+        return groups[grp].some(function (s) { return rowLists.indexOf(s) >= 0; });
+      });
       var show = textOk && listOk;
       p.main.hidden = !show;
       if (p.detail && !show) { p.detail.hidden = true; }
       if (show) shown++;
     });
     if (noresults) noresults.hidden = shown !== 0;
-    if (count) count.textContent = shown + " of " + pairs.length + " entities";
+    if (count) count.textContent = shown + " of " + pairs.length + " " + noun;
   }
 
   if (q) {
@@ -62,10 +70,13 @@
     var open = detail.hidden;
     detail.hidden = !open;
     btn.setAttribute("aria-expanded", open ? "true" : "false");
+    btn.textContent = open ? "\u2212" : "+"; // minus sign when expanded
+    btn.setAttribute("aria-label", open ? "Hide details" : "Show details");
   });
 
   var headers = table.querySelectorAll("th");
   function cellValue(pair, idx, key) {
+    if (key === "status") return pair.main.getAttribute("data-status") || "zzz";
     if (key === "added") {
       var t = pair.main.cells[idx].textContent.trim();
       return t || "0000-00-00";
