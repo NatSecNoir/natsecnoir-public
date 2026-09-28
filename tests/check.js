@@ -183,9 +183,9 @@ const PN1 = "2025-08-10-fix-approvals-pn1-aa0001";
 const PN2 = "2025-09-15-fix-approvals-pn2-aa0002";
 const approvalsRecords = [
   mkRec(PN1, "2025-08-10", "DA 26-000; ET Docket No. 21-232", "Fixture Conditional Approval Notice One",
-        ["covered-list", "conditional-approval"]),
+        ["conditional-approval"]),
   mkRec(PN2, "2025-09-15", "DA 26-001; ET Docket No. 21-232", "Fixture Conditional Approval Notice Two",
-        ["covered-list", "conditional-approval"]),
+        ["conditional-approval"]),
 ];
 const asof = new Date("2026-09-27T00:00:00Z");
 const dayOut = (n) => { const d = new Date(asof); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
