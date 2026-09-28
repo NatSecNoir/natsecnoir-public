@@ -35,7 +35,26 @@ export default function () {
     let led;
     if (grain === "row") {
       const rows = rowGrainRows(mesh, records, today);
-      led = { ...mesh, rows, count: rows.length, expiring_days: EXPIRING_DAYS, currency_date };
+      // Machine-readable export: accepted rows only (placeholders are un-extracted, so they carry
+      // no status or models and are excluded from the CSV/JSON per R12).
+      const exportRows = rows
+        .filter((r) => !r.placeholder)
+        .map((r) => ({
+          id: r.id, record_id: r.record_id, entity: r.entity, category: r.category,
+          issuer: r.issuer, models: r.models, pn_date: r.doc_date,
+          termination_date: r.termination_date, status: r.status_at_build, da: r.da,
+          record_url: r.record_url, pdf_url: r.pdf_url, source_url: r.source_url,
+        }));
+      const authority_url = "https://www.fcc.gov/supplychain/coveredlist";
+      const built_at = today.toISOString();
+      const pending_records = rows.filter((r) => r.placeholder).length;
+      // Distinct categories present among accepted rows, for the category chip group.
+      const categories = [...new Set(rows.filter((r) => !r.placeholder).map((r) => r.category).filter(Boolean))].sort();
+      led = {
+        ...mesh, rows, count: rows.length, expiring_days: EXPIRING_DAYS, currency_date,
+        built_at, authority_url, pending_records, categories, export_rows: exportRows,
+        export_json: { built_at, currency_date, authority_url, expiring_days: EXPIRING_DAYS, pending_records, rows: exportRows },
+      };
       rowGrain.push(led);
     } else {
       const rows = recordGrainRows(mesh, records);

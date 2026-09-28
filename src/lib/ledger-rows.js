@@ -121,7 +121,7 @@ export function rowGrainRows(mesh, records, today) {
     rows.push({
       id: e.key, record_id: rid, doc_date: rec ? rec.doc_date : "", da,
       entity, category, issuer, models, termination_date, status_at_build,
-      record_url: rec ? rec.url : "", pdf_url: pdfOf(rec), amendments,
+      record_url: rec ? rec.url : "", pdf_url: pdfOf(rec), source_url: (rec && rec.source_url) || "", amendments,
       pending: { models: noModels, category: !category, issuer: !issuer, termination_date: false },
       search, lists: [category, status_at_build].filter(Boolean), placeholder: false,
     });
@@ -135,7 +135,7 @@ export function rowGrainRows(mesh, records, today) {
     rows.push({
       id: r.id, record_id: r.id, doc_date: r.doc_date, da,
       entity, category: "", issuer: "", models: [], termination_date: null, status_at_build: "",
-      record_url: r.url, pdf_url: pdfOf(r), amendments: [],
+      record_url: r.url, pdf_url: pdfOf(r), source_url: r.source_url || "", amendments: [],
       pending: { models: true, category: true, issuer: true, termination_date: true },
       search: [entity, da].filter(Boolean).join(" ").toLowerCase().replace(/\s+/g, " "),
       lists: [], placeholder: true,
