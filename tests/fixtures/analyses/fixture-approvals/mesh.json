@@ -7,7 +7,7 @@
   "feed": false,
   "excerpt": "Fixture Conditional Approvals ledger: one row per entity × device category granted an exemption from the Covered List.",
   "membership": {
-    "lists_all": ["covered-list", "conditional-approval"]
+    "lists_all": ["conditional-approval"]
   },
   "currency_date": "2026-03-01",
   "last_changed": "2026-02-25",
