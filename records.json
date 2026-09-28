@@ -1,5 +1,5 @@
 {
- "count": 114,
+ "count": 115,
  "records": [
   {
    "id": "2026-09-27-26-1049-2194984-ede67c",
@@ -1062,6 +1062,36 @@
    "duplicate_of": "",
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:59:05Z",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "source.pdf"
+   ]
+  },
+  {
+   "id": "2026-09-28-20260161958-openai-deliberate-alignment-patent-a3f64c",
+   "status": "approved",
+   "ingested_at": "2026-09-28T02:13:57Z",
+   "title": "20260161958 OpenAI Deliberate Alignment Patent",
+   "issuing_body": "USPTO",
+   "doc_date": "2026-06-11",
+   "docket": "US 2026/0161958 A1; Appl. No. 19/379,423",
+   "lists": [],
+   "entities": [
+    "OpenAI"
+   ],
+   "source_url": "",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a3f64cc5bf2724cff31e3d5e93b5ba439742af67044db3629008e2546669e473",
+   "approved_at": "2026-09-28T02:20:18Z",
+   "published_at": "2026-09-28T02:20:18Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-09-28T02:14:16Z",
    "files": [
     "meta.json",
     "summary.md",
