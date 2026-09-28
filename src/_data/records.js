@@ -33,8 +33,9 @@ function slug(s) {
 }
 
 export default function () {
-  if (!fs.existsSync(root)) return { all: [], byList: [], byAgency: [] };
+  if (!fs.existsSync(root)) return { all: [], withText: [], byList: [], byAgency: [] };
   const all = [];
+  const withText = [];
   for (const id of fs.readdirSync(root).sort()) {
     const dir = path.join(root, id);
     const metaPath = path.join(dir, "meta.json");
@@ -45,6 +46,10 @@ export default function () {
     const files = fs.readdirSync(dir);
     const copy = ["source.pdf", "source.html", "source.txt"].find((f) => files.includes(f));
     const ex = excerpt(summary);
+    // Litigation records carry their page text (text.json, written by the mirror); it gets its own page
+    // and stays off the record object so list/feed data does not carry whole opinions.
+    const textPath = path.join(dir, "text.json");
+    const text = files.includes("text.json") ? JSON.parse(fs.readFileSync(textPath, "utf8")) : null;
     const fmt = ((copy || meta.source_url || "").match(/\.(pdf|html?|txt)(\?|#|$)/i) || [])[1] || "";
     all.push({
       ...meta,
@@ -55,13 +60,16 @@ export default function () {
       ...splitExcerpt(ex),
       format: fmt ? fmt.toUpperCase().replace("HTM", "HTML") : "",
       url: `/records/${id}/`,
+      textUrl: text ? `/records/${id}/text/` : "",
       copy: meta.source_copy_public && copy ? `/records/${id}/${copy}` : "",
       lists: (meta.lists || []).map((l) => ({ slug: l, label: labelOf(l) })),
       agencySlug: slug(meta.issuing_body || "unknown"),
+      textPages: text ? text.pages.length : 0,
       search: [meta.title, meta.issuing_body, meta.doc_type, meta.docket, meta.doc_date,
         ...(meta.lists || []).map(labelOf), ...(meta.entities || []), ex]
         .filter(Boolean).join(" | ").toLowerCase().replace(/\s+/g, " "),
     });
+    if (text) withText.push({ r: all[all.length - 1], pages: text.pages, corrected: text.corrected_pages || 0 });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
 
@@ -98,6 +106,7 @@ export default function () {
   };
   return {
     all,
+    withText,
     byList: group((r) => r.lists.map((l) => ({ ...l, gloss: (listInfo[l.slug] || {}).gloss }))),
     byAgency: group((r) => [{ slug: r.agencySlug, label: r.issuing_body || "Unknown" }]),
   };
