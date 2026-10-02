@@ -11,8 +11,7 @@ function linesOf(entry) {
   return (entry && entry.text ? entry.text.split("\n") : []).map((t) => t.trim()).filter(Boolean);
 }
 
-// The stored copy is the only source link on the page: its R2 URL, or a /records/<id>/... path
-// for a record the mirror has not uploaded.
+// The stored copy is the only source link on the page: its R2 URL.
 const pdfOf = (r) => (r && r.copy) || "";
 
 // Whether a Record carries every membership slug the mesh requires.

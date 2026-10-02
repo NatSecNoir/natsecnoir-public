@@ -42,18 +42,30 @@ assert.match(page, /barring untrusted labs/, "shows the summary");
 assert.match(page, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/, "raw HTML in a summary is escaped");
 assert.doesNotMatch(page, /<script>alert/, "raw HTML in a summary is not markup");
 assert.match(page, /&lt;b&gt;bold&lt;\/b&gt; in the title/, "raw HTML in a title is escaped");
-assert.ok(fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/source.pdf")), "stored copy is published");
+// Stored copies live on R2 only: none is built into the site (also keeps every file under Pages' 25 MiB cap).
+assert.ok(!fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/source.pdf")), "stored copy is not built into the site");
+assert.ok(fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/meta.json")), "record meta.json is still published");
+for (const dir of fs.readdirSync(path.join(outFix, "records"))) {
+  for (const f of fs.readdirSync(path.join(outFix, "records", dir))) assert.ok(!f.startsWith("source."), `no source.* in the build: ${dir}/${f}`);
+}
+assert.ok(fs.existsSync(path.join(outFix, "ledger/ledger.json")), "ledger.json is published");
+assert.ok(!fs.existsSync(path.join(outFix, "ledger/archive")), "ledger archives are not built into the site");
 // Stored copies on R2: the record links its copy_url; a record without one falls back to the repo copy.
 assert.match(page, /href="https:\/\/docs\.natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/source-0123abcd\.pdf">Stored copy</, "stored copy links its R2 URL");
 assert.doesNotMatch(page, /href="\/records\/2026-01-01-fixture-order-aaaaaa\/source\.pdf"/, "no repo-copy link when R2 has it");
-const fallback = fs.readFileSync(path.join(outFix, "records/2017-10-20-fix-gigsky-2017-cccc03/index.html"), "utf8");
-assert.match(fallback, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/source\.pdf">Stored copy</, "without copy_url the repo copy is linked");
+const noCopy = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/index.html"), "utf8");
+assert.doesNotMatch(noCopy, /Stored copy/, "a record without a public copy shows no stored-copy link");
 // _redirects (Cloudflare Pages) sends old repo paths to R2: one rule per uploaded copy and per archive, nothing else.
 const redirects = fs.readFileSync(path.join(outFix, "_redirects"), "utf8").trim().split("\n");
-assert.deepEqual(redirects, [
-  "/records/2026-01-01-fixture-order-aaaaaa/source.pdf https://docs.natsecnoir.com/records/2026-01-01-fixture-order-aaaaaa/source-0123abcd.pdf 301",
+const copyRules = redirects.filter((l) => l.startsWith("/records/"));
+assert.equal(copyRules.length, fs.readdirSync(path.join(root, "tests/fixtures/records")).filter((id) => {
+  const m = JSON.parse(fs.readFileSync(path.join(root, "tests/fixtures/records", id, "meta.json"), "utf8"));
+  return m.status === "approved" && m.source_copy_public && m.copy_url;
+}).length, "one redirect per uploaded copy");
+assert.deepEqual(redirects.filter((l) => !l.startsWith("/records/")).concat(copyRules.filter((l) => l.includes("fixture-order-aaaaaa"))), [
   "/ledger/archive/2026-06-01.html https://docs.natsecnoir.com/ledger/archive/2026-06-01-aaaa0001.html 301",
   "/ledger/archive/2026-09-12.html https://docs.natsecnoir.com/ledger/archive/2026-09-12-bbbb0002.html 301",
+  "/records/2026-01-01-fixture-order-aaaaaa/source.pdf https://docs.natsecnoir.com/records/2026-01-01-fixture-order-aaaaaa/source-0123abcd.pdf 301",
 ], "redirects map old copy and archive paths to R2");
 assert.ok(!fs.existsSync(path.join(outFix, "records/2025-06-01-fixture-draft-cccccc")), "a non-approved folder is not rendered");
 const feedIdx = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
@@ -100,7 +112,7 @@ assert.match(newco, /2020-01-01/, "AE1 row shows the doc date");
 assert.match(newco, /NewCo Letter of Agreement/, "AE1 row shows the record title as company");
 assert.match(newco, /ISP-PDR-20200101-00001/, "AE1 row shows the docket");
 assert.match(newco, /href="\/records\/2020-01-01-fix-loa-newco-aaaa01\/">record<\/a>/, "AE1 row links its record");
-assert.match(newco, /href="\/records\/2020-01-01-fix-loa-newco-aaaa01\/source\.pdf"/, "AE1 row links its stored PDF");
+assert.match(newco, /href="https:\/\/docs\.natsecnoir\.com\/records\/2020-01-01-fix-loa-newco-aaaa01\/source-aaaa0100\.pdf"/, "AE1 row links its stored PDF");
 assert.equal((newco.match(/class="pending"/g) || []).length, 4, "AE1 row shows four pending markers");
 
 // AE2: Gigsky is one parent row dated by the 2022 instrument, with a fold note and a history row for
@@ -113,7 +125,7 @@ const gigDetail = ttDetail("2022-05-05-fix-gigsky-2022-bbbb02").replace(/\s+/g, 
 assert.match(gigDetail, /Instrument history/, "AE2 detail row has an instrument-history block");
 assert.match(gigDetail, /superseded<\/span>GigSky \(2017 LOA\)/, "AE2 history tags the 2017 instrument superseded");
 assert.match(gigDetail, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/">record<\/a>/, "AE2 history links the 2017 record");
-assert.match(gigDetail, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/source\.pdf"/, "AE2 history links the 2017 PDF");
+assert.match(gigDetail, /href="https:\/\/docs\.natsecnoir\.com\/records\/2017-10-20-fix-gigsky-2017-cccc03\/source-cccc0300\.pdf"/, "AE2 history links the 2017 PDF");
 // The folded 2017 instrument has no row of its own.
 assert.ok(!ttMainRows.some((r) => r.includes("/records/2017-10-20-fix-gigsky-2017-cccc03/")), "the superseded 2017 instrument is not a standalone row");
 
@@ -172,13 +184,14 @@ assert.doesNotMatch(feedIdx, /\/analyses\/fixture-ledger\//, "the ledger is not 
 assert.doesNotMatch(feed, /fixture-ledger/, "the ledger is not in the RSS feed");
 
 // Degradation + safety: every row is present without JS, and every absolute href in the article is
-// on the same .gov/.mil allowlist the watch-lists page uses (there should be none — links are relative).
+// on the same .gov/.mil allowlist the watch-lists page uses, or is a stored copy on our document host.
 assert.doesNotMatch(tt, /<tr class="row[^"]*" hidden/, "ledger rows are visible without JS");
 assert.match(tt, /<script src="\/js\/ledger\.js" defer><\/script>/, "the ledger reuses ledger.js");
 const ttArticle = tt.slice(tt.indexOf('<article class="ledger-page">'), tt.indexOf("</article>"));
 for (const m of ttArticle.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
   const u = new URL(m[1]);
-  assert.ok(u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname), `ledger source link on the allowlist: ${m[1]}`);
+  const ownCopy = u.hostname === "docs.natsecnoir.com" && u.pathname.startsWith("/records/");
+  assert.ok(u.protocol === "https:" && (ownCopy || /(^|\.)(gov|mil)$/i.test(u.hostname)), `ledger source link on the allowlist: ${m[1]}`);
 }
 
 
@@ -191,7 +204,7 @@ const approvalsMesh = JSON.parse(fs.readFileSync(
   path.join(root, "tests/fixtures/analyses/fixture-approvals/mesh.json"), "utf8"));
 // Two double-tagged member Records, shaped as records.js emits them (only the fields the assembler reads).
 const mkRec = (id, doc_date, docket, title, lists) => ({
-  id, doc_date, docket, title, url: `/records/${id}/`, copy: `/records/${id}/source.pdf`,
+  id, doc_date, docket, title, url: `/records/${id}/`, copy: `https://docs.natsecnoir.com/records/${id}/source-${id.slice(-6)}00.pdf`,
   lists: lists.map((slug) => ({ slug })),
 });
 const PN1 = "2025-08-10-fix-approvals-pn1-aa0001";
@@ -229,7 +242,7 @@ assert.equal(routers.record_id, PN1, "the row back-points at its member Record")
 assert.equal(routers.doc_date, "2025-08-10", "PN date is joined from the Record, never stored on the row");
 assert.equal(routers.da, "DA 26-000", "DA token is joined from the docket");
 assert.equal(routers.record_url, `/records/${PN1}/`, "row links its Record");
-assert.equal(routers.pdf_url, `/records/${PN1}/source.pdf`, "row links its stored PDF");
+assert.equal(routers.pdf_url, `https://docs.natsecnoir.com/records/${PN1}/source-${PN1.slice(-6)}00.pdf`, "row links its stored PDF on R2");
 assert.deepEqual(routers.models, ["Model X, Rev 2", "Series 9000"], "models come from the entry text");
 assert.equal(routers.category, "routers");
 assert.equal(routers.issuer, "DoW");

@@ -44,13 +44,12 @@ export default function () {
     if (meta.status !== "approved") continue;
     const summary = fs.existsSync(path.join(dir, "summary.md")) ? fs.readFileSync(path.join(dir, "summary.md"), "utf8") : "";
     const files = fs.readdirSync(dir);
-    const copy = ["source.pdf", "source.html", "source.txt"].find((f) => files.includes(f));
     const ex = excerpt(summary);
     // Litigation records carry their page text (text.json, written by the mirror); it gets its own page
     // and stays off the record object so list/feed data does not carry whole opinions.
     const textPath = path.join(dir, "text.json");
     const text = files.includes("text.json") ? JSON.parse(fs.readFileSync(textPath, "utf8")) : null;
-    const fmt = ((copy || meta.source_url || "").match(/\.(pdf|html?|txt)(\?|#|$)/i) || [])[1] || "";
+    const fmt = ((meta.copy_url || meta.source_url || "").match(/\.(pdf|html?|txt)(\?|#|$)/i) || [])[1] || "";
     all.push({
       ...meta,
       id,
@@ -61,8 +60,8 @@ export default function () {
       format: fmt ? fmt.toUpperCase().replace("HTM", "HTML") : "",
       url: `/records/${id}/`,
       textUrl: text ? `/records/${id}/text/` : "",
-      // Stored copy: its R2 URL (`copy_url`, written by the mirror) when present, else the repo copy.
-      copy: !meta.source_copy_public ? "" : meta.copy_url || (copy ? `/records/${id}/${copy}` : ""),
+      // Stored copy: its R2 URL (`copy_url`, written by the mirror when it uploads a public copy).
+      copy: meta.source_copy_public && meta.copy_url ? meta.copy_url : "",
       lists: (meta.lists || []).map((l) => ({ slug: l, label: labelOf(l) })),
       agencySlug: slug(meta.issuing_body || "unknown"),
       textPages: text ? text.pages.length : 0,

@@ -45,6 +45,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
   // Each approved record's public files are published at /records/<id>/<name>, the same path as in
   // the repo (Eleventy's glob passthrough would flatten them). Non-approved folders are skipped.
+  // Stored copies are not among them: they live on R2 (meta.copy_url), and old /records/<id>/source.*
+  // paths 301 there via _redirects. Keeping them out also keeps every file under Pages' 25 MiB cap.
   eleventyConfig.on("eleventy.after", ({ dir }) => {
     if (!fs.existsSync(records)) return;
     for (const id of fs.readdirSync(records)) {
@@ -55,8 +57,7 @@ export default function (eleventyConfig) {
       if (meta.status !== "approved") continue;
       const dst = path.join(dir.output, "records", id);
       fs.mkdirSync(dst, { recursive: true });
-      for (const name of ["meta.json", "summary.md", "source.pdf", "source.html", "source.txt"]) {
-        if (name.startsWith("source.") && !meta.source_copy_public) continue;
+      for (const name of ["meta.json", "summary.md"]) {
         if (fs.existsSync(path.join(src, name))) fs.copyFileSync(path.join(src, name), path.join(dst, name));
       }
     }
@@ -66,10 +67,11 @@ export default function (eleventyConfig) {
   const analyses = process.env.ANALYSES_DIR || "analyses";
   if (fs.existsSync(analyses)) eleventyConfig.addPassthroughCopy({ [analyses]: "analyses" });
   if (fs.existsSync("analyses.json")) eleventyConfig.addPassthroughCopy({ "analyses.json": "analyses.json" });
-  // The built ledger + its self-contained archives are served at /ledger/ so the page's
-  // Download-archive link resolves and each archive opens on its own (written by `noir ledger publish`).
+  // The built ledger is served at /ledger/ledger.json (written by `noir ledger publish`). Its archives
+  // live on R2 (ledger.archive_urls); old /ledger/archive/ paths 301 there via _redirects.
   const ledger = process.env.LEDGER_DIR || "ledger";
-  if (fs.existsSync(ledger)) eleventyConfig.addPassthroughCopy({ [ledger]: "ledger" });
+  if (fs.existsSync(path.join(ledger, "ledger.json")))
+    eleventyConfig.addPassthroughCopy({ [path.join(ledger, "ledger.json")]: "ledger/ledger.json" });
 
   // RSS: src/feed.njk renders records newest-first with the summary as the item body; the plugin supplies the filters.
   eleventyConfig.addPlugin(pluginRss);
