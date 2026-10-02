@@ -83205,5 +83205,9 @@
       "date_added_first": ""
     }
   ],
+  "archive_urls": {
+    "2026-09-13.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-13-1f5c06bd.html",
+    "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html"
+  },
   "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html"
 }
