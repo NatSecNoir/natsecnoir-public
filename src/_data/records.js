@@ -61,7 +61,8 @@ export default function () {
       format: fmt ? fmt.toUpperCase().replace("HTM", "HTML") : "",
       url: `/records/${id}/`,
       textUrl: text ? `/records/${id}/text/` : "",
-      copy: meta.source_copy_public && copy ? `/records/${id}/${copy}` : "",
+      // Stored copy: its R2 URL (`copy_url`, written by the mirror) when present, else the repo copy.
+      copy: !meta.source_copy_public ? "" : meta.copy_url || (copy ? `/records/${id}/${copy}` : ""),
       lists: (meta.lists || []).map((l) => ({ slug: l, label: labelOf(l) })),
       agencySlug: slug(meta.issuing_body || "unknown"),
       textPages: text ? text.pages.length : 0,
