@@ -27,6 +27,8 @@ const home = fs.readFileSync(path.join(outEmpty, "index.html"), "utf8");
 assert.match(home, /No records yet/);
 assert.ok(fs.existsSync(path.join(outEmpty, "feed.xml")), "feed.xml with zero records");
 assert.equal(fs.readFileSync(path.join(outEmpty, "_redirects"), "utf8").trim(), "", "no redirects with zero records");
+// A real 404 page: without 404.html, Cloudflare Pages serves the homepage (200) for every missing path.
+assert.match(fs.readFileSync(path.join(outEmpty, "404.html"), "utf8"), /Not in the file/, "404 page builds with zero records");
 assert.ok(fs.existsSync(path.join(outEmpty, "by/list/index.html")), "list hub with zero records");
 // The ledger page builds even with no ledger published, showing the not-yet-published state.
 const ledgerEmpty = fs.readFileSync(path.join(outEmpty, "analyses/supply-chain-watch-lists/index.html"), "utf8");
