@@ -34,7 +34,7 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
     {% endfor %}
     {% if ledger.newest_archive %}
     <div class="row"><div class="meta">Download a self-contained snapshot that opens offline.</div>
-      <div class="meta"><a href="/ledger/archive/{{ ledger.newest_archive }}" download>Download archive ({{ ledger.newest_archive }})</a></div></div>
+      <div class="meta"><a href="{{ ledger.newest_archive_href }}" download>Download archive ({{ ledger.newest_archive }})</a></div></div>
     {% endif %}
   </details>
 
@@ -74,7 +74,7 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
           {{ e.canonical }}
           {% if e.verified %}<span class="vchk" title="Human-checked {{ e.verified.date }} — correct as listed{% if e.verified.note %}: {{ e.verified.note }}{% endif %}">✓</span>{% endif %}
           {% if e.formerly_listed %}<span class="basis"> (formerly listed{% if e.last_archive %} —
-            <a href="/ledger/{{ e.last_archive }}">last archive</a>{% endif %})</span>{% endif %}
+            <a href="{{ e.last_archive_url or ('/ledger/' + e.last_archive) }}">last archive</a>{% endif %})</span>{% endif %}
           {% if e.subsidiaries_note %}<div class="basis">Includes named subsidiaries and affiliates:
             {{ e.subsidiaries | join(', ') }}.</div>{% endif %}
         </td>
