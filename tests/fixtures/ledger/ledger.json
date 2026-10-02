@@ -1,6 +1,8 @@
 {
   "schema": "natsecnoir/ledger@1",
   "compiled_at": "2026-09-12T00:00:00+00:00",
+  "archive_urls": {"2026-06-01.html": "https://docs.natsecnoir.com/ledger/archive/2026-06-01-aaaa0001.html", "2026-09-12.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-12-bbbb0002.html"},
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-09-12-bbbb0002.html",
   "lists": [
     {
       "slug": "covered-list", "label": "FCC Covered List", "chip_class": "chip-covered",
@@ -37,7 +39,7 @@
     {
       "canonical": "Delisted Example Corp", "aka": [], "country": "China",
       "subsidiaries": [], "subsidiaries_note": false,
-      "memberships": [], "formerly_listed": true, "last_archive": "archive/2026-06-01.html",
+      "memberships": [], "formerly_listed": true, "last_archive": "archive/2026-06-01.html", "last_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-06-01-aaaa0001.html",
       "search": "delisted example corp china"
     }
   ]

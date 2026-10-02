@@ -26,6 +26,7 @@ build(empty, noAnalyses, noLedger, outEmpty);
 const home = fs.readFileSync(path.join(outEmpty, "index.html"), "utf8");
 assert.match(home, /No records yet/);
 assert.ok(fs.existsSync(path.join(outEmpty, "feed.xml")), "feed.xml with zero records");
+assert.equal(fs.readFileSync(path.join(outEmpty, "_redirects"), "utf8").trim(), "", "no redirects with zero records");
 assert.ok(fs.existsSync(path.join(outEmpty, "by/list/index.html")), "list hub with zero records");
 // The ledger page builds even with no ledger published, showing the not-yet-published state.
 const ledgerEmpty = fs.readFileSync(path.join(outEmpty, "analyses/supply-chain-watch-lists/index.html"), "utf8");
@@ -40,6 +41,18 @@ assert.match(page, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/, "raw HTML in a su
 assert.doesNotMatch(page, /<script>alert/, "raw HTML in a summary is not markup");
 assert.match(page, /&lt;b&gt;bold&lt;\/b&gt; in the title/, "raw HTML in a title is escaped");
 assert.ok(fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/source.pdf")), "stored copy is published");
+// Stored copies on R2: the record links its copy_url; a record without one falls back to the repo copy.
+assert.match(page, /href="https:\/\/docs\.natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/source-0123abcd\.pdf">Stored copy</, "stored copy links its R2 URL");
+assert.doesNotMatch(page, /href="\/records\/2026-01-01-fixture-order-aaaaaa\/source\.pdf"/, "no repo-copy link when R2 has it");
+const fallback = fs.readFileSync(path.join(outFix, "records/2017-10-20-fix-gigsky-2017-cccc03/index.html"), "utf8");
+assert.match(fallback, /href="\/records\/2017-10-20-fix-gigsky-2017-cccc03\/source\.pdf">Stored copy</, "without copy_url the repo copy is linked");
+// _redirects (Cloudflare Pages) sends old repo paths to R2: one rule per uploaded copy and per archive, nothing else.
+const redirects = fs.readFileSync(path.join(outFix, "_redirects"), "utf8").trim().split("\n");
+assert.deepEqual(redirects, [
+  "/records/2026-01-01-fixture-order-aaaaaa/source.pdf https://docs.natsecnoir.com/records/2026-01-01-fixture-order-aaaaaa/source-0123abcd.pdf 301",
+  "/ledger/archive/2026-06-01.html https://docs.natsecnoir.com/ledger/archive/2026-06-01-aaaa0001.html 301",
+  "/ledger/archive/2026-09-12.html https://docs.natsecnoir.com/ledger/archive/2026-09-12-bbbb0002.html 301",
+], "redirects map old copy and archive paths to R2");
 assert.ok(!fs.existsSync(path.join(outFix, "records/2025-06-01-fixture-draft-cccccc")), "a non-approved folder is not rendered");
 const feedIdx = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
 assert.ok(feedIdx.indexOf("fixture-order-aaaaaa") < feedIdx.indexOf("fixture-notice-bbbbbb"), "feed is newest first");
@@ -314,11 +327,11 @@ assert.match(ledger, /FCC Covered List/, "list label in the provenance strip");
 assert.match(ledger, /as of 2026-06-01/, "list currency date is shown");
 assert.match(ledger, /href="https:\/\/www\.fcc\.gov\/supplychain\/coveredlist"/, "a .gov source link");
 assert.match(ledger, /href="https:\/\/media\.defense\.gov\/2026\/1260h-list\.pdf"/, "a .mil source link");
-// Download-archive link points at a ledger/archive/*.html that exists in the output.
-const dl = ledger.match(/href="(\/ledger\/archive\/[^"]+\.html)" download/);
+// Download-archive link points at the newest archive's R2 URL (the mirror's newest_archive_url).
+const dl = ledger.match(/href="([^"]+)" download>Download archive \(([^)]+)\)/);
 assert.ok(dl, "a Download-archive link is rendered");
-assert.equal(dl[1], "/ledger/archive/2026-09-12.html", "download link points at the newest archive");
-assert.ok(fs.existsSync(path.join(outFix, dl[1].slice(1))), "the downloadable archive exists in the output");
+assert.equal(dl[1], "https://docs.natsecnoir.com/ledger/archive/2026-09-12-bbbb0002.html", "download link points at the newest archive on R2");
+assert.equal(dl[2], "2026-09-12.html", "download label names the newest snapshot");
 // A whitespace-flattened copy for markers that wrap across template lines.
 const flat = ledger.replace(/\s+/g, " ");
 // subsidiaries_note renders the standing note.
@@ -328,13 +341,15 @@ assert.match(ledger, /class="noresults"[^>]*>\s*<td[^>]*>No entities match/, "no
 // A list flagged-but-not-resnapshotted shows the awaiting-re-snapshot marker.
 assert.match(flat, /newer notice detected on 2026-09-01 — awaiting re-snapshot/, "awaiting-re-snapshot marker");
 // An entity dropped from all lists renders the formerly-listed marker with a last-archive link.
-assert.match(flat, /formerly listed — <a href="\/ledger\/archive\/2026-06-01\.html">last archive<\/a>/, "formerly-listed marker with last-archive link");
+assert.match(flat, /formerly listed — <a href="https:\/\/docs\.natsecnoir\.com\/ledger\/archive\/2026-06-01-aaaa0001\.html">last archive<\/a>/, "formerly-listed marker with last-archive link on R2");
 // Every absolute source href in the ledger article is https on the .gov/.mil allowlist (the base
 // layout's own links — newsletter, repo — are outside the article and not source links).
 const article = ledger.slice(ledger.indexOf('<article class="ledger-page">'), ledger.indexOf("</article>"));
 for (const m of article.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
   const u = new URL(m[1]);
-  assert.ok(u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname), `source link is on the .gov/.mil allowlist: ${m[1]}`);
+  // Archive links go to NatSec Noir's own snapshots on its document host, not to a source.
+  const ownArchive = u.hostname === "docs.natsecnoir.com" && u.pathname.startsWith("/ledger/archive/");
+  assert.ok(u.protocol === "https:" && (ownArchive || /(^|\.)(gov|mil)$/i.test(u.hostname)), `source link is on the .gov/.mil allowlist: ${m[1]}`);
 }
 // The interaction script is wired up and shipped.
 assert.match(ledger, /<script src="\/js\/ledger\.js" defer><\/script>/, "ledger.js is referenced");
