@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 {#- Cloudflare Pages redirect rules (GitHub Pages serves this as an inert file). Stored copies and ledger
     archives moved to R2 under content-hashed keys, so the old repo paths that were cited, bookmarked, or
     exported in CSV/JSON 301 to the current object. Generated from the URLs the mirror writes. -#}
-{% for r in records.all %}{% if r.copy_url and r.copy == r.copy_url -%}
+{% for r in records.all %}{% if r.copy -%}
 /records/{{ r.id }}/source.{{ r.copy_url.split(".") | last }} {{ r.copy_url }} 301
 {% endif %}{% endfor %}{% for name, url in ledger.archive_urls -%}
 /ledger/archive/{{ name }} {{ url }} 301
