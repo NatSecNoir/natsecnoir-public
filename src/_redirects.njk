@@ -2,7 +2,7 @@
 permalink: /_redirects
 eleventyExcludeFromCollections: true
 ---
-{#- Cloudflare Pages redirect rules (GitHub Pages serves this as an inert file). Stored copies and ledger
+{#- Cloudflare Pages redirect rules. Stored copies and ledger
     archives moved to R2 under content-hashed keys, so the old repo paths that were cited, bookmarked, or
     exported in CSV/JSON 301 to the current object. Generated from the URLs the mirror writes. -#}
 {% for r in records.all %}{% if r.copy -%}
