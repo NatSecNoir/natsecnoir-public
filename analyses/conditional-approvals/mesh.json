@@ -1066,11 +1066,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1063-dronus-s-p-a-uas",
+      "kind": "ingest",
+      "label": "Dronus S.p.A.",
+      "date": "2026-10-03T14:42:42Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "K500L Uncrewed Aircraft Systems,\r\nK500L docking station (Nest V2)",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-03-da-26-1063a1-98863c"
+      },
+      "record_id": "2026-10-03-da-26-1063a1-98863c",
+      "citation": {
+        "record_id": "2026-10-03-da-26-1063a1-98863c",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-09-28T01:46:57Z",
-  "currency_date": "2026-09-28",
-  "last_changed": "2026-09-28T01:37:55Z"
+  "published_at": "2026-09-28T03:00:14Z",
+  "currency_date": "2026-10-03",
+  "last_changed": "2026-10-03T14:42:42Z"
 }
