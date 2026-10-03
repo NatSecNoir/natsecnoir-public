@@ -1090,11 +1090,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1063-vivid-hosting-llc-routers",
+      "kind": "ingest",
+      "label": "Vivid-Hosting, LLC",
+      "date": "2026-10-03T14:43:06Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "VH-109 (V1) and VH-109 (V2) robot radio routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-03-28",
+        "record_id": "2026-10-03-da-26-1063a1-98863c"
+      },
+      "record_id": "2026-10-03-da-26-1063a1-98863c",
+      "citation": {
+        "record_id": "2026-10-03-da-26-1063a1-98863c",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-09-28T03:00:14Z",
+  "published_at": "2026-10-03T14:42:42Z",
   "currency_date": "2026-10-03",
-  "last_changed": "2026-10-03T14:42:42Z"
+  "last_changed": "2026-10-03T14:43:06Z"
 }
