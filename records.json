@@ -39,12 +39,13 @@
    "id": "2026-10-03-lasst-v-openai-complaint-09-29-2026-as-filed-2d2648",
    "status": "approved",
    "ingested_at": "2026-10-03T12:45:12Z",
-   "title": "LASST-v.-OpenAI-Complaint-09.29.2026-AS-FILED",
-   "issuing_body": "DC Circuit",
+   "title": "OpenAI hit with lawsuit over Hugging Face hack - safety watchdog LASST files complaint",
+   "issuing_body": "Calif. Sup. Ct",
    "doc_date": "2026-09-29",
    "docket": "",
    "lists": [
-    "litigation"
+    "litigation",
+    "ai"
    ],
    "entities": [
     "Legal Advocates for Safe Science and Technology (LASST)",
@@ -56,7 +57,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "2d26486069134cb64c3a068875dcd7dfc581ab0f6808e110b97e0eaafe46360e",
-   "approved_at": "2026-10-03T14:09:55Z",
+   "approved_at": "2026-10-03T14:16:57Z",
    "published_at": "2026-10-03T14:10:53Z",
    "reason": "",
    "error": "",
