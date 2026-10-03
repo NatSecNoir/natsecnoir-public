@@ -1,6 +1,41 @@
 {
- "count": 116,
+ "count": 117,
  "records": [
+  {
+   "id": "2026-10-03-lasst-v-openai-complaint-09-29-2026-as-filed-2d2648",
+   "status": "approved",
+   "ingested_at": "2026-10-03T12:45:12Z",
+   "title": "LASST-v.-OpenAI-Complaint-09.29.2026-AS-FILED",
+   "issuing_body": "DC Circuit",
+   "doc_date": "2026-09-29",
+   "docket": "",
+   "lists": [
+    "litigation"
+   ],
+   "entities": [
+    "Legal Advocates for Safe Science and Technology (LASST)",
+    "OpenAI",
+    "Hugging Face."
+   ],
+   "source_url": "https://lasst.org/wp-content/uploads/2026/09/LASST-v.-OpenAI-Complaint-09.29.2026-AS-FILED.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "2d26486069134cb64c3a068875dcd7dfc581ab0f6808e110b97e0eaafe46360e",
+   "approved_at": "2026-10-03T14:09:55Z",
+   "published_at": "2026-10-03T14:10:53Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T12:45:19Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-lasst-v-openai-complaint-09-29-2026-as-filed-2d2648/source-2d264860.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
   {
    "id": "2026-09-27-26-1049-2194984-ede67c",
    "status": "approved",
