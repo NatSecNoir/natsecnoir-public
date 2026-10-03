@@ -1,0 +1,30 @@
+{
+  "id": "2026-10-03-da-26-1063a1-98863c",
+  "status": "approved",
+  "ingested_at": "2026-10-03T12:20:16Z",
+  "title": "Conditional Approvals: Dronus (drones), Vivid-Hosting (routers), Matic Robots (robots)",
+  "issuing_body": "FCC",
+  "doc_date": "2026-10-02",
+  "docket": "DA 26-1063; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "conditional-approval"
+  ],
+  "entities": [
+    "Dronus",
+    "Vivid-Hosting",
+    "Matic Robots"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1063A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "98863cded02e9eb27b83218669bb4912d7217870d6235fb07af4558e6887bd98",
+  "approved_at": "2026-10-03T14:13:49Z",
+  "published_at": "2026-10-03T14:14:19Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T12:20:23Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-da-26-1063a1-98863c/source-98863cde.pdf"
+}
