@@ -1,5 +1,5 @@
 {
- "count": 118,
+ "count": 119,
  "records": [
   {
    "id": "2026-10-03-da-26-1063a1-98863c",
@@ -3939,6 +3939,38 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-22T08:09:18Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8/source-032cc8f5.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-ast-telecom-llc-d-b-a-bluesky-letter-of-agreemen-2fad81",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:26:01Z",
+   "title": "AST Telecom, LLC d/b/a Bluesky — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161220-00377)",
+   "issuing_body": "DOJ",
+   "doc_date": "2018-11-12",
+   "docket": "ITC-T/C-20161220-00377",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [
+    "American Samoa-Hawaii Cable System"
+   ],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ff32d7be97dae61046e139b0f053af86",
+   "source_copy_public": false,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0054973",
+   "source_file": "source.pdf",
+   "sha256": "2fad81aeb5bd123c4d653b9e7ac272f60e0b66757226ba6b0f03a341e39054ee",
+   "approved_at": "2026-10-04T10:53:34Z",
+   "published_at": "2026-10-04T10:53:48Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:30:14Z",
    "files": [
     "meta.json",
     "summary.md"
