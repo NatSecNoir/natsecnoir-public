@@ -9,11 +9,7 @@
   "lists": [
     "conditional-approval"
   ],
-  "entities": [
-    "ASUS",
-    "Comtrend",
-    "Husqvarna"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-957A1.pdf",
   "source_copy_public": true,
   "notes": "",

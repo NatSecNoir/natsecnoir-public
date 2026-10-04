@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "American Samoa-Hawaii Cable System"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ff32d7be97dae61046e139b0f053af86",
   "source_copy_public": false,
   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0054973",

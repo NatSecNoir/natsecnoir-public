@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Taino-Carib Cable System"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/800b91cf97d22a1046e139b0f053af0e",
   "source_copy_public": true,
   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0075470",

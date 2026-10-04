@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Onvoy Spectrum"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f326d93297d2e61046e139b0f053af6b",
   "source_copy_public": true,
   "notes": "",

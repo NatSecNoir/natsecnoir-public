@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Frontier Communications"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3259594f97d22a1046e139b0f053af74",
   "source_copy_public": true,
   "notes": "TT 20-025 to -040",

@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Gigsky"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b2f5cac797962a1046e139b0f053af18",
   "source_copy_public": true,
   "notes": "",

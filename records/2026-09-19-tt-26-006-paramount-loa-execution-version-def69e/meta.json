@@ -10,11 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Paramount Global",
-    "Paramount Skydance",
-    "Warner Bros. Discovery"
-  ],
+  "entities": [],
   "source_url": "https://files.fcc.gov/ecfs/download/96495c97-960c-43ac-b27c-35bd8a97293b?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
   "source_copy_public": true,
   "notes": "",

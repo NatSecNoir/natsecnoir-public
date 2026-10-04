@@ -9,10 +9,7 @@
   "lists": [
     "conditional-approval"
   ],
-  "entities": [
-    "Flock Group",
-    "Miri Technologies"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-584A1.pdf",
   "source_copy_public": true,
   "notes": "",

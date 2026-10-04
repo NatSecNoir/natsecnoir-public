@@ -1,5 +1,5 @@
 {
- "count": 120,
+ "count": 121,
  "records": [
   {
    "id": "2026-10-03-da-26-1063a1-98863c",
@@ -12,11 +12,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Dronus",
-    "Vivid-Hosting",
-    "Matic Robots"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1063A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -116,9 +112,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "ANSCER Robotics"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-996A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -216,11 +210,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "ASUS",
-    "Comtrend",
-    "Husqvarna"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-957A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -251,11 +241,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Paramount Global",
-    "Paramount Skydance",
-    "Warner Bros. Discovery"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/96495c97-960c-43ac-b27c-35bd8a97293b?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -512,9 +498,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "SpaceX Services"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-775A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -544,14 +528,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Exedy Globalparts Corporation",
-    "Parallel Flight Technologies",
-    "Calix",
-    "Sagemcom USA",
-    "Humax Networks USA",
-    "Askey Computer Corp."
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-768A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -714,10 +691,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Gryphon Safety Online",
-    "Sercomm Corporation"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-756A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -787,9 +761,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Gemtek Technology Co."
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-704A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -819,9 +791,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Vantiva USA"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-688A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1009,11 +979,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Real-Time Robotics",
-    "Ceres Air LLC",
-    "Hitron Technologies Americas"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-616A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1077,10 +1043,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Flock Group",
-    "Miri Technologies"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-584A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1110,10 +1073,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "ABZ Innovation Kft.",
-    "Arcadyan Technology Corporation"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-585A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1205,10 +1165,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Innovation First International",
-    "Sagemcom USA"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-548A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1238,10 +1195,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Calix",
-    "Alpha Networks Inc. USA"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-542A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1271,11 +1225,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Blueflite",
-    "Verity AG",
-    "Air VEV"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-524A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1305,9 +1255,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Nokia Corporation"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-495A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1338,9 +1286,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Zayo"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/3294a72e-4be6-495b-b35f-9c830f670e11?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -1370,10 +1316,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Elevon Aerial",
-    "Nokia Corporation"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-489A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1437,10 +1380,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Air6 System GmbH",
-    "Calix"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-437A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1538,10 +1478,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "eero LLC",
-    "Amazon Leo"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-390A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1571,11 +1508,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "Netgear",
-    "Adtran Inc.",
-    "Sees.ai"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-351A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -1733,12 +1666,7 @@
    "lists": [
     "conditional-approval"
    ],
-   "entities": [
-    "SiFly Aviation",
-    "Mobilicom",
-    "ScoutDI",
-    "Verge"
-   ],
+   "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-253A1.pdf",
    "source_copy_public": true,
    "notes": "",
@@ -2307,10 +2235,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Metronet",
-    "T-Mobile US"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/dadc1807-98b8-4b32-a65e-46e5445a8192?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2341,9 +2266,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Windstream Holdings II"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/4b91ab9b-b553-4dbb-8120-cad68b97692f?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2374,11 +2297,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "T-Mobile US",
-    "Gridiron Fiber",
-    "Lumos"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/4816a833-51fb-411f-b3f4-36c775eb759e?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2513,9 +2432,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Cincinnati Bell"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/84d0137d-e38b-4c7c-b202-8a4de72573ba?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2581,9 +2498,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Searchlight"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ce60334f975e2a1046e139b0f053af3f",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0098428",
@@ -2649,9 +2564,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Truphone"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/a082ed43-3de9-4ade-9fc7-e6000943be53?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2682,10 +2595,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Element8",
-    "AtLink"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/dd9698ea-1c7b-45cf-b464-ace1d01fe775?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2759,9 +2669,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "All West Communications"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/83b261ad-1bb3-4227-97ec-30a030f49d09?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": false,
    "notes": "",
@@ -2791,9 +2699,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Lumos"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/0883b383979e2a1046e139b0f053af76",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0099003; dockets named by the instrument: 19-393, 17-60",
@@ -2824,9 +2730,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Millennium Telecom"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/c73d0699-b0a1-4d2b-b0c1-67ec648be029?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2857,9 +2761,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Lightspeed Networks"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c64a8b4f979a2a1046e139b0f053af71",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0091148",
@@ -2890,9 +2792,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Mashell Telecom"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/9b584a17-270e-4d08-986b-0fb618bd9e08?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2961,9 +2861,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Meriplex"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/c459bd54-f072-43ca-ad57-b399e456884e?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -2994,11 +2892,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Eutelsat",
-    "WorldVu Satellites",
-    "OneWeb"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/aadef3c7-bbe9-4ad7-9ff8-283910b4cf08?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3029,9 +2923,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Windstream Holdings II"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/955a2a4b971a2a1046e139b0f053af08",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0087193; dockets named by the instrument: 22-129",
@@ -3101,9 +2993,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Fusion Connect"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/02831660-b522-4250-a948-e4de2276115b?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3134,9 +3024,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Spanish Broadcasting System"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/f1a0d7b1-053e-4246-abd0-42b900b7df71?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3229,9 +3117,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Everfast Fiber"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/8d198bb8-9188-4fed-9e93-0b6fcd5aaf05?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "TT 22-022 to -024",
@@ -3302,9 +3188,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Consolidated Communications"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/96d55d36-d36c-4d49-b230-58231cfb50f2?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "TT 21-083 to -085",
@@ -3335,10 +3219,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "FLAG Telecom",
-    "GCX"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/f8dadc01-4e3d-4513-be62-1dc1b838f559?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3369,9 +3250,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "GCX"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/7a475cea-ac24-4871-9da0-a1d8942a97d4?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3402,9 +3281,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "GTT Communications"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/19b1c254-e3ef-4303-9c05-04cbc40fc529?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3435,9 +3312,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "IPC Systems"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d31c5a8b97d62a1046e139b0f053afe3",
    "source_copy_public": true,
    "notes": "",
@@ -3468,10 +3343,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Plant Telephone",
-    "TruVista"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/57c4d5ed-9b53-4c76-899f-04cb3212dcf5?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3502,12 +3374,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Peerless Network",
-    "Airus",
-    "WaveNation",
-    "Infobip"
-   ],
+   "entities": [],
    "source_url": "https://files.fcc.gov/ecfs/download/33f4a84a-c1ee-4c86-ab6d-b58a17a5a0ac?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
    "source_copy_public": true,
    "notes": "",
@@ -3538,9 +3405,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Gigsky"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b2f5cac797962a1046e139b0f053af18",
    "source_copy_public": true,
    "notes": "",
@@ -3759,9 +3624,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Frontier Communications"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3259594f97d22a1046e139b0f053af74",
    "source_copy_public": true,
    "notes": "TT 20-025 to -040",
@@ -3792,9 +3655,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Taino-Carib Cable System"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/800b91cf97d22a1046e139b0f053af0e",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0075470",
@@ -3857,9 +3718,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Zayo"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f222a88b97122a1046e139b0f053af6b",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0066906; dockets named by the instrument: 19-166",
@@ -3890,9 +3749,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Northwest Fiber"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ff4c504797122a1046e139b0f053af6b",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0065816; dockets named by the instrument: 19-188",
@@ -3923,9 +3780,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Northwest Fiber"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6435d4db97126a1046e139b0f053af4c",
    "source_copy_public": true,
    "notes": "dockets named by the instrument: 24-692, 19-188",
@@ -3956,9 +3811,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Tampnet Inc."
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/53856f32975ee61046e139b0f053af2e",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0057380; dockets named by the instrument: 18-255",
@@ -3989,9 +3842,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "American Samoa-Hawaii Cable System"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ff32d7be97dae61046e139b0f053af86",
    "source_copy_public": false,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0054973",
@@ -4021,9 +3872,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "FirstLight Fiber"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3206ba7e975ae61046e139b0f053af57",
    "source_copy_public": true,
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0051622; dockets named by the instrument: 18-83",
@@ -4054,9 +3903,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Onvoy Spectrum"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f326d93297d2e61046e139b0f053af6b",
    "source_copy_public": true,
    "notes": "",
@@ -4087,9 +3934,7 @@
     "team-telecom",
     "mitigation-agreement"
    ],
-   "entities": [
-    "Gigsky"
-   ],
+   "entities": [],
    "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/afa2193e9792e61046e139b0f053afad",
    "source_copy_public": true,
    "notes": "",
@@ -4103,6 +3948,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-22T08:07:08Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143/source-cfa143e0.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-2562b0",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:49:02Z",
+   "title": "GU Holdings Inc. — Letter of Agreement (Team Telecom, Docket SCL-LIC-20150408-00008)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2016-12-06",
+   "docket": "SCL-LIC-20150408-00008",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/0e2b74769752e61046e139b0f053af6b",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0041381",
+   "source_file": "source.pdf",
+   "sha256": "2562b08ea0218e9ed661252afd0c001fb1382f0932f9a6d9b6bbc6b366aca3c4",
+   "approved_at": "2026-10-04T14:41:22Z",
+   "published_at": "2026-10-04T14:41:49Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:00:54Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-2562b0/source-2562b08e.pdf",
    "files": [
     "meta.json",
     "summary.md"

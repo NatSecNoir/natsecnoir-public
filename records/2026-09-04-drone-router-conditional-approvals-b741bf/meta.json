@@ -9,14 +9,7 @@
   "lists": [
     "conditional-approval"
   ],
-  "entities": [
-    "Exedy Globalparts Corporation",
-    "Parallel Flight Technologies",
-    "Calix",
-    "Sagemcom USA",
-    "Humax Networks USA",
-    "Askey Computer Corp."
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-768A1.pdf",
   "source_copy_public": true,
   "notes": "",

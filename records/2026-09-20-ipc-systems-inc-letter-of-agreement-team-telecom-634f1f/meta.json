@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "IPC Systems"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d31c5a8b97d62a1046e139b0f053afe3",
   "source_copy_public": true,
   "notes": "",

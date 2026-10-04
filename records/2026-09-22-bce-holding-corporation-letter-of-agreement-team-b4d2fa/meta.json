@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Northwest Fiber"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6435d4db97126a1046e139b0f053af4c",
   "source_copy_public": true,
   "notes": "dockets named by the instrument: 24-692, 19-188",

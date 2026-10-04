@@ -9,11 +9,7 @@
   "lists": [
     "conditional-approval"
   ],
-  "entities": [
-    "Dronus",
-    "Vivid-Hosting",
-    "Matic Robots"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1063A1.pdf",
   "source_copy_public": true,
   "notes": "",

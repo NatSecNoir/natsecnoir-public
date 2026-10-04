@@ -9,10 +9,7 @@
   "lists": [
     "conditional-approval"
   ],
-  "entities": [
-    "Gryphon Safety Online",
-    "Sercomm Corporation"
-  ],
+  "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-756A1.pdf",
   "source_copy_public": true,
   "notes": "",

@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Searchlight"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ce60334f975e2a1046e139b0f053af3f",
   "source_copy_public": true,
   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0098428",

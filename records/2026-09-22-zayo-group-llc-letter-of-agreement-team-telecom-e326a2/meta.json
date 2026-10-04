@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Zayo"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f222a88b97122a1046e139b0f053af6b",
   "source_copy_public": true,
   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0066906; dockets named by the instrument: 19-166",

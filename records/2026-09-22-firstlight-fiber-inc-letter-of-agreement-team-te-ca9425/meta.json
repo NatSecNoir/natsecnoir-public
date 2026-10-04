@@ -10,9 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "FirstLight Fiber"
-  ],
+  "entities": [],
   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3206ba7e975ae61046e139b0f053af57",
   "source_copy_public": true,
   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0051622; dockets named by the instrument: 18-83",

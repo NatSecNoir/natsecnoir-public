@@ -10,11 +10,7 @@
     "team-telecom",
     "mitigation-agreement"
   ],
-  "entities": [
-    "Eutelsat",
-    "WorldVu Satellites",
-    "OneWeb"
-  ],
+  "entities": [],
   "source_url": "https://files.fcc.gov/ecfs/download/aadef3c7-bbe9-4ad7-9ff8-283910b4cf08?orig=true&pk=cb77b2ec-1a58-dbc6-139b-ad192cfd5d9b",
   "source_copy_public": true,
   "notes": "",
