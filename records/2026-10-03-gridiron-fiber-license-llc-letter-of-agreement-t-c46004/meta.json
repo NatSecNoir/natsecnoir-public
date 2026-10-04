@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-gridiron-fiber-license-llc-letter-of-agreement-t-c46004",
+  "status": "approved",
+  "ingested_at": "2026-10-03T18:47:29Z",
+  "title": "Gridiron Fiber License LLC — Letter of Agreement (Team Telecom, Docket ITC-214-19970418-00215)",
+  "issuing_body": "DOJ",
+  "doc_date": "2017-11-07",
+  "docket": "ITC-214-19970418-00215; ITC-T/C-20170302-00027",
+  "lists": [
+    "team-telecom"
+  ],
+  "entities": [
+    "Gridiron Fiber License LLC"
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a2733383979e2a1046e139b0f053af8f",
+  "source_copy_public": false,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0098998; dockets named by the instrument: 17-60",
+  "source_file": "source.pdf",
+  "sha256": "c46004bd2b4c742d14e347ef8e854ac043d9bf60538ae16c6bd0140b6b8bb436",
+  "approved_at": "2026-10-04T00:32:08Z",
+  "published_at": "2026-10-04T00:32:44Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T18:47:39Z"
+}
