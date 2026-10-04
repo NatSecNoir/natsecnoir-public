@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-hawaiian-telcom-inc-letter-of-agreement-team-tel-276db5",
+  "status": "approved",
+  "ingested_at": "2026-10-03T21:01:53Z",
+  "title": "Hawaiian Telcom, Inc. — Letter of Agreement (Team Telecom, Docket SCL-T/C-20170811-00019)",
+  "issuing_body": "FCC",
+  "doc_date": "",
+  "docket": "SCL-T/C-20170811-00019; SCL-T/C-20170811-00020",
+  "lists": [
+    "team-telecom"
+  ],
+  "entities": [
+    "Hawaiian Telcom, Inc."
+  ],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6b46da3a97d6e61046e139b0f053afe1",
+  "source_copy_public": false,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0050141",
+  "source_file": "source.pdf",
+  "sha256": "276db5ec783eda9aea83f54e50447872b3eea3d88e348f1ca996c07f04029449",
+  "approved_at": "2026-10-04T00:32:09Z",
+  "published_at": "2026-10-04T00:33:10Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T21:03:20Z"
+}
