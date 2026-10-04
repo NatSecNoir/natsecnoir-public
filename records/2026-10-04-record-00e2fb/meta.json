@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-04-record-00e2fb",
+  "status": "approved",
+  "ingested_at": "2026-10-04T19:16:07Z",
+  "title": "Prohibiting Importation and Marketing of certain foreign-produced Anzu drones",
+  "issuing_body": "FCC",
+  "doc_date": "2026-08-10",
+  "docket": "DA 26-832; PS Docket No. 26-184",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-832A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "00e2fbceeaef075bf7e77cc603e8943c51341982b17404733915256ed1d8f2cb",
+  "approved_at": "2026-10-04T19:18:59Z",
+  "published_at": "2026-10-04T19:19:13Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-04T19:16:21Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-04-record-00e2fb/source-215a3470.pdf"
+}
