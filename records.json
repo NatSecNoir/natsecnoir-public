@@ -2428,7 +2428,9 @@
    "issuing_body": "FCC",
    "doc_date": "2024-11-21",
    "docket": "FCC 24-122; File No. EB-TCD-24-00036532; NAL/Acct. No. 202532170001",
-   "lists": [],
+   "lists": [
+    "covered-list"
+   ],
    "entities": [
     "Eken"
    ],
@@ -2437,7 +2439,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "c897b6d68cb29d5306d1eb7ee3520af9a7fbc44e9add51994c88d0df30ba884d",
-   "approved_at": "2026-10-04T18:27:47Z",
+   "approved_at": "2026-10-04T18:30:58Z",
    "published_at": "2026-10-04T18:28:35Z",
    "reason": "",
    "error": "",
