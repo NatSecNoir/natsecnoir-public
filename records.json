@@ -1333,7 +1333,7 @@
    "title": "Zayo - Team Telecom Mitigation Agreement",
    "issuing_body": "FCC",
    "doc_date": "2026-05-15",
-   "docket": "WC Docket No. 25-174",
+   "docket": "WC Docket No. 25-174; ITC-ASG-20250515-00046",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2302,7 +2302,7 @@
    "title": "Metronet T-Mobile - Mitigation Agreement",
    "issuing_body": "FCC",
    "doc_date": "2025-05-09",
-   "docket": "WC Docket No. 24-244",
+   "docket": "WC Docket No. 24-244; ITC-T/C-20240808-00132; ITC-T/C-20240808-00131; ITC-ASG-20240808-00133; ITC-T/C-20240808-00130",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2369,7 +2369,7 @@
    "title": "Lumos (T-Mobile - EQT)",
    "issuing_body": "FCC",
    "doc_date": "2025-02-14",
-   "docket": "WC Docket No. 24-151; TT 24-029 to -031",
+   "docket": "WC Docket No. 24-151; TT 24-029 to -031; ITC-ASG-20240515-00086",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2786,7 +2786,7 @@
    "title": "Lumos — Letter of Agreement (Team Telecom)",
    "issuing_body": "FCC",
    "doc_date": "2023-10-06",
-   "docket": "ITC-214-19960703-00293",
+   "docket": "ITC-214-19960703-00293; ITC-T/C-20170302-00027; ITC-T/C-20191223-00201",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2819,7 +2819,7 @@
    "title": "Millennium Telcom Letter of Agreement",
    "issuing_body": "FCC",
    "doc_date": "2023-10-03",
-   "docket": "WC Docket No. 22-31",
+   "docket": "WC Docket No. 22-31; ITC-T/C-20220121-00015",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2885,7 +2885,7 @@
    "title": "Mashell Mitigation Agreement",
    "issuing_body": "FCC",
    "doc_date": "2023-08-24",
-   "docket": "WC Docket No. 23-30",
+   "docket": "WC Docket No. 23-30; ITC-T/C-20230120-00004",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -2956,7 +2956,7 @@
    "title": "Meriplex Mitigation Agreement",
    "issuing_body": "FCC",
    "doc_date": "2023-07-25",
-   "docket": "WC Docket No. 22-400",
+   "docket": "WC Docket No. 22-400; ITC-T/C-20221117-00135",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3096,7 +3096,7 @@
    "title": "Fusion Connect LOA",
    "issuing_body": "FCC",
    "doc_date": "2022-12-01",
-   "docket": "WC Docket No. 22-128",
+   "docket": "WC Docket No. 22-128; ITC-T/C-20220317-00038",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3330,7 +3330,7 @@
    "title": "GCX - FLAG Atlantic1 (FA-1) Cable LOA",
    "issuing_body": "FCC",
    "doc_date": "2022-07-18",
-   "docket": "WC Docket No. 21-463",
+   "docket": "WC Docket No. 21-463; ITC-T/C-20211130-00183; ITC-T/C-20211124-00181; ITC-T/C-20211130-00182",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3364,7 +3364,7 @@
    "title": "GCX LOA - Team Telecom",
    "issuing_body": "FCC",
    "doc_date": "2022-07-18",
-   "docket": "WC Docket No. 21-463",
+   "docket": "WC Docket No. 21-463; ITC-T/C-20211130-00183; ITC-T/C-20211124-00181; ITC-T/C-20211130-00182",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3397,7 +3397,7 @@
    "title": "GTT Communications - Team Telecom agreement",
    "issuing_body": "FCC",
    "doc_date": "2022-07-12",
-   "docket": "WC Docket No. 21-445",
+   "docket": "WC Docket No. 21-445; ITC-214-20061101-00500; ITC-214-20020619-00332",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3463,7 +3463,7 @@
    "title": "Plant LOA",
    "issuing_body": "DOJ",
    "doc_date": "2022-05-31",
-   "docket": "WT Docket No. 02-229",
+   "docket": "WT Docket No. 02-229; ITC-T/C-20211104-00161",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3497,7 +3497,7 @@
    "title": "2022 5 23 Peerless TT 214 LOA",
    "issuing_body": "FCC",
    "doc_date": "2022-05-23",
-   "docket": "WC Docket No. 03-216; WT Docket No. 02-229",
+   "docket": "WC Docket No. 03-216; WT Docket No. 02-229; ITC-T/C-20211108-00165",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3754,7 +3754,7 @@
    "title": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
    "issuing_body": "FCC",
    "doc_date": "2020-12-17",
-   "docket": "ISP-PDR-20200624-00005",
+   "docket": "ISP-PDR-20200624-00005; ITC-ASG-20200625-00095; ITC-ASG-20200625-00096; ITC-ASG-20200625-00097; ITC-ASG-20200625-00102; ITC-ASG-20200625-00103; ITC-ASG-20200625-00106; ITC-ASG-20200625-00104; ITC-ASG-20200625-00105; ITC-ASG-20200625-00108; ITC-ASG-20200625-00109; ITC-ASG-20200625-00107; ITC-ASG-20200625-00099; ITC-ASG-20200625-00100; ITC-ASG-20200625-00098",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
@@ -3819,7 +3819,7 @@
    "title": "Zayo Group, LLC — Letter of Agreement",
    "issuing_body": "FCC",
    "doc_date": "2020-01-21",
-   "docket": "ISP-PDR-20190620-00004",
+   "docket": "ISP-PDR-20190620-00004; SCL-T/C-20190614-00018",
    "lists": [
     "team-telecom",
     "mitigation-agreement"
