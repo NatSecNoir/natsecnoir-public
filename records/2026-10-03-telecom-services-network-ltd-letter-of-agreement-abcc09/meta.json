@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-telecom-services-network-ltd-letter-of-agreement-abcc09",
+  "status": "approved",
+  "ingested_at": "2026-10-03T18:57:21Z",
+  "title": "Telecom Services Network Ltd — Letter of Agreement (Team Telecom, Docket ITC-214-20131017-00275)",
+  "issuing_body": "FCC",
+  "doc_date": "2016-10-26",
+  "docket": "ITC-214-20131017-00275",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/2bd830f29752e61046e139b0f053af02",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0040883",
+  "source_file": "source.pdf",
+  "sha256": "abcc09954a966cb64fce86a6150b5f6a419c4606d219db585e033def50c98cd2",
+  "approved_at": "2026-10-07T02:19:19Z",
+  "published_at": "2026-10-07T02:19:34Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T18:58:12Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telecom-services-network-ltd-letter-of-agreement-abcc09/source-abcc0995.pdf"
+}
