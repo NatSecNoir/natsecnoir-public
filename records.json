@@ -1,5 +1,5 @@
 {
- "count": 157,
+ "count": 158,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4224,6 +4224,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-22T08:07:08Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143/source-cfa143e0.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-bbe3cc",
+   "status": "approved",
+   "ingested_at": "2026-10-03T21:01:04Z",
+   "title": "MAREA Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20170328-00008)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2017-04-28",
+   "docket": "SCL-T/C-20170328-00008",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/82d199fa9792e61046e139b0f053afdf",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0045365",
+   "source_file": "source.pdf",
+   "sha256": "bbe3ccfb14fd7de5fab68a57b83fa3ba1f33ac6e2946ff8ad14c3a6d4f87e82f",
+   "approved_at": "2026-10-07T02:34:12Z",
+   "published_at": "2026-10-07T02:34:46Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-df64cd",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T21:01:55Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-bbe3cc/source-bbe3ccfb.pdf",
    "files": [
     "meta.json",
     "summary.md"
