@@ -1,5 +1,5 @@
 {
- "count": 188,
+ "count": 189,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3976,6 +3976,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T20:05:21Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-at-t-corp-letter-of-agreement-team-telecom-docke-8feddc/source-8feddc52.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-lightstorm-international-pte-ltd-letter-of-agree-cf6845",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:45:02Z",
+   "title": "Japan-Guam-Australia North Cable System (JGA-N)— Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00006)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2020-06-10",
+   "docket": "SCL-ASG-20240304-00006",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9ef8445f97de2a1046e139b0f053afb2",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0103323",
+   "source_file": "source.pdf",
+   "sha256": "cf6845d0e2dad8d6f37c8dfe7b06cd5b8a1acb14db1aa4d96325117c52ae2345",
+   "approved_at": "2026-10-07T03:01:03Z",
+   "published_at": "2026-10-07T03:01:41Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:58:22Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-lightstorm-international-pte-ltd-letter-of-agree-cf6845/source-cf6845d0.pdf",
    "files": [
     "meta.json",
     "summary.md"
