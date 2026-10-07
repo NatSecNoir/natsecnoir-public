@@ -1,5 +1,5 @@
 {
- "count": 204,
+ "count": 205,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3286,6 +3286,37 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-03-phonebox-network-ltd-letter-of-agreement-team-te-832838",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:06:17Z",
+   "title": "PhoneBox Network Ltd. — Letter of Agreement (Team Telecom, Docket ITC-214-20220328-00044)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2022-10-26",
+   "docket": "ITC-214-20220328-00044",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/12e46607971a2a1046e139b0f053afd9",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0086178",
+   "source_file": "source.pdf",
+   "sha256": "8328388d19534813e28fdbda836da372df77e8367640955473ee47653c381cd3",
+   "approved_at": "2026-10-07T03:15:52Z",
+   "published_at": "2026-10-07T03:16:06Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:06:24Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-phonebox-network-ltd-letter-of-agreement-team-te-832838/source-8328388d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
