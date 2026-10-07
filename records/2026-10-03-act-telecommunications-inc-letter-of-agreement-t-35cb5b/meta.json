@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-act-telecommunications-inc-letter-of-agreement-t-35cb5b",
+  "status": "approved",
+  "ingested_at": "2026-10-03T18:54:29Z",
+  "title": "ACT Telecommunications, Inc — Letter of Agreement (Team Telecom, Docket ITC-214-20081201-00519)",
+  "issuing_body": "FCC",
+  "doc_date": "2014-05-09",
+  "docket": "ITC-214-20081201-00519",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1d4dbfea975ea61046e139b0f053afc3",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0031841",
+  "source_file": "source.pdf",
+  "sha256": "35cb5bc015c026721ea74be065d77a41e7270d7c1f10d95bd0607fdc32974552",
+  "approved_at": "2026-10-07T02:10:28Z",
+  "published_at": "2026-10-07T02:10:42Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T18:54:37Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-act-telecommunications-inc-letter-of-agreement-t-35cb5b/source-35cb5bc0.pdf"
+}
