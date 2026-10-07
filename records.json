@@ -1,5 +1,5 @@
 {
- "count": 231,
+ "count": 232,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2113,6 +2113,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-10T00:09:31Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-10-record-8a4ad9/source-7abdfa0e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-telroaming-advanced-communication-solution-ltd-l-709760",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:10:09Z",
+   "title": "Telroaming — Letter of Agreement (Team Telecom, Docket ITC-214-20240522-00090)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2025-07-14",
+   "docket": "ITC-214-20240522-00090",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/300a7b63874f6650cc02a8ed3fbb3515",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0105984",
+   "source_file": "source.pdf",
+   "sha256": "709760d844b21ca4ffb021893682e11638465ba07bad1b5ff457652ad18851c6",
+   "approved_at": "2026-10-07T04:18:27Z",
+   "published_at": "2026-10-07T04:19:25Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:10:44Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telroaming-advanced-communication-solution-ltd-l-709760/source-709760d8.pdf",
    "files": [
     "meta.json",
     "summary.md"
