@@ -7,14 +7,24 @@ pagination:
   alias: t
 permalink: "{{ t.r.textUrl }}"
 eleventyComputed:
-  title: "{{ t.r.title }} · full text"
+  title: "{{ t.r.title }} · {{ 'transcript' if t.layout == 'transcript' else 'full text' }}"
   description: "Full text of {{ t.r.title }}"
 ---
 {% set r = t.r %}
 <article class="record fulltext">
-  <div class="crumb"><a href="/">The file</a> › <a href="{{ r.url }}">{{ r.title }}</a> › Full text</div>
+  <div class="crumb"><a href="/">The file</a> › <a href="{{ r.url }}">{{ r.title }}</a> › {{ "Transcript" if t.layout == "transcript" else "Full text" }}</div>
   <span class="k cat">{{ r.doc_type or "Record" }}{% if r.issuing_body %} · {{ r.issuing_body }}{% endif %}</span>
   <h1>{{ r.title }}</h1>
+  {% if t.layout == "transcript" %}
+  <p class="notice unofficial">Unofficial transcript prepared by NatSec Noir from the court's public recording. The recording is authoritative.</p>
+  <p class="note mono">Page numbers follow the transcript PDF{% if t.corrected %}; {{ t.corrected }} page{{ "s" if t.corrected != 1 }} corrected by hand{% endif %}.{% if r.source_url %} <a href="{{ r.source_url }}">Listen to the argument{% if r.sourceHost %} · {{ r.sourceHost }}{% endif %} ↗</a>{% endif %}</p>
+  {% for pg in t.pages %}
+  <section class="pg" id="p{{ pg.n }}">
+    <a class="pgno mono" href="#p{{ pg.n }}">p. {{ pg.n }}</a>
+    {% for para in pg.paras %}<p class="turn">{% if para.speaker %}<strong class="speaker">{{ para.speaker }}</strong>: {% endif %}{{ para.text }}</p>{% endfor %}
+  </section>
+  {% endfor %}
+  {% else %}
   <p class="note mono">Text extracted from the source{% if r.format %} {{ r.format }}{% endif %}{% if t.corrected %}, with {{ t.corrected }} page{{ "s" if t.corrected != 1 }} corrected by hand{% endif %}. Page numbers follow the source; cite the source document, not this transcription.{% if r.source_url %} <a href="{{ r.source_url }}">Open the source ↗</a>{% endif %}</p>
   {% for pg in t.pages %}
   <section class="pg" id="p{{ pg.n }}">
@@ -22,4 +32,5 @@ eleventyComputed:
     {% for para in pg.paras %}<p>{{ para }}</p>{% endfor %}
   </section>
   {% endfor %}
+  {% endif %}
 </article>

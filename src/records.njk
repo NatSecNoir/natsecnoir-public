@@ -15,6 +15,7 @@ eleventyComputed:
   <div class="crumb"><a href="/">The file</a>{% if r.lists.length %} › <a href="/by/list/{{ r.lists[0].slug }}/">{{ r.lists[0].label }}</a>{% endif %}</div>
   <span class="k cat">{{ r.doc_type or "Record" }}{% if r.issuing_body %} · {{ r.issuing_body }}{% endif %}</span>
   <h1>{{ r.title }}</h1>
+  {% if r.isArgument %}<p class="notice unofficial">Unofficial transcript prepared by NatSec Noir from the court's public recording. The recording is authoritative.</p>{% endif %}
   {% if r.standfirst %}<p class="stand">{{ r.standfirst }}</p>{% endif %}
   <dl class="meta">
     {% if r.docket %}<dt>Docket</dt><dd class="mono">{{ r.docket }}</dd>{% endif %}
@@ -30,11 +31,17 @@ eleventyComputed:
 </article>
 <aside class="rail">
   <section class="src">
-    <h2>Source document</h2>
+    <h2>{{ "Recording and transcript" if r.isArgument else "Source document" }}</h2>
     <ul>
+      {% if r.isArgument %}
+      {% if r.source_url %}<li><a href="{{ r.source_url }}">Listen to the argument{% if r.sourceHost %} · {{ r.sourceHost }}{% endif %} ↗</a></li>{% endif %}
+      {% if r.textUrl %}<li><a href="{{ r.textUrl }}">Read the transcript · {{ r.textPages }} pp.</a></li>{% endif %}
+      {% if r.copy %}<li><a href="{{ r.copy }}">Transcript (PDF)</a></li>{% endif %}
+      {% else %}
       {% if r.source_url %}<li><a href="{{ r.source_url }}">Open the source{% if r.format %} · {{ r.format }}{% endif %} ↗</a></li>{% endif %}
       {% if r.textUrl %}<li><a href="{{ r.textUrl }}">Read the full text · {{ r.textPages }} pp.</a></li>{% endif %}
       {% if r.copy %}<li><a href="{{ r.copy }}">Stored copy</a></li>{% endif %}
+      {% endif %}
       {% for lg in r.ledgers %}<li><a href="{{ lg.url }}">Tracked in {{ lg.title }}</a></li>{% endfor %}
       <li><a href="/records/{{ r.id }}/meta.json">meta.json</a></li>
     </ul>

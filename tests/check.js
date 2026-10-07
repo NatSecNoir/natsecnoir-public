@@ -486,6 +486,31 @@ assert.match(textPage, /&lt;script&gt;alert\(2\)/, "text page escapes the transc
 assert.doesNotMatch(page, /Read the full text/, "records without text.json get no full-text link");
 assert.ok(!fs.existsSync(path.join(outFix, "records/2026-01-01-fixture-order-aaaaaa/text/index.html")), "no text page without text.json");
 
+// ---- oral arguments: recording linked out, transcript published with an unofficial notice ----
+const argPage = fs.readFileSync(path.join(outFix, "records/2024-02-01-fixture-argument-eeeeee/index.html"), "utf8");
+const unofficial = /Unofficial transcript prepared by NatSec Noir from the court(?:'|&#39;)s public recording\. The recording is authoritative\./;
+assert.match(argPage, /href="https:\/\/media\.cadc\.uscourts\.gov\/recordings\/docs\/2024\/02\/23-1001\.mp3">Listen to the argument · media\.cadc\.uscourts\.gov ↗/, "argument links the court recording with its host");
+assert.match(argPage, /href="\/records\/2024-02-01-fixture-argument-eeeeee\/text\/">Read the transcript · 2 pp\./, "argument links its transcript text");
+assert.match(argPage, /href="https:\/\/docs\.natsecnoir\.com\/records\/2024-02-01-fixture-argument-eeeeee\/source-0e0e0e0e\.pdf">Transcript \(PDF\)</, "argument links its transcript PDF");
+assert.match(argPage, unofficial, "argument page carries the unofficial-transcript notice");
+assert.doesNotMatch(argPage, /Open the source|Stored copy|Read the full text/, "argument page uses argument labels only");
+assert.match(argPage, /<span class="k cat">oral argument/, "argument type shows as oral argument");
+const argText = fs.readFileSync(path.join(outFix, "records/2024-02-01-fixture-argument-eeeeee/text/index.html"), "utf8");
+assert.match(argText, /<strong class="speaker">JUDGE PILLARD<\/strong>: Counsel/, "transcript renders the speaker in bold");
+assert.match(argText, /<p class="turn">UNITED STATES COURT OF APPEALS<\/p>/, "a caption paragraph renders with no speaker element");
+assert.match(argText, unofficial, "transcript page carries the unofficial-transcript notice");
+assert.doesNotMatch(argText, /cite the source document/, "transcript page drops the source-citation note");
+assert.match(argText, /&lt;script&gt;alert\(3\)/, "transcript text is escaped");
+for (const [own, other] of [["2024-02-01-fixture-argument-eeeeee", "2024-03-01-fixture-opinion-dddddd"],
+                            ["2024-03-01-fixture-opinion-dddddd", "2024-02-01-fixture-argument-eeeeee"]]) {
+  const rail = fs.readFileSync(path.join(outFix, `records/${own}/index.html`), "utf8").match(/<section class="related">[\s\S]*?<\/section>/);
+  assert.ok(rail && rail[0].indexOf(other) !== -1, `${own} relates to ${other}`);
+  assert.ok(rail[0].indexOf(`href="/records/${other}/"`) === rail[0].indexOf('href="/records/'), `${other} is first in ${own}'s rail (shared docket)`);
+}
+const opinionPage = fs.readFileSync(path.join(outFix, "records/2024-03-01-fixture-opinion-dddddd/index.html"), "utf8");
+assert.match(opinionPage, /Open the source/, "a non-argument record keeps its source labels");
+assert.doesNotMatch(opinionPage, unofficial, "a non-argument record has no unofficial notice");
+
 // ---- interior retone (editorial redesign, U5): no retired v14 token names, no compat aliases, no images ----
 const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rule-glow|accent-glow|band|card|card-sheen|brand-ink|glow1|glow2|neon|neon-wash|mint|rose|display|body|brand|mast|gold|jade|jade-deep|jade-hi|hair|hair2|hair3|panel|bg|dim|vermilion)\b/g) || [];
 assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
