@@ -1,5 +1,5 @@
 {
- "count": 155,
+ "count": 156,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4224,6 +4224,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-22T08:07:08Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143/source-cfa143e0.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-usconnect-holdings-llc-letter-of-agreement-team-5fe47a",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:19:12Z",
+   "title": "USConnect Holdings, LLC — Letter of Agreement (Team Telecom, Docket ITC-MOD-20170224-00023)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2017-03-19",
+   "docket": "ITC-MOD-20170224-00023",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b622413e9752e61046e139b0f053af31",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0042759",
+   "source_file": "source.pdf",
+   "sha256": "5fe47a58ce9e98b89afd64b0890f58647d50c45aa3e5be1a64eb49b1265207af",
+   "approved_at": "2026-10-07T02:31:42Z",
+   "published_at": "2026-10-07T02:31:53Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:24:15Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-usconnect-holdings-llc-letter-of-agreement-team-5fe47a/source-5fe47a58.pdf",
    "files": [
     "meta.json",
     "summary.md"
