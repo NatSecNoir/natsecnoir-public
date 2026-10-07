@@ -1,5 +1,5 @@
 {
- "count": 206,
+ "count": 207,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3162,6 +3162,37 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-0944c3",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:36:31Z",
+   "title": "SAm-1 Cable System — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2022-12-09",
+   "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e9976e87971a2a1046e139b0f053afbd",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0086701",
+   "source_file": "source.pdf",
+   "sha256": "0944c3a43df29069413427e0b5d08c7ea676dccdf5dd018d537d4ba337d8235b",
+   "approved_at": "2026-10-07T03:16:54Z",
+   "published_at": "2026-10-07T03:17:49Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-89404f",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:45:10Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-0944c3/source-0944c3a4.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
