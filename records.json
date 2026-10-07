@@ -1,5 +1,5 @@
 {
- "count": 215,
+ "count": 216,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2838,6 +2838,37 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-03-alleswolke-wireless-llc-letter-of-agreement-team-ebef73",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:07:13Z",
+   "title": "Alleswolke Wireless LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20230504-00056)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2024-03-29",
+   "docket": "ITC-214-20230504-00056",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/99b96fe9cf7243103bc3f2961f851c96",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0094599",
+   "source_file": "source.pdf",
+   "sha256": "ebef73ed37ee02e2c8be9e6a5fab21e5d0a6f602b0f006e076f3414ccf9597c8",
+   "approved_at": "2026-10-07T03:26:18Z",
+   "published_at": "2026-10-07T03:26:37Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:08:01Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-alleswolke-wireless-llc-letter-of-agreement-team-ebef73/source-ebef73ed.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
