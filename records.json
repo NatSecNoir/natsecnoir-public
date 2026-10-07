@@ -1,5 +1,5 @@
 {
- "count": 138,
+ "count": 139,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4378,6 +4378,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T18:56:56Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-ip-network-america-llc-letter-of-agreement-team-e74703/source-e7470381.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-speed-telco-llc-letter-of-agreement-team-telecom-d30189",
+   "status": "approved",
+   "ingested_at": "2026-10-03T18:56:47Z",
+   "title": "Speed Telco LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20130221-00063)",
+   "issuing_body": "FCC",
+   "doc_date": "2013-09-06",
+   "docket": "ITC-214-20130221-00063",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/389e2fae971ea61046e139b0f053af2d",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0029764",
+   "source_file": "source.pdf",
+   "sha256": "d30189213d74b91e1af520938b450566f710ecf1b15259faf4bf13d003ff5c71",
+   "approved_at": "2026-10-07T02:09:14Z",
+   "published_at": "2026-10-07T02:09:38Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T18:57:08Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-speed-telco-llc-letter-of-agreement-team-telecom-d30189/source-d3018921.pdf",
    "files": [
     "meta.json",
     "summary.md"
