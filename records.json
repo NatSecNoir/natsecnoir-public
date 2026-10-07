@@ -1,5 +1,5 @@
 {
- "count": 236,
+ "count": 237,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -865,6 +865,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:55:01Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-router-conditional-approvals-e64105/source-e6410561.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-verizon-business-global-llc-dba-verizon-business-76a362",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:09:46Z",
+   "title": "California Hawaii S1 Cable Syste, (CHI) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240725-00034)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2026-07-09",
+   "docket": "SCL-LIC-20240725-00034",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/97ebaa47938a8f902948991d48373c25",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0115842",
+   "source_file": "source.pdf",
+   "sha256": "76a3620986e88f55149de405267c73dedbf899a049ccf688ae52ae6db462ba3f",
+   "approved_at": "2026-10-07T04:34:20Z",
+   "published_at": "2026-10-07T04:35:25Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:18:06Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-verizon-business-global-llc-dba-verizon-business-76a362/source-76a36209.pdf",
    "files": [
     "meta.json",
     "summary.md"
