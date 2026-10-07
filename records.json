@@ -1,5 +1,5 @@
 {
- "count": 220,
+ "count": 221,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2432,6 +2432,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:21:31Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd/source-ed23fddf.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-lightstorm-usa-llc-letter-of-agreement-team-tele-5acde6",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:45:52Z",
+   "title": "SEA-US Cable System — Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00008)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2025-02-12",
+   "docket": "SCL-ASG-20240304-00008",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fdf8445f97de2a1046e139b0f053afac",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0103322",
+   "source_file": "source.pdf",
+   "sha256": "5acde688028ce8e2ab08aed39a73a9797495faa62a4b36942e094c6d699f808d",
+   "approved_at": "2026-10-07T04:03:11Z",
+   "published_at": "2026-10-07T04:03:42Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:59:40Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-lightstorm-usa-llc-letter-of-agreement-team-tele-5acde6/source-5acde688.pdf",
    "files": [
     "meta.json",
     "summary.md"
