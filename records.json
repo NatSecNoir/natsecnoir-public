@@ -1,5 +1,5 @@
 {
- "count": 205,
+ "count": 206,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3190,6 +3190,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:12:56Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-19-fusion-connect-inc-et-al-signed-loa-tt-22-018-to-e4ac31/source-e4ac31bc.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-3873f5",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:04:33Z",
+   "title": "Firmina Cable System - Google — Letter of Agreement (Team Telecom, Docket SCL-LIC-20220422-00015)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2022-11-30",
+   "docket": "SCL-LIC-20220422-00015",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4b96ae47971a2a1046e139b0f053afe1",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0086468",
+   "source_file": "source.pdf",
+   "sha256": "3873f5d781ee34ec31c368c3cf8c3ea77f8dab84860dc3f5f2484fa56ba3ba4e",
+   "approved_at": "2026-10-07T03:16:22Z",
+   "published_at": "2026-10-07T03:17:00Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:11:13Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-3873f5/source-3873f5d7.pdf",
    "files": [
     "meta.json",
     "summary.md"
