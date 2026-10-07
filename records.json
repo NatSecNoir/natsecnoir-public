@@ -1,5 +1,5 @@
 {
- "count": 197,
+ "count": 198,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3654,6 +3654,37 @@
    ]
   },
   {
+   "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-a9193e",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:02:45Z",
+   "title": "PLCN - Google — National Security Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2021-12-13",
+   "docket": "SCL-LIC-20200827-00038",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d395794b97562a1046e139b0f053afe8",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0080729",
+   "source_file": "source.pdf",
+   "sha256": "a9193e5a2f65a0c72b5c2233b9a2360748d1b74fedd66f366eb9a4294d92c375",
+   "approved_at": "2026-10-07T03:07:48Z",
+   "published_at": "2026-10-07T03:08:34Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:06:48Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-a9193e/source-a9193e5a.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
    "id": "2026-09-16-fcc-21-114a1-rcd-75bb74",
    "status": "approved",
    "ingested_at": "2026-09-16T11:35:58Z",
@@ -3707,7 +3738,7 @@
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0079394",
    "source_file": "source.pdf",
    "sha256": "9fd2653f2925b5b92c219a5638569ca6c68f9bb45f19a4f4fdb73cf3b8fa6022",
-   "approved_at": "2026-10-07T03:06:53Z",
+   "approved_at": "2026-10-07T03:07:24Z",
    "published_at": "2026-10-07T03:07:30Z",
    "reason": "",
    "error": "",
