@@ -1,5 +1,5 @@
 {
- "count": 139,
+ "count": 140,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4378,6 +4378,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T18:56:56Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-ip-network-america-llc-letter-of-agreement-team-e74703/source-e7470381.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-satcom-global-inc-letter-of-agreement-team-telec-dee7ea",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:20:25Z",
+   "title": "SatCom Global, Inc. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20130612-00172)",
+   "issuing_body": "FCC",
+   "doc_date": "2014-01-31",
+   "docket": "ITC-T/C-20130612-00172",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/94997b2a975ea61046e139b0f053af38",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0031212",
+   "source_file": "source.pdf",
+   "sha256": "dee7eab0ef0cbf75cffb514fd00c73338ab644a460cbb80614b8eadddd245b38",
+   "approved_at": "2026-10-07T02:09:35Z",
+   "published_at": "2026-10-07T02:09:51Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:24:36Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-satcom-global-inc-letter-of-agreement-team-telec-dee7ea/source-dee7eab0.pdf",
    "files": [
     "meta.json",
     "summary.md"
