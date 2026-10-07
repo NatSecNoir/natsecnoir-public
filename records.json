@@ -1,5 +1,5 @@
 {
- "count": 195,
+ "count": 196,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3690,6 +3690,37 @@
    ]
   },
   {
+   "id": "2026-10-03-infosat-able-holdings-inc-letter-of-agreement-te-01157d",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:31:50Z",
+   "title": "Telesat — Letter of Agreement (Team Telecom, Docket ITC-T/C-20201215-00208)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2021-07-15",
+   "docket": "ITC-T/C-20201215-00208",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/76dba9cf97162a1046e139b0f053afe7",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0078877",
+   "source_file": "source.pdf",
+   "sha256": "01157ddc552153580aa12b5f31b7bcf5dc1b7badf4740f73e7e553437ed85c0d",
+   "approved_at": "2026-10-07T03:05:58Z",
+   "published_at": "2026-10-07T03:06:28Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:36:37Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-infosat-able-holdings-inc-letter-of-agreement-te-01157d/source-01157ddc.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
    "id": "2026-09-07-19-60896-2021-06-18-aa4ff0",
    "status": "approved",
    "ingested_at": "2026-09-07T16:34:41Z",
@@ -3742,7 +3773,7 @@
    "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0106606",
    "source_file": "source.pdf",
    "sha256": "159ebcbd5a2b4536acb7a9f327c6c81ca3c1e66c6cb360db87a1609ee94b5992",
-   "approved_at": "2026-10-07T03:04:52Z",
+   "approved_at": "2026-10-07T03:05:39Z",
    "published_at": "2026-10-07T03:05:39Z",
    "reason": "",
    "error": "",
