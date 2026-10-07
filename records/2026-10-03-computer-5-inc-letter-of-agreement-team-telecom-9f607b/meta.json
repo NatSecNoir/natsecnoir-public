@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-computer-5-inc-letter-of-agreement-team-telecom-9f607b",
+  "status": "approved",
+  "ingested_at": "2026-10-03T19:17:34Z",
+  "title": "Northwest Fiber — Letter of Agreement (Team Telecom, Docket ITC-ASG-20240314-00049)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2019-11-21",
+  "docket": "ITC-ASG-20240314-00049",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b8ecafc7975e2a1046e139b0f053af9d",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0097766; dockets named by the instrument: 19-188",
+  "source_file": "source.pdf",
+  "sha256": "9f607be10e75245ec5dbf9e6b22dc34567b3ad8a011d198172632ef435fb1ed7",
+  "approved_at": "2026-10-07T02:53:47Z",
+  "published_at": "2026-10-07T02:54:37Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T19:21:01Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-computer-5-inc-letter-of-agreement-team-telecom-9f607b/source-9f607be1.pdf"
+}

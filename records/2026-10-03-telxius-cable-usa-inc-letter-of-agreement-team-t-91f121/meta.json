@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-telxius-cable-usa-inc-letter-of-agreement-team-t-91f121",
+  "status": "approved",
+  "ingested_at": "2026-10-03T20:50:26Z",
+  "title": "SAm-1 Cable System — Letter of Agreement (Team Telecom, Docket SCL-MOD-20180905-00032)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2019-12-04",
+  "docket": "SCL-MOD-20180905-00032",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/da3ddc4797122a1046e139b0f053aff6",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0065978",
+  "source_file": "source.pdf",
+  "sha256": "91f121569dacea21a038685114759608f2bb1b75a28433ef97dfec3fc6d1a850",
+  "approved_at": "2026-10-07T02:54:07Z",
+  "published_at": "2026-10-07T02:54:37Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:51:33Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telxius-cable-usa-inc-letter-of-agreement-team-t-91f121/source-91f12156.pdf"
+}
