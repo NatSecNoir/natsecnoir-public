@@ -1,5 +1,5 @@
 {
- "count": 149,
+ "count": 150,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4316,6 +4316,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T20:00:54Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-2562b0/source-2562b08e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-seabras-1-usa-llc-letter-of-agreement-team-telec-f25dc5",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:50:18Z",
+   "title": "Seabras 1 USA, LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160115-00002)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2016-11-07",
+   "docket": "SCL-LIC-20160115-00002",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5c59f4f29752e61046e139b0f053af2b",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0040968",
+   "source_file": "source.pdf",
+   "sha256": "f25dc5589613dbdb45651d9b2863a0627f5152925d1ec8dbe5aaa549e2d7cee2",
+   "approved_at": "2026-10-07T02:19:33Z",
+   "published_at": "2026-10-07T02:19:51Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:01:06Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-seabras-1-usa-llc-letter-of-agreement-team-telec-f25dc5/source-f25dc558.pdf",
    "files": [
     "meta.json",
     "summary.md"
