@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-starfish-infrastructure-inc-letter-of-agreement-a05fa1",
+  "status": "approved",
+  "ingested_at": "2026-10-03T20:44:41Z",
+  "title": "Tabua Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240819-00037)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2025-05-14",
+  "docket": "SCL-LIC-20240819-00037",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/2c02dcd797126a1046e139b0f053af0e",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0104807",
+  "source_file": "source.pdf",
+  "sha256": "a05fa19355ef6e8108205363918ced64cd4f686caea70b953f56122e7ba37178",
+  "approved_at": "2026-10-07T04:10:44Z",
+  "published_at": "2026-10-07T04:11:14Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:45:14Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-starfish-infrastructure-inc-letter-of-agreement-a05fa1/source-a05fa193.pdf"
+}
