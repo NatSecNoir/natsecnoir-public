@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-ast-telecom-llc-d-b-a-bluesky-letter-of-agreemen-80852e",
+  "status": "approved",
+  "ingested_at": "2026-10-03T19:26:19Z",
+  "title": "American Samoa Hawaii Cable — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161220-00377)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2018-05-07",
+  "docket": "ITC-T/C-20161220-00377",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c142d7be97dae61046e139b0f053af8d",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0054973; also filed as f6509e7297d6e61046e139b0f053af83",
+  "source_file": "source.pdf",
+  "sha256": "80852e5baa6e27ac27c4edbb17d427b07f1050789d89832949f4c09225fdf8b1",
+  "approved_at": "2026-10-07T02:47:04Z",
+  "published_at": "2026-10-07T02:47:30Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "2026-10-03-ast-telecom-llc-d-b-a-bluesky-letter-of-agreemen-2fad81",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T19:30:36Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-ast-telecom-llc-d-b-a-bluesky-letter-of-agreemen-80852e/source-80852e5b.pdf"
+}
