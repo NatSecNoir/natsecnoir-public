@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-starfish-infrastructure-inc-letter-of-agreement-dee70b",
+  "status": "approved",
+  "ingested_at": "2026-10-03T20:48:21Z",
+  "title": "Bulikula Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20241115-00046)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2025-11-17",
+  "docket": "SCL-LIC-20241115-00046",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/aa282df31b59f2103216433ee54bcbbe",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0106634",
+  "source_file": "source.pdf",
+  "sha256": "dee70ba88b69a72b3e392ca71dcbff8a05fea0b6b3f5827706dddaedc46c03fe",
+  "approved_at": "2026-10-07T04:22:08Z",
+  "published_at": "2026-10-07T04:23:28Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:49:48Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-starfish-infrastructure-inc-letter-of-agreement-dee70b/source-dee70ba8.pdf"
+}
