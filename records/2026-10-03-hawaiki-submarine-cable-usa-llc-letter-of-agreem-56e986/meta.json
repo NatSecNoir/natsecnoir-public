@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-hawaiki-submarine-cable-usa-llc-letter-of-agreem-56e986",
+  "status": "approved",
+  "ingested_at": "2026-10-03T19:52:54Z",
+  "title": "Hawaiki Submarine Cable USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160906-00019)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2025-09-17",
+  "docket": "SCL-LIC-20160906-00019; SCL-MOD-20241204-00047",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/414d30f987547e10cc02a8ed3fbb3547",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0106465",
+  "source_file": "source.pdf",
+  "sha256": "56e9861dfd51032ac72835086d41c42be001cb9d27f69e02cd3cd4404b1403a1",
+  "approved_at": "2026-10-07T04:19:45Z",
+  "published_at": "2026-10-07T04:20:52Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:02:39Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-hawaiki-submarine-cable-usa-llc-letter-of-agreem-56e986/source-56e9861d.pdf"
+}
