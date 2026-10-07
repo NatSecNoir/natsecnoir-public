@@ -1,5 +1,5 @@
 {
- "count": 156,
+ "count": 157,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4224,6 +4224,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-22T08:07:08Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143/source-cfa143e0.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-quintillion-subsea-operations-llc-letter-of-agre-acee58",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:51:05Z",
+   "title": "Quintillion — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160325-00009)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2017-03-24",
+   "docket": "SCL-LIC-20160325-00009",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7392c53e9752e61046e139b0f053afdb",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0042867",
+   "source_file": "source.pdf",
+   "sha256": "acee58febd32bbef6ec5f6d5d202622c1a6504903df0edee06fdce7160a6c6ed",
+   "approved_at": "2026-10-07T02:33:44Z",
+   "published_at": "2026-10-07T02:34:12Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:01:34Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-quintillion-subsea-operations-llc-letter-of-agre-acee58/source-acee58fe.pdf",
    "files": [
     "meta.json",
     "summary.md"
