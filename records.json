@@ -1,5 +1,5 @@
 {
- "count": 226,
+ "count": 227,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2308,6 +2308,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-12T20:15:30Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-12-da-25-418a1-e8cf53/source-e8cf5390.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-telxius-cable-usa-inc-letter-of-agreement-team-t-4b0f1c",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:06:17Z",
+   "title": "Tikal-AMX3 — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240105-00001)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2025-05-14",
+   "docket": "SCL-LIC-20240105-00001",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ca02dcd797126a1046e139b0f053af96",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0104808",
+   "source_file": "source.pdf",
+   "sha256": "4b0f1c1e2a3972c3f08542c0300cbc72b63e7a8d4c7d6cee9dfec6bb70925dca",
+   "approved_at": "2026-10-07T04:11:57Z",
+   "published_at": "2026-10-07T04:12:22Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:13:42Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telxius-cable-usa-inc-letter-of-agreement-team-t-4b0f1c/source-4b0f1c1e.pdf",
    "files": [
     "meta.json",
     "summary.md"
