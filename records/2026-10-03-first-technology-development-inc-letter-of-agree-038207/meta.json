@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-first-technology-development-inc-letter-of-agree-038207",
+  "status": "approved",
+  "ingested_at": "2026-10-03T18:57:05Z",
+  "title": "First Technology Development, Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20130726-00202)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2014-08-25",
+  "docket": "ITC-214-20130726-00202",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/863480b2979ea61046e139b0f053af75",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0032857",
+  "source_file": "source.pdf",
+  "sha256": "038207bff2fc05b31928ed1262f6033c4ddc7e11fa3f51399aeacb6d77858ab2",
+  "approved_at": "2026-10-07T02:14:31Z",
+  "published_at": "2026-10-07T02:14:42Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T18:57:21Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-first-technology-development-inc-letter-of-agree-038207/source-038207bf.pdf"
+}
