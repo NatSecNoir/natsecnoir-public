@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-b4ceae",
+  "status": "approved",
+  "ingested_at": "2026-10-03T20:05:59Z",
+  "title": "TPU Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20230511-00013)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2025-01-24",
+  "docket": "SCL-LIC-20230511-00013",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8996049b97de2a1046e139b0f053af94",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0102815",
+  "source_file": "source.pdf",
+  "sha256": "b4ceaea44c7cdb4728263a4ac39177da215559f556be18e4aea1a055f87656f4",
+  "approved_at": "2026-10-07T04:01:32Z",
+  "published_at": "2026-10-07T04:02:53Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:12:36Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-b4ceae/source-b4ceaea4.pdf"
+}
