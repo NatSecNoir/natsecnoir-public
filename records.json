@@ -1,5 +1,5 @@
 {
- "count": 222,
+ "count": 224,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2370,6 +2370,68 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T20:00:04Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-latam-telecommunications-l-l-c-letter-of-agreeme-62c39f/source-62c39f6d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-starfish-infrastructure-inc-letter-of-agreement-ec71cd",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:08:59Z",
+   "title": "Nuvem Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240621-00030)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2025-04-30",
+   "docket": "SCL-LIC-20240621-00030",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fc8f405797126a1046e139b0f053af2c",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0104444",
+   "source_file": "source.pdf",
+   "sha256": "ec71cd1dad33dcf2d845adf062c60ad5865259256b11a7d3b32b8599e83c6375",
+   "approved_at": "2026-10-07T04:06:40Z",
+   "published_at": "2026-10-07T04:07:27Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:17:12Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-starfish-infrastructure-inc-letter-of-agreement-ec71cd/source-ec71cd1d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-pc-landing-corp-letter-of-agreement-team-telecom-f98037",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:06:47Z",
+   "title": "Pacific Cross Cable System 1 (PC-1) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240424-00010)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2025-04-30",
+   "docket": "SCL-LIC-20240424-00010",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/927f005797126a1046e139b0f053afd8",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0104443",
+   "source_file": "source.pdf",
+   "sha256": "f98037b7870bf5b4860e5b8f81c38eb2ae9c75455d13f6f4b10860b56c0d5e8f",
+   "approved_at": "2026-10-07T04:06:12Z",
+   "published_at": "2026-10-07T04:07:27Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:14:36Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-pc-landing-corp-letter-of-agreement-team-telecom-f98037/source-f98037b7.pdf",
    "files": [
     "meta.json",
     "summary.md"
