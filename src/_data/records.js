@@ -28,6 +28,14 @@ function labelOf(l) {
   return words.length === 1 && words[0].length <= 3 ? words[0].toUpperCase() : words.join(" ").replace(/^./, (c) => c.toUpperCase());
 }
 
+// An oral argument: `source_url` is the court's recording and the stored copy is an unofficial transcript.
+// Matched trimmed and case-insensitively, as the private app stores it.
+const isOralArgument = (meta) => String(meta.doc_type || "").trim().replace(/\s+/g, " ").toLowerCase() === "oral argument";
+
+function hostOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
+}
+
 function slug(s) {
   return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -65,11 +73,14 @@ export default function () {
       lists: (meta.lists || []).map((l) => ({ slug: l, label: labelOf(l) })),
       agencySlug: slug(meta.issuing_body || "unknown"),
       textPages: text ? text.pages.length : 0,
+      isArgument: isOralArgument(meta),
+      sourceHost: hostOf(meta.source_url || ""),
       search: [meta.title, meta.issuing_body, meta.doc_type, meta.docket, meta.doc_date,
         ...(meta.lists || []).map(labelOf), ...(meta.entities || []), ex]
         .filter(Boolean).join(" | ").toLowerCase().replace(/\s+/g, " "),
     });
-    if (text) withText.push({ r: all[all.length - 1], pages: text.pages, corrected: text.corrected_pages || 0 });
+    if (text) withText.push({ r: all[all.length - 1], pages: text.pages, corrected: text.corrected_pages || 0,
+                              layout: text.layout || "" });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
 

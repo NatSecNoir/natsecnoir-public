@@ -373,6 +373,9 @@ body.col-resizing { cursor: col-resize; user-select: none; }
 /* full text of a litigation record (record-text.njk): one reading column, source page numbers in the margin */
 article.fulltext { max-width: 72ch; margin: 0 auto; }
 article.fulltext .note { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 0; margin: 18px 0 8px; }
+/* Oral arguments: the transcript is the author's, not the court's; say so where a reader lands. */
+.notice.unofficial { font-size: 13px; color: var(--ink); background: var(--raised); border-left: 3px solid var(--navy); padding: 10px 14px; margin: 14px 0 18px; }
+article.fulltext p.turn .speaker { font-weight: 700; letter-spacing: .02em; }
 article.fulltext .pg { position: relative; border-top: 1px dashed var(--line); padding-top: 6px; margin-top: 14px; }
 article.fulltext .pg:first-of-type { border-top: 0; }
 article.fulltext .pgno { display: block; font-size: 11px; letter-spacing: .08em; color: var(--muted); margin-bottom: 4px; }
