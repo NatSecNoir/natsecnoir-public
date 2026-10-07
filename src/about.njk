@@ -6,18 +6,39 @@ title: "About"
 description: "NatSec Noir files the public record of U.S. national-security regulation — agency orders, agreements, and watch lists — with plain-language summaries and citations."
 ---
 <div class="crumb"><a href="/">The file</a> › About</div>
-<div class="shead"><h2>About</h2></div>
+<div class="shead"><h2>The Government Published It. Good Luck Reading It.</h2></div>
 <div class="about">
-  <p class="lede">NatSec Noir is a public reading room for the paperwork of American national-security regulation. We collect the orders, agreements, and watch lists that agencies publish but rarely explain, file them as citable records, and add a short summary in plain language.</p>
+  <p class="lede">Here is how the United States government tells you a company threatens national security. It writes an order, publishes it as a PDF that is often just a scan of paper, and files it in a docket you have never heard of, under a number you would need to know already. Then it declares the matter public.</p>
 
-  <h3>What we cover</h3>
-  <p>The file tracks the instruments that decide which companies, technologies, and transactions the U.S. government treats as a security concern. That includes the FCC&rsquo;s Covered List and its equipment-authorization orders, Team Telecom mitigation agreements and letters of assurance, the Commerce Department&rsquo;s Entity List and related restricted-party designations, Connected Software Application (ICTS) actions, Section 1260H listings, and the litigation that tests all of it.</p>
+  <p>Technically, it is. So is a library book shelved in a locked basement.</p>
 
-  <h3>How a record is built</h3>
-  <p>Every record points back to a primary source — an agency order, a filed agreement, an official list. We store a copy, note the docket, the issuing body, the document date, and the day it entered the file, and write a summary that states what the document does without editorializing. The summary is the editor&rsquo;s; the document is the authority. Each record carries a citation you can copy.</p>
+  <p>NatSec Noir is a public reading room for exactly this paperwork: the FCC&rsquo;s Covered List and the equipment-authorization orders behind it, the Team Telecom agreements foreign-owned carriers sign to keep their licenses, Commerce&rsquo;s Entity List, the Pentagon&rsquo;s Section 1260H list of Chinese military companies, the ICTS actions against connected software, and the lawsuits that test all of it. The site downloads the records, runs text recognition on the scans, turns them into real web pages, and writes a plain-English summary of what each one does. Every record links back to its source and comes with a citation you can copy. It is so obviously useful that you&rsquo;ll spend the first five minutes wondering why the government never built it.</p>
 
-  <h3>Why it exists</h3>
-  <p>These records are public, but they are scattered across dockets, PDFs, and press releases that assume you already know the vocabulary. Journalists, compliance teams, researchers, and the companies on these lists all end up re-doing the same retrieval. NatSec Noir does it once, in the open, and keeps it current.</p>
+  <h3>These documents run your life. You just never see them.</h3>
+  <p>Start with the stakes, because they are not abstract. The Covered List decides which equipment can get FCC authorization, which means it decides which cameras, routers, and radios can be sold in this country. The Entity List decides whether an American supplier can ship a chip to a given company. A Team Telecom agreement can dictate where a carrier keeps Americans&rsquo; call records and who is allowed anywhere near its network. These are some of the most consequential tech-policy calls Washington makes, and they arrive looking like a fax from 1997.</p>
+
+  <p>Now picture yourself as the person who buys security cameras for a mid-size school district. You&rsquo;ve heard some brands are banned. You&rsquo;d like to know which ones, since when, and whether the cameras already bolted to the gym ceiling are a problem. So you go looking. The FCC has a list, plus a stack of orders explaining it. Commerce keeps a different list, in a different format, under different rules. The Defense Department publishes its own as a notice. None of them talk to each other, and every one of them assumes you already speak the dialect.</p>
+
+  <p>Did the government publish everything you need? Yes. Can you use it? Not without a law degree and a free week.</p>
+
+  <p>The companies on these lists can afford a law firm to read them. Your school district cannot. Neither can the regional carrier, the reporter on deadline, or the graduate student trying to figure out what &ldquo;mitigation&rdquo; means this year. Every one of them repeats the same miserable search, alone. NatSec Noir runs it once, in the open, and keeps it current.</p>
+
+  <h3>&ldquo;Public&rdquo; ought to mean you can read it</h3>
+  <p>There&rsquo;s a second problem, and it would be scandalous even if the stakes were low. A screen reader cannot read a picture of words. Neither can a search engine, and neither can you on a phone without pinching and squinting through forty pages. If a blind attorney cannot read an FCC order, that order is not public to them in any sense worth the word. The site puts it plainly: a record that is public but cannot be read &ldquo;is not fully public.&rdquo; Converting those scans into searchable, quotable, linkable text is the least glamorous work on the internet. It is also the work the agencies skipped.</p>
+
+  <p>Then the site goes a step further. Its <a href="/analyses/">Analyses</a> section lines up records that live in separate dockets (Team Telecom agreements, the FCC&rsquo;s conditional approvals, the restricted-entity lists) side by side, so you can see which conditions keep showing up, which agencies ask for what, and who keeps landing on which list. No single filing shows you that. Laid next to each other, they start telling a story.</p>
+
+  <h3>The part the AI crowd should be watching</h3>
+  <p>Behind the reading room, the same records feed a set of experiments. There&rsquo;s a search system that combines keyword matching with meaning-based retrieval, so it finds the right passage instead of a merely related one. There&rsquo;s a chat interface that answers in plain language from the records, and a knowledge graph that maps companies, agencies, lists, and documents so every answer stays tied to the document it came from. And there are tests of LLM-maintained wikis and Google&rsquo;s Open Knowledge Format, an open standard meant to let other AI agents plug into a collection like this one.</p>
+
+  <p>None of that is public yet. The AI, the summaries &ndash; none of that is authoritative. The rule everywhere is the same: the source document wins.</p>
+
+  <p>That rule matters well beyond one website. You cannot build trustworthy legal AI on top of scanned images nobody can parse. Clean, cited, structured public records come first, and the government is sitting on mountains of them in the worst possible format. NatSec Noir is a working demonstration of what the raw material should look like.</p>
+
+  <h3>What happens if nobody bothers</h3>
+  <p>Leave things as they are and you get a quiet two-tier system. The rules governing which technology Americans can buy, which companies can serve them, and who handles their data stay readable mainly by the people who can pay BigLaw hourly rates to read them. The listed company has a law firm. The small ISP trying to figure out whether its own gear is still legal has a search bar and a headache. Reporters miss stories because the story sits on page fourteen of an image file. And policy the public can&rsquo;t read is policy the public can&rsquo;t argue with, which is how bad policy survives.</p>
+
+  <p>Government records belong to the people they govern. Posting a PDF was supposed to be where public access started, and somewhere along the way agencies decided it was where it ended. One editor looked at that gap and decided to close it, one record at a time, with a summary you can read and a citation you can trust. Washington should be taking notes. Until it does, bookmark the site.</p>
 
   <h3>A note on authority</h3>
   <p>Records here are public documents. Summaries are the editor&rsquo;s reading of them. Nothing on this site is legal advice — which, if you work in this field, you already knew. When accuracy matters, cite the source document, not the summary.</p>
