@@ -1,5 +1,5 @@
 {
- "count": 214,
+ "count": 215,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -2838,6 +2838,37 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-03-mashell-telecom-inc-d-b-a-rainier-connect-letter-8b839c",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:39:14Z",
+   "title": "Alphaboost — Letter of Agreement (Team Telecom, Docket ITC-T/C-20230120-00004)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2023-12-14",
+   "docket": "ITC-T/C-20230120-00004",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8093db0b97da2a1046e139b0f053af1d",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0092625",
+   "source_file": "source.pdf",
+   "sha256": "8b839c0e14a8089c480cbb94ad8c4d1e2832bb088eed3a19e79f078da407a183",
+   "approved_at": "2026-10-07T03:24:11Z",
+   "published_at": "2026-10-07T03:25:29Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:52:58Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-mashell-telecom-inc-d-b-a-rainier-connect-letter-8b839c/source-8b839c0e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
