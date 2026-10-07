@@ -1,5 +1,5 @@
 {
- "count": 203,
+ "count": 204,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3509,6 +3509,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-21T00:27:22Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f/source-634f1fee.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-pti-pacifica-inc-letter-of-agreement-team-teleco-d3c657",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:03:53Z",
+   "title": "PTI Pacifica Inc., MTC Interisland Cable System (MICS) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20211013-00048)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2022-06-10",
+   "docket": "SCL-LIC-20211013-00048",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/522ad60b97d62a1046e139b0f053af05",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0083829",
+   "source_file": "source.pdf",
+   "sha256": "d3c6574b01a9bac14f207462decd600eb1f56ae6c9997de199ce328fe3420cee",
+   "approved_at": "2026-10-07T03:13:36Z",
+   "published_at": "2026-10-07T03:14:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:10:23Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-pti-pacifica-inc-letter-of-agreement-team-teleco-d3c657/source-d3c6574b.pdf",
    "files": [
     "meta.json",
     "summary.md"
