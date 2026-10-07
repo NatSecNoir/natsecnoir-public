@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
+  "status": "approved",
+  "ingested_at": "2026-10-07T13:11:41Z",
+  "title": "Hikvision v FCC (Hikvision II)",
+  "issuing_body": "DC Circuit",
+  "doc_type": "oral argument",
+  "doc_date": "2026-10-06",
+  "docket": "DC Cir Case No. 25-1274",
+  "lists": [
+    "litigation"
+  ],
+  "entities": [],
+  "source_url": "https://media.cadc.uscourts.gov/recordings/docs/2026/10/25-1274.mp3",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "0ce209c6ab9c5711d4c7350d9815edf1d79c59474b3eb4342a1ba583966550c2",
+  "approved_at": "2026-10-07T13:13:15Z",
+  "published_at": "2026-10-07T13:13:39Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-07T13:11:49Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209/source-0ce209c6.pdf"
+}

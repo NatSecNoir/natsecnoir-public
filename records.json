@@ -1,12 +1,45 @@
 {
- "count": 239,
+ "count": 240,
  "records": [
+  {
+   "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
+   "status": "approved",
+   "ingested_at": "2026-10-07T13:11:41Z",
+   "title": "Hikvision v FCC (Hikvision II)",
+   "issuing_body": "DC Circuit",
+   "doc_type": "oral argument",
+   "doc_date": "2026-10-06",
+   "docket": "DC Cir Case No. 25-1274",
+   "lists": [
+    "litigation"
+   ],
+   "entities": [],
+   "source_url": "https://media.cadc.uscourts.gov/recordings/docs/2026/10/25-1274.mp3",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "0ce209c6ab9c5711d4c7350d9815edf1d79c59474b3eb4342a1ba583966550c2",
+   "approved_at": "2026-10-07T13:13:15Z",
+   "published_at": "2026-10-07T13:13:39Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-07T13:11:49Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209/source-0ce209c6.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
   {
    "id": "2026-10-04-record-35ec4b",
    "status": "approved",
    "ingested_at": "2026-10-04T18:55:13Z",
    "title": "4 Seconds to Test? FCC Moves to Pull Shenzhen CTB's Test Lab Recognition",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-10-02",
    "docket": "DA 26-1072; ET Docket No. 26-282",
    "lists": [
@@ -37,6 +70,7 @@
    "ingested_at": "2026-10-03T12:20:16Z",
    "title": "Conditional Approvals: Dronus (drones), Vivid-Hosting (routers), Matic Robots (robots)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-10-02",
    "docket": "DA 26-1063; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -67,6 +101,7 @@
    "ingested_at": "2026-10-03T12:45:12Z",
    "title": "OpenAI hit with lawsuit over Hugging Face hack - safety watchdog LASST files complaint",
    "issuing_body": "Calif. Sup. Ct",
+   "doc_type": "",
    "doc_date": "2026-09-29",
    "docket": "",
    "lists": [
@@ -103,6 +138,7 @@
    "ingested_at": "2026-09-27T19:53:17Z",
    "title": "Anthropic v Hegseth DC Cir Opinion",
    "issuing_body": "DC Circuit",
+   "doc_type": "",
    "doc_date": "2026-09-25",
    "docket": "DC Cir Case No. 26-1049; consolidated with Case No. 26-1162",
    "lists": [
@@ -137,6 +173,7 @@
    "ingested_at": "2026-09-18T21:07:57Z",
    "title": "Conditional Approval - ANSCER Robotics",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-09-18",
    "docket": "DA 26-996; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -167,6 +204,7 @@
    "ingested_at": "2026-09-22T10:58:03Z",
    "title": "Doe v GitHub and OpenAI (9th Cir 2026)",
    "issuing_body": "9th Circuit",
+   "doc_type": "",
    "doc_date": "2026-09-16",
    "docket": "9th Cir Case No. 24-7700; N.D. Cal. Case No. 4:22-cv-06823",
    "lists": [
@@ -203,6 +241,7 @@
    "ingested_at": "2026-09-12T18:26:55Z",
    "title": "Derycom Citation - Failure to Submit Truthful information",
    "issuing_body": "FCC",
+   "doc_type": "citation",
    "doc_date": "2026-09-11",
    "docket": "EB-SED-26-00041408; DA 26-970",
    "lists": [
@@ -235,6 +274,7 @@
    "ingested_at": "2026-09-10T20:08:49Z",
    "title": "Conditional Approvals: Asus, Comtrend (Routers), Husqvarna (robots)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-09-09",
    "docket": "DA 26-957; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -265,6 +305,7 @@
    "ingested_at": "2026-09-19T14:49:47Z",
    "title": "Paramount LOA Execution Version",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-09-03",
    "docket": "MB Docket No. 26-93",
    "lists": [
@@ -296,6 +337,7 @@
    "ingested_at": "2026-09-17T03:18:25Z",
    "title": "Cogito NAL - $25K fine proposed against foreign drone maker",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-08-31",
    "docket": "DA 26-912; EB-SED-26-00040760; NAL/Acct No. 202632100004",
    "lists": [
@@ -328,6 +370,7 @@
    "ingested_at": "2026-09-16T01:29:06Z",
    "title": "Hytera and ZTE Notice of Apparent Liability",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-08-28",
    "docket": "EB-SED-25-00038006",
    "lists": [
@@ -361,6 +404,7 @@
    "ingested_at": "2026-09-07T16:34:41Z",
    "title": "Hesai v DoD",
    "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
    "doc_date": "2026-08-18",
    "docket": "DC Cir. No. 25-5256",
    "lists": [
@@ -395,6 +439,7 @@
    "ingested_at": "2026-09-07T16:34:40Z",
    "title": "DJI v. DoD",
    "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
    "doc_date": "2026-08-14",
    "docket": "No. 25-5367; No. 1:24-cv-02970",
    "lists": [
@@ -430,6 +475,7 @@
    "ingested_at": "2026-10-04T19:16:07Z",
    "title": "Prohibiting Importation and Marketing of certain foreign-produced Anzu drones",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-08-10",
    "docket": "DA 26-832; PS Docket No. 26-184",
    "lists": [
@@ -460,6 +506,7 @@
    "ingested_at": "2026-09-12T20:11:39Z",
    "title": "Stranger Pings: Chinese Telecom Companies Infiltrate US Infrastructure",
    "issuing_body": "Congress",
+   "doc_type": "report",
    "doc_date": "2026-08-04",
    "docket": "NA",
    "lists": [
@@ -493,6 +540,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Robotics and Power Inverters Covered List",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-07-28",
    "docket": "DA 26-786; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -523,6 +571,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "OET Permissive Change Waiver - Robotics Power Inverters",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-07-28",
    "docket": "DA 26-789; ET Docket No. 21-232",
    "lists": [
@@ -553,6 +602,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - SpaceX (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-27",
    "docket": "DA 26-775; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -583,6 +633,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Exedy, Parallel Flight (drones), Calix, Sagemcom, Humax, Askey (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-24",
    "docket": "DA 26-768; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -613,6 +664,7 @@
    "ingested_at": "2026-09-07T00:41:06Z",
    "title": "EA Security 3.0",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-22",
    "docket": "FCC-26-50; ET Docket No. 21-232",
    "lists": [
@@ -645,6 +697,7 @@
    "ingested_at": "2026-10-04T19:14:28Z",
    "title": "Prohibiting Importation and Marketing of Military-Grade Drones",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-21",
    "docket": "DA 26-758; PS Docket No. 26-189",
    "lists": [
@@ -675,6 +728,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Shenzhen STS -CopyPaste-2 Order to Show Cause",
    "issuing_body": "FCC",
+   "doc_type": "order to show cause",
    "doc_date": "2026-07-21",
    "docket": "ET Docket No. 26-140; DA 26-745",
    "lists": [
@@ -707,6 +761,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Odyssey Robot Order to Show Cause",
    "issuing_body": "FCC",
+   "doc_type": "order to show cause",
    "doc_date": "2026-07-21",
    "docket": "ET Docket No. 26-186; DA 26-746",
    "lists": [
@@ -741,6 +796,7 @@
    "ingested_at": "2026-09-27T20:08:20Z",
    "title": "Bartz v Anthropic (ND Cal July 20, 2026) - Final Settlement Approval,",
    "issuing_body": "ND Cal",
+   "doc_type": "",
    "doc_date": "2026-07-20",
    "docket": "ND Cal Case No 24-cv-05417",
    "lists": [
@@ -776,6 +832,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Gryphon, Sercomm (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-20",
    "docket": "DA 26-756; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -806,6 +863,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "PN Seeking Comment on Marketing Import Limit Drone Clones",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-07-17",
    "docket": "PS Docket No. 26-184; DA 26-742",
    "lists": [
@@ -846,6 +904,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Gemtek (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-10",
    "docket": "DA 26-704; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -876,6 +935,7 @@
    "ingested_at": "2026-10-03T20:09:46Z",
    "title": "California Hawaii S1 Cable Syste, (CHI) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240725-00034)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2026-07-09",
    "docket": "SCL-LIC-20240725-00034",
    "lists": [
@@ -907,6 +967,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Vantiva (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-07-08",
    "docket": "DA 26-688; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -937,6 +998,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Order Denying DigitalSystem 214",
    "issuing_body": "FCC",
+   "doc_type": "order",
    "doc_date": "2026-07-07",
    "docket": "FCC 26-44; ITC-214-20240326-00054",
    "lists": [
@@ -974,6 +1036,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Digitalsystem added to Covered List",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-07-07",
    "docket": "DA 26-673; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1012,6 +1075,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Pre-2024 Covered List Marketing Import Limitation",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-26",
    "docket": "DA 26-635; PS Docket No. 26-72",
    "lists": [
@@ -1049,6 +1113,7 @@
    "ingested_at": "2026-09-10T00:09:57Z",
    "title": "Submarine Cable 2nd Report and Order and 2nd Further Notice",
    "issuing_body": "FCC",
+   "doc_type": "report and order",
    "doc_date": "2026-06-25",
    "docket": "OI Docket No. 24-523, MD Docket No. 24-524",
    "lists": [
@@ -1095,6 +1160,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Real-Time Robotics and Ceres Air (drones), Hitron (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-22",
    "docket": "DA 26-616; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1125,6 +1191,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Covered List Toy Drones Removal",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-06-15",
    "docket": "DA 26-588; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1159,6 +1226,7 @@
    "ingested_at": "2026-09-04T08:02:23Z",
    "title": "Conditional Approvals - Flock Group (drones), Miri Technologies (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-12",
    "docket": "DA 26-584; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1189,6 +1257,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals  ABZ Innovation Kft. (drone) and Arcadyan (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-12",
    "docket": "DA 26-585; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1219,6 +1288,7 @@
    "ingested_at": "2026-09-28T02:13:57Z",
    "title": "20260161958 OpenAI SafetyPatent",
    "issuing_body": "USPTO",
+   "doc_type": "",
    "doc_date": "2026-06-11",
    "docket": "US 2026/0161958 A1; Appl. No. 19/379,423",
    "lists": [],
@@ -1249,6 +1319,7 @@
    "ingested_at": "2026-09-14T02:07:53Z",
    "title": "SLG-CPC - Copy-Paste Lab #1- Instituting Order",
    "issuing_body": "FCC",
+   "doc_type": "order",
    "doc_date": "2026-06-09",
    "docket": "ET Docket No. 26-140; DA 26-569",
    "lists": [
@@ -1281,6 +1352,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Innovation First VEX AIR (drone) and Sagemcom (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-04",
    "docket": "DA 26-548; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1311,6 +1383,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Calix, Alpha Networks (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-06-01",
    "docket": "DA 26-542; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1341,6 +1414,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Blueflite, Verity AG, Air VEV (drones)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-05-26",
    "docket": "DA 26-524; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1371,6 +1445,7 @@
    "ingested_at": "2026-10-03T19:08:05Z",
    "title": "Smarteletec S.L — Letter of Agreement (Team Telecom, Docket ITC-214-20230720-00076)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2026-05-22",
    "docket": "ITC-214-20230720-00076",
    "lists": [
@@ -1402,6 +1477,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Nokia",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-05-18",
    "docket": "DA 26-495; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1432,6 +1508,7 @@
    "ingested_at": "2026-09-19T19:13:05Z",
    "title": "Zayo - Team Telecom Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-05-15",
    "docket": "WC Docket No. 25-174; ITC-ASG-20250515-00046",
    "lists": [
@@ -1463,6 +1540,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Elevon Aerial (drones), Nokia (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-05-15",
    "docket": "DA 26-489; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1493,6 +1571,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "OET Waivers (UAS and routers) extended to 2029",
    "issuing_body": "FCC",
+   "doc_type": "waiver",
    "doc_date": "2026-05-08",
    "docket": "ET Docket No. 21-232; DA 26-454",
    "lists": [
@@ -1527,6 +1606,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Air6 (drones), Calix (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-05-06",
    "docket": "DA 26-437; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1557,6 +1637,7 @@
    "ingested_at": "2026-09-09T23:55:24Z",
    "title": "record",
    "issuing_body": "FCC",
+   "doc_type": "notice of proposed rulemaking",
    "doc_date": "2026-05-01",
    "docket": "FCC 26-29; WC Docket No. 26-82",
    "lists": [
@@ -1595,6 +1676,7 @@
    "ingested_at": "2026-09-07T02:27:48Z",
    "title": "Bad Labs 2.0",
    "issuing_body": "FCC",
+   "doc_type": "report and order",
    "doc_date": "2026-04-30",
    "docket": "FCC 26-28; ET Docket No. 24-136",
    "lists": [
@@ -1625,6 +1707,7 @@
    "ingested_at": "2026-10-03T19:43:45Z",
    "title": "Le Vasa Cable System — Letter of Agreement (Team Telecom, Docket SCL-AMD-20260309-00029)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2026-04-29",
    "docket": "SCL-AMD-20260309-00029; SCL-LIC-20250807-00021",
    "lists": [
@@ -1656,6 +1739,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Amazon eero, Amazon Leo (routers)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-04-22",
    "docket": "DA 26-390; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1686,6 +1770,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - Netgear, Adtran (routers), Sees.ai (drone)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-04-14",
    "docket": "DA 26-351; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1716,6 +1801,7 @@
    "ingested_at": "2026-09-20T14:10:55Z",
    "title": "Digitalsystem: Team Telecom Recommendation to Deny Section 214",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-04-01",
    "docket": "File No. ITC-214-20240326-00054",
    "lists": [
@@ -1748,6 +1834,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "PN Seeking Comment on pre-2024 Covered List Limitation",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-03-27",
    "docket": "PS Docket No. 26-72; DA 26-294",
    "lists": [
@@ -1784,6 +1871,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Router Permissive Change Waiver",
    "issuing_body": "FCC",
+   "doc_type": "waiver",
    "doc_date": "2026-03-23",
    "docket": "DA 26-286; ET Docket No. 21-232",
    "lists": [
@@ -1814,6 +1902,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Router Covered List",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-03-23",
    "docket": "DA 26-278; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1844,6 +1933,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Conditional Approvals - SiFly Aviation, Mobilicom, ScoutDI, Verge (drones)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2026-03-18",
    "docket": "DA 26-253; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1874,6 +1964,7 @@
    "ingested_at": "2026-09-12T20:11:37Z",
    "title": "Foreign Adversary Control Report and Order",
    "issuing_body": "FCC",
+   "doc_type": "report and order",
    "doc_date": "2026-01-29",
    "docket": "FCC 26-2; GN Docket No. 25-166",
    "lists": [
@@ -1906,6 +1997,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "OET Class I Permissive Change Waiver",
    "issuing_body": "FCC",
+   "doc_type": "waiver",
    "doc_date": "2026-01-21",
    "docket": "DA 26-69; ET Docket No. 21-232",
    "lists": [
@@ -1936,6 +2028,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Second UAS Covered List Blue UAS",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2026-01-07",
    "docket": "DA 26-22; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -1970,6 +2063,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "First UAS Covered List",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2025-12-22",
    "docket": "DA 25-1086; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -2015,6 +2109,7 @@
    "ingested_at": "2026-10-03T20:48:21Z",
    "title": "Bulikula Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20241115-00046)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-11-17",
    "docket": "SCL-LIC-20241115-00046",
    "lists": [
@@ -2046,6 +2141,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "EA Security 2.0",
    "issuing_body": "FCC",
+   "doc_type": "report and order",
    "doc_date": "2025-10-29",
    "docket": "FCC 25-71; ET Docket No. 21-232",
    "lists": [
@@ -2087,6 +2183,7 @@
    "ingested_at": "2026-09-27T20:13:19Z",
    "title": "Bartz v Anthropic (ND Cal. Oct 17, 2025) - Judge Alsup Opinion re preliminary settlement approval",
    "issuing_body": "ND Cal",
+   "doc_type": "",
    "doc_date": "2025-10-17",
    "docket": "ND Cal Case No 24-cv-05417 (ECF No 437)",
    "lists": [
@@ -2122,6 +2219,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "HK Telecom Order to Show Cause 214",
    "issuing_body": "FCC",
+   "doc_type": "order to show cause",
    "doc_date": "2025-10-15",
    "docket": "DA 25-928; GN Docket No. 25-308; ITC-214-19980303-00158; ITC-214-19980930-00689; ITC-214-19981218-00880; ITC-214-19990601-00305; ITC-214-19990601-00306; ITC-214-19990601-00307; ITC-214-19990601-00308; ITC-214-19991122-00725; ITC-214-19991122-00726; ITC-214-19991122-00727; ITC-MOD-20020829-00511; ITC-214-20021024-00567",
    "lists": [
@@ -2162,6 +2260,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List NatSec Advisory Subs Affil",
    "issuing_body": "FCC",
+   "doc_type": "advisory",
    "doc_date": "2025-10-14",
    "docket": "DA 25-927; WC Docket No. 18-89; ET Docket Nos. 21-232, 24-136; EA Docket No. 21-233",
    "lists": [
@@ -2205,6 +2304,7 @@
    "ingested_at": "2026-10-03T19:52:54Z",
    "title": "Hawaiki Submarine Cable USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160906-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-09-17",
    "docket": "SCL-LIC-20160906-00019; SCL-MOD-20241204-00047",
    "lists": [
@@ -2236,6 +2336,7 @@
    "ingested_at": "2026-09-10T00:09:19Z",
    "title": "Submarine Cable First Report and Order",
    "issuing_body": "FCC",
+   "doc_type": "report and order",
    "doc_date": "2025-08-07",
    "docket": "FCC 25-49; OI Docket No. 24-523; MD Docket No. 24-524",
    "lists": [
@@ -2279,6 +2380,7 @@
    "ingested_at": "2026-10-03T20:45:24Z",
    "title": "Proa Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240911-00038)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-07-16",
    "docket": "SCL-LIC-20240911-00038",
    "lists": [
@@ -2310,6 +2412,7 @@
    "ingested_at": "2026-10-03T20:48:45Z",
    "title": "Halaihai Cable — Letter of Agreement (Team Telecom, Docket SCL-LIC-20241210-00048)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-07-15",
    "docket": "SCL-LIC-20241210-00048",
    "lists": [
@@ -2341,6 +2444,7 @@
    "ingested_at": "2026-10-03T19:10:09Z",
    "title": "Telroaming — Letter of Agreement (Team Telecom, Docket ITC-214-20240522-00090)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-07-14",
    "docket": "ITC-214-20240522-00090",
    "lists": [
@@ -2372,6 +2476,7 @@
    "ingested_at": "2026-10-03T20:46:28Z",
    "title": "Taihei Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240926-00039)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-07-14",
    "docket": "SCL-LIC-20240926-00039",
    "lists": [
@@ -2403,6 +2508,7 @@
    "ingested_at": "2026-10-03T20:47:28Z",
    "title": "Honomoana — Letter of Agreement (Team Telecom, Docket SCL-LIC-20241030-00042)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-07-11",
    "docket": "SCL-LIC-20241030-00042",
    "lists": [
@@ -2434,6 +2540,7 @@
    "ingested_at": "2026-09-19T19:12:39Z",
    "title": "SES.Intelsat NSA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-07-02",
    "docket": "SB Docket No. 24-267",
    "lists": [
@@ -2466,6 +2573,7 @@
    "ingested_at": "2026-09-27T20:08:19Z",
    "title": "Kadrey v Meta (ND Cal June 25, 2025) - Order granting Meta summary judgment on fair use",
    "issuing_body": "ND Cal",
+   "doc_type": "",
    "doc_date": "2025-06-25",
    "docket": "ND Cal Case No. 23-cv-03417 (Judge Chhabria)",
    "lists": [
@@ -2501,6 +2609,7 @@
    "ingested_at": "2026-10-03T21:07:25Z",
    "title": "PPC 1 Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20241114-00044)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-06-23",
    "docket": "SCL-T/C-20241114-00044; SCL-T/C-20241220-00049",
    "lists": [
@@ -2532,6 +2641,7 @@
    "ingested_at": "2026-09-27T20:03:18Z",
    "title": "Bartz v Anthropic",
    "issuing_body": "ND Cal",
+   "doc_type": "",
    "doc_date": "2025-06-23",
    "docket": "ND Cal Case No. 24-cv-05417 (Judge Alsup)",
    "lists": [
@@ -2566,6 +2676,7 @@
    "ingested_at": "2026-09-19T19:11:58Z",
    "title": "UScellular (T-Mobile) - Letter to Committee - Signed (002)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-06-18",
    "docket": "GN Docket No. 24-286",
    "lists": [
@@ -2599,6 +2710,7 @@
    "ingested_at": "2026-10-03T19:09:33Z",
    "title": "World Mobile Networks — Letter of Agreement (Team Telecom, Docket ITC-214-20240327-00077)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-06-11",
    "docket": "ITC-214-20240327-00077",
    "lists": [
@@ -2630,6 +2742,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Bad Labs 1.0 R&O",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-05-27",
    "docket": "FCC 25-27; ET Docket No. 24-136",
    "lists": [
@@ -2660,6 +2773,7 @@
    "ingested_at": "2026-09-12T20:11:38Z",
    "title": "ICTS Connected Vehicles  PN",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2025-05-23",
    "docket": "DA 25-418; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -2691,6 +2805,7 @@
    "ingested_at": "2026-10-03T20:06:17Z",
    "title": "Tikal-AMX3 — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240105-00001)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-05-14",
    "docket": "SCL-LIC-20240105-00001",
    "lists": [
@@ -2722,6 +2837,7 @@
    "ingested_at": "2026-10-03T20:44:41Z",
    "title": "Tabua Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240819-00037)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-05-14",
    "docket": "SCL-LIC-20240819-00037",
    "lists": [
@@ -2753,6 +2869,7 @@
    "ingested_at": "2026-10-03T19:10:47Z",
    "title": "BillyRonks — Letter of Agreement (Team Telecom, Docket ITC-214-20240726-00122)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-05-13",
    "docket": "ITC-214-20240726-00122",
    "lists": [
@@ -2784,6 +2901,7 @@
    "ingested_at": "2026-09-19T19:11:54Z",
    "title": "Metronet T-Mobile - Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-05-09",
    "docket": "WC Docket No. 24-244; ITC-T/C-20240808-00132; ITC-T/C-20240808-00131; ITC-ASG-20240808-00133; ITC-T/C-20240808-00130",
    "lists": [
@@ -2815,6 +2933,7 @@
    "ingested_at": "2026-10-03T19:48:42Z",
    "title": "Latam Telecommunications, L.L.C. — Letter of Agreement (Team Telecom, Docket SCL-LIC-20120330-00002)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-05-08",
    "docket": "SCL-LIC-20120330-00002",
    "lists": [
@@ -2846,6 +2965,7 @@
    "ingested_at": "2026-10-03T20:08:59Z",
    "title": "Nuvem Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240621-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-04-30",
    "docket": "SCL-LIC-20240621-00030",
    "lists": [
@@ -2877,6 +2997,7 @@
    "ingested_at": "2026-10-03T20:06:47Z",
    "title": "Pacific Cross Cable System 1 (PC-1) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240424-00010)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-04-30",
    "docket": "SCL-LIC-20240424-00010",
    "lists": [
@@ -2908,6 +3029,7 @@
    "ingested_at": "2026-09-19T19:11:42Z",
    "title": "Windstream - Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-04-25",
    "docket": "WC Docket No. 24-165",
    "lists": [
@@ -2939,6 +3061,7 @@
    "ingested_at": "2026-10-03T20:08:06Z",
    "title": "Trans Americas Fiber Cable (TAM-1) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20240605-00023)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-03-26",
    "docket": "SCL-LIC-20240605-00023",
    "lists": [
@@ -2970,6 +3093,7 @@
    "ingested_at": "2026-09-19T19:11:28Z",
    "title": "Lumos (T-Mobile - EQT)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2025-02-14",
    "docket": "WC Docket No. 24-151; TT 24-029 to -031; ITC-ASG-20240515-00086",
    "lists": [
@@ -3001,6 +3125,7 @@
    "ingested_at": "2026-10-03T19:45:52Z",
    "title": "SEA-US Cable System — Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-02-12",
    "docket": "SCL-ASG-20240304-00008",
    "lists": [
@@ -3032,6 +3157,7 @@
    "ingested_at": "2026-10-03T19:45:04Z",
    "title": "JGA Cable System — Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00006)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-02-12",
    "docket": "SCL-ASG-20240304-00006",
    "lists": [
@@ -3063,6 +3189,7 @@
    "ingested_at": "2026-09-27T21:13:29Z",
    "title": "Thomson Reuters v Ross Intelligence (D. Del. Feb 11, 2025)",
    "issuing_body": "D. Del",
+   "doc_type": "",
    "doc_date": "2025-02-11",
    "docket": "D Del Case No 1:20-cv-613, ECF No 770",
    "lists": [
@@ -3098,6 +3225,7 @@
    "ingested_at": "2026-10-03T20:05:59Z",
    "title": "TPU Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20230511-00013)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2025-01-24",
    "docket": "SCL-LIC-20230511-00013",
    "lists": [
@@ -3129,6 +3257,7 @@
    "ingested_at": "2026-09-07T16:34:42Z",
    "title": "TikTok Inc. v.  Garland",
    "issuing_body": "SCOTUS",
+   "doc_type": "opinion",
    "doc_date": "2025-01-17",
    "docket": "SCOTUS Docket Nos. 24-656 and 24-657",
    "lists": [
@@ -3163,6 +3292,7 @@
    "ingested_at": "2026-09-07T16:29:39Z",
    "title": "China Unicom v FCC",
    "issuing_body": "9th Circuit",
+   "doc_type": "opinion",
    "doc_date": "2024-12-24",
    "docket": "9th Cir No. 22-70029",
    "lists": [
@@ -3198,6 +3328,7 @@
    "ingested_at": "2026-10-03T20:04:50Z",
    "title": "Apricot Cable — Letter of Agreement (Team Telecom, Docket SCL-LIC-20220715-00024)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2024-12-12",
    "docket": "SCL-LIC-20220715-00024",
    "lists": [
@@ -3229,6 +3360,7 @@
    "ingested_at": "2026-10-03T20:05:23Z",
    "title": "Bifrost Cable — Letter of Agreement (Team Telecom, Docket SCL-LIC-20221209-00036)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2024-12-12",
    "docket": "SCL-LIC-20221209-00036",
    "lists": [
@@ -3260,6 +3392,7 @@
    "ingested_at": "2026-10-04T18:23:16Z",
    "title": "FCC proposes $735K+ fine against Chinese doorbell camera maker Eken for fake U.S. address",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2024-11-21",
    "docket": "FCC 24-122; File No. EB-TCD-24-00036532; NAL/Acct. No. 202532170001",
    "lists": [
@@ -3292,6 +3425,7 @@
    "ingested_at": "2026-09-19T19:10:19Z",
    "title": "Cincinnati Bell - Team Telecom Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2024-10-10",
    "docket": "WC Docket No. 24-42",
    "lists": [
@@ -3323,6 +3457,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Prohibiting EA for Kaspersky",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2024-09-03",
    "docket": "DA 24-886; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -3358,6 +3493,7 @@
    "ingested_at": "2026-09-22T08:11:03Z",
    "title": "Searchlight — Mitigation Agreement (Team Telecom)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2024-07-24",
    "docket": "ISP-PDR-20230823-00008",
    "lists": [
@@ -3389,6 +3525,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List Kaspersky ICTS hardware",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2024-07-23",
    "docket": "DA 24-712; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
@@ -3424,6 +3561,7 @@
    "ingested_at": "2026-10-04T18:41:23Z",
    "title": "Bad Labs NPRM",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2024-05-24",
    "docket": "FCC 24-58; ET Docket No. 24-136",
    "lists": [
@@ -3454,6 +3592,7 @@
    "ingested_at": "2026-09-19T19:09:46Z",
    "title": "Truphone - Team Telecom mitigation agreement",
    "issuing_body": "DOJ",
+   "doc_type": "",
    "doc_date": "2024-05-10",
    "docket": "OIA Docket No. 23-344",
    "lists": [
@@ -3485,6 +3624,7 @@
    "ingested_at": "2026-09-19T19:09:11Z",
    "title": "Element8 AtLink  Team Telecom mitigation agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2024-05-02",
    "docket": "WC Docket No. 23-268",
    "lists": [
@@ -3516,6 +3656,7 @@
    "ingested_at": "2026-09-07T16:34:40Z",
    "title": "Hikvision USA, Inc. v. FCC",
    "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
    "doc_date": "2024-04-02",
    "docket": "DC Cir. No. 23-1032; Consolidated with 23-1073",
    "lists": [
@@ -3559,6 +3700,7 @@
    "ingested_at": "2026-10-03T19:07:13Z",
    "title": "Alleswolke Wireless LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20230504-00056)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2024-03-29",
    "docket": "ITC-214-20230504-00056",
    "lists": [
@@ -3590,6 +3732,7 @@
    "ingested_at": "2026-10-03T19:39:14Z",
    "title": "Alphaboost — Letter of Agreement (Team Telecom, Docket ITC-T/C-20230120-00004)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2023-12-14",
    "docket": "ITC-T/C-20230120-00004",
    "lists": [
@@ -3621,6 +3764,7 @@
    "ingested_at": "2026-09-19T19:08:57Z",
    "title": "All West Communications - Team Telecom mitigation agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-11-13",
    "docket": "WC Docket No. 22-410",
    "lists": [
@@ -3651,6 +3795,7 @@
    "ingested_at": "2026-10-03T20:04:56Z",
    "title": "Juno Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20221208-00037)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2023-10-19",
    "docket": "SCL-LIC-20221208-00037",
    "lists": [
@@ -3682,6 +3827,7 @@
    "ingested_at": "2026-09-22T08:14:19Z",
    "title": "Lumos — Letter of Agreement (Team Telecom)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-10-06",
    "docket": "ITC-214-19960703-00293; ITC-T/C-20170302-00027; ITC-T/C-20191223-00201",
    "lists": [
@@ -3713,6 +3859,7 @@
    "ingested_at": "2026-09-19T19:08:23Z",
    "title": "Millennium Telcom Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-10-03",
    "docket": "WC Docket No. 22-31; ITC-T/C-20220121-00015",
    "lists": [
@@ -3744,6 +3891,7 @@
    "ingested_at": "2026-09-22T08:10:48Z",
    "title": "Lightspeed Networks, Inc. — Letter of Agreement (Team Telecom)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-09-07",
    "docket": "ISP-PDR-20221013-00009",
    "lists": [
@@ -3775,6 +3923,7 @@
    "ingested_at": "2026-10-03T21:06:45Z",
    "title": "Yellow Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20221123-00034)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2023-09-06",
    "docket": "SCL-T/C-20221123-00034",
    "lists": [
@@ -3806,6 +3955,7 @@
    "ingested_at": "2026-09-19T19:08:20Z",
    "title": "Mashell Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-08-24",
    "docket": "WC Docket No. 23-30; ITC-T/C-20230120-00004",
    "lists": [
@@ -3837,6 +3987,7 @@
    "ingested_at": "2026-09-07T16:29:39Z",
    "title": "Pacific Networks and ComNet (USA) v. FCC",
    "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
    "doc_date": "2023-08-15",
    "docket": "No. 22-1054",
    "lists": [
@@ -3875,6 +4026,7 @@
    "ingested_at": "2026-09-19T19:08:16Z",
    "title": "Meriplex Mitigation Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-07-25",
    "docket": "WC Docket No. 22-400; ITC-T/C-20221117-00135",
    "lists": [
@@ -3906,6 +4058,7 @@
    "ingested_at": "2026-09-19T19:07:35Z",
    "title": "OneWeb Eutelsat LOA",
    "issuing_body": "DoD",
+   "doc_type": "",
    "doc_date": "2023-07-25",
    "docket": "IB Docket No. 22-404",
    "lists": [
@@ -3937,6 +4090,7 @@
    "ingested_at": "2026-09-22T08:09:18Z",
    "title": "Windstream — Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2023-01-17",
    "docket": "ISP-PDR-20201021-00010",
    "lists": [
@@ -3968,6 +4122,7 @@
    "ingested_at": "2026-10-03T20:04:21Z",
    "title": "St. Thomas - St. Croix Cable System (STSC) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20220114-00004)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2023-01-09",
    "docket": "SCL-LIC-20220114-00004",
    "lists": [
@@ -3999,6 +4154,7 @@
    "ingested_at": "2026-09-07T16:19:38Z",
    "title": "China Telecom (Americas) Corp. v. FCC",
    "issuing_body": "DC Circuit",
+   "doc_type": "opinion",
    "doc_date": "2022-12-20",
    "docket": "No. 21-1233",
    "lists": [
@@ -4038,6 +4194,7 @@
    "ingested_at": "2026-10-03T19:36:32Z",
    "title": "MAREA Cable System — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-12-09",
    "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
    "lists": [
@@ -4069,6 +4226,7 @@
    "ingested_at": "2026-10-03T19:36:12Z",
    "title": "Telxius Cable Puerto Rico, Inc. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-12-09",
    "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
    "lists": [
@@ -4100,6 +4258,7 @@
    "ingested_at": "2026-10-03T19:36:33Z",
    "title": "Telxius Cable Puerto Rico, Inc. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-12-09",
    "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
    "lists": [
@@ -4131,6 +4290,7 @@
    "ingested_at": "2026-10-03T19:36:29Z",
    "title": "BRUSA Cable System — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-12-09",
    "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
    "lists": [
@@ -4162,6 +4322,7 @@
    "ingested_at": "2026-10-03T19:36:31Z",
    "title": "SAm-1 Cable System — Letter of Agreement (Team Telecom, Docket ITC-T/C-20220222-00030)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-12-09",
    "docket": "ITC-T/C-20220222-00030; SCL-T/C-20220222-00006; SCL-T/C-20220222-00007; ITC-T/C-20220222-00031",
    "lists": [
@@ -4193,6 +4354,7 @@
    "ingested_at": "2026-09-19T19:07:26Z",
    "title": "Fusion Connect LOA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-12-01",
    "docket": "WC Docket No. 22-128; ITC-T/C-20220317-00038",
    "lists": [
@@ -4224,6 +4386,7 @@
    "ingested_at": "2026-10-03T20:04:33Z",
    "title": "Firmina Cable System - Google — Letter of Agreement (Team Telecom, Docket SCL-LIC-20220422-00015)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-11-30",
    "docket": "SCL-LIC-20220422-00015",
    "lists": [
@@ -4255,6 +4418,7 @@
    "ingested_at": "2026-09-19T19:07:25Z",
    "title": "Spanish Broadcasting System LOA - Team Telecom",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-11-28",
    "docket": "MB Docket No. 22-61",
    "lists": [
@@ -4286,6 +4450,7 @@
    "ingested_at": "2026-09-28T02:46:57Z",
    "title": "FCC-22-84A1_Rcd-EA-Security-1.0",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-11-11",
    "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
    "lists": [
@@ -4316,6 +4481,7 @@
    "ingested_at": "2026-09-09T23:52:07Z",
    "title": "EA Security 1.0",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-11-11",
    "docket": "ET Docket No. 21-232; EA Docket No. 21-233; FCC 22-84",
    "lists": [
@@ -4348,6 +4514,7 @@
    "ingested_at": "2026-10-03T19:06:17Z",
    "title": "PhoneBox Network Ltd. — Letter of Agreement (Team Telecom, Docket ITC-214-20220328-00044)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-10-26",
    "docket": "ITC-214-20220328-00044",
    "lists": [
@@ -4379,6 +4546,7 @@
    "ingested_at": "2026-09-19T19:06:54Z",
    "title": "Everfast Fiber Networks SIGNED LOA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-10-12",
    "docket": "WC Docket No. 22-141",
    "lists": [
@@ -4410,6 +4578,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Covered List China Unicom PacNet",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2022-09-20",
    "docket": "WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233; DA 22-979",
    "lists": [
@@ -4450,6 +4619,7 @@
    "ingested_at": "2026-09-19T19:05:39Z",
    "title": "Consolidated Communications - Team Telecom LOA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-07-19",
    "docket": "WC Docket No. 21-350",
    "lists": [
@@ -4481,6 +4651,7 @@
    "ingested_at": "2026-09-19T19:06:20Z",
    "title": "GCX - FLAG Atlantic1 (FA-1) Cable LOA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-07-18",
    "docket": "WC Docket No. 21-463; ITC-T/C-20211130-00183; ITC-T/C-20211124-00181; ITC-T/C-20211130-00182",
    "lists": [
@@ -4512,6 +4683,7 @@
    "ingested_at": "2026-09-19T19:06:20Z",
    "title": "GCX LOA - Team Telecom",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-07-18",
    "docket": "WC Docket No. 21-463; ITC-T/C-20211130-00183; ITC-T/C-20211124-00181; ITC-T/C-20211130-00182",
    "lists": [
@@ -4543,6 +4715,7 @@
    "ingested_at": "2026-09-19T19:05:37Z",
    "title": "GTT Communications - Team Telecom agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-07-12",
    "docket": "WC Docket No. 21-445; ITC-214-20061101-00500; ITC-214-20020619-00332",
    "lists": [
@@ -4574,6 +4747,7 @@
    "ingested_at": "2026-09-20T21:33:59Z",
    "title": "IPC Systems, Inc. — Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-07-05",
    "docket": "ITC-T/C-20211105-00179",
    "lists": [
@@ -4605,6 +4779,7 @@
    "ingested_at": "2026-10-03T20:03:53Z",
    "title": "PTI Pacifica Inc., MTC Interisland Cable System (MICS) — Letter of Agreement (Team Telecom, Docket SCL-LIC-20211013-00048)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-06-10",
    "docket": "SCL-LIC-20211013-00048",
    "lists": [
@@ -4636,6 +4811,7 @@
    "ingested_at": "2026-09-19T19:05:30Z",
    "title": "Plant LOA",
    "issuing_body": "DOJ",
+   "doc_type": "",
    "doc_date": "2022-05-31",
    "docket": "WT Docket No. 02-229; ITC-T/C-20211104-00161",
    "lists": [
@@ -4667,6 +4843,7 @@
    "ingested_at": "2026-10-03T21:04:01Z",
    "title": "GlobeNet Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20211001-00043)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-05-27",
    "docket": "SCL-T/C-20211001-00043",
    "lists": [
@@ -4698,6 +4875,7 @@
    "ingested_at": "2026-09-19T19:05:31Z",
    "title": "2022 5 23 Peerless TT 214 LOA",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-05-23",
    "docket": "WC Docket No. 03-216; WT Docket No. 02-229; ITC-T/C-20211108-00165",
    "lists": [
@@ -4729,6 +4907,7 @@
    "ingested_at": "2026-10-03T20:03:32Z",
    "title": "Neutral Networks USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20210930-00042)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-05-12",
    "docket": "SCL-LIC-20210930-00042",
    "lists": [
@@ -4760,6 +4939,7 @@
    "ingested_at": "2026-09-22T08:07:01Z",
    "title": "Gigsky, Inc. — Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2022-05-05",
    "docket": "ISP-PDR-20160415-00008",
    "lists": [
@@ -4791,6 +4971,7 @@
    "ingested_at": "2026-10-03T19:40:56Z",
    "title": "Vocus Group Limited — Letter of Agreement (Team Telecom, Docket ITC-T/C-20241030-00169)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-03-30",
    "docket": "ITC-T/C-20241030-00169",
    "lists": [
@@ -4822,6 +5003,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "Second Covered List China Mobile Telecom Kaspersky",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2022-03-25",
    "docket": "WC Docket No. 18-89; DA 22-320",
    "lists": [
@@ -4868,6 +5050,7 @@
    "ingested_at": "2026-10-03T19:52:54Z",
    "title": "Hawaiki Submarine Cable USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160906-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2022-03-23",
    "docket": "SCL-LIC-20160906-00019; SCL-MOD-20241204-00047",
    "lists": [
@@ -4899,6 +5082,7 @@
    "ingested_at": "2026-10-03T20:02:47Z",
    "title": "PLCN - Meta — National Security Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-12-14",
    "docket": "SCL-LIC-20200827-00038",
    "lists": [
@@ -4930,6 +5114,7 @@
    "ingested_at": "2026-10-03T20:02:45Z",
    "title": "PLCN - Google — National Security Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-12-13",
    "docket": "SCL-LIC-20200827-00038",
    "lists": [
@@ -4961,6 +5146,7 @@
    "ingested_at": "2026-09-16T11:35:58Z",
    "title": "China Telecom Revocation Order",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2021-11-02",
    "docket": "FCC 21-114; GN Docket No. 20-109",
    "lists": [
@@ -4997,6 +5183,7 @@
    "ingested_at": "2026-10-03T20:57:01Z",
    "title": "PLCN-Taiwan extension — Letter of Agreement (Team Telecom, Docket SCL-STA-20210817-00033)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-09-03",
    "docket": "SCL-STA-20210817-00033",
    "lists": [
@@ -5028,6 +5215,7 @@
    "ingested_at": "2026-10-03T19:31:50Z",
    "title": "Telesat — Letter of Agreement (Team Telecom, Docket ITC-T/C-20201215-00208)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-07-15",
    "docket": "ITC-T/C-20201215-00208",
    "lists": [
@@ -5059,6 +5247,7 @@
    "ingested_at": "2026-09-07T16:34:41Z",
    "title": "Huawei v FCC",
    "issuing_body": "5th Cir",
+   "doc_type": "opinion",
    "doc_date": "2021-06-18",
    "docket": "5th Cir Docket No. No. 19-60896; FCC No. 19-121",
    "lists": [
@@ -5094,6 +5283,7 @@
    "ingested_at": "2026-10-03T21:07:44Z",
    "title": "Amitié Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20250325-00007)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-04-01",
    "docket": "SCL-T/C-20250325-00007; SCL-T/C-20250325-00008",
    "lists": [
@@ -5125,6 +5315,7 @@
    "ingested_at": "2026-10-03T20:02:49Z",
    "title": "Pacific Light Cable Network (PLCN) Taiwan extension — Letter of Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-03-18",
    "docket": "SCL-LIC-20200827-00038",
    "lists": [
@@ -5156,6 +5347,7 @@
    "ingested_at": "2026-10-03T19:06:33Z",
    "title": "Cincinnati Bell — Letter of Agreement (Team Telecom, Docket ITC-214-20220801-00098)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-03-12",
    "docket": "ITC-214-20220801-00098",
    "lists": [
@@ -5187,6 +5379,7 @@
    "ingested_at": "2026-09-04T08:02:22Z",
    "title": "First Covered List PN Huawei ZTE",
    "issuing_body": "FCC",
+   "doc_type": "public notice",
    "doc_date": "2021-03-12",
    "docket": "WC Docket No. 18-89; DA 21-309",
    "lists": [
@@ -5224,6 +5417,7 @@
    "ingested_at": "2026-09-17T03:30:20Z",
    "title": "DOJ Team Telecom China Telecom Reply",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2021-01-14",
    "docket": "GN Docket 20-109; ITC-214-20010613-00346; ITC-214-20020716-00371; ITC-T/C-20070725-00285",
    "lists": [
@@ -5258,6 +5452,7 @@
    "ingested_at": "2026-10-03T21:08:15Z",
    "title": "AEConnect-1 Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20250325-00007)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2021-01-05",
    "docket": "SCL-T/C-20250325-00007; SCL-T/C-20250325-00008",
    "lists": [
@@ -5289,6 +5484,7 @@
    "ingested_at": "2026-09-22T08:09:03Z",
    "title": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2020-12-17",
    "docket": "ISP-PDR-20200624-00005; ITC-ASG-20200625-00095; ITC-ASG-20200625-00096; ITC-ASG-20200625-00097; ITC-ASG-20200625-00102; ITC-ASG-20200625-00103; ITC-ASG-20200625-00106; ITC-ASG-20200625-00104; ITC-ASG-20200625-00105; ITC-ASG-20200625-00108; ITC-ASG-20200625-00109; ITC-ASG-20200625-00107; ITC-ASG-20200625-00099; ITC-ASG-20200625-00100; ITC-ASG-20200625-00098",
    "lists": [
@@ -5320,6 +5516,7 @@
    "ingested_at": "2026-10-03T19:01:23Z",
    "title": "ARIA TEL CORP. — Letter of Agreement (Team Telecom, Docket ITC-214-20161201-00337)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-11-10",
    "docket": "ITC-214-20161201-00337",
    "lists": [
@@ -5351,6 +5548,7 @@
    "ingested_at": "2026-10-03T19:45:03Z",
    "title": "Japan-Guam-Australia South Cable System (JGA-S)  — Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00006)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-10-06",
    "docket": "SCL-ASG-20240304-00006",
    "lists": [
@@ -5382,6 +5580,7 @@
    "ingested_at": "2026-10-03T20:50:48Z",
    "title": "Southern Cross Cable System — Letter of Agreement (Team Telecom, Docket SCL-MOD-20200709-00027)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-07-03",
    "docket": "SCL-MOD-20200709-00027",
    "lists": [
@@ -5413,6 +5612,7 @@
    "ingested_at": "2026-10-03T19:55:29Z",
    "title": "Taino-Carib Cable System - Team Telecom Agreement",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-07-02",
    "docket": "SCL-LIC-20180702-00019",
    "lists": [
@@ -5444,6 +5644,7 @@
    "ingested_at": "2026-10-03T19:30:41Z",
    "title": "Liberty Latin America Ltd. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20191107-00178)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-07-01",
    "docket": "ITC-T/C-20191107-00178",
    "lists": [
@@ -5475,6 +5676,7 @@
    "ingested_at": "2026-10-03T20:02:05Z",
    "title": "Columbus II Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20190326-00010)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-06-22",
    "docket": "SCL-LIC-20190326-00010; SCL-MOD-20210702-00030",
    "lists": [
@@ -5506,6 +5708,7 @@
    "ingested_at": "2026-10-03T19:55:08Z",
    "title": "Taino-Carib Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20180702-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-06-22",
    "docket": "SCL-LIC-20180702-00019",
    "lists": [
@@ -5537,6 +5740,7 @@
    "ingested_at": "2026-10-03T19:45:02Z",
    "title": "Japan-Guam-Australia North Cable System (JGA-N)— Letter of Agreement (Team Telecom, Docket SCL-ASG-20240304-00006)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-06-10",
    "docket": "SCL-ASG-20240304-00006",
    "lists": [
@@ -5568,6 +5772,7 @@
    "ingested_at": "2026-10-03T19:04:03Z",
    "title": "AFRIX Telecom LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20190821-00141)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-04-27",
    "docket": "ITC-214-20190821-00141",
    "lists": [
@@ -5599,6 +5804,7 @@
    "ingested_at": "2026-09-17T03:29:56Z",
    "title": "DOJ Team Telecom Revoke China Telecom",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2020-04-09",
    "docket": "ITC-214-20010613-00346; ITC-214-20020716-00371; ITC-T/C-20070725-00285",
    "lists": [
@@ -5631,6 +5837,7 @@
    "ingested_at": "2026-10-03T19:30:51Z",
    "title": "North State Telephone Company d/b/a North State Communications — Letter of Agreement (Team Telecom, Docket ITC-T/C-20191223-00201)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-04-07",
    "docket": "ITC-T/C-20191223-00201",
    "lists": [
@@ -5662,6 +5869,7 @@
    "ingested_at": "2026-10-03T19:29:40Z",
    "title": "Flock FZ-LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20190319-00090)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-03-29",
    "docket": "ITC-T/C-20190319-00090",
    "lists": [
@@ -5693,6 +5901,7 @@
    "ingested_at": "2026-10-03T19:03:46Z",
    "title": "SORACOM GLOBAL, INC. — Letter of Agreement (Team Telecom, Docket ITC-214-20190130-00067)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-03-10",
    "docket": "ITC-214-20190130-00067",
    "lists": [
@@ -5724,6 +5933,7 @@
    "ingested_at": "2026-10-03T21:02:44Z",
    "title": "Zayo Group, LLC — Letter of Agreement (Team Telecom, Docket SCL-T/C-20190614-00018)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2020-01-22",
    "docket": "SCL-T/C-20190614-00018",
    "lists": [
@@ -5755,6 +5965,7 @@
    "ingested_at": "2026-09-22T08:08:44Z",
    "title": "Zayo Group, LLC — Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2020-01-21",
    "docket": "ISP-PDR-20190620-00004; SCL-T/C-20190614-00018",
    "lists": [
@@ -5786,6 +5997,7 @@
    "ingested_at": "2026-10-03T20:50:26Z",
    "title": "SAm-1 Cable System — Letter of Agreement (Team Telecom, Docket SCL-MOD-20180905-00032)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-12-04",
    "docket": "SCL-MOD-20180905-00032",
    "lists": [
@@ -5817,6 +6029,7 @@
    "ingested_at": "2026-10-03T19:17:34Z",
    "title": "Northwest Fiber — Letter of Agreement (Team Telecom, Docket ITC-ASG-20240314-00049)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-11-21",
    "docket": "ITC-ASG-20240314-00049",
    "lists": [
@@ -5848,6 +6061,7 @@
    "ingested_at": "2026-09-22T08:08:51Z",
    "title": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2019-11-21",
    "docket": "ISP-PDR-20190708-00006",
    "lists": [
@@ -5879,6 +6093,7 @@
    "ingested_at": "2026-09-22T08:11:35Z",
    "title": "BCE Holding Corporation — Letter of Agreement (Team Telecom, Docket ISP-PDR-20241206-00005)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2019-11-21",
    "docket": "ISP-PDR-20241206-00005; ECFS 24-692; ECFS 19-188",
    "lists": [
@@ -5910,6 +6125,7 @@
    "ingested_at": "2026-10-03T19:52:57Z",
    "title": "Hawaiki Submarine Cable USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160906-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-10-31",
    "docket": "SCL-LIC-20160906-00019",
    "lists": [
@@ -5941,6 +6157,7 @@
    "ingested_at": "2026-10-03T19:54:48Z",
    "title": "Havfrue Cable System— Letter of Agreement (Team Telecom, Docket SCL-LIC-20180511-00010)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-09-02",
    "docket": "SCL-LIC-20180511-00010; SCL-T/C-20250325-00007; SCL-T/C-20250325-00008",
    "lists": [
@@ -5972,6 +6189,7 @@
    "ingested_at": "2026-10-03T19:28:25Z",
    "title": "Clarity Telecom — Letter of Agreement (Team Telecom, Docket ITC-T/C-20190128-00003)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-08-19",
    "docket": "ITC-T/C-20190128-00003",
    "lists": [
@@ -6003,6 +6221,7 @@
    "ingested_at": "2026-10-03T19:28:27Z",
    "title": "Clarity Telecom, LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20190128-00003)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-08-16",
    "docket": "ITC-T/C-20190128-00003; ITC-T/C-20190128-00005; ITC-T/C-20190128-00004",
    "lists": [
@@ -6034,6 +6253,7 @@
    "ingested_at": "2026-10-03T19:54:07Z",
    "title": "AU-Aleutian Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20171031-00024)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-06-03",
    "docket": "SCL-LIC-20171031-00024",
    "lists": [
@@ -6065,6 +6285,7 @@
    "ingested_at": "2026-10-03T20:51:39Z",
    "title": "AU-Aleutian Cable System — Letter of Agreement (Team Telecom, Docket SCL-MOD-20230803-00022)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2019-06-03",
    "docket": "SCL-MOD-20230803-00022",
    "lists": [
@@ -6096,6 +6317,7 @@
    "ingested_at": "2026-09-22T08:07:52Z",
    "title": "Tampnet Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20180824-00003)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2019-02-13",
    "docket": "ISP-PDR-20180824-00003; ECFS 18-255",
    "lists": [
@@ -6127,6 +6349,7 @@
    "ingested_at": "2026-10-03T19:26:01Z",
    "title": "AST Telecom, LLC d/b/a Bluesky — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161220-00377)",
    "issuing_body": "DOJ",
+   "doc_type": "",
    "doc_date": "2018-11-12",
    "docket": "ITC-T/C-20161220-00377",
    "lists": [
@@ -6157,6 +6380,7 @@
    "ingested_at": "2026-10-03T21:02:19Z",
    "title": "PPC 1 — Letter of Agreement (Team Telecom, Docket SCL-T/C-20181119-00036)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2018-07-31",
    "docket": "SCL-T/C-20181119-00036",
    "lists": [
@@ -6188,6 +6412,7 @@
    "ingested_at": "2026-09-22T08:07:45Z",
    "title": "FirstLight Fiber, Inc. — Letter of Agreement",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2018-07-09",
    "docket": "18-83; ISP-PDR-20180319-00001",
    "lists": [
@@ -6219,6 +6444,7 @@
    "ingested_at": "2026-10-03T19:46:15Z",
    "title": "Hawaiian Telcom, Inc. — Letter of Agreement (Team Telecom, Docket SCL-LIC-19921015-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2018-06-01",
    "docket": "SCL-LIC-19921015-00008",
    "lists": [
@@ -6250,6 +6476,7 @@
    "ingested_at": "2026-10-03T21:01:53Z",
    "title": "Hawaiian Telcom, Inc. — Letter of Agreement (Team Telecom, Docket SCL-T/C-20170811-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2018-06-01",
    "docket": "SCL-T/C-20170811-00019; SCL-T/C-20170811-00020",
    "lists": [
@@ -6281,6 +6508,7 @@
    "ingested_at": "2026-10-03T19:26:19Z",
    "title": "American Samoa Hawaii Cable — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161220-00377)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2018-05-07",
    "docket": "ITC-T/C-20161220-00377",
    "lists": [
@@ -6312,6 +6540,7 @@
    "ingested_at": "2026-10-03T19:26:19Z",
    "title": "American Samoa Hawaii Cable System— Letter of Agreement (Team Telecom, Docket ITC-T/C-20161220-00377)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2018-05-07",
    "docket": "ITC-T/C-20161220-00377",
    "lists": [
@@ -6343,6 +6572,7 @@
    "ingested_at": "2026-10-03T19:52:57Z",
    "title": "Hawaiki Submarine Cable USA LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160906-00019)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-12-15",
    "docket": "SCL-LIC-20160906-00019",
    "lists": [
@@ -6374,6 +6604,7 @@
    "ingested_at": "2026-09-22T08:07:11Z",
    "title": "Onvoy Spectrum, LLC — Letter of Agreement (Team Telecom, Docket ISP-PDR-20170316-00001)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2017-11-21",
    "docket": "ISP-PDR-20170316-00001",
    "lists": [
@@ -6405,6 +6636,7 @@
    "ingested_at": "2026-10-03T19:01:54Z",
    "title": "TvF Cloud, Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20161219-00353)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-11-20",
    "docket": "ITC-214-20161219-00353",
    "lists": [
@@ -6436,6 +6668,7 @@
    "ingested_at": "2026-10-03T19:01:13Z",
    "title": "Lexitel — Letter of Agreement (Team Telecom, Docket ITC-214-20161109-00292)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-11-20",
    "docket": "ITC-214-20161109-00292",
    "lists": [
@@ -6467,6 +6700,7 @@
    "ingested_at": "2026-10-03T18:47:29Z",
    "title": "Lumos — Letter of Agreement (Team Telecom, Docket ITC-214-19970418-00215)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-11-07",
    "docket": "ITC-214-19970418-00215; ITC-T/C-20170302-00027",
    "lists": [
@@ -6498,6 +6732,7 @@
    "ingested_at": "2026-10-03T19:00:23Z",
    "title": "Bharti Airtel (USA) Ltd. — Letter of Agreement (Team Telecom, Docket ITC-214-20151230-00313)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-11-06",
    "docket": "ITC-214-20151230-00313",
    "lists": [
@@ -6529,6 +6764,7 @@
    "ingested_at": "2026-10-03T19:03:05Z",
    "title": "NYXCOMM CORP — Letter of Agreement (Team Telecom, Docket ITC-214-20170413-00069)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-10-30",
    "docket": "ITC-214-20170413-00069",
    "lists": [
@@ -6560,6 +6796,7 @@
    "ingested_at": "2026-09-22T08:06:55Z",
    "title": "Gigsky, Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20160415-00008)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2017-10-20",
    "docket": "ISP-PDR-20160415-00008",
    "lists": [
@@ -6591,6 +6828,7 @@
    "ingested_at": "2026-10-03T21:01:04Z",
    "title": "SAm-1 Cable System— Letter of Agreement (Team Telecom, Docket SCL-T/C-20170328-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-10-02",
    "docket": "SCL-T/C-20170328-00008; SCL-T/C-20170417-00010; SCL-T/C-20170328-00009; SCL-T/C-20170417-00011",
    "lists": [
@@ -6622,6 +6860,7 @@
    "ingested_at": "2026-10-03T19:24:45Z",
    "title": "CenturyLink — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161212-00344)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-09-29",
    "docket": "ITC-T/C-20161212-00344",
    "lists": [
@@ -6653,6 +6892,7 @@
    "ingested_at": "2026-10-03T21:01:04Z",
    "title": "BRUSA Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20170328-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-07-30",
    "docket": "SCL-T/C-20170328-00008",
    "lists": [
@@ -6684,6 +6924,7 @@
    "ingested_at": "2026-10-03T19:51:47Z",
    "title": "BRUSA Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160330-00011)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-07-30",
    "docket": "SCL-LIC-20160330-00011",
    "lists": [
@@ -6715,6 +6956,7 @@
    "ingested_at": "2026-10-03T19:51:52Z",
    "title": "MAREA Cable System — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160525-00012)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-04-28",
    "docket": "SCL-LIC-20160525-00012",
    "lists": [
@@ -6746,6 +6988,7 @@
    "ingested_at": "2026-10-03T21:01:04Z",
    "title": "MAREA Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20170328-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-04-28",
    "docket": "SCL-T/C-20170328-00008",
    "lists": [
@@ -6777,6 +7020,7 @@
    "ingested_at": "2026-10-03T19:51:05Z",
    "title": "Quintillion — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160325-00009)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-03-24",
    "docket": "SCL-LIC-20160325-00009",
    "lists": [
@@ -6808,6 +7052,7 @@
    "ingested_at": "2026-10-03T19:19:12Z",
    "title": "USConnect Holdings, LLC — Letter of Agreement (Team Telecom, Docket ITC-MOD-20170224-00023)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-03-19",
    "docket": "ITC-MOD-20170224-00023",
    "lists": [
@@ -6839,6 +7084,7 @@
    "ingested_at": "2026-10-03T19:21:52Z",
    "title": "Knology, Inc. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20160111-00005)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-03-08",
    "docket": "ITC-T/C-20160111-00005; ITC-T/C-20160111-00006",
    "lists": [
@@ -6870,6 +7116,7 @@
    "ingested_at": "2026-10-03T20:58:45Z",
    "title": "ARCOS-1 USA, Inc. — Letter of Agreement (Team Telecom, Docket SCL-T/C-20151130-00035)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-03-08",
    "docket": "SCL-T/C-20151130-00035; SCL-T/C-20151130-00036",
    "lists": [
@@ -6901,6 +7148,7 @@
    "ingested_at": "2026-10-03T20:58:12Z",
    "title": "Gemini Bermuda Cable System — Letter of Agreement (Team Telecom, Docket SCL-T/C-20151130-00033)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-03-02",
    "docket": "SCL-T/C-20151130-00033",
    "lists": [
@@ -6931,6 +7179,7 @@
    "ingested_at": "2026-10-03T19:50:46Z",
    "title": "DOCOMO PACIFIC, INC. — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160314-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-02-15",
    "docket": "SCL-LIC-20160314-00008",
    "lists": [
@@ -6962,6 +7211,7 @@
    "ingested_at": "2026-10-03T19:42:09Z",
    "title": "DOCOMO PACIFIC, INC. — Letter of Agreement (Team Telecom, Docket SCL-AMD-20161012-00020)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-02-15",
    "docket": "SCL-AMD-20161012-00020",
    "lists": [
@@ -6993,6 +7243,7 @@
    "ingested_at": "2026-10-03T19:24:21Z",
    "title": "GTT Hibernia— Letter of Agreement (Team Telecom, Docket ITC-T/C-20161110-00295)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2017-01-04",
    "docket": "ITC-T/C-20161110-00295",
    "lists": [
@@ -7024,6 +7275,7 @@
    "ingested_at": "2026-10-03T18:58:20Z",
    "title": "Telekomunikasi Indonesia International (USA) Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20140918-00265)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-12-13",
    "docket": "ITC-214-20140918-00265",
    "lists": [
@@ -7055,6 +7307,7 @@
    "ingested_at": "2026-10-03T19:49:02Z",
    "title": "GU Holdings Inc. — Letter of Agreement (Team Telecom, Docket SCL-LIC-20150408-00008)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-12-06",
    "docket": "SCL-LIC-20150408-00008",
    "lists": [
@@ -7086,6 +7339,7 @@
    "ingested_at": "2026-10-03T19:50:18Z",
    "title": "Seabras 1 USA, LLC — Letter of Agreement (Team Telecom, Docket SCL-LIC-20160115-00002)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-11-07",
    "docket": "SCL-LIC-20160115-00002",
    "lists": [
@@ -7117,6 +7371,7 @@
    "ingested_at": "2026-10-03T18:57:21Z",
    "title": "Telecom Services Network Ltd — Letter of Agreement (Team Telecom, Docket ITC-214-20131017-00275)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2016-10-26",
    "docket": "ITC-214-20131017-00275",
    "lists": [
@@ -7148,6 +7403,7 @@
    "ingested_at": "2026-10-03T19:23:08Z",
    "title": "TelePacific — Letter of Agreement (Team Telecom, Docket ITC-T/C-20160307-00115)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-09-09",
    "docket": "ITC-T/C-20160307-00115",
    "lists": [
@@ -7179,6 +7435,7 @@
    "ingested_at": "2026-10-03T19:22:47Z",
    "title": "DSCI, LLC d/b/a TPx Communications — Letter of Agreement (Team Telecom, Docket ITC-T/C-20160307-00115)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-09-02",
    "docket": "ITC-T/C-20160307-00115",
    "lists": [
@@ -7210,6 +7467,7 @@
    "ingested_at": "2026-10-03T18:52:54Z",
    "title": "Redes Modernas de la Frontera SA de CV — Letter of Agreement (Team Telecom, Docket ITC-214-20070515-00189)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2016-04-13",
    "docket": "ITC-214-20070515-00189",
    "lists": [
@@ -7241,6 +7499,7 @@
    "ingested_at": "2026-10-03T18:59:13Z",
    "title": "Reliance Jio Infocomm USA — Letter of Agreement (Team Telecom, Docket ITC-214-20150724-00185)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2016-02-12",
    "docket": "ITC-214-20150724-00185",
    "lists": [
@@ -7272,6 +7531,7 @@
    "ingested_at": "2026-10-03T18:56:31Z",
    "title": "IP Network America LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20130204-00048)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2016-01-12",
    "docket": "ITC-214-20130204-00048",
    "lists": [
@@ -7303,6 +7563,7 @@
    "ingested_at": "2026-10-03T18:56:22Z",
    "title": "US Matrix Telecommunications, Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20130111-00010)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2015-07-15",
    "docket": "ITC-214-20130111-00010",
    "lists": [
@@ -7334,6 +7595,7 @@
    "ingested_at": "2026-10-03T18:57:48Z",
    "title": "SHUF, INC. — Letter of Agreement (Team Telecom, Docket ITC-214-20140421-00130)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2015-03-05",
    "docket": "ITC-214-20140421-00130",
    "lists": [
@@ -7364,6 +7626,7 @@
    "ingested_at": "2026-10-03T19:24:23Z",
    "title": "Hibernia Atlantic U.S. LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161110-00295)",
    "issuing_body": "DoD",
+   "doc_type": "",
    "doc_date": "2014-12-15",
    "docket": "ITC-T/C-20161110-00295",
    "lists": [
@@ -7395,6 +7658,7 @@
    "ingested_at": "2026-10-03T18:57:05Z",
    "title": "First Technology Development, Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20130726-00202)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2014-08-25",
    "docket": "ITC-214-20130726-00202",
    "lists": [
@@ -7426,6 +7690,7 @@
    "ingested_at": "2026-10-03T18:54:29Z",
    "title": "ACT Telecommunications, Inc — Letter of Agreement (Team Telecom, Docket ITC-214-20081201-00519)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2014-05-09",
    "docket": "ITC-214-20081201-00519",
    "lists": [
@@ -7457,6 +7722,7 @@
    "ingested_at": "2026-10-03T19:20:25Z",
    "title": "SatCom Global, Inc. — Letter of Agreement (Team Telecom, Docket ITC-T/C-20130612-00172)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2014-01-31",
    "docket": "ITC-T/C-20130612-00172",
    "lists": [
@@ -7488,6 +7754,7 @@
    "ingested_at": "2026-10-03T18:56:47Z",
    "title": "Speed Telco LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20130221-00063)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2013-09-06",
    "docket": "ITC-214-20130221-00063",
    "lists": [
@@ -7519,6 +7786,7 @@
    "ingested_at": "2026-10-03T20:52:04Z",
    "title": "Latam, AMX1 Cable System — Letter of Agreement (Team Telecom, Docket SCL-MOD-20230915-00024)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2013-01-23",
    "docket": "SCL-MOD-20230915-00024",
    "lists": [
@@ -7550,6 +7818,7 @@
    "ingested_at": "2026-10-03T19:21:34Z",
    "title": "Hibernia Media LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20140820-00244)",
    "issuing_body": "Team Telecom",
+   "doc_type": "",
    "doc_date": "2010-09-30",
    "docket": "ITC-T/C-20140820-00244; SCL-T/C-20140820-00007",
    "lists": [
@@ -7581,6 +7850,7 @@
    "ingested_at": "2026-10-03T19:20:38Z",
    "title": "Hibernia Atlantic U.S. LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20140820-00242)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2010-09-30",
    "docket": "ITC-T/C-20140820-00242; ITC-T/C-20140820-00244",
    "lists": [
@@ -7612,6 +7882,7 @@
    "ingested_at": "2026-10-03T19:24:23Z",
    "title": "Hibernia Atlantic U.S. LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20161110-00295)",
    "issuing_body": "FCC",
+   "doc_type": "",
    "doc_date": "2010-09-30",
    "docket": "ITC-T/C-20161110-00295",
    "lists": [
