@@ -1,5 +1,5 @@
 {
- "count": 192,
+ "count": 194,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -3722,6 +3722,68 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-b09ff3",
+   "status": "approved",
+   "ingested_at": "2026-10-03T20:02:49Z",
+   "title": "Pacific Light Cable Network (PLCN) Taiwan extension — Letter of Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2021-03-18",
+   "docket": "SCL-LIC-20200827-00038",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/db10a10797162a1046e139b0f053af89",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0076515",
+   "source_file": "source.pdf",
+   "sha256": "b09ff3b2f53d1d21d26dbfe8d92aca288d1f747e6d8f41a3f27b8aebe05f7034",
+   "approved_at": "2026-10-07T03:04:09Z",
+   "published_at": "2026-10-07T03:04:42Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T20:08:47Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-b09ff3/source-b09ff3b2.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-cincinnati-bell-extended-territories-llc-letter-6c7c05",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:06:33Z",
+   "title": "Cincinnati Bell — Letter of Agreement (Team Telecom, Docket ITC-214-20220801-00098)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2021-03-12",
+   "docket": "ITC-214-20220801-00098",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e9df92cf97d62a1046e139b0f053af6c",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0085204; dockets named by the instrument: 20-146",
+   "source_file": "source.pdf",
+   "sha256": "6c7c05d331d455f283a25cddcea1293996fee161bd97dc570f9a61fef6bcab13",
+   "approved_at": "2026-10-07T03:03:35Z",
+   "published_at": "2026-10-07T03:04:42Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:07:12Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-cincinnati-bell-extended-territories-llc-letter-6c7c05/source-6c7c05d3.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
