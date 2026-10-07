@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-03-latam-telecommunications-l-l-c-letter-of-agreeme-62c39f",
+  "status": "approved",
+  "ingested_at": "2026-10-03T19:48:42Z",
+  "title": "Latam Telecommunications, L.L.C. — Letter of Agreement (Team Telecom, Docket SCL-LIC-20120330-00002)",
+  "issuing_body": "Team Telecom",
+  "doc_date": "2025-05-08",
+  "docket": "SCL-LIC-20120330-00002",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3e02101b97126a1046e139b0f053af3e",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0104809",
+  "source_file": "source.pdf",
+  "sha256": "62c39f6dd5e5077635d33eba6babbd6039785a42810da29ba9ced0d64e09755b",
+  "approved_at": "2026-10-07T02:00:43Z",
+  "published_at": "2026-10-07T02:00:59Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-03T20:00:04Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-latam-telecommunications-l-l-c-letter-of-agreeme-62c39f/source-62c39f6d.pdf"
+}
