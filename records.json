@@ -1,5 +1,5 @@
 {
- "count": 142,
+ "count": 143,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4378,6 +4378,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T18:56:56Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-ip-network-america-llc-letter-of-agreement-team-e74703/source-e7470381.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-hibernia-atlantic-u-s-llc-letter-of-agreement-te-afff5c",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:20:53Z",
+   "title": "Hibernia Atlantic U.S. LLC — Letter of Agreement (Team Telecom, Docket ITC-T/C-20140820-00242)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2014-12-15",
+   "docket": "ITC-T/C-20140820-00242; ITC-T/C-20140820-00244",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/2cfac43a979ea61046e139b0f053afb9",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0033993",
+   "source_file": "source.pdf",
+   "sha256": "afff5cbf7f576ab0badd5e71b71636a61edc99a368d2dc50f6c3d79f0eb40b8c",
+   "approved_at": "2026-10-07T02:15:46Z",
+   "published_at": "2026-10-07T02:15:57Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:25:16Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-hibernia-atlantic-u-s-llc-letter-of-agreement-te-afff5c/source-afff5cbf.pdf",
    "files": [
     "meta.json",
     "summary.md"
