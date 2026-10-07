@@ -1,5 +1,5 @@
 {
- "count": 130,
+ "count": 132,
  "records": [
   {
    "id": "2026-10-04-record-35ec4b",
@@ -4199,6 +4199,37 @@
    ]
   },
   {
+   "id": "2026-10-03-telekomunikasi-indonesia-international-usa-inc-l-cd5d0a",
+   "status": "approved",
+   "ingested_at": "2026-10-03T18:58:20Z",
+   "title": "Telekomunikasi Indonesia International (USA) Inc. — Letter of Agreement (Team Telecom, Docket ITC-214-20140918-00265)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2016-12-13",
+   "docket": "ITC-214-20140918-00265",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1c5bf4769752e61046e139b0f053afff",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0041413",
+   "source_file": "source.pdf",
+   "sha256": "cd5d0abf1acf5a4b63f59dbf857eb9c9deb43da07431c77d1ea00567034d4bac",
+   "approved_at": "2026-10-07T02:01:18Z",
+   "published_at": "2026-10-07T02:02:08Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T18:58:48Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-telekomunikasi-indonesia-international-usa-inc-l-cd5d0a/source-cd5d0abf.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
    "id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-2562b0",
    "status": "approved",
    "ingested_at": "2026-10-03T19:49:02Z",
@@ -4224,6 +4255,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T20:00:54Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-2562b0/source-2562b08e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-03-dsci-llc-d-b-a-tpx-communications-letter-of-agre-e1a408",
+   "status": "approved",
+   "ingested_at": "2026-10-03T19:22:47Z",
+   "title": "DSCI, LLC d/b/a TPx Communications — Letter of Agreement (Team Telecom, Docket ITC-T/C-20160307-00115)",
+   "issuing_body": "Team Telecom",
+   "doc_date": "2016-09-02",
+   "docket": "ITC-T/C-20160307-00115",
+   "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+   ],
+   "entities": [],
+   "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9eb478be9712e61046e139b0f053aff6",
+   "source_copy_public": true,
+   "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0040195",
+   "source_file": "source.pdf",
+   "sha256": "e1a408715355cb1b1bab1d587449d02145a3ab21c4304dba534f8701480455bc",
+   "approved_at": "2026-10-07T02:01:47Z",
+   "published_at": "2026-10-07T02:02:08Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-03T19:27:40Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-dsci-llc-d-b-a-tpx-communications-letter-of-agre-e1a408/source-e1a40871.pdf",
    "files": [
     "meta.json",
     "summary.md"
