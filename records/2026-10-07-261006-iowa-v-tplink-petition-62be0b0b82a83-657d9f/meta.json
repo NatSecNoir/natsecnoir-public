@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-07-261006-iowa-v-tplink-petition-62be0b0b82a83-657d9f",
+  "status": "approved",
+  "ingested_at": "2026-10-07T15:08:08Z",
+  "title": "State AGs Sue TP-Link, Saying It Misled Consumers on Router Security and China Ties",
+  "issuing_body": "State of Iowa",
+  "doc_type": "",
+  "doc_date": "",
+  "docket": "Equity No. ________________",
+  "lists": [
+    "covered-list",
+    "1260h",
+    "litigation"
+  ],
+  "entities": [
+    "TP-Link Technologies Co., Ltd."
+  ],
+  "source_url": "https://www.iowaattorneygeneral.gov/media/cms/261006_Iowa_v_TPLink_Petition_62BE0B0B82A83.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "657d9f7c6779fd2df2233003d5d85e624f6aad36984594215e30c3099ac9cb77",
+  "approved_at": "2026-10-08T00:32:55Z",
+  "published_at": "2026-10-08T00:35:20Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-07T15:08:17Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-07-261006-iowa-v-tplink-petition-62be0b0b82a83-657d9f/source-657d9f7c.pdf"
+}
