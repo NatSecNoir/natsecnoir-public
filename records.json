@@ -1,5 +1,5 @@
 {
- "count": 241,
+ "count": 242,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -393,6 +393,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-16T01:29:14Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-16-record-92731a/source-b07fc02b.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-08-da-26-875a1-d87b62",
+   "status": "approved",
+   "ingested_at": "2026-10-08T13:56:15Z",
+   "title": "Conditional Approvals: Ascento (drones), WNC (routers)",
+   "issuing_body": "FCC",
+   "doc_type": "",
+   "doc_date": "2026-08-21",
+   "docket": "DA 26-875; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+   "lists": [
+    "conditional-approval"
+   ],
+   "entities": [],
+   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-875A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "d87b62b600463b1b0c5eadd59076ed8966c8fda3fd351ad8bea536029f89fe3d",
+   "approved_at": "2026-10-09T17:45:56Z",
+   "published_at": "2026-10-09T17:46:31Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-08T14:00:51Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-08-da-26-875a1-d87b62/source-d87b62b6.pdf",
    "files": [
     "meta.json",
     "summary.md"
