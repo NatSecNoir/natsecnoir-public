@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-10-13-5315-2014-07-15-4e83d8",
+  "status": "approved",
+  "ingested_at": "2026-10-10T11:44:35Z",
+  "title": "Ralls v CFIUS (DC Cir 2014)",
+  "issuing_body": "DC Circuit",
+  "doc_type": "opinion",
+  "doc_date": "2014-07-15",
+  "docket": "No. 13-5315",
+  "lists": [
+    "litigation",
+    "cfius"
+  ],
+  "entities": [],
+  "source_url": "https://cases.justia.com/federal/appellate-courts/cadc/13-5315/13-5315-2014-07-15.pdf?ts=1411135749",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "4e83d80593f5afbacdbe6cd8f87412a790fdc426efa7ef562c61885be513cfc4",
+  "approved_at": "2026-10-10T15:52:54Z",
+  "published_at": "2026-10-10T15:53:47Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-10T11:44:44Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-10-13-5315-2014-07-15-4e83d8/source-4e83d805.pdf"
+}
