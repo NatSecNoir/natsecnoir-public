@@ -1,5 +1,5 @@
 {
- "count": 250,
+ "count": 251,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -5953,6 +5953,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T19:03:56Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-soracom-global-inc-letter-of-agreement-team-tele-d2fa51/source-d2fa5111.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-acquisition-of-stayntouch-in-8e87f7",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:30Z",
+   "title": "CFIUS Order Regarding the Acquisition of StayNTouch, Inc. by Beijing Shiji Information Technology Co., Ltd.",
+   "issuing_body": "CFIUS",
+   "doc_type": "presidential order",
+   "doc_date": "2020-03-06",
+   "docket": "85 FR 13719 · FR Doc. 2020-05011",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-10/pdf/2020-05011.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "8e87f794a31c8eda9b050388631d8db8046b926d38aa0c498b8bfa5b45a2f0cb",
+   "approved_at": "2026-10-12T19:36:23Z",
+   "published_at": "2026-10-12T19:36:52Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:56:10Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-acquisition-of-stayntouch-in-8e87f7/source-98894f55.pdf",
    "files": [
     "meta.json",
     "summary.md"
