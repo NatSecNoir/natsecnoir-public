@@ -11,16 +11,20 @@ eleventyComputed:
   description: "{{ l.excerpt }}"
 ---
 <article class="ledger-page">
+  <header class="lhead">
   <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
   <h1>{{ l.title }}</h1>
   <p class="sub">Every executed Team Telecom mitigation agreement held in the corpus — Records tagged
     both <code>team-telecom</code> and <code>mitigation-agreement</code> — one row per instrument,
     newest first, with superseding and companion instruments folded beneath their row.</p>
 
+  <div class="meta-col">
   <p class="stamp">Currency: last accepted change {{ l.currency_date or "—" }} · {{ l.count }} agreement{{ "s" if l.count != 1 }}.</p>
   <p class="stamp-note">Transaction type, signing agencies, foreign-owner country, and terms summaries
     are analyst-reviewed summaries drawn from the executed instrument — not the instrument text itself.
     Fields not yet reviewed show as <span class="pending">pending</span>.</p>
+  </div>
+  </header>
 
   <div class="controls">
     <input id="q" type="search" placeholder="Filter by company, type, agency, country, or docket…" aria-label="Filter agreements">

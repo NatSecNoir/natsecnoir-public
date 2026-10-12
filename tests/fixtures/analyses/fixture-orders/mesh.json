@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "title": "CFIUS Presidential Orders",
+  "kind": "ledger",
+  "grain": "record",
+  "profile": "presidential-order",
+  "feed": false,
+  "excerpt": "Every presidential order that prohibits or unwinds a foreign acquisition under Section 721.",
+  "footnote": "Not rows: Section 721 documents that do not prohibit a transaction, such as <a href=\"/records/2022-09-15-fix-eo-cfius-oo0007/\">EO 14083</a>.",
+  "membership": {
+    "lists_all": [
+      "cfius"
+    ],
+    "doc_types": [
+      "presidential order"
+    ]
+  },
+  "currency_date": "2026-10-12",
+  "last_changed": "2026-10-11",
+  "entries": [
+    {
+      "key": "2025-10-02-fix-order-hiefo-oo0001",
+      "kind": "order",
+      "label": "",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "HieFo Corporation",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "EMCORE Corporation (assets)",
+        "sector": "semiconductors",
+        "action": "prohibit + divest",
+        "deadline_days": 180,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "text": "Divest all interests in the EMCORE assets.\nCertify divestment to CFIUS.",
+      "status": {
+        "value": "pending divestment",
+        "source": "https://home.treasury.gov/fixture"
+      }
+    },
+    {
+      "key": "2025-01-03-fix-order-nippon-oo0002",
+      "kind": "order",
+      "label": "",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "fields": {
+        "president": "Biden",
+        "acquirer": "Nippon Steel Corporation",
+        "acquirer_parent": "",
+        "acquirer_country": "Japan",
+        "target": "United States Steel Corporation",
+        "sector": "steel",
+        "action": "prohibit",
+        "deadline_days": 30,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "text": "Abandon the transaction.\nCertify abandonment.",
+      "chain": {
+        "supersedes": [],
+        "companion": [
+          "2025-06-13-fix-order-nippon-amend-oo0003"
+        ]
+      },
+      "status": {
+        "value": "amended",
+        "source": "FR Doc. 2025-11372"
+      }
+    },
+    {
+      "key": "2025-07-08-fix-order-suirui-oo0004",
+      "kind": "order",
+      "label": "",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Suirui International Co., Limited",
+        "acquirer_parent": "Suirui Group Co., Ltd.",
+        "acquirer_country": "China",
+        "target": "Jupiter Systems, LLC",
+        "sector": "telecom/software",
+        "action": "prohibit + divest",
+        "deadline_days": 120,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "text": "Divest Jupiter Systems.\nCertify divestment.",
+      "status": {
+        "value": "in litigation",
+        "source": "D.D.C. No. 1:26-cv-00369"
+      },
+      "deadline_extended_to": {
+        "date": "2026-01-05",
+        "source": "CFIUS extension (fixture)"
+      },
+      "related": [
+        "2025-10-20-fix-complaint-suirui-oo0005",
+        "no-such-record"
+      ]
+    },
+    {
+      "key": "1990-02-01-fix-order-catic-oo0006",
+      "kind": "order",
+      "label": "",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "fields": {
+        "president": "G.H.W. Bush",
+        "acquirer": "CATIC",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "MAMCO Manufacturing, Inc.",
+        "sector": "aerospace",
+        "action": "prohibit + divest",
+        "deadline_days": null,
+        "deadline_from": "other",
+        "deadline_date": "1990-05-01",
+        "transaction_closed": false
+      },
+      "text": "Divest MAMCO by May 1, 1990."
+    },
+    {
+      "key": "2018-03-12-fix-order-broadcom-oo0008",
+      "kind": "order",
+      "label": "",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Broadcom Limited",
+        "acquirer_parent": "",
+        "acquirer_country": "Singapore",
+        "target": "Qualcomm Incorporated",
+        "sector": "semiconductors",
+        "action": "prohibit",
+        "deadline_days": null,
+        "deadline_from": "other",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "text": "Abandon the proposed takeover.\nDisqualify the director nominees.",
+      "status": {
+        "value": "blocked",
+        "source": "Broadcom press release"
+      }
+    },
+    {
+      "key": "2022-09-15-fix-eo-cfius-oo0007",
+      "kind": "order",
+      "label": "Should Not Render EO",
+      "date": "2026-10-12",
+      "updates": [],
+      "source": "overlay",
+      "definitions": [],
+      "text": "x"
+    }
+  ],
+  "pending": [],
+  "archive": [],
+  "ledger": [],
+  "runs": []
+}

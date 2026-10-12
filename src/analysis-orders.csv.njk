@@ -1,0 +1,12 @@
+---
+pagination:
+  data: ledgers.orders
+  size: 1
+  alias: l
+permalink: "{{ l.url }}{{ l.id }}.csv"
+eleventyExcludeFromCollections: true
+---
+{{ ["id","signed","president","acquirer","acquirer_parent","acquirer_country","target","sector","action","deadline_days","deadline_date","deadline_extended_to","status","status_source","citation","record_url","pdf_url"] | csv | safe }}
+{%- for r in l.export_rows %}
+{{ [r.id, r.signed, r.president, r.acquirer, r.acquirer_parent, r.acquirer_country, r.target, r.sector, r.action, r.deadline_days, r.deadline_date, r.deadline_extended_to, r.status, r.status_source, r.citation, r.record_url, r.pdf_url] | csv | safe }}
+{%- endfor %}
