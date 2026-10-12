@@ -356,11 +356,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-proposed-takeover-of-qualcom-aa7519",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Proposed Takeover of Qualcomm Incorporated by Broadcom Limited",
+      "date": "2026-10-12T20:10:00Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The proposed takeover and any substantially equivalent merger, acquisition, or takeover are prohibited.\nThe 15 listed proxy candidates are disqualified from standing for election as Qualcomm directors, and Qualcomm may not accept their nominations or votes.\nThe Purchaser and Qualcomm must immediately and permanently abandon the proposed takeover and certify its termination to CFIUS.\nThe Purchaser and Qualcomm must provide weekly compliance certifications to CFIUS until they certify termination.\nQualcomm must hold its annual stockholder meeting no later than 10 days following written notice to stockholders.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Broadcom Limited",
+        "acquirer_parent": "",
+        "acquirer_country": "Singapore",
+        "target": "Qualcomm Incorporated",
+        "sector": "semiconductors",
+        "action": "prohibit",
+        "deadline_days": null,
+        "deadline_from": "other",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "record_id": "2026-10-12-order-regarding-the-proposed-takeover-of-qualcom-aa7519",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-proposed-takeover-of-qualcom-aa7519",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:51Z",
+  "published_at": "2026-10-12T20:09:57Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:57Z"
+  "last_changed": "2026-10-12T20:10:00Z"
 }
