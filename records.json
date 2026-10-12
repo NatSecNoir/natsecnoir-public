@@ -1,5 +1,5 @@
 {
- "count": 252,
+ "count": 253,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -4639,6 +4639,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:25Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-covered-list-china-unicom-pacnet-fe3156/source-fe31569c.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-executive-order-14083-ensuring-robust-considerat-904635",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:33Z",
+   "title": "CFIUS Executive Order 14083: Ensuring Robust Consideration of Evolving National Security Risks by the Committee on Foreign Investment in the United States",
+   "issuing_body": "White House",
+   "doc_type": "executive order",
+   "doc_date": "2022-09-15",
+   "docket": "87 FR 57369 · FR Doc. 2022-20450",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2022-09-20/pdf/2022-20450.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "904635a3092aa62ffae0cd0ee607ce34ef665435a0d99686dffcc3a83fe01695",
+   "approved_at": "2026-10-12T19:48:42Z",
+   "published_at": "2026-10-12T19:49:17Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:57:18Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-executive-order-14083-ensuring-robust-considerat-904635/source-20181b65.pdf",
    "files": [
     "meta.json",
     "summary.md"
