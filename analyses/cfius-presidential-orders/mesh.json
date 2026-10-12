@@ -263,11 +263,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-proposed-acquisition-of-latt-944a44",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Proposed Acquisition of Lattice Semiconductor Corporation by China Venture Capital Fund Corporation Limited",
+      "date": "2026-10-12T20:09:49Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The proposed acquisition and any substantially equivalent transaction are prohibited.\nThe Purchasers and Lattice must fully and permanently abandon the proposed transaction within 30 days after the order date, unless CFIUS extends the period by up to 90 days.\nThe Purchasers and Lattice must certify in writing to CFIUS immediately after termination that the transaction was abandoned and all necessary steps were completed.\nUntil termination is certified, the Purchasers and Lattice must provide weekly compliance certifications to CFIUS describing abandonment efforts and the projected timeline.\nTransactions or devices intended to avoid or circumvent the order are prohibited.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Canyon Bridge Merger Sub, Inc.",
+        "acquirer_parent": "China Venture Capital Fund Corporation Limited",
+        "acquirer_country": "China",
+        "target": "Lattice Semiconductor Corporation",
+        "sector": "semiconductors",
+        "action": "prohibit",
+        "deadline_days": 30,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-latt-944a44",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-latt-944a44",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:44Z",
+  "published_at": "2026-10-12T20:09:46Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:46Z"
+  "last_changed": "2026-10-12T20:09:49Z"
 }
