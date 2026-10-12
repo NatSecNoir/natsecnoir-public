@@ -223,9 +223,10 @@ assert.match(suiruiDetail, /href="\/records\/2025-10-20-fix-complaint-suirui-oo0
 assert.doesNotMatch(suiruiDetail, /no-such-record/, "an unresolvable related id is skipped, not a dead link");
 // Stated date (1990), no deadline (Broadcom), nothing reviewed (Shiji).
 assert.match(ordRow("1990-02-01-fix-order-catic-oo0006"), /by 1990-05-01/, "a date the order states renders as written");
-assert.match(ordRow("1990-02-01-fix-order-catic-oo0006"), /<span class="pending">pending<\/span>/, "an unsourced status is pending");
+assert.match(ordRow("1990-02-01-fix-order-catic-oo0006"), /<td>—<\/td>\s*<td>55 FR 3935/, "a row with no status shows a dash in Status");
+assert.doesNotMatch(ordRow("1990-02-01-fix-order-catic-oo0006"), /class="pending"/, "a reviewed row with no status shows no pending marker");
 assert.match(ordRow("2018-03-12-fix-order-broadcom-oo0008"), /<td>—<\/td>/, "an order with no deadline shows a dash");
-assert.equal((ordRow("2020-03-06-fix-order-shiji-oo0009").match(/class="pending"/g) || []).length, 7, "an unreviewed order is pending in every analyst column (acquirer falls back to the title)");
+assert.equal((ordRow("2020-03-06-fix-order-shiji-oo0009").match(/class="pending"/g) || []).length, 6, "an unreviewed order is pending in every field column (acquirer falls back to the title; status shows a dash)");
 // Footnote, row-count noun, and exports (R5).
 assert.match(ord, /<p class="footnote">Not rows:[\s\S]*?href="\/records\/2022-09-15-fix-eo-cfius-oo0007\/"/, "the mesh footnote renders with its link");
 assert.match(ord, /<table id="ledger" data-noun="orders">/, "the row count names orders");
