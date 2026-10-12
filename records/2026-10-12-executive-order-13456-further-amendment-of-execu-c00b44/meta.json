@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-12-executive-order-13456-further-amendment-of-execu-c00b44",
+  "status": "approved",
+  "ingested_at": "2026-10-12T03:55:33Z",
+  "title": "CFIUS Executive Order 13456: Further Amendment of Executive Order 11858 Concerning Foreign Investment in the United States",
+  "issuing_body": "CFIUS",
+  "doc_type": "executive order",
+  "doc_date": "2008-01-23",
+  "docket": "73 FR 4677 · FR Doc. 08-360",
+  "lists": [
+    "cfius"
+  ],
+  "entities": [],
+  "source_url": "https://www.govinfo.gov/content/pkg/FR-2008-01-25/pdf/08-360.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "c00b4460696fe310b006c4e6894a3988ec600a6dcfe388031ba2eaf0cc72bb37",
+  "approved_at": "2026-10-12T19:30:21Z",
+  "published_at": "2026-10-12T19:30:50Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-12T03:57:09Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-executive-order-13456-further-amendment-of-execu-c00b44/source-c8a34d32.pdf"
+}
