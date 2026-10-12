@@ -325,11 +325,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Proposed Acquisition of United States Steel Corporation by Nippon Steel Corporation",
+      "date": "2026-10-12T20:09:57Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The proposed transaction is prohibited unless the Purchasers and U.S. Steel execute a national security agreement with the Department of the Treasury and other appropriate CFIUS member agencies on or before the transaction closing date.\nThe parties must remain in compliance with the national security agreement after it is executed.\nCFIUS is authorized to implement monitoring and enforcement measures it deems necessary and appropriate until the transaction is abandoned or the national security agreement is entered into.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Nippon Steel Corporation",
+        "acquirer_parent": "",
+        "acquirer_country": "Japan",
+        "target": "United States Steel Corporation",
+        "sector": "steel",
+        "action": "prohibit",
+        "deadline_days": null,
+        "deadline_from": "other",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:49Z",
+  "published_at": "2026-10-12T20:09:51Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:51Z"
+  "last_changed": "2026-10-12T20:09:57Z"
 }
