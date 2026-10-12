@@ -22,8 +22,8 @@ eleventyComputed:
   <p class="stamp-note">These orders are not numbered Executive Orders, so an Executive Order search misses
     them. Acquirer country is the country of the ultimate controlling parent as the order describes it.
     Deadlines show the days the order allows and, where the clock starts on the order date, the resulting
-    date. Status is set by the editor and links its source. Fields not yet reviewed show as
-    <span class="pending">pending</span>.</p>
+    date. Status is set by the editor and links its source; a dash means no status has been recorded.
+    Fields not yet reviewed show as <span class="pending">pending</span>.</p>
   </div>
   </header>
 
@@ -67,7 +67,7 @@ eleventyComputed:
           {%- elif d.stated %}<span class="dl">{% if d.has_days %}{{ d.days }} days, {% endif %}by {{ d.date }}</span>
           {%- elif d.date %}<span class="dl">{{ d.days }} days ({{ d.date }})</span>
           {%- else %}<span class="dl">{{ d.days }} days</span>{% if d.basis %}<span class="basis">{{ d.basis }}</span>{% endif %}{% endif %}</td>
-        <td>{% if row.pending.status %}<span class="pending">pending</span>{% else %}<span class="status {{ row.status_class }}">{{ row.status }}</span><span class="src">source: {% if row.status_source.startsWith("http") %}<a href="{{ row.status_source }}" target="_blank" rel="noopener">link</a>{% else %}{{ row.status_source }}{% endif %}</span>{% endif %}</td>
+        <td>{% if row.pending.status %}—{% else %}<span class="status {{ row.status_class }}">{{ row.status }}</span><span class="src">source: {% if row.status_source.startsWith("http") %}<a href="{{ row.status_source }}" target="_blank" rel="noopener">link</a>{% else %}{{ row.status_source }}{% endif %}</span>{% endif %}</td>
         <td>{{ row.docket }}<span class="basis"><a href="{{ row.record_url }}">record</a>{% if row.pdf_url %} · <a href="{{ row.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</span></td>
       </tr>
       <tr class="detail" hidden><td colspan="10">
