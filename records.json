@@ -1,5 +1,5 @@
 {
- "count": 255,
+ "count": 256,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -2730,6 +2730,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-19T19:23:38Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-19-uscellular-t-mobile-letter-to-committee-signed-0-d663f1/source-d663f199.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:32Z",
+   "title": "CFIUS Order Regarding the Proposed Acquisition of United States Steel Corporation by Nippon Steel Corporation",
+   "issuing_body": "White House",
+   "doc_type": "presidential order",
+   "doc_date": "2025-06-13",
+   "docket": "90 FR 26185 · FR Doc. 2025-11372",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-06-20/pdf/2025-11372.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a519b2aa2d3d2f187882f9f96e928b85d95d1989bb6cefec705b7566a6946995",
+   "approved_at": "2026-10-12T19:58:43Z",
+   "published_at": "2026-10-12T19:59:13Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:56:40Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2/source-90dd3c5e.pdf",
    "files": [
     "meta.json",
     "summary.md"
