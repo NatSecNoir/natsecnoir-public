@@ -201,11 +201,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-stayntouch-in-8e87f7",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of StayNTouch, Inc. by Beijing Shiji Information Technology Co., Ltd.",
+      "date": "2026-10-12T20:09:44Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The transaction resulting in the acquisition of StayNTouch is prohibited.\nThe Purchaser must divest all interests in StayNTouch and specified assets, data, personnel, contracts, and operations not later than 120 days after the order date, unless CFIUS extends the period by up to 90 days.\nThe Purchaser must certify the divestment to CFIUS immediately after it is effected and complete all steps necessary to permanently abandon the transaction.\nThe Purchaser must refrain from accessing hotel guest data through StayNTouch and put controls in place to prevent access within 7 days after the order date.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Beijing Shiji Information Technology Co., Ltd.",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "StayNTouch, Inc.",
+        "sector": "telecom/software",
+        "action": "prohibit + divest",
+        "deadline_days": 120,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-stayntouch-in-8e87f7",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-stayntouch-in-8e87f7",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:40Z",
+  "published_at": "2026-10-12T20:09:42Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:42Z"
+  "last_changed": "2026-10-12T20:09:44Z"
 }
