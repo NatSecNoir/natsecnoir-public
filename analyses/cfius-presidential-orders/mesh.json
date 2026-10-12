@@ -1,0 +1,56 @@
+{
+  "title": "CFIUS Presidential Orders",
+  "kind": "ledger",
+  "grain": "record",
+  "profile": "presidential-order",
+  "feed": false,
+  "membership": {
+    "lists_all": [
+      "cfius"
+    ],
+    "doc_types": [
+      "presidential order"
+    ]
+  },
+  "excerpt": "Every presidential order that prohibits or unwinds a foreign acquisition under Section 721 of the Defense Production Act, 1990 to now, one row per order, newest first.",
+  "footnote": "Not rows: Section 721 presidential documents that do not prohibit a transaction — <a href=\"/records/2026-10-12-executive-order-13456-further-amendment-of-execu-c00b44/\">EO 13456</a> (2008), <a href=\"/records/2026-10-12-executive-order-14083-ensuring-robust-considerat-904635/\">EO 14083</a> (2022), the <a href=\"/records/2026-10-12-order-regarding-the-proposed-merger-of-alcatel-a-4081f6/\">2006 Alcatel–Lucent order</a>, and the 2025 TikTok framework order (<a href=\"/records/2026-10-12-executive-order-14352-saving-tiktok-while-protec-a604d9/\">“Saving TikTok While Protecting National Security”</a>). The 2020 ByteDance / Musical.ly order is the prohibition; the 2025 order is a framework for a later deal. Count checked against CRS In Focus IF10177.",
+  "schema_version": 1,
+  "entries": [
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-certain-asset-54282e",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of Certain Assets of EMCORE Corporation by HieFo Corporation",
+      "date": "2026-10-12T20:09:27Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "HieFo and its Affiliates must divest all interests and rights in the Emcore Assets within 180 calendar days after the order date, unless CFIUS extends the deadline.\nUntil divestment is completed and verified, HieFo must not grant unauthorized access to the Emcore Assets or related non-public information, systems, products, records, or facilities.\nHieFo must notify CFIUS of an intended buyer or transferee and wait 30 calendar days without a CFIUS objection before completing a sale or transfer.\nHieFo must certify weekly to CFIUS that it and its Affiliates comply with the order and describe divestment efforts until divestment certification.\nCFIUS must complete verification within 90 calendar days after receiving the divestment certification and then notify HieFo in writing when divestment is complete.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "HieFo Corporation",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "Certain assets of EMCORE Corporation, comprising its digital chips and related wafer design, fabrication, and processing businesses (Emcore Assets)",
+        "sector": "semiconductors",
+        "action": "prohibit + divest",
+        "deadline_days": 180,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-certain-asset-54282e",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-certain-asset-54282e",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
+    }
+  ],
+  "sources": {},
+  "manifest": [],
+  "published_at": "",
+  "currency_date": "2026-10-12",
+  "last_changed": "2026-10-12T20:09:27Z"
+}
