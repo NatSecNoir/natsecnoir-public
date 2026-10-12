@@ -1,5 +1,5 @@
 {
- "count": 254,
+ "count": 255,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -3315,6 +3315,37 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-999be9",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:31Z",
+   "title": "CFIUS Order Regarding the Proposed Acquisition of United States Steel Corporation by Nippon Steel Corporation",
+   "issuing_body": "CFIUS",
+   "doc_type": "presidential order",
+   "doc_date": "2025-01-03",
+   "docket": "90 FR 2605 · FR Doc. 2025-00621",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-13/pdf/2025-00621.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "999be99233120ccde7b19809687ea343839b60aef05a3e99297b013a662635c0",
+   "approved_at": "2026-10-12T19:52:40Z",
+   "published_at": "2026-10-12T19:53:10Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:56:32Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-proposed-acquisition-of-unit-999be9/source-167f13b0.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
