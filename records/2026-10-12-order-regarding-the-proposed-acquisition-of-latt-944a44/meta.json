@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-12-order-regarding-the-proposed-acquisition-of-latt-944a44",
+  "status": "approved",
+  "ingested_at": "2026-10-12T03:55:29Z",
+  "title": "CFIUS Order Regarding the Proposed Acquisition of Lattice Semiconductor Corporation by China Venture Capital Fund Corporation Limited",
+  "issuing_body": "White House",
+  "doc_type": "presidential order",
+  "doc_date": "2017-09-13",
+  "docket": "82 FR 43665 · FR Doc. 2017-20005",
+  "lists": [
+    "cfius"
+  ],
+  "entities": [],
+  "source_url": "https://www.govinfo.gov/content/pkg/FR-2017-09-18/pdf/2017-20005.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "944a44d74f677ffbd41acb7f18e5188292df22f9a0b48968ddbb583bcd678aa7",
+  "approved_at": "2026-10-12T19:34:36Z",
+  "published_at": "2026-10-12T19:35:01Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-12T03:55:57Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-proposed-acquisition-of-latt-944a44/source-7e31ddec.pdf"
+}
