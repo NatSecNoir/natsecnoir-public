@@ -1,5 +1,5 @@
 {
- "count": 249,
+ "count": 250,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -6592,6 +6592,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T19:30:46Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-ast-telecom-llc-d-b-a-bluesky-letter-of-agreemen-0d4ca2/source-0d4ca2bd.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-proposed-takeover-of-qualcom-aa7519",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:30Z",
+   "title": "CFIUS Order Regarding the Proposed Takeover of Qualcomm Incorporated by Broadcom Limited",
+   "issuing_body": "White House",
+   "doc_type": "presidential order",
+   "doc_date": "2018-03-12",
+   "docket": "83 FR 11631 · FR Doc. 2018-05479",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2018-03-15/pdf/2018-05479.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "aa7519113cda9d69c9263fb5d5159f9f9a4a231f77fba2c27a61690ba4e7d2b6",
+   "approved_at": "2026-10-12T19:35:43Z",
+   "published_at": "2026-10-12T19:36:20Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:56:02Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-proposed-takeover-of-qualcom-aa7519/source-b0eaa94b.pdf",
    "files": [
     "meta.json",
     "summary.md"
