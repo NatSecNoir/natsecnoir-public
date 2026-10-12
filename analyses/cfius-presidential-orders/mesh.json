@@ -77,11 +77,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-four-u-s-wind-d40430",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of Four U.S. Wind Farm Project Companies by Ralls Corporation",
+      "date": "2026-10-12T20:09:36Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Ralls must divest all interests in the Project Companies and their assets, intellectual property, technology, personnel, and customer contracts within 90 days after the order date, unless CFIUS extends the period by up to three months.\nWithin 14 calendar days after the order date, the Companies must remove all items, structures, and installations they placed on the identified Properties and provide CFIUS a signed removal certification.\nThe Companies and persons acting for them must cease all access to the identified Properties, subject to the stated exception for approved U.S. citizen contractors performing removal.\nRalls must notify CFIUS of an intended buyer and may not complete a sale or transfer until the required removal verification and CFIUS review conditions are satisfied.",
+      "definitions": [],
+      "fields": {
+        "president": "Obama",
+        "acquirer": "Ralls Corporation",
+        "acquirer_parent": "Sany Group",
+        "acquirer_country": "China",
+        "target": "Lower Ridge Windfarm, LLC; High Plateau Windfarm, LLC; Mule Hollow Windfarm, LLC; and Pine City Windfarm, LLC (the Project Companies), including their assets",
+        "sector": "energy",
+        "action": "prohibit + divest",
+        "deadline_days": 90,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-four-u-s-wind-d40430",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-four-u-s-wind-d40430",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:27Z",
+  "published_at": "2026-10-12T20:09:32Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:32Z"
+  "last_changed": "2026-10-12T20:09:36Z"
 }
