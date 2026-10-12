@@ -46,11 +46,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-certain-real-d9f07f",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of Certain Real Property of Cheyenne Leads by MineOne Cloud Computing Investment I L.P.",
+      "date": "2026-10-12T20:09:32Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Sell or transfer all direct and indirect legal and beneficial ownership interests or other rights in the Real Estate and certify completion in writing within 120 calendar days.\nWithin 90 calendar days, remove all stockpiled, stored, deposited, installed, or affixed equipment from the Real Estate and certify completion in writing.\nWithin 90 calendar days, remove specified utility improvements, underground work, and above-ground construction or improvements begun after closing, and certify completion in writing.\nRefrain from physical or logical access to the Real Estate, Equipment, or Improvements until divestment and removals are completed and verified, except as necessary to carry out the order.\nNotify CFIUS of an intended buyer or transferee and wait 10 business days without a CFIUS objection before completing a sale or transfer.",
+      "definitions": [],
+      "fields": {
+        "president": "Biden",
+        "acquirer": "MineOne Cloud Computing Investment I L.P.",
+        "acquirer_parent": "MineOne Partners Limited",
+        "acquirer_country": "China",
+        "target": "Certain real property of Cheyenne Leads: 12.06 acres at 635 Logistics Drive, Cheyenne, Wyoming, within 1 mile of Francis E. Warren Air Force Base",
+        "sector": "real estate",
+        "action": "prohibit + divest",
+        "deadline_days": 120,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-certain-real-d9f07f",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-certain-real-d9f07f",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "",
+  "published_at": "2026-10-12T20:09:27Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:27Z"
+  "last_changed": "2026-10-12T20:09:32Z"
 }
