@@ -170,11 +170,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-musical-ly-by-adfa97",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of Musical.ly by ByteDance Ltd.",
+      "date": "2026-10-12T20:09:42Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The acquisition of Musical.ly in the United States and ByteDance's ownership interests there are prohibited.\nWithin 90 days after the order date, subject to a possible CFIUS extension of up to 30 days, ByteDance and specified related parties must divest covered TikTok assets, rights, and U.S. user data.\nImmediately upon divestment, ByteDance must certify completion to CFIUS and certify destruction of the data required to be divested.\nByteDance must obtain CFIUS review clearance procedures before transferring the divested interests to a third party.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "ByteDance Ltd.",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "Musical.ly",
+        "sector": "data/consumer app",
+        "action": "prohibit + divest",
+        "deadline_days": 90,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-musical-ly-by-adfa97",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-musical-ly-by-adfa97",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:38Z",
+  "published_at": "2026-10-12T20:09:40Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:40Z"
+  "last_changed": "2026-10-12T20:09:42Z"
 }
