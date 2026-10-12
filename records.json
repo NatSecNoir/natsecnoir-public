@@ -1,5 +1,5 @@
 {
- "count": 257,
+ "count": 258,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -2324,6 +2324,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-09-06T01:58:34Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-covered-list-natsec-advisory-subs-affil-0d6727/source-0d67271c.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-executive-order-14352-saving-tiktok-while-protec-a604d9",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:34Z",
+   "title": "CFIUS Executive Order 14352: Saving TikTok While Protecting National Security",
+   "issuing_body": "White CFIUSHouse",
+   "doc_type": "executive order",
+   "doc_date": "2025-09-25",
+   "docket": "90 FR 47219 · FR Doc. 2025-19139",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-30/pdf/2025-19139.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a604d96a45a784050577cce5ae39e245a8c83019b1fc9d01eb62f694df69eda0",
+   "approved_at": "2026-10-12T19:59:53Z",
+   "published_at": "2026-10-12T20:00:28Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:57:24Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-executive-order-14352-saving-tiktok-while-protec-a604d9/source-cf8d0280.pdf",
    "files": [
     "meta.json",
     "summary.md"
