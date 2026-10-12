@@ -108,11 +108,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of Jupiter Systems, LLC by Suirui International Co., Limited",
+      "date": "2026-10-12T20:09:38Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The Transaction is prohibited, and the Purchasers’ ownership of interests in Jupiter or its non-excepted assets is prohibited.\nWithin 120 calendar days after the order date, the Purchasers must divest all interests and rights in Jupiter and covered assets, subject to CFIUS extension or conditions.\nUntil divestment is completed and verified, the Purchasers must not access Jupiter’s specified non-public information, systems, products, records, or U.S. facilities unless CFIUS approves.\nWithin 7 calendar days after the order date, the Purchasers and Jupiter must establish CFIUS-required controls preventing prohibited access.\nThe Purchasers and Jupiter must provide weekly compliance certifications until the Purchasers certify completion of the divestment.",
+      "definitions": [],
+      "fields": {
+        "president": "Trump",
+        "acquirer": "Suirui International Co., Limited",
+        "acquirer_parent": "Suirui Group Co., Ltd.",
+        "acquirer_country": "China",
+        "target": "Jupiter Systems, LLC (subsequently converted to Jupiter Systems, Inc.)",
+        "sector": "telecom/software",
+        "action": "prohibit + divest",
+        "deadline_days": 120,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:32Z",
+  "published_at": "2026-10-12T20:09:36Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:36Z"
+  "last_changed": "2026-10-12T20:09:38Z"
 }
