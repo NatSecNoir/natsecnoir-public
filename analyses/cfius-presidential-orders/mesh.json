@@ -294,11 +294,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-999be9",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Proposed Acquisition of United States Steel Corporation by Nippon Steel Corporation",
+      "date": "2026-10-12T20:09:51Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "The proposed acquisition and any substantially similar transaction are prohibited.\nThe Purchasers and U.S. Steel must fully and permanently abandon the proposed transaction no later than 30 days after the order date, unless CFIUS extends the date.\nUpon completing the abandonment, the Purchasers and U.S. Steel must certify in writing to CFIUS that the abandonment is complete.\nUntil the abandonment certification is provided, the Purchasers and U.S. Steel must certify weekly compliance and describe their abandonment efforts and projected timeline.\nTransactions or instruments intended to evade or circumvent the order are prohibited.",
+      "definitions": [],
+      "fields": {
+        "president": "Biden",
+        "acquirer": "Nippon Steel Corporation",
+        "acquirer_parent": "",
+        "acquirer_country": "Japan",
+        "target": "United States Steel Corporation",
+        "sector": "steel",
+        "action": "prohibit",
+        "deadline_days": 30,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-999be9",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-999be9",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:46Z",
+  "published_at": "2026-10-12T20:09:49Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:49Z"
+  "last_changed": "2026-10-12T20:09:51Z"
 }
