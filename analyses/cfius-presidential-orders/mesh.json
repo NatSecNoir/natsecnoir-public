@@ -232,11 +232,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-proposed-acquisition-of-a-co-a2d7dd",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Proposed Acquisition of a Controlling Interest in Aixtron SE by Grand Chip Investment GmbH",
+      "date": "2026-10-12T20:09:46Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Fully and permanently abandon the proposed acquisition of Aixtron US within 30 days after the order date, unless CFIUS extends the deadline by up to 90 days.\nPurchasers and Aixtron must certify in writing to CFIUS immediately after termination that the acquisition was abandoned in accordance with the order.\nPurchasers and Aixtron must provide weekly compliance certifications to CFIUS until termination is certified.\nTransactions or devices intended to avoid or circumvent the order are prohibited.",
+      "definitions": [],
+      "fields": {
+        "president": "Obama",
+        "acquirer": "Grand Chip Investment GmbH",
+        "acquirer_parent": "Fujian Grand Chip Investment Fund LP",
+        "acquirer_country": "China",
+        "target": "Aixtron US (the U.S. business of Aixtron SE)",
+        "sector": "semiconductors",
+        "action": "prohibit",
+        "deadline_days": 30,
+        "deadline_from": "order date",
+        "deadline_date": null,
+        "transaction_closed": false
+      },
+      "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-a-co-a2d7dd",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-proposed-acquisition-of-a-co-a2d7dd",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:42Z",
+  "published_at": "2026-10-12T20:09:44Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:44Z"
+  "last_changed": "2026-10-12T20:09:46Z"
 }
