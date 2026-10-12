@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-11-252153p-36384e",
+  "status": "approved",
+  "ingested_at": "2026-10-11T01:06:59Z",
+  "title": "Thomson Reuters v. ROSS Intelligence (3d Cir Sep. 29, 2026)  - AI Legal-Research Firm Loses Fair-Use Fight Over Copied Westlaw Headnotes",
+  "issuing_body": "Third Circuit",
+  "doc_type": "",
+  "doc_date": "2026-09-29",
+  "docket": "25-2153; 1:20-cv-00613",
+  "lists": [
+    "litigation",
+    "ai"
+  ],
+  "entities": [],
+  "source_url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "36384e066f20ad6504095dcafff953467d1a59b8d39a3a5146eed9fa9b5b0b1d",
+  "approved_at": "2026-10-12T20:05:39Z",
+  "published_at": "2026-10-12T20:06:41Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-11T01:07:09Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-11-252153p-36384e/source-36384e06.pdf"
+}
