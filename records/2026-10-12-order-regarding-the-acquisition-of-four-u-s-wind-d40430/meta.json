@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-12-order-regarding-the-acquisition-of-four-u-s-wind-d40430",
+  "status": "approved",
+  "ingested_at": "2026-10-12T03:55:29Z",
+  "title": "CFIUS Order Regarding the Acquisition of Four U.S. Wind Farm Project Companies by Ralls Corporation",
+  "issuing_body": "CFIUS",
+  "doc_type": "presidential order",
+  "doc_date": "2012-09-28",
+  "docket": "77 FR 60281",
+  "lists": [
+    "cfius"
+  ],
+  "entities": [],
+  "source_url": "https://www.govinfo.gov/content/pkg/FR-2012-10-03/pdf/2012-24533.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "d40430a3c3074abe48b8fed70f226269a442e22a9ea94d5298e512e0f64890a0",
+  "approved_at": "2026-10-12T19:32:44Z",
+  "published_at": "2026-10-12T19:33:28Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-12T03:55:41Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-acquisition-of-four-u-s-wind-d40430/source-ce30abfa.pdf"
+}
