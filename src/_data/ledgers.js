@@ -70,7 +70,17 @@ export default function () {
         deadline_extended_to: r.deadline.extended_to, status: r.status, status_source: r.status_source,
         citation: r.docket, record_url: r.record_url, pdf_url: r.pdf_url,
       }));
-      led = { ...mesh, rows, count: rows.length, currency_date, built_at, export_rows: exportRows,
+      // Notes below the table (mesh `notes`): each a line of editor-written HTML, optionally listing
+      // records — resolved here to record/PDF links; an id that is not a mirrored record is skipped.
+      const byId = new Map(records.map((r) => [r.id, r]));
+      const notes = (mesh.notes || []).map((n) => ({
+        html: n.html || "",
+        records: (n.records || []).map((x) => {
+          const r = byId.get(x.id);
+          return r ? { label: x.label || r.title, date: r.doc_date, record_url: r.url, pdf_url: r.copy || "" } : null;
+        }).filter(Boolean),
+      }));
+      led = { ...mesh, rows, count: rows.length, currency_date, built_at, export_rows: exportRows, notes,
               export_json: { built_at, currency_date, rows: exportRows } };
       orders.push(led);
     } else {

@@ -6,7 +6,6 @@
   "profile": "presidential-order",
   "feed": false,
   "excerpt": "Every presidential order that prohibits or unwinds a foreign acquisition under Section 721.",
-  "footnote": "Not rows: Section 721 documents that do not prohibit a transaction, such as <a href=\"/records/2022-09-15-fix-eo-cfius-oo0007/\">EO 14083</a>.",
   "membership": {
     "lists_all": [
       "cfius"
@@ -177,5 +176,26 @@
   "pending": [],
   "archive": [],
   "ledger": [],
-  "runs": []
+  "runs": [],
+  "notes": [
+    {
+      "html": "Not rows: Section 721 presidential documents that do not prohibit a transaction \u2014",
+      "records": [
+        {
+          "id": "2022-09-15-fix-eo-cfius-oo0007",
+          "label": "EO 14083 (2022)"
+        },
+        {
+          "id": "no-such-record",
+          "label": "Missing"
+        }
+      ]
+    },
+    {
+      "html": "The 2020 ByteDance / Musical.ly order is the prohibition."
+    },
+    {
+      "html": "Count checked against <a href=\"https://www.congress.gov/crs-product/IF10177\">CRS In Focus IF10177</a>."
+    }
+  ]
 }

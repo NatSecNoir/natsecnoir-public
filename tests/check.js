@@ -228,7 +228,14 @@ assert.doesNotMatch(ordRow("1990-02-01-fix-order-catic-oo0006"), /class="pending
 assert.match(ordRow("2018-03-12-fix-order-broadcom-oo0008"), /<td>—<\/td>/, "an order with no deadline shows a dash");
 assert.equal((ordRow("2020-03-06-fix-order-shiji-oo0009").match(/class="pending"/g) || []).length, 6, "an unreviewed order is pending in every field column (acquirer falls back to the title; status shows a dash)");
 // Footnote, row-count noun, and exports (R5).
-assert.match(ord, /<p class="footnote">Not rows:[\s\S]*?href="\/records\/2022-09-15-fix-eo-cfius-oo0007\/"/, "the mesh footnote renders with its link");
+const notes = (ord.match(/<section class="ledger-notes"[\s\S]*?<\/section>/) || [""])[0].replace(/\s+/g, " ");
+assert.ok(notes, "the Notes section renders below the table");
+assert.ok(ord.indexOf('class="ledger-notes"') > ord.indexOf("</table>"), "notes sit below the table, not in it");
+assert.equal((notes.match(/<ol>/g) || []).length, 1, "notes are one numbered list");
+assert.match(notes, /Not rows: Section 721[\s\S]*?<li>EO 14083 \(2022\) · <span class="date">2022-09-15<\/span> · <a href="\/records\/2022-09-15-fix-eo-cfius-oo0007\/">record<\/a> · <a href="https:\/\/docs\.natsecnoir\.com\/records\/2022-09-15-fix-eo-cfius-oo0007\/[^"]+\.pdf"/, "a listed record links its page and PDF");
+assert.doesNotMatch(notes, /Missing|no-such-record/, "an unresolvable note record is skipped");
+assert.match(notes, /href="https:\/\/www\.congress\.gov\/crs-product\/IF10177"/, "editor HTML in a note renders");
+assert.doesNotMatch(ord, /class="footnote"/, "notes replace the single-paragraph footnote");
 assert.match(ord, /<table id="ledger" data-noun="orders">/, "the row count names orders");
 const ordCsv = fs.readFileSync(path.join(outFix, "analyses/fixture-orders/fixture-orders.csv"), "utf8").trim().split("\n");
 assert.match(ordCsv[0], /^id,signed,president,acquirer,/, "CSV header");
