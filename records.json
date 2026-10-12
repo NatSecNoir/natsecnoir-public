@@ -1,5 +1,5 @@
 {
- "count": 256,
+ "count": 257,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -2560,6 +2560,37 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T20:48:25Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-starfish-infrastructure-inc-letter-of-agreement-937cb2/source-937cb278.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:32Z",
+   "title": "CFIUS Order Regarding the Acquisition of Jupiter Systems, LLC by Suirui International Co., Limited",
+   "issuing_body": "CFIUS",
+   "doc_type": "presidential order",
+   "doc_date": "2025-07-08",
+   "docket": "90 FR 31125 · FR Doc. 2025-13123",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-07-11/pdf/2025-13123.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "2b4574677b0be9e863412f85538f6337342a09df6c05f2caa1b48a2b2572fafe",
+   "approved_at": "2026-10-12T19:59:19Z",
+   "published_at": "2026-10-12T19:59:51Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:56:46Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574/source-5b0af0dd.pdf",
    "files": [
     "meta.json",
     "summary.md"
