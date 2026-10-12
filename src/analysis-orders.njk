@@ -92,7 +92,19 @@ eleventyComputed:
   </table>
   </div>
 
-  {% if l.footnote %}<p class="footnote">{{ l.footnote | safe }}</p>{% endif %}
+  {% if l.notes.length %}
+  <section class="ledger-notes" aria-labelledby="notes-h">
+    <h2 id="notes-h">Notes</h2>
+    <ol>
+    {% for n in l.notes %}
+      <li>{{ n.html | safe }}{% if n.records.length %}
+        <ul>{% for r in n.records %}
+          <li>{{ r.label }} · <span class="date">{{ r.date }}</span> · <a href="{{ r.record_url }}">record</a>{% if r.pdf_url %} · <a href="{{ r.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</li>
+        {% endfor %}</ul>{% endif %}</li>
+    {% endfor %}
+    </ol>
+  </section>
+  {% elif l.footnote %}<p class="footnote">{{ l.footnote | safe }}</p>{% endif %}
 
   <div class="methodology">
     <p>Rendered at build time from the mirrored Records and the analysis mesh. A row is a Record tagged

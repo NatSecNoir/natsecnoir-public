@@ -373,6 +373,15 @@ body.col-resizing { cursor: col-resize; user-select: none; }
 .orders-page #ledger thead th.wrap { white-space: normal; }
 .orders-page #ledger td.nobreak { overflow-wrap: normal; }
 #ledger tr.detail .history .rel.related { background: var(--navy); }
+/* notes under the orders table: break out to the table panel's width, like the header */
+.ledger-page .ledger-notes { position: relative; left: 50%; transform: translateX(-50%); width: min(100vw - 24px, 1280px);
+  margin: 18px 0 0; padding-top: 12px; border-top: 1px solid var(--line); font: 300 13.5px/1.6 var(--sans); color: var(--ink); }
+.ledger-page .ledger-notes h2 { margin: 0 0 6px; font: 600 11px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+.ledger-page .ledger-notes ol { margin: 0; padding-left: 20px; }
+.ledger-page .ledger-notes > ol > li { margin: 4px 0; }
+.ledger-page .ledger-notes ul { margin: 4px 0 6px; padding-left: 18px; list-style: disc; }
+.ledger-page .ledger-notes .date { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.ledger-page .ledger-notes a { text-decoration: underline; text-underline-offset: 2px; }
 .orders-page .footnote { margin: 14px 0 0; font: 300 13px/1.55 var(--sans); color: var(--muted); max-width: 78ch; }
 
 /* ---- Conditional Approvals ledger (U6) ---- */
