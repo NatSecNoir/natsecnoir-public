@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-12-order-regarding-the-proposed-merger-of-alcatel-a-4081f6",
+  "status": "approved",
+  "ingested_at": "2026-10-12T03:55:33Z",
+  "title": "CFIUS Order Regarding the Proposed Merger of Alcatel and Lucent Technologies, Inc.",
+  "issuing_body": "CFIUS",
+  "doc_type": "presidential document",
+  "doc_date": "2006-11-17",
+  "docket": "71 FR 67429 · FR Doc. 06-9381",
+  "lists": [
+    "cfius"
+  ],
+  "entities": [],
+  "source_url": "https://www.govinfo.gov/content/pkg/FR-2006-11-22/pdf/06-9381.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "4081f6b4f0e30b940f3a75fe6cc5699e45e021b4e2756dfcfdb096a5aec61894",
+  "approved_at": "2026-10-12T19:28:56Z",
+  "published_at": "2026-10-12T19:29:24Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-12T03:57:01Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-proposed-merger-of-alcatel-a-4081f6/source-4170aded.pdf"
+}
