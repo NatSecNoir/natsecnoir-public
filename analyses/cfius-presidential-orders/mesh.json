@@ -324,6 +324,15 @@
         "page": 1,
         "paragraph": null,
         "quote": ""
+      },
+      "chain": {
+        "companion": [
+          "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2"
+        ]
+      },
+      "status": {
+        "value": "amended",
+        "source": "FR Doc. 2025-11372"
       }
     },
     {
@@ -391,7 +400,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:57Z",
+  "published_at": "2026-10-12T20:10:00Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:10:00Z"
+  "last_changed": "2026-10-12T20:14:20Z"
 }
