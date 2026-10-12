@@ -1,5 +1,5 @@
 {
- "count": 243,
+ "count": 244,
  "records": [
   {
    "id": "2026-10-07-hikvision-v-fcc-hikvision-ii-0ce209",
@@ -7967,6 +7967,40 @@
    "draft_model": "openai/gpt-5.6-luna",
    "drafted_at": "2026-10-03T19:28:55Z",
    "copy_url": "https://docs.natsecnoir.com/records/2026-10-03-hibernia-atlantic-u-s-llc-letter-of-agreement-te-400f3a/source-400f3a82.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e",
+   "status": "approved",
+   "ingested_at": "2026-10-12T03:55:34Z",
+   "title": "CFIUS Order Regarding the Acquisition of MAMCO Manufacturing, Inc. by China National Aero-Technology Import and Export Corporation",
+   "issuing_body": "CFIUS",
+   "doc_type": "presidential order",
+   "doc_date": "1990-02-01",
+   "docket": "55 FR 3935",
+   "lists": [
+    "cfius"
+   ],
+   "entities": [
+    "MAMCO Manufacturing",
+    "China National Aero-Technology Import and Export Corporation (CATIC)"
+   ],
+   "source_url": "https://www.govinfo.gov/content/pkg/FR-1990-02-06/pdf/FR-1990-02-06.pdf#page=11",
+   "source_copy_public": true,
+   "notes": "Pages 3935-3936 cut from the govinfo FR issue of 1990-02-06 (pre-1994, not in FR full text).",
+   "source_file": "source.pdf",
+   "sha256": "fd5f8e5338b22c3807ec8002d1b246fcb788a97c31269558b0f635ad926259da",
+   "approved_at": "2026-10-12T19:27:54Z",
+   "published_at": "2026-10-12T19:28:28Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-12T03:57:30Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e/source-fd5f8e53.pdf",
    "files": [
     "meta.json",
     "summary.md"
