@@ -3,20 +3,22 @@
 // member), and overlay `entries`. Two grains are supported: the default `grain: "record"` renders
 // one row per unfolded member Record (Team Telecom agreements); `grain: "row"` renders one row per
 // approval, plus a placeholder per un-extracted member, so one Public Notice grants many rows
-// (Conditional Approvals). Membership is computed here against the mirrored Records, so a records
-// mirror alone publishes a row (with pending markers) and the private app never renders the table.
+// (Conditional Approvals). A record-grain mesh with `profile: "presidential-order"` (CFIUS orders)
+// is split out as `orders`: same grain, its own columns and template. Membership is computed here
+// against the mirrored Records, so a records mirror alone publishes a row (with pending markers) and
+// the private app never renders the table.
 // The row-assembly itself lives in ../lib/ledger-rows.js: this module has ONLY a default export,
 // because Eleventy would otherwise load the module namespace and the rows would never reach the
 // templates. The two grains are returned pre-split because Eleventy's YAML pagination.filter cannot
 // express a grain test — the same reason analyses.js returns a pre-filtered `pages` array.
 import loadRecords from "./records.js";
 import loadAnalyses from "./analyses.js";
-import { recordGrainRows, rowGrainRows } from "../lib/ledger-rows.js";
+import { recordGrainRows, rowGrainRows, orderRows } from "../lib/ledger-rows.js";
 import { EXPIRING_DAYS } from "../lib/approvals-status.js";
 
 export default function () {
   const analyses = loadAnalyses().all.filter((a) => a.kind === "ledger");
-  if (!analyses.length) return { all: [], byId: {}, recordGrain: [], rowGrain: [] };
+  if (!analyses.length) return { all: [], byId: {}, recordGrain: [], rowGrain: [], orders: [] };
 
   const records = loadRecords().all;
   // Compute the build stamp once here, never at module import, so a long-lived process re-derives
@@ -27,6 +29,7 @@ export default function () {
   const idIndex = {};
   const recordGrain = [];
   const rowGrain = [];
+  const orders = [];
   for (const mesh of analyses) {
     const grain = mesh.grain || "record";
     // R14: the stamp is the last accepted change; fall back to currency_date only when a mesh has
@@ -56,6 +59,20 @@ export default function () {
         export_json: { built_at, currency_date, authority_url, expiring_days: EXPIRING_DAYS, pending_records, rows: exportRows },
       };
       rowGrain.push(led);
+    } else if (mesh.profile === "presidential-order") {
+      // CFIUS orders ledger: record grain with its own columns and template (analysis-orders.njk).
+      const rows = orderRows(mesh, records);
+      const built_at = today.toISOString();
+      const exportRows = rows.map((r) => ({
+        id: r.id, signed: r.doc_date, president: r.president, acquirer: r.acquirer,
+        acquirer_parent: r.acquirer_parent, acquirer_country: r.country, target: r.target, sector: r.sector,
+        action: r.action, deadline_days: r.deadline.days, deadline_date: r.deadline.date,
+        deadline_extended_to: r.deadline.extended_to, status: r.status, status_source: r.status_source,
+        citation: r.docket, record_url: r.record_url, pdf_url: r.pdf_url,
+      }));
+      led = { ...mesh, rows, count: rows.length, currency_date, built_at, export_rows: exportRows,
+              export_json: { built_at, currency_date, rows: exportRows } };
+      orders.push(led);
     } else {
       const rows = recordGrainRows(mesh, records);
       led = { ...mesh, rows, count: rows.length, currency_date };
@@ -65,5 +82,5 @@ export default function () {
     idIndex[mesh.id] = led;
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
-  return { all, byId: idIndex, recordGrain, rowGrain };
+  return { all, byId: idIndex, recordGrain, rowGrain, orders };
 }

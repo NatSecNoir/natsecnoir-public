@@ -7,4 +7,5 @@ export default {
   "icts": { label: "ICTS", gloss: "Commerce Department information and communications technology supply-chain actions." },
   "litigation": { label: "Litigation", gloss: "Court filings and decisions arising from these actions." },
   "entity-list": { label: "Entity List", gloss: "Commerce Bureau of Industry and Security export-control listings." },
+  "cfius": { label: "CFIUS", gloss: "Treasury-chaired review of foreign investment in U.S. businesses and real estate." },
 };

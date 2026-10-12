@@ -14,10 +14,16 @@ function linesOf(entry) {
 // The stored copy is the only source link on the page: its R2 URL.
 const pdfOf = (r) => (r && r.copy) || "";
 
-// Whether a Record carries every membership slug the mesh requires.
+// doc_type in the stored form the private app compares on: trimmed, lowercased, inner whitespace collapsed.
+export const normalizeDocType = (s) => String(s || "").trim().replace(/\s+/g, " ").toLowerCase();
+
+// Whether a Record carries every membership slug the mesh requires and, when the mesh sets
+// `membership.doc_types` (the CFIUS orders ledger), one of those document types.
 function memberTest(mesh) {
   const wants = (mesh.membership && mesh.membership.lists_all) || [];
-  return (r) => wants.length > 0 && wants.every((slug) => (r.lists || []).some((l) => l.slug === slug));
+  const types = mesh.membership && mesh.membership.doc_types ? mesh.membership.doc_types.map(normalizeDocType) : null;
+  return (r) => wants.length > 0 && wants.every((slug) => (r.lists || []).some((l) => l.slug === slug))
+    && (!types || types.includes(normalizeDocType(r.doc_type)));
 }
 
 // grain: "record" — one row per unfolded member, superseding/companion instruments folded beneath
@@ -141,6 +147,89 @@ export function rowGrainRows(mesh, records, today) {
       lists: [], placeholder: true,
     });
   }
+  rows.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || a.id.localeCompare(b.id));
+  return rows;
+}
+
+// Profile `presidential-order` (CFIUS orders ledger): one row per unfolded member order, an amending
+// order folded beneath as a companion (as Team Telecom), plus the hand-set facts the editor sources —
+// status, a deadline extension — and `related` records (litigation) linked from the detail row.
+// Deadline: "N days (date)" when the order counts from its own date; a date the order itself states
+// wins; an extension replaces the shown date and keeps the original term.
+function addDays(iso, days) {
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return "";
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+export function orderDeadline(fields, signed, extension) {
+  const days = Number.isInteger(fields.deadline_days) ? fields.deadline_days : null;
+  const stated = fields.deadline_date || "";
+  const computed = !stated && days !== null && fields.deadline_from === "order date" ? addDays(signed, days) : "";
+  const date = stated || computed;
+  const ext = extension && extension.date ? extension : null;
+  return {
+    days, date, stated: Boolean(stated),
+    extended_to: ext ? ext.date : "", extension_source: ext ? ext.source || "" : "",
+    basis: !date && days !== null && fields.deadline_from && fields.deadline_from !== "order date" ? "counted from a date other than the order" : "",
+    has_days: days !== null, absent: days === null && !date,
+  };
+}
+
+export function orderRows(mesh, records) {
+  const byId = new Map(records.map((r) => [r.id, r]));
+  const entries = new Map((mesh.entries || []).map((e) => [e.key, e]));
+  const isMember = memberTest(mesh);
+  const members = records.filter(isMember);
+
+  const folded = new Set();
+  for (const r of members) {
+    const chain = (entries.get(r.id) || {}).chain || {};
+    for (const id of [...(chain.supersedes || []), ...(chain.companion || [])]) folded.add(id);
+  }
+
+  const linkOf = (rel, id) => {
+    const h = byId.get(id);
+    if (!h) return null; // not a mirrored (approved) record: skipped, never a dead link
+    return { rel, id, label: (entries.get(id) || {}).label || h.title, date: h.doc_date, docket: h.docket || "",
+             record_url: h.url, pdf_url: pdfOf(h) };
+  };
+
+  const rows = members.filter((r) => !folded.has(r.id)).map((r) => {
+    const entry = entries.get(r.id) || {};
+    const fields = entry.fields || {};
+    const chain = entry.chain || {};
+    const terms = linesOf(entry);
+    const history = [];
+    for (const [rel, ids] of [["superseded", chain.supersedes || []], ["companion", chain.companion || []], ["related", entry.related || []]]) {
+      for (const id of ids) { const h = linkOf(rel, id); if (h) history.push(h); }
+    }
+    history.sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.id.localeCompare(b.id));
+    const folds = history.filter((h) => h.rel !== "related");
+    const status = entry.status && entry.status.value ? entry.status : null;
+    const deadline = orderDeadline(fields, r.doc_date, entry.deadline_extended_to);
+    const acquirer = fields.acquirer || entry.label || r.title || "";
+    const search = [acquirer, fields.acquirer_parent, fields.acquirer_country, fields.target, fields.sector,
+      fields.action, fields.president, status && status.value, r.docket, r.title, ...(r.entities || [])]
+      .filter(Boolean).join(" ").toLowerCase().replace(/\s+/g, " ");
+    return {
+      id: r.id, date: r.doc_date, doc_date: r.doc_date,
+      president: fields.president || "", acquirer, acquirer_parent: fields.acquirer_parent || "",
+      country: fields.acquirer_country || "", target: fields.target || "", sector: fields.sector || "",
+      action: fields.action || "", deadline,
+      status: status ? status.value : "", status_source: status ? status.source || "" : "",
+      status_class: status ? `s-${status.value.replace(/\s+/g, "-")}` : "",
+      docket: r.docket || "", terms, record_url: r.url, pdf_url: pdfOf(r),
+      history, foldsummary: folds.map((h) => `${h.rel} · ${h.label}`).join("; "), foldcount: folds.length,
+      pending: {
+        president: !fields.president, acquirer: !fields.acquirer, country: !fields.acquirer_country,
+        target: !fields.target, sector: !fields.sector, action: !fields.action,
+        deadline: !Object.keys(fields).length, status: !status, terms: !terms.length,
+      },
+      search,
+    };
+  });
   rows.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || a.id.localeCompare(b.id));
   return rows;
 }

@@ -11,9 +11,11 @@ eleventyComputed:
   description: "{{ l.excerpt }}"
 ---
 <article class="ledger-page approvals-page">
+  <header class="lhead">
   <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
   <p class="eyebrow">FCC · Covered List · Conditional Approvals</p>
   <h1>{{ l.title }}</h1>
+  <div class="lead-col">
   <p class="sub">Every Department of War / DHS Conditional Approval that exempts a specific device from the FCC
     Covered List — Records tagged <code>conditional-approval</code> — one row per
     <strong>entity × device category</strong>, newest public notice first, with model names, dates, and a computed
@@ -22,10 +24,9 @@ eleventyComputed:
   <div class="authority">This is a reviewed, reader-friendly derivative. The authoritative list is the FCC's
     <a href="{{ l.authority_url }}" target="_blank" rel="noopener">Covered List and Conditional Approvals</a>
     <span class="src">(fcc.gov/supplychain/coveredlist)</span>. Where this page and the FCC tab differ, the FCC tab governs.</div>
+  </div>
 
-  <div class="asof-banner" id="asofBanner">Viewing status <strong>as of a simulated date</strong> via <code>?asof=</code>
-    — this is not today. Remove the parameter to see live status.</div>
-
+  <div class="meta-col">
   <p class="stamp">Currency: last accepted change {{ l.currency_date or "—" }} · {{ l.count }} row{{ "s" if l.count != 1 }}
     · status computed as you view (<span id="asofdate"></span>).</p>
   <p class="stamp-note">Model names, issuer, and termination dates are analyst-reviewed fields drawn from each public
@@ -33,6 +34,11 @@ eleventyComputed:
     (<span class="status active">active</span> <span class="status expiring">expiring</span>
     <span class="status expired">expired</span>) is computed in your browser from the termination date; expired
     approvals stay listed.</p>
+  </div>
+
+  <div class="asof-banner" id="asofBanner">Viewing status <strong>as of a simulated date</strong> via <code>?asof=</code>
+    — this is not today. Remove the parameter to see live status.</div>
+  </header>
 
   <div class="controls">
     <input id="q" type="search" placeholder="Filter by entity, model, category, issuer, or DA…" aria-label="Filter approvals">

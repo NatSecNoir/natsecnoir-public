@@ -345,6 +345,36 @@ body.col-resizing { cursor: col-resize; user-select: none; }
 #ledger tr.detail .history .rel.companion { background: var(--muted); }
 #ledger tr.detail .history .date { font-family: var(--mono); color: var(--muted); }
 
+/* ---- ledger header (all ledger pages) ----
+   The header breaks out to the table panel's width so its edges line up with the filter bar and
+   table; two top-aligned columns keep each line a readable length. Stacks below tablet width. */
+.ledger-page .lhead { position: relative; left: 50%; transform: translateX(-50%); width: min(100vw - 24px, 1280px);
+  display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 0 48px; align-items: start; margin-bottom: 18px; }
+.ledger-page .lhead > .crumb, .ledger-page .lhead > .eyebrow, .ledger-page .lhead > h1,
+.ledger-page .lhead > .asof-banner { grid-column: 1 / -1; }
+.ledger-page .lhead .sub { max-width: none; margin: 0; }
+.ledger-page .lhead .meta-col { border-left: 1px solid var(--line); padding-left: 20px; }
+.ledger-page .lhead .stamp-note { margin: 0; max-width: none; }
+.ledger-page .lhead .authority { margin-top: 14px; }
+@media (max-width: 820px) {
+  .ledger-page .lhead { grid-template-columns: 1fr; }
+  .ledger-page .lhead .meta-col { border: 0; padding: 12px 0 0; }
+}
+
+/* ---- CFIUS presidential orders ledger (analysis-orders.njk) ----
+   Status chips (editor-set, each with a source): open matters in navy, settled ones quiet. */
+.orders-page #ledger .status { display: inline-block; font: 10.5px var(--sans); letter-spacing: .06em; text-transform: uppercase;
+  padding: 1px 6px; border: 1px solid var(--ink); border-radius: 0; color: var(--ink); background: transparent; white-space: normal; max-width: 100%; }
+.orders-page #ledger .status.s-pending-divestment, .orders-page #ledger .status.s-in-litigation { background: var(--navy); border-color: var(--navy); color: var(--paper); }
+.orders-page #ledger .status.s-amended { border-style: dashed; }
+.orders-page #ledger .status.s-blocked, .orders-page #ledger .status.s-divested { color: var(--muted); border-color: var(--line); }
+.orders-page #ledger .src { display: block; margin-top: 3px; font: 11px var(--mono); color: var(--muted); }
+.orders-page #ledger .dl { font-family: var(--mono); font-size: 12px; }
+.orders-page #ledger thead th.wrap { white-space: normal; }
+.orders-page #ledger td.nobreak { overflow-wrap: normal; }
+#ledger tr.detail .history .rel.related { background: var(--navy); }
+.orders-page .footnote { margin: 14px 0 0; font: 300 13px/1.55 var(--sans); color: var(--muted); max-width: 78ch; }
+
 /* ---- Conditional Approvals ledger (U6) ---- */
 .approvals-page .eyebrow { font: 500 11px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--navy); margin: 16px 0 0; }
 .approvals-page .authority { margin-top: 20px; border: 1px solid var(--line); border-left: 3px solid var(--navy); background: var(--raised); border-radius: 8px; padding: 14px 18px; font-size: 14px; line-height: 1.55; color: var(--ink); }

@@ -174,6 +174,75 @@ const card = idx.match(/href="\/analyses\/fixture-ledger\/"[\s\S]*?<\/a>/);
 assert.ok(card, "the ledger has a card on the analyses index");
 assert.match(card[0], /<span class="gn">5<\/span>/, "index card shows the row count, not the 7 overlay entries");
 
+// ---- CFIUS presidential orders ledger (plan 2026-10-11-001, U4) ----
+const ord = fs.readFileSync(path.join(outFix, "analyses/fixture-orders/index.html"), "utf8");
+const ordMain = ord.match(/<tr class="row"[\s\S]*?<\/tr>/g) || [];
+function ordRow(id) {
+  const r = ordMain.find((x) => x.includes(`/records/${id}/`));
+  assert.ok(r, `order row for ${id} is present`);
+  return r.replace(/\s+/g, " ");
+}
+function ordDetail(id) {
+  const rowEnd = ord.indexOf("</tr>", ord.indexOf(`/records/${id}/`)) + 5;
+  const ds = ord.indexOf('<tr class="detail"', rowEnd);
+  return ord.slice(ds, ord.indexOf("</tr>", ord.indexOf("</td>", ds)) + 5).replace(/\s+/g, " ");
+}
+// R1/AE5: rows are exactly the approved cfius records whose doc_type is "presidential order" (normalized),
+// minus the folded companion: hiefo, nippon, suirui, broadcom (" Presidential  Order "), shiji, catic.
+assert.equal(ordMain.length, 6, "one row per unfolded presidential order");
+assert.ok(!ordMain.some((r) => r.includes("fix-complaint-suirui")), "a cfius complaint is not a row");
+assert.ok(!ordMain.some((r) => r.includes("fix-eo-cfius")), "a cfius executive order is not a row");
+assert.doesNotMatch(ord, /Should Not Render EO/, "a non-member's overlay entry never renders");
+assert.ok(ordMain.some((r) => r.includes("fix-order-broadcom")), "doc_type matches after normalization");
+// Sort: newest first; the 1990 order is last.
+assert.ok(ord.indexOf("fix-order-hiefo") < ord.indexOf("fix-order-suirui"), "orders are newest first");
+assert.ok(ordMain[ordMain.length - 1].includes("fix-order-catic"), "the 1990 order is the bottom row");
+// Columns: fields, computed deadline, sourced status chip with a link.
+const hiefo = ordRow("2025-10-02-fix-order-hiefo-oo0001");
+assert.match(hiefo, /HieFo Corporation/, "acquirer renders");
+assert.match(hiefo, /China/, "ultimate acquirer country renders");
+assert.match(hiefo, /180 days \(2026-03-31\)/, "deadline shows days and the computed date");
+assert.match(hiefo, /class="status s-pending-divestment">pending divestment<\/span>/, "status chip carries its value");
+assert.match(hiefo, /source: <a href="https:\/\/home\.treasury\.gov\/fixture"/, "an http status source is a link");
+assert.doesNotMatch(hiefo, /class="pending"/, "a fully reviewed row shows no pending marker");
+// Companion fold (AE2): Nippon is one row, status amended, the June order folded beneath.
+const nippon = ordRow("2025-01-03-fix-order-nippon-oo0002");
+assert.match(nippon, /\+ 1 folded: companion · Order Amending the Nippon Steel Order/, "the amending order folds as a companion");
+assert.match(nippon, />amended<\/span>/, "Nippon status is amended");
+assert.ok(!ordMain.some((r) => r.includes("fix-order-nippon-amend")), "the amending order is not its own row");
+// Extension + related (AE6): the extension replaces the shown date; related links only resolvable records.
+const suirui = ordRow("2025-07-08-fix-order-suirui-oo0004");
+assert.match(suirui, /120 days \(<s>2025-11-05<\/s> → 2026-01-05\)/, "an extension strikes the computed date");
+assert.match(suirui, /extended · CFIUS extension \(fixture\)/, "the extension names its source");
+assert.match(suirui, /parent: Suirui Group Co\., Ltd\./, "the controlling parent renders under the acquirer");
+assert.doesNotMatch(suirui, /folded/, "a related record is not counted as folded");
+const suiruiDetail = ordDetail("2025-07-08-fix-order-suirui-oo0004");
+assert.match(suiruiDetail, /<span class="rel related">related<\/span>United States v\. Suirui — Complaint/, "related record listed in the detail");
+assert.match(suiruiDetail, /href="\/records\/2025-10-20-fix-complaint-suirui-oo0005\/">record<\/a>/, "related record links its page");
+assert.doesNotMatch(suiruiDetail, /no-such-record/, "an unresolvable related id is skipped, not a dead link");
+// Stated date (1990), no deadline (Broadcom), nothing reviewed (Shiji).
+assert.match(ordRow("1990-02-01-fix-order-catic-oo0006"), /by 1990-05-01/, "a date the order states renders as written");
+assert.match(ordRow("1990-02-01-fix-order-catic-oo0006"), /<span class="pending">pending<\/span>/, "an unsourced status is pending");
+assert.match(ordRow("2018-03-12-fix-order-broadcom-oo0008"), /<td>—<\/td>/, "an order with no deadline shows a dash");
+assert.equal((ordRow("2020-03-06-fix-order-shiji-oo0009").match(/class="pending"/g) || []).length, 7, "an unreviewed order is pending in every analyst column (acquirer falls back to the title)");
+// Footnote, row-count noun, and exports (R5).
+assert.match(ord, /<p class="footnote">Not rows:[\s\S]*?href="\/records\/2022-09-15-fix-eo-cfius-oo0007\/"/, "the mesh footnote renders with its link");
+assert.match(ord, /<table id="ledger" data-noun="orders">/, "the row count names orders");
+const ordCsv = fs.readFileSync(path.join(outFix, "analyses/fixture-orders/fixture-orders.csv"), "utf8").trim().split("\n");
+assert.match(ordCsv[0], /^id,signed,president,acquirer,/, "CSV header");
+assert.equal(ordCsv.length, 7, "CSV has a header plus one line per row");
+const ordJson = JSON.parse(fs.readFileSync(path.join(outFix, "analyses/fixture-orders/fixture-orders.json"), "utf8"));
+assert.equal(ordJson.rows.find((r) => r.id.includes("hiefo")).deadline_date, "2026-03-31", "JSON carries the computed deadline date");
+// The CFIUS mesh never renders through the Team Telecom template.
+assert.ok(!fs.readFileSync(path.join(outFix, "analyses/fixture-orders/index.html"), "utf8").includes("Docket / TT case"), "orders page is not the TT template");
+
+// ---- wide ledger header on every ledger page (editor decision 2026-10-11) ----
+for (const id of ["fixture-ledger", "fixture-approvals", "fixture-orders"]) {
+  const html = fs.readFileSync(path.join(outFix, `analyses/${id}/index.html`), "utf8");
+  assert.match(html, /<header class="lhead">[\s\S]*?<h1>[\s\S]*?<div class="meta-col">[\s\S]*?<p class="stamp">[\s\S]*?<\/header>/, `${id} renders the wide two-column header`);
+}
+assert.match(fs.readFileSync(path.join(outFix, "css/site.css"), "utf8"), /\.ledger-page \.lhead \{[^}]*width: min\(100vw - 24px, 1280px\)/, "the header breaks out to the table panel width");
+
 // Backlink (R16): a member record links to the ledger; a non-member record does not.
 const newcoPage = fs.readFileSync(path.join(outFix, "records/2020-01-01-fix-loa-newco-aaaa01/index.html"), "utf8");
 assert.match(newcoPage, /href="\/analyses\/fixture-ledger\/">Tracked in Team Telecom Agreements/, "a member record backlinks the ledger");

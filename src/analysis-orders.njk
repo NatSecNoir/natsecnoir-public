@@ -1,0 +1,105 @@
+---
+layout: base.njk
+nav: analysis
+pagination:
+  data: ledgers.orders
+  size: 1
+  alias: l
+permalink: "{{ l.url }}"
+eleventyComputed:
+  title: "{{ l.title }}"
+  description: "{{ l.excerpt }}"
+---
+<article class="ledger-page orders-page">
+  <header class="lhead">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
+  <h1>{{ l.title }}</h1>
+  <p class="sub">Every presidential order that prohibits or unwinds a foreign acquisition under
+    Section 721 of the Defense Production Act (50 U.S.C. 4565), 1990 to now — one row per order,
+    newest first, with amending orders folded beneath the order they change.</p>
+  <div class="meta-col">
+  <p class="stamp">Currency: last accepted change {{ l.currency_date or "—" }} · {{ l.count }} order{{ "s" if l.count != 1 }}.</p>
+  <p class="stamp-note">These orders are not numbered Executive Orders, so an Executive Order search misses
+    them. Acquirer country is the country of the ultimate controlling parent as the order describes it.
+    Deadlines show the days the order allows and, where the clock starts on the order date, the resulting
+    date. Status is set by the editor and links its source. Fields not yet reviewed show as
+    <span class="pending">pending</span>.</p>
+  </div>
+  </header>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by acquirer, target, country, sector, President, or citation…" aria-label="Filter orders">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="scroll">
+  <table id="ledger" data-noun="orders">
+    <colgroup>
+      <col style="width:8%"><col style="width:6%"><col style="width:16%"><col style="width:9%"><col style="width:14%">
+      <col style="width:10%"><col style="width:8%"><col style="width:10%"><col style="width:10%"><col style="width:9%">
+    </colgroup>
+    <thead><tr>
+      <th data-key="date" aria-sort="descending"><span class="lab">Signed</span></th>
+      <th data-key="president"><span class="lab">President</span></th>
+      <th data-key="acquirer"><span class="lab">Acquirer</span></th>
+      <th data-key="country" class="wrap"><span class="lab">Country (ultimate)</span></th>
+      <th data-key="target"><span class="lab">Target</span></th>
+      <th data-key="sector"><span class="lab">Sector</span></th>
+      <th data-key="action"><span class="lab">Action</span></th>
+      <th data-key="deadline"><span class="lab">Deadline</span></th>
+      <th data-key="status"><span class="lab">Status</span></th>
+      <th data-key="links"><span class="lab">Source</span></th>
+    </tr></thead>
+    <tbody>
+    {% for row in l.rows %}
+      {% set d = row.deadline %}
+      <tr class="row" data-search="{{ row.search }}">
+        <td class="date">{{ row.date }}</td>
+        <td>{% if row.pending.president %}<span class="pending">pending</span>{% else %}{{ row.president }}{% endif %}</td>
+        <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.acquirer }}{% if row.acquirer_parent %}<span class="basis">parent: {{ row.acquirer_parent }}</span>{% endif %}{% if row.foldcount %}<span class="foldnote">+ {{ row.foldcount }} folded: {{ row.foldsummary }}</span>{% endif %}</td>
+        <td>{% if row.pending.country %}<span class="pending">pending</span>{% else %}{{ row.country }}{% endif %}</td>
+        <td>{% if row.pending.target %}<span class="pending">pending</span>{% else %}{{ row.target }}{% endif %}</td>
+        <td class="nobreak">{% if row.pending.sector %}<span class="pending">pending</span>{% else %}{{ row.sector | replace("/", "/<wbr>") | safe }}{% endif %}</td>
+        <td>{% if row.pending.action %}<span class="pending">pending</span>{% else %}{{ row.action }}{% endif %}</td>
+        <td>{% if row.pending.deadline %}<span class="pending">pending</span>
+          {%- elif d.absent %}—
+          {%- elif d.extended_to %}<span class="dl">{% if d.has_days %}{{ d.days }} days {% endif %}(<s>{{ d.date }}</s> → {{ d.extended_to }})</span><span class="basis">extended · {{ d.extension_source }}</span>
+          {%- elif d.stated %}<span class="dl">{% if d.has_days %}{{ d.days }} days, {% endif %}by {{ d.date }}</span>
+          {%- elif d.date %}<span class="dl">{{ d.days }} days ({{ d.date }})</span>
+          {%- else %}<span class="dl">{{ d.days }} days</span>{% if d.basis %}<span class="basis">{{ d.basis }}</span>{% endif %}{% endif %}</td>
+        <td>{% if row.pending.status %}<span class="pending">pending</span>{% else %}<span class="status {{ row.status_class }}">{{ row.status }}</span><span class="src">source: {% if row.status_source.startsWith("http") %}<a href="{{ row.status_source }}" target="_blank" rel="noopener">link</a>{% else %}{{ row.status_source }}{% endif %}</span>{% endif %}</td>
+        <td>{{ row.docket }}<span class="basis"><a href="{{ row.record_url }}">record</a>{% if row.pdf_url %} · <a href="{{ row.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</span></td>
+      </tr>
+      <tr class="detail" hidden><td colspan="10">
+        <div class="terms{% if row.pending.terms %} pending-note{% endif %}">
+          <strong>What the order requires</strong>
+          {% if row.pending.terms %}<span class="pending">Not yet reviewed — fields are proposed from the order text and accepted by the editor.</span>
+          {% else %}<ul>{% for t in row.terms %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+        </div>
+        {% if row.history.length %}
+        <div class="history"><strong>Order history and related records</strong>
+          <ul>
+          {% for h in row.history %}
+            <li><span class="rel {{ h.rel }}">{{ h.rel }}</span>{{ h.label }} · <span class="date">{{ h.date }}</span>{% if h.docket %} · {{ h.docket }}{% endif %} · <a href="{{ h.record_url }}">record</a>{% if h.pdf_url %} · <a href="{{ h.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</li>
+          {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </td></tr>
+    {% endfor %}
+      <tr class="noresults" hidden><td colspan="10">No orders match the current filter.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  {% if l.footnote %}<p class="footnote">{{ l.footnote | safe }}</p>{% endif %}
+
+  <div class="methodology">
+    <p>Rendered at build time from the mirrored Records and the analysis mesh. A row is a Record tagged
+    <code>cfius</code> with document type “presidential order”. Field values are analyst-reviewed
+    summaries of the order, each accepted with a citation to the Record and page — not the order text.
+    Exports (reviewed fields, with build timestamp): <a href="{{ l.url }}{{ l.id }}.csv">CSV</a> ·
+    <a href="{{ l.url }}{{ l.id }}.json">JSON</a>.</p>
+  </div>
+</article>
+<script src="/js/ledger.js" defer></script>
