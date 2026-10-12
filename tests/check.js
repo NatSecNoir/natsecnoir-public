@@ -102,6 +102,7 @@ function ttDetail(id) {
   const ds = tt.indexOf('<tr class="detail"', rowEnd);
   return tt.slice(ds, tt.indexOf("</tr>", tt.indexOf("</td>", ds)) + 5);
 }
+assert.match(tt, /<table id="ledger" data-noun="agreements">/, "the row count names agreements, not entities");
 // One <tr class="row"> per unfolded member: five rows (lumos, partial, gigsky-2022, ziply, newco).
 assert.equal((tt.match(/<tr class="row/g) || []).length, 5, "one ledger row per unfolded member");
 
