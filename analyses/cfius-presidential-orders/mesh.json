@@ -139,11 +139,42 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e",
+      "kind": "ingest",
+      "label": "CFIUS Order Regarding the Acquisition of MAMCO Manufacturing, Inc. by China National Aero-Technology Import and Export Corporation",
+      "date": "2026-10-12T20:09:40Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "CATIC’s acquisition of control of MAMCO and its assets is prohibited.\nCATIC and its subsidiaries and affiliates must divest all of their interest in MAMCO and its assets by May 1, 1990.\nCATIC must certify in writing to CFIUS immediately upon divestment that the divestment was effected in accordance with the Order.\nCFIUS may implement measures to verify that MAMCO’s operations protect U.S. national security, including access to records, equipment, technical data, and personnel interviews.\nThe Attorney General may take steps necessary to enforce the Order.",
+      "definitions": [],
+      "fields": {
+        "president": "G.H.W. Bush",
+        "acquirer": "China National Aero-Technology Import and Export Corporation (CATIC)",
+        "acquirer_parent": "",
+        "acquirer_country": "China",
+        "target": "MAMCO Manufacturing, Inc. (MAMCO)",
+        "sector": "aerospace",
+        "action": "prohibit + divest",
+        "deadline_days": null,
+        "deadline_from": "order date",
+        "deadline_date": "1990-05-01",
+        "transaction_closed": true
+      },
+      "record_id": "2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e",
+      "citation": {
+        "record_id": "2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e",
+        "page": 1,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:09:36Z",
+  "published_at": "2026-10-12T20:09:38Z",
   "currency_date": "2026-10-12",
-  "last_changed": "2026-10-12T20:09:38Z"
+  "last_changed": "2026-10-12T20:09:40Z"
 }
