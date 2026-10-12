@@ -107,7 +107,10 @@
         "page": 1,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "related": [
+        "2026-10-10-13-5315-2014-07-15-4e83d8"
+      ]
     },
     {
       "key": "2026-10-12-order-regarding-the-acquisition-of-jupiter-syste-2b4574",
@@ -138,7 +141,10 @@
         "page": 1,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "related": [
+        "2026-10-12-united-states-v-suirui-group-co-ltd-complaint-25660c"
+      ]
     },
     {
       "key": "2026-10-12-order-regarding-the-acquisition-of-mamco-manufac-fd5f8e",
@@ -400,7 +406,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-12T20:10:00Z",
+  "published_at": "2026-10-12T20:14:20Z",
   "currency_date": "2026-10-12",
   "last_changed": "2026-10-12T20:14:20Z"
 }
