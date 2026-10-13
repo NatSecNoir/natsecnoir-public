@@ -11,7 +11,7 @@
    "doc_date": "2026-10-09",
    "docket": "DA 26-1089; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
    "lists": [
-    "covered-list"
+    "conditional-approval"
    ],
    "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1089A1.pdf",
@@ -19,7 +19,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "47d6811ff4f446bb922bea48c1d47ffeed6491e824afd095132234164db51721",
-   "approved_at": "2026-10-13T02:58:05Z",
+   "approved_at": "2026-10-13T03:00:41Z",
    "published_at": "2026-10-13T02:58:57Z",
    "reason": "",
    "error": "",
