@@ -57,7 +57,7 @@
 <main class="wrap">
 {{ content | safe }}
 {% if nav != "record" and nav != "feed" %}{# front page renders the newsletter inside its rail (U3); interior pages keep the standalone panel #}
-<section class="letter">
+<section class="letter" id="subscribe">
   <div class="box">
     <h2>The file, weekly</h2><p>Every record filed that week, with references. Sent from newsletter.natsecnoir.com.</p>
     <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
