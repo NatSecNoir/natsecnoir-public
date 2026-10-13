@@ -244,7 +244,6 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
 .about ul { margin: 0 0 18px; padding-left: 1.2em; }
 .about li { font: 400 17px/1.62 var(--serif); color: var(--ink); margin: 0 0 8px; }
 .about strong { font: 600 .88em var(--sans); letter-spacing: .01em; }
-.about .signoff + .signoff { margin-top: 0; }
 .about .signoff { margin-top: 26px; font-size: 15px; color: var(--muted); } .about .signoff a { text-decoration: underline; text-underline-offset: 3px; }
 .filter { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; font-size: 13px; color: var(--muted); margin: 24px 0 0; }
 .filter input { flex: 1 1 260px; max-width: 460px; background: transparent; border: 1px solid var(--line); color: var(--ink); font: 14px var(--sans); padding: 8px 10px; }
