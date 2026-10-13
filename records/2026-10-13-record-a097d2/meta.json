@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-13-record-a097d2",
+  "status": "approved",
+  "ingested_at": "2026-10-13T03:20:22Z",
+  "title": "Odyssey Robot Told the FCC a Texas Company Built Its Drone. The Texas Company Said No.",
+  "issuing_body": "FCC",
+  "doc_type": "",
+  "doc_date": "2026-08-11",
+  "docket": "ET Docket No. 26-186; DA 26-839",
+  "lists": [
+    "covered-list"
+  ],
+  "entities": [
+    "Odyssey Robot LLC"
+  ],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-839A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "a097d281ad4039f61baa4c65970c6f36264445a7f7dd92f10f2ae1a1e259610d",
+  "approved_at": "2026-10-13T03:24:07Z",
+  "published_at": "2026-10-13T03:25:29Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-13T03:20:29Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-13-record-a097d2/source-8cbd6f72.pdf"
+}
