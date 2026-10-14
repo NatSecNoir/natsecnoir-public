@@ -1162,11 +1162,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-875-wnc-corporation-routers",
+      "kind": "ingest",
+      "label": "WNC Corporation",
+      "date": "2026-10-14T00:39:52Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "LVR5A\nLVM9\nLV85C Wi-Fi Routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-02-21",
+        "record_id": "2026-10-08-da-26-875a1-d87b62"
+      },
+      "record_id": "2026-10-08-da-26-875a1-d87b62",
+      "citation": {
+        "record_id": "2026-10-08-da-26-875a1-d87b62",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-03T14:43:15Z",
+  "published_at": "2026-10-14T00:39:51Z",
   "currency_date": "2026-10-14",
-  "last_changed": "2026-10-14T00:39:51Z"
+  "last_changed": "2026-10-14T00:39:52Z"
 }
