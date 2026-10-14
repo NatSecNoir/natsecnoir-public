@@ -1186,11 +1186,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1089-ge-grid-solutions-llc-inverters",
+      "kind": "ingest",
+      "label": "GE Grid Solutions, LLC",
+      "date": "2026-10-14T00:39:54Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "FLEXINVERTER 1.5kV Solar version\n1.5kV BESS version\n2KV Solar version\nSiC Variant power inverters",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-13-record-47d681"
+      },
+      "record_id": "2026-10-13-record-47d681",
+      "citation": {
+        "record_id": "2026-10-13-record-47d681",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-14T00:39:51Z",
+  "published_at": "2026-10-14T00:39:52Z",
   "currency_date": "2026-10-14",
-  "last_changed": "2026-10-14T00:39:52Z"
+  "last_changed": "2026-10-14T00:39:54Z"
 }
