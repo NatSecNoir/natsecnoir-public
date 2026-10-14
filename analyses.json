@@ -2,18 +2,18 @@
  "count": 4,
  "analyses": [
   {
+   "id": "conditional-approvals",
+   "kind": "analysis",
+   "title": "Conditional Approvals",
+   "last_changed": "2026-10-14T00:39:51Z",
+   "published_at": "2026-10-03T14:43:15Z"
+  },
+  {
    "id": "cfius-presidential-orders",
    "kind": "analysis",
    "title": "CFIUS Presidential Orders",
    "last_changed": "2026-10-12T20:14:20Z",
-   "published_at": "2026-10-12T20:33:56Z"
-  },
-  {
-   "id": "conditional-approvals",
-   "kind": "analysis",
-   "title": "Conditional Approvals",
-   "last_changed": "2026-10-03T14:43:15Z",
-   "published_at": "2026-10-03T14:43:15Z"
+   "published_at": "2026-10-12T20:36:51Z"
   },
   {
    "id": "team-telecom-agreements",
