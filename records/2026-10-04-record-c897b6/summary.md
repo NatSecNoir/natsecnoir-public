@@ -1,3 +1,5 @@
+Eken, the Hong Kong smart-doorbell maker, listed a U.S. agent at a Colorado address with no agent in it, then ignored the agency’s letter. Proposed Fine: $734,872.
+
 The FCC proposes a $734,872 forfeiture against Eken Group Limited for submitting incorrect U.S.-agent information in three equipment-authorization applications and failing to answer an Enforcement Bureau Letter of Inquiry.
 
 **What it does** The Notice of Apparent Liability finds that Eken apparently violated sections 1.17(a)(2) and 2.911(d)(7) of the FCC’s rules by identifying GSS Service Inc. at a physical Colorado address where the agent was not located and could not accept service of process. The FCC also finds that Eken willfully failed to respond to an April 19, 2024 LOI concerning alleged privacy and security issues in Eken’s wireless consumer IoT devices. The proposed penalty consists of $551,154 for three continuing inaccurate-address violations and $183,718 for the continuing failure to respond.
