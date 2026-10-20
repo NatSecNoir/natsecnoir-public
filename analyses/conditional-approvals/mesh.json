@@ -1258,11 +1258,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1114-power-electronics-espa-a-s-l-u-inverters",
+      "kind": "ingest",
+      "label": "Power Electronics España, S.L.U.",
+      "date": "2026-10-20T12:23:58Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "GEN3 platform utility-scale solar power inverters, including the HEM and the PCSM & Multi PCSM bidirectional battery storage inverters",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af"
+      },
+      "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+      "citation": {
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-20T12:23:55Z",
+  "published_at": "2026-10-20T12:23:57Z",
   "currency_date": "2026-10-20",
-  "last_changed": "2026-10-20T12:23:57Z"
+  "last_changed": "2026-10-20T12:23:58Z"
 }
