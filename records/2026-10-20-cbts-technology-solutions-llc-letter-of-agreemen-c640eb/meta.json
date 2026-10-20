@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-20-cbts-technology-solutions-llc-letter-of-agreemen-c640eb",
+  "status": "approved",
+  "ingested_at": "2026-10-20T08:04:53Z",
+  "title": "CBTS Technology Solutions LLC — Letter of Agreement (Team Telecom, Docket ITC-214-20071024-00434)",
+  "issuing_body": "FCC",
+  "doc_type": "",
+  "doc_date": "2026-10-05",
+  "docket": "ITC-214-20071024-00434; ITC-T/C-20240207-00028",
+  "lists": [
+    "team-telecom",
+    "mitigation-agreement"
+  ],
+  "entities": [],
+  "source_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/218c7e93cffbc3105b2cf9642f851c9f",
+  "source_copy_public": true,
+  "notes": "ICFS: status of mitigation not exposed to guest portal (editor to set); pleading PC0117567",
+  "source_file": "source.pdf",
+  "sha256": "c640eb96490931da6b69d36bb0b667e5ca9d7813e6ddcdeb784cccb9487985ae",
+  "approved_at": "2026-10-20T15:28:24Z",
+  "published_at": "2026-10-20T15:28:50Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-20T08:04:58Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-20-cbts-technology-solutions-llc-letter-of-agreemen-c640eb/source-c640eb96.pdf"
+}
