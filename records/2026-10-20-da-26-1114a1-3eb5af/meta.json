@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-20-da-26-1114a1-3eb5af",
+  "status": "approved",
+  "ingested_at": "2026-10-20T00:01:33Z",
+  "title": "Conditional Approval: Volley Automation (robotics), Dynapower and Power Electronics España (power inverters)",
+  "issuing_body": "FCC",
+  "doc_type": "",
+  "doc_date": "2026-10-16",
+  "docket": "DA 26-1114; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "conditional-approval"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1114A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "3eb5af5eb2e5bd2e6680425f76c311d0295a31836e0fb2b753caf7bb442fd35c",
+  "approved_at": "2026-10-20T04:53:21Z",
+  "published_at": "2026-10-20T04:54:02Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-10-20T00:01:41Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-10-20-da-26-1114a1-3eb5af/source-3eb5af5e.pdf"
+}
