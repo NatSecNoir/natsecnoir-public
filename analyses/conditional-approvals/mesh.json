@@ -1210,11 +1210,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1114-volley-automation-inc-robotics",
+      "kind": "ingest",
+      "label": "Volley Automation, Inc.",
+      "date": "2026-10-20T12:23:55Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "automated guided vehicles and autonomous mobile robots (AGV/AMR)",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af"
+      },
+      "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+      "citation": {
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-14T00:39:52Z",
-  "currency_date": "2026-10-14",
-  "last_changed": "2026-10-14T00:39:54Z"
+  "published_at": "2026-10-14T00:39:54Z",
+  "currency_date": "2026-10-20",
+  "last_changed": "2026-10-20T12:23:55Z"
 }
