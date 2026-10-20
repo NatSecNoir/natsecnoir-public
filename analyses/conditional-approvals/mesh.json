@@ -1234,11 +1234,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1114-dynapower-company-llc-inverters",
+      "kind": "ingest",
+      "label": "Dynapower Company, LLC",
+      "date": "2026-10-20T12:23:57Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "CPS-2500\nCPS-1250\nMPS-125 series power inverters",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af"
+      },
+      "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+      "citation": {
+        "record_id": "2026-10-20-da-26-1114a1-3eb5af",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-14T00:39:54Z",
+  "published_at": "2026-10-20T12:23:55Z",
   "currency_date": "2026-10-20",
-  "last_changed": "2026-10-20T12:23:55Z"
+  "last_changed": "2026-10-20T12:23:57Z"
 }
