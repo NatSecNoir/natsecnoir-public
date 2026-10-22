@@ -10,7 +10,7 @@
   "entries": [],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-22T11:27:15Z",
+  "published_at": "2026-10-22T11:39:14Z",
   "bands": [
     {
       "lower_mhz": 37500.0,
@@ -32,6 +32,13 @@
       "label": "47.2–48.2 GHz",
       "applications": 196,
       "last_success": "2026-10-22T11:39:13Z"
+    },
+    {
+      "lower_mhz": 24750.0,
+      "upper_mhz": 25250.0,
+      "label": "24.75–25.25 GHz",
+      "applications": 39,
+      "last_success": "2026-10-22T11:51:21Z"
     }
   ],
   "rows": [
@@ -8237,6 +8244,21 @@
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=3abe5cc1471ee610418b674c926d43b2"
         },
         {
+          "file_number": "SES-LIC-20171110-01242",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2017-11-10",
+          "state": "Current",
+          "last_action": "Granted",
+          "action_date": "2018-01-09",
+          "grant_date": "2018-01-09",
+          "expiration_date": "2033-01-09",
+          "status": "granted",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20171110-01242",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=80ded005471ee610418b674c926d4381"
+        },
+        {
           "file_number": "SES-MFS-20210125-00146",
           "filing_type": "MFS",
           "filing_type_label": "MFS Modification",
@@ -8618,6 +8640,21 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MFS-20140924-00767",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=c0fe9805471ee610418b674c926d43a3"
+        },
+        {
+          "file_number": "SES-LIC-20171110-01241",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2017-11-10",
+          "state": "Closed",
+          "last_action": "Surrender of Authorization",
+          "action_date": "2021-10-08",
+          "grant_date": "2018-01-09",
+          "expiration_date": "2033-01-09",
+          "status": "dead",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20171110-01241",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=44ded005471ee610418b674c926d437f"
         },
         {
           "file_number": "SES-RWL-20210412-00660",
@@ -9148,7 +9185,7 @@
               "gain_dbi": 64.1,
               "gain_freq_ghz": 25.13,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "36M0G7W",
@@ -9334,7 +9371,7 @@
               "gain_dbi": 64.1,
               "gain_freq_ghz": 25.13,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "36M0G7W",
@@ -9361,6 +9398,16 @@
         }
       ],
       "band_ranges": [
+        {
+          "lower_mhz": 24750.0,
+          "upper_mhz": 25050.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 25050.0,
+          "upper_mhz": 25130.0,
+          "tr": "T"
+        },
         {
           "lower_mhz": 28350.0,
           "upper_mhz": 28600.0,
@@ -11529,6 +11576,21 @@
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=2eaf58c5471ee610418b674c926d439a"
         },
         {
+          "file_number": "SES-LIC-20091001-01263",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2009-10-01",
+          "state": "Closed",
+          "last_action": "Surrender of Authorization",
+          "action_date": "2023-10-20",
+          "grant_date": "2010-09-15",
+          "expiration_date": "2025-09-15",
+          "status": "dead",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20091001-01263",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=707f1c85471ee610418b674c926d4321"
+        },
+        {
           "file_number": "SES-MOD-20100223-00241",
           "filing_type": "MOD",
           "filing_type_label": "Modification",
@@ -11557,6 +11619,36 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20101029-01373",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=d34f9085471ee610418b674c926d4398"
+        },
+        {
+          "file_number": "SES-LIC-20130423-00332",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2013-04-23",
+          "state": "Current",
+          "last_action": "Granted",
+          "action_date": "2014-01-09",
+          "grant_date": "2014-01-09",
+          "expiration_date": "2029-01-09",
+          "status": "granted",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20130423-00332",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=760f5045471ee610418b674c926d43c8"
+        },
+        {
+          "file_number": "SES-AMD-20130709-00582",
+          "filing_type": "AMD",
+          "filing_type_label": "Amendment",
+          "filed": "2013-07-09",
+          "state": "Closed",
+          "last_action": "Granted",
+          "action_date": "2014-01-09",
+          "grant_date": "2014-01-09",
+          "expiration_date": "",
+          "status": "granted",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20130709-00582",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=c60f5045471ee610418b674c926d4313"
         },
         {
           "file_number": "SES-MFS-20140924-00769",
@@ -11979,6 +12071,21 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20171012-01152",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=babe5cc1471ee610418b674c926d43ae"
+        },
+        {
+          "file_number": "SES-LIC-20171110-01243",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2017-11-10",
+          "state": "Closed",
+          "last_action": "Surrender of Authorization",
+          "action_date": "2018-12-18",
+          "grant_date": "2018-01-09",
+          "expiration_date": "2033-01-09",
+          "status": "dead",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20171110-01243",
+          "schedule_b_pdf_url": "",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=4cded005471ee610418b674c926d4384"
         },
         {
           "file_number": "SES-RWL-20210818-01507",
@@ -318699,7 +318806,7 @@
     }
   ],
   "stats": {
-    "applications": 1694,
+    "applications": 1700,
     "sites": 1033,
     "held": 0,
     "flagged": 17,
@@ -318723,6 +318830,6 @@
     }
   },
   "currency_date": "2026-10-22",
-  "last_changed": "2026-10-22T11:39:14Z",
-  "rows_digest": "0e62676ef1bb3f5096dce05302cc13ab9f1e4b19885a21cc6e855b95a8937101"
+  "last_changed": "2026-10-22T11:51:22Z",
+  "rows_digest": "c5075d7c207d4496545a7d75e195a189eb1b346063163a82d16aad4a009adedb"
 }
