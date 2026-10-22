@@ -1,0 +1,12 @@
+---
+pagination:
+  data: datasets.schedb
+  size: 1
+  alias: l
+permalink: "{{ l.url }}{{ l.id }}.csv"
+eleventyExcludeFromCollections: true
+---
+{{ l.export_columns | csv | safe }}
+{%- for line in l.export_lines %}
+{{ line | csv | safe }}
+{%- endfor %}

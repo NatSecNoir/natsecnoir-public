@@ -74,8 +74,15 @@
     btn.setAttribute("aria-label", open ? "Hide details" : "Show details");
   });
 
-  var headers = table.querySelectorAll("th");
+  // Header-row cells only: a detail row may hold its own nested table (the Schedule B band tables).
+  var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
   function cellValue(pair, idx, key) {
+    // A cell may carry a numeric sort key (Schedule B coordinates, frequencies, EIRP); blanks sort last.
+    var cell = pair.main.cells[idx];
+    if (cell && cell.hasAttribute("data-num")) {
+      var n = parseFloat(cell.getAttribute("data-num"));
+      return isNaN(n) ? Infinity : n;
+    }
     if (key === "status") return pair.main.getAttribute("data-status") || "zzz";
     if (key === "added") {
       var t = pair.main.cells[idx].textContent.trim();
