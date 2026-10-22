@@ -581,7 +581,9 @@
         }
       ],
       "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20240301-00042",
-      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=sb-SES-LIC-20240301-00042"
+      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=sb-SES-LIC-20240301-00042",
+      "flags": [],
+      "needs_review": false
     },
     {
       "id": "405659N1051130W-0011111111",
@@ -1143,7 +1145,11 @@
         }
       ],
       "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20100101-00007",
-      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=sb-SES-LIC-20100101-00007"
+      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=sb-SES-LIC-20100101-00007",
+      "flags": [
+        "implausible frequency range (likely a filing typo)"
+      ],
+      "needs_review": true
     },
     {
       "id": "255659N0801130W-0028167500",
@@ -1736,7 +1742,9 @@
         }
       ],
       "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02797",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/733cd66fcfb347105b2cf9642f851ce6"
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/733cd66fcfb347105b2cf9642f851ce6",
+      "flags": [],
+      "needs_review": false
     }
   ],
   "stats": {
@@ -1750,7 +1758,9 @@
     "by_status": {
       "expired": 1,
       "granted": 2
-    }
+    },
+    "flagged": 1,
+    "needs_review": 1
   },
   "currency_date": "2026-10-21",
   "last_changed": "2026-10-21T00:00:00Z",

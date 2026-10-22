@@ -445,3 +445,5 @@ article.fulltext .pg p { margin: 0 0 14px; font: 400 17px/1.62 var(--serif); }
 .schedb-page .freq { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 12px; }
 .schedb-page .freq input { width: 7.5em; padding: 4px 6px; border: 1px solid var(--line); background: transparent; color: var(--ink); font: 12px var(--mono); }
 .schedb-page .freq select { padding: 3px 4px; border: 1px solid var(--line); background: transparent; color: var(--ink); font: 12px var(--mono); }
+.schedb-page .sb-flags { margin: 0 0 10px; padding: 6px 10px; border-left: 2px solid var(--warn); background: var(--warn-bg); font-size: 13px; }
+.schedb-page .review-badge { display: inline-block; margin-left: 4px; padding: 1px 6px; border: 1px solid var(--warn); border-radius: 999px; color: var(--warn); background: var(--warn-bg); font: 500 9.5px/1.5 var(--mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }

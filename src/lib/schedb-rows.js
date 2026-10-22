@@ -14,6 +14,11 @@ export function statusBucket(status) {
   return STATUS_BUCKETS[status] || "closed";
 }
 
+// A row that tripped a field check may carry a filing typo; it is shown as filed and marked for review.
+export function needsReview(row) {
+  return Boolean(row.needs_review || (row.flags && row.flags.length));
+}
+
 export function bandKey(b) {
   return `${b.lower_mhz}-${b.upper_mhz}`;
 }
@@ -32,7 +37,8 @@ export function displayRow(row, bands) {
   const bucket = statusBucket(row.status);
   const dirs = [...new Set((row.band_ranges || []).map((r) => r.tr).filter(Boolean))];
   const lists = [`type-${row.station_type}`, `status-${bucket}`, ...dirs.map((d) => `dir-${d}`),
-                 ...rowBands(row, bands).map((b) => `band-${bandKey(b)}`)];
+                 ...rowBands(row, bands).map((b) => `band-${bandKey(b)}`),
+                 ...(needsReview(row) ? ["review-needed"] : [])];
   const maxOf = (em, k) => {
     const v = em.map((e) => e[k]).filter((x) => x !== null && x !== undefined);
     return v.length ? Math.max(...v) : null;
@@ -56,6 +62,7 @@ export function displayRow(row, bands) {
     ...row,
     antennas: ants,
     lists: lists.join(" "),
+    review: needsReview(row),
     search,
     status_bucket: bucket,
     status_label: statusLabel,
@@ -90,6 +97,9 @@ export function chipGroups(rows, bands) {
     { name: "Direction", key: "dir", chips: [["T", "Transmit"], ["R", "Receive"]].filter(([k]) => dirs.has(`dir-${k}`))
         .map(([k, label]) => ({ list: `dir-${k}`, label, on: false })) },
   ];
+  if (rows.some((r) => r.review)) {
+    groups.push({ name: "Review", key: "review", chips: [{ list: "review-needed", label: "Needs review", on: false }] });
+  }
   if (bands.length > 1) {
     groups.push({ name: "Band", key: "band", chips: bands.map((b) => ({ list: `band-${bandKey(b)}`, label: b.label, on: false })) });
   }
@@ -104,7 +114,7 @@ export const EXPORT_COLUMNS = [
   "diameter_m", "height_agl_m", "height_amsl_m", "max_input_power_w", "antenna_max_eirp_dbw", "freq_lower_mhz",
   "freq_upper_mhz", "tr", "in_band", "gain_dbi", "polarization", "emissions", "max_eirp_dbw", "max_eirp_density",
   "points_of_communication", "freq_coord_required", "foreign_coord_required", "faa_notification",
-  "comply_25209a", "icfs_url", "schedule_b_url",
+  "comply_25209a", "needs_review", "flags", "icfs_url", "schedule_b_url",
 ];
 
 // One line per site × antenna × frequency range, so the dataset sorts and filters by frequency.
@@ -122,7 +132,7 @@ export function exportLines(rows) {
       points_of_communication: (r.points_of_communication || []).map((p) => p.name).join("; "),
       freq_coord_required: c.freq_coord_required, foreign_coord_required: c.foreign_coord_required,
       faa_notification: c.faa_notification, comply_25209a: c.comply_25209a,
-      icfs_url: r.icfs_url, schedule_b_url: r.schedule_b_pdf_url,
+      needs_review: needsReview(r) ? "yes" : "no", flags: (r.flags || []).join("; "), icfs_url: r.icfs_url, schedule_b_url: r.schedule_b_pdf_url,
     };
     const ants = r.antennas && r.antennas.length ? r.antennas : [{ bands: [] }];
     for (const a of ants) {
