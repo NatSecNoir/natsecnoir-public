@@ -888,14 +888,13 @@
    "id": "2026-09-07-record-b3934b",
    "status": "approved",
    "ingested_at": "2026-09-07T00:41:06Z",
-   "title": "EA Security 3.0",
+   "title": "From Chips to Checkout: FCC Blocks Covered-List Parts and Puts Marketplaces on the Hook  EA Security 3.0",
    "issuing_body": "FCC",
    "doc_type": "",
    "doc_date": "2026-07-22",
    "docket": "FCC-26-50; ET Docket No. 21-232",
    "lists": [
-    "covered-list",
-    "litigation"
+    "covered-list"
    ],
    "entities": [],
    "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf",
@@ -903,7 +902,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "b3934bd20d16827f3c65b5c52d1d37959a5db8de699da90f2877298e0043e70c",
-   "approved_at": "2026-09-28T03:18:23Z",
+   "approved_at": "2026-10-22T01:29:13Z",
    "published_at": "2026-09-07T02:51:05Z",
    "reason": "",
    "error": "",
@@ -913,8 +912,7 @@
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-07-record-b3934b/source-2cd32b8a.pdf",
    "files": [
     "meta.json",
-    "summary.md",
-    "text.json"
+    "summary.md"
    ]
   },
   {
