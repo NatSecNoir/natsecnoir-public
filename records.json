@@ -1,6 +1,41 @@
 {
- "count": 265,
+ "count": 266,
  "records": [
+  {
+   "id": "2026-10-22-facebook-judgement-f5aec1",
+   "status": "approved",
+   "ingested_at": "2026-10-22T00:04:16Z",
+   "title": "Move Fast and Break Things? New Mexico State Court Orders Meta to Pay $25 Billion for Over a Decade of Deceptive Data and Content Practices",
+   "issuing_body": "DC Circuit",
+   "doc_type": "nm state court",
+   "doc_date": "2026-10-21",
+   "docket": "",
+   "lists": [
+    "litigation",
+    "privacy"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "source_url": "https://nmdoj.gov/wp-content/uploads/Facebook-Judgement.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "f5aec113d0ea7c7b5c41a28642a66b476ed944c572e7cfc20b634f620bae84a1",
+   "approved_at": "2026-10-22T01:24:05Z",
+   "published_at": "2026-10-22T01:25:13Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-22T00:04:28Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-22-facebook-judgement-f5aec1/source-f5aec113.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
   {
    "id": "2026-10-20-da-26-1114a1-3eb5af",
    "status": "approved",
