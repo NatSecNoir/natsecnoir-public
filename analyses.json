@@ -1,12 +1,19 @@
 {
- "count": 4,
+ "count": 5,
  "analyses": [
+  {
+   "id": "fcc-form-312-schedule-b",
+   "kind": "analysis",
+   "title": "FCC Form 312 Schedule B",
+   "last_changed": "2026-10-22T02:31:39Z",
+   "published_at": ""
+  },
   {
    "id": "conditional-approvals",
    "kind": "analysis",
    "title": "Conditional Approvals",
    "last_changed": "2026-10-20T12:23:58Z",
-   "published_at": "2026-10-20T12:23:57Z"
+   "published_at": "2026-10-20T12:23:59Z"
   },
   {
    "id": "cfius-presidential-orders",
