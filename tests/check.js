@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { rowGrainRows } from "../src/lib/ledger-rows.js";
+import { exportLines, EXPORT_COLUMNS, statusBucket } from "../src/lib/schedb-rows.js";
 import { firstSentence } from "../src/lib/text.js";
 import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
 
@@ -594,6 +595,40 @@ const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rul
 assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
 assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
 for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
+
+// ---- FCC Form 312 Schedule B dataset page (private plan 2026-10-21-001) ----
+const sbDir = path.join(outFix, "analyses/fixture-schedb");
+const sb = fs.readFileSync(path.join(sbDir, "index.html"), "utf8");
+assert.match(sb, /<h1>FCC Form 312 Schedule B<\/h1>/, "Schedule B page renders under its own title");
+assert.match(sb, /37\.5–40 GHz/, "the page names the band");
+assert.match(sb, /<table id="ledger" data-noun="sites">/, "the count names sites");
+assert.equal((sb.match(/<tr class="row"/g) || []).length, 3, "one row per site");
+assert.match(sb, /data-list="type-individual" aria-pressed="true"/, "individual sites are on by default");
+assert.match(sb, /data-list="type-esim" aria-pressed="false"/, "ESIM is off by default");
+assert.match(sb, /data-list="status-granted" aria-pressed="true"/, "granted is on by default");
+assert.match(sb, /data-list="status-expired" aria-pressed="false"/, "expired is off by default");
+assert.match(sb, /granted · filing pending/, "a granted site with a pending amendment says so");
+assert.match(sb, /SES-LIC-20250101-00001[\s\S]*SES-AMD-20261014-02797/, "filing history lists the licence and its amendment");
+assert.match(sb, /href="https:\/\/fccprod\.servicenowservices\.com\/icfs\?id=ibfs_application_summary&amp;number=SES-AMD-20261014-02797"/, "rows link the ICFS application");
+assert.match(sb, /href="https:\/\/api-prod\.fcc\.gov\/icfs-attachment\/exp\/api\/v1\/[0-9a-f]{32}"[^>]*>Schedule B</, "rows link the Schedule B PDF on fcc.gov");
+assert.match(sb, /RadHaz Report/, "exhibits list the radiation hazard study");
+assert.match(sb, /Machine-read from FCC Form 312 Schedule B filings/, "the page carries the authority notice");
+assert.match(sb, /Fixture Maritime ESIM &lt;b&gt;LLC&lt;\/b&gt;/, "applicant names are escaped");
+assert.match(sb, /data-num="25\.94/, "coordinates sort numerically");
+assert.doesNotMatch(sb, /"held"|problems/, "held rows never reach the public page");
+const sbCsv = fs.readFileSync(path.join(sbDir, "fixture-schedb.csv"), "utf8").trim().split("\n");
+assert.equal(sbCsv[0], EXPORT_COLUMNS.join(","), "CSV header");
+const sbMesh = JSON.parse(fs.readFileSync(path.join(root, "tests/fixtures/analyses/fixture-schedb/mesh.json"), "utf8"));
+assert.equal(sbCsv.length - 1, exportLines(sbMesh.rows).length, "CSV has one line per site, antenna, and range");
+assert.ok(sbCsv.some((l) => l.includes(",37500,42500,R,yes,")), "the in-band range is flagged in the CSV");
+const sbJson = JSON.parse(fs.readFileSync(path.join(sbDir, "fixture-schedb.json"), "utf8"));
+assert.equal(sbJson.rows.length, 3, "JSON carries every row");
+assert.equal(sbJson.stats.applications, 4, "JSON carries the application count");
+assert.equal(statusBucket("dismissed"), "closed", "dismissed sites fall in the closed chip");
+assert.match(fs.readFileSync(path.join(outFix, "analyses/index.html"), "utf8"), /fixture-schedb\/"><span class="gl">FCC Form 312 Schedule B<\/span><span class="gn">3</, "the index counts sites");
+assert.doesNotMatch(feedIdx, /fixture-schedb/, "the dataset is not on the front-page feed");
+assert.doesNotMatch(feed, /fixture-schedb/, "the dataset is not in the RSS feed");
+assert.ok(!fs.readFileSync(path.join(sbDir, "index.html"), "utf8").includes('class="summary"'), "the dataset does not render through the generic analysis template");
 
 // ---- standfirst: an abbreviation's period does not end the first sentence ----
 assert.equal(firstSentence("The D.C. Circuit upheld the order. It also held more."), "The D.C. Circuit upheld the order.");

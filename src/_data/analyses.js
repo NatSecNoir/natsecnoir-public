@@ -33,6 +33,7 @@ export default function () {
   // `pages` is what analysis.njk paginates: every non-ledger analysis. Ledger-kind meshes are
   // rendered by analysis-ledger.njk (from ledgers.js) instead, so they must not also feed the
   // generic template or the two would collide on the /analyses/<id>/ permalink.
-  const pages = all.filter((a) => a.kind !== "ledger");
+  // Dataset-kind meshes (the Form 312 Schedule B page) render from datasets.js the same way.
+  const pages = all.filter((a) => a.kind !== "ledger" && a.kind !== "dataset");
   return { all, pages };
 }
