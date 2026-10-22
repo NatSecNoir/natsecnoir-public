@@ -7,7 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { rowGrainRows } from "../src/lib/ledger-rows.js";
-import { exportLines, EXPORT_COLUMNS, statusBucket } from "../src/lib/schedb-rows.js";
+import { exportLines, EXPORT_COLUMNS, statusBucket, chipGroups, displayRow } from "../src/lib/schedb-rows.js";
 import { firstSentence } from "../src/lib/text.js";
 import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
 
@@ -600,7 +600,18 @@ for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "ba
 // ---- FCC Form 312 Schedule B dataset page (private plan 2026-10-21-001) ----
 const sbDir = path.join(outFix, "analyses/fixture-schedb");
 const sb = fs.readFileSync(path.join(sbDir, "index.html"), "utf8");
+// Each site's detail lives on its own page (fetched by the table on expand), so the table page stays light.
+const sbSiteIds = fs.readdirSync(path.join(sbDir, "sites"));
+const sbSites = sbSiteIds.map((id) => fs.readFileSync(path.join(sbDir, "sites", id, "index.html"), "utf8")).join("\n");
 assert.match(sb, /<h1>FCC Form 312 Schedule B<\/h1>/, "Schedule B page renders under its own title");
+assert.equal(sbSiteIds.length, 3, "one page per site");
+assert.equal((sb.match(/<tr class="detail" hidden data-src="\/analyses\/fixture-schedb\/sites\/[^"]+\/">/g) || []).length, 3, "detail rows point at the site pages");
+assert.doesNotMatch(sb, /class="sb-detail"|class="sb-bands"|Filing history/, "the table page carries no site detail");
+assert.equal((sbSites.match(/<div class="sb-detail">/g) || []).length, 3, "each site page has the detail block the table fetches");
+assert.match(sbSites, /<a href="\/analyses\/fixture-schedb\/">FCC Form 312 Schedule B<\/a>/, "site pages link back to the table");
+const typeChips = chipGroups(["individual", "other", "blanket"].map((t) => displayRow({ station_type: t, status: "granted", band_ranges: [] }, [])), [])
+  .find((g) => g.key === "type").chips;
+assert.deepEqual(typeChips.map((c) => [c.label, c.on]), [["Individual site", true], ["Blanket", false], ["Other class", true]], "Other class is on by default, blanket off");
 assert.match(sb, /37\.5–40 GHz/, "the page names the band");
 assert.match(sb, /<table id="ledger" data-noun="sites">/, "the count names sites");
 assert.equal((sb.match(/<tr class="row[ "]/g) || []).length, 3, "one row per site");
@@ -609,17 +620,17 @@ assert.match(sb, /data-list="type-esim" aria-pressed="false"/, "ESIM is off by d
 assert.match(sb, /data-list="status-granted" aria-pressed="true"/, "granted is on by default");
 assert.match(sb, /data-list="status-expired" aria-pressed="false"/, "expired is off by default");
 assert.match(sb, /granted · filing pending/, "a granted site with a pending amendment says so");
-assert.match(sb, /SES-LIC-20250101-00001[\s\S]*SES-AMD-20261014-02797/, "filing history lists the licence and its amendment");
+assert.match(sbSites, /SES-LIC-20250101-00001[\s\S]*SES-AMD-20261014-02797/, "filing history lists the licence and its amendment");
 assert.match(sb, /href="https:\/\/fccprod\.servicenowservices\.com\/icfs\?id=ibfs_application_summary&amp;number=SES-AMD-20261014-02797"/, "rows link the ICFS application");
 assert.match(sb, /href="https:\/\/api-prod\.fcc\.gov\/icfs-attachment\/exp\/api\/v1\/[0-9a-f]{32}"[^>]*>Schedule B</, "rows link the Schedule B PDF on fcc.gov");
-assert.match(sb, /RadHaz Report/, "exhibits list the radiation hazard study");
+assert.match(sbSites, /RadHaz Report/, "exhibits list the radiation hazard study");
 assert.match(sb, /Machine-read from FCC Form 312 Schedule B filings/, "the page carries the authority notice");
 assert.match(sb, /Fixture Maritime ESIM &lt;b&gt;LLC&lt;\/b&gt;/, "applicant names are escaped");
 assert.match(sb, /data-num="25\.94/, "coordinates sort numerically");
 assert.doesNotMatch(sb, /"held"|problems/, "held rows never reach the public page");
 // Rows publish as filed (editor decision 2026-10-22): a field check is a note, not a hold.
 assert.equal((sb.match(/<tr class="row flagged"/g) || []).length, 1, "the flagged row is shown and marked");
-assert.match(sb, /<strong>Flagged for human review:<\/strong> implausible frequency range \(likely a filing typo\)\. Values are shown exactly as the applicant filed them and may contain a typo/, "the detail view asks for human review");
+assert.match(sbSites, /<strong>Flagged for human review:<\/strong> implausible frequency range \(likely a filing typo\)\. Values are shown exactly as the applicant filed them and may contain a typo/, "the detail view asks for human review");
 assert.equal((sb.match(/<span class="review-badge"/g) || []).length, 1, "the flagged row carries a Needs review badge");
 assert.match(sb, /data-list="review-needed" aria-pressed="false">Needs review</, "a Needs review filter exists and is off by default");
 assert.match(sb, /data-lists="[^"]*\breview-needed\b/, "the flagged row is in the review filter");

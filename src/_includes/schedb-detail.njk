@@ -1,0 +1,58 @@
+{#- One Schedule B site's detail: flags, site, coordination, points of communication, antennas with
+    band tables, exhibits, filing history. Rendered on the site's own page (analysis-schedb-site.njk);
+    the table fetches it from there when a row is expanded. Expects `row` (a displayRow). -#}
+<div class="sb-detail">
+        {% if row.review %}
+        <p class="sb-flags"><strong>Flagged for human review:</strong> {% for f in row.flags %}{{ f }}{% if not loop.last %}; {% endif %}{% endfor %}. Values are shown exactly as the applicant filed them and may contain a typo; check them against the filing before relying on them.</p>
+        {% endif %}
+        <div class="sb-grid">
+          <div><strong>Site</strong>
+            <ul>
+              {% if row.site.site_id %}<li>{{ row.site.site_id }}</li>{% endif %}
+              <li>{{ [row.site.street, row.site.city, row.site.county, row.site.state, row.site.zip] | select | join(", ") or "No address filed" }}</li>
+              {% if row.coords %}<li class="mono">{{ row.coords }}{% if row.site.datum %} ({{ row.site.datum | upper }}){% endif %}</li>{% endif %}
+              {% if row.site.elevation_m != null %}<li>Ground elevation {{ row.site.elevation_m }} m</li>{% endif %}
+              <li>{{ row.class_of_station or row.type_label }}</li>
+            </ul>
+          </div>
+          <div><strong>Coordination and safety</strong>
+            <ul>
+              <li>Frequency coordination required: {{ row.coordination.freq_coord_required or "—" }}</li>
+              <li>Foreign coordination required: {{ row.coordination.foreign_coord_required or "—" }}</li>
+              <li>FAA notification: {{ row.coordination.faa_notification or "—" }}</li>
+              <li>Complies with 25.209(a): {{ row.coordination.comply_25209a or "—" }}</li>
+            </ul>
+          </div>
+          <div><strong>Points of communication</strong>
+            <ul>{% for p in row.points_of_communication %}<li>{{ p.name }}{% if p.orbit %} · {{ p.orbit }}{% endif %}</li>{% else %}<li>None filed</li>{% endfor %}</ul>
+          </div>
+        </div>
+        {% for a in row.antennas %}
+        <div class="sb-antenna"><strong>Antenna {{ a.antenna_id }}</strong>
+          {{ [a.manufacturer, a.model] | select | join(" ") }}{% if a.diameter_m %} · {{ a.diameter_m }} m{% endif %}{% if a.quantity %} · quantity {{ a.quantity }}{% endif %}{% if a.height_agl_m %} · {{ a.height_agl_m }} m above ground{% endif %}{% if a.max_input_power_w %} · {{ a.max_input_power_w }} W input{% endif %}{% if a.max_eirp_dbw %} · {{ a.max_eirp_dbw }} dBW max EIRP{% endif %}
+          <table class="sb-bands">
+            <thead><tr><th>Range (MHz)</th><th>T/R</th><th>Gain (dBi)</th><th>Polarization</th><th>Emissions</th><th>Max EIRP (dBW)</th><th>Max EIRP density (dBW/4kHz)</th></tr></thead>
+            <tbody>
+            {% for b in a.bands %}
+              <tr{% if b.in_band %} class="inband"{% endif %}><td class="mono">{{ b.lower_mhz }}–{{ b.upper_mhz }}</td><td>{{ b.tr }}</td><td>{{ b.gain_dbi if b.gain_dbi !== null else "—" }}</td><td>{{ b.polarization or "—" }}</td>
+                <td class="mono">{{ b.emission_list or "—" }}</td>
+                <td class="mono">{{ b.max_eirp if b.max_eirp !== null else "—" }}</td>
+                <td class="mono">{{ b.max_density if b.max_density !== null else "—" }}</td></tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endfor %}
+        {% if row.exhibits.length %}
+        <div class="history"><strong>Exhibits on the latest filing</strong>
+          <ul>{% for e in row.exhibits %}<li><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.name }}</a>{% if e.description %} · {{ e.description }}{% endif %}</li>{% endfor %}</ul>
+        </div>
+        {% endif %}
+        <div class="history"><strong>Filing history</strong>
+          <ul>
+          {% for f in row.filings %}
+            <li><span class="mono">{{ f.file_number }}</span> · {{ f.filing_type_label or f.filing_type }} · filed <span class="date">{{ f.filed }}</span> · {{ f.last_action or f.state }}{% if f.grant_date %} {{ f.grant_date }}{% endif %}{% if f.expiration_date %} · term ends {{ f.expiration_date }}{% endif %} · <a href="{{ f.icfs_url }}" target="_blank" rel="noopener">ICFS</a>{% if f.schedule_b_pdf_url %} · <a href="{{ f.schedule_b_pdf_url }}" target="_blank" rel="noopener">Schedule B</a>{% endif %}</li>
+          {% endfor %}
+          </ul>
+        </div>
+</div>

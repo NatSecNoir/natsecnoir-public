@@ -4,7 +4,7 @@
 // chips, and the flattened export. Pure functions, so tests/check.js can call them directly.
 
 const STATUS_BUCKETS = { granted: "granted", pending: "pending", expired: "expired" };
-export const TYPE_LABELS = { individual: "Individual site", blanket: "Blanket", esim: "ESIM", other: "Other" };
+export const TYPE_LABELS = { individual: "Individual site", blanket: "Blanket", esim: "ESIM", other: "Other class" };
 export const STATUS_LABELS = { granted: "Granted", pending: "Pending", expired: "Expired", closed: "Closed or dismissed" };
 
 const fmt = (v, digits) => (v === null || v === undefined || v === "" ? "" : Number(v).toFixed(digits));
@@ -91,7 +91,9 @@ export function chipGroups(rows, bands) {
   const dirs = present("dir-");
   const groups = [
     { name: "Type", key: "type", chips: Object.keys(TYPE_LABELS).filter((k) => types.has(`type-${k}`))
-        .map((k) => ({ list: `type-${k}`, label: TYPE_LABELS[k], on: k === "individual" })) },
+        // "Other class" (Form 312 class j, or an unrecognized code) is on by default: its sites may be fixed
+        // stations, and hiding them by default understated the table (2026-10-22).
+        .map((k) => ({ list: `type-${k}`, label: TYPE_LABELS[k], on: k === "individual" || k === "other" })) },
     { name: "Status", key: "status", chips: Object.keys(STATUS_LABELS).filter((k) => statuses.has(`status-${k}`))
         .map((k) => ({ list: `status-${k}`, label: STATUS_LABELS[k], on: k === "granted" || k === "pending" })) },
     { name: "Direction", key: "dir", chips: [["T", "Transmit"], ["R", "Receive"]].filter(([k]) => dirs.has(`dir-${k}`))
