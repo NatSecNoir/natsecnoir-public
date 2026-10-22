@@ -71,8 +71,8 @@ eleventyComputed:
     </tr></thead>
     <tbody>
     {% for row in l.rows %}
-      <tr class="row{% if row.flags and row.flags.length %} flagged{% endif %}" data-search="{{ row.search }}" data-lists="{{ row.lists }}" data-ranges="{{ row.filed_ranges }}">
-        <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.applicant }}{% if row.frn %}<span class="basis">FRN {{ row.frn }}</span>{% endif %}</td>
+      <tr class="row{% if row.review %} flagged{% endif %}" data-search="{{ row.search }}" data-lists="{{ row.lists }}" data-ranges="{{ row.filed_ranges }}">
+        <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.applicant }}{% if row.review %} <span class="review-badge" title="Values may contain a filing typo; check them against the filing">Needs review</span>{% endif %}{% if row.frn %}<span class="basis">FRN {{ row.frn }}</span>{% endif %}</td>
         <td class="mono">{{ row.callsign or "—" }}</td>
         <td>{{ row.type_label }}</td>
         <td><span class="status sb-{{ row.status_bucket }}">{{ row.status_label }}</span>{% if row.expiration_date %}<span class="basis">term ends {{ row.expiration_date }}</span>{% endif %}</td>
@@ -84,8 +84,8 @@ eleventyComputed:
         <td class="mono">{{ row.latest_file_number }}<span class="basis">filed {{ row.latest_filed }}{% if row.filing_count > 1 %} · {{ row.filing_count }} filings{% endif %}</span><span class="basis"><a href="{{ row.icfs_url }}" target="_blank" rel="noopener">ICFS</a>{% if row.schedule_b_pdf_url %} · <a href="{{ row.schedule_b_pdf_url }}" target="_blank" rel="noopener">Schedule B</a>{% endif %}</span></td>
       </tr>
       <tr class="detail" hidden><td colspan="10">
-        {% if row.flags and row.flags.length %}
-        <p class="sb-flags"><strong>As filed:</strong> {% for f in row.flags %}{{ f }}{% if not loop.last %}; {% endif %}{% endfor %}. Values are shown exactly as the applicant filed them.</p>
+        {% if row.review %}
+        <p class="sb-flags"><strong>Flagged for human review:</strong> {% for f in row.flags %}{{ f }}{% if not loop.last %}; {% endif %}{% endfor %}. Values are shown exactly as the applicant filed them and may contain a typo; check them against the filing before relying on them.</p>
         {% endif %}
         <div class="sb-grid">
           <div><strong>Site</strong>
@@ -150,7 +150,8 @@ eleventyComputed:
     SES application whose Schedule B lists a frequency range overlapping the band. Values are copied from
     the structured Schedule B, not extracted from PDFs. Every site is shown exactly as filed, including apparent typos in the
     filing; a row whose values look implausible, such as a frequency range that spans a decade or an
-    individual site with no coordinates, is marked in its detail view but not corrected. The default view shows active
+    individual site with no coordinates, is marked “Needs review” and left uncorrected. Use the
+    Needs review button to list those rows. The default view shows active
     individually licensed sites; use the chips to include blanket and ESIM authorizations or expired and
     dismissed sites. Exports: <a href="{{ l.url }}{{ l.id }}.csv">CSV</a> ·
     <a href="{{ l.url }}{{ l.id }}.json">JSON</a>.</p>
