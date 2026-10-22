@@ -9,7 +9,7 @@
    "issuing_body": "DC Circuit",
    "doc_type": "nm state court",
    "doc_date": "2026-10-21",
-   "docket": "",
+   "docket": "2026-10-21",
    "lists": [
     "litigation",
     "privacy"
@@ -22,7 +22,7 @@
    "notes": "",
    "source_file": "source.pdf",
    "sha256": "f5aec113d0ea7c7b5c41a28642a66b476ed944c572e7cfc20b634f620bae84a1",
-   "approved_at": "2026-10-22T01:24:05Z",
+   "approved_at": "2026-10-22T01:25:11Z",
    "published_at": "2026-10-22T01:25:13Z",
    "reason": "",
    "error": "",
