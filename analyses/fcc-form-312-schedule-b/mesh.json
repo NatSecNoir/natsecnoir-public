@@ -10,7 +10,7 @@
   "entries": [],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-22T11:39:14Z",
+  "published_at": "2026-10-22T11:51:22Z",
   "bands": [
     {
       "lower_mhz": 37500.0,
@@ -39,6 +39,13 @@
       "label": "24.75–25.25 GHz",
       "applications": 39,
       "last_success": "2026-10-22T11:51:21Z"
+    },
+    {
+      "lower_mhz": 50400.0,
+      "upper_mhz": 51400.0,
+      "label": "50.4–51.4 GHz",
+      "applications": 196,
+      "last_success": "2026-10-22T12:04:07Z"
     }
   ],
   "rows": [
@@ -3302,7 +3309,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -3349,6 +3356,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -3466,7 +3478,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -3597,6 +3609,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -3798,7 +3815,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -3845,6 +3862,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -4004,7 +4026,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -4093,6 +4115,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -4294,7 +4321,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -4341,6 +4368,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -4458,7 +4490,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "10M0D7W",
@@ -4684,7 +4716,7 @@
               "gain_dbi": 51.02,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -4731,6 +4763,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -4843,7 +4880,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -4974,6 +5011,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -5091,7 +5133,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -5222,6 +5264,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -5413,7 +5460,7 @@
               "gain_dbi": 51.02,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -5460,6 +5507,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -5572,7 +5624,7 @@
               "gain_dbi": 57.3,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "100MD7W",
@@ -5703,6 +5755,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -22740,7 +22797,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -22810,13 +22867,18 @@
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
           "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
+          "tr": "T"
         }
       ],
       "emissions": [
         "470MG7W"
       ],
-      "max_eirp_dbw": 62.7,
-      "max_eirp_density": 11.9,
+      "max_eirp_dbw": 63.0,
+      "max_eirp_density": 12.2,
       "points_of_communication": [
         {
           "name": "OTHER",
@@ -28342,7 +28404,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -28447,6 +28509,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -28658,7 +28725,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -28727,6 +28794,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -28961,7 +29033,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -29012,6 +29084,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -29264,7 +29341,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -29297,6 +29374,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -29497,7 +29579,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -29584,6 +29666,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -29788,7 +29875,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -29839,6 +29926,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -29989,7 +30081,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -30094,6 +30186,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -30316,7 +30413,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -30349,6 +30446,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -30547,7 +30649,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -30634,6 +30736,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -30838,7 +30945,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -30889,6 +30996,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -31057,7 +31169,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -31144,6 +31256,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -31304,7 +31421,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -31409,6 +31526,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -31577,7 +31699,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -31664,6 +31786,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -31884,7 +32011,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -31989,6 +32116,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -32227,7 +32359,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -32314,6 +32446,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -32545,7 +32682,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -32614,6 +32751,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -32804,7 +32946,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -32909,6 +33051,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -33095,7 +33242,7 @@
               "gain_dbi": 71.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -33164,6 +33311,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -33344,7 +33496,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -33449,6 +33601,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -33710,7 +33867,7 @@
               "gain_dbi": 72.9,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "470MG7W",
@@ -33779,6 +33936,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -135875,7 +136037,7 @@
               "gain_dbi": 57.2,
               "gain_freq_ghz": 50.9,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "480MD7W",
@@ -135916,6 +136078,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
           "tr": "T"
         }
       ],
@@ -143576,7 +143743,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -143706,6 +143873,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -144237,7 +144409,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -144526,6 +144698,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -145052,7 +145229,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -145140,6 +145317,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -145666,7 +145848,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -145955,6 +146137,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -146461,7 +146648,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -146549,6 +146736,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -147055,7 +147247,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -147143,6 +147335,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -147654,7 +147851,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -147742,6 +147939,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -148248,7 +148450,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -148336,6 +148538,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -148892,7 +149099,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -148980,6 +149187,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -149506,7 +149718,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -149594,6 +149806,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -150120,7 +150337,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -150208,6 +150425,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -150734,7 +150956,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -150822,6 +151044,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -151373,7 +151600,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -151461,6 +151688,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -151997,7 +152229,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -152085,6 +152317,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -152606,7 +152843,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -152694,6 +152931,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -153200,7 +153442,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -153288,6 +153530,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -153794,7 +154041,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -153882,6 +154129,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -154418,7 +154670,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -154506,6 +154758,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -155027,7 +155284,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -155115,6 +155372,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -155636,7 +155898,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -155724,6 +155986,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -156230,7 +156497,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -156318,6 +156585,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -156839,7 +157111,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -156927,6 +157199,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -157433,7 +157710,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -157521,6 +157798,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -158057,7 +158339,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -158145,6 +158427,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -158681,7 +158968,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -158769,6 +159056,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -159275,7 +159567,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -159363,6 +159655,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -159959,7 +160256,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -160047,6 +160344,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -160598,7 +160900,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -160686,6 +160988,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -161689,7 +161996,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -161777,6 +162084,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -162283,7 +162595,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -162371,6 +162683,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -162877,7 +163194,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -162965,6 +163282,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -163408,7 +163730,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -163574,6 +163896,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -164095,7 +164422,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -164183,6 +164510,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -164689,7 +165021,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -164777,6 +165109,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -165283,7 +165620,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -165371,6 +165708,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -165877,7 +166219,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -165965,6 +166307,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -166707,7 +167054,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -166795,6 +167142,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -167321,7 +167673,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -167409,6 +167761,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -167908,7 +168265,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -168038,6 +168395,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -168579,7 +168941,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -168667,6 +169029,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -169173,7 +169540,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -169261,6 +169628,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -169767,7 +170139,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -169855,6 +170227,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -170339,7 +170716,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -170469,6 +170846,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -170962,7 +171344,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -171128,6 +171510,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -171669,7 +172056,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -171757,6 +172144,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -172263,7 +172655,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -172351,6 +172743,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -172857,7 +173254,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -172945,6 +173342,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -173451,7 +173853,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -173539,6 +173941,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -174045,7 +174452,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -174133,6 +174540,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -174639,7 +175051,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -174727,6 +175139,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -175191,7 +175608,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -175321,6 +175738,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -175847,7 +176269,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -175935,6 +176357,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -176441,7 +176868,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -176529,6 +176956,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -177035,7 +177467,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -177123,6 +177555,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -177629,7 +178066,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -177717,6 +178154,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -178223,7 +178665,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -178311,6 +178753,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -178817,7 +179264,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -178905,6 +179352,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -179411,7 +179863,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -179499,6 +179951,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -180005,7 +180462,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -180093,6 +180550,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -180599,7 +181061,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -180687,6 +181149,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -181193,7 +181660,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -181281,6 +181748,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -181787,7 +182259,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -181875,6 +182347,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -182339,7 +182816,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -182469,6 +182946,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -182975,7 +183457,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -183063,6 +183545,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -183527,7 +184014,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -183657,6 +184144,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -184168,7 +184660,7 @@
               "gain_dbi": 58.1,
               "gain_freq_ghz": 52.0,
               "polarization": "T",
-              "in_band": false,
+              "in_band": true,
               "emissions": [
                 {
                   "emission": "900MD7W",
@@ -184256,6 +184748,11 @@
         {
           "lower_mhz": 47200.0,
           "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 52400.0,
           "tr": "T"
         }
       ],
@@ -318830,6 +319327,6 @@
     }
   },
   "currency_date": "2026-10-22",
-  "last_changed": "2026-10-22T11:51:22Z",
-  "rows_digest": "c5075d7c207d4496545a7d75e195a189eb1b346063163a82d16aad4a009adedb"
+  "last_changed": "2026-10-22T12:04:07Z",
+  "rows_digest": "c5f8da107257e8bf4a5df39099e91b268b1ac33e095a58845674697790011d5d"
 }
