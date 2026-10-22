@@ -104,7 +104,7 @@ export const EXPORT_COLUMNS = [
   "diameter_m", "height_agl_m", "height_amsl_m", "max_input_power_w", "antenna_max_eirp_dbw", "freq_lower_mhz",
   "freq_upper_mhz", "tr", "in_band", "gain_dbi", "polarization", "emissions", "max_eirp_dbw", "max_eirp_density",
   "points_of_communication", "freq_coord_required", "foreign_coord_required", "faa_notification",
-  "comply_25209a", "icfs_url", "schedule_b_url",
+  "comply_25209a", "flags", "icfs_url", "schedule_b_url",
 ];
 
 // One line per site × antenna × frequency range, so the dataset sorts and filters by frequency.
@@ -122,7 +122,7 @@ export function exportLines(rows) {
       points_of_communication: (r.points_of_communication || []).map((p) => p.name).join("; "),
       freq_coord_required: c.freq_coord_required, foreign_coord_required: c.foreign_coord_required,
       faa_notification: c.faa_notification, comply_25209a: c.comply_25209a,
-      icfs_url: r.icfs_url, schedule_b_url: r.schedule_b_pdf_url,
+      flags: (r.flags || []).join("; "), icfs_url: r.icfs_url, schedule_b_url: r.schedule_b_pdf_url,
     };
     const ants = r.antennas && r.antennas.length ? r.antennas : [{ bands: [] }];
     for (const a of ants) {

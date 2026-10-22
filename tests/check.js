@@ -603,7 +603,7 @@ const sb = fs.readFileSync(path.join(sbDir, "index.html"), "utf8");
 assert.match(sb, /<h1>FCC Form 312 Schedule B<\/h1>/, "Schedule B page renders under its own title");
 assert.match(sb, /37\.5–40 GHz/, "the page names the band");
 assert.match(sb, /<table id="ledger" data-noun="sites">/, "the count names sites");
-assert.equal((sb.match(/<tr class="row"/g) || []).length, 3, "one row per site");
+assert.equal((sb.match(/<tr class="row[ "]/g) || []).length, 3, "one row per site");
 assert.match(sb, /data-list="type-individual" aria-pressed="true"/, "individual sites are on by default");
 assert.match(sb, /data-list="type-esim" aria-pressed="false"/, "ESIM is off by default");
 assert.match(sb, /data-list="status-granted" aria-pressed="true"/, "granted is on by default");
@@ -617,11 +617,17 @@ assert.match(sb, /Machine-read from FCC Form 312 Schedule B filings/, "the page 
 assert.match(sb, /Fixture Maritime ESIM &lt;b&gt;LLC&lt;\/b&gt;/, "applicant names are escaped");
 assert.match(sb, /data-num="25\.94/, "coordinates sort numerically");
 assert.doesNotMatch(sb, /"held"|problems/, "held rows never reach the public page");
+// Rows publish as filed (editor decision 2026-10-22): a field check is a note, not a hold.
+assert.equal((sb.match(/<tr class="row flagged"/g) || []).length, 1, "the flagged row is shown and marked");
+assert.match(sb, /<strong>As filed:<\/strong> implausible frequency range \(likely a filing typo\)\. Values are shown exactly as the applicant filed them\./, "the detail view states the flag");
+assert.match(sb, /shown exactly as filed, including apparent typos/, "the methodology says rows are not held");
+assert.doesNotMatch(sb, /held for the editor/, "the old held wording is gone");
 const sbCsv = fs.readFileSync(path.join(sbDir, "fixture-schedb.csv"), "utf8").trim().split("\n");
 assert.equal(sbCsv[0], EXPORT_COLUMNS.join(","), "CSV header");
 const sbMesh = JSON.parse(fs.readFileSync(path.join(root, "tests/fixtures/analyses/fixture-schedb/mesh.json"), "utf8"));
 assert.equal(sbCsv.length - 1, exportLines(sbMesh.rows).length, "CSV has one line per site, antenna, and range");
 assert.ok(sbCsv.some((l) => l.includes(",37500,42500,R,yes,")), "the in-band range is flagged in the CSV");
+assert.ok(sbCsv.some((l) => l.includes(",implausible frequency range (likely a filing typo),")), "the CSV carries row flags");
 const sbJson = JSON.parse(fs.readFileSync(path.join(sbDir, "fixture-schedb.json"), "utf8"));
 assert.equal(sbJson.rows.length, 3, "JSON carries every row");
 assert.equal(sbJson.stats.applications, 4, "JSON carries the application count");
