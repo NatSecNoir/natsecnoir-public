@@ -2,6 +2,7 @@
 // links to its source and shows the summary, and a raw HTML tag in a summary renders as text.
 // Analyses: the fixture mesh renders its own page, is badged in the feed, and its text is escaped.
 import { execFileSync } from "node:child_process";
+import vm from "node:vm";
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
@@ -629,6 +630,25 @@ assert.match(fs.readFileSync(path.join(outFix, "analyses/index.html"), "utf8"), 
 assert.doesNotMatch(feedIdx, /fixture-schedb/, "the dataset is not on the front-page feed");
 assert.doesNotMatch(feed, /fixture-schedb/, "the dataset is not in the RSS feed");
 assert.ok(!fs.readFileSync(path.join(sbDir, "index.html"), "utf8").includes('class="summary"'), "the dataset does not render through the generic analysis template");
+
+// ---- Schedule B frequency box: every filed range on the row, matched by overlap ----
+assert.match(sb, /<input id="flo" type="number"/, "the frequency box has a lower field");
+assert.match(sb, /<select id="funit"[^>]*><option value="ghz" selected>GHz/, "GHz is the default unit");
+assert.match(sb, /<script src="\/js\/range-filter\.js" defer><\/script>\s*<script src="\/js\/ledger\.js" defer>/, "the matcher loads before ledger.js");
+assert.match(sb, /data-ranges="[^"]*\b37500:42500\b[^"]*\b47200:50200\b/, "rows carry every filed range, in band or not");
+const rf = {};
+vm.runInNewContext(fs.readFileSync(path.join(root, "src/js/range-filter.js"), "utf8"), { window: rf });
+const R = rf.nsnRange;
+const spx = R.parse("37500:42500 47200:50200 bogus 71000:76000");
+assert.equal(spx.length, 3, "unparseable pairs are dropped");
+assert.ok(R.match(spx, 37500, 40000), "overlaps 37.5-40 GHz");
+assert.ok(R.match(spx, 48000, 48000), "a single frequency inside a range matches");
+assert.ok(!R.match(spx, 42600, 47100), "a gap between ranges does not match");
+assert.ok(R.match(spx, NaN, 37500), "an open lower bound matches ranges below the upper");
+assert.ok(!R.match(spx, 80000, NaN), "an open upper bound above every range does not match");
+assert.ok(R.match(spx, 40000, 37500), "reversed bounds are swapped");
+assert.ok(R.match(spx, NaN, NaN), "empty bounds match everything");
+assert.ok(!R.match([], 1, 2), "a row with no ranges never matches a set bound");
 
 // ---- standfirst: an abbreviation's period does not end the first sentence ----
 assert.equal(firstSentence("The D.C. Circuit upheld the order. It also held more."), "The D.C. Circuit upheld the order.");

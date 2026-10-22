@@ -64,6 +64,10 @@ export function displayRow(row, bands) {
     coords: site.lat === null || site.lat === undefined ? "" : `${fmt(site.lat, 4)}, ${fmt(site.lon, 4)}`,
     ranges: (row.band_ranges || []).map(rangeLabel),
     first_lower: (row.band_ranges || [])[0] ? row.band_ranges[0].lower_mhz : "",
+    // Every range the latest filing lists (in band or not), "lo:hi" in MHz, for the frequency box.
+    filed_ranges: [...new Set(ants.flatMap((a) => a.bands)
+      .filter((b) => b.lower_mhz !== null && b.lower_mhz !== undefined)
+      .map((b) => `${b.lower_mhz}:${b.upper_mhz === null || b.upper_mhz === undefined ? b.lower_mhz : b.upper_mhz}`))].join(" "),
     antenna_label: first.diameter_m ? `${fmt(first.diameter_m, 2)} m${first.quantity && first.quantity > 1 ? ` × ${first.quantity}` : ""}` : "",
     antenna_model: [first.manufacturer, first.model].filter(Boolean).join(" "),
     more_antennas: Math.max(0, ants.length - 1),
