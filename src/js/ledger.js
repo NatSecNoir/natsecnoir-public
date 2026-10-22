@@ -31,9 +31,20 @@
     });
     return g;
   }
+  // Optional frequency box (Schedule B page): lower/upper bounds in the chosen unit, matched against
+  // each row's data-ranges by range-filter.js. Absent on every other ledger page.
+  var flo = document.getElementById("flo"), fhi = document.getElementById("fhi"), funit = document.getElementById("funit");
+  function freqBounds() {
+    if (!flo || !fhi || !window.nsnRange) return null;
+    var k = funit && funit.value === "ghz" ? 1000 : 1;
+    var lo = parseFloat(flo.value), hi = parseFloat(fhi.value);
+    if (isNaN(lo) && isNaN(hi)) return null;
+    return [lo * k, hi * k];
+  }
   function apply() {
     var words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
     var groups = activeByGroup();
+    var fb = freqBounds();
     var shown = 0;
     pairs.forEach(function (p) {
       var hay = p.main.getAttribute("data-search") || "";
@@ -42,7 +53,8 @@
       var listOk = Object.keys(groups).every(function (grp) {
         return groups[grp].some(function (s) { return rowLists.indexOf(s) >= 0; });
       });
-      var show = textOk && listOk;
+      var freqOk = !fb || window.nsnRange.match(window.nsnRange.parse(p.main.getAttribute("data-ranges")), fb[0], fb[1]);
+      var show = textOk && listOk && freqOk;
       p.main.hidden = !show;
       if (p.detail && !show) { p.detail.hidden = true; }
       if (show) shown++;
@@ -54,6 +66,9 @@
   if (q) {
     q.addEventListener("input", apply);
   }
+  [flo, fhi, funit].forEach(function (el) {
+    if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); }
+  });
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
       c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true");

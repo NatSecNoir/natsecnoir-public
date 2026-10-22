@@ -17,7 +17,8 @@ eleventyComputed:
   <p class="sub">Satellite earth stations licensed or pending at the FCC in
     {% for b in l.bands %}{{ b.label }}{% if not loop.last %}, {% endif %}{% endfor %}, one row per site.
     Each row is read from the Form 312 Schedule B the applicant filed: site coordinates, antennas,
-    frequency ranges, emissions, EIRP, points of communication, and coordination answers.</p>
+    frequency ranges, emissions, EIRP, points of communication, and coordination answers.
+    The frequency box matches every range a site's latest filing lists, not only the band above.</p>
   <div class="meta-col">
   <p class="stamp">Currency: read from ICFS {{ l.currency_date or "—" }} · {{ l.stats.applications or 0 }} application{{ "s" if l.stats.applications != 1 }} · {{ l.count }} site{{ "s" if l.count != 1 }}.</p>
   <p class="stamp-note">{{ l.authority_note }} A site groups every filing for the same location;
@@ -28,6 +29,13 @@ eleventyComputed:
 
   <div class="controls">
     <input id="q" type="search" placeholder="Filter by applicant, call sign, file number, city, state, emission, antenna, or satellite…" aria-label="Filter earth stations">
+    <div class="freq" role="group" aria-labelledby="freq-lbl">
+      <span class="grp-lbl" id="freq-lbl">Filed frequency</span>
+      <input id="flo" type="number" step="any" min="0" inputmode="decimal" placeholder="from" aria-label="Lower frequency">
+      <span aria-hidden="true">to</span>
+      <input id="fhi" type="number" step="any" min="0" inputmode="decimal" placeholder="to" aria-label="Upper frequency">
+      <select id="funit" aria-label="Frequency unit"><option value="ghz" selected>GHz</option><option value="mhz">MHz</option></select>
+    </div>
     {% for g in l.chips %}
     <div class="chip-group" data-group="{{ g.key }}">
       <span class="grp-lbl">{{ g.name }}</span>
@@ -63,7 +71,7 @@ eleventyComputed:
     </tr></thead>
     <tbody>
     {% for row in l.rows %}
-      <tr class="row" data-search="{{ row.search }}" data-lists="{{ row.lists }}">
+      <tr class="row" data-search="{{ row.search }}" data-lists="{{ row.lists }}" data-ranges="{{ row.filed_ranges }}">
         <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.applicant }}{% if row.frn %}<span class="basis">FRN {{ row.frn }}</span>{% endif %}</td>
         <td class="mono">{{ row.callsign or "—" }}</td>
         <td>{{ row.type_label }}</td>
@@ -144,4 +152,5 @@ eleventyComputed:
     <a href="{{ l.url }}{{ l.id }}.json">JSON</a>.</p>
   </div>
 </article>
+<script src="/js/range-filter.js" defer></script>
 <script src="/js/ledger.js" defer></script>
