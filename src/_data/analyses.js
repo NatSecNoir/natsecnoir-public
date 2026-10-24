@@ -6,6 +6,12 @@ import path from "node:path";
 
 const root = process.env.ANALYSES_DIR || "analyses";
 
+// The /analyses/ index lists cards in this editorial order, after the Supply-Chain Watch Lists card
+// (hard-coded first in analyses-index.njk). Unlisted analyses sit between these and INDEX_LAST,
+// newest first, so a new analysis never lands below the Schedule B dataset.
+const INDEX_ORDER = ["conditional-approvals", "team-telecom-agreements", "cfius-presidential-orders", "covered-list"];
+const INDEX_LAST = ["fcc-form-312-schedule-b"];
+
 function excerpt(mesh) {
   if (mesh.excerpt) return mesh.excerpt;
   const first = (mesh.entries || [])[0];
@@ -13,7 +19,7 @@ function excerpt(mesh) {
 }
 
 export default function () {
-  if (!fs.existsSync(root)) return { all: [], pages: [] };
+  if (!fs.existsSync(root)) return { all: [], pages: [], index: [] };
   const all = [];
   for (const id of fs.readdirSync(root).sort()) {
     const meshPath = path.join(root, id, "mesh.json");
@@ -35,5 +41,13 @@ export default function () {
   // generic template or the two would collide on the /analyses/<id>/ permalink.
   // Dataset-kind meshes (the Form 312 Schedule B page) render from datasets.js the same way.
   const pages = all.filter((a) => a.kind !== "ledger" && a.kind !== "dataset");
-  return { all, pages };
+  const rank = (a) => {
+    const i = INDEX_ORDER.indexOf(a.id);
+    if (i >= 0) return i;
+    const j = INDEX_LAST.indexOf(a.id);
+    return j >= 0 ? INDEX_ORDER.length + 1 + j : INDEX_ORDER.length;
+  };
+  // Stable sort: unlisted analyses keep `all`'s newest-first order among themselves.
+  const index = [...all].sort((a, b) => rank(a) - rank(b));
+  return { all, pages, index };
 }
