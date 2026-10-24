@@ -8,12 +8,19 @@ import { displayRow, chipGroups, exportLines, EXPORT_COLUMNS } from "../lib/sche
 export default function () {
   const sets = loadAnalyses().all.filter((a) => a.kind === "dataset");
   const schedb = [];
+  // One entry per site for analysis-schedb-site.njk (each site's own page, which also serves the table's
+  // expand-on-demand detail so the table page stays light).
+  const schedbSites = [];
   const built_at = new Date().toISOString();
   for (const mesh of sets) {
     if (mesh.profile !== "schedule-b") continue;
     const bands = mesh.bands || [];
     const rows = (mesh.rows || []).map((r) => displayRow(r, bands));
     const stats = mesh.stats || {};
+    for (const row of rows) {
+      schedbSites.push({ id: mesh.id, url: mesh.url, title: mesh.title, authority_note: mesh.authority_note || "",
+                         currency_date: mesh.currency_date || "", row });
+    }
     schedb.push({
       ...mesh, rows, count: rows.length, bands, stats, built_at,
       currency_date: mesh.currency_date || "",
@@ -24,5 +31,5 @@ export default function () {
                      authority_note: mesh.authority_note || "", rows: mesh.rows || [] },
     });
   }
-  return { schedb };
+  return { schedb, schedbSites };
 }

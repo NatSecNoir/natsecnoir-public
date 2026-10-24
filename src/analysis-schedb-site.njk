@@ -1,0 +1,28 @@
+---
+layout: base.njk
+nav: analysis
+pagination:
+  data: datasets.schedbSites
+  size: 1
+  alias: s
+permalink: "{{ s.url }}sites/{{ s.row.id }}/"
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ s.row.applicant or s.row.callsign }} · {{ s.row.location or s.row.site.area_of_operation or s.row.id }} · {{ s.title }}"
+  description: "Form 312 Schedule B site {{ s.row.callsign }} {{ s.row.location }}: antennas, frequency ranges, emissions, EIRP, coordination, and filing history, as filed with the FCC."
+---
+{%- set row = s.row -%}
+<article class="ledger-page schedb-page schedb-site">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a> › <a href="{{ s.url }}">{{ s.title }}</a></div>
+  <h1>{{ row.applicant or "Applicant not filed" }}{% if row.review %} <span class="review-badge" title="Values may contain a filing typo; check them against the filing">Needs review</span>{% endif %}</h1>
+  <dl class="sb-facts">
+    <dt>Call sign</dt><dd class="mono">{{ row.callsign or "—" }}</dd>
+    <dt>Type</dt><dd>{{ row.type_label }}</dd>
+    <dt>Status</dt><dd><span class="status sb-{{ row.status_bucket }}">{{ row.status_label }}</span>{% if row.expiration_date %} · term ends {{ row.expiration_date }}{% endif %}</dd>
+    <dt>Location</dt><dd>{{ row.location or row.site.area_of_operation or "—" }}{% if row.coords %} · <span class="mono">{{ row.coords }}</span>{% endif %}</dd>
+    <dt>In-band ranges</dt><dd class="mono">{% for r in row.ranges %}{{ r }}{% if not loop.last %}<br>{% endif %}{% endfor %}</dd>
+    <dt>Latest filing</dt><dd class="mono">{{ row.latest_file_number }} · filed {{ row.latest_filed }} · <a href="{{ row.icfs_url }}" target="_blank" rel="noopener">ICFS</a>{% if row.schedule_b_pdf_url %} · <a href="{{ row.schedule_b_pdf_url }}" target="_blank" rel="noopener">Schedule B</a>{% endif %}</dd>
+  </dl>
+  {% include "schedb-detail.njk" %}
+  <p class="methodology">{{ s.authority_note }} Read from ICFS {{ s.currency_date or "—" }}.</p>
+</article>

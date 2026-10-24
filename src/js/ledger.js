@@ -84,6 +84,22 @@
     if (!detail) return;
     var open = detail.hidden;
     detail.hidden = !open;
+    // A detail row with data-src (Schedule B) holds only a link until first opened; its body is the
+    // .sb-detail block of the site's own page, fetched once. On failure the link stays usable.
+    var src = detail.getAttribute("data-src");
+    if (open && src && !detail.getAttribute("data-loaded") && window.fetch && window.DOMParser) {
+      detail.setAttribute("data-loaded", "loading");
+      fetch(src).then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); }).then(function (html) {
+        var body = new DOMParser().parseFromString(html, "text/html").querySelector(".sb-detail");
+        if (!body) throw new Error("no detail");
+        var cell = detail.cells[0];
+        var link = cell.querySelector("a");
+        cell.textContent = "";
+        cell.appendChild(document.importNode(body, true));
+        if (link) { var p = document.createElement("p"); p.className = "sb-permalink"; link.textContent = "Site page"; p.appendChild(link); cell.appendChild(p); }
+        detail.setAttribute("data-loaded", "yes");
+      }).catch(function () { detail.removeAttribute("data-loaded"); });
+    }
     btn.setAttribute("aria-expanded", open ? "true" : "false");
     btn.textContent = open ? "\u2212" : "+"; // minus sign when expanded
     btn.setAttribute("aria-label", open ? "Hide details" : "Show details");
