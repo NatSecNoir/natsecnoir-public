@@ -679,4 +679,25 @@ assert.equal(firstSentence("The FCC acted. Then it stopped."), "The FCC acted.")
 assert.equal(firstSentence("Is it final? Yes."), "Is it final?");
 assert.equal(firstSentence("No period here"), "No period here");
 
+// ---- Analyses index order: the editor's order, unlisted analyses before Schedule B ----
+{
+  const dir = fs.mkdtempSync(path.join(root, "tests/_out/order-"));
+  const ids = ["covered-list", "fcc-form-312-schedule-b", "zzz-new-analysis", "cfius-presidential-orders",
+    "team-telecom-agreements", "conditional-approvals"];
+  for (const id of ids) {
+    fs.mkdirSync(path.join(dir, id));
+    fs.writeFileSync(path.join(dir, id, "mesh.json"), JSON.stringify({ title: id, entries: [] }));
+  }
+  process.env.ANALYSES_DIR = dir;
+  const { default: loadAnalyses } = await import(`../src/_data/analyses.js?order=${Date.now()}`);
+  delete process.env.ANALYSES_DIR;
+  assert.deepEqual(loadAnalyses().index.map((a) => a.id), ["conditional-approvals", "team-telecom-agreements",
+    "cfius-presidential-orders", "covered-list", "zzz-new-analysis", "fcc-form-312-schedule-b"],
+    "the analyses index follows the editorial order");
+  fs.rmSync(dir, { recursive: true });
+}
+const idxHtml = fs.readFileSync(path.join(outFix, "analyses/index.html"), "utf8");
+assert.ok(idxHtml.indexOf("/analyses/supply-chain-watch-lists/") < idxHtml.indexOf("/analyses/fixture-"),
+  "the Supply-Chain Watch Lists card comes first on the analyses index");
+
 console.log("site check: ok");
