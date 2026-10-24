@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-09-14T00:25:05.038093+00:00",
+  "compiled_at": "2026-10-24T20:26:20.986344+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -71,6 +71,16 @@
       "source_url": "https://www.cto.mil/fy25-ndaa-section-1286-list/",
       "currency_date": "2026-06-26",
       "count": 121
+    },
+    {
+      "slug": "ndaa-5949",
+      "label": "NDAA § 5949",
+      "chip_class": "chip-5949",
+      "gloss": "Semiconductor companies whose products executive agencies may not procure under FY2023 NDAA § 5949: SMIC, YMTC, and CXMT, including any subsidiary, affiliate, or successor, plus any entity later designated by the Secretary of Defense or Commerce. The prohibition takes effect December 23, 2027.",
+      "authority_cite": "FY2023 NDAA § 5949, Pub. L. 117-263 (41 U.S.C. 4713 note)",
+      "source_url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/html/PLAW-117publ263.htm",
+      "currency_date": "2026-10-24",
+      "count": 3
     }
   ],
   "entities": [
@@ -13641,10 +13651,23 @@
           "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
           "listing_basis": "direct",
           "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+        },
+        {
+          "list": "ndaa-5949",
+          "category": "Semiconductors",
+          "date_added": "2022-12-23",
+          "cite": "FY2023 NDAA § 5949(j)(3)",
+          "listing_basis": "direct",
+          "source_url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/html/PLAW-117publ263.htm",
+          "basis_note": "Named in the statute as “ChangXin Memory Technologies (CXMT)” (or any subsidiary, affiliate, or successor).",
+          "verified": {
+            "date": "2026-10-24",
+            "note": "Checked against the enrolled text of Pub. L. 117-263 on GovInfo."
+          }
         }
       ],
-      "search": "changxin memory technologies, inc. cxmt china dow § 1260h",
-      "date_added_first": ""
+      "search": "changxin memory technologies, inc. cxmt china dow § 1260h ndaa § 5949",
+      "date_added_first": "2022-12-23"
     },
     {
       "canonical": "Changan US R&D Center, Inc.",
@@ -64288,10 +64311,23 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        },
+        {
+          "list": "ndaa-5949",
+          "category": "Semiconductors",
+          "date_added": "2022-12-23",
+          "cite": "FY2023 NDAA § 5949(j)(3)",
+          "listing_basis": "direct",
+          "source_url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/html/PLAW-117publ263.htm",
+          "basis_note": "Named in the statute as “Semiconductor Manufacturing International Corporation (SMIC)” (or any subsidiary, affiliate, or successor).",
+          "verified": {
+            "date": "2026-10-24",
+            "note": "Checked against the enrolled text of Pub. L. 117-263 on GovInfo."
+          }
         }
       ],
-      "search": "semiconductor manufacturing international corporation smic semiconductor mfg intl corp semiconductor manufacturing international corporation limited semiconductor manufacturing international corporation co., ltd china dow § 1260h treasury ns-cmic",
-      "date_added_first": ""
+      "search": "semiconductor manufacturing international corporation smic semiconductor mfg intl corp semiconductor manufacturing international corporation limited semiconductor manufacturing international corporation co., ltd china dow § 1260h ndaa § 5949 treasury ns-cmic",
+      "date_added_first": "2022-12-23"
     },
     {
       "canonical": "Semiconductor Manufacturing North China (Beijing) Corporation",
@@ -81013,7 +81049,8 @@
       "aka": [
         "YMTC",
         "Changjiang Cunchu",
-        "Changjiang Storage Technology"
+        "Changjiang Storage Technology",
+        "Yangtze Memory Technologies Corp"
       ],
       "country": "China",
       "subsidiaries": [],
@@ -81034,9 +81071,22 @@
           "cite": "87 FR 77508",
           "listing_basis": "direct",
           "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"
+        },
+        {
+          "list": "ndaa-5949",
+          "category": "Semiconductors",
+          "date_added": "2022-12-23",
+          "cite": "FY2023 NDAA § 5949(j)(3)",
+          "listing_basis": "direct",
+          "source_url": "https://www.govinfo.gov/content/pkg/PLAW-117publ263/html/PLAW-117publ263.htm",
+          "basis_note": "Named in the statute as “Yangtze Memory Technologies Corp (YMTC)” (or any subsidiary, affiliate, or successor).",
+          "verified": {
+            "date": "2026-10-24",
+            "note": "Checked against the enrolled text of Pub. L. 117-263 on GovInfo."
+          }
         }
       ],
-      "search": "yangtze memory technologies co., ltd. ymtc changjiang cunchu changjiang storage technology china bis entity list dow § 1260h",
+      "search": "yangtze memory technologies co., ltd. ymtc changjiang cunchu changjiang storage technology yangtze memory technologies corp china bis entity list dow § 1260h ndaa § 5949",
       "date_added_first": "2022-12-19"
     },
     {
@@ -83207,7 +83257,8 @@
   ],
   "archive_urls": {
     "2026-09-13.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-13-1f5c06bd.html",
-    "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html"
+    "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html",
+    "2026-10-24.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html"
 }
