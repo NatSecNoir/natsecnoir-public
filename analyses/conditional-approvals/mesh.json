@@ -1306,11 +1306,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1130-vulcan-robotics-inc-robotics",
+      "kind": "ingest",
+      "label": "Vulcan Robotics Inc.",
+      "date": "2026-10-26T00:37:35Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Sourccey mobile robotic platform",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-23-da-26-1130a1-7fca7e"
+      },
+      "record_id": "2026-10-23-da-26-1130a1-7fca7e",
+      "citation": {
+        "record_id": "2026-10-23-da-26-1130a1-7fca7e",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-26T00:37:29Z",
+  "published_at": "2026-10-26T00:37:32Z",
   "currency_date": "2026-10-26",
-  "last_changed": "2026-10-26T00:37:30Z"
+  "last_changed": "2026-10-26T00:37:35Z"
 }
