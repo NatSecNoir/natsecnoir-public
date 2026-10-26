@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-10-24T20:26:20.986344+00:00",
+  "compiled_at": "2026-10-26T11:48:00.591649+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -64261,33 +64261,14 @@
       "date_added_first": "2020-12-18"
     },
     {
-      "canonical": "Semiconductor Manufacturing International Corp. (SMIC)",
-      "aka": [
-        "Semiconductor Manufacturing International Corporation (SMIC)",
-        "Semiconductor Manufacturing International (Shanghai) Corporation",
-        "SMIC Shanghai",
-        "Semiconductor Mfg International Corp."
-      ],
-      "country": "",
-      "subsidiaries": [],
-      "subsidiaries_note": false,
-      "memberships": [
-        {
-          "list": "bis-entity-list",
-          "category": "Entity List (EL) - Bureau of Industry and Security",
-          "date_added": "2020-12-18",
-          "cite": "85 FR 83420; 89 FR 96837",
-          "listing_basis": "direct",
-          "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"
-        }
-      ],
-      "search": "semiconductor manufacturing international corp. (smic) semiconductor manufacturing international corporation (smic) semiconductor manufacturing international (shanghai) corporation smic shanghai semiconductor mfg international corp. bis entity list",
-      "date_added_first": "2020-12-18"
-    },
-    {
       "canonical": "Semiconductor Manufacturing International Corporation",
       "aka": [
+        "Semiconductor Manufacturing International Corp. (SMIC)",
+        "Semiconductor Manufacturing International Corporation (SMIC)",
         "SMIC",
+        "Semiconductor Manufacturing International (Shanghai) Corporation",
+        "SMIC Shanghai",
+        "Semiconductor Mfg International Corp.",
         "Semiconductor Mfg Intl Corp",
         "Semiconductor Manufacturing International Corporation Limited",
         "SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION Co., Ltd"
@@ -64303,6 +64284,14 @@
           "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
           "listing_basis": "direct",
           "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+        },
+        {
+          "list": "bis-entity-list",
+          "category": "Entity List (EL) - Bureau of Industry and Security",
+          "date_added": "2020-12-18",
+          "cite": "85 FR 83420; 89 FR 96837",
+          "listing_basis": "direct",
+          "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"
         },
         {
           "list": "ns-cmic",
@@ -64326,8 +64315,8 @@
           }
         }
       ],
-      "search": "semiconductor manufacturing international corporation smic semiconductor mfg intl corp semiconductor manufacturing international corporation limited semiconductor manufacturing international corporation co., ltd china dow § 1260h ndaa § 5949 treasury ns-cmic",
-      "date_added_first": "2022-12-23"
+      "search": "semiconductor manufacturing international corporation semiconductor manufacturing international corp. (smic) semiconductor manufacturing international corporation (smic) smic semiconductor manufacturing international (shanghai) corporation smic shanghai semiconductor mfg international corp. semiconductor mfg intl corp semiconductor manufacturing international corporation limited semiconductor manufacturing international corporation co., ltd china bis entity list dow § 1260h ndaa § 5949 treasury ns-cmic",
+      "date_added_first": "2020-12-18"
     },
     {
       "canonical": "Semiconductor Manufacturing North China (Beijing) Corporation",
@@ -83258,7 +83247,8 @@
   "archive_urls": {
     "2026-09-13.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-13-1f5c06bd.html",
     "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html",
-    "2026-10-24.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html"
+    "2026-10-24.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html",
+    "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html"
 }
