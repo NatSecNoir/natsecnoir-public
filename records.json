@@ -1,6 +1,37 @@
 {
- "count": 266,
+ "count": 267,
  "records": [
+  {
+   "id": "2026-10-23-da-26-1130a1-7fca7e",
+   "status": "approved",
+   "ingested_at": "2026-10-23T12:02:40Z",
+   "title": "Conditional Approval: Micro-Star (router), Vulcan Robotics (robot)",
+   "issuing_body": "FCC",
+   "doc_type": "",
+   "doc_date": "2026-10-21",
+   "docket": "DA 26-1130; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+   "lists": [
+    "conditional-approval"
+   ],
+   "entities": [],
+   "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1130A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "7fca7e9071c4f1ab9b2e618c10638f96c269e512d7a2c83721b1821ab1eb0f51",
+   "approved_at": "2026-10-26T00:26:34Z",
+   "published_at": "2026-10-26T00:27:31Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-10-23T12:02:47Z",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-10-23-da-26-1130a1-7fca7e/source-7fca7e90.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
   {
    "id": "2026-10-22-facebook-judgement-f5aec1",
    "status": "approved",
