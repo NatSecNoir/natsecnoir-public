@@ -1330,11 +1330,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1130-micro-star-international-co-ltd-routers",
+      "kind": "ingest",
+      "label": "Micro-Star International Co., Ltd.",
+      "date": "2026-10-26T00:37:39Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Radix series GRBE94 and GRBE36 routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-04-17",
+        "record_id": "2026-10-23-da-26-1130a1-7fca7e"
+      },
+      "record_id": "2026-10-23-da-26-1130a1-7fca7e",
+      "citation": {
+        "record_id": "2026-10-23-da-26-1130a1-7fca7e",
+        "page": 2,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-26T00:37:32Z",
+  "published_at": "2026-10-26T00:37:35Z",
   "currency_date": "2026-10-26",
-  "last_changed": "2026-10-26T00:37:35Z"
+  "last_changed": "2026-10-26T00:37:39Z"
 }
