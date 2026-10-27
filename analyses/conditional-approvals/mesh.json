@@ -1450,11 +1450,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1154-haystack-robotics-inc-robotics",
+      "kind": "ingest",
+      "label": "Haystack Robotics, Inc.",
+      "date": "2026-10-27T14:21:28Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Violet AI robotic device",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-27-da-26-1154a1-c78bde"
+      },
+      "record_id": "2026-10-27-da-26-1154a1-c78bde",
+      "citation": {
+        "record_id": "2026-10-27-da-26-1154a1-c78bde",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-27T14:20:46Z",
+  "published_at": "2026-10-27T14:21:25Z",
   "currency_date": "2026-10-27",
-  "last_changed": "2026-10-27T14:21:25Z"
+  "last_changed": "2026-10-27T14:21:28Z"
 }
