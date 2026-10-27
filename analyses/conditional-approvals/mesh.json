@@ -1426,11 +1426,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1154-hitachi-energy-power-conversion-solutions-s-l-u-inverters",
+      "kind": "ingest",
+      "label": "Hitachi Energy Power Conversion Solutions S.L.U.",
+      "date": "2026-10-27T14:21:25Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "WD3\nWD4 power inverters",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-27-da-26-1154a1-c78bde"
+      },
+      "record_id": "2026-10-27-da-26-1154a1-c78bde",
+      "citation": {
+        "record_id": "2026-10-27-da-26-1154a1-c78bde",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-27T14:20:42Z",
+  "published_at": "2026-10-27T14:20:46Z",
   "currency_date": "2026-10-27",
-  "last_changed": "2026-10-27T14:20:46Z"
+  "last_changed": "2026-10-27T14:21:25Z"
 }
