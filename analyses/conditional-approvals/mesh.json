@@ -1474,11 +1474,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1154-t-robotics-co-ltd-robotics",
+      "kind": "ingest",
+      "label": "T-Robotics Co., Ltd.",
+      "date": "2026-10-27T14:21:31Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "entire product class of Automated Guided Vehicles",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-27-da-26-1154a1-c78bde"
+      },
+      "record_id": "2026-10-27-da-26-1154a1-c78bde",
+      "citation": {
+        "record_id": "2026-10-27-da-26-1154a1-c78bde",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-27T14:21:25Z",
+  "published_at": "2026-10-27T14:21:28Z",
   "currency_date": "2026-10-27",
-  "last_changed": "2026-10-27T14:21:28Z"
+  "last_changed": "2026-10-27T14:21:31Z"
 }
