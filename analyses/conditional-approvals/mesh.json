@@ -1378,11 +1378,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1154-alpha-networks-inc-routers",
+      "kind": "ingest",
+      "label": "Alpha Networks, Inc.",
+      "date": "2026-10-27T14:20:42Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "XGSPON ONT 1000 series router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-04-24",
+        "record_id": "2026-10-27-da-26-1154a1-c78bde"
+      },
+      "record_id": "2026-10-27-da-26-1154a1-c78bde",
+      "citation": {
+        "record_id": "2026-10-27-da-26-1154a1-c78bde",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-26T00:37:39Z",
+  "published_at": "2026-10-27T14:20:38Z",
   "currency_date": "2026-10-27",
-  "last_changed": "2026-10-27T14:20:38Z"
+  "last_changed": "2026-10-27T14:20:42Z"
 }
