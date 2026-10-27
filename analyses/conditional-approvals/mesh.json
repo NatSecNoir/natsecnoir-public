@@ -1354,11 +1354,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1154-manna-drones-delivery-inc-uas",
+      "kind": "ingest",
+      "label": "Manna Drones Delivery, Inc.",
+      "date": "2026-10-27T14:20:38Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "383.2 Uncrewed Aircraft Systems",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-10-27-da-26-1154a1-c78bde"
+      },
+      "record_id": "2026-10-27-da-26-1154a1-c78bde",
+      "citation": {
+        "record_id": "2026-10-27-da-26-1154a1-c78bde",
+        "page": 4,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-26T00:37:35Z",
-  "currency_date": "2026-10-26",
-  "last_changed": "2026-10-26T00:37:39Z"
+  "published_at": "2026-10-26T00:37:39Z",
+  "currency_date": "2026-10-27",
+  "last_changed": "2026-10-27T14:20:38Z"
 }
