@@ -16,36 +16,36 @@
       "lower_mhz": 37500.0,
       "upper_mhz": 40000.0,
       "label": "37.5–40 GHz",
-      "applications": 194,
-      "last_success": "2026-10-22T02:31:39Z"
+      "applications": 208,
+      "last_success": "2026-10-28T08:13:38Z"
     },
     {
       "lower_mhz": 27500.0,
       "upper_mhz": 28350.0,
       "label": "27.5–28.35 GHz",
-      "applications": 1683,
-      "last_success": "2026-10-22T11:27:14Z"
+      "applications": 1702,
+      "last_success": "2026-10-28T08:37:52Z"
     },
     {
       "lower_mhz": 47200.0,
       "upper_mhz": 48200.0,
       "label": "47.2–48.2 GHz",
-      "applications": 196,
-      "last_success": "2026-10-22T11:39:13Z"
+      "applications": 210,
+      "last_success": "2026-10-28T08:40:05Z"
     },
     {
       "lower_mhz": 24750.0,
       "upper_mhz": 25250.0,
       "label": "24.75–25.25 GHz",
       "applications": 39,
-      "last_success": "2026-10-22T11:51:21Z"
+      "last_success": "2026-10-28T08:42:27Z"
     },
     {
       "lower_mhz": 50400.0,
       "upper_mhz": 51400.0,
       "label": "50.4–51.4 GHz",
-      "applications": 196,
-      "last_success": "2026-10-22T12:04:07Z"
+      "applications": 210,
+      "last_success": "2026-10-28T08:44:44Z"
     }
   ],
   "rows": [
@@ -22474,8 +22474,8 @@
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260521-01385",
-      "latest_filed": "2026-06-15",
+      "latest_file_number": "SES-AMD-20261027-02914",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "Harmon",
         "street": "575 20th Street",
@@ -22671,7 +22671,20 @@
       ],
       "max_eirp_dbw": 89.37,
       "max_eirp_density": 77.14,
-      "points_of_communication": [],
+      "points_of_communication": [
+        {
+          "name": "ASTRANIS 157E GSO System (S3236)",
+          "itu_name": "ASTRANIS 157E GSO System (S3236)",
+          "orbit": "157.0 E",
+          "country": "USA"
+        },
+        {
+          "name": "ASTRANIS 157E Ku GSO System (S00833)",
+          "itu_name": "ASTRANIS 157E Ku GSO System (S00833)",
+          "orbit": "157.0 E",
+          "country": "USA"
+        }
+      ],
       "coordination": {
         "freq_coord_required": "no",
         "foreign_coord_required": "no",
@@ -22683,12 +22696,12 @@
         {
           "name": "Comsearch_Harmon.pdf",
           "description": "Exhibit D",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/36f430b4cfa9c31051f1b5642f851cd8"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/0e183ffb3b8493507be9f5ac24e45ae1"
         },
         {
-          "name": "Guam earth station narrative 061326 FINAL.pdf",
+          "name": "Astranis Guam earth station letter re ttc.pdf",
           "description": "Narrative",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ef09303ccfa9c31051f1b5642f851c24"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9f3e3ffb3bc493507be9f5ac24e45ade"
         }
       ],
       "filings": [
@@ -22706,10 +22719,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260521-01385",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/43c9b07ccfa9c31051f1b5642f851c1b",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=49d0e0f0cf050b1034d6f6152f851c14"
+        },
+        {
+          "file_number": "SES-AMD-20261027-02914",
+          "filing_type": "AMD",
+          "filing_type_label": "Amendment",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261027-02914",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b9cabb733bc493507be9f5ac24e45a46",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=4a183ffb3b8493507be9f5ac24e45aa5"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260521-01385",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/43c9b07ccfa9c31051f1b5642f851c1b",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261027-02914",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b9cabb733bc493507be9f5ac24e45a46",
       "flags": [],
       "needs_review": false
     },
@@ -54785,7 +54813,7 @@
       "callsign": "WB36",
       "class_of_station": "d. FSS Earth Station In Motion (ESIM): ESV",
       "station_type": "esim",
-      "status": "granted",
+      "status": "expired",
       "has_pending": true,
       "grant_date": "2023-06-14",
       "expiration_date": "2026-10-22",
@@ -143986,14 +144014,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260343",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-AMD-20261014-02788",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02920",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Estrella Mountain\" Gateway",
         "street": "16422 W Commerce Dr ",
@@ -144019,8 +144047,8 @@
           "height_agl_m": 1.7,
           "height_amsl_m": 279.0,
           "height_rooftop_m": 1.7,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -144497,8 +144525,8 @@
           "height_agl_m": 1.7,
           "height_amsl_m": 279.0,
           "height_rooftop_m": 1.7,
-          "max_input_power_w": 80.0,
-          "max_eirp_dbw": 77.5,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 81000.0,
@@ -144723,14 +144751,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -144744,24 +144772,9 @@
       },
       "exhibits": [
         {
-          "name": "Narrative and Waivers (all).pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/88e61a27cfb347105b2cf9642f851c0b"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Goodyear, AZ.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c0379e27cfb347105b2cf9642f851c14"
-        },
-        {
-          "name": "RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/84e61a27cfb347105b2cf9642f851c08"
-        },
-        {
-          "name": "Goodyear, AZ - Estrella Mountain - Section 25.136 Protection Criteria Compliance.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/40e61a27cfb347105b2cf9642f851c0f"
+          "name": "STA Request - Goodyear, AZ (E260343) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9f69b808cfd017509d5eb42b1f851cdd"
         }
       ],
       "filings": [
@@ -144794,10 +144807,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02788",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/64871667cfb347105b2cf9642f851cbe",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=bfd69627cfb347105b2cf9642f851cee"
+        },
+        {
+          "file_number": "SES-STA-20261027-02920",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02920",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4b4e29002fdc1750c7a543ca6fa4e318",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=7dc97448cfd017509d5eb42b1f851ca5"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02788",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/64871667cfb347105b2cf9642f851cbe",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02920",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4b4e29002fdc1750c7a543ca6fa4e318",
       "flags": [],
       "needs_review": false
     },
@@ -144806,14 +144834,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260346",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-AMD-20261014-02787",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02923",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Two Whoops and a Holler\" Gateway",
         "street": "3701 Independence Pkwy",
@@ -144839,8 +144867,8 @@
           "height_agl_m": 1.7,
           "height_amsl_m": 212.0,
           "height_rooftop_m": 1.7,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -145342,14 +145370,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -145363,24 +145391,9 @@
       },
       "exhibits": [
         {
-          "name": "RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/230616e3cfb347105b2cf9642f851cc0"
-        },
-        {
-          "name": "Narrative and Waivers (V).pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6b0616e3cfb347105b2cf9642f851cab"
-        },
-        {
-          "name": "Fort Worth, TX - Two Whoops and a Holler - Section 25.136 Protection Criteria Compliance.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6f0616e3cfb347105b2cf9642f851cae"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Fort Worth, TX.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7e76dae3cfb347105b2cf9642f851c68"
+          "name": "STA Request - Fort Worth, TX (E260346) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d722e90c2f5c1750c7a543ca6fa4e39c"
         }
       ],
       "filings": [
@@ -145413,10 +145426,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02787",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/feb6d227cfb347105b2cf9642f851c6f",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=130616e3cfb347105b2cf9642f851c8e"
+        },
+        {
+          "file_number": "SES-STA-20261027-02923",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02923",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6062214c2f5c1750c7a543ca6fa4e3a6",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=2a42ad0c2f5c1750c7a543ca6fa4e3bc"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02787",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/feb6d227cfb347105b2cf9642f851c6f",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02923",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6062214c2f5c1750c7a543ca6fa4e3a6",
       "flags": [],
       "needs_review": false
     },
@@ -146225,14 +146253,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260350",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260429-01218",
-      "latest_filed": "2026-05-11",
+      "latest_file_number": "SES-STA-20261027-02922",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"And She Dances on the Sand\" Gateway",
         "street": "26 N CONQUSITADOR",
@@ -146258,8 +146286,8 @@
           "height_agl_m": 1.7,
           "height_amsl_m": 66.0,
           "height_rooftop_m": 1.7,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -146443,7 +146471,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -146734,7 +146762,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -146761,14 +146789,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -146782,19 +146810,9 @@
       },
       "exhibits": [
         {
-          "name": "RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/941d5dc29324cb102948991d48373c55"
-        },
-        {
-          "name": "Narrative and Waivers (NC).pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f9b8d6e9cfb44f50960df56b1f851cd9"
-        },
-        {
-          "name": "PCN Report - And She Dances on the Sand - Roma TX.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/04baa99e93280f102948991d48373c5b"
+          "name": "STA Request - Roma, TX (E260350) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b56e7c40cf1417509d5eb42b1f851c0f"
         }
       ],
       "filings": [
@@ -146812,10 +146830,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260429-01218",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/55d8dae9cfb44f50960df56b1f851c1a",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=8499e51e93280f102948991d48373cc9"
+        },
+        {
+          "file_number": "SES-STA-20261027-02922",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02922",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b8def480cf1417509d5eb42b1f851c2c",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=6baef080cf1417509d5eb42b1f851ca9"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260429-01218",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/55d8dae9cfb44f50960df56b1f851c1a",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02922",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b8def480cf1417509d5eb42b1f851c2c",
       "flags": [],
       "needs_review": false
     },
@@ -146824,14 +146857,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260352",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260501-01231",
-      "latest_filed": "2026-05-11",
+      "latest_file_number": "SES-STA-20261027-02929",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Six-Shooter Junction\" Gateway",
         "street": "2625 TX-25 Spur",
@@ -146857,8 +146890,8 @@
           "height_agl_m": 1.7,
           "height_amsl_m": 12.0,
           "height_rooftop_m": 1.7,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -147042,7 +147075,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -147333,7 +147366,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -147360,14 +147393,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -147381,24 +147414,9 @@
       },
       "exhibits": [
         {
-          "name": "PCN Report - Harlingen TX - Six-Shooter Junction.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5bf1de61cfb44f50960df56b1f851ce5"
-        },
-        {
-          "name": "PCN Report - Harlingen TX - Six-Shooter Junction.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4a025ea1cfb44f50960df56b1f851c64"
-        },
-        {
-          "name": "Narrative and Waivers (NC).pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ed19122dcfb44f50960df56b1f851c9a"
-        },
-        {
-          "name": "RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/96bcb99ecfa00f1051f1b5642f851c0a"
+          "name": "STA Request - Harlingen, TX (E260352) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d3a96d082f9c1750c7a543ca6fa4e358"
         }
       ],
       "filings": [
@@ -147416,10 +147434,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260501-01231",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/af39562dcfb44f50960df56b1f851c4a",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=8bfcfddecfa00f1051f1b5642f851cff"
+        },
+        {
+          "file_number": "SES-STA-20261027-02929",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02929",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7ed961482f9c1750c7a543ca6fa4e39b",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=85a721442f9c1750c7a543ca6fa4e3f3"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260501-01231",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/af39562dcfb44f50960df56b1f851c4a",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02929",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7ed961482f9c1750c7a543ca6fa4e39b",
       "flags": [],
       "needs_review": false
     },
@@ -149914,14 +149947,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260362",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-AMD-20261014-02786",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02931",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Let's Boogie\" Gateway",
         "street": " E LAUGHLIN RD",
@@ -150450,16 +150483,16 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
-          "country": ""
+          "country": "US"
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
-          "country": ""
+          "country": "US"
         }
       ],
       "coordination": {
@@ -150471,24 +150504,9 @@
       },
       "exhibits": [
         {
-          "name": "RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b4b49263cfb347105b2cf9642f851cae"
-        },
-        {
-          "name": "Narrative and Waivers (all).pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3cb49263cfb347105b2cf9642f851cb1"
-        },
-        {
-          "name": "Eloy, AZ - Let's Boogie - Section 25.136 Protection Criteria Compliance.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f4b49263cfb347105b2cf9642f851cb5"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Eloy, AZ.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1855de63cfb347105b2cf9642f851c5c"
+          "name": "STA Request - Eloy, AZ (E260362) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/472be9c82f9c1750c7a543ca6fa4e311"
         }
       ],
       "filings": [
@@ -150521,10 +150539,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02786",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/62c51ea3cfb347105b2cf9642f851c3e",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=64b45263cfb347105b2cf9642f851cbc"
+        },
+        {
+          "file_number": "SES-STA-20261027-02931",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02931",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/cadba90c2f9c1750c7a543ca6fa4e342",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=3ccb290c2f9c1750c7a543ca6fa4e364"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02786",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/62c51ea3cfb347105b2cf9642f851c3e",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02931",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/cadba90c2f9c1750c7a543ca6fa4e342",
       "flags": [],
       "needs_review": false
     },
@@ -151177,14 +151210,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260418",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "granted",
       "has_pending": true,
       "grant_date": "2026-04-20",
       "expiration_date": "2041-04-20",
-      "latest_file_number": "SES-AMD-20261014-02793",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02930",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Giddy Up\" Gateway",
         "street": "2421 E Westward Ave",
@@ -151713,16 +151746,16 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
-          "country": ""
+          "country": "US"
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
-          "country": ""
+          "country": "US"
         }
       ],
       "coordination": {
@@ -151734,19 +151767,9 @@
       },
       "exhibits": [
         {
-          "name": "Banning, CA - Narrative and Waivers - Giddy Up.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/89e91a6bcfb347105b2cf9642f851c31"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Banning, CA.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/991ada6bcfb347105b2cf9642f851cdc"
-        },
-        {
-          "name": "Banning, CA - RadHaz Report - Giddy Up.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/09e91a6bcfb347105b2cf9642f851c34"
+          "name": "STA Request - Banning, CA (E260418) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b68a21882f9c1750c7a543ca6fa4e30a"
         }
       ],
       "filings": [
@@ -151794,10 +151817,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02793",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/474ad2abcfb347105b2cf9642f851c30",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=05e9d66bcfb347105b2cf9642f851cee"
+        },
+        {
+          "file_number": "SES-STA-20261027-02930",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02930",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/44cae9882f9c1750c7a543ca6fa4e3a3",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=bfaa29882f9c1750c7a543ca6fa4e3a6"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02793",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/474ad2abcfb347105b2cf9642f851c30",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02930",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/44cae9882f9c1750c7a543ca6fa4e3a3",
       "flags": [],
       "needs_review": false
     },
@@ -152420,14 +152458,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260422",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260601-01508",
-      "latest_filed": "2026-06-01",
+      "latest_file_number": "SES-STA-20261027-02918",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Going Up\" Gateway",
         "street": "3901 Jack Northrop Ave",
@@ -152453,8 +152491,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 20.0,
           "height_rooftop_m": 11.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -152638,7 +152676,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -152929,7 +152967,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -152956,14 +152994,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -152977,19 +153015,9 @@
       },
       "exhibits": [
         {
-          "name": "Hawthorne, CA - Narrative and Waivers - Going Up.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/959b86d8cf558f10ab02f1842f851ce4"
-        },
-        {
-          "name": "Hawthorne, CA - RadHaz Report - Going Up.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/48fb021ccf558f10ab02f1842f851cc2"
-        },
-        {
-          "name": "Hawthorne, CA - PCN Reports - Going Up.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c2ecc25ccf558f10ab02f1842f851cfa"
+          "name": "STA Request - Hawthorne, CA (E260422) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c8343ccccf9017509d5eb42b1f851c76"
         }
       ],
       "filings": [
@@ -153007,10 +153035,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260601-01508",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/903d0a5ccf558f10ab02f1842f851cde",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=bf1c861ccf558f10ab02f1842f851c13"
+        },
+        {
+          "file_number": "SES-STA-20261027-02918",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02918",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/80990d80cf5417509d5eb42b1f851cc3",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=cc798580cf5417509d5eb42b1f851c3f"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260601-01508",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/903d0a5ccf558f10ab02f1842f851cde",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02918",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/80990d80cf5417509d5eb42b1f851cc3",
       "flags": [],
       "needs_review": false
     },
@@ -153019,14 +153062,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260424",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260601-01512",
-      "latest_filed": "2026-06-01",
+      "latest_file_number": "SES-STA-20261027-02917",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"GG\" Gateway",
         "street": "1711 E Ramon Ayala Drive",
@@ -153052,9 +153095,93 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 31.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
+            {
+              "lower_mhz": 81000.0,
+              "upper_mhz": 86000.0,
+              "tr": "T",
+              "gain_dbi": 60.9,
+              "gain_freq_ghz": 83.5,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "1G20D7W",
+                  "eirp_dbw": 70.9,
+                  "eirp_density": 16.1,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 94100.0,
+              "upper_mhz": 100000.0,
+              "tr": "T",
+              "gain_dbi": 62.7,
+              "gain_freq_ghz": 94.1,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "840MD7W",
+                  "eirp_dbw": 69.5,
+                  "eirp_density": 16.27,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "1G14D7W",
+                  "eirp_dbw": 70.9,
+                  "eirp_density": 16.3,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "960MD7W",
+                  "eirp_dbw": 70.1,
+                  "eirp_density": 16.29,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "1G20D7W",
+                  "eirp_dbw": 71.1,
+                  "eirp_density": 16.3,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "1G44D7W",
+                  "eirp_dbw": 71.9,
+                  "eirp_density": 16.3,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
             {
               "lower_mhz": 102000.0,
               "upper_mhz": 109500.0,
@@ -153236,132 +153363,6 @@
               ]
             },
             {
-              "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
-              "tr": "R",
-              "gain_dbi": 55.9,
-              "gain_freq_ghz": 40.0,
-              "polarization": "T",
-              "in_band": true,
-              "emissions": [
-                {
-                  "emission": "1G20D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "720MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "1G44D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 10.0,
-                  "elevation_west": 10.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 81000.0,
-              "upper_mhz": 86000.0,
-              "tr": "T",
-              "gain_dbi": 60.9,
-              "gain_freq_ghz": 83.5,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "1G20D7W",
-                  "eirp_dbw": 70.9,
-                  "eirp_density": 16.1,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 10.0,
-                  "elevation_west": 10.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 94100.0,
-              "upper_mhz": 100000.0,
-              "tr": "T",
-              "gain_dbi": 62.7,
-              "gain_freq_ghz": 94.1,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "840MD7W",
-                  "eirp_dbw": 69.5,
-                  "eirp_density": 16.27,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "1G14D7W",
-                  "eirp_dbw": 70.9,
-                  "eirp_density": 16.3,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "960MD7W",
-                  "eirp_dbw": 70.1,
-                  "eirp_density": 16.29,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "1G20D7W",
-                  "eirp_dbw": 71.1,
-                  "eirp_density": 16.3,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "1G44D7W",
-                  "eirp_dbw": 71.9,
-                  "eirp_density": 16.3,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 10.0,
-                  "elevation_west": 10.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
               "lower_mhz": 27500.0,
               "upper_mhz": 30000.0,
               "tr": "T",
@@ -153516,6 +153517,48 @@
                   "azimuth_west": 360.0
                 }
               ]
+            },
+            {
+              "lower_mhz": 37500.0,
+              "upper_mhz": 42500.0,
+              "tr": "R",
+              "gain_dbi": 55.9,
+              "gain_freq_ghz": 40.0,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "1G20D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "720MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "1G44D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
             }
           ]
         }
@@ -153528,7 +153571,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -153555,14 +153598,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -153576,19 +153619,9 @@
       },
       "exhibits": [
         {
-          "name": "Hidalgo, TX - PCN Reports - GG.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/80bf8250cf958f10ab02f1842f851c8d"
-        },
-        {
-          "name": "Hidalgo, TX - Narrative and Waivers - GG.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b7ed4e9ccf558f10ab02f1842f851c2e"
-        },
-        {
-          "name": "Hidalgo, TX - RadHaz Report - GG.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d25e46dccf558f10ab02f1842f851c5e"
+          "name": "STA Request - Hidalgo, TX (E260424) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d5d2384ccf9017509d5eb42b1f851c92"
         }
       ],
       "filings": [
@@ -153606,10 +153639,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260601-01512",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6c4152d0cf958f10ab02f1842f851c0b",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=51decedccf558f10ab02f1842f851c4a"
+        },
+        {
+          "file_number": "SES-STA-20261027-02917",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02917",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f8af7cc0cf1417509d5eb42b1f851c97",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=ae7f38c0cf1417509d5eb42b1f851ced"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260601-01512",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6c4152d0cf958f10ab02f1842f851c0b",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02917",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f8af7cc0cf1417509d5eb42b1f851c97",
       "flags": [],
       "needs_review": false
     },
@@ -154247,14 +154295,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260428",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-AMD-20261014-02795",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02925",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Whitmore College\" Gateway",
         "street": "12308 HWY 142",
@@ -154280,8 +154328,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 255.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -154783,14 +154831,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -154804,19 +154852,9 @@
       },
       "exhibits": [
         {
-          "name": "Oxford, GA - Narrative and Waivers - Whitmore College.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a9ea16ebcfb347105b2cf9642f851cf6"
-        },
-        {
-          "name": "Oxford, GA - RadHaz Report - Whitmore College.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6dea16ebcfb347105b2cf9642f851cf9"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Oxford, GA.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f30bd6ebcfb347105b2cf9642f851c5a"
+          "name": "STA Request - Oxford, GA (E260428) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/6d34ed8c2f5c1750c7a543ca6fa4e325"
         }
       ],
       "filings": [
@@ -154849,10 +154887,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02795",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/204b5eebcfb347105b2cf9642f851c8f",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=1dea56abcfb347105b2cf9642f851ca4"
+        },
+        {
+          "file_number": "SES-STA-20261027-02925",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02925",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/827421002f9c1750c7a543ca6fa4e378",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=7f54adcc2f5c1750c7a543ca6fa4e3dd"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02795",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/204b5eebcfb347105b2cf9642f851c8f",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02925",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/827421002f9c1750c7a543ca6fa4e378",
       "flags": [],
       "needs_review": false
     },
@@ -156688,14 +156741,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260443",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260612-01754",
-      "latest_filed": "2026-06-12",
+      "latest_file_number": "SES-STA-20261027-02927",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Lito\" Gateway",
         "street": " 702 E Expressway 83",
@@ -156721,8 +156774,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 36.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -156887,48 +156940,6 @@
                   "emission": "1G20D7W",
                   "eirp_dbw": 71.1,
                   "eirp_density": 16.3,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 10.0,
-                  "elevation_west": 10.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
-              "tr": "R",
-              "gain_dbi": 55.9,
-              "gain_freq_ghz": 40.0,
-              "polarization": "T",
-              "in_band": true,
-              "emissions": [
-                {
-                  "emission": "1G20D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "720MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "BPSK up to 256 QAM; Digital Data"
-                },
-                {
-                  "emission": "1G44D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
                   "modulation": "BPSK up to 256 QAM; Digital Data"
                 }
               ],
@@ -157185,6 +157196,48 @@
                   "azimuth_west": 360.0
                 }
               ]
+            },
+            {
+              "lower_mhz": 37500.0,
+              "upper_mhz": 42500.0,
+              "tr": "R",
+              "gain_dbi": 55.9,
+              "gain_freq_ghz": 40.0,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "1G20D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "720MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                },
+                {
+                  "emission": "1G44D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
             }
           ]
         }
@@ -157197,7 +157250,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -157224,14 +157277,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -157245,19 +157298,9 @@
       },
       "exhibits": [
         {
-          "name": "Mission, TX - RadHaz Report - Lito.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d29d39f3931543902c8b752888373c98"
-        },
-        {
-          "name": "Mission, TX - PCN Reports - Lito.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/79cef9f7931543902c8b752888373cc7"
-        },
-        {
-          "name": "Mission, TX - Narrative and Waiver Requests - Lito.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/276d31f3931543902c8b752888373cc2"
+          "name": "STA Request - Mission, TX (E260443) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/2fc52d402f9c1750c7a543ca6fa4e317"
         }
       ],
       "filings": [
@@ -157275,10 +157318,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260612-01754",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ab1f793b931543902c8b752888373c04",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=0e1e71b7931543902c8b752888373c1f"
+        },
+        {
+          "file_number": "SES-STA-20261027-02927",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02927",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5136ad802f9c1750c7a543ca6fa4e34b",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=1a16a9802f9c1750c7a543ca6fa4e34f"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260612-01754",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ab1f793b931543902c8b752888373c04",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02927",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5136ad802f9c1750c7a543ca6fa4e34b",
       "flags": [],
       "needs_review": false
     },
@@ -159144,14 +159202,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260468",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "granted",
       "has_pending": true,
       "grant_date": "2025-05-19",
       "expiration_date": "2040-05-19",
-      "latest_file_number": "SES-AMD-20261014-02800",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-STA-20261027-02926",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Beach Baby\" Gateway",
         "street": " 5301 NW 33rd Ave",
@@ -159177,8 +159235,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 3.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -159680,14 +159738,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -159701,19 +159759,9 @@
       },
       "exhibits": [
         {
-          "name": "Fort Lauderdale, FL - Narrative and Waiver Requests - Beach Baby.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fadf92a7cff347105b2cf9642f851c01"
-        },
-        {
-          "name": "Fort Lauderdale, FL - RadHaz Report - Beach Baby.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/bedf92a7cff347105b2cf9642f851c04"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Fort Lauderdale, FL.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b40026a7cff347105b2cf9642f851ce5"
+          "name": "STA Request - Fort Lauderdale, FL (E260468) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4a156d002f9c1750c7a543ca6fa4e32a"
         }
       ],
       "filings": [
@@ -159821,10 +159869,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02800",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/64302aa7cff347105b2cf9642f851ce2",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=62df1a67cff347105b2cf9642f851c9c"
+        },
+        {
+          "file_number": "SES-STA-20261027-02926",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02926",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/be4525402f9c1750c7a543ca6fa4e344",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=ce35a1402f9c1750c7a543ca6fa4e373"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02800",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/64302aa7cff347105b2cf9642f851ce2",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02926",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/be4525402f9c1750c7a543ca6fa4e344",
       "flags": [],
       "needs_review": false
     },
@@ -161573,14 +161636,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260503",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260722-02071",
-      "latest_filed": "2026-07-22",
+      "latest_file_number": "SES-STA-20261027-02932",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Agua Fria\" Gateway",
         "street": "14725 S Stagecoach Trail",
@@ -161606,8 +161669,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 1151.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -161791,7 +161854,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -162082,7 +162145,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -162109,14 +162172,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -162130,19 +162193,9 @@
       },
       "exhibits": [
         {
-          "name": "Cordes Lake, AZ - Narrative and Waiver Requests.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5d9c8f2893960710667af79f68373c2a"
-        },
-        {
-          "name": "Cordes Lake, AZ - RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/78bccb2893960710667af79f68373c88"
-        },
-        {
-          "name": "Cordes Lake, AZ - Prior Coordination Reports.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/973ec7e893960710667af79f68373c4c"
+          "name": "STA Request - Mayer, AZ (E260503) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/40dced4c2f9c1750c7a543ca6fa4e3f5"
         }
       ],
       "filings": [
@@ -162160,10 +162213,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260722-02071",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/445f036c93960710667af79f68373c6d",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=c01d8b6893960710667af79f68373c5e"
+        },
+        {
+          "file_number": "SES-STA-20261027-02932",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02932",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ce0d658c2f9c1750c7a543ca6fa4e38e",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=87eca18c2f9c1750c7a543ca6fa4e3dc"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260722-02071",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/445f036c93960710667af79f68373c6d",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02932",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ce0d658c2f9c1750c7a543ca6fa4e38e",
       "flags": [],
       "needs_review": false
     },
@@ -167250,14 +167318,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260528",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "granted",
       "has_pending": true,
       "grant_date": "2024-10-22",
       "expiration_date": "2039-10-22",
-      "latest_file_number": "SES-LIC-20260724-02108",
-      "latest_filed": "2026-07-24",
+      "latest_file_number": "SES-STA-20261027-02924",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Coto Laurel Solar Farm\" Gateway",
         "street": "Cam Falso",
@@ -167283,8 +167351,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 90.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -167468,7 +167536,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -167759,7 +167827,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -167786,14 +167854,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -167807,24 +167875,9 @@
       },
       "exhibits": [
         {
-          "name": "Ponce Windmar, PR - Narrative and Waiver Requests.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/18fa7695cf5a0b10b16ffa742f851c0d"
-        },
-        {
-          "name": "Ponce Windmar, PR - RadHaz Report.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/760bfa95cf5a0b10b16ffa742f851cb9"
-        },
-        {
-          "name": "Ponce Windmar, PR - Section 25.136 Protection Criteria Compliance.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fa2bb2d5cf5a0b10b16ffa742f851caf"
-        },
-        {
-          "name": "Ponce Windmar, PR - Prior Coordination Reports.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e2dcf259cf5a0b10b16ffa742f851cc3"
+          "name": "STA Request - Ponce, PR (E260528) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9e23294c2f5c1750c7a543ca6fa4e3b0"
         }
       ],
       "filings": [
@@ -167872,10 +167925,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260724-02108",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b10d3699cf5a0b10b16ffa742f851c80",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=9b5bbad5cf5a0b10b16ffa742f851cc5"
+        },
+        {
+          "file_number": "SES-STA-20261027-02924",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02924",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7183294c2f5c1750c7a543ca6fa4e321",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=3163258c2f5c1750c7a543ca6fa4e313"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260724-02108",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b10d3699cf5a0b10b16ffa742f851c80",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02924",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7183294c2f5c1750c7a543ca6fa4e321",
       "flags": [],
       "needs_review": false
     },
@@ -171633,14 +171701,14 @@
       "applicant": "SpaceX Services, Inc.",
       "frn": "0028167500",
       "callsign": "E260555",
-      "class_of_station": "a. FSS Fixed Earth Station (single location)",
-      "station_type": "individual",
+      "class_of_station": "",
+      "station_type": "other",
       "status": "pending",
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260806-02176",
-      "latest_filed": "2026-08-06",
+      "latest_file_number": "SES-STA-20261027-02928",
+      "latest_filed": "2026-10-27",
       "site": {
         "site_id": "The \"Athens of Texas\" Gateway",
         "street": "4800 Texoma Pkwy",
@@ -171666,8 +171734,8 @@
           "height_agl_m": 1.4,
           "height_amsl_m": 238.0,
           "height_rooftop_m": 1.4,
-          "max_input_power_w": 210.0,
-          "max_eirp_dbw": 84.2,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
           "bands": [
             {
               "lower_mhz": 102000.0,
@@ -171851,7 +171919,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42000.0,
+              "upper_mhz": 42500.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -172142,7 +172210,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42000.0,
+          "upper_mhz": 42500.0,
           "tr": "R"
         },
         {
@@ -172169,14 +172237,14 @@
       "max_eirp_density": 13.1,
       "points_of_communication": [
         {
-          "name": "SPACEX GEN2 (S3069)",
-          "itu_name": "SpaceX GEN2 (S3069)",
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "SPACEX (S2983/3018)",
-          "itu_name": "SPACEX (S2983/3018)",
+          "name": "SpaceX Gen1 (S2983/3018)",
+          "itu_name": "SpaceX Gen1 (S2983/3018)",
           "orbit": "NGSO",
           "country": ""
         }
@@ -172190,19 +172258,9 @@
       },
       "exhibits": [
         {
-          "name": "Narrative and Waiver Requests - Athens of Texas Gateway - Sherman, TX.pdf",
-          "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/06fc646dcf6e43905b2cf9642f851cbc"
-        },
-        {
-          "name": "RadHaz Report - Athens of Texas Gateway - Sherman, TX.pdf",
-          "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/be6da46dcf6e43905b2cf9642f851c6c"
-        },
-        {
-          "name": "PCN Report - Athens of Texas Gateway - Sherman, TX.pdf",
-          "description": "",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b22c05e53ba24b1457e7af6906e45a81"
+          "name": "STA Request - Sherman, TX (E260555) - 42-42.5 GHz.pdf",
+          "description": "Attach a statement explaining the waiver request and identifying the rule number(s) involved:",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e7d621c02f9c1750c7a543ca6fa4e3b0"
         }
       ],
       "filings": [
@@ -172220,10 +172278,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260806-02176",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f15cc1293ba24b1457e7af6906e45a3d",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=339b05653ba24b1457e7af6906e45a2e"
+        },
+        {
+          "file_number": "SES-STA-20261027-02928",
+          "filing_type": "STA",
+          "filing_type_label": "Special Temporary Authority",
+          "filed": "2026-10-27",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02928",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8817e1042f9c1750c7a543ca6fa4e30f",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=a8f6edc02f9c1750c7a543ca6fa4e3c6"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260806-02176",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f15cc1293ba24b1457e7af6906e45a3d",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-STA-20261027-02928",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8817e1042f9c1750c7a543ca6fa4e30f",
       "flags": [],
       "needs_review": false
     },
@@ -184853,8 +184926,8 @@
       "callsign": "E260691",
       "class_of_station": "a. FSS Fixed Earth Station (single location)",
       "station_type": "individual",
-      "status": "pending payment",
-      "has_pending": false,
+      "status": "pending",
+      "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
       "latest_file_number": "SES-LIC-20260914-02562",
@@ -185066,12 +185139,12 @@
           "filing_type": "LIC",
           "filing_type_label": "License",
           "filed": "2026-10-20",
-          "state": "Pending Payment",
+          "state": "Pending Review",
           "last_action": "",
           "action_date": "",
           "grant_date": "",
           "expiration_date": "",
-          "status": "other",
+          "status": "pending",
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260914-02562",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/04ba36a13b00d310264ea2d964e45a95",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=796e16cecf5b83105b2cf9642f851c7f"
@@ -186581,6 +186654,198 @@
       "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=a68d1c8d47dae610418b674c926d43b5",
       "flags": [],
       "needs_review": false
+    },
+    {
+      "id": "E910609-rmt-9-ka",
+      "applicant": "SpeedCast Communications Inc.",
+      "frn": "0001643766",
+      "callsign": "E910609",
+      "class_of_station": "FES",
+      "station_type": "individual",
+      "status": "pending",
+      "has_pending": true,
+      "grant_date": "",
+      "expiration_date": "",
+      "latest_file_number": "SES-RWL-20261019-02875",
+      "latest_filed": "2026-10-23",
+      "site": {
+        "site_id": "RMT-9(KA)",
+        "street": "4400 SOUTH SAM HOUSTON PKWY",
+        "city": "CONUS (10 UNITS)",
+        "county": "",
+        "state": "",
+        "zip": "",
+        "lat": null,
+        "lon": null,
+        "elevation_m": null,
+        "datum": "na",
+        "area_of_operation": ""
+      },
+      "antennas": [
+        {
+          "antenna_id": "RMT-9(KA)",
+          "quantity": 10.0,
+          "manufacturer": "INTELLIAN",
+          "model": "V240MT",
+          "diameter_m": 2.4,
+          "diameter_minor_m": null,
+          "diameter_major_m": null,
+          "height_agl_m": null,
+          "height_amsl_m": null,
+          "height_rooftop_m": null,
+          "max_input_power_w": 31.6,
+          "max_eirp_dbw": 65.7,
+          "bands": [
+            {
+              "lower_mhz": 19700.0,
+              "upper_mhz": 20200.0,
+              "tr": "R",
+              "gain_dbi": 48.8,
+              "gain_freq_ghz": 18.7,
+              "polarization": "S",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "DIGITAL"
+                }
+              ],
+              "satellite_arcs": []
+            },
+            {
+              "lower_mhz": 29300.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 50.7,
+              "gain_freq_ghz": 28.875,
+              "polarization": "S",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 65.7,
+                  "eirp_density": 35.7,
+                  "modulation": "DIGITAL"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 8.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 18300.0,
+              "upper_mhz": 18800.0,
+              "tr": "R",
+              "gain_dbi": 48.8,
+              "gain_freq_ghz": 18.7,
+              "polarization": "S",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "DIGITAL"
+                }
+              ],
+              "satellite_arcs": []
+            },
+            {
+              "lower_mhz": 28350.0,
+              "upper_mhz": 28600.0,
+              "tr": "T",
+              "gain_dbi": 50.7,
+              "gain_freq_ghz": 28.875,
+              "polarization": "S",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 65.7,
+                  "eirp_density": 35.7,
+                  "modulation": "DIGITAL"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 8.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "band_ranges": [
+        {
+          "lower_mhz": 28350.0,
+          "upper_mhz": 28600.0,
+          "tr": "T"
+        }
+      ],
+      "emissions": [
+        "20M0G7D"
+      ],
+      "max_eirp_dbw": 65.7,
+      "max_eirp_density": 35.7,
+      "points_of_communication": [
+        {
+          "name": "PERMITTED LIST",
+          "itu_name": "Permitted Space Station List",
+          "orbit": "GSO",
+          "country": "US"
+        }
+      ],
+      "coordination": {
+        "freq_coord_required": "no",
+        "foreign_coord_required": "na",
+        "faa_notification": "no",
+        "comply_25209a": "yes",
+        "comply_25209a2": "na"
+      },
+      "exhibits": [],
+      "filings": [
+        {
+          "file_number": "SES-RWL-20261019-02875",
+          "filing_type": "RWL",
+          "filing_type_label": "Renewal",
+          "filed": "2026-10-23",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "2041-11-29",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-RWL-20261019-02875",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7aa0b3ea3b0c9b10264ea2d964e45a9b",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=57766ed53b445310264ea2d964e45afb"
+        }
+      ],
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-RWL-20261019-02875",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7aa0b3ea3b0c9b10264ea2d964e45a9b",
+      "flags": [
+        "individual site has no coordinates"
+      ],
+      "needs_review": true
     },
     {
       "id": "274126N0992659W-0006650683",
@@ -213716,8 +213981,8 @@
       "has_pending": true,
       "grant_date": "2019-11-15",
       "expiration_date": "2034-11-15",
-      "latest_file_number": "SES-MOD-20260622-01860",
-      "latest_filed": "2026-08-28",
+      "latest_file_number": "SES-MOD-20261009-02730",
+      "latest_filed": "2026-10-23",
       "site": {
         "site_id": "1",
         "street": "",
@@ -213729,7 +213994,7 @@
         "lon": null,
         "elevation_m": null,
         "datum": "",
-        "area_of_operation": ""
+        "area_of_operation": "Global"
       },
       "antennas": [
         {
@@ -213764,15 +214029,26 @@
               ],
               "satellite_arcs": [
                 {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
                   "sat_orbit_type": "G",
-                  "sat_arc_east": 69.9,
-                  "sat_hemi_east": "W",
-                  "sat_arc_west": 115.1,
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
-                  "azimuth_east": 270.0,
-                  "azimuth_west": 90.0
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
                 }
               ]
             },
@@ -213786,41 +214062,52 @@
               "in_band": false,
               "emissions": [
                 {
-                  "emission": "20M0G7D",
+                  "emission": "40M0G7D",
                   "eirp_dbw": 49.3,
-                  "eirp_density": 12.3,
-                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                  "eirp_density": 9.3,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
                 },
                 {
                   "emission": "80M0G7D",
                   "eirp_dbw": 49.3,
-                  "eirp_density": 6.2897,
+                  "eirp_density": 6.28,
                   "modulation": "80 MBd M-ary PSK, Digital Carrier"
                 },
                 {
                   "emission": "160MG7D",
                   "eirp_dbw": 49.3,
-                  "eirp_density": 3.2794,
+                  "eirp_density": 3.27,
                   "modulation": "160 MBd M-ary PSK, Digital Carrier"
                 },
                 {
-                  "emission": "40M0G7D",
+                  "emission": "20M0G7D",
                   "eirp_dbw": 49.3,
-                  "eirp_density": 9.299,
-                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                  "eirp_density": 12.3,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
                 }
               ],
               "satellite_arcs": [
                 {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
                   "sat_orbit_type": "G",
-                  "sat_arc_east": 69.9,
-                  "sat_hemi_east": "W",
-                  "sat_arc_west": 115.1,
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
-                  "azimuth_east": 270.0,
-                  "azimuth_west": 90.0
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
                 }
               ]
             },
@@ -213836,7 +214123,7 @@
                 {
                   "emission": "160MG7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 2.8794,
+                  "eirp_density": 2.87,
                   "modulation": "160 MBd M-ary PSK, Digital Carrier"
                 },
                 {
@@ -213848,27 +214135,27 @@
                 {
                   "emission": "40M0G7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 8.899,
+                  "eirp_density": 8.9,
                   "modulation": "40 MBd M-ary PSK, Digital Carrier"
                 },
                 {
                   "emission": "80M0G7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 5.8897,
+                  "eirp_density": 5.88,
                   "modulation": "80 MBd M-ary PSK, Digital Carrier"
                 }
               ],
               "satellite_arcs": [
                 {
                   "sat_orbit_type": "G",
-                  "sat_arc_east": 69.9,
-                  "sat_hemi_east": "W",
-                  "sat_arc_west": 115.1,
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
-                  "azimuth_east": 270.0,
-                  "azimuth_west": 90.0
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
                 }
               ]
             },
@@ -213882,29 +214169,29 @@
               "in_band": false,
               "emissions": [
                 {
-                  "emission": "500MG7D",
-                  "eirp_dbw": 0.0,
-                  "eirp_density": 0.0,
-                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
-                },
-                {
                   "emission": "417MG7D",
                   "eirp_dbw": 0.0,
                   "eirp_density": 0.0,
                   "modulation": "417 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
                 }
               ],
               "satellite_arcs": [
                 {
                   "sat_orbit_type": "G",
-                  "sat_arc_east": 69.9,
-                  "sat_hemi_east": "W",
-                  "sat_arc_west": 115.1,
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
-                  "azimuth_east": 270.0,
-                  "azimuth_west": 90.0
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
                 }
               ]
             },
@@ -213920,19 +214207,19 @@
                 {
                   "emission": "40M0G7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 8.899,
+                  "eirp_density": 8.9,
                   "modulation": "40 MBd M-ary PSK, Digital Carrier"
                 },
                 {
                   "emission": "80M0G7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 5.8897,
+                  "eirp_density": 5.88,
                   "modulation": "80 MBd M-ary PSK, Digital Carrier"
                 },
                 {
                   "emission": "160MG7D",
                   "eirp_dbw": 48.9,
-                  "eirp_density": 2.8794,
+                  "eirp_density": 2.87,
                   "modulation": "160 MBd M-ary PSK, Digital Carrier"
                 },
                 {
@@ -213945,14 +214232,14 @@
               "satellite_arcs": [
                 {
                   "sat_orbit_type": "G",
-                  "sat_arc_east": 69.9,
-                  "sat_hemi_east": "W",
-                  "sat_arc_west": 115.1,
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
-                  "azimuth_east": 270.0,
-                  "azimuth_west": 90.0
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
                 }
               ]
             }
@@ -213987,12 +214274,6 @@
           "country": ""
         },
         {
-          "name": "ANIK F2 (S2472/S2646)",
-          "itu_name": "ANIK F2 (S2472/S2646)",
-          "orbit": "111.1° W.L.",
-          "country": "CA"
-        },
-        {
           "name": "VIASAT-1 (S2747)",
           "itu_name": "VIASAT-1 (S2747)",
           "orbit": "115.1W.L.",
@@ -214005,9 +214286,45 @@
           "country": ""
         },
         {
-          "name": "ViaSat-3F2",
-          "itu_name": "VIASAT-79W(S3113)",
-          "orbit": "79.0 W.L.",
+          "name": "ANIK F2 (S2472/S2646)",
+          "itu_name": "ANIK F2 (S2472/S2646)",
+          "orbit": "111.1° W.L.",
+          "country": ""
+        },
+        {
+          "name": "ASBM (S2978)",
+          "itu_name": "ASBM",
+          "orbit": "NGSO",
+          "country": "NOR"
+        },
+        {
+          "name": "PERMITTED LIST",
+          "itu_name": "Permitted Space Station List",
+          "orbit": "GSO",
+          "country": "USA"
+        },
+        {
+          "name": "INMARSAT 5F1",
+          "itu_name": "INMARSAT 5F1",
+          "orbit": "63 E.L.",
+          "country": "USA"
+        },
+        {
+          "name": "INMARSAT 5F2",
+          "itu_name": "INMARSAT 5F2",
+          "orbit": "55.0 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "INMARSAT 5F3",
+          "itu_name": "INMARSAT 5F3",
+          "orbit": "179.6 E.L.",
+          "country": "USA"
+        },
+        {
+          "name": "VIASAT-3F3",
+          "itu_name": "VIASAT-3F3",
+          "orbit": "158.55° E.L.",
           "country": "USA"
         }
       ],
@@ -214020,44 +214337,44 @@
       },
       "exhibits": [
         {
+          "name": "Exhibit-A.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c38a478693fb0f10667af79f68373c46"
+        },
+        {
+          "name": "Narrative.pdf",
+          "description": "Modification Narrative",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/525e969a93089b10dec6791d48373cd5"
+        },
+        {
           "name": "Attachment 1.pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f4e0040bcf698310a015fb642f851c62"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/cf8a478693fb0f10667af79f68373c27"
         },
         {
           "name": "SESLIC2019041100503..pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/34e0040bcf698310a015fb642f851c66"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/cf8a478693fb0f10667af79f68373c38"
         },
         {
           "name": "Application.pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fce0040bcf698310a015fb642f851c69"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/078a478693fb0f10667af79f68373c3c"
         },
         {
           "name": "HTML.htm",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b8e0040bcf698310a015fb642f851c6d"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4b8a478693fb0f10667af79f68373c3f"
         },
         {
           "name": "Exhibit-C.pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/45e0040bcf698310a015fb642f851c71"
-        },
-        {
-          "name": "Exhibit-A.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/01e0040bcf698310a015fb642f851c75"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8f8a478693fb0f10667af79f68373c42"
         },
         {
           "name": "Exhibit-B.pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c9e0040bcf698310a015fb642f851c78"
-        },
-        {
-          "name": "E190201 Narrative - ViaSat-3F2.pdf",
-          "description": "E190201 Narrative - ViaSat-3F2",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f4b9d766cf12475006fffff42f851c2e"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/0b8a478693fb0f10667af79f68373c49"
         }
       ],
       "filings": [
@@ -214105,10 +214422,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20260622-01860",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7b71536c3b8f8b100c6492ac24e45aeb",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=78e0040bcf698310a015fb642f851c55"
+        },
+        {
+          "file_number": "SES-MOD-20261009-02730",
+          "filing_type": "MOD",
+          "filing_type_label": "Modification",
+          "filed": "2026-10-23",
+          "state": "Pending Review",
+          "last_action": "Granted",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20261009-02730",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/87d4926ecfcc1b10cd85b0113d851c0a",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=b28a078693fb0f10667af79f68373ce3"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20260622-01860",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7b71536c3b8f8b100c6492ac24e45aeb",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20261009-02730",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/87d4926ecfcc1b10cd85b0113d851c0a",
       "flags": [],
       "needs_review": false
     },
@@ -315303,8 +315635,8 @@
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-LIC-20260602-01527",
-      "latest_filed": "2026-06-15",
+      "latest_file_number": "SES-AMD-20260921-02627",
+      "latest_filed": "2026-10-23",
       "site": {
         "site_id": "Aero-1",
         "street": "",
@@ -315398,6 +315730,17 @@
                   "sat_hemi_east": "E",
                   "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
                   "azimuth_east": "0",
@@ -315554,6 +315897,17 @@
                   "sat_hemi_east": "E",
                   "sat_arc_west": 180.0,
                   "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
                   "elevation_east": 5.0,
                   "elevation_west": 5.0,
                   "azimuth_east": "0",
@@ -315840,26 +316194,32 @@
       "max_eirp_density": 11.130899,
       "points_of_communication": [
         {
-          "name": "PERMITTED LIST",
-          "itu_name": "Permitted Space Station List",
-          "orbit": "GSO",
-          "country": "US"
+          "name": "ABSM (S2978)",
+          "itu_name": "ABSM",
+          "orbit": "NGSO",
+          "country": "USA"
+        },
+        {
+          "name": "VIASAT-3F3",
+          "itu_name": "VIASAT-3F3",
+          "orbit": "158.55° E.L.",
+          "country": "USA"
         },
         {
           "name": "ViaSat-1",
-          "itu_name": "",
+          "itu_name": "VIASAT-1 (S2747)",
           "orbit": "115 W.L.",
           "country": "GBR"
         },
         {
           "name": "ViaSat-2",
-          "itu_name": "",
+          "itu_name": "VIASAT-2 (S2902)",
           "orbit": "69.9 W.L.",
           "country": "USA"
         },
         {
           "name": "ViaSat-3 F1",
-          "itu_name": "",
+          "itu_name": "VIASAT-3 (S2917)",
           "orbit": "89 W.L.",
           "country": "USA"
         },
@@ -315868,6 +316228,18 @@
           "itu_name": "INMARSAT 5F1",
           "orbit": "63 E.L.",
           "country": "GBR"
+        },
+        {
+          "name": "ViaSat-3F2",
+          "itu_name": "ViaSat-3F2",
+          "orbit": "79 W.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "PERMITTED LIST",
+          "itu_name": "Permitted Space Station List",
+          "orbit": "GSO",
+          "country": "OTHR"
         }
       ],
       "coordination": {
@@ -315881,17 +316253,22 @@
         {
           "name": "Narrative - ESAA - JetWaveX.pdf",
           "description": "Narrative",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f4005efccfa50710a015fb642f851c7c"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f7d5a554cf6f0b10c2eff2c42f851c13"
         },
         {
           "name": "Exhibit A Technical Annex.pdf",
           "description": "Technical Annex",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4010defccfa50710a015fb642f851c2c"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b3d5a554cf6f0b10c2eff2c42f851c18"
         },
         {
           "name": "Exhibit C Radhaz.pdf",
           "description": "Radiation Hazard Analysis",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c02092bccfa50710a015fb642f851cb7"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/b7d5a554cf6f0b10c2eff2c42f851c28"
+        },
+        {
+          "name": "Amendment Narrative.pdf",
+          "description": "Amendment Narrative",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/7680eade93089b10dec6791d48373c85"
         }
       ],
       "filings": [
@@ -315909,10 +316286,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260602-01527",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3b619e70cfe50710a015fb642f851c95",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=652482eccf9503504470b6770f851c8c"
+        },
+        {
+          "file_number": "SES-AMD-20260921-02627",
+          "filing_type": "AMD",
+          "filing_type_label": "Amendment",
+          "filed": "2026-10-23",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20260921-02627",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9ff556eecfcc1b10cd85b0113d851c17",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=e3d56554cf6f0b10c2eff2c42f851ceb"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260602-01527",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3b619e70cfe50710a015fb642f851c95",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20260921-02627",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/9ff556eecfcc1b10cd85b0113d851c17",
       "flags": [],
       "needs_review": false
     },
@@ -316491,6 +316883,1334 @@
       ],
       "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260817-02331",
       "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/0dd75cc193eb0b10667af79f68373c48",
+      "flags": [],
+      "needs_review": false
+    },
+    {
+      "id": "E260692-aero-1",
+      "applicant": "Viasat, Inc.",
+      "frn": "0004963088",
+      "callsign": "E260692",
+      "class_of_station": "f. FSS Earth Station In Motion (ESIM): ESAA",
+      "station_type": "esim",
+      "status": "pending",
+      "has_pending": true,
+      "grant_date": "",
+      "expiration_date": "",
+      "latest_file_number": "SES-LIC-20260818-02351",
+      "latest_filed": "2026-10-23",
+      "site": {
+        "site_id": "Aero-1",
+        "street": "",
+        "city": "",
+        "county": "",
+        "state": "",
+        "zip": "",
+        "lat": null,
+        "lon": null,
+        "elevation_m": null,
+        "datum": "",
+        "area_of_operation": "Global"
+      },
+      "antennas": [
+        {
+          "antenna_id": "VGX30",
+          "quantity": 999999.0,
+          "manufacturer": "Orbit",
+          "model": "VGX30",
+          "diameter_m": 0.3,
+          "diameter_minor_m": 0.3,
+          "diameter_major_m": 0.3,
+          "height_agl_m": null,
+          "height_amsl_m": null,
+          "height_rooftop_m": null,
+          "max_input_power_w": 25.0,
+          "max_eirp_dbw": 52.5,
+          "bands": [
+            {
+              "lower_mhz": 19700.0,
+              "upper_mhz": 20200.0,
+              "tr": "R",
+              "gain_dbi": 33.42,
+              "gain_freq_ghz": 20.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "471MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "417 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "29M1G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "29.09 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "30M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "30 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "45M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "45 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17700.0,
+              "upper_mhz": 18800.0,
+              "tr": "R",
+              "gain_dbi": 32.5,
+              "gain_freq_ghz": 18.55,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "471MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "417 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "29M1G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "29.09 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "30M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "30 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "45M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "45 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 29300.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 38.0,
+              "gain_freq_ghz": 30.0,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "800K1GD",
+                  "eirp_dbw": 35.4,
+                  "eirp_density": 12.3897,
+                  "modulation": "800 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M00G1D",
+                  "eirp_dbw": 36.3,
+                  "eirp_density": 12.3205999,
+                  "modulation": "1 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M50G1D",
+                  "eirp_dbw": 38.1,
+                  "eirp_density": 12.3596873,
+                  "modulation": "1.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": 46.3,
+                  "eirp_density": 12.3205999,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": 52.4,
+                  "eirp_density": 12.4,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "80M0G1D",
+                  "eirp_dbw": 52.5,
+                  "eirp_density": 9.4897,
+                  "modulation": "80 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "600KG1D",
+                  "eirp_dbw": 34.1,
+                  "eirp_density": 12.3390874,
+                  "modulation": "600 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "160MG1D",
+                  "eirp_dbw": 52.5,
+                  "eirp_density": 6.4794001,
+                  "modulation": "160 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M90G1D",
+                  "eirp_dbw": 44.0,
+                  "eirp_density": 12.3120798,
+                  "modulation": "5.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 45.6,
+                  "eirp_density": 12.3778071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M00G1D",
+                  "eirp_dbw": 43.3,
+                  "eirp_density": 12.3308999,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "2M00G1D",
+                  "eirp_dbw": 39.3,
+                  "eirp_density": 12.3103,
+                  "modulation": "2 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": 49.3,
+                  "eirp_density": 12.3103,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M90G1D",
+                  "eirp_dbw": 42.2,
+                  "eirp_density": 12.3099538,
+                  "modulation": "3.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M00G1D",
+                  "eirp_dbw": 42.4,
+                  "eirp_density": 12.4,
+                  "modulation": "4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M50G1D",
+                  "eirp_dbw": 43.7,
+                  "eirp_density": 12.316973,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "6M90G1D",
+                  "eirp_dbw": 44.7,
+                  "eirp_density": 12.332109,
+                  "modulation": "6.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M00G1D",
+                  "eirp_dbw": 41.1,
+                  "eirp_density": 12.3493874,
+                  "modulation": "3 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M50G1D",
+                  "eirp_dbw": 41.8,
+                  "eirp_density": 12.3799195,
+                  "modulation": "3.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M50G1D",
+                  "eirp_dbw": 42.9,
+                  "eirp_density": 12.3884748,
+                  "modulation": "4.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M80G1D",
+                  "eirp_dbw": 41.7,
+                  "eirp_density": 11.9227639,
+                  "modulation": "3.8 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "7M90G1D",
+                  "eirp_dbw": 45.3,
+                  "eirp_density": 12.344329,
+                  "modulation": "7.9 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 27500.0,
+              "upper_mhz": 28600.0,
+              "tr": "T",
+              "gain_dbi": 37.2,
+              "gain_freq_ghz": 28.5,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": 45.9,
+                  "eirp_density": 11.9205999,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "80M0G1D",
+                  "eirp_dbw": 51.2,
+                  "eirp_density": 8.1897,
+                  "modulation": "80 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "320MG1D",
+                  "eirp_dbw": 51.2,
+                  "eirp_density": 2.1691001,
+                  "modulation": "320 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "600KG1D",
+                  "eirp_dbw": 33.7,
+                  "eirp_density": 11.9390874,
+                  "modulation": "600 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "800K1GD",
+                  "eirp_dbw": 35.0,
+                  "eirp_density": 11.9897,
+                  "modulation": "800 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M00G1D",
+                  "eirp_dbw": 35.9,
+                  "eirp_density": 11.9205999,
+                  "modulation": "1 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M50G1D",
+                  "eirp_dbw": 37.7,
+                  "eirp_density": 11.9596873,
+                  "modulation": "1.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M80G1D",
+                  "eirp_dbw": 41.7,
+                  "eirp_density": 11.9227639,
+                  "modulation": "3.8 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M90G1D",
+                  "eirp_dbw": 41.8,
+                  "eirp_density": 11.9099538,
+                  "modulation": "3.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M50G1D",
+                  "eirp_dbw": 43.3,
+                  "eirp_density": 11.916973,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": 51.2,
+                  "eirp_density": 11.2,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "160MG1D",
+                  "eirp_dbw": 51.2,
+                  "eirp_density": 5.1794001,
+                  "modulation": "160 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M00G1D",
+                  "eirp_dbw": 40.7,
+                  "eirp_density": 11.9493874,
+                  "modulation": "3 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M50G1D",
+                  "eirp_dbw": 41.4,
+                  "eirp_density": 11.9799195,
+                  "modulation": "3.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M50G1D",
+                  "eirp_dbw": 42.5,
+                  "eirp_density": 11.9884748,
+                  "modulation": "4.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M00G1D",
+                  "eirp_dbw": 42.9,
+                  "eirp_density": 11.9308999,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M90G1D",
+                  "eirp_dbw": 43.6,
+                  "eirp_density": 11.9120798,
+                  "modulation": "5.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 45.2,
+                  "eirp_density": 11.9778071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": 48.9,
+                  "eirp_density": 11.9103,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "2M00G1D",
+                  "eirp_dbw": 38.9,
+                  "eirp_density": 11.9103,
+                  "modulation": "2 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M00G1D",
+                  "eirp_dbw": 42.0,
+                  "eirp_density": 12.0,
+                  "modulation": "4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "6M90G1D",
+                  "eirp_dbw": 44.3,
+                  "eirp_density": 11.932109,
+                  "modulation": "6.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "7M90G1D",
+                  "eirp_dbw": 44.9,
+                  "eirp_density": 11.944329,
+                  "modulation": "7.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 45.2,
+                  "eirp_density": 11.9778071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "band_ranges": [
+        {
+          "lower_mhz": 27500.0,
+          "upper_mhz": 28600.0,
+          "tr": "T"
+        }
+      ],
+      "emissions": [
+        "10M0G1D",
+        "160MG1D",
+        "1M00G1D",
+        "1M50G1D",
+        "20M0G1D",
+        "2M00G1D",
+        "320MG1D",
+        "3M00G1D",
+        "3M50G1D",
+        "3M80G1D",
+        "3M90G1D",
+        "40M0G1D",
+        "4M00G1D",
+        "4M50G1D",
+        "5M00G1D",
+        "5M50G1D",
+        "5M90G1D",
+        "600KG1D",
+        "6M90G1D",
+        "7M90G1D",
+        "800K1GD",
+        "80M0G1D",
+        "8M40G1D"
+      ],
+      "max_eirp_dbw": 51.2,
+      "max_eirp_density": 12.0,
+      "points_of_communication": [
+        {
+          "name": "ViaSat-3 F2",
+          "itu_name": "UK-KA-7",
+          "orbit": "79 W.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "ViaSat-1",
+          "itu_name": "VIASAT-1 (S2747)",
+          "orbit": "115 W.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "ViaSat-2",
+          "itu_name": "VIASAT-2 (S2902)",
+          "orbit": "69.9 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "ViaSat-3 F1",
+          "itu_name": "VIASAT-3 (S2917)",
+          "orbit": "89 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "INMARSAT 5F1",
+          "itu_name": "INMARSAT 5F1",
+          "orbit": "63 E.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "PERMITTED LIST",
+          "itu_name": "Permitted Space Station List",
+          "orbit": "GSO",
+          "country": "OTHR"
+        },
+        {
+          "name": "ASBM",
+          "itu_name": "ABSM",
+          "orbit": "NGSO",
+          "country": "NOR"
+        },
+        {
+          "name": "VIASAT-3F3",
+          "itu_name": "VIASAT-3F3",
+          "orbit": "158.55° E.L.",
+          "country": "USA"
+        }
+      ],
+      "coordination": {
+        "freq_coord_required": "no",
+        "foreign_coord_required": "no",
+        "faa_notification": "no",
+        "comply_25209a": "no",
+        "comply_25209a2": "na"
+      },
+      "exhibits": [
+        {
+          "name": "Narrative.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/44ac1466cf441b10cd52f1642f851ca4"
+        },
+        {
+          "name": "Exhibit A Technical Narrative.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c6ac1c66cf441b10cd52f1642f851c47"
+        },
+        {
+          "name": "Exhibit C Radhaz.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fbac1c66cf441b10cd52f1642f851c82"
+        }
+      ],
+      "filings": [
+        {
+          "file_number": "SES-LIC-20260818-02351",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2026-10-23",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260818-02351",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c1bb9026cf441b10cd52f1642f851cad",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=b5df7f9d3b7a4b107be9f5ac24e45a15"
+        }
+      ],
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260818-02351",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c1bb9026cf441b10cd52f1642f851cad",
+      "flags": [],
+      "needs_review": false
+    },
+    {
+      "id": "E260692-aero-2",
+      "applicant": "Viasat, Inc.",
+      "frn": "0004963088",
+      "callsign": "E260692",
+      "class_of_station": "f. FSS Earth Station In Motion (ESIM): ESAA",
+      "station_type": "esim",
+      "status": "pending",
+      "has_pending": true,
+      "grant_date": "",
+      "expiration_date": "",
+      "latest_file_number": "SES-LIC-20260818-02351",
+      "latest_filed": "2026-10-23",
+      "site": {
+        "site_id": "Aero-2",
+        "street": "",
+        "city": "",
+        "county": "",
+        "state": "",
+        "zip": "",
+        "lat": null,
+        "lon": null,
+        "elevation_m": null,
+        "datum": "",
+        "area_of_operation": "Global"
+      },
+      "antennas": [
+        {
+          "antenna_id": "G18",
+          "quantity": 999999.0,
+          "manufacturer": "Viasat, Inc.",
+          "model": "G18",
+          "diameter_m": 0.45,
+          "diameter_minor_m": 0.45,
+          "diameter_major_m": 0.45,
+          "height_agl_m": null,
+          "height_amsl_m": null,
+          "height_rooftop_m": null,
+          "max_input_power_w": 25.0,
+          "max_eirp_dbw": 54.2,
+          "bands": [
+            {
+              "lower_mhz": 19700.0,
+              "upper_mhz": 20200.0,
+              "tr": "R",
+              "gain_dbi": 33.42,
+              "gain_freq_ghz": 20.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "471MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "417 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "29M1G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "29.09 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "30M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "30 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "45M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "45 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17700.0,
+              "upper_mhz": 18800.0,
+              "tr": "R",
+              "gain_dbi": 32.5,
+              "gain_freq_ghz": 18.55,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "471MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "417 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "500 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "29M1G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "29.09 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "30M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "30 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "45M0G1D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "45 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 29300.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 40.2,
+              "gain_freq_ghz": 30.0,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "800K1GD",
+                  "eirp_dbw": 38.35,
+                  "eirp_density": 15.3397,
+                  "modulation": "800 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M00G1D",
+                  "eirp_dbw": 39.32,
+                  "eirp_density": 15.3405999,
+                  "modulation": "1 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M50G1D",
+                  "eirp_dbw": 41.08,
+                  "eirp_density": 15.3396873,
+                  "modulation": "1.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": 46.3,
+                  "eirp_density": 12.3205999,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": 49.32,
+                  "eirp_density": 9.32,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M80G1D",
+                  "eirp_dbw": 45.11,
+                  "eirp_density": 15.3327639,
+                  "modulation": "3.8 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "7M90G1D",
+                  "eirp_dbw": 48.29,
+                  "eirp_density": 15.334329,
+                  "modulation": "7.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "80M0G1D",
+                  "eirp_dbw": 54.16,
+                  "eirp_density": 11.1497,
+                  "modulation": "80 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "600KG1D",
+                  "eirp_dbw": 37.1,
+                  "eirp_density": 15.3390874,
+                  "modulation": "600 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "160MG1D",
+                  "eirp_dbw": 54.16,
+                  "eirp_density": 8.1394001,
+                  "modulation": "160 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M90G1D",
+                  "eirp_dbw": 47.03,
+                  "eirp_density": 15.3420798,
+                  "modulation": "5.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 48.56,
+                  "eirp_density": 15.3378071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M00G1D",
+                  "eirp_dbw": 46.31,
+                  "eirp_density": 15.3408999,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "2M00G1D",
+                  "eirp_dbw": 42.33,
+                  "eirp_density": 15.3403,
+                  "modulation": "2 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": 52.33,
+                  "eirp_density": 15.3403,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M90G1D",
+                  "eirp_dbw": 45.23,
+                  "eirp_density": 15.3399538,
+                  "modulation": "3.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M00G1D",
+                  "eirp_dbw": 45.34,
+                  "eirp_density": 15.34,
+                  "modulation": "4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M50G1D",
+                  "eirp_dbw": 46.72,
+                  "eirp_density": 15.336973,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "6M90G1D",
+                  "eirp_dbw": 47.71,
+                  "eirp_density": 15.342109,
+                  "modulation": "6.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M00G1D",
+                  "eirp_dbw": 44.09,
+                  "eirp_density": 15.3393874,
+                  "modulation": "3 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M50G1D",
+                  "eirp_dbw": 44.76,
+                  "eirp_density": 15.3399195,
+                  "modulation": "3.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M50G1D",
+                  "eirp_dbw": 45.85,
+                  "eirp_density": 15.3384748,
+                  "modulation": "4.5 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 27500.0,
+              "upper_mhz": 28600.0,
+              "tr": "T",
+              "gain_dbi": 39.7,
+              "gain_freq_ghz": 28.5,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 48.49,
+                  "eirp_density": 15.2678071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "10M0G1D",
+                  "eirp_dbw": 49.25,
+                  "eirp_density": 15.2705999,
+                  "modulation": "10 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "80M0G1D",
+                  "eirp_dbw": 53.68,
+                  "eirp_density": 10.6697,
+                  "modulation": "80 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "320MG1D",
+                  "eirp_dbw": 53.68,
+                  "eirp_density": 4.6491001,
+                  "modulation": "320 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "600KG1D",
+                  "eirp_dbw": 37.03,
+                  "eirp_density": 15.2690874,
+                  "modulation": "600 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "800K1GD",
+                  "eirp_dbw": 38.28,
+                  "eirp_density": 15.2697,
+                  "modulation": "800 kBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M00G1D",
+                  "eirp_dbw": 39.25,
+                  "eirp_density": 15.2705999,
+                  "modulation": "1 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "1M50G1D",
+                  "eirp_dbw": 41.01,
+                  "eirp_density": 15.2696873,
+                  "modulation": "1.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M80G1D",
+                  "eirp_dbw": 45.04,
+                  "eirp_density": 15.2627639,
+                  "modulation": "3.8 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M90G1D",
+                  "eirp_dbw": 45.16,
+                  "eirp_density": 15.2699538,
+                  "modulation": "3.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M50G1D",
+                  "eirp_dbw": 46.65,
+                  "eirp_density": 15.266973,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "40M0G1D",
+                  "eirp_dbw": 53.68,
+                  "eirp_density": 13.68,
+                  "modulation": "40 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "160MG1D",
+                  "eirp_dbw": 53.68,
+                  "eirp_density": 7.6594001,
+                  "modulation": "160 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M00G1D",
+                  "eirp_dbw": 44.02,
+                  "eirp_density": 15.2693874,
+                  "modulation": "3 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "3M50G1D",
+                  "eirp_dbw": 44.69,
+                  "eirp_density": 15.2699195,
+                  "modulation": "3.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M50G1D",
+                  "eirp_dbw": 45.78,
+                  "eirp_density": 15.2684748,
+                  "modulation": "4.5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M00G1D",
+                  "eirp_dbw": 46.24,
+                  "eirp_density": 15.2708999,
+                  "modulation": "5 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "5M90G1D",
+                  "eirp_dbw": 46.95,
+                  "eirp_density": 15.2620798,
+                  "modulation": "5.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "8M40G1D",
+                  "eirp_dbw": 48.49,
+                  "eirp_density": 15.2678071,
+                  "modulation": "8.4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "20M0G1D",
+                  "eirp_dbw": 52.26,
+                  "eirp_density": 15.2703,
+                  "modulation": "20 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "2M00G1D",
+                  "eirp_dbw": 42.26,
+                  "eirp_density": 15.2703,
+                  "modulation": "2 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "4M00G1D",
+                  "eirp_dbw": 45.27,
+                  "eirp_density": 15.27,
+                  "modulation": "4 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "6M90G1D",
+                  "eirp_dbw": 47.63,
+                  "eirp_density": 15.262109,
+                  "modulation": "6.9 MBd M-ary PSK, Digital Carrier"
+                },
+                {
+                  "emission": "7M90G1D",
+                  "eirp_dbw": 48.22,
+                  "eirp_density": 15.264329,
+                  "modulation": "7.9 MBd M-ary PSK, Digital Carrier"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 5.0,
+                  "elevation_west": 5.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "band_ranges": [
+        {
+          "lower_mhz": 27500.0,
+          "upper_mhz": 28600.0,
+          "tr": "T"
+        }
+      ],
+      "emissions": [
+        "10M0G1D",
+        "160MG1D",
+        "1M00G1D",
+        "1M50G1D",
+        "20M0G1D",
+        "2M00G1D",
+        "320MG1D",
+        "3M00G1D",
+        "3M50G1D",
+        "3M80G1D",
+        "3M90G1D",
+        "40M0G1D",
+        "4M00G1D",
+        "4M50G1D",
+        "5M00G1D",
+        "5M50G1D",
+        "5M90G1D",
+        "600KG1D",
+        "6M90G1D",
+        "7M90G1D",
+        "800K1GD",
+        "80M0G1D",
+        "8M40G1D"
+      ],
+      "max_eirp_dbw": 53.68,
+      "max_eirp_density": 15.2708999,
+      "points_of_communication": [
+        {
+          "name": "ViaSat-3 F2",
+          "itu_name": "UK-KA-7",
+          "orbit": "79 W.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "ASBM",
+          "itu_name": "ABSM",
+          "orbit": "NGSO",
+          "country": "NOR"
+        },
+        {
+          "name": "VIASAT-3F3",
+          "itu_name": "VIASAT-3F3",
+          "orbit": "158.55° E.L.",
+          "country": "USA"
+        },
+        {
+          "name": "ViaSat-1",
+          "itu_name": "VIASAT-1 (S2747)",
+          "orbit": "115 W.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "ViaSat-2",
+          "itu_name": "VIASAT-2 (S2902)",
+          "orbit": "69.9 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "ViaSat-3 F1",
+          "itu_name": "VIASAT-3 (S2917)",
+          "orbit": "89 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "INMARSAT 5F1",
+          "itu_name": "INMARSAT 5F1",
+          "orbit": "63 E.L.",
+          "country": "GBR"
+        },
+        {
+          "name": "PERMITTED LIST",
+          "itu_name": "Permitted Space Station List",
+          "orbit": "GSO",
+          "country": "OTHR"
+        }
+      ],
+      "coordination": {
+        "freq_coord_required": "no",
+        "foreign_coord_required": "no",
+        "faa_notification": "no",
+        "comply_25209a": "no",
+        "comply_25209a2": "na"
+      },
+      "exhibits": [
+        {
+          "name": "Narrative.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/44ac1466cf441b10cd52f1642f851ca4"
+        },
+        {
+          "name": "Exhibit A Technical Narrative.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c6ac1c66cf441b10cd52f1642f851c47"
+        },
+        {
+          "name": "Exhibit C Radhaz.pdf",
+          "description": "Form Attachment",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fbac1c66cf441b10cd52f1642f851c82"
+        }
+      ],
+      "filings": [
+        {
+          "file_number": "SES-LIC-20260818-02351",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2026-10-23",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260818-02351",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c1bb9026cf441b10cd52f1642f851cad",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=b5df7f9d3b7a4b107be9f5ac24e45a15"
+        }
+      ],
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260818-02351",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/c1bb9026cf441b10cd52f1642f851cad",
       "flags": [],
       "needs_review": false
     },
@@ -319307,30 +321027,29 @@
     }
   ],
   "stats": {
-    "applications": 1700,
-    "sites": 1033,
+    "applications": 1719,
+    "sites": 1036,
     "held": 0,
-    "flagged": 19,
-    "needs_review": 19,
+    "flagged": 20,
+    "needs_review": 20,
     "by_type": {
       "blanket": 27,
-      "esim": 11,
-      "individual": 954,
-      "other": 41
+      "esim": 13,
+      "individual": 941,
+      "other": 55
     },
     "by_status": {
       "dismissed at applicant's request": 21,
       "dismissed by delegated authority": 2,
-      "expired": 30,
-      "granted": 727,
-      "pending": 184,
-      "pending payment": 1,
+      "expired": 31,
+      "granted": 726,
+      "pending": 188,
       "surrender of authorization": 16,
       "withdrawn": 51,
       "wtd": 1
     }
   },
-  "currency_date": "2026-10-22",
-  "last_changed": "2026-10-22T12:30:42Z",
-  "rows_digest": "a8493f46004642455890ea4ec2202d8a5e8cb839e3a2cc86167f0b3f852e5f1d"
+  "currency_date": "2026-10-28",
+  "last_changed": "2026-10-28T08:37:53Z",
+  "rows_digest": "ec26dee542edbd10d68625654e619890a3dc57e4acf7c6259a5592291d64d698"
 }
