@@ -1522,11 +1522,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-arapl-raas-private-limited-robotics",
+      "kind": "ingest",
+      "label": "ARAPL RaaS Private Limited",
+      "date": "2026-11-02T14:55:34Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Autonomous Pallet Truck/Maia2000 V1, V3, & V4\nautonomous counterbalance Forklift/Atlas AC2000 V1, V2, and V4 automated mobile robotic equipment",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-10-27T14:21:31Z",
+  "published_at": "2026-11-02T14:55:31Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:31Z"
+  "last_changed": "2026-11-02T14:55:34Z"
 }
