@@ -1594,11 +1594,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-sunscout-holdings-inc-robotics",
+      "kind": "ingest",
+      "label": "SunScout Holdings, Inc.",
+      "date": "2026-11-02T14:55:44Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "SunScout Eco, Pro, and Promax Robotic Platforms\nSunScout Solar Shelter Mobile Energy Systems",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:38Z",
+  "published_at": "2026-11-02T14:55:41Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:41Z"
+  "last_changed": "2026-11-02T14:55:44Z"
 }
