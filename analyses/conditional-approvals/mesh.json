@@ -1642,11 +1642,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-omron-holdings-inc-robotics",
+      "kind": "ingest",
+      "label": "OMRON Holdings, Inc.",
+      "date": "2026-11-02T14:55:50Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "LD-150\nLD-300 robotic platforms",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:44Z",
+  "published_at": "2026-11-02T14:55:47Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:47Z"
+  "last_changed": "2026-11-02T14:55:50Z"
 }
