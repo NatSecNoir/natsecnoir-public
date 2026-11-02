@@ -1570,11 +1570,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-lightberry-holdings-inc-robotics",
+      "kind": "ingest",
+      "label": "Lightberry Holdings, Inc.",
+      "date": "2026-11-02T14:55:41Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Lumi Interactive mobile robots",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:34Z",
+  "published_at": "2026-11-02T14:55:38Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:38Z"
+  "last_changed": "2026-11-02T14:55:41Z"
 }
