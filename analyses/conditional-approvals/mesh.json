@@ -1546,11 +1546,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-ati-motors-inc-robotics",
+      "kind": "ingest",
+      "label": "ATI Motors, Inc.",
+      "date": "2026-11-02T14:55:38Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Sherpa 3K\nSherpa 10K\nFlexFork 1500\nFlexFork 3000\nSherpa Mecha robotic platforms",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:31Z",
+  "published_at": "2026-11-02T14:55:34Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:34Z"
+  "last_changed": "2026-11-02T14:55:38Z"
 }
