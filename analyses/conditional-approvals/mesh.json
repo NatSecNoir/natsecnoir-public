@@ -1666,11 +1666,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1181-ingeteam-power-technology-s-a-inverters",
+      "kind": "ingest",
+      "label": "Ingeteam Power Technology, S.A.",
+      "date": "2026-11-02T14:55:53Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "INGECON 3POWER C\nC Plus\nC HV\nM power inverter models",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-01-da-26-1181a1-feba7b"
+      },
+      "record_id": "2026-11-01-da-26-1181a1-feba7b",
+      "citation": {
+        "record_id": "2026-11-01-da-26-1181a1-feba7b",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:47Z",
+  "published_at": "2026-11-02T14:55:50Z",
   "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:50Z"
+  "last_changed": "2026-11-02T14:55:53Z"
 }
