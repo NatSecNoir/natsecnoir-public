@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-05-fcc-proposes-nearly-200-000-fine-against-covered-eb2e60",
+  "status": "approved",
+  "ingested_at": "2026-11-05T22:21:56Z",
+  "title": "FCC Proposes Nearly $200,000 Fine Against Covered List Entity Dahua for Failure to File Subsidiaries and Affiliates Disclosures in a Timely Manner.",
+  "issuing_body": "FCC",
+  "doc_type": "notice of apparent liability",
+  "doc_date": "2026-02-12",
+  "docket": "FCC 26-7",
+  "lists": [
+    "fcc-natsec-order"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-7A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "eb2e60434fb2d90b35c216f53f5ecfc5686046c97fb53b82c7a2f2342ed77ad5",
+  "approved_at": "2026-11-05T23:02:30Z",
+  "published_at": "2026-11-05T23:04:11Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-05T22:27:26Z",
+  "fr_status": "not_expected",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-fcc-proposes-nearly-200-000-fine-against-covered-eb2e60/source-34b60330.pdf"
+}

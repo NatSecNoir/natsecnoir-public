@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-05-review-of-foreign-ownership-policies-for-broadca-639dcf",
+  "status": "approved",
+  "ingested_at": "2026-11-05T22:22:11Z",
+  "title": "Review of Foreign Ownership Policies for Broadcast, Common Carrier and Aeronautical Radio Licensees under Section 310(b)(4) of the Communications Act of 1934, as Amended",
+  "issuing_body": "FCC",
+  "doc_type": "report and order",
+  "doc_date": "2026-01-29",
+  "docket": "FCC 26-3; GN Docket No. 25-149",
+  "lists": [
+    "fcc-natsec-order"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-3A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "639dcfb726d6d3d81064d05802a4cea0e6fb47db1cf95588197386e9af4fbee3",
+  "approved_at": "2026-11-05T23:01:34Z",
+  "published_at": "2026-11-05T23:04:11Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-05T22:27:31Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-review-of-foreign-ownership-policies-for-broadca-639dcf/source-020596ca.pdf"
+}
