@@ -1,5 +1,5 @@
 {
- "count": 277,
+ "count": 278,
  "records": [
   {
    "id": "2026-11-01-da-26-1181a1-feba7b",
@@ -1685,6 +1685,41 @@
    "federal_register": {},
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-pre-2024-covered-list-marketing-import-limitatio-85e98f/source-85e98f86.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-05-modernization-of-the-nation-s-alerting-systems-312479",
+   "status": "approved",
+   "ingested_at": "2026-11-05T22:21:49Z",
+   "title": "Modernization of the Nation's Alerting Systems",
+   "issuing_body": "FCC",
+   "doc_type": "report and order",
+   "doc_date": "2026-06-25",
+   "docket": "FCC 26-38; PS Docket No. 25-224; PS Docket No. 22-329; PS Docket No. 15-91; PS Docket No. 15-94",
+   "lists": [
+    "fcc-natsec-order"
+   ],
+   "entities": [],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-38A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "312479f049abd3a1d1cf31e9ab08f66f86876f1014b47f944ef5e408ce35cee3",
+   "approved_at": "2026-11-05T23:03:58Z",
+   "published_at": "2026-11-05T23:05:06Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-05T22:27:21Z",
+   "fr_status": "not_expected",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-modernization-of-the-nation-s-alerting-systems-312479/source-9d3f1c18.pdf",
    "files": [
     "meta.json",
     "summary.md"
