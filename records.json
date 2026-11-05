@@ -1,5 +1,5 @@
 {
- "count": 273,
+ "count": 274,
  "records": [
   {
    "id": "2026-11-01-da-26-1181a1-feba7b",
@@ -3754,6 +3754,41 @@
    "federal_register": {},
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-12-da-25-418a1-e8cf53/source-e8cf5390.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-05-protecting-our-communications-networks-by-promot-f6628c",
+   "status": "approved",
+   "ingested_at": "2026-11-05T22:22:29Z",
+   "title": "Protecting our Communications Networks by Promoting Transparency Regarding Foreign Adversary Control",
+   "issuing_body": "FCC",
+   "doc_type": "notice of proposed rulemaking",
+   "doc_date": "2025-05-22",
+   "docket": "FCC 25-28; GN Docket No. 25-166",
+   "lists": [
+    "fcc-natsec-order"
+   ],
+   "entities": [],
+   "source_url": "https://docs.fcc.gov/public/attachments/FCC-25-28A1.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "f6628c52ed9f5afcbc0165d563dbd4f994f4c3692eb84c25d47971e5779020d5",
+   "approved_at": "2026-11-05T22:49:36Z",
+   "published_at": "2026-11-05T22:51:41Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-05T22:27:44Z",
+   "fr_status": "not_expected",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-protecting-our-communications-networks-by-promot-f6628c/source-79bd91b8.pdf",
    "files": [
     "meta.json",
     "summary.md"
