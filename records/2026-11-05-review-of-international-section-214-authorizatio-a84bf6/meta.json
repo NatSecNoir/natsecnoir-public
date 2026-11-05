@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-05-review-of-international-section-214-authorizatio-a84bf6",
+  "status": "approved",
+  "ingested_at": "2026-11-05T22:21:36Z",
+  "title": "Review of International Section 214 Authorizations to Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks",
+  "issuing_body": "FCC",
+  "doc_type": "report and order",
+  "doc_date": "2026-10-29",
+  "docket": "FCC 26-74; IB Docket No. 23-119; MD Docket No. 23-134",
+  "lists": [
+    "fcc-natsec-order"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-74A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "a84bf6b03fd957171eba7e46801e470f33f5345502055b4753480216340d794b",
+  "approved_at": "2026-11-05T22:27:17Z",
+  "published_at": "2026-11-05T22:49:13Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-05T22:21:42Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-review-of-international-section-214-authorizatio-a84bf6/source-08f4374b.pdf"
+}
