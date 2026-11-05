@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-03-citp-report-ai-model-hazards-1-f3443d",
+  "status": "approved",
+  "ingested_at": "2026-11-03T22:09:53Z",
+  "title": "Behind the OpenAI Agent Breach, a Report Finds Human Errors",
+  "issuing_body": "",
+  "doc_type": "",
+  "doc_date": "",
+  "docket": "",
+  "lists": [
+    "litigation",
+    "ai"
+  ],
+  "entities": [
+    "OpenAI"
+  ],
+  "source_url": "https://citp.princeton.edu/sites/g/files/toruqf6781/files/documents/CITP_Report_AI_model_hazards%20%281%29.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "f3443d0d9264df06c7bc98090a8852f8cdd48d7610867383fb6c3ead8d3ddea6",
+  "approved_at": "2026-11-05T18:56:56Z",
+  "published_at": "2026-11-05T18:57:56Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-03T22:10:00Z",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-03-citp-report-ai-model-hazards-1-f3443d/source-f3443d0d.pdf"
+}
