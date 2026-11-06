@@ -9,7 +9,8 @@
   "docket": "FCC 25-71; ET Docket No. 21-232",
   "lists": [
     "covered-list",
-    "litigation"
+    "litigation",
+    "fcc-natsec-order"
   ],
   "entities": [
     "Federal Communications Commission",

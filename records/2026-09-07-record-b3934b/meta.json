@@ -8,7 +8,8 @@
   "doc_date": "2026-07-22",
   "docket": "FCC-26-50; ET Docket No. 21-232",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "fcc-natsec-order"
   ],
   "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-50A1.pdf",

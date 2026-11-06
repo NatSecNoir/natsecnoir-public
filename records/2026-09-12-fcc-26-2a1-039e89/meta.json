@@ -8,7 +8,8 @@
   "doc_date": "2026-01-29",
   "docket": "FCC 26-2; GN Docket No. 25-166",
   "lists": [
-    "covered-list"
+    "covered-list",
+    "fcc-natsec-order"
   ],
   "entities": [
     "Federal Communications Commission"

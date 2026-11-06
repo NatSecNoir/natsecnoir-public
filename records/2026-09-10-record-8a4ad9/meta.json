@@ -9,7 +9,8 @@
   "docket": "FCC 25-49; OI Docket No. 24-523; MD Docket No. 24-524",
   "lists": [
     "covered-list",
-    "team-telecom"
+    "team-telecom",
+    "fcc-natsec-order"
   ],
   "entities": [
     "Federal Communications Commission",

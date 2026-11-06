@@ -9,7 +9,8 @@
   "docket": "FCC 26-29; WC Docket No. 26-82",
   "lists": [
     "covered-list",
-    "team-telecom"
+    "team-telecom",
+    "fcc-natsec-order"
   ],
   "entities": [
     "Federal Communications Commission",

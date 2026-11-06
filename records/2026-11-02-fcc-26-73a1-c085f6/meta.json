@@ -8,7 +8,8 @@
   "doc_date": "2026-10-29",
   "docket": "FCC 26-73; ET Docket No. 24-136",
   "lists": [
-    "bad-labs"
+    "bad-labs",
+    "fcc-natsec-order"
   ],
   "entities": [],
   "source_url": "https://docs.fcc.gov/public/attachments/FCC-26-73A1.pdf",

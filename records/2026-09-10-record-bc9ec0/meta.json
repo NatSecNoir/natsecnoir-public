@@ -8,7 +8,8 @@
   "doc_date": "2026-06-25",
   "docket": "OI Docket No. 24-523, MD Docket No. 24-524",
   "lists": [
-    "team-telecom"
+    "team-telecom",
+    "fcc-natsec-order"
   ],
   "entities": [
     "FCC",
