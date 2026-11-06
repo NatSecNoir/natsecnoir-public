@@ -25,7 +25,25 @@
   "drafted_at": "2026-11-05T22:27:31Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:18Z",
+    "documents": [
+      {
+        "number": "2026-06866",
+        "type": "Rule",
+        "action": "Final rule.",
+        "published": "2026-04-09",
+        "citation": "91 FR 17863",
+        "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06866/review-of-foreign-ownership-policies-for-broadcast-common-carrier-and-aeronautical-radio-licensees",
+        "effective_on": "2026-05-11",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-review-of-foreign-ownership-policies-for-broadca-639dcf/source-020596ca.pdf"
 }

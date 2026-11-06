@@ -1264,7 +1264,39 @@
    "drafted_at": "2026-09-07T00:41:16Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:16Z",
+    "documents": [
+     {
+      "number": "2026-16197",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2026-08-07",
+      "citation": "91 FR 51139",
+      "url": "https://www.federalregister.gov/documents/2026/08/07/2026-16197/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+      "effective_on": "",
+      "comments_due": "2026-09-08",
+      "replies_due": "2026-09-21",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2026-18535",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2026-09-11",
+      "citation": "91 FR 57798",
+      "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+      "effective_on": "2026-10-13",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-07-record-b3934b/source-2cd32b8a.pdf",
    "files": [
@@ -1817,7 +1849,39 @@
    "drafted_at": "2026-09-12T20:02:41Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+     {
+      "number": "2026-15120",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2026-07-27",
+      "citation": "91 FR 46888",
+      "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15120/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "",
+      "comments_due": "2026-08-26",
+      "replies_due": "2026-09-25",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2026-15123",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2026-07-27",
+      "citation": "91 FR 46844",
+      "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15123/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "2026-09-25",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": true,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-10-record-bc9ec0/source-97e6a278.pdf",
    "files": [
@@ -2398,7 +2462,25 @@
    "drafted_at": "2026-09-10T00:01:42Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+     {
+      "number": "2026-09190",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2026-05-08",
+      "citation": "91 FR 25325",
+      "url": "https://www.federalregister.gov/documents/2026/05/08/2026-09190/protecting-against-national-security-threats-in-domestic-telecommunications-service",
+      "effective_on": "",
+      "comments_due": "2026-06-08",
+      "replies_due": "2026-07-07",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-09-record-544b29/source-d7c27d99.pdf",
    "files": [
@@ -2434,7 +2516,39 @@
    "drafted_at": "2026-09-07T02:27:56Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:16Z",
+    "documents": [
+     {
+      "number": "2026-09821",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2026-05-15",
+      "citation": "91 FR 27884",
+      "url": "https://www.federalregister.gov/documents/2026/05/15/2026-09821/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+      "effective_on": "",
+      "comments_due": "2026-06-15",
+      "replies_due": "2026-07-14",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2026-09822",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2026-05-15",
+      "citation": "91 FR 27843",
+      "url": "https://www.federalregister.gov/documents/2026/05/15/2026-09822/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+      "effective_on": "2026-06-15",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": true,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-07-fcc-26-28a1-8d5c7b/source-8d5c7b83.pdf",
    "files": [
@@ -2830,7 +2944,25 @@
    "drafted_at": "2026-11-05T22:27:31Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:18Z",
+    "documents": [
+     {
+      "number": "2026-06866",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2026-04-09",
+      "citation": "91 FR 17863",
+      "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06866/review-of-foreign-ownership-policies-for-broadcast-common-carrier-and-aeronautical-radio-licensees",
+      "effective_on": "2026-05-11",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-11-05-review-of-foreign-ownership-policies-for-broadca-639dcf/source-020596ca.pdf",
    "files": [
@@ -2868,7 +3000,25 @@
    "drafted_at": "2026-09-12T20:11:47Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+     {
+      "number": "2026-06992",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2026-04-10",
+      "citation": "91 FR 18670",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06992/protecting-our-communications-networks-by-promoting-transparency-regarding-foreign-adversary-control",
+      "effective_on": "2026-06-09",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-12-fcc-26-2a1-039e89/source-039e89d8.pdf",
    "files": [
@@ -3144,7 +3294,39 @@
    "drafted_at": "2026-09-06T01:53:09Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:15Z",
+    "documents": [
+     {
+      "number": "2025-21001",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2025-11-25",
+      "citation": "90 FR 53227",
+      "url": "https://www.federalregister.gov/documents/2025/11/25/2025-21001/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+      "effective_on": "2025-12-26",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2025-21928",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2025-12-04",
+      "citation": "90 FR 55826",
+      "url": "https://www.federalregister.gov/documents/2025/12/04/2025-21928/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+      "effective_on": "",
+      "comments_due": "2026-01-05",
+      "replies_due": "2026-02-02",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-ea-security-2nd-ro-bd58d8/source-bd58d880.pdf",
    "files": [
@@ -3400,7 +3582,53 @@
    "drafted_at": "2026-09-10T00:09:31Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+     {
+      "number": "2025-19657",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2025-10-27",
+      "citation": "90 FR 48557",
+      "url": "https://www.federalregister.gov/documents/2025/10/27/2025-19657/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "",
+      "comments_due": "2025-11-26",
+      "replies_due": "2025-12-26",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2025-19658",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2025-10-27",
+      "citation": "90 FR 48648",
+      "url": "https://www.federalregister.gov/documents/2025/10/27/2025-19658/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "2025-11-26",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": true,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2026-13765",
+      "type": "Rule",
+      "action": "Final rule; announcement of effective date.",
+      "published": "2026-07-08",
+      "citation": "91 FR 42137",
+      "url": "https://www.federalregister.gov/documents/2026/07/08/2026-13765/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "2026-07-08",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-10-record-8a4ad9/source-7abdfa0e.pdf",
    "files": [
@@ -3913,7 +4141,39 @@
    "drafted_at": "2026-09-06T01:58:18Z",
    "fr_status": "",
    "related": [],
-   "federal_register": {},
+   "federal_register": {
+    "updated_at": "2026-11-06T12:18:15Z",
+    "documents": [
+     {
+      "number": "2025-13308",
+      "type": "Proposed Rule",
+      "action": "Proposed rule.",
+      "published": "2025-07-16",
+      "citation": "90 FR 31945",
+      "url": "https://www.federalregister.gov/documents/2025/07/16/2025-13308/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+      "effective_on": "",
+      "comments_due": "2025-08-15",
+      "replies_due": "2025-09-15",
+      "effective_partial": false,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2025-14970",
+      "type": "Rule",
+      "action": "Final rule.",
+      "published": "2025-08-07",
+      "citation": "90 FR 38045",
+      "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14970/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+      "effective_on": "2025-09-08",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": true,
+      "first_seen": "2026-11-06T12:18:14Z",
+      "changed_at": "2026-11-06T12:18:14Z"
+     }
+    ]
+   },
    "errata": [],
    "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-bad-labs-1-0-r-o-6990e0/source-6990e085.pdf",
    "files": [

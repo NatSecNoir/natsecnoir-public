@@ -26,7 +26,39 @@
   "drafted_at": "2026-09-06T01:58:18Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:15Z",
+    "documents": [
+      {
+        "number": "2025-13308",
+        "type": "Proposed Rule",
+        "action": "Proposed rule.",
+        "published": "2025-07-16",
+        "citation": "90 FR 31945",
+        "url": "https://www.federalregister.gov/documents/2025/07/16/2025-13308/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+        "effective_on": "",
+        "comments_due": "2025-08-15",
+        "replies_due": "2025-09-15",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      },
+      {
+        "number": "2025-14970",
+        "type": "Rule",
+        "action": "Final rule.",
+        "published": "2025-08-07",
+        "citation": "90 FR 38045",
+        "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14970/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+        "effective_on": "2025-09-08",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": true,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-09-04-bad-labs-1-0-r-o-6990e0/source-6990e085.pdf"
 }

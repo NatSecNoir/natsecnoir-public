@@ -34,7 +34,25 @@
   "drafted_at": "2026-09-10T00:01:42Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+      {
+        "number": "2026-09190",
+        "type": "Proposed Rule",
+        "action": "Proposed rule.",
+        "published": "2026-05-08",
+        "citation": "91 FR 25325",
+        "url": "https://www.federalregister.gov/documents/2026/05/08/2026-09190/protecting-against-national-security-threats-in-domestic-telecommunications-service",
+        "effective_on": "",
+        "comments_due": "2026-06-08",
+        "replies_due": "2026-07-07",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-09-09-record-544b29/source-d7c27d99.pdf"
 }

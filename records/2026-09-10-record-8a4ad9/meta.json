@@ -39,7 +39,53 @@
   "drafted_at": "2026-09-10T00:09:31Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:17Z",
+    "documents": [
+      {
+        "number": "2025-19657",
+        "type": "Proposed Rule",
+        "action": "Proposed rule.",
+        "published": "2025-10-27",
+        "citation": "90 FR 48557",
+        "url": "https://www.federalregister.gov/documents/2025/10/27/2025-19657/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+        "effective_on": "",
+        "comments_due": "2025-11-26",
+        "replies_due": "2025-12-26",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      },
+      {
+        "number": "2025-19658",
+        "type": "Rule",
+        "action": "Final rule.",
+        "published": "2025-10-27",
+        "citation": "90 FR 48648",
+        "url": "https://www.federalregister.gov/documents/2025/10/27/2025-19658/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+        "effective_on": "2025-11-26",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": true,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      },
+      {
+        "number": "2026-13765",
+        "type": "Rule",
+        "action": "Final rule; announcement of effective date.",
+        "published": "2026-07-08",
+        "citation": "91 FR 42137",
+        "url": "https://www.federalregister.gov/documents/2026/07/08/2026-13765/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+        "effective_on": "2026-07-08",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-09-10-record-8a4ad9/source-7abdfa0e.pdf"
 }

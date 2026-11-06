@@ -26,7 +26,39 @@
   "drafted_at": "2026-09-07T00:41:16Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:16Z",
+    "documents": [
+      {
+        "number": "2026-16197",
+        "type": "Proposed Rule",
+        "action": "Proposed rule.",
+        "published": "2026-08-07",
+        "citation": "91 FR 51139",
+        "url": "https://www.federalregister.gov/documents/2026/08/07/2026-16197/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+        "effective_on": "",
+        "comments_due": "2026-09-08",
+        "replies_due": "2026-09-21",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      },
+      {
+        "number": "2026-18535",
+        "type": "Rule",
+        "action": "Final rule.",
+        "published": "2026-09-11",
+        "citation": "91 FR 57798",
+        "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18535/protecting-against-national-security-threats-to-the-communications-supply-chain-through-the",
+        "effective_on": "2026-10-13",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-09-07-record-b3934b/source-2cd32b8a.pdf"
 }

@@ -26,7 +26,39 @@
   "drafted_at": "2026-09-07T02:27:56Z",
   "fr_status": "",
   "related": [],
-  "federal_register": {},
+  "federal_register": {
+    "updated_at": "2026-11-06T12:18:16Z",
+    "documents": [
+      {
+        "number": "2026-09821",
+        "type": "Proposed Rule",
+        "action": "Proposed rule.",
+        "published": "2026-05-15",
+        "citation": "91 FR 27884",
+        "url": "https://www.federalregister.gov/documents/2026/05/15/2026-09821/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+        "effective_on": "",
+        "comments_due": "2026-06-15",
+        "replies_due": "2026-07-14",
+        "effective_partial": false,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      },
+      {
+        "number": "2026-09822",
+        "type": "Rule",
+        "action": "Final rule.",
+        "published": "2026-05-15",
+        "citation": "91 FR 27843",
+        "url": "https://www.federalregister.gov/documents/2026/05/15/2026-09822/promoting-the-integrity-and-security-of-telecommunications-certification-bodies-measurement",
+        "effective_on": "2026-06-15",
+        "comments_due": "",
+        "replies_due": "",
+        "effective_partial": true,
+        "first_seen": "2026-11-06T12:18:14Z",
+        "changed_at": "2026-11-06T12:18:14Z"
+      }
+    ]
+  },
   "errata": [],
   "copy_url": "https://docs.natsecnoir.com/records/2026-09-07-fcc-26-28a1-8d5c7b/source-8d5c7b83.pdf"
 }
