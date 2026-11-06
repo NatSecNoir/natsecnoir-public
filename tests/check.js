@@ -86,6 +86,45 @@ assert.ok(fs.existsSync(path.join(outFix, "analyses/fixture-analysis/mesh.json")
 assert.match(feedIdx, /class="item[^"]*analysis"[\s\S]*?<span class="type">Analysis<\/span>[\s\S]*?href="\/analyses\/fixture-analysis\/"/, "analysis is badged in the feed");
 assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-bbbbbb"), "analysis interleaves by date");
 
+// FCC national-security orders (U11a): Federal Register panel, erratum notice, linked records, label.
+{
+  const rd = (id) => fs.readFileSync(path.join(outFix, `records/${id}/index.html`), "utf8");
+  const fcc = rd("2025-02-01-fix-fcc-order-ffcc01");
+  assert.match(fcc, /<section class="frpanel"/, "tagged record shows the Federal Register panel");
+  assert.match(fcc, /Effective 2026-07-08/, "final rule shows its effective date");
+  assert.match(fcc, /some provisions take effect later/, "partial effectiveness is noted");
+  assert.match(fcc, /Final rule published <span class="mono">2026-06-09<\/span>/, "a rule without an effective date falls back to its publication date");
+  assert.match(fcc, /Comments due 2999-01-15 · replies due 2999-02-14/, "open proposal shows both deadlines");
+  assert.match(fcc, /data-until="2999-02-14"/, "open proposal carries its last deadline for the client flip");
+  assert.match(fcc, /<span class="open mono" hidden>Comments due 2020-02-15[^<]*<\/span><span class="closed mono">Comment period closed/, "past proposal renders closed at build time");
+  for (const u of ["2026-10001", "2026-10002", "2026-10003", "2020-10004"])
+    assert.match(fcc, new RegExp(`href="https://www\\.federalregister\\.gov/d/${u}"`), `FR notice ${u} is linked`);
+  assert.match(fcc, /FR notice · 91 FR 10001 ↗/, "citation rides with the FR link");
+  assert.match(fcc, /checked 2026-03-01\./, "panel shows when the dates were last checked");
+  assert.match(fcc, /<script src="\/js\/fr-panel\.js" defer>/, "client flip script loads when a proposal is shown");
+  assert.match(fcc, /<p class="notice erratum">Erratum issued 2026-02-20/, "erratum notice with its date");
+  assert.match(fcc, /href="https:\/\/docs\.fcc\.gov\/public\/attachments\/FCC-26-77A3\.pdf"/, "erratum is linked");
+  assert.match(fcc, /<section class="linked">/, "editor-linked records section");
+  assert.match(fcc, /href="\/records\/2026-01-01-fixture-order-aaaaaa\/"><span>[^<]*<\/span><span class="n mono">resolves the FNPRM in FCC 26-1<\/span>/, "linked record shows its stage");
+  assert.doesNotMatch(fcc, /no-such-record/, "an unresolvable linked id is dropped");
+  assert.match(fcc, /class="chip" href="\/by\/list\/fcc-natsec-order\/">FCC Orders</, "tag is labelled FCC Orders");
+  assert.doesNotMatch(fcc, /Fcc natsec order/, "no fallback label");
+  const back = rd("2026-01-01-fixture-order-aaaaaa");
+  assert.match(back, /<section class="linked">/, "the target record links back");
+  assert.match(back, /href="\/records\/2025-02-01-fix-fcc-order-ffcc01\/"><span>[^<]*<\/span><span class="n mono">linked from · resolves the FNPRM in FCC 26-1<\/span>/, "reverse link carries the stage");
+  assert.doesNotMatch(back, /frpanel|notice erratum/, "an untagged record gets no panel or erratum");
+  const pending = rd("2025-02-02-fix-fcc-pending-ffcc02");
+  assert.match(pending, /Federal Register: pending/, "tagged record with no notice yet is pending");
+  assert.doesNotMatch(pending, /fr-panel\.js/, "no client script without a proposal line");
+  const notexp = rd("2025-02-03-fix-fcc-notexp-ffcc03");
+  assert.match(notexp, /No Federal Register publication expected\./, "not_expected wins");
+  assert.doesNotMatch(notexp, /Effective 2026/, "not_expected hides stray documents");
+  const hub = fs.readFileSync(path.join(outFix, "by/list/fcc-natsec-order/index.html"), "utf8");
+  assert.match(hub, /Commission-level FCC orders/, "list page carries the gloss");
+  const notice = rd("2025-11-15-fixture-notice-bbbbbb");
+  assert.doesNotMatch(notice, /frpanel|notice erratum|class="linked"/, "no leakage onto unrelated records");
+}
+
 // ---- Team Telecom agreements ledger (U5) ----
 const tt = fs.readFileSync(path.join(outFix, "analyses/fixture-ledger/index.html"), "utf8");
 const ttFlat = tt.replace(/\s+/g, " ");

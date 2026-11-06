@@ -1,0 +1,11 @@
+{% if r.fr.state != "hidden" %}<section class="frpanel" aria-labelledby="fr-h">
+  <h2 id="fr-h">Federal Register</h2>
+  {% if r.fr.state == "not_expected" %}<p class="frl">No Federal Register publication expected.</p>
+  {% elif r.fr.state == "pending" %}<p class="frl">Federal Register: pending — this record is watched for its notice.</p>
+  {% else %}<ul class="frl">
+    {% for d in r.fr.finals %}<li>{% if d.effective_on %}<span class="mono">Effective {{ d.effective_on }}</span>{% if d.effective_partial %}<span class="part"> · some provisions take effect later</span>{% endif %}{% elif d.published %}{{ d.label }} published <span class="mono">{{ d.published }}</span>{% else %}{{ d.label }}{% endif %} · <a href="{{ d.url }}">FR notice{% if d.citation %} · {{ d.citation }}{% endif %} ↗</a></li>
+    {% endfor %}{% for d in r.fr.proposals %}<li{% if d.until %} data-until="{{ d.until }}"{% endif %}><span class="open mono"{% if not d.open %} hidden{% endif %}>{% if d.comments_due %}Comments due {{ d.comments_due }}{% endif %}{% if d.comments_due and d.replies_due %} · {% endif %}{% if d.replies_due %}{{ "Replies" if not d.comments_due else "replies" }} due {{ d.replies_due }}{% endif %}</span><span class="closed mono"{% if d.open %} hidden{% endif %}>Comment period closed</span> · <a href="{{ d.url }}">FR notice{% if d.citation %} · {{ d.citation }}{% endif %} ↗</a></li>
+    {% endfor %}</ul>
+  {% if r.fr.checked %}<p class="frnote mono">Dates from the Federal Register, checked {{ r.fr.checked }}.</p>{% endif %}
+  {% endif %}
+</section>{% if r.fr.proposals and r.fr.proposals.length %}<script src="/js/fr-panel.js" defer></script>{% endif %}{% endif %}

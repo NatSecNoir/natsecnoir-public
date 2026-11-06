@@ -5,8 +5,10 @@ import path from "node:path";
 import listInfo from "./lists.js";
 import loadAnalyses from "./analyses.js";
 import { splitExcerpt } from "../lib/text.js";
+import { frPanel, latestErratum } from "../lib/fr.js";
 
 const root = process.env.RECORDS_DIR || "records";
+const today = (process.env.BUILD_TODAY || new Date().toISOString()).slice(0, 10);
 
 function excerpt(summary) {
   const first = summary.split(/\n\s*\n/).find((p) => p.trim()) || "";
@@ -74,6 +76,11 @@ export default function () {
       agencySlug: slug(meta.issuing_body || "unknown"),
       textPages: text ? text.pages.length : 0,
       isArgument: isOralArgument(meta),
+      // FCC national-security orders: Federal Register dates + links, the latest erratum, and the
+      // editor's linked records (meta.related; kept apart from the heuristic `related` rail below).
+      fr: frPanel(meta, today),
+      erratum: latestErratum(meta),
+      linkedRaw: Array.isArray(meta.related) ? meta.related : [],
       sourceHost: hostOf(meta.source_url || ""),
       search: [meta.title, meta.issuing_body, meta.doc_type, meta.docket, meta.doc_date,
         ...(meta.lists || []).map(labelOf), ...(meta.entities || []), ex]
@@ -83,6 +90,22 @@ export default function () {
                               layout: text.layout || "" });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
+
+  // Linked records (editor-curated, with a stage such as "resolves the FNPRM in FCC 26-28"): ids that
+  // are not approved records are dropped, never a dead link. Each link also appears on the target
+  // record, pointing back ("Linked from").
+  const byId = new Map(all.map((r) => [r.id, r]));
+  for (const r of all) r.linked = [], r.linkedBy = [];
+  for (const r of all) {
+    for (const l of r.linkedRaw) {
+      const o = l && byId.get(l.id);
+      if (!o || o.id === r.id) continue;
+      const stage = String(l.stage || "").trim();
+      r.linked.push({ id: o.id, title: o.title, url: o.url, doc_date: o.doc_date, stage });
+      o.linkedBy.push({ id: r.id, title: r.title, url: r.url, doc_date: r.doc_date, stage });
+    }
+    delete r.linkedRaw;
+  }
 
   // Related records (record page rail): same first docket segment first, then any shared list slug;
   // newest first within each tier, deduplicated, never the record itself, at most four.
