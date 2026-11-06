@@ -119,6 +119,8 @@ assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-
   const notexp = rd("2025-02-03-fix-fcc-notexp-ffcc03");
   assert.match(notexp, /No Federal Register publication expected\./, "not_expected wins");
   assert.doesNotMatch(notexp, /Effective 2026/, "not_expected hides stray documents");
+  const front = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
+  assert.match(front, /class="chip" href="\/by\/list\/fcc-natsec-order\/">FCC Orders</, "front-page Browse rail links FCC Orders");
   const hub = fs.readFileSync(path.join(outFix, "by/list/fcc-natsec-order/index.html"), "utf8");
   assert.match(hub, /Commission-level FCC orders/, "list page carries the gloss");
   const notice = rd("2025-11-15-fixture-notice-bbbbbb");
@@ -514,7 +516,7 @@ assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*da
 assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
 // Front-page rail: three curated Browse chips, By source, last filed.
 const railChips = [...feedIdx.matchAll(/<a class="chip" href="\/by\/list\/([^/]+)\/">/g)].map((m) => m[1]);
-assert.deepEqual(railChips, ["covered-list", "bad-labs", "litigation"], "rail Browse renders the three curated list chips in order");
+assert.deepEqual(railChips, ["covered-list", "bad-labs", "litigation", "fcc-natsec-order"], "rail Browse renders the four curated list chips in order");
 assert.match(feedIdx, /<a class="more" href="\/by\/agency\/">By source/, "rail links to the source index");
 assert.doesNotMatch(feedIdx, /From the record|Persons of interest/, "derived pull-quote and people sections are gone");
 assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
