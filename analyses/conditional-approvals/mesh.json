@@ -1786,11 +1786,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1203-sercomm-corporation-routers",
+      "kind": "ingest",
+      "label": "SERCOMM Corporation",
+      "date": "2026-11-07T15:17:48Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "XF10 10GEPON ONU / Wi-Fi 7 Tri-Band 4×4×4 Home Gateway",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-08",
+        "record_id": "2026-11-07-record-d75b21"
+      },
+      "record_id": "2026-11-07-record-d75b21",
+      "citation": {
+        "record_id": "2026-11-07-record-d75b21",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-07T15:17:45Z",
+  "published_at": "2026-11-07T15:17:48Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-07T15:17:47Z"
+  "last_changed": "2026-11-07T15:17:48Z"
 }
