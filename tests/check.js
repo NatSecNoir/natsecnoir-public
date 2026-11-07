@@ -6,7 +6,7 @@ import vm from "node:vm";
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
-import { rowGrainRows } from "../src/lib/ledger-rows.js";
+import { rowGrainRows, partyOf } from "../src/lib/ledger-rows.js";
 import { exportLines, EXPORT_COLUMNS, statusBucket, chipGroups, displayRow } from "../src/lib/schedb-rows.js";
 import { firstSentence } from "../src/lib/text.js";
 import { statusOf, daOfDocket, EXPIRING_DAYS, NO_MODELS_SENTINEL } from "../src/lib/approvals-status.js";
@@ -187,6 +187,12 @@ assert.match(newco, /ISP-PDR-20200101-00001/, "AE1 row shows the docket");
 assert.match(newco, /href="\/records\/2020-01-01-fix-loa-newco-aaaa01\/">record<\/a>/, "AE1 row links its record");
 assert.match(newco, /href="https:\/\/docs\.natsecnoir\.com\/records\/2020-01-01-fix-loa-newco-aaaa01\/source-aaaa0100\.pdf"/, "AE1 row links its stored PDF");
 assert.equal((newco.match(/class="pending"/g) || []).length, 4, "AE1 row shows four pending markers");
+// The Company column shows the entity from a house-format title; other titles pass through unchanged.
+assert.equal(partyOf("Plant Telephone Company — Letter of Agreement (Team Telecom)"), "Plant Telephone Company");
+assert.equal(partyOf("PLCN - Google — National Security Agreement (Team Telecom, Docket SCL-LIC-20200827-00038)"), "PLCN - Google");
+assert.equal(partyOf("Windstream — Mitigation Agreement (Team Telecom, Docket WC Docket No. 24-165)"), "Windstream");
+assert.equal(partyOf("NewCo Letter of Agreement"), "NewCo Letter of Agreement");
+assert.equal(partyOf(""), "");
 
 // AE2: Gigsky is one parent row dated by the 2022 instrument, with a fold note and a history row for
 // the 2017 instrument that links to its own record and PDF.

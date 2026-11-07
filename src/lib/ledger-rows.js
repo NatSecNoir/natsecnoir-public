@@ -26,6 +26,12 @@ function memberTest(mesh) {
     && (!types || types.includes(normalizeDocType(r.doc_type)));
 }
 
+// The Company column shows the entity, not the whole title: a Team Telecom agreement title in the house
+// format ("Plant Telephone Company — Letter of Agreement (Team Telecom, Docket …)", enforced privately
+// by records.tt_title_ok) gives "Plant Telephone Company". Any other title is shown as it is.
+const TT_TITLE = /^(.+?) — (?:Letter of Agreement|National Security Agreement|Mitigation Agreement) \(Team Telecom(?:, Docket .+)?\)$/;
+export const partyOf = (title) => { const t = String(title || ""); const m = TT_TITLE.exec(t); return m ? m[1] : t; };
+
 // grain: "record" — one row per unfolded member, superseding/companion instruments folded beneath
 // their parent row. The original ledger body, unchanged in behaviour.
 export function recordGrainRows(mesh, records) {
@@ -33,7 +39,7 @@ export function recordGrainRows(mesh, records) {
   const entries = new Map((mesh.entries || []).map((e) => [e.key, e]));
   const isMember = memberTest(mesh);
   const members = records.filter(isMember);
-  const labelOf = (entry, r) => (entry && entry.label) || (r && r.title) || "";
+  const labelOf = (entry, r) => (entry && entry.label) || partyOf(r && r.title) || "";
 
   // Ids folded beneath a parent: named in some member's chain.supersedes or .companion.
   const folded = new Set();
@@ -58,7 +64,7 @@ export function recordGrainRows(mesh, records) {
         if (!h) continue; // a named id that is not a mirrored member is silently skipped
         history.push({
           rel, id,
-          label: (entries.get(id) || {}).label || h.title,
+          label: (entries.get(id) || {}).label || partyOf(h.title),
           date: h.doc_date, docket: h.docket || "",
           record_url: h.url, pdf_url: pdfOf(h),
         });
