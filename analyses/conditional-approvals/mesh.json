@@ -1714,11 +1714,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1203-abb-robotics-llc-robotics",
+      "kind": "ingest",
+      "label": "ABB Robotics, LLC",
+      "date": "2026-11-07T15:17:45Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Autonomous Mobile Manipulators, Model Nos. AMMR G0540 and AMMR G1240, and its Autonomous Mobile Robot, Model No. P204V",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-07-record-d75b21"
+      },
+      "record_id": "2026-11-07-record-d75b21",
+      "citation": {
+        "record_id": "2026-11-07-record-d75b21",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-02T14:55:53Z",
+  "published_at": "2026-11-07T15:17:42Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-07T15:17:42Z"
+  "last_changed": "2026-11-07T15:17:45Z"
 }
