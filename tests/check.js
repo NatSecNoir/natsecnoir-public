@@ -674,6 +674,26 @@ assert.doesNotMatch(opinionPage, unofficial, "a non-argument record has no unoff
 const retired = css.match(/var\(--(accent|ink-2|ink-3|rule|rule2|rule-bright|rule-glow|accent-glow|band|card|card-sheen|brand-ink|glow1|glow2|neon|neon-wash|mint|rose|display|body|brand|mast|gold|jade|jade-deep|jade-hi|hair|hair2|hair3|panel|bg|dim|vermilion)\b/g) || [];
 assert.deepEqual([...new Set(retired)], [], "site.css references no retired v14 token or compat alias");
 assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
+
+// ---- reading face (readable body font, 2026-11-07) ----
+// Long reading text is Georgia (Gelasio where Georgia is missing); display text keeps Instrument Serif;
+// no sans text is set in the thin 300 weight.
+const ruleFont = (sel) => {
+  const esc = sel.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const m = css.match(new RegExp(`(?:^|[}\\s])${esc}\\s*\\{([^}]*)\\}`, "m"));
+  assert.ok(m, `site.css has a rule for ${sel}`);
+  return m[1];
+};
+assert.match(css, /--text:\s*Georgia,\s*"Gelasio"/, "the reading-text token starts with Georgia, then Gelasio");
+for (const sel of [".summary p", ".summary li", ".about p", ".about li", "article.fulltext .pg p",
+  "article.fulltext.structured .db p", ".item.lead .ex"]) {
+  assert.match(ruleFont(sel), /var\(--text\)/, `${sel} uses the reading face`);
+}
+for (const sel of [".record h1", ".record .stand", ".item.lead .stand", ".gloss", "footer .ft"]) {
+  assert.match(ruleFont(sel), /var\(--serif\)/, `${sel} keeps the display face`);
+}
+assert.doesNotMatch(css, /font:\s*300\b|font-weight:\s*300\b/, "no text is set in the thin 300 weight");
+assert.match(home, /fonts\.googleapis\.com\/css2\?family=Marcellus\+SC[^"]*family=Gelasio/, "the font link loads Gelasio");
 for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
 
 // ---- FCC Form 312 Schedule B dataset page (private plan 2026-10-21-001) ----
