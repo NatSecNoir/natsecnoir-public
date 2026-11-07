@@ -1738,11 +1738,59 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1203-pantograph-industries-pbc-robotics",
+      "kind": "ingest",
+      "label": "Pantograph Industries, PBC",
+      "date": "2026-11-07T15:17:46Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Pandroid Robot Hardware",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-07-record-d75b21"
+      },
+      "record_id": "2026-11-07-record-d75b21",
+      "citation": {
+        "record_id": "2026-11-07-record-d75b21",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1203-nextpower-llc-inverters",
+      "kind": "ingest",
+      "label": "Nextpower, LLC",
+      "date": "2026-11-07T15:17:47Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "APCS-UL and APV-UL product families",
+      "definitions": [],
+      "fields": {
+        "category": "inverters",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-07-record-d75b21"
+      },
+      "record_id": "2026-11-07-record-d75b21",
+      "citation": {
+        "record_id": "2026-11-07-record-d75b21",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-07T15:17:42Z",
+  "published_at": "2026-11-07T15:17:45Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-07T15:17:45Z"
+  "last_changed": "2026-11-07T15:17:47Z"
 }
