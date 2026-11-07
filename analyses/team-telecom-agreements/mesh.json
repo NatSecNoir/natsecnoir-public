@@ -1136,7 +1136,7 @@
           "DOJ",
           "DHS"
         ],
-        "country": "China"
+        "country": ""
       },
       "record_id": "2026-10-03-alleswolke-wireless-llc-letter-of-agreement-team-ebef73",
       "citation": {
@@ -1144,7 +1144,8 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T16:49:49Z"
     },
     {
       "key": "2026-10-03-america-europe-connect-2-usa-inc-letter-of-agree-f639cb",
@@ -4064,7 +4065,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-07T15:33:34Z",
+  "published_at": "2026-11-07T15:49:00Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-07T15:49:00Z"
+  "last_changed": "2026-11-07T16:49:49Z"
 }
