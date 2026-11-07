@@ -52,18 +52,19 @@ eleventyComputed:
       <tr class="row" data-search="{{ row.search }}">
         <td class="date">{{ row.date }}</td>
         <td><button class="expand" aria-expanded="false" aria-label="Show details">+</button> {{ row.company }}{% if row.history.length %}<span class="foldnote">+ {{ row.history.length }} folded: {{ row.foldsummary }}</span>{% endif %}</td>
-        <td>{% if row.pending.type %}<span class="pending">pending</span>{% else %}{{ row.transaction_type }}{% endif %}</td>
-        <td>{% if row.pending.agencies %}<span class="pending">pending</span>{% else %}{{ row.agencies | join(" · ") }}{% endif %}</td>
-        <td>{% if row.pending.country %}<span class="pending">pending</span>{% else %}{{ row.country }}{% endif %}</td>
+        <td>{% if row.pending.type %}<span class="pending">pending</span>{% else %}{{ row.transaction_type or "—" }}{% endif %}</td>
+        <td>{% if row.pending.agencies %}<span class="pending">pending</span>{% else %}{{ row.agencies | join(" · ") or "—" }}{% endif %}</td>
+        <td>{% if row.pending.country %}<span class="pending">pending</span>{% else %}{{ row.country or "—" }}{% endif %}</td>
         <td>{{ row.docket }}</td>
-        <td>{% if row.pending.terms %}<span class="pending">pending</span>{% else %}<span class="tcount">{{ row.terms.length }} bullet{{ "s" if row.terms.length != 1 }}</span>{% endif %}</td>
+        <td>{% if row.pending.terms %}<span class="pending">pending</span>{% elif row.terms.length %}<span class="tcount">{{ row.terms.length }} bullet{{ "s" if row.terms.length != 1 }}</span>{% else %}—{% endif %}</td>
         <td><a href="{{ row.record_url }}">record</a>{% if row.pdf_url %} · <a href="{{ row.pdf_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</td>
       </tr>
       <tr class="detail" hidden><td colspan="8">
         <div class="terms{% if row.pending.terms %} pending-note{% endif %}">
           <strong>Terms</strong>
           {% if row.pending.terms %}<span class="pending">Terms summary pending — not yet extracted or accepted.</span>
-          {% else %}<ul>{% for t in row.terms %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+          {% elif row.terms.length %}<ul>{% for t in row.terms %}<li>{{ t }}</li>{% endfor %}</ul>
+          {% else %}<span class="mute">No terms summary was extracted from this instrument.</span>{% endif %}
         </div>
         {% if row.history.length %}
         <div class="history"><strong>Instrument history</strong>
@@ -85,7 +86,7 @@ eleventyComputed:
     <p>Rendered at build time from the mirrored Records and the analysis mesh. Terms are
     analyst-reviewed summaries of the executed instrument, each accepted with a citation to the
     Record and page — not the instrument text. Fields marked <span class="pending">pending</span>
-    have not yet been reviewed.</p>
+    have not yet been reviewed; a dash (—) marks a reviewed field the instrument does not state.</p>
   </div>
 </article>
 <script src="/js/ledger.js" defer></script>
