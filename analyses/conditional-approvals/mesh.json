@@ -1690,11 +1690,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1203-percepto-inc-uas",
+      "kind": "ingest",
+      "label": "Percepto, Inc.",
+      "date": "2026-11-07T15:17:42Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "Air Max drone ecosystem including the Optical Gas Imaging drone and base station",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-07-record-d75b21"
+      },
+      "record_id": "2026-11-07-record-d75b21",
+      "citation": {
+        "record_id": "2026-11-07-record-d75b21",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
   "published_at": "2026-11-02T14:55:53Z",
-  "currency_date": "2026-11-02",
-  "last_changed": "2026-11-02T14:55:53Z"
+  "currency_date": "2026-11-07",
+  "last_changed": "2026-11-07T15:17:42Z"
 }
