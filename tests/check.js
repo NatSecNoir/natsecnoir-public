@@ -680,7 +680,7 @@ assert.doesNotMatch(css, /\.jpe?g/i, "site.css references no photograph");
 // no sans text is set in the thin 300 weight.
 const ruleFont = (sel) => {
   const esc = sel.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const m = css.match(new RegExp(`(?:^|[}\\s])${esc}\\s*\\{([^}]*)\\}`, "m"));
+  const m = css.match(new RegExp(`(?:^|\\})\\s*${esc}\\s*\\{([^}]*)\\}`, "m"));
   assert.ok(m, `site.css has a rule for ${sel}`);
   return m[1];
 };
@@ -692,7 +692,7 @@ for (const sel of [".summary p", ".summary li", ".about p", ".about li", "articl
 for (const sel of [".record h1", ".record .stand", ".item.lead .stand", ".gloss", "footer .ft"]) {
   assert.match(ruleFont(sel), /var\(--serif\)/, `${sel} keeps the display face`);
 }
-assert.doesNotMatch(css, /font:\s*300\b|font-weight:\s*300\b/, "no text is set in the thin 300 weight");
+assert.doesNotMatch(css, /font:[^;}]*\b300\b|font-weight:\s*300\b/, "no text is set in the thin 300 weight");
 assert.match(home, /fonts\.googleapis\.com\/css2\?family=Marcellus\+SC[^"]*family=Gelasio/, "the font link loads Gelasio");
 for (const img of ["blinds-plate.jpg", "letter-lamp.jpg", "banner-left.jpg", "banner-right.jpg"]) assert.ok(!fs.existsSync(path.join(root, "src/img", img)), `${img} is deleted`);
 
