@@ -14,7 +14,7 @@
     {
       "key": "2026-09-19-07-24-23-oneweb-eutelsat-loa-tt-22-049-to-061-si-f766e1",
       "kind": "ingest",
-      "label": "OneWeb Eutelsat LOA",
+      "label": "OneWeb Eutelsat",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -35,12 +35,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-2022-5-23-peerless-tt-214-loa-edf691",
       "kind": "ingest",
-      "label": "2022 5 23 Peerless TT 214 LOA",
+      "label": "Peerless Network, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -61,12 +62,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-2022-5-31-plant-loa-signed-440b1a",
       "kind": "ingest",
-      "label": "Plant LOA",
+      "label": "Plant Telephone Company",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -85,12 +87,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-all-west-communications-inc-et-al-signed-loa-tt-9ad0e2",
       "kind": "ingest",
-      "label": "All West Communications - Team Telecom mitigation agreement",
+      "label": "All West Communications, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -110,12 +113,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-doj-sbs-loa-11-28-22-1-ec38fd",
       "kind": "ingest",
-      "label": "Spanish Broadcasting System LOA - Team Telecom",
+      "label": "Spanish Broadcasting System",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -136,12 +140,13 @@
         "page": 2,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-element8-atlink-signed-loa-tt-23-039-to-040-5-2-58a8e1",
       "kind": "ingest",
-      "label": "Element8 AtLink  Team Telecom mitigation agreement",
+      "label": "AtLink Services, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -161,12 +166,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-everfast-fiber-networks-signed-loa-tt-22-022-to-a1926b",
       "kind": "ingest",
-      "label": "Everfast Fiber Networks SIGNED LOA",
+      "label": "Everfast Fiber Networks",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -187,12 +193,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-fusion-connect-inc-et-al-signed-loa-tt-22-018-to-e4ac31",
       "kind": "ingest",
-      "label": "Fusion Connect LOA",
+      "label": "Fusion Connect",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -211,12 +218,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-gcx-3i-214-loa-executed-0d1ccd",
       "kind": "ingest",
-      "label": "GCX LOA - Team Telecom",
+      "label": "GCX Holdings Limited",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -235,12 +243,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-gcx-3i-fa-1-cable-loa-executed-cbc797",
       "kind": "ingest",
-      "label": "GCX - FLAG Atlantic1 (FA-1) Cable LOA",
+      "label": "GCX - FLAG Atlantic1 (FA-1) Cable",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -261,7 +270,8 @@
         "page": 4,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
@@ -318,7 +328,7 @@
     {
       "key": "2026-09-19-loa-metronet-t-mobile-kkr-tt-24-044-to-048-final-bab18d",
       "kind": "ingest",
-      "label": "Metronet T-Mobile - Mitigation Agreement",
+      "label": "Metronet Holdings, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -339,12 +349,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-mashell-execution-copy-ad6a53",
       "kind": "ingest",
-      "label": "Mashell Mitigation Agreement",
+      "label": "Mashell, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -365,12 +376,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-meriplex-mitigation-agreement-executed-02e970",
       "kind": "ingest",
-      "label": "Meriplex Mitigation Agreement",
+      "label": "Meriplex Telecom, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -389,12 +401,13 @@
         "page": 1,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-signed-loa-cbts-ts-cbts-and-cbts-borrower-tt-24-06a6b1",
       "kind": "ingest",
-      "label": "Cincinnati Bell - Team Telecom Mitigation Agreement",
+      "label": "Cincinnati Bell Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -414,12 +427,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-truphone-inc-tp-global-signed-loa-tt-23-045-to-0-050fc8",
       "kind": "ingest",
-      "label": "Truphone - Team Telecom mitigation agreement",
+      "label": "Truphone, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -440,12 +454,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-tt-21-080-to-082-gtt-communications-loa-final-ex-cbb28a",
       "kind": "ingest",
-      "label": "GTT Communications - Team Telecom agreement",
+      "label": "GTT Communications",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -466,12 +481,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-tt-21-083-to-085-connect-holding-llc-loa-execute-808000",
       "kind": "ingest",
-      "label": "Consolidated Communications - Team Telecom LOA",
+      "label": "Consolidated Communications",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -491,12 +507,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-tt-22-062-064-millennium-telcom-letter-of-agreem-105394",
       "kind": "ingest",
-      "label": "Millennium Telcom Letter of Agreement",
+      "label": "Millennium Telcom",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -517,12 +534,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-tt-26-006-paramount-loa-execution-version-def69e",
       "kind": "ingest",
-      "label": "Paramount LOA Execution Version",
+      "label": "Paramount",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -541,12 +559,13 @@
         "page": 3,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-tt25-016-to-017-zayo-crown-castle-loa-executable-3147db",
       "kind": "ingest",
-      "label": "Zayo - Team Telecom Mitigation Agreement",
+      "label": "Zayo Group, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -567,12 +586,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-19-windstream-executed-loa-ed0bfe",
       "kind": "ingest",
-      "label": "Windstream - Mitigation Agreement",
+      "label": "Windstream Holdings II, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -593,7 +613,8 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
@@ -650,7 +671,7 @@
     {
       "key": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
       "kind": "ingest",
-      "label": "IPC Systems, Inc. — Letter of Agreement",
+      "label": "IPC Systems, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -671,12 +692,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa",
       "kind": "ingest",
-      "label": "BCE Holding Corporation — Letter of Agreement (Team Telecom, Docket ISP-PDR-20241206-00005)",
+      "label": "BCE Holding Corporation",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -696,12 +718,13 @@
         "page": 7,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-firstlight-fiber-inc-letter-of-agreement-team-te-ca9425",
       "kind": "ingest",
-      "label": "FirstLight Fiber, Inc. — Letter of Agreement",
+      "label": "FirstLight Fiber, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -720,12 +743,13 @@
         "page": 2,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-frontier-communications-corporation-debtor-in-po-c552a9",
       "kind": "ingest",
-      "label": "Frontier Communications Corporation, Debtor-in-Possession — Letter of Agreement (Team Telecom, Docket ISP-PDR-20200624-00005)",
+      "label": "Frontier Communications Corporation, Debtor-in-Possession",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -746,12 +770,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-03445f",
       "kind": "ingest",
-      "label": "Gigsky, Inc. — Letter of Agreement",
+      "label": "Gigsky, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -775,12 +800,13 @@
         "supersedes": [
           "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143"
         ]
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-gigsky-inc-letter-of-agreement-team-telecom-dock-cfa143",
       "kind": "ingest",
-      "label": "Gigsky, Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20160415-00008)",
+      "label": "Gigsky, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -799,12 +825,13 @@
         "page": 1,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-lightspeed-networks-inc-letter-of-agreement-team-2f30c6",
       "kind": "ingest",
-      "label": "Lightspeed Networks, Inc. — Letter of Agreement (Team Telecom)",
+      "label": "Lightspeed Networks, Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -824,12 +851,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-northwest-fiber-llc-dba-ziply-fiber-letter-of-ag-44da71",
       "kind": "ingest",
-      "label": "Northwest Fiber, LLC dba Ziply Fiber — Letter of Agreement (Team Telecom, Docket ISP-PDR-20190708-00006)",
+      "label": "Northwest Fiber, LLC dba Ziply Fiber",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -853,12 +881,13 @@
         "companion": [
           "2026-09-22-bce-holding-corporation-letter-of-agreement-team-b4d2fa"
         ]
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-onvoy-spectrum-llc-letter-of-agreement-team-tele-73e4da",
       "kind": "ingest",
-      "label": "Onvoy Spectrum, LLC — Letter of Agreement (Team Telecom, Docket ISP-PDR-20170316-00001)",
+      "label": "Onvoy Spectrum, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -877,12 +906,13 @@
         "page": 4,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-panther-parent-inc-letter-of-agreement-team-tele-1bc68d",
       "kind": "ingest",
-      "label": "Lumos — Letter of Agreement (Team Telecom)",
+      "label": "Lumos",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -903,12 +933,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-searchlight-wcm-holdco-llc-letter-of-agreement-t-07a475",
       "kind": "ingest",
-      "label": "Searchlight — Mitigation Agreement (Team Telecom)",
+      "label": "Searchlight",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -929,12 +960,13 @@
         "page": 5,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-tampnet-inc-letter-of-agreement-team-telecom-doc-032cc8",
       "kind": "ingest",
-      "label": "Tampnet Inc. — Letter of Agreement (Team Telecom, Docket ISP-PDR-20180824-00003)",
+      "label": "Tampnet Inc.",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -953,12 +985,13 @@
         "page": 4,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-windstream-holdings-ii-llc-letter-of-agreement-t-e096a7",
       "kind": "ingest",
-      "label": "Windstream — Letter of Agreement",
+      "label": "Windstream",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -979,12 +1012,13 @@
         "page": 6,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
       "key": "2026-09-22-zayo-group-llc-letter-of-agreement-team-telecom-e326a2",
       "kind": "ingest",
-      "label": "Zayo Group, LLC — Letter of Agreement",
+      "label": "Zayo Group, LLC",
       "date": "2026-09-26T12:02:53Z",
       "updates": [],
       "source": "run",
@@ -1004,12 +1038,13 @@
         "page": 8,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-07T15:00:25Z"
     }
   ],
   "sources": {},
   "manifest": [],
   "published_at": "2026-09-26T14:29:21Z",
   "currency_date": "2026-10-30",
-  "last_changed": "2026-09-26T12:02:53Z"
+  "last_changed": "2026-11-07T15:00:25Z"
 }

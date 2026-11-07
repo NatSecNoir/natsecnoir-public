@@ -2,11 +2,18 @@
  "count": 5,
  "analyses": [
   {
+   "id": "team-telecom-agreements",
+   "kind": "analysis",
+   "title": "Team Telecom Mitigation Agreements",
+   "last_changed": "2026-11-07T15:00:25Z",
+   "published_at": "2026-09-26T14:29:21Z"
+  },
+  {
    "id": "conditional-approvals",
    "kind": "analysis",
    "title": "Conditional Approvals",
    "last_changed": "2026-11-02T14:55:53Z",
-   "published_at": "2026-11-02T14:55:50Z"
+   "published_at": "2026-11-02T14:55:53Z"
   },
   {
    "id": "fcc-form-312-schedule-b",
@@ -21,13 +28,6 @@
    "title": "CFIUS Presidential Orders",
    "last_changed": "2026-10-12T20:14:20Z",
    "published_at": "2026-10-12T20:36:51Z"
-  },
-  {
-   "id": "team-telecom-agreements",
-   "kind": "analysis",
-   "title": "Team Telecom Mitigation Agreements",
-   "last_changed": "2026-09-26T12:02:53Z",
-   "published_at": "2026-09-26T14:29:21Z"
   },
   {
    "id": "covered-list",
