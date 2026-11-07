@@ -6,6 +6,7 @@ import listInfo from "./lists.js";
 import loadAnalyses from "./analyses.js";
 import { splitExcerpt } from "../lib/text.js";
 import { frPanel, latestErratum } from "../lib/fr.js";
+import { documentView } from "../lib/document.js";
 
 const root = process.env.RECORDS_DIR || "records";
 const today = (process.env.BUILD_TODAY || new Date().toISOString()).slice(0, 10);
@@ -59,6 +60,10 @@ export default function () {
     // and stays off the record object so list/feed data does not carry whole opinions.
     const textPath = path.join(dir, "text.json");
     const text = files.includes("text.json") ? JSON.parse(fs.readFileSync(textPath, "utf8")) : null;
+    // U11b: a reviewed record whose Document qualifies also carries document.json; its text page renders
+    // the structured view (numbered paragraphs, footnotes, contents) instead of page text.
+    const docView = text && files.includes("document.json")
+      ? documentView(JSON.parse(fs.readFileSync(path.join(dir, "document.json"), "utf8"))) : null;
     const fmt = ((meta.copy_url || meta.source_url || "").match(/\.(pdf|html?|txt)(\?|#|$)/i) || [])[1] || "";
     all.push({
       ...meta,
@@ -75,6 +80,10 @@ export default function () {
       lists: (meta.lists || []).map((l) => ({ slug: l, label: labelOf(l) })),
       agencySlug: slug(meta.issuing_body || "unknown"),
       textPages: text ? text.pages.length : 0,
+      structured: !!docView,
+      // "Read the order" for a structured FCC order (doc_type is often blank, so the tag and title count too).
+      textLabel: docView && (/\border\b/i.test(meta.doc_type || "") || (meta.lists || []).includes("fcc-natsec-order")
+        || (meta.issuing_body === "FCC" && /\border\b/i.test(meta.title || ""))) ? "Read the order" : "Read the full text",
       isArgument: isOralArgument(meta),
       // FCC national-security orders: Federal Register dates + links, the latest erratum, and the
       // editor's linked records (meta.related; kept apart from the heuristic `related` rail below).
@@ -87,7 +96,7 @@ export default function () {
         .filter(Boolean).join(" | ").toLowerCase().replace(/\s+/g, " "),
     });
     if (text) withText.push({ r: all[all.length - 1], pages: text.pages, corrected: text.corrected_pages || 0,
-                              layout: text.layout || "" });
+                              layout: text.layout || "", doc: docView });
   }
   all.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || b.id.localeCompare(a.id));
 

@@ -127,6 +127,35 @@ assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-
   assert.doesNotMatch(notice, /frpanel|notice erratum|class="linked"/, "no leakage onto unrelated records");
 }
 
+// U11b structured reading view: a record with document.json renders numbered paragraphs, footnotes
+// under each paragraph with marker and back links, a contents list, labelled parts, and the FCC PDF link.
+{
+  const doc = fs.readFileSync(path.join(outFix, "records/2025-03-01-fix-fcc-doc-ffcc04/text/index.html"), "utf8");
+  assert.match(doc, /class="record fulltext structured"/, "structured view on a record with document.json");
+  assert.match(doc, /<div class="db para" id="para-1">/, "paragraph 1 is anchored");
+  assert.match(doc, /<a class="pn mono" href="#para-2"[^>]*>¶ 2<\/a>/, "paragraph 2 shows its number as a link");
+  assert.match(doc, /R&amp;O\)\.<sup class="fnref"><a id="ref-fn-1" href="#fn-1">1<\/a><\/sup>/, "marker 1 links to its note in place");
+  assert.match(doc, /today\.<sup class="fnref"><a id="ref-fn-2" href="#fn-2">2<\/a><\/sup>/, "a marker at the end of a paragraph links");
+  assert.match(doc, /<li id="fn-1" value="1">Protecting Against National Security Threats[^<]*<a class="back" href="#ref-fn-1"/, "note 1 sits under its paragraph, number prefix stripped, with a back link");
+  assert.match(doc, /section 15\.2123\) is covered/, "a marker glued to digits is left in the text");
+  assert.match(doc, /<li id="fn-3" value="3">47 CFR 15\.212\. <a class="back" href="#para-2"/, "an unplaced marker's note links back to its paragraph");
+  assert.match(doc, /&lt;covered&gt;/, "paragraph text is escaped");
+  assert.doesNotMatch(doc, /<covered>/, "no raw markup from the Document");
+  assert.match(doc, /<h2 class="partband" id="part-statement-brendan-carr">Statement of Brendan Carr<\/h2>/, "statement section is labelled");
+  assert.match(doc, /<h2 class="partband" id="part-order">Order<\/h2>/, "order part is labelled");
+  assert.doesNotMatch(doc, /part-synopsis/, "the untitled lead-in has no band");
+  assert.match(doc, /<details class="toc" open>[\s\S]*href="#part-order"[\s\S]*href="#h1">I\. INTRODUCTION[\s\S]*href="#h2">A\. Modular Transmitters[\s\S]*href="#part-statement-brendan-carr"/, "contents lists parts and headings in order");
+  assert.match(doc, /<span class="pgno mono">p\. 2<\/span>/, "source page marker where the page changes");
+  assert.match(doc, /href="https:\/\/docs\.fcc\.gov\/public\/attachments\/FCC-25-90A1\.pdf">Official FCC PDF ↗/, "links the official FCC PDF");
+  assert.match(doc, /2 numbered paragraphs, 4 footnotes/, "note line counts paragraphs and footnotes");
+  assert.doesNotMatch(doc, /Page one text\./, "the page-text view is not rendered beside it");
+  const rec = fs.readFileSync(path.join(outFix, "records/2025-03-01-fix-fcc-doc-ffcc04/index.html"), "utf8");
+  assert.match(rec, /href="\/records\/2025-03-01-fix-fcc-doc-ffcc04\/text\/">Read the order · 2 pp\./, "record page says Read the order");
+  const flat = fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/text/index.html"), "utf8");
+  assert.doesNotMatch(flat, /structured|class="toc"/, "a record without document.json keeps the page view");
+  assert.match(fs.readFileSync(path.join(outFix, "records/2025-11-15-fixture-notice-bbbbbb/index.html"), "utf8"), /Read the full text/, "and keeps its label");
+}
+
 // ---- Team Telecom agreements ledger (U5) ----
 const tt = fs.readFileSync(path.join(outFix, "analyses/fixture-ledger/index.html"), "utf8");
 const ttFlat = tt.replace(/\s+/g, " ");
