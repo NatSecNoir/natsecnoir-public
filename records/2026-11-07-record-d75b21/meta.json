@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-07-record-d75b21",
+  "status": "approved",
+  "ingested_at": "2026-11-07T01:57:42Z",
+  "title": "Conditional Approvals: Percepto (drones), SERCOMM (routers), ABB Robotics, Pantograph Industries (robots), Nextpower (power inverters)",
+  "issuing_body": "FCC",
+  "doc_type": "",
+  "doc_date": "2026-11-06",
+  "docket": "DA 26-1203; WC Docket No. 18-89; ET Docket No. 21-232; EA Docket No. 21-233",
+  "lists": [
+    "conditional-approval"
+  ],
+  "entities": [],
+  "source_url": "https://docs.fcc.gov/public/attachments/DA-26-1203A1.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "d75b21d17d70f4d80d68e42ed8e61b3d92ffbba2f585c395daf9054e4e046244",
+  "approved_at": "2026-11-07T01:58:21Z",
+  "published_at": "2026-11-07T01:58:48Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-07T01:57:46Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-07-record-d75b21/source-b172b23f.pdf"
+}
