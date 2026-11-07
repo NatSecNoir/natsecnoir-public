@@ -82,9 +82,10 @@ export function recordGrainRows(mesh, records) {
       record_url: r.url, pdf_url: pdfOf(r),
       history,
       foldsummary: history.map((h) => `${h.rel} · ${h.label}`).join("; "),
+      // "pending" only until the row has an accepted entry; after review an empty field is a dash, since
+      // the instrument did not state it (owner 2026-11-07: e.g. no foreign country named in a U.S. LOA).
       pending: {
-        type: !fields.transaction_type, agencies: !agencies.length,
-        country: !fields.country, terms: !terms.length,
+        type: !entry, agencies: !entry, country: !entry, terms: !entry,
       },
       search,
     };

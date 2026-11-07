@@ -221,11 +221,14 @@ assert.equal((lumosDetail.match(/<li>/g) || []).length, 3, "AE3 detail row rende
 assert.match(tt, /last accepted change 2026-02-15/, "R14 currency stamp is the mesh last_changed");
 assert.doesNotMatch(tt, /last accepted change 2026-09-01/, "R14 stamp is not the mesh currency_date");
 
-// R7 partial: an accepted field renders in its column while each absent field is an independent
-// pending marker.
+// R7 partial (revised 2026-11-07): a reviewed row shows its accepted fields, and a dash, not "pending",
+// for each field the instrument did not state. "pending" is reserved for rows never reviewed (AE1 above).
 const partial = ttRow("2023-01-01-fix-partial-gggg07");
 assert.match(partial, /cable landing/, "R7 accepted transaction type renders");
-assert.equal((partial.match(/class="pending"/g) || []).length, 3, "R7 leaves agencies, country and terms pending");
+assert.doesNotMatch(partial, /class="pending"/, "a reviewed row shows no pending marker");
+assert.equal((partial.match(/<td>—<\/td>/g) || []).length, 3, "agencies, country and terms show a dash");
+const partialDetail = partial + (tt.split(partial)[1] || "").split('<tr class="row"')[0];
+assert.match(partialDetail, /No terms summary was extracted from this instrument\./, "detail says no terms were extracted");
 
 // AE4: a record with only team-telecom does not appear, even though an overlay entry names its id.
 assert.doesNotMatch(tt, /fix-teamonly-hhhh08/, "AE4 a non-member is absent even with an overlay entry");
