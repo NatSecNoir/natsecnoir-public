@@ -1,0 +1,18 @@
+{# U11b structured reading view: t.doc from src/lib/document.js. Paragraph anchors are #para-N. #}
+<p class="note mono">Text extracted from the source{% if r.format %} {{ r.format }}{% endif %}: {{ t.doc.paras }} numbered paragraph{{ "s" if t.doc.paras != 1 }}{% if t.doc.notes %}, {{ t.doc.notes }} footnote{{ "s" if t.doc.notes != 1 }}{% endif %}. Paragraph and page numbers follow the source; cite the source document, not this transcription.{% if r.source_url %} <a href="{{ r.source_url }}">{{ "Official FCC PDF" if r.issuing_body == "FCC" else "Open the source" }} ↗</a>{% endif %}</p>
+{% if t.doc.toc.length %}<details class="toc" open>
+  <summary class="mono">Contents</summary>
+  <ol>{% for e in t.doc.toc %}<li class="l{{ e.level }}"><a href="#{{ e.id }}">{{ e.label }}</a></li>{% endfor %}</ol>
+</details>{% endif %}
+<div class="docv">
+{% for it in t.doc.items %}
+{% if it.type == "part" %}<h2 class="partband" id="{{ it.id }}">{{ it.label }}</h2>
+{% elif it.type == "heading" %}{% if it.level <= 1 %}<h2 class="dh" id="{{ it.id }}">{{ it.text }}</h2>{% else %}<h3 class="dh" id="{{ it.id }}">{{ it.text }}</h3>{% endif %}
+{% else %}<div class="db {{ it.type }}" id="{{ it.id }}">
+  {% if it.page %}<span class="pgno mono">p. {{ it.page }}</span>{% endif %}
+  <p>{% if it.number != null %}<a class="pn mono" href="#{{ it.id }}" title="Link to paragraph {{ it.number }}">¶ {{ it.number }}</a> {% endif %}{{ it.html | safe }}</p>
+  {% if it.notes.length %}<ol class="fns">{% for f in it.notes %}<li id="{{ f.id }}" value="{{ f.n }}">{{ f.text }} <a class="back" href="#{{ f.back }}" aria-label="Back to the text">↩</a></li>{% endfor %}</ol>{% endif %}
+</div>
+{% endif %}
+{% endfor %}
+</div>
