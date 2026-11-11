@@ -2,11 +2,18 @@
  "count": 5,
  "analyses": [
   {
+   "id": "fcc-form-312-schedule-b",
+   "kind": "analysis",
+   "title": "FCC Form 312 Schedule B",
+   "last_changed": "2026-11-11T20:20:11Z",
+   "published_at": "2026-10-28T08:44:45Z"
+  },
+  {
    "id": "team-telecom-agreements",
    "kind": "analysis",
    "title": "Team Telecom Mitigation Agreements",
    "last_changed": "2026-11-07T16:49:49Z",
-   "published_at": "2026-11-07T15:49:00Z"
+   "published_at": "2026-11-07T16:49:49Z"
   },
   {
    "id": "conditional-approvals",
@@ -14,13 +21,6 @@
    "title": "Conditional Approvals",
    "last_changed": "2026-11-07T15:17:48Z",
    "published_at": "2026-11-07T15:17:50Z"
-  },
-  {
-   "id": "fcc-form-312-schedule-b",
-   "kind": "analysis",
-   "title": "FCC Form 312 Schedule B",
-   "last_changed": "2026-10-28T08:37:53Z",
-   "published_at": "2026-10-28T08:44:45Z"
   },
   {
    "id": "cfius-presidential-orders",

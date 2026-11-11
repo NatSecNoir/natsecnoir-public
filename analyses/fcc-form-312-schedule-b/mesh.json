@@ -16,36 +16,36 @@
       "lower_mhz": 37500.0,
       "upper_mhz": 40000.0,
       "label": "37.5–40 GHz",
-      "applications": 208,
-      "last_success": "2026-10-28T08:13:38Z"
+      "applications": 209,
+      "last_success": "2026-11-11T19:57:10Z"
     },
     {
       "lower_mhz": 27500.0,
       "upper_mhz": 28350.0,
       "label": "27.5–28.35 GHz",
-      "applications": 1702,
-      "last_success": "2026-10-28T08:37:52Z"
+      "applications": 1705,
+      "last_success": "2026-11-11T20:20:11Z"
     },
     {
       "lower_mhz": 47200.0,
       "upper_mhz": 48200.0,
       "label": "47.2–48.2 GHz",
-      "applications": 210,
-      "last_success": "2026-10-28T08:40:05Z"
+      "applications": 211,
+      "last_success": "2026-11-11T20:22:12Z"
     },
     {
       "lower_mhz": 24750.0,
       "upper_mhz": 25250.0,
       "label": "24.75–25.25 GHz",
       "applications": 39,
-      "last_success": "2026-10-28T08:42:27Z"
+      "last_success": "2026-11-11T20:24:16Z"
     },
     {
       "lower_mhz": 50400.0,
       "upper_mhz": 51400.0,
       "label": "50.4–51.4 GHz",
-      "applications": 210,
-      "last_success": "2026-10-28T08:44:44Z"
+      "applications": 211,
+      "last_success": "2026-11-11T20:26:16Z"
     }
   ],
   "rows": [
@@ -1456,29 +1456,29 @@
       "needs_review": true
     },
     {
-      "id": "000000N0000000E-0033029414",
+      "id": "E240137-esim",
       "applicant": "ALL.SPACE Networks Ltd.",
       "frn": "0033029414",
       "callsign": "E240137",
-      "class_of_station": "MES",
+      "class_of_station": "c. FSS Fixed Earth Stations ( multiple locations without coordinates specified)",
       "station_type": "blanket",
       "status": "granted",
-      "has_pending": false,
+      "has_pending": true,
       "grant_date": "2025-08-08",
       "expiration_date": "2040-08-08",
-      "latest_file_number": "SES-AMD-20250307-00325",
-      "latest_filed": "2025-03-07",
+      "latest_file_number": "SES-MOD-20260928-02669",
+      "latest_filed": "2026-11-02",
       "site": {
         "site_id": "ESIM",
-        "street": ".",
-        "city": ".",
-        "county": ".",
+        "street": ",",
+        "city": ",",
+        "county": ",",
         "state": "",
-        "zip": ".",
-        "lat": 0.0,
-        "lon": -0.0,
-        "elevation_m": 0.0,
-        "datum": "nad-83",
+        "zip": ",",
+        "lat": null,
+        "lon": null,
+        "elevation_m": null,
+        "datum": "na",
         "area_of_operation": "United States, its territories and possessions, U.S. territorial waters, and international waters."
       },
       "antennas": [
@@ -1497,6 +1497,114 @@
           "max_eirp_dbw": 52.0,
           "bands": [
             {
+              "lower_mhz": 18800.0,
+              "upper_mhz": 19300.0,
+              "tr": "R",
+              "gain_dbi": 35.5,
+              "gain_freq_ghz": 19.05,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "2M06G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK"
+                },
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 28350.0,
+              "upper_mhz": 29100.0,
+              "tr": "T",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 29.0,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 12.0,
+                  "modulation": "OQPSK, QPSK"
+                },
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 20.8708664,
+                  "modulation": "OQPSK, QPSK"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 88.2,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 88.2,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17800.0,
+              "upper_mhz": 18600.0,
+              "tr": "R",
+              "gain_dbi": 35.1,
+              "gain_freq_ghz": 18.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK"
+                },
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 260.0
+                }
+              ]
+            },
+            {
               "lower_mhz": 19600.0,
               "upper_mhz": 20200.0,
               "tr": "R",
@@ -1506,22 +1614,34 @@
               "in_band": false,
               "emissions": [
                 {
-                  "emission": "20M0G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 12.0,
-                  "modulation": ""
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK"
                 },
                 {
-                  "emission": "2M60G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 21.0,
-                  "modulation": ""
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK"
                 }
               ],
-              "satellite_arcs": []
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
             },
             {
-              "lower_mhz": 29250.0,
+              "lower_mhz": 29300.0,
               "upper_mhz": 30000.0,
               "tr": "T",
               "gain_dbi": 36.0,
@@ -1538,15 +1658,186 @@
                 {
                   "emission": "2M60G7D",
                   "eirp_dbw": 49.0,
-                  "eirp_density": 21.0,
+                  "eirp_density": 20.8708664,
                   "modulation": "OQPSK, QPSK"
                 }
               ],
-              "satellite_arcs": []
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
             },
             {
               "lower_mhz": 17700.0,
-              "upper_mhz": 19400.0,
+              "upper_mhz": 18600.0,
+              "tr": "R",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 18.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK"
+                },
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "antenna_id": "UT Gen2",
+          "quantity": 1000.0,
+          "manufacturer": "ALL.SPACE",
+          "model": "HYDRA",
+          "diameter_m": 0.86,
+          "diameter_minor_m": 0.86,
+          "diameter_major_m": 0.86,
+          "height_agl_m": 0.0,
+          "height_amsl_m": 0.0,
+          "height_rooftop_m": 0.0,
+          "max_input_power_w": 25.12,
+          "max_eirp_dbw": 52.0,
+          "bands": [
+            {
+              "lower_mhz": 18800.0,
+              "upper_mhz": 19300.0,
+              "tr": "R",
+              "gain_dbi": 35.5,
+              "gain_freq_ghz": 19.05,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "2M06G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "200MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 1.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 1.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 88.82,
+                  "elevation_west": 88.82,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 28350.0,
+              "upper_mhz": 29100.0,
+              "tr": "T",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 29.0,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 12.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 20.87,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "200MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 2.0103,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": -1.9691001,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 1.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 1.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 88.82,
+                  "elevation_west": 88.82,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 19600.0,
+              "upper_mhz": 20200.0,
               "tr": "R",
               "gain_dbi": 36.0,
               "gain_freq_ghz": 20.2,
@@ -1554,45 +1845,210 @@
               "in_band": false,
               "emissions": [
                 {
-                  "emission": "2M60G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 21.0,
-                  "modulation": ""
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
                 },
                 {
-                  "emission": "20M0G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 12.0,
-                  "modulation": ""
-                }
-              ],
-              "satellite_arcs": []
-            },
-            {
-              "lower_mhz": 28350.0,
-              "upper_mhz": 29100.0,
-              "tr": "T",
-              "gain_dbi": 36.0,
-              "gain_freq_ghz": 30.0,
-              "polarization": "T",
-              "in_band": true,
-              "emissions": [
-                {
                   "emission": "2M60G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 21.0,
-                  "modulation": "OQPSK, QPSK"
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
                 },
                 {
-                  "emission": "20M0G7D",
-                  "eirp_dbw": 49.0,
-                  "eirp_density": 12.0,
-                  "modulation": "OQPSK, QPSK"
+                  "emission": "200MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
                 }
               ],
               "satellite_arcs": [
                 {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
                   "sat_orbit_type": "G",
+                  "sat_arc_east": 1.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 1.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 88.82,
+                  "elevation_west": 88.82,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 29300.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 30.0,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 12.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 20.87,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "200MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 2.0103,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": -1.9691001,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 1.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 1.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 88.82,
+                  "elevation_west": 88.82,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17800.0,
+              "upper_mhz": 18600.0,
+              "tr": "R",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 18.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "2M60G7D",
+                  "eirp_dbw": 0.0,
+                  "eirp_density": 0.0,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "200MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 3.0,
+                  "elevation_west": 3.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                },
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 1.0,
+                  "sat_hemi_east": "E",
+                  "sat_arc_west": 1.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 88.82,
+                  "elevation_west": 88.82,
+                  "azimuth_east": 90.0,
+                  "azimuth_west": 270.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 28400.0,
+              "upper_mhz": 29100.0,
+              "tr": "T",
+              "gain_dbi": 36.0,
+              "gain_freq_ghz": 29.0,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "2M06G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 21.8819277,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "20M0G7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 12.0103,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "200MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": 2.0103,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": 49.0,
+                  "eirp_density": -1.9691001,
+                  "modulation": "OQPSK, QPSK, BPSK, 16QAM, OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
                   "sat_arc_east": null,
                   "sat_hemi_east": null,
                   "sat_arc_west": null,
@@ -1615,15 +2071,23 @@
         }
       ],
       "emissions": [
+        "200MG7D",
         "20M0G7D",
-        "2M60G7D"
+        "2M60G7D",
+        "500MG7D"
       ],
       "max_eirp_dbw": 49.0,
-      "max_eirp_density": 21.0,
+      "max_eirp_density": 20.8708664,
       "points_of_communication": [
         {
           "name": "OneWeb Ku-/Ka-band Constellation (S2963)",
           "itu_name": "OneWeb Ku-/Ka-band Constellation (S2963)",
+          "orbit": "NGSO",
+          "country": ""
+        },
+        {
+          "name": "SpaceX Gen2 (S2992/3069)",
+          "itu_name": "SpaceX Gen2 (S2992/3069)",
           "orbit": "NGSO",
           "country": ""
         },
@@ -1640,20 +2104,20 @@
           "country": ""
         },
         {
+          "name": "KUIPER NGSO (S3051)",
+          "itu_name": "Kuiper NGSO",
+          "orbit": "NGSO",
+          "country": ""
+        },
+        {
           "name": "TELESAT (S2976) LEO",
           "itu_name": "LEO-1(KU/KA BAND)",
           "orbit": "NGSO",
           "country": ""
         },
         {
-          "name": "O3B-A (S2935)",
-          "itu_name": "O3B-A",
-          "orbit": "NGSO",
-          "country": ""
-        },
-        {
-          "name": "KUIPER NGSO (S3051)",
-          "itu_name": "Kuiper NGSO",
+          "name": "O3B NGSO (S2935)",
+          "itu_name": "O3B NGSO",
           "orbit": "NGSO",
           "country": ""
         },
@@ -1661,7 +2125,7 @@
           "name": "PERMITTED LIST",
           "itu_name": "Permitted Space Station List",
           "orbit": "GSO",
-          "country": "US"
+          "country": ""
         }
       ],
       "coordination": {
@@ -1673,19 +2137,19 @@
       },
       "exhibits": [
         {
-          "name": "Application.pdf",
+          "name": "ALL.SPACE Commercial License Modification Application (For Filing-Redacted).pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e2af9f928796e610b986a7570cbb3549"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/1033097d3b5c53107be9f5ac24e45aaf"
         },
         {
-          "name": "Narrative & Attach.pdf",
+          "name": "Application.pdf",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/08af5f928796e610b986a7570cbb35cc"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/84912a2ecfa30710b16ffa742f851cc8"
         },
         {
           "name": "HTML.htm",
           "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/72af9f928796e610b986a7570cbb354c"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/4c912a2ecfa30710b16ffa742f851ccc"
         }
       ],
       "filings": [
@@ -1718,10 +2182,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20250307-00325",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=0e1ddc0d47dae610418b674c926d433b"
+        },
+        {
+          "file_number": "SES-MOD-20260928-02669",
+          "filing_type": "MOD",
+          "filing_type_label": "Modification",
+          "filed": "2026-11-02",
+          "state": "Pending Review",
+          "last_action": "Grant of Authority",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20260928-02669",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/51a489fd3b5c53107be9f5ac24e45af4",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=bb812a2ecfa30710b16ffa742f851c2a"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20250307-00325",
-      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=0e1ddc0d47dae610418b674c926d433b",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20260928-02669",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/51a489fd3b5c53107be9f5ac24e45af4",
       "flags": [],
       "needs_review": false
     },
@@ -5826,6 +6305,254 @@
       ],
       "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260515-01337",
       "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=a9d51f7e93f8c394dec6791d48373c26",
+      "flags": [],
+      "needs_review": false
+    },
+    {
+      "id": "364958N1213159W-0027863257",
+      "applicant": "AST & Science, LLC",
+      "frn": "0027863257",
+      "callsign": "E260694",
+      "class_of_station": "a. FSS Fixed Earth Station (single location)",
+      "station_type": "individual",
+      "status": "pending",
+      "has_pending": true,
+      "grant_date": "",
+      "expiration_date": "",
+      "latest_file_number": "SES-LIC-20261106-02995",
+      "latest_filed": "2026-11-06",
+      "site": {
+        "site_id": "San Juan Bautista V-band Gateway",
+        "street": "810 Salinas Rd",
+        "city": "San Juan Bautista",
+        "county": "San Benito",
+        "state": "CA",
+        "zip": "95045",
+        "lat": 36.8328,
+        "lon": -121.5331,
+        "elevation_m": 76.0,
+        "datum": "nad-83",
+        "area_of_operation": "Fixed ground station located at coordinates in fields below. "
+      },
+      "antennas": [
+        {
+          "antenna_id": "San Juan Bautista V-band Gateway",
+          "quantity": 4.0,
+          "manufacturer": "SVS SATELLITE SYSTEMS/SATRAK",
+          "model": "500",
+          "diameter_m": 2.4,
+          "diameter_minor_m": 0.0,
+          "diameter_major_m": 0.0,
+          "height_agl_m": 4.5,
+          "height_amsl_m": 80.5,
+          "height_rooftop_m": 0.0,
+          "max_input_power_w": 2.3,
+          "max_eirp_dbw": 59.6,
+          "bands": [
+            {
+              "lower_mhz": 37500.0,
+              "upper_mhz": 42000.0,
+              "tr": "R",
+              "gain_dbi": 55.2,
+              "gain_freq_ghz": 40.0,
+              "polarization": "T/T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "5M00D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "10M0D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "100MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 50400.0,
+              "upper_mhz": 51400.0,
+              "tr": "T",
+              "gain_dbi": 57.3,
+              "gain_freq_ghz": 50.9,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "5M00D7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 28.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "100MD7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 15.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "10M0D7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 25.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 47200.0,
+              "upper_mhz": 50200.0,
+              "tr": "T",
+              "gain_dbi": 57.0,
+              "gain_freq_ghz": 48.7,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "5M00D7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 28.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "10M0D7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 25.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                },
+                {
+                  "emission": "100MD7W",
+                  "eirp_dbw": 59.6,
+                  "eirp_density": 15.6,
+                  "modulation": "BPSK up to 256 QAM; Digital Data."
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 10.0,
+                  "elevation_west": 10.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "band_ranges": [
+        {
+          "lower_mhz": 37500.0,
+          "upper_mhz": 42000.0,
+          "tr": "R"
+        },
+        {
+          "lower_mhz": 47200.0,
+          "upper_mhz": 50200.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 50400.0,
+          "upper_mhz": 51400.0,
+          "tr": "T"
+        }
+      ],
+      "emissions": [
+        "100MD7W",
+        "10M0D7W",
+        "5M00D7W"
+      ],
+      "max_eirp_dbw": 59.6,
+      "max_eirp_density": 28.6,
+      "points_of_communication": [
+        {
+          "name": "AST SpaceMobile (S3065)",
+          "itu_name": "AST SpaceMobile (S3065)",
+          "orbit": "NGSO",
+          "country": "USA"
+        }
+      ],
+      "coordination": {
+        "freq_coord_required": "no",
+        "foreign_coord_required": "no",
+        "faa_notification": "no",
+        "comply_25209a": "na",
+        "comply_25209a2": "yes"
+      },
+      "exhibits": [
+        {
+          "name": "Exhibit 2_Comsearch Report (San Juan Bautista).pdf",
+          "description": "Comsearch Report",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f0c0e3c33b5c1b10264ea2d964e45a81"
+        },
+        {
+          "name": "Exhibit 3_RadHaz Analysis 2.4m.pdf",
+          "description": "Radiation Hazard Analysis",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/12d0e3c33b5c1b10264ea2d964e45ae2"
+        },
+        {
+          "name": "Exhibit 1_San Juan Bautista GW Narrative 11-2026.pdf",
+          "description": "Narrative",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8131afc33b5c1b10264ea2d964e45ad4"
+        }
+      ],
+      "filings": [
+        {
+          "file_number": "SES-LIC-20261106-02995",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2026-11-06",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20261106-02995",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f659ab433b9c1b10264ea2d964e45a41",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=216127073b5c1b10264ea2d964e45a64"
+        }
+      ],
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20261106-02995",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/f659ab433b9c1b10264ea2d964e45a41",
       "flags": [],
       "needs_review": false
     },
@@ -22742,6 +23469,286 @@
       "needs_review": false
     },
     {
+      "id": "321604N1065451W-0032682783",
+      "applicant": "Heighliner Corp",
+      "frn": "0032682783",
+      "callsign": "E260696",
+      "class_of_station": "a. FSS Fixed Earth Station (single location)",
+      "station_type": "individual",
+      "status": "pending",
+      "has_pending": true,
+      "grant_date": "",
+      "expiration_date": "",
+      "latest_file_number": "SES-LIC-20260911-02545",
+      "latest_filed": "2026-11-09",
+      "site": {
+        "site_id": "Las Cruces, NM",
+        "street": "8811 Trigg Loop",
+        "city": "Las Cruces",
+        "county": "Dona Ana",
+        "state": "NM",
+        "zip": "88007",
+        "lat": 32.267806,
+        "lon": -106.914111,
+        "elevation_m": 0.0,
+        "datum": "na",
+        "area_of_operation": "Las Cruces"
+      },
+      "antennas": [
+        {
+          "antenna_id": "4.8m Cassegrain",
+          "quantity": 1.0,
+          "manufacturer": "CPI Antenna Technologies",
+          "model": "Cassegrain",
+          "diameter_m": 4.8,
+          "diameter_minor_m": 0.0,
+          "diameter_major_m": 0.0,
+          "height_agl_m": 3.4,
+          "height_amsl_m": 1343.0,
+          "height_rooftop_m": 0.0,
+          "max_input_power_w": null,
+          "max_eirp_dbw": null,
+          "bands": [
+            {
+              "lower_mhz": 17700.0,
+              "upper_mhz": 20200.0,
+              "tr": "R",
+              "gain_dbi": 57.2,
+              "gain_freq_ghz": 19.85,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "25M0G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "QPSK, 8PSK, 16QAM, data and monitoring\n"
+                },
+                {
+                  "emission": "500KG7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "QPSK, 8PSK, 16QAM, data and monitoring\n"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 83.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 131.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 44.42,
+                  "elevation_west": 44.31,
+                  "azimuth_east": 140.28,
+                  "azimuth_west": 219.94
+                }
+              ]
+            },
+            {
+              "lower_mhz": 27500.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 59.9,
+              "gain_freq_ghz": 29.0,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "35M0G7D",
+                  "eirp_dbw": 73.2,
+                  "eirp_density": 33.7799195,
+                  "modulation": "QPSK, 8PSK, 16QAM, data and monitoring\n"
+                },
+                {
+                  "emission": "500MG7D",
+                  "eirp_dbw": 84.75,
+                  "eirp_density": 33.7808999,
+                  "modulation": "QPSK, 8PSK, 16QAM, data and monitoring\n"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 83.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 131.0,
+                  "sat_hemi_west": "W",
+                  "elevation_east": 44.42,
+                  "elevation_west": 44.31,
+                  "azimuth_east": 140.28,
+                  "azimuth_west": 219.94
+                }
+              ]
+            },
+            {
+              "lower_mhz": 19600.0,
+              "upper_mhz": 19800.0,
+              "tr": "R",
+              "gain_dbi": 57.2,
+              "gain_freq_ghz": 19.8,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "24K4G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "TT&C\n"
+                },
+                {
+                  "emission": "2M00G7D",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "TT&C"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "E",
+                  "elevation_east": 5.58,
+                  "elevation_west": 5.58,
+                  "azimuth_east": 260.77,
+                  "azimuth_west": 260.77
+                }
+              ]
+            },
+            {
+              "lower_mhz": 28350.0,
+              "upper_mhz": 28600.0,
+              "tr": "T",
+              "gain_dbi": 59.9,
+              "gain_freq_ghz": 28.6,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "24K4G7D",
+                  "eirp_dbw": 71.2,
+                  "eirp_density": 62.4467016,
+                  "modulation": "TT&C"
+                },
+                {
+                  "emission": "2M00G7D",
+                  "eirp_dbw": 74.2,
+                  "eirp_density": 47.2103,
+                  "modulation": "TT&C"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "G",
+                  "sat_arc_east": 180.0,
+                  "sat_hemi_east": "W",
+                  "sat_arc_west": 180.0,
+                  "sat_hemi_west": "E",
+                  "elevation_east": 5.58,
+                  "elevation_west": 5.58,
+                  "azimuth_east": 260.77,
+                  "azimuth_west": 260.77
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "band_ranges": [
+        {
+          "lower_mhz": 27500.0,
+          "upper_mhz": 30000.0,
+          "tr": "T"
+        },
+        {
+          "lower_mhz": 28350.0,
+          "upper_mhz": 28600.0,
+          "tr": "T"
+        }
+      ],
+      "emissions": [
+        "24K4G7D",
+        "2M00G7D",
+        "35M0G7D",
+        "500MG7D"
+      ],
+      "max_eirp_dbw": 84.75,
+      "max_eirp_density": 62.4467016,
+      "points_of_communication": [
+        {
+          "name": "ASTRANIS 131W GSO System (S00784)",
+          "itu_name": "ASTRANIS 131W GSO System (S00784)",
+          "orbit": "131.1º W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "Arcturus",
+          "itu_name": "Arcturus",
+          "orbit": "163 W.L.",
+          "country": "USA"
+        },
+        {
+          "name": "NuView Alpha",
+          "itu_name": "ARRAKIS-1 (S3151)",
+          "orbit": "83.1°  W.L. ",
+          "country": "USA"
+        },
+        {
+          "name": "NuView Bravo",
+          "itu_name": "ARRAKIS-1 (S3150)",
+          "orbit": "83.1°  W.L.",
+          "country": "USA"
+        }
+      ],
+      "coordination": {
+        "freq_coord_required": "yes",
+        "foreign_coord_required": "no",
+        "faa_notification": "no",
+        "comply_25209a": "yes",
+        "comply_25209a2": "na"
+      },
+      "exhibits": [
+        {
+          "name": "28 GHz Coordination Report - Las Cruces - October 2026.pdf",
+          "description": "Exhibit D (uplink)",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/fd4b2748936893102948991d48373c33"
+        },
+        {
+          "name": "LasCruces.18GHz.FinalReport.pdf",
+          "description": "Exhibit D (downlink)",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/385be748936893102948991d48373c38"
+        },
+        {
+          "name": "Astranis Las Cruces 4_8m Application 110926 FINAL.pdf",
+          "description": "Narrative",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5a8beb48936893102948991d48373cf9"
+        }
+      ],
+      "filings": [
+        {
+          "file_number": "SES-LIC-20260911-02545",
+          "filing_type": "LIC",
+          "filing_type_label": "License",
+          "filed": "2026-11-09",
+          "state": "Pending Review",
+          "last_action": "",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260911-02545",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d55a2bc4936893102948991d48373c44",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=88c44e852f9f4b10c7a543ca6fa4e326"
+        }
+      ],
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260911-02545",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/d55a2bc4936893102948991d48373c44",
+      "flags": [],
+      "needs_review": false
+    },
+    {
       "id": "454608N1083230W-0012369286",
       "applicant": "HNS License Sub, LLC",
       "frn": "0012369286",
@@ -28585,6 +29592,11 @@
           "name": "Application.pdf",
           "description": "Form Attachment",
           "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/df615ed28712e610b986a7570cbb3537"
+        },
+        {
+          "name": "SES-MOD-20220627-00694.pdf",
+          "description": "Decision",
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/8994f242cf981310cd85b0113d851cef"
         }
       ],
       "filings": [
@@ -45273,11 +46285,11 @@
       "class_of_station": "c. FSS Fixed Earth Stations ( multiple locations without coordinates specified)",
       "station_type": "blanket",
       "status": "granted",
-      "has_pending": false,
+      "has_pending": true,
       "grant_date": "2024-06-28",
       "expiration_date": "2039-06-28",
-      "latest_file_number": "SES-MOD-20251211-01036",
-      "latest_filed": "2026-01-05",
+      "latest_file_number": "SES-MOD-20261106-02998",
+      "latest_filed": "2026-11-06",
       "site": {
         "site_id": "CT Blanket",
         "street": "",
@@ -45288,10 +46300,242 @@
         "lat": null,
         "lon": null,
         "elevation_m": null,
-        "datum": "na",
+        "datum": "",
         "area_of_operation": ""
       },
       "antennas": [
+        {
+          "antenna_id": "TYPE 2",
+          "quantity": 0.0,
+          "manufacturer": "Kuiper Systems LLC",
+          "model": "AMZ-2",
+          "diameter_m": 0.185,
+          "diameter_minor_m": null,
+          "diameter_major_m": null,
+          "height_agl_m": null,
+          "height_amsl_m": null,
+          "height_rooftop_m": null,
+          "max_input_power_w": 4.5,
+          "max_eirp_dbw": 40.732,
+          "bands": [
+            {
+              "lower_mhz": 19700.0,
+              "upper_mhz": 20200.0,
+              "tr": "R",
+              "gain_dbi": 31.9,
+              "gain_freq_ghz": 19.95,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "500MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "20M0D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 28350.0,
+              "upper_mhz": 29100.0,
+              "tr": "T",
+              "gain_dbi": 34.0,
+              "gain_freq_ghz": 28.6,
+              "polarization": "T",
+              "in_band": true,
+              "emissions": [
+                {
+                  "emission": "10M0D7W",
+                  "eirp_dbw": 40.5,
+                  "eirp_density": 6.521,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "200MD7W",
+                  "eirp_dbw": 40.5,
+                  "eirp_density": -6.49,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 18800.0,
+              "upper_mhz": 19400.0,
+              "tr": "R",
+              "gain_dbi": 31.4,
+              "gain_freq_ghz": 18.8,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "500MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "20M0D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 29500.0,
+              "upper_mhz": 30000.0,
+              "tr": "T",
+              "gain_dbi": 34.2,
+              "gain_freq_ghz": 29.5,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "200MD7W",
+                  "eirp_dbw": 40.5,
+                  "eirp_density": -6.49,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "10M0D7W",
+                  "eirp_dbw": 40.5,
+                  "eirp_density": 6.521,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17800.0,
+              "upper_mhz": 18600.0,
+              "tr": "R",
+              "gain_dbi": 31.1,
+              "gain_freq_ghz": 18.2,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "500MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "20M0D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            },
+            {
+              "lower_mhz": 17300.0,
+              "upper_mhz": 17800.0,
+              "tr": "R",
+              "gain_dbi": 30.8,
+              "gain_freq_ghz": 17.6,
+              "polarization": "T",
+              "in_band": false,
+              "emissions": [
+                {
+                  "emission": "500MD7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                },
+                {
+                  "emission": "20M0D7W",
+                  "eirp_dbw": null,
+                  "eirp_density": null,
+                  "modulation": "SC-OFDM"
+                }
+              ],
+              "satellite_arcs": [
+                {
+                  "sat_orbit_type": "N",
+                  "sat_arc_east": null,
+                  "sat_hemi_east": null,
+                  "sat_arc_west": null,
+                  "sat_hemi_west": null,
+                  "elevation_east": 35.0,
+                  "elevation_west": 35.0,
+                  "azimuth_east": "0",
+                  "azimuth_west": 360.0
+                }
+              ]
+            }
+          ]
+        },
         {
           "antenna_id": "TYPE 1",
           "quantity": 0.0,
@@ -45755,238 +46999,6 @@
               ]
             }
           ]
-        },
-        {
-          "antenna_id": "TYPE 2",
-          "quantity": 0.0,
-          "manufacturer": "Kuiper Systems LLC",
-          "model": "AMZ-2",
-          "diameter_m": 0.185,
-          "diameter_minor_m": null,
-          "diameter_major_m": null,
-          "height_agl_m": null,
-          "height_amsl_m": null,
-          "height_rooftop_m": null,
-          "max_input_power_w": 4.5,
-          "max_eirp_dbw": 40.732,
-          "bands": [
-            {
-              "lower_mhz": 19700.0,
-              "upper_mhz": 20200.0,
-              "tr": "R",
-              "gain_dbi": 31.9,
-              "gain_freq_ghz": 19.95,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "20M0D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "500MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 28350.0,
-              "upper_mhz": 29100.0,
-              "tr": "T",
-              "gain_dbi": 34.0,
-              "gain_freq_ghz": 28.6,
-              "polarization": "T",
-              "in_band": true,
-              "emissions": [
-                {
-                  "emission": "10M0D7W",
-                  "eirp_dbw": 40.5,
-                  "eirp_density": 6.521,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "200MD7W",
-                  "eirp_dbw": 40.5,
-                  "eirp_density": -6.49,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 18800.0,
-              "upper_mhz": 19400.0,
-              "tr": "R",
-              "gain_dbi": 31.4,
-              "gain_freq_ghz": 18.8,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "500MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "20M0D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 29500.0,
-              "upper_mhz": 30000.0,
-              "tr": "T",
-              "gain_dbi": 34.2,
-              "gain_freq_ghz": 29.5,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "200MD7W",
-                  "eirp_dbw": 40.5,
-                  "eirp_density": -6.49,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "10M0D7W",
-                  "eirp_dbw": 40.5,
-                  "eirp_density": 6.521,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 17800.0,
-              "upper_mhz": 18600.0,
-              "tr": "R",
-              "gain_dbi": 31.1,
-              "gain_freq_ghz": 18.2,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "500MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "20M0D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            },
-            {
-              "lower_mhz": 17300.0,
-              "upper_mhz": 17800.0,
-              "tr": "R",
-              "gain_dbi": 30.8,
-              "gain_freq_ghz": 17.6,
-              "polarization": "T",
-              "in_band": false,
-              "emissions": [
-                {
-                  "emission": "500MD7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                },
-                {
-                  "emission": "20M0D7W",
-                  "eirp_dbw": null,
-                  "eirp_density": null,
-                  "modulation": "SC-OFDM"
-                }
-              ],
-              "satellite_arcs": [
-                {
-                  "sat_orbit_type": "N",
-                  "sat_arc_east": null,
-                  "sat_hemi_east": null,
-                  "sat_arc_west": null,
-                  "sat_hemi_west": null,
-                  "elevation_east": 35.0,
-                  "elevation_west": 35.0,
-                  "azimuth_east": "0",
-                  "azimuth_west": 360.0
-                }
-              ]
-            }
-          ]
         }
       ],
       "band_ranges": [
@@ -46019,19 +47031,9 @@
       },
       "exhibits": [
         {
-          "name": "CT Modification 17.3-17.8 GHz.pdf",
+          "name": "Section 25.118(g) Notice - CT (E230164).pdf",
           "description": "Narrative",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a6274413dbb9b61049639f95f396190d"
-        },
-        {
-          "name": "Authorization Document - SES-MOD-20251211-01036.pdf",
-          "description": "GRANT",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/5faca4393b364f107be9f5ac24e45a7c"
-        },
-        {
-          "name": "Authorization Document - SES-MOD-20251211-01036.pdf",
-          "description": "Updated Grant",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/3b91013ecf170b1058a3fe052f851c62"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e19973cbcf5c97103bc3f2961f851cf2"
         }
       ],
       "filings": [
@@ -46064,10 +47066,25 @@
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20251211-01036",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=4ec490091bf1b65084ab85d6624bcbef"
+        },
+        {
+          "file_number": "SES-MOD-20261106-02998",
+          "filing_type": "MOD",
+          "filing_type_label": "Modification",
+          "filed": "2026-11-06",
+          "state": "Pending Review",
+          "last_action": "Grant of Authority",
+          "action_date": "",
+          "grant_date": "",
+          "expiration_date": "",
+          "status": "pending",
+          "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20261106-02998",
+          "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ba5af70fcf5c97103bc3f2961f851c9b",
+          "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=4409bb4bcf5c97103bc3f2961f851c01"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20251211-01036",
-      "schedule_b_pdf_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=4ec490091bf1b65084ab85d6624bcbef",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20261106-02998",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/ba5af70fcf5c97103bc3f2961f851c9b",
       "flags": [],
       "needs_review": false
     },
@@ -160546,8 +161563,8 @@
       "has_pending": true,
       "grant_date": "",
       "expiration_date": "",
-      "latest_file_number": "SES-AMD-20261014-02801",
-      "latest_filed": "2026-10-14",
+      "latest_file_number": "SES-LIC-20260624-01908",
+      "latest_filed": "2026-06-24",
       "site": {
         "site_id": "The \"Bluebird\" Gateway",
         "street": "28053 US-80",
@@ -160758,7 +161775,7 @@
             },
             {
               "lower_mhz": 37500.0,
-              "upper_mhz": 42500.0,
+              "upper_mhz": 42000.0,
               "tr": "R",
               "gain_dbi": 55.9,
               "gain_freq_ghz": 40.0,
@@ -161049,7 +162066,7 @@
         },
         {
           "lower_mhz": 37500.0,
-          "upper_mhz": 42500.0,
+          "upper_mhz": 42000.0,
           "tr": "R"
         },
         {
@@ -161099,22 +162116,12 @@
         {
           "name": "Wills Point, TX - Narrative and Waiver Requests - Bluebird.pdf",
           "description": "18c. Waiver Request Documentation",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a8506ea7cff347105b2cf9642f851c53"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/e232832bcf610b10cd52f1642f851cc2"
         },
         {
           "name": "Wills Point, TX - RadHaz Report - Bluebird.pdf",
           "description": "28b. A Radiation Hazard Study must acompany all applications for new transmitting facilities, major modifications, or major amendments.",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a4506ea7cff347105b2cf9642f851c56"
-        },
-        {
-          "name": "42-42.5 GHz Amendment - Wills Point, TX.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/258062e7cff347105b2cf9642f851cf1"
-        },
-        {
-          "name": "Wills Point - Prior Coordination Notices.pdf",
-          "description": "Form Attachment",
-          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/65b06aa7cff347105b2cf9642f851ccd"
+          "url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/de52072bcf610b10cd52f1642f851c9a"
         }
       ],
       "filings": [
@@ -161138,19 +162145,19 @@
           "filing_type": "AMD",
           "filing_type_label": "Amendment",
           "filed": "2026-10-14",
-          "state": "Pending Review",
-          "last_action": "",
-          "action_date": "",
+          "state": "Closed",
+          "last_action": "Withdrawn",
+          "action_date": "2026-10-28",
           "grant_date": "",
           "expiration_date": "",
-          "status": "pending",
+          "status": "dead",
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02801",
           "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/61e06ae7cff347105b2cf9642f851ce9",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=685022a7cff347105b2cf9642f851ca1"
         }
       ],
-      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-AMD-20261014-02801",
-      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/61e06ae7cff347105b2cf9642f851ce9",
+      "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-LIC-20260624-01908",
+      "schedule_b_pdf_url": "https://api-prod.fcc.gov/icfs-attachment/exp/api/v1/a4b44b2fcf610b10cd52f1642f851cec",
       "flags": [],
       "needs_review": false
     },
@@ -213103,12 +214110,12 @@
           "filing_type": "MOD",
           "filing_type_label": "Modification",
           "filed": "2025-12-03",
-          "state": "Pending Review",
-          "last_action": "",
-          "action_date": "",
+          "state": "Closed",
+          "last_action": "Withdrawn",
+          "action_date": "2026-11-10",
           "grant_date": "2020-04-01",
           "expiration_date": "2033-04-17",
-          "status": "pending",
+          "status": "dead",
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20251121-01031",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=9fdbc06e1bd9f61084ab85d6624bcb7f"
@@ -213636,12 +214643,12 @@
           "filing_type": "MOD",
           "filing_type_label": "Modification",
           "filed": "2025-12-03",
-          "state": "Pending Review",
-          "last_action": "",
-          "action_date": "",
+          "state": "Closed",
+          "last_action": "Withdrawn",
+          "action_date": "2026-11-10",
           "grant_date": "2020-04-01",
           "expiration_date": "2033-04-17",
-          "status": "pending",
+          "status": "dead",
           "icfs_url": "https://fccprod.servicenowservices.com/icfs?id=ibfs_application_summary&number=SES-MOD-20251121-01031",
           "schedule_b_pdf_url": "",
           "schedule_b_url": "https://fccprod.servicenowservices.com/ibfs?id=ibfs_schedule_b_review&schedule_b=9fdbc06e1bd9f61084ab85d6624bcb7f"
@@ -321027,15 +322034,15 @@
     }
   ],
   "stats": {
-    "applications": 1719,
-    "sites": 1036,
+    "applications": 1723,
+    "sites": 1038,
     "held": 0,
     "flagged": 20,
     "needs_review": 20,
     "by_type": {
       "blanket": 27,
       "esim": 13,
-      "individual": 941,
+      "individual": 943,
       "other": 55
     },
     "by_status": {
@@ -321043,13 +322050,13 @@
       "dismissed by delegated authority": 2,
       "expired": 31,
       "granted": 726,
-      "pending": 188,
+      "pending": 190,
       "surrender of authorization": 16,
       "withdrawn": 51,
       "wtd": 1
     }
   },
-  "currency_date": "2026-10-28",
-  "last_changed": "2026-10-28T08:37:53Z",
-  "rows_digest": "ec26dee542edbd10d68625654e619890a3dc57e4acf7c6259a5592291d64d698"
+  "currency_date": "2026-11-11",
+  "last_changed": "2026-11-11T20:20:11Z",
+  "rows_digest": "17972c46588b8adf447d82af8b34160037a75a61b0e489ac944c49f62640d670"
 }
