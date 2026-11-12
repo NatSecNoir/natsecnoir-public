@@ -44,7 +44,7 @@ function slug(s) {
 }
 
 export default function () {
-  if (!fs.existsSync(root)) return { all: [], withText: [], byList: [], byAgency: [] };
+  if (!fs.existsSync(root)) return { all: [], news: [], withText: [], byList: [], byAgency: [] };
   const all = [];
   const withText = [];
   for (const id of fs.readdirSync(root).sort()) {
@@ -115,6 +115,11 @@ export default function () {
     }
     delete r.linkedRaw;
   }
+  // A pair linked both ways (a Select Committee hearing and its transcript) shows once, as the link.
+  for (const r of all) {
+    const ids = new Set(r.linked.map((o) => o.id));
+    r.linkedBy = r.linkedBy.filter((o) => !ids.has(o.id));
+  }
 
   // Related records (record page rail): same first docket segment first, then any shared list slug;
   // newest first within each tier, deduplicated, never the record itself, at most four.
@@ -147,8 +152,12 @@ export default function () {
     }
     return [...m.values()].sort((a, b) => b.records.length - a.records.length || a.label.localeCompare(b.label));
   };
+  // Backfilled sources (the Select Committee archive) carry `archive: true`: on record, list, and ledger
+  // pages, never on the front page, its "last filed" date, or the RSS feed (plan 2026-11-08-001 R24).
+  const news = all.filter((r) => r.archive !== true);
   return {
     all,
+    news,
     withText,
     byList: group((r) => r.lists.map((l) => ({ ...l, gloss: (listInfo[l.slug] || {}).gloss }))),
     byAgency: group((r) => [{ slug: r.agencySlug, label: r.issuing_body || "Unknown" }]),

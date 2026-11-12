@@ -8,7 +8,7 @@ export default function () {
   const records = loadRecords();
   const analyses = loadAnalyses();
   const items = [
-    ...records.all.map((r) => ({ ...r, kind: "record" })),
+    ...records.news.map((r) => ({ ...r, kind: "record" })),   // archive-marked records stay off (R24)
     // R15: an analysis can opt out of the feed with `feed: false` in its mesh (the ledger does);
     // every existing analysis has no `feed` key and stays in.
     ...analyses.all.filter((a) => a.feed !== false).map((a) => ({ ...a, ...splitExcerpt(a.excerpt), kind: "analysis" })),

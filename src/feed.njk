@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.tagline }}</description>
     <language>en</language>
-    {%- for r in records.all | head(50) %}
+    {%- for r in records.news | head(50) %}
     <item>
       <title>{{ r.title }}</title>
       <link>{{ site.url }}{{ r.url }}</link>

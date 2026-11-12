@@ -799,4 +799,48 @@ const idxHtml = fs.readFileSync(path.join(outFix, "analyses/index.html"), "utf8"
 assert.ok(idxHtml.indexOf("/analyses/supply-chain-watch-lists/") < idxHtml.indexOf("/analyses/fixture-"),
   "the Supply-Chain Watch Lists card comes first on the analyses index");
 
+// ---- Select Committee on China (plan 2026-11-08-001 U10; owner-approved mockups 2026-11-11) ----
+{
+  const outSC = path.join(root, "tests/_out/committee");
+  build(path.join(root, "tests/fixtures/committee/records"), path.join(root, "tests/fixtures/committee/analyses"), noLedger, outSC);
+  const L = fs.readFileSync(path.join(outSC, "analyses/select-committee-on-china/index.html"), "utf8");
+  assert.match(L, /<h1>Select Committee on China<\/h1>/, "committee ledger page renders its title");
+  assert.match(L, /Strategic Competition Between the United States and the Chinese Communist Party/, "excerpt from the mesh");
+  assert.match(L, /5 items \(2 letters, 1 report, 2 hearings\)/, "currency line counts by type; the transcript has no row");
+  const order = [...L.matchAll(/<td class="date">([\d-]+)<\/td>/g)].map((m) => m[1]);
+  assert.deepEqual(order, ["2026-11-18", "2026-11-04", "2026-10-07", "2026-09-16", "2023-07-20"], "rows newest first");
+  for (const t of ["letter", "report", "hearing"]) assert.match(L, new RegExp(`data-list="${t}"`), `type chip: ${t}`);
+  assert.doesNotMatch(L, /Transcript: The Biden/, "a hearing transcript is not a row of its own");
+  const biden = L.slice(L.indexOf("The Biden Administration"), L.indexOf("</tr>", L.indexOf("The Biden Administration")));
+  assert.match(biden, /Daniel J\. Kritenbrink/, "hearing row shows witness names");
+  assert.match(biden, /href="https:\/\/www\.youtube\.com\/watch\?v=0FUMOPjI5PM"[^>]*>Video ↗/, "hearing row links its video");
+  assert.match(biden, /href="\/records\/2026-11-12-sc-transcript-biden-sc0004\/">Transcript</, "hearing row links the committee transcript");
+  assert.match(biden, /Committee page ↗/, "hearing row links the committee page");
+  const imp = L.slice(L.indexOf("Import Controls"), L.indexOf("</tr>", L.indexOf("Import Controls")));
+  assert.doesNotMatch(imp, /Transcript/, "a hearing without a transcript links only its video and page");
+  assert.match(imp, /Craig Singleton; Oren Cass/, "several witnesses, names only");
+  const rep = L.slice(L.indexOf("Free Trades"), L.indexOf("</tr>", L.indexOf("Free Trades")));
+  assert.match(rep, /class="muted">—/, "a report has no addressee");
+  // R21: the machine-summary label shows only while `summary_machine` is set.
+  const casi = fs.readFileSync(path.join(outSC, "records/2026-11-12-sc-letter-casi-sc0001/index.html"), "utf8");
+  assert.match(casi, /class="machine-label">Machine-drafted, not yet reviewed</, "machine-drafted summary is labelled");
+  const webull = fs.readFileSync(path.join(outSC, "records/2026-11-12-sc-report-webull-sc0002/index.html"), "utf8");
+  assert.doesNotMatch(webull, /machine-label/, "a reviewed summary carries no label");
+  const hearingPage = fs.readFileSync(path.join(outSC, "records/2026-11-12-sc-hearing-biden-sc0003/index.html"), "utf8");
+  assert.equal((hearingPage.match(/>Transcript: The Biden Administration/g) || []).length, 1,
+    "a hearing and its transcript linked both ways list each other once");
+  // R24: archive-marked records stay off the front page, its "last filed" date, and the RSS feed, but
+  // keep their record and list pages; a weekly (unmarked) record appears as usual.
+  const homeSC = fs.readFileSync(path.join(outSC, "index.html"), "utf8");
+  const rss = fs.readFileSync(path.join(outSC, "feed.xml"), "utf8");
+  for (const [html, where] of [[homeSC, "front page"], [rss, "RSS"]]) {
+    assert.doesNotMatch(html, /Moolenaar, Khanna Seek Answers|Exposing Webull|Import Controls/, `archive-marked records are not on the ${where}`);
+    assert.match(html, /Weekly Sweep Letter/, `the weekly record is on the ${where}`);
+  }
+  assert.match(homeSC, /last filed 2026-11-18/, "last filed ignores archive-marked records");
+  const listSC = fs.readFileSync(path.join(outSC, "by/list/select-committee/index.html"), "utf8");
+  assert.match(listSC, /Moolenaar, Khanna Seek Answers/, "archive-marked records stay on their list page");
+  assert.match(listSC, /Select Committee on China/, "the list slug has its label");
+}
+
 console.log("site check: ok");

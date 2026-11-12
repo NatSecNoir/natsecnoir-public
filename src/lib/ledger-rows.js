@@ -240,3 +240,35 @@ export function orderRows(mesh, records) {
   rows.sort((a, b) => (b.doc_date || "").localeCompare(a.doc_date || "") || a.id.localeCompare(b.id));
   return rows;
 }
+
+// Select Committee on China (profile "committee", plan 2026-11-08-001 U7/U10): one row per approved letter,
+// report, or hearing. Row fields come from the accepted mesh entry (built from Record metadata in the
+// private app: addressee, witness names, committee page, video links); the title is always the live
+// Record title. A hearing row links the committee's transcript when that Record is published and linked
+// to the hearing through `related`. Newest first.
+const COMMITTEE_TYPES = { letter: "Letter", report: "Report", hearing: "Hearing" };
+export function committeeRows(mesh, records) {
+  const byId = new Map(records.map((r) => [r.id, r]));
+  const entries = new Map((mesh.entries || []).map((e) => [e.key, e]));
+  const isMember = memberTest(mesh);
+  const rows = [];
+  for (const r of records.filter(isMember)) {
+    const type = normalizeDocType(r.doc_type);
+    if (!COMMITTEE_TYPES[type]) continue;
+    const f = (entries.get(r.id) || {}).fields || {};
+    const transcript = (r.linked || []).map((l) => byId.get(l.id))
+      .find((o) => o && normalizeDocType(o.doc_type) === "hearing transcript");
+    const videos = (f.video_urls || r.video_urls || []).filter((u) => /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/.test(u));
+    const date = f.date || r.hearing_date || r.doc_date || "";
+    const who = f.who !== undefined ? f.who : (type === "letter" ? r.addressee || "" : "");
+    const committee_url = /^https:\/\/chinaselectcommittee\.house\.gov\//.test(f.committee_url || r.source_url || "")
+      ? (f.committee_url || r.source_url) : "";
+    rows.push({
+      id: r.id, date, type, type_label: COMMITTEE_TYPES[type], title: r.title, record_url: r.url, who,
+      committee_url, video_urls: videos, transcript_url: transcript ? transcript.url : "",
+      search: [date, type, r.title, who].join(" ").toLowerCase().replace(/\s+/g, " "),
+    });
+  }
+  rows.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+  return rows;
+}

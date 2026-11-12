@@ -14,7 +14,7 @@ permalink: /
       {%- endfor %}
     </div>
     <a class="more" href="/by/agency/">By source →</a>
-    {% if records.all.length %}<p class="lastfiled mono">last filed {{ records.all[0].doc_date }}</p>{% endif %}
+    {% if records.news.length %}<p class="lastfiled mono">last filed {{ records.news[0].doc_date }}</p>{% endif %}
   </section>
   <section class="letter"><div class="box">
     <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
