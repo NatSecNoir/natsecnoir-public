@@ -8,5 +8,6 @@ export default {
   "litigation": { label: "Litigation", gloss: "Court filings and decisions arising from these actions." },
   "entity-list": { label: "Entity List", gloss: "Commerce Bureau of Industry and Security export-control listings." },
   "cfius": { label: "CFIUS", gloss: "Treasury-chaired review of foreign investment in U.S. businesses and real estate." },
+  "select-committee": { label: "Select Committee on China", gloss: "Letters, reports, and hearings of the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party." },
   "fcc-natsec-order": { label: "FCC Orders", gloss: "Commission-level FCC orders and proposals since January 2025 with a national-security bearing, watched for their Federal Register dates." },
 };

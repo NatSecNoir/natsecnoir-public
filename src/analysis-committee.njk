@@ -1,0 +1,72 @@
+---
+layout: base.njk
+nav: analysis
+pagination:
+  data: ledgers.committee
+  size: 1
+  alias: l
+permalink: "{{ l.url }}"
+eleventyComputed:
+  title: "{{ l.title }}"
+  description: "{{ l.excerpt }}"
+---
+{#- Select Committee on China (profile "committee", plan 2026-11-08-001 U10; owner-approved mockup
+    mockups/select-committee-ledger.html in the private repo, 2026-11-11). Rows from ledger-rows.js committeeRows. -#}
+<article class="ledger-page committee-page">
+  <header class="lhead">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a></div>
+  <h1>{{ l.title }}</h1>
+  <p class="sub">{{ l.excerpt }}</p>
+  <div class="meta-col">
+  <p class="stamp">Currency: last accepted change {{ (l.currency_date or "—") | truncate(10, true, "") }} · {{ l.count }} item{{ "s" if l.count != 1 }} ({{ l.counts.letter }} letter{{ "s" if l.counts.letter != 1 }}, {{ l.counts.report }} report{{ "s" if l.counts.report != 1 }}, {{ l.counts.hearing }} hearing{{ "s" if l.counts.hearing != 1 }}).</p>
+  {% if l.frozen %}<p class="stamp-note">{{ l.frozen }}</p>{% endif %}
+  </div>
+  </header>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by title, addressee, witness, or date…" aria-label="Filter the ledger">
+    <span class="count" id="count"></span>
+    <div class="chips" role="group" aria-label="Document type">
+      <button class="chip" type="button" data-list="letter" aria-pressed="false">Letters</button>
+      <button class="chip" type="button" data-list="report" aria-pressed="false">Reports</button>
+      <button class="chip" type="button" data-list="hearing" aria-pressed="false">Hearings</button>
+    </div>
+  </div>
+
+  <div class="scroll">
+  <table id="ledger" data-noun="items">
+    <colgroup><col style="width:9%"><col style="width:8%"><col style="width:46%"><col style="width:22%"><col style="width:15%"></colgroup>
+    <thead><tr>
+      <th data-key="date" aria-sort="descending"><span class="lab">Date</span></th>
+      <th data-key="type"><span class="lab">Type</span></th>
+      <th data-key="title"><span class="lab">Title</span></th>
+      <th data-key="who"><span class="lab">To / Witnesses</span></th>
+      <th data-key="links"><span class="lab">Links</span></th>
+    </tr></thead>
+    <tbody>
+    {% for row in l.rows %}
+      <tr class="row" data-lists="{{ row.type }}" data-search="{{ row.search }}">
+        <td class="date">{{ row.date }}</td>
+        <td><span class="tag">{{ row.type_label }}</span></td>
+        <td><a href="{{ row.record_url }}">{{ row.title }}</a></td>
+        <td>{% if row.who %}{{ row.who }}{% else %}<span class="muted">—</span>{% endif %}</td>
+        <td>
+          {%- for v in row.video_urls %}<a href="{{ v }}" target="_blank" rel="noopener">Video{% if row.video_urls.length > 1 %} {{ loop.index }}{% endif %} ↗</a> · {% endfor -%}
+          {%- if row.transcript_url %}<a href="{{ row.transcript_url }}">Transcript</a> · {% endif -%}
+          {%- if row.committee_url %}<a href="{{ row.committee_url }}" target="_blank" rel="noopener">Committee page ↗</a>{% endif -%}
+        </td>
+      </tr>
+      <tr class="detail" hidden><td colspan="5"></td></tr>
+    {% endfor %}
+      <tr class="noresults" hidden><td colspan="5">No items match the current filter.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="methodology">
+    <p>Rendered at build time from the mirrored Records and the analysis mesh. A row is a Record tagged
+    <code>select-committee</code> with document type letter, report, or hearing. The committee's own hearing
+    transcripts are linked from their hearing's row. Every row links the committee's original page.</p>
+  </div>
+</article>
+<script src="/js/ledger.js" defer></script>

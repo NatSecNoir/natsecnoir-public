@@ -1,0 +1,109 @@
+{
+ "title": "Select Committee on China",
+ "kind": "ledger",
+ "grain": "record",
+ "profile": "committee",
+ "feed": false,
+ "membership": {
+  "lists_all": [
+   "select-committee"
+  ],
+  "doc_types": [
+   "letter",
+   "report",
+   "hearing"
+  ]
+ },
+ "excerpt": "Every letter, report, and hearing of the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, 2023 to now, one row per item, newest first.",
+ "schema_version": 1,
+ "entries": [
+  {
+   "key": "2026-11-12-sc-letter-casi-sc0001",
+   "kind": "item",
+   "label": "",
+   "text": "letter",
+   "record_id": "2026-11-12-sc-letter-casi-sc0001",
+   "fields": {
+    "date": "2026-11-04",
+    "type": "letter",
+    "who": "Air Force Secretary Troy E. Meink",
+    "committee_url": "https://chinaselectcommittee.house.gov/media/letters/casi",
+    "video_urls": [],
+    "record_id": "2026-11-12-sc-letter-casi-sc0001"
+   }
+  },
+  {
+   "key": "2026-11-12-sc-report-webull-sc0002",
+   "kind": "item",
+   "label": "",
+   "text": "report",
+   "record_id": "2026-11-12-sc-report-webull-sc0002",
+   "fields": {
+    "date": "2026-10-07",
+    "type": "report",
+    "who": "",
+    "committee_url": "https://chinaselectcommittee.house.gov/media/reports/webull",
+    "video_urls": [],
+    "record_id": "2026-11-12-sc-report-webull-sc0002"
+   }
+  },
+  {
+   "key": "2026-11-12-sc-hearing-biden-sc0003",
+   "kind": "item",
+   "label": "",
+   "text": "hearing",
+   "record_id": "2026-11-12-sc-hearing-biden-sc0003",
+   "fields": {
+    "date": "2023-07-20",
+    "type": "hearing",
+    "who": "Daniel J. Kritenbrink",
+    "committee_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/biden",
+    "video_urls": [
+     "https://www.youtube.com/watch?v=0FUMOPjI5PM"
+    ],
+    "record_id": "2026-11-12-sc-hearing-biden-sc0003"
+   }
+  },
+  {
+   "key": "2026-11-12-sc-hearing-import-sc0005",
+   "kind": "item",
+   "label": "",
+   "text": "hearing",
+   "record_id": "2026-11-12-sc-hearing-import-sc0005",
+   "fields": {
+    "date": "2026-09-16",
+    "type": "hearing",
+    "who": "Craig Singleton; Oren Cass",
+    "committee_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/import",
+    "video_urls": [
+     "https://www.youtube.com/watch?v=kEr3lKIORYs"
+    ],
+    "record_id": "2026-11-12-sc-hearing-import-sc0005"
+   }
+  },
+  {
+   "key": "2026-11-20-sc-letter-weekly-sc0006",
+   "kind": "item",
+   "label": "",
+   "text": "letter",
+   "record_id": "2026-11-20-sc-letter-weekly-sc0006",
+   "fields": {
+    "date": "2026-11-18",
+    "type": "letter",
+    "who": "Commerce Department",
+    "committee_url": "https://chinaselectcommittee.house.gov/media/letters/weekly",
+    "video_urls": [],
+    "record_id": "2026-11-20-sc-letter-weekly-sc0006"
+   }
+  }
+ ],
+ "sources": {},
+ "manifest": [],
+ "pending": [],
+ "archive": [],
+ "ledger": [],
+ "runs": [],
+ "published_at": "2026-11-12T00:00:00Z",
+ "currency_date": "2026-11-12",
+ "last_changed": "2026-11-12T00:00:00Z"
+}

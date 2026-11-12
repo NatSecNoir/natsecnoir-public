@@ -429,6 +429,10 @@ body.col-resizing { cursor: col-resize; user-select: none; }
 article.fulltext { max-width: 72ch; margin: 0 auto; }
 article.fulltext .note { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 0; margin: 18px 0 8px; }
 /* Oral arguments: the transcript is the author's, not the court's; say so where a reader lands. */
+/* Select Committee archive: a summary the editor has not yet reviewed (plan 2026-11-08-001 R21) */
+.machine-label { display: inline-block; margin: 10px 0 4px; padding: 3px 8px; border: 1px solid var(--ink);
+  font: 11.5px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); opacity: .75; }
+#ledger .muted { color: var(--muted); }
 .notice.unofficial, .notice.erratum { font-size: 13px; color: var(--ink); background: var(--raised); border-left: 3px solid var(--navy); padding: 10px 14px; margin: 14px 0 18px; }
 article.fulltext p.turn .speaker { font-weight: 700; letter-spacing: .02em; }
 article.fulltext .pg { position: relative; border-top: 1px dashed var(--line); padding-top: 6px; margin-top: 14px; }

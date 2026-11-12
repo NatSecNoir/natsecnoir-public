@@ -17,6 +17,7 @@ eleventyComputed:
   <h1>{{ r.title }}</h1>
   {% if r.isArgument %}<p class="notice unofficial">Unofficial transcript prepared by NatSec Noir from the court's public recording. The recording is authoritative.</p>{% endif %}
   {% if r.erratum %}<p class="notice erratum">Erratum issued {{ r.erratum.issued or "(date unknown)" }} — the FCC corrected this item after release. <a href="{{ r.erratum.url }}">Read the erratum ↗</a>{% if r.erratum.earlier.length %} (and {{ r.erratum.earlier.length }} earlier:{% for e in r.erratum.earlier %} <a href="{{ e.url }}">{{ e.issued or e.label }}</a>{% endfor %}){% endif %}</p>{% endif %}
+  {% if r.summary_machine %}<p class="machine-label">Machine-drafted, not yet reviewed</p>{% endif %}
   {% if r.standfirst %}<p class="stand">{{ r.standfirst }}</p>{% endif %}
   <dl class="meta">
     {% if r.docket %}<dt>Docket</dt><dd class="mono">{{ r.docket }}</dd>{% endif %}
