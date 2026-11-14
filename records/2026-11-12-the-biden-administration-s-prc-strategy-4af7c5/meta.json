@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-the-biden-administration-s-prc-strategy-4af7c5",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:46:02Z",
+  "title": "The Biden Administration's PRC Strategy",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-07-20",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-the-biden-administration-s-prc-strategy",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "4af7c5fcc9f9ae0ab183835f7e9a4e676fb5379845b82ce2b9d24104bf082ebb",
+  "approved_at": "2026-11-14T13:15:35Z",
+  "published_at": "2026-11-14T13:16:13Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:46:08Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-the-biden-administration-s-prc-strate-34fb06",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": false,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=0FUMOPjI5PM"
+  ],
+  "hearing_date": "2023-07-20",
+  "witnesses": [
+    "The Honorable Daniel J. Kritenbrink, Assistant Secretary of State for East Asian and Pacific Affairs"
+  ],
+  "addressee": ""
+}

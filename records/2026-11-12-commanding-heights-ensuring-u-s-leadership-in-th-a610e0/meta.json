@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-commanding-heights-ensuring-u-s-leadership-in-th-a610e0",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:45:46Z",
+  "title": "Commanding Heights: Ensuring U.S. Leadership in the Critical and Emerging Technologies of the 21st Century",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-07-26",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-commanding-heights-ensuring-us-leadership-in-the-critical-and-emerging-technologies-of-the-21st-century",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "a610e05779319e0f189cab2e56c68d53f48365643c6b9c1ebafc2039f277e5af",
+  "approved_at": "2026-11-14T13:15:48Z",
+  "published_at": "2026-11-14T13:16:13Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:45:54Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-commanding-heights-ensuring-u-s-leade-c218f9",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": false,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=mEjhHQt46A8"
+  ],
+  "hearing_date": "2023-07-26",
+  "witnesses": [
+    "Mr. Josh Wolfe, Co-Founder and Managing Partner, Lux Capital"
+  ],
+  "addressee": ""
+}
