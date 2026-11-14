@@ -31,20 +31,9 @@
     });
     return g;
   }
-  // Optional frequency box (Schedule B page): lower/upper bounds in the chosen unit, matched against
-  // each row's data-ranges by range-filter.js. Absent on every other ledger page.
-  var flo = document.getElementById("flo"), fhi = document.getElementById("fhi"), funit = document.getElementById("funit");
-  function freqBounds() {
-    if (!flo || !fhi || !window.nsnRange) return null;
-    var k = funit && funit.value === "ghz" ? 1000 : 1;
-    var lo = parseFloat(flo.value), hi = parseFloat(fhi.value);
-    if (isNaN(lo) && isNaN(hi)) return null;
-    return [lo * k, hi * k];
-  }
   function apply() {
     var words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
     var groups = activeByGroup();
-    var fb = freqBounds();
     var shown = 0;
     pairs.forEach(function (p) {
       var hay = p.main.getAttribute("data-search") || "";
@@ -53,8 +42,7 @@
       var listOk = Object.keys(groups).every(function (grp) {
         return groups[grp].some(function (s) { return rowLists.indexOf(s) >= 0; });
       });
-      var freqOk = !fb || window.nsnRange.match(window.nsnRange.parse(p.main.getAttribute("data-ranges")), fb[0], fb[1]);
-      var show = textOk && listOk && freqOk;
+      var show = textOk && listOk;
       p.main.hidden = !show;
       if (p.detail && !show) { p.detail.hidden = true; }
       if (show) shown++;
@@ -66,9 +54,6 @@
   if (q) {
     q.addEventListener("input", apply);
   }
-  [flo, fhi, funit].forEach(function (el) {
-    if (el) { el.addEventListener("input", apply); el.addEventListener("change", apply); }
-  });
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
       c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true");
@@ -84,36 +69,14 @@
     if (!detail) return;
     var open = detail.hidden;
     detail.hidden = !open;
-    // A detail row with data-src (Schedule B) holds only a link until first opened; its body is the
-    // .sb-detail block of the site's own page, fetched once. On failure the link stays usable.
-    var src = detail.getAttribute("data-src");
-    if (open && src && !detail.getAttribute("data-loaded") && window.fetch && window.DOMParser) {
-      detail.setAttribute("data-loaded", "loading");
-      fetch(src).then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); }).then(function (html) {
-        var body = new DOMParser().parseFromString(html, "text/html").querySelector(".sb-detail");
-        if (!body) throw new Error("no detail");
-        var cell = detail.cells[0];
-        var link = cell.querySelector("a");
-        cell.textContent = "";
-        cell.appendChild(document.importNode(body, true));
-        if (link) { var p = document.createElement("p"); p.className = "sb-permalink"; link.textContent = "Site page"; p.appendChild(link); cell.appendChild(p); }
-        detail.setAttribute("data-loaded", "yes");
-      }).catch(function () { detail.removeAttribute("data-loaded"); });
-    }
     btn.setAttribute("aria-expanded", open ? "true" : "false");
     btn.textContent = open ? "\u2212" : "+"; // minus sign when expanded
     btn.setAttribute("aria-label", open ? "Hide details" : "Show details");
   });
 
-  // Header-row cells only: a detail row may hold its own nested table (the Schedule B band tables).
+  // Header-row cells only.
   var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
   function cellValue(pair, idx, key) {
-    // A cell may carry a numeric sort key (Schedule B coordinates, frequencies, EIRP); blanks sort last.
-    var cell = pair.main.cells[idx];
-    if (cell && cell.hasAttribute("data-num")) {
-      var n = parseFloat(cell.getAttribute("data-num"));
-      return isNaN(n) ? Infinity : n;
-    }
     if (key === "status") return pair.main.getAttribute("data-status") || "zzz";
     if (key === "added") {
       var t = pair.main.cells[idx].textContent.trim();
