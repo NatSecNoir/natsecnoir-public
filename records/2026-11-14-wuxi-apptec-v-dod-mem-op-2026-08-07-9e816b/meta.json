@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-14-wuxi-apptec-v-dod-mem-op-2026-08-07-9e816b",
+  "status": "approved",
+  "ingested_at": "2026-11-14T18:58:26Z",
+  "title": "WuXi AppTec v. DoD",
+  "issuing_body": "D.D.C.",
+  "doc_type": "opinion",
+  "doc_date": "2026-08-07",
+  "docket": "D.D.C. No. 1:26-cv-02069",
+  "lists": [
+    "1260h",
+    "litigation"
+  ],
+  "entities": [
+    "WuXi AppTec Co., Ltd."
+  ],
+  "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_26-cv-02069/pdf/USCOURTS-dcd-1_26-cv-02069-0.pdf",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "9e816b59010c45194f5aa4612f591f39041b320ac23d5f32dd3f0ed3a2a1c0a9",
+  "approved_at": "2026-11-14T20:28:55Z",
+  "published_at": "2026-11-14T20:29:59Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-14T18:58:32Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": false,
+  "summary_machine": false,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-wuxi-apptec-v-dod-mem-op-2026-08-07-9e816b/source-aff766cc.pdf"
+}

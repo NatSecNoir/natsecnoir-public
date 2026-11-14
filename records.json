@@ -1,5 +1,5 @@
 {
- "count": 558,
+ "count": 560,
  "records": [
   {
    "id": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9",
@@ -42,6 +42,50 @@
     "meta.json",
     "summary.md",
     "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-14-fr-2026-22840-ec5326",
+   "status": "approved",
+   "ingested_at": "2026-11-14T18:58:17Z",
+   "title": "Notice of Removal of Designated Chinese Military Company (WuXi AppTec)",
+   "issuing_body": "DoD",
+   "doc_type": "notice",
+   "doc_date": "2026-11-10",
+   "docket": "DOD-2026-OS-2410",
+   "lists": [
+    "1260h"
+   ],
+   "entities": [
+    "WuXi AppTec Co., Ltd."
+   ],
+   "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "ec5326d9c216c252edd1e06b82cf99d1d5ef95258b8d9793b3238325bae955dd",
+   "approved_at": "2026-11-14T20:29:00Z",
+   "published_at": "2026-11-14T20:29:59Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-14T18:58:22Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": false,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-fr-2026-22840-ec5326/source-bf0f5a13.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
    ]
   },
   {
@@ -1901,6 +1945,52 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-14-wuxi-apptec-v-dod-mem-op-2026-08-07-9e816b",
+   "status": "approved",
+   "ingested_at": "2026-11-14T18:58:26Z",
+   "title": "WuXi AppTec v. DoD",
+   "issuing_body": "D.D.C.",
+   "doc_type": "opinion",
+   "doc_date": "2026-08-07",
+   "docket": "D.D.C. No. 1:26-cv-02069",
+   "lists": [
+    "1260h",
+    "litigation"
+   ],
+   "entities": [
+    "WuXi AppTec Co., Ltd."
+   ],
+   "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_26-cv-02069/pdf/USCOURTS-dcd-1_26-cv-02069-0.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "9e816b59010c45194f5aa4612f591f39041b320ac23d5f32dd3f0ed3a2a1c0a9",
+   "approved_at": "2026-11-14T20:28:55Z",
+   "published_at": "2026-11-14T20:29:59Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-14T18:58:32Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": false,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-wuxi-apptec-v-dod-mem-op-2026-08-07-9e816b/source-aff766cc.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
