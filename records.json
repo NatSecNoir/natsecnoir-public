@@ -1,5 +1,5 @@
 {
- "count": 320,
+ "count": 322,
  "records": [
   {
    "id": "2026-11-07-record-d75b21",
@@ -6611,6 +6611,92 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-secretary-austin-and-director-wray-on-ac6151",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:44:50Z",
+   "title": "Letter to Secretary Austin and Director Wray on CCP Spies Infiltrating U.S. Military Bases",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-09-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-secretary-austin-and-director-wray-on-ccp-spies-infiltrating-us-military-bases",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "ac615148d6a2e232cc6d9ce5d2fdff90e244e0275d3cdd993e71f818d4f5c47d",
+   "approved_at": "2026-11-14T13:18:07Z",
+   "published_at": "2026-11-14T13:18:41Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:44:55Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary Austin, Director Wray",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-secretary-austin-and-director-wray-on-ac6151/source-ac615148.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-secretaries-blinken-and-myorkas-on-san-a1043f",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:44:55Z",
+   "title": "Letter to Secretaries Blinken and Mayorkas on Sanctions CCP Henchmen Committing Uyghur Genocide",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-09-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-secretaries-blinken-and-myorkas-on-sanctions-ccp-henchmen-committing-uyghur-genocide",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a1043f48a6606e9c31c26a0fb6e57a855aa38400b9fa33c7eed7f0be343cadcb",
+   "approved_at": "2026-11-14T13:18:03Z",
+   "published_at": "2026-11-14T13:18:41Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:45:01Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretaries Blinken, Myorkas",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-secretaries-blinken-and-myorkas-on-san-a1043f/source-a1043f48.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
