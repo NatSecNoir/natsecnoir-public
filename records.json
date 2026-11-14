@@ -1,5 +1,5 @@
 {
- "count": 280,
+ "count": 286,
  "records": [
   {
    "id": "2026-11-07-record-d75b21",
@@ -6876,6 +6876,288 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-the-chinese-communist-party-s-ongoing-uyghur-gen-eb6864",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:48:15Z",
+   "title": "The Chinese Communist Party's Ongoing Uyghur Genocide",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2023-03-23",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-the-chinese-communist-party-s-ongoing-uyghur-genocide",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "eb686469614c7e5c09920eb876772f1a70e0894e3759d020835053de3f449a3b",
+   "approved_at": "2026-11-14T13:09:30Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:48:23Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-the-chinese-communist-party-s-ongoing-82283a",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=6S5OG9TesTc"
+   ],
+   "hearing_date": "2023-03-23",
+   "witnesses": [
+    "Ms. Gulbahar Haitiwaji, Concentration Camp Survivor and Author, How I Survived a Chinese “Reeducation” Camp: A Uyghur Woman’s Story."
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-14-transcript-the-chinese-communist-partys-threat-t-139798",
+   "status": "approved",
+   "ingested_at": "2026-11-14T03:17:14Z",
+   "title": "Transcript: The Chinese Communist Party’s Threat to America",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2023-02-28",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-chinese-communist-party-s-threat-to-america",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "139798ea4ec119e13b2b35de7539e6a43f985c0c9e5d9488e5265d9f617fd4c4",
+   "approved_at": "2026-11-14T13:09:29Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-14T03:17:20Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-14-the-chinese-communist-partys-threat-to-america-912c1a",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2023-02-28",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-transcript-the-chinese-communist-partys-threat-t-139798/source-139798ea.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-14-the-chinese-communist-partys-threat-to-america-912c1a",
+   "status": "approved",
+   "ingested_at": "2026-11-14T03:17:13Z",
+   "title": "The Chinese Communist Party’s Threat to America",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2023-02-28",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-chinese-communist-party-s-threat-to-america",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "912c1a9a446cd0fa261d0f0ec7c4a1b2a302c5772e237e14a3d99b8df0343efb",
+   "approved_at": "2026-11-14T13:09:22Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-14T03:17:20Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-14-transcript-the-chinese-communist-partys-threat-t-139798",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=gIbV7FIYwQA"
+   ],
+   "hearing_date": "2023-02-28",
+   "witnesses": [
+    "The Honorable Matthew Pottinger, Chairman of FDD China Program, Foundation for Defense of Democracies",
+    "Lieutenant General H.R. McMaster, Senior Fellow, Hoover Institution",
+    "Ms. Tong Yi, Human Rights Activist -- ADDITIONAL TESTIMONY",
+    "Mr. Scott Paul, President, Alliance for American Manufacturing"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-secretary-blinken-on-political-persecu-0f03d7",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:48:24Z",
+   "title": "Letter to Secretary Blinken on Political Persecution in Hong Kong",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-02-28",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-secretary-blinken-on-political-persecution-in-hong-kong",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "0f03d73d1c2bf801314bb90888c04f3f7b9e38cd6c8a990066161b37a2a93dfe",
+   "approved_at": "2026-11-14T13:09:19Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:48:30Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary Blinken",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-secretary-blinken-on-political-persecu-0f03d7/source-0f03d73d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-14-letter-to-fbi-director-wray-on-ccp-police-statio-22c0a8",
+   "status": "approved",
+   "ingested_at": "2026-11-14T03:17:20Z",
+   "title": "Letter to FBI Director Wray on CCP Police Stations",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-02-24",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-fbi-director-wray-on-ccp-police-stations",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "22c0a891427224abc24ef0f669ea278a2f9b4cc36b871e979971d3b4367dde82",
+   "approved_at": "2026-11-14T13:09:16Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-14T03:17:27Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "FBI Director Wray",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-letter-to-fbi-director-wray-on-ccp-police-statio-22c0a8/source-22c0a891.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-14-letter-to-secretary-yellen-about-prc-spy-balloon-4886e7",
+   "status": "approved",
+   "ingested_at": "2026-11-14T03:17:28Z",
+   "title": "Letter to Secretary Yellen about PRC Spy Balloon",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-02-20",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-secretary-yellen-about-prc-spy-balloon",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "4886e7532f190cc8cfdef79b1aacb59f43a14998c13047cfbe9c9093e960a02a",
+   "approved_at": "2026-11-14T13:09:09Z",
+   "published_at": "2026-11-14T13:10:01Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-14T03:17:34Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary Yellen",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-14-letter-to-secretary-yellen-about-prc-spy-balloon-4886e7/source-4886e753.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {

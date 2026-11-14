@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-14-the-chinese-communist-partys-threat-to-america-912c1a",
+  "status": "approved",
+  "ingested_at": "2026-11-14T03:17:13Z",
+  "title": "The Chinese Communist Party’s Threat to America",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-02-28",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-chinese-communist-party-s-threat-to-america",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "912c1a9a446cd0fa261d0f0ec7c4a1b2a302c5772e237e14a3d99b8df0343efb",
+  "approved_at": "2026-11-14T13:09:22Z",
+  "published_at": "2026-11-14T13:10:01Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-14T03:17:20Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-14-transcript-the-chinese-communist-partys-threat-t-139798",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": false,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=gIbV7FIYwQA"
+  ],
+  "hearing_date": "2023-02-28",
+  "witnesses": [
+    "The Honorable Matthew Pottinger, Chairman of FDD China Program, Foundation for Defense of Democracies",
+    "Lieutenant General H.R. McMaster, Senior Fellow, Hoover Institution",
+    "Ms. Tong Yi, Human Rights Activist -- ADDITIONAL TESTIMONY",
+    "Mr. Scott Paul, President, Alliance for American Manufacturing"
+  ],
+  "addressee": ""
+}
