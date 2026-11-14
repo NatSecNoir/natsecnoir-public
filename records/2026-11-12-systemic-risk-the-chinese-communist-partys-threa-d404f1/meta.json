@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-systemic-risk-the-chinese-communist-partys-threa-d404f1",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:45:08Z",
+  "title": "Systemic Risk: The Chinese Communist Party’s Threat to U.S. Financial Stability",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-09-12",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-systemic-risk-the-chinese-communist-party-s-threat-to-us-financial-stability",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "d404f1cefce257d7a45f7bba1c79c7f6b7a21995233a51d46d9f43d0f68da6dd",
+  "approved_at": "2026-11-14T13:17:46Z",
+  "published_at": "2026-11-14T13:18:17Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:45:14Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-systemic-risk-the-chinese-communist-p-f85116",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=Oo7n5qzCtmY"
+  ],
+  "hearing_date": "2023-09-12",
+  "witnesses": [
+    "The Honorable Jay Clayton, Former Chairman, Securities and Exchange Commission"
+  ],
+  "addressee": ""
+}
