@@ -6,16 +6,6 @@ permalink: /
 <div class="page">
 <aside class="rail">
   <section class="rfilter">{% include "filter.njk" %}</section>
-  <section class="browse">
-    <h2>Browse</h2>
-    <div class="railchips">
-      {%- for slug in ["covered-list", "bad-labs", "litigation", "fcc-natsec-order"] %}
-      <a class="chip" href="/by/list/{{ slug }}/">{{ lists[slug].label }}</a>
-      {%- endfor %}
-    </div>
-    <a class="more" href="/by/agency/">By source →</a>
-    {% if records.news.length %}<p class="lastfiled mono">last filed {{ records.news[0].doc_date }}</p>{% endif %}
-  </section>
   <section class="letter"><div class="box">
     <form action="{{ site.newsletter }}/subscribe" method="get"><label for="em" class="vh">Email</label><input id="em" name="email" type="email" placeholder="you@firm.com" required><button type="submit">Subscribe</button></form>
   </div></section>
