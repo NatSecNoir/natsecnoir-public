@@ -21,8 +21,7 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
       <div><span class="lbl">{{ l.label }}</span>
         <span class="meta"> — {{ l.authority_cite }}</span>
         {% if l.gloss %}<div class="gloss">{{ l.gloss }}</div>{% endif %}
-        {% if l.newer_notice_date %}<span class="stale"> · newer notice detected on {{ l.newer_notice_date }} — awaiting re-snapshot</span>
-        {% elif not l.currency_date %}<span class="stale"> · currency date pending human check</span>{% endif %}
+        {% if not l.currency_date %}<span class="stale"> · currency date pending human check</span>{% endif %}
       </div>
       <div class="meta">
         {% if l.currency_date %}as of {{ l.currency_date }} · {% endif %}

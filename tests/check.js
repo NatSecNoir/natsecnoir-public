@@ -519,8 +519,9 @@ const flat = ledger.replace(/\s+/g, " ");
 assert.match(flat, /Includes named subsidiaries and affiliates: HiSilicon\./, "subsidiaries note renders");
 // A no-results row exists (controls stay usable; JS toggles it).
 assert.match(ledger, /class="noresults"[^>]*>\s*<td[^>]*>No entities match/, "no-results row is present");
-// A list flagged-but-not-resnapshotted shows the awaiting-re-snapshot marker.
-assert.match(flat, /newer notice detected on 2026-09-01 — awaiting re-snapshot/, "awaiting-re-snapshot marker");
+// Detector flags are private (editor-only). Even if a list in the data still carries newer_notice_date
+// (the fixture does), the public page must not show an awaiting-re-snapshot marker.
+assert.doesNotMatch(flat, /newer notice detected|awaiting re-snapshot/, "detector flags never reach the public page");
 // An entity dropped from all lists renders the formerly-listed marker with a last-archive link.
 assert.match(flat, /formerly listed — <a href="https:\/\/docs\.natsecnoir\.com\/ledger\/archive\/2026-06-01-aaaa0001\.html">last archive<\/a>/, "formerly-listed marker with last-archive link on R2");
 // Every absolute source href in the ledger article is https on the .gov/.mil allowlist (the base
