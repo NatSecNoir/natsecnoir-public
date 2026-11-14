@@ -1,9 +1,0 @@
----
-pagination:
-  data: datasets.schedb
-  size: 1
-  alias: l
-permalink: "{{ l.url }}{{ l.id }}.json"
-eleventyExcludeFromCollections: true
----
-{{ l.export_json | json | safe }}
