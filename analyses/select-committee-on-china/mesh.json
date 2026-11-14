@@ -6784,11 +6784,89 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-14T17:45:15Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "report",
+      "definitions": [],
+      "fields": {
+        "date": "2026-11-13",
+        "type": "report",
+        "who": "",
+        "committee_url": "https://chinaselectcommittee.house.gov/media/reports/rigging-the-game-how-china-undermined-western-manufacturing-and-helped-hollow-out-american-industry",
+        "video_urls": [],
+        "record_id": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9"
+      },
+      "record_id": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9",
+      "citation": {
+        "record_id": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-11-14-moolenaar-expanding-chinese-investment-in-u-s-wo-9bc4e1",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-14T17:45:15Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "letter: Treasury Secretary Scott Bessent",
+      "definitions": [],
+      "fields": {
+        "date": "2026-03-05",
+        "type": "letter",
+        "who": "Treasury Secretary Scott Bessent",
+        "committee_url": "https://chinaselectcommittee.house.gov/media/letters/moolenaar-expanding-chinese-investment-in-us-would-reward-chinese-companies-that-have-hurt-american-workers",
+        "video_urls": [],
+        "record_id": "2026-11-14-moolenaar-expanding-chinese-investment-in-u-s-wo-9bc4e1"
+      },
+      "record_id": "2026-11-14-moolenaar-expanding-chinese-investment-in-u-s-wo-9bc4e1",
+      "citation": {
+        "record_id": "2026-11-14-moolenaar-expanding-chinese-investment-in-u-s-wo-9bc4e1",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-11-14-letter-to-navy-secretary-calling-to-speed-up-pro-596cc5",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-14T17:45:15Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "letter: Navy Secretary",
+      "definitions": [],
+      "fields": {
+        "date": "2023-10-26",
+        "type": "letter",
+        "who": "Navy Secretary",
+        "committee_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-navy-secretary-calling-to-speed-up-production-sales-of-weapons-to-taiwan",
+        "video_urls": [],
+        "record_id": "2026-11-14-letter-to-navy-secretary-calling-to-speed-up-pro-596cc5"
+      },
+      "record_id": "2026-11-14-letter-to-navy-secretary-calling-to-speed-up-pro-596cc5",
+      "citation": {
+        "record_id": "2026-11-14-letter-to-navy-secretary-calling-to-speed-up-pro-596cc5",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "",
+  "published_at": "2026-11-14T13:23:33Z",
   "currency_date": "2026-11-14",
-  "last_changed": "2026-11-14T13:23:33Z"
+  "last_changed": "2026-11-14T17:45:15Z"
 }
