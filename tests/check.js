@@ -126,8 +126,6 @@ assert.ok(feedIdx.indexOf("fixture-analysis") < feedIdx.indexOf("fixture-notice-
   const notexp = rd("2025-02-03-fix-fcc-notexp-ffcc03");
   assert.match(notexp, /No Federal Register publication expected\./, "not_expected wins");
   assert.doesNotMatch(notexp, /Effective 2026/, "not_expected hides stray documents");
-  const front = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
-  assert.match(front, /class="chip" href="\/by\/list\/fcc-natsec-order\/">FCC Orders</, "front-page Browse rail links FCC Orders");
   const hub = fs.readFileSync(path.join(outFix, "by/list/fcc-natsec-order/index.html"), "utf8");
   assert.match(hub, /Commission-level FCC orders/, "list page carries the gloss");
   const notice = rd("2025-11-15-fixture-notice-bbbbbb");
@@ -560,10 +558,8 @@ assert.ok(ledgerTable, "front page renders a ledger table");
 assert.doesNotMatch(ledgerTable[0], /fixture-analysis/, "the lead is not repeated as a table row");
 assert.match(ledgerTable[0], /<tr class="item"[^>]*data-date="2026-01-01"[^>]*data-search="[^"]*"[\s\S]*?<td class="ref[^"]*">FCC 26-1<\/td>/, "a record row carries data attributes and its docket in the Reference cell");
 assert.ok(ledgerTable[0].indexOf("fixture-order-aaaaaa") < ledgerTable[0].indexOf("fixture-notice-bbbbbb"), "rows are newest first");
-// Front-page rail: three curated Browse chips, By source, last filed.
-const railChips = [...feedIdx.matchAll(/<a class="chip" href="\/by\/list\/([^/]+)\/">/g)].map((m) => m[1]);
-assert.deepEqual(railChips, ["covered-list", "bad-labs", "litigation", "fcc-natsec-order"], "rail Browse renders the four curated list chips in order");
-assert.match(feedIdx, /<a class="more" href="\/by\/agency\/">By source/, "rail links to the source index");
+// Front-page rail (2026-11-14): filter + tags + newsletter only; the Browse box (list chips, By source, last filed) is gone.
+assert.doesNotMatch(feedIdx, /class="browse"|class="railchips"|class="lastfiled"|<a class="more" href="\/by\/agency\/">/, "rail has no Browse box");
 assert.doesNotMatch(feedIdx, /From the record|Persons of interest/, "derived pull-quote and people sections are gone");
 assert.match(fs.readFileSync(path.join(root, "src/css/site.css"), "utf8"), /\.ledger \.item\[hidden\]\s*\{[^}]*display:\s*none\s*!important/, "filtered rows stay hidden when the table stacks");
 
@@ -586,8 +582,6 @@ for (const f of walk(outFix)) {
   assert.doesNotMatch(html, /<div class="sub"/, `no secondary nav sub-row on ${path.relative(outFix, f)}`);
 }
 assert.ok(fs.existsSync(path.join(outFix, "js/theme.js")), "theme.js is published");
-assert.match(feedIdx, /last filed 2026-01-01/, "rail shows the newest doc_date");
-assert.doesNotMatch(home, /last filed/, "rail omits the last-filed line with zero records");
 
 // ---- masthead spire band (2026-09-26) ----
 // Every page opens with one black masthead band carrying the spire svg and the folded
@@ -772,7 +766,6 @@ assert.ok(idxHtml.indexOf("/analyses/supply-chain-watch-lists/") < idxHtml.index
     assert.doesNotMatch(html, /Moolenaar, Khanna Seek Answers|Exposing Webull|Import Controls/, `archive-marked records are not on the ${where}`);
     assert.match(html, /Weekly Sweep Letter/, `the weekly record is on the ${where}`);
   }
-  assert.match(homeSC, /last filed 2026-11-18/, "last filed ignores archive-marked records");
   const listSC = fs.readFileSync(path.join(outSC, "by/list/select-committee/index.html"), "utf8");
   assert.match(listSC, /Moolenaar, Khanna Seek Answers/, "archive-marked records stay on their list page");
   assert.match(listSC, /Select Committee on China/, "the list slug has its label");
