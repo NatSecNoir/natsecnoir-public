@@ -71,6 +71,14 @@ assert.deepEqual(redirects.filter((l) => !l.startsWith("/records/")).concat(copy
 assert.ok(!fs.existsSync(path.join(outFix, "records/2025-06-01-fixture-draft-cccccc")), "a non-approved folder is not rendered");
 const feedIdx = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
 assert.ok(feedIdx.indexOf("fixture-order-aaaaaa") < feedIdx.indexOf("fixture-notice-bbbbbb"), "feed is newest first");
+// Tag chips (filter.js): every feed item carries its tags as JSON so the page can AND-filter by several.
+assert.match(feedIdx, /data-tagchips/, "front page has the tag-chip container");
+const unq = (h) => h.replace(/&quot;/g, '"').replace(/&#34;/g, '"');
+assert.match(unq(feedIdx), /data-lists="\[\{"slug":"covered-list","label":"Covered List"\},\{"slug":"bad-labs","label":"Bad Labs"\}\]"[^>]*>[\s\S]*?fixture-order-aaaaaa/, "a feed row carries its tags as data-lists JSON");
+const litIdx = unq(fs.readFileSync(path.join(outFix, "by/list/litigation/index.html"), "utf8"));
+assert.match(litIdx, /data-tagchips/, "list pages have the tag-chip container");
+assert.match(litIdx, /data-lists="\[\{"slug":"cfius","label":"CFIUS"\},\{"slug":"litigation","label":"Litigation"\}\]"/, "a two-tag record keeps both tags on a list page");
+assert.match(fs.readFileSync(path.join(root, "src/js/filter.js"), "utf8"), /tags\.every\(/, "selected tags are ANDed");
 const feed = fs.readFileSync(path.join(outFix, "feed.xml"), "utf8");
 assert.match(feed, /<item>/, "feed has items");
 assert.ok(fs.existsSync(path.join(outFix, "by/list/covered-list/index.html")), "list index page");

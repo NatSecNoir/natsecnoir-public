@@ -264,6 +264,15 @@ table.ledger { width: 100%; border-collapse: collapse; margin-top: 8px; }
 .filter input::-webkit-search-cancel-button { -webkit-appearance: none; }
 .filter button { background: transparent; border: 1px solid var(--line); color: var(--ink); font: 13px var(--sans); padding: 7px 10px; cursor: pointer; } .filter button:hover { border-color: var(--ink); color: var(--ink); }
 .filter .count { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* tag chips under the keyword box (filter.js): selected tags are ANDed */
+.tagchips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0 0; }
+.tagchips[hidden] { display: none; }
+.tagchips .tl { font: 500 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-right: 2px; }
+.tagchip { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; font: 12px var(--sans); color: var(--ink); cursor: pointer; }
+.tagchip .n { font: 11px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.tagchip:hover, .tagchip:focus-visible { border-color: var(--navy); color: var(--navy); outline: none; }
+.tagchip.on { background: var(--navy); border-color: var(--navy); color: var(--paper, #fff); }
+.tagchip.on .n { color: inherit; opacity: .8; }
 .empty { color: var(--muted); }
 /* by-pages list records as compact articles (item.njk); the lead styling is scaled down here */
 .feed { margin-top: 12px; }
