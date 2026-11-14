@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-07T15:44:51.054240+00:00",
+  "compiled_at": "2026-11-14T18:50:55.881556+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -19,7 +19,7 @@
       "gloss": "Chinese military companies operating in the United States, identified annually by the Department of War under FY21 NDAA § 1260H.",
       "authority_cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
       "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
-      "currency_date": "2026-06-08",
+      "currency_date": "2026-11-10",
       "count": 187
     },
     {
@@ -78439,27 +78439,6 @@
       "date_added_first": "2022-06-30"
     },
     {
-      "canonical": "WuXi AppTec Co., Ltd.",
-      "aka": [
-        "WuXi AppTec"
-      ],
-      "country": "China",
-      "subsidiaries": [],
-      "subsidiaries_note": false,
-      "memberships": [
-        {
-          "list": "dow-1260h",
-          "category": "Chinese military company (Section 1260H)",
-          "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
-          "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
-        }
-      ],
-      "search": "wuxi apptec co., ltd. wuxi apptec china dow § 1260h",
-      "date_added_first": ""
-    },
-    {
       "canonical": "Wugang Zhongchang Logistics Co., Ltd.",
       "aka": [],
       "country": "China",
@@ -83242,6 +83221,31 @@
       ],
       "search": "of molecular and cell biology, siberian branch of the russian academy of sciences russia ndaa § 1286 institutions",
       "date_added_first": ""
+    },
+    {
+      "canonical": "WuXi AppTec Co., Ltd.",
+      "aka": [
+        "WuXi AppTec"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [
+        {
+          "list": "dow-1260h",
+          "category": "Chinese military company (Section 1260H)",
+          "date_added": "",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "listing_basis": "direct",
+          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-11-14",
+      "last_archive": "archive/2026-11-07.html",
+      "search": "wuxi apptec co., ltd. wuxi apptec china dow § 1260h",
+      "date_added_first": "",
+      "last_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html"
     }
   ],
   "archive_urls": {
@@ -83249,7 +83253,8 @@
     "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html",
     "2026-10-24.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html",
     "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html",
-    "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html"
+    "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
+    "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html"
 }
