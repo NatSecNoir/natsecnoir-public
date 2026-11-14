@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-leveling-the-playing-field-how-to-counter-the-cc-0cf301",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:47:21Z",
+  "title": "Leveling the Playing Field: How to Counter the CCP’s Economic Aggression",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-05-17",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-leveling-the-playing-field-how-to-counter-the-chinese-communist-party-s-economic-aggression",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "0cf301df61928e9b3ba3c0238ece6a1939287b657e5a0d3ccdb2e276b1cdf3f7",
+  "approved_at": "2026-11-14T13:14:49Z",
+  "published_at": "2026-11-14T13:15:19Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:47:28Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-leveling-the-playing-field-how-to-cou-010cda",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": false,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=VI8ArYsA3Vs"
+  ],
+  "hearing_date": "2023-05-17",
+  "witnesses": [
+    "The Honorable Robert Lighthizer, Former United States Trade Representative"
+  ],
+  "addressee": ""
+}

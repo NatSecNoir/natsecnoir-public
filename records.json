@@ -1,5 +1,5 @@
 {
- "count": 288,
+ "count": 294,
  "records": [
   {
    "id": "2026-11-07-record-d75b21",
@@ -6876,6 +6876,277 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-leveling-the-playing-field-how-to-cou-010cda",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:21Z",
+   "title": "Transcript: Leveling the Playing Field: How to Counter the CCP’s Economic Aggression",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2023-05-17",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-leveling-the-playing-field-how-to-counter-the-chinese-communist-party-s-economic-aggression",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "010cdaf613bdfc2ef7d0e56b6485a87088ec52e3bb72f430ab968eb99196f627",
+   "approved_at": "2026-11-14T13:14:52Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:47:28Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-leveling-the-playing-field-how-to-counter-the-cc-0cf301",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2023-05-17",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-leveling-the-playing-field-how-to-cou-010cda/source-010cdaf6.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-leveling-the-playing-field-how-to-counter-the-cc-0cf301",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:21Z",
+   "title": "Leveling the Playing Field: How to Counter the CCP’s Economic Aggression",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2023-05-17",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-leveling-the-playing-field-how-to-counter-the-chinese-communist-party-s-economic-aggression",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "0cf301df61928e9b3ba3c0238ece6a1939287b657e5a0d3ccdb2e276b1cdf3f7",
+   "approved_at": "2026-11-14T13:14:49Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:47:28Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-leveling-the-playing-field-how-to-cou-010cda",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=VI8ArYsA3Vs"
+   ],
+   "hearing_date": "2023-05-17",
+   "witnesses": [
+    "The Honorable Robert Lighthizer, Former United States Trade Representative"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-tiktok-ceo-shou-chew-on-censorship-a6c440",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:29Z",
+   "title": "Letter to TikTok CEO Shou Chew on Censorship",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-05-10",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-tiktok-ceo-shou-chew-on-censorship",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a6c440dbadaad946de33e01658b56f8d6ca0b81a117a07aa1be3541522ea0fdb",
+   "approved_at": "2026-11-14T13:14:40Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:47:37Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "TikTok CEO Shou Chew",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-tiktok-ceo-shou-chew-on-censorship-a6c440/source-a6c440db.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-dhs-secretary-mayorkas-after-failure-t-fa15f8",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:38Z",
+   "title": "Letter to DHS Secretary Mayorkas after Failure to Respond to Chinse Crane Inquiry",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-05-09",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-dhs-secretary-mayorkas-after-failure-to-respond-to-chinse-crane-inquiry",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "fa15f814bbb4e4ca526a39634c97cd6fc2a7bc1e8f27ad23192a8f29f3ee623a",
+   "approved_at": "2026-11-14T13:14:36Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:47:46Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "DHS Secretary Mayorkas",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-dhs-secretary-mayorkas-after-failure-t-fa15f8/source-fa15f814.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letters-to-nike-adidas-shein-and-temu-on-uyghur-e11a27",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:48Z",
+   "title": "Letters to Nike, Adidas, Shein and Temu on Uyghur Forced Labor",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-05-02",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letters-to-nike-adidas-shein-and-temu-on-uyghur-forced-labor",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "e11a271eb7c08ea3ac02549ac08b390f43f2bdc4374965dc36dc134e50aab66f",
+   "approved_at": "2026-11-14T13:14:33Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:47:58Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Nike, Adidas, Shein, Temu",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letters-to-nike-adidas-shein-and-temu-on-uyghur-e11a27/source-e11a271e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-letter-to-fbi-director-wray-on-ccp-transnational-6b2ae5",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:47:59Z",
+   "title": "Letter to FBI Director Wray on CCP Transnational Repression",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-04-26",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/letter-to-fbi-director-wray-on-ccp-transnational-repression",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "6b2ae52ff2f790c125808ca28e90c96811b3cae8b7d7547c6ab67066115b2ff9",
+   "approved_at": "2026-11-14T13:14:30Z",
+   "published_at": "2026-11-14T13:15:19Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:48:06Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "FBI Director Wray",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-letter-to-fbi-director-wray-on-ccp-transnational-6b2ae5/source-6b2ae52f.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
