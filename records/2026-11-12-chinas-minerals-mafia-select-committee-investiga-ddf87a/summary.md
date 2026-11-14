@@ -1,0 +1,14 @@
+The House Select Committee on China reports that Chinese state-linked mining companies use corruption, weak governance, coercive business practices, labor abuses, and environmental harm to expand control over critical-mineral supply chains worldwide.
+
+**What it does** This investigative report presents case studies from Zambia, Zimbabwe, and a dozen other countries. It details the February 2025 Sino-Metals tailings-dam collapse in Zambia, alleged suppression of environmental assessments and reporting, inadequate compensation and relocation, and the company’s subsequent resumption and expansion of operations. It examines Chinese control of Zimbabwe’s lithium sector, including alleged smuggling, unsafe labor conditions, pollution, forced displacement, grave exhumations, and bribery. Additional sections address alleged abuses involving copper, cobalt, nickel, lithium, rare earths, and gold operations in Serbia, Argentina, the Democratic Republic of the Congo, Indonesia, Peru, Ecuador, Papua New Guinea, Afghanistan, Burma, Namibia, and elsewhere. The report concludes with five policy recommendations, including U.S. critical-minerals partnerships, alternative supply chains, governance assistance, support for independent monitors, and sanctions.
+
+**Who it affects** The report focuses on communities, workers, farmers, Indigenous peoples, journalists, civil-society organizations, and governments in mining regions, as well as Chinese mining companies and their subsidiaries, joint ventures, and state-linked financiers. It contrasts Sino-Metals’ conduct with KoBold Metals’ community-engagement and anti-corruption model in Zambia.
+
+**Why it matters** The report frames environmental destruction, human-rights abuses, corruption, and supply-chain concentration as interconnected national-security and economic-competition risks. It argues that voluntary standards have limited effect where Chinese state-linked companies operate amid weak enforcement, and calls for stronger competition, transparency, accountability, and sanctions. Its central Zambia case includes competing spill estimates of 50 million liters versus 1.5 million tons, illustrating the report’s concerns about information suppression and delayed remediation.
+
+**Key dates and numbers**
+- February 18, 2025: Sino-Metals tailings dam collapsed in Chambishi, Zambia; the report says at least 700,000 residents lost access to water.
+- June 3, 2025: Drizit reported that more than 1.5 million tons of waste had spilled and nearly 800 people remained near the fallout zone.
+- January 6, 2026: Zambia publicly released the later Applied Science environmental assessment.
+- The report says Chinese companies control an estimated 90% of Zimbabwe’s mining operations and highlights at least seven major lithium projects.
+- The report recommends five policy actions and describes cases spanning more than a dozen countries.
