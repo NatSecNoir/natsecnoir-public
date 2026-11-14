@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:38:25Z",
+  "title": "Transcript: All Roads Lead to Beijing? The CCP's Global Development Offensive",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing transcript",
+  "doc_date": "2024-05-16",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/all-roads-lead-to-beijing-the-ccp-s-global-development-offensive",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "4be9eb4deedf26bc00b2c62ff1eda4adbab7b89a281f1d0cd632a72939f19f93",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-12T13:38:31Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-all-roads-lead-to-beijing-the-ccp-s-global-devel-d4c2ba",
+      "stage": "transcript of this hearing"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "2024-05-16",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb/source-4be9eb4d.pdf"
+}

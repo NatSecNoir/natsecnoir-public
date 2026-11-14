@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:41:02Z",
+  "title": "Transcript: Authoritarian Alignment: The CCP's Support for America's Adversaries",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing transcript",
+  "doc_date": "2024-01-30",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-authoritarian-alignment-the-ccp-s-support-for-america-s-adversaries",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "dba6dc223cd623db11d2d3a7c5d3460ba4f852cbb8cd2e0e2db461833a0a6f86",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-12T13:41:09Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-authoritarian-alignment-the-ccp-s-support-for-am-fc5e1d",
+      "stage": "transcript of this hearing"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "2024-01-30",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc/source-dba6dc22.pdf"
+}

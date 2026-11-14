@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-all-roads-lead-to-beijing-the-ccp-s-global-devel-d4c2ba",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:38:25Z",
+  "title": "All Roads Lead to Beijing? The CCP's Global Development Offensive",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-05-16",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/all-roads-lead-to-beijing-the-ccp-s-global-development-offensive",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "d4c2ba0e49e909e8c0c3ed7f686262a899dd535847db1ed848ce0f6ffdbbab6c",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:38:31Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=EE3yVQdIRE8"
+  ],
+  "hearing_date": "2024-05-16",
+  "witnesses": [
+    "Mr. David Trulio, President & Chief Executive Officer, Ronald Reagan Presidential Foundation and Institute"
+  ],
+  "addressee": ""
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:42:46Z",
+  "title": "Transcript: Discourse Power: The CCP's Strategy to Shape the Global Information Space",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing transcript",
+  "doc_date": "2023-11-30",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-discourse-power-the-ccp-s-strategy-to-shape-the-global-information-space",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "ceb651fe3d51a20dd58728558c5ee5c66f9297e4671634e765ed974b48303708",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-12T13:42:52Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-discourse-power-the-ccp-s-strategy-to-shape-the-1b0ed7",
+      "stage": "transcript of this hearing"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "2023-11-30",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651/source-ceb651fe.pdf"
+}

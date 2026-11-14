@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:37:22Z",
+  "title": "Transcript: From High Tech to Heavy Steel: Combatting the PRC's Strategy to Dominate Semiconductors, Shipbuilding, and Drones",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing transcript",
+  "doc_date": "2024-06-26",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-high-tech-to-heavy-steel-combatting-the-prc-s-strategy-to-dominate-semiconductors-shipbuilding-and-drones",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "663dc4cef7d2c98cc22ab556599b012b6aeea3a62e3ebd51487820a27129bc43",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-12T13:37:30Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-from-high-tech-to-heavy-steel-combatting-the-prc-0ad281",
+      "stage": "transcript of this hearing"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "2024-06-26",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4/source-663dc4ce.pdf"
+}

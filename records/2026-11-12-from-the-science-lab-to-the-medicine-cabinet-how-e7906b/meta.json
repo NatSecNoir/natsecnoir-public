@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-12-from-the-science-lab-to-the-medicine-cabinet-how-e7906b",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:43:19Z",
+  "title": "From the Science Lab to the Medicine Cabinet: How China is Cornering the Market on Our Medicines",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-03-18",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-the-science-lab-to-the-medicine-cabinet-how-china-is-cornering-the-market-on-our-medicines",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "e7906b1fb600e4493b43b82ccec28006185ee289ad85b2267ee93c25a6ea2f59",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:43:19Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=uFLE30RWZ2w"
+  ],
+  "hearing_date": "2026-03-18",
+  "witnesses": [
+    "Dr. Jacob Becraft, CEO and Co-Founder, Strand Therapeutics Inc.",
+    "Mr. Patrick Cashman, President, USAntibiotics",
+    "Dr. Francisco Gimenez, Partner, 8VC",
+    "Dr. Marta E. Wosińska, Senior Fellow – Economic Studies, Center on Health Policy at Brookings"
+  ],
+  "addressee": ""
+}

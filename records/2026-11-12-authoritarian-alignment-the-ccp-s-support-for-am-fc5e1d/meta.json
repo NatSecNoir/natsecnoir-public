@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-authoritarian-alignment-the-ccp-s-support-for-am-fc5e1d",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:41:02Z",
+  "title": "Authoritarian Alignment: The CCP's Support for America's Adversaries",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-01-30",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-authoritarian-alignment-the-ccp-s-support-for-america-s-adversaries",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "fc5e1db2f1affb55b5bb0b5c77e8a698b03b33e598090fe3ae0005373b46a0e1",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:41:09Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=2nD0SAxRc_g"
+  ],
+  "hearing_date": "2024-01-30",
+  "witnesses": [
+    "The Hon. Michael R. Pompeo, 70th U.S. Secretary of State"
+  ],
+  "addressee": ""
+}

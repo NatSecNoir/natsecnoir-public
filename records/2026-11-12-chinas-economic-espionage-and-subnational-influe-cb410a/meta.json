@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-chinas-economic-espionage-and-subnational-influe-cb410a",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:41:44Z",
+  "title": "China’s Economic Espionage and Subnational Influence in the United States",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-06-25",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/china-s-economic-espionage-and-subnational-influence-in-the-united-states",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "cb410af9d2147e795163665d93fd6ecbe81714d168c5f508e63006ba638a9ca8",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:41:44Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=qxl7kz0WQP8"
+  ],
+  "hearing_date": "2026-06-25",
+  "witnesses": [
+    "Mr. David Shedd, Former Acting Director of the Defense Intelligence Agency",
+    "Mr. Michael Lucci, Founder & CEO of State Armor",
+    "Mr. John C. Yang, President and Executive Director of Asian Americans Advancing Justice"
+  ],
+  "addressee": ""
+}

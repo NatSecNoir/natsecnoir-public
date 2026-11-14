@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-growing-stakes-the-bioeconomy-and-american-natio-431877",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:39:58Z",
+  "title": "Growing Stakes: The Bioeconomy and American National Security",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-03-07",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-growing-stakes-the-bioeconomy-and-american-national-security",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "4318774994250dded283bff6e8cce3eb0bb89a3dc6d16e745c45279088fb3782",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:40:05Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=ZdggybflwtM"
+  ],
+  "hearing_date": "2024-03-07",
+  "witnesses": [
+    "Dr. Jason Kelly, CEO, Ginkgo Bioworks"
+  ],
+  "addressee": ""
+}

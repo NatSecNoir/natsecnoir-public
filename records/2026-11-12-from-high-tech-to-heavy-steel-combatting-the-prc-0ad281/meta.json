@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-from-high-tech-to-heavy-steel-combatting-the-prc-0ad281",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:37:22Z",
+  "title": "From High Tech to Heavy Steel: Combatting the PRC's Strategy to Dominate Semiconductors, Shipbuilding, and Drones",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-06-26",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-high-tech-to-heavy-steel-combatting-the-prc-s-strategy-to-dominate-semiconductors-shipbuilding-and-drones",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "0ad2815cc390d7e52d47d7191199545da54f80379a29735ac9b0b2e16ceb24b2",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:37:30Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=598JDFGj-oA"
+  ],
+  "hearing_date": "2024-06-26",
+  "witnesses": [
+    "Mr. Adam Bry, Founder and Chief Executive Officer, Skydio"
+  ],
+  "addressee": ""
+}

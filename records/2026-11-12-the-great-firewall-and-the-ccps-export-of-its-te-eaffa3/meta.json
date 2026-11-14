@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-12-the-great-firewall-and-the-ccps-export-of-its-te-eaffa3",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:36:49Z",
+  "title": "The Great Firewall and the CCP’s Export of its Techno-Authoritarian Surveillance State",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-07-23",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/great-firewall-and-ccps-export-its-techno-authoritarian-surveillance",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "eaffa30fb7fca53d0a6423aaefad3a113f16770152a2fb90fbcc712c60120b15",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:36:54Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-the-great-firewall-and-the-ccps-expor-1c3802",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=6Bk7e-L7NGo"
+  ],
+  "hearing_date": "2024-07-23",
+  "witnesses": [
+    "Mr. Nat Kretchun, Senior Vice President for Programs, Open Technology Fund",
+    "Dr. Zack Cooper, Senior Fellow, American Enterprise Institute",
+    "Mr. Xiao Qiang, Founder and Editor-in-Chief, China Digital Times"
+  ],
+  "addressee": ""
+}

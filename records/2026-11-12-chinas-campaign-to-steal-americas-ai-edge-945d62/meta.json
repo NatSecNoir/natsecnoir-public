@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-chinas-campaign-to-steal-americas-ai-edge-945d62",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:42:48Z",
+  "title": "China’s Campaign to Steal America’s AI Edge",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-04-16",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/china-s-campaign-to-steal-america-s-ai-edge",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "945d6288916f63e9733c5c4f24943f3c06af4a17f48c639ce28213af064df9f8",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:42:48Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=U1KCdpEvhFE"
+  ],
+  "hearing_date": "2026-04-16",
+  "witnesses": [
+    "Mr. Dmitri Alperovitch, Chairman, Silverado Policy Accelerator",
+    "Mr. Yusuf Mahmood, Director of AI and Emerging Technology, America First Policy Institute",
+    "Mr. Kyle Chan, Fellow, John L. Thornton China Center at Brookings"
+  ],
+  "addressee": ""
+}

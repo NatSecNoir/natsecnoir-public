@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-protecting-american-innovation-the-federal-resea-1b2686",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:41:01Z",
+  "title": "Protecting American Innovation: The Federal Research Security Enterprise",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-07-15",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/protecting-american-innovation-the-federal-research-security-enterprise",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "1b2686aed05403835ba42666a8cd44f4bf7e0fea7d54339e370294a522366245",
+  "approved_at": "2026-11-14T13:19:01Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:41:01Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=Qx-K4zz-K88"
+  ],
+  "hearing_date": "2026-07-15",
+  "witnesses": [
+    "Mr. Jeremy Ison, Chief of Staff to the Under Secretary for Science, U.S. Department of Energy",
+    "Dr. Patricia Valdez, Chief Extramural Research Integrity Officer, National Institutes of Health",
+    "Dr. Rebecca Keiser, Acting Chief of Staff and Chief of Research Security Policy and Strategy, National Science Foundation"
+  ],
+  "addressee": ""
+}

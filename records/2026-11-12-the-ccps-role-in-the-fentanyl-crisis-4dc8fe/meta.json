@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-the-ccps-role-in-the-fentanyl-crisis-4dc8fe",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:39:17Z",
+  "title": "The CCP’s Role in the Fentanyl Crisis",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-04-16",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-ccp-s-role-in-the-fentanyl-crisis",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "4dc8fe0982ff932c55a0df262441c4aeec9a182d429dd53541d8370b4d6c7c6a",
+  "approved_at": "2026-11-14T13:19:01Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:39:23Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-the-ccps-role-in-the-fentanyl-crisis-080992",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=bkzJ0nJEuus"
+  ],
+  "hearing_date": "2024-04-16",
+  "witnesses": [
+    "The Honorable William P. Barr, 77th and 85th United States Attorney General"
+  ],
+  "addressee": ""
+}

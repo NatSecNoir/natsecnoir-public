@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-how-the-ccp-uses-the-law-to-silence-critics-and-c5c950",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:35:44Z",
+  "title": "How the CCP Uses the Law to Silence Critics and Enforce its Rule",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2024-09-19",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/how-the-ccp-uses-the-law-to-silence-critics-and-enforce-its-rule",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "c5c950f648b53262d39cc0dc202bba27f5f68f20ca3ec5f86b9b2f0d7a62cfb9",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:35:53Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-how-the-ccp-uses-the-law-to-silence-c-a60a1c",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=b0Fxr18VhCs"
+  ],
+  "hearing_date": "2024-09-19",
+  "witnesses": [
+    "Mr. Jamil Jaffer, Founder and Executive Director, National Security Institute"
+  ],
+  "addressee": ""
+}

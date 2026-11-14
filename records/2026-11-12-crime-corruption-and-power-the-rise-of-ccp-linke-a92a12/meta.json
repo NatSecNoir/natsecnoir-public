@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-crime-corruption-and-power-the-rise-of-ccp-linke-a92a12",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:42:03Z",
+  "title": "Crime, Corruption, and Power: The Rise of CCP-linked Scam Networks Targeting Americans and Threatening U.S. Security",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-05-19",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/crime-corruption-and-power-the-rise-of-ccp-linked-scam-networks-targeting-americans-and-threatening-us-security",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "a92a123a31c3c527dc42f8e75ad2bbec43c36180e47039f1c14e2d79966f1061",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:42:03Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=Cgc1yPgBRb4"
+  ],
+  "hearing_date": "2026-05-19",
+  "witnesses": [
+    "Mr. Jacob Sims, Visiting Fellow, Asia Center at Harvard University",
+    "Mr. Jason Tower, Senior Expert, Global Initiative Against Transnational Organized Crime",
+    "Ms. Erin West, Founder and President, Operation Shamrock"
+  ],
+  "addressee": ""
+}

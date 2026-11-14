@@ -1,5 +1,5 @@
 {
- "count": 322,
+ "count": 372,
  "records": [
   {
    "id": "2026-11-07-record-d75b21",
@@ -805,6 +805,54 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-import-controls-tools-to-counter-the-ccp-s-indus-ed580f",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:40:20Z",
+   "title": "Import Controls: Tools to Counter the CCP's Industrial Policy and Supply Chain Threats",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-09-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/import-controls-tools-to-counter-the-ccp-s-industrial-policy-and-supply-chain-threats",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "ed580f7fdbdd019a5a0b7e819cb9b8a384887e72b932ba68849df746ab35495d",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:40:20Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=kEr3lKIORYs"
+   ],
+   "hearing_date": "2026-09-16",
+   "witnesses": [
+    "Mr. Craig Singleton, China Program Senior Director, Foundation for Defense of Democracies",
+    "Mr. Oren Cass, Founder and Chief Economist, American Compass",
+    "Mr. Peter Harrell, Visiting Scholar, Georgetown University Institute of International Economic Law; Senior Fellow, Council on Foreign Relations"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -1859,6 +1907,54 @@
    ]
   },
   {
+   "id": "2026-11-12-protecting-american-innovation-the-federal-resea-1b2686",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:41:01Z",
+   "title": "Protecting American Innovation: The Federal Research Security Enterprise",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-07-15",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/protecting-american-innovation-the-federal-research-security-enterprise",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "1b2686aed05403835ba42666a8cd44f4bf7e0fea7d54339e370294a522366245",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:41:01Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=Qx-K4zz-K88"
+   ],
+   "hearing_date": "2026-07-15",
+   "witnesses": [
+    "Mr. Jeremy Ison, Chief of Staff to the Under Secretary for Science, U.S. Department of Energy",
+    "Dr. Patricia Valdez, Chief Extramural Research Integrity Officer, National Institutes of Health",
+    "Dr. Rebecca Keiser, Acting Chief of Staff and Chief of Research Security Policy and Strategy, National Science Foundation"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-04-router-conditional-approvals-e64105",
    "status": "approved",
    "ingested_at": "2026-09-04T08:02:23Z",
@@ -2086,6 +2182,49 @@
    ]
   },
   {
+   "id": "2026-11-12-botox-maker-abbvie-funded-clinical-trials-at-chi-c435b6",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:41:38Z",
+   "title": "Botox Maker AbbVie Funded Clinical Trials at Chinese Military Sites",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-06-30",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/botox-maker-abbvie-funded-clinical-trials-at-chinese-military-sites",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "c435b6739e94e3dc9b749fa8a20417958c9f8ef0670ef32b61864ce671558eca",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:41:44Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "AbbVie Chief Executive Officer Robert Michael",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-botox-maker-abbvie-funded-clinical-trials-at-chi-c435b6/source-c435b673.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-04-pre-2024-covered-list-marketing-import-limitatio-85e98f",
    "status": "approved",
    "ingested_at": "2026-09-04T08:02:23Z",
@@ -2132,6 +2271,54 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-chinas-economic-espionage-and-subnational-influe-cb410a",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:41:44Z",
+   "title": "China’s Economic Espionage and Subnational Influence in the United States",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-06-25",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/china-s-economic-espionage-and-subnational-influence-in-the-united-states",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "cb410af9d2147e795163665d93fd6ecbe81714d168c5f508e63006ba638a9ca8",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:41:44Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=qxl7kz0WQP8"
+   ],
+   "hearing_date": "2026-06-25",
+   "witnesses": [
+    "Mr. David Shedd, Former Acting Director of the Defense Intelligence Agency",
+    "Mr. Michael Lucci, Founder & CEO of State Armor",
+    "Mr. John C. Yang, President and Executive Director of Asian Americans Advancing Justice"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -2695,6 +2882,54 @@
    ]
   },
   {
+   "id": "2026-11-12-crime-corruption-and-power-the-rise-of-ccp-linke-a92a12",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:42:03Z",
+   "title": "Crime, Corruption, and Power: The Rise of CCP-linked Scam Networks Targeting Americans and Threatening U.S. Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-05-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/crime-corruption-and-power-the-rise-of-ccp-linked-scam-networks-targeting-americans-and-threatening-us-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "a92a123a31c3c527dc42f8e75ad2bbec43c36180e47039f1c14e2d79966f1061",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:42:03Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=Cgc1yPgBRb4"
+   ],
+   "hearing_date": "2026-05-19",
+   "witnesses": [
+    "Mr. Jacob Sims, Visiting Fellow, Asia Center at Harvard University",
+    "Mr. Jason Tower, Senior Expert, Global Initiative Against Transnational Organized Crime",
+    "Ms. Erin West, Founder and President, Operation Shamrock"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-04-router-drone-conditional-approvals-1e5ef7",
    "status": "approved",
    "ingested_at": "2026-09-04T08:02:22Z",
@@ -2734,6 +2969,48 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-chairmen-moolenaar-cassidy-walberg-and-banks-sou-804c8a",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:42:03Z",
+   "title": "Chairmen Moolenaar, Cassidy, Walberg, and Banks Sound Alarm on Chinese Communist Party Infiltrating American Universities, Threatening National Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-05-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-moolenaar-cassidy-walberg-and-banks-sound-alarm-on-chinese-communist-party-infiltrating-american-universities-threatening-national-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "804c8ae46583c247be9a3c7f9ba43e3f736d45ba620d83632f7d184dd12ec728",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:42:06Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Bryant University",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -3054,6 +3331,49 @@
    ]
   },
   {
+   "id": "2026-11-12-chairmen-moolenaar-garbarino-announce-joint-inve-81cba6",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:42:27Z",
+   "title": "Chairmen Moolenaar, Garbarino Announce Joint Investigation into Airbnb, Anysphere, and the National Security Risks Posed by Chinese AI Models",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-04-29",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-moolenaar-garbarino-announce-joint-investigation-into-airbnb-anysphere-and-the-national-security-risks-posed-by-chinese-ai-models",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "81cba6f7f16081dc82a3f1645f1cf80968b1fb0ee58063c6ff371192394a06c1",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:42:33Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Anysphere, Airbnb",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-chairmen-moolenaar-garbarino-announce-joint-inve-81cba6/source-81cba6f7.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-10-03-american-samoa-telecommunications-authority-lett-302db5",
    "status": "approved",
    "ingested_at": "2026-10-03T19:43:45Z",
@@ -3136,6 +3456,97 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-chinas-campaign-to-steal-americas-ai-edge-945d62",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:42:48Z",
+   "title": "China’s Campaign to Steal America’s AI Edge",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-04-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/china-s-campaign-to-steal-america-s-ai-edge",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "945d6288916f63e9733c5c4f24943f3c06af4a17f48c639ce28213af064df9f8",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:42:48Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=U1KCdpEvhFE"
+   ],
+   "hearing_date": "2026-04-16",
+   "witnesses": [
+    "Mr. Dmitri Alperovitch, Chairman, Silverado Policy Accelerator",
+    "Mr. Yusuf Mahmood, Director of AI and Emerging Technology, America First Policy Institute",
+    "Mr. Kyle Chan, Fellow, John L. Thornton China Center at Brookings"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-airbus-space-likely-provided-satellite-imagery-o-696988",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:42:49Z",
+   "title": "Airbus Space Likely Provided Satellite Imagery of U.S. Military Assets to China Before Operation Epic Fury",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-04-15",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/airbus-space-likely-provided-satellite-imagery-of-us-military-assets-to-china-before-operation-epic-fury",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "696988fbdc0f4795cc3d4f8b0e4a3d6c5a6006ec576e8a31c0c5a1ba44c69021",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:42:55Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary of War Pete Hegseth",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-airbus-space-likely-provided-satellite-imagery-o-696988/source-696988fb.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -3357,6 +3768,55 @@
    ]
   },
   {
+   "id": "2026-11-12-from-the-science-lab-to-the-medicine-cabinet-how-e7906b",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:43:19Z",
+   "title": "From the Science Lab to the Medicine Cabinet: How China is Cornering the Market on Our Medicines",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-03-18",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-the-science-lab-to-the-medicine-cabinet-how-china-is-cornering-the-market-on-our-medicines",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "e7906b1fb600e4493b43b82ccec28006185ee289ad85b2267ee93c25a6ea2f59",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:43:19Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=uFLE30RWZ2w"
+   ],
+   "hearing_date": "2026-03-18",
+   "witnesses": [
+    "Dr. Jacob Becraft, CEO and Co-Founder, Strand Therapeutics Inc.",
+    "Mr. Patrick Cashman, President, USAntibiotics",
+    "Dr. Francisco Gimenez, Partner, 8VC",
+    "Dr. Marta E. Wosińska, Senior Fellow – Economic Studies, Center on Health Policy at Brookings"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-04-uas-first-conditional-approvals-7ef9ff",
    "status": "approved",
    "ingested_at": "2026-09-04T08:02:22Z",
@@ -3399,6 +3859,92 @@
    ]
   },
   {
+   "id": "2026-11-12-chairmen-moolenaar-mast-walberg-ask-rubio-to-act-9178f6",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:43:32Z",
+   "title": "Chairmen Moolenaar, Mast, Walberg Ask Rubio to Act on the Chinese Students and Scholars Association",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-03-05",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-moolenaar-mast-walberg-ask-rubio-to-act-on-the-chinese-students-and-scholars-association",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "9178f6f2110453cb5371d404f9766c46e39301d1f94c26dc1f0ab4b8bce1c2c5",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:43:37Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary of State Marco Rubio",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-chairmen-moolenaar-mast-walberg-ask-rubio-to-act-9178f6/source-9178f6f2.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-chairman-moolenaar-chairman-grassley-alert-nasa-8870c1",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:43:50Z",
+   "title": "Chairman Moolenaar, Chairman Grassley Alert NASA, FBI to CCP-Linked Research Collaboration",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-02-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairman-moolenaar-chairman-grassley-alert-nasa-fbi-to-ccp-linked-research-collaboration",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "8870c110450592d7051c1bd11463af34483ad71c1cf27da92b13557cb39bb7e6",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:43:55Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "NASA Administrator Jared Isaacman, FBI Director Kash Patel alerting them to CCP-linked research funded by American taxpayers. \"We write to you",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-chairman-moolenaar-chairman-grassley-alert-nasa-8870c1/source-8870c110.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-11-05-fcc-proposes-nearly-200-000-fine-against-covered-eb2e60",
    "status": "approved",
    "ingested_at": "2026-11-05T22:21:56Z",
@@ -3438,6 +3984,96 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-lies-lawfare-and-leverage-the-ccps-gaslighting-a-3ba1bd",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:43:55Z",
+   "title": "Lies, Lawfare, and Leverage: The CCP’s Gaslighting and Manipulation to Marginalize Taiwan",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2026-02-11",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/lies-lawfare-and-leverage-the-ccp-s-gaslighting-and-manipulation-to-marginalize-taiwan",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "3ba1bd2467f1d8c0e46dded7bd0ca081f0802614d5d82f0f89a3bd5ca48c9d4d",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:43:55Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=a6bDh-8ixyM"
+   ],
+   "hearing_date": "2026-02-11",
+   "witnesses": [
+    "Mr. Julian Ku, Maurice A. Deane Distinguished Professor of Constitutional Law, Hofstra University",
+    "Ms. Shirley Kan, Independent Specialist in Indo-Pacific Security Affairs",
+    "Dr. Mira Rapp-Hooper, Visiting Senior Fellow, Brookings Institution"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-chairmen-moolenaar-and-mast-lead-letter-pledging-e86389",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:43:55Z",
+   "title": "Chairmen Moolenaar and Mast Lead Letter Pledging Bipartisan Support for Strengthening Export Controls on Chipmaking Tools",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2026-02-10",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-moolenaar-and-mast-lead-letter-pledging-bipartisan-support-for-strengthening-export-controls-on-chipmaking-tools",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "e8638931e93cfb775bbb6e39e90abc6c9835bacfe7307d8689fa078296dec297",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:43:59Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretary of State Marco Rubio, Secretary of Commerce Howard Lutnick",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -3795,6 +4431,54 @@
    ]
   },
   {
+   "id": "2026-11-12-trojan-horse-china-s-auto-threat-to-america-2a9890",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:44:28Z",
+   "title": "Trojan Horse: China's Auto Threat to America.",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2025-12-11",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/trojan-horse-china-s-auto-threat-to-america-0",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "2a98902655de8fd949e88aba22e3337e264fd21986eeea6e5483c48c4271d299",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:44:28Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=d48LxEHI3Uk"
+   ],
+   "hearing_date": "2025-12-11",
+   "witnesses": [
+    "Ms. Elaine Dezenski, Senior Director and Head of the Center on Economic and Financial Power, Foundation for Defense of Democracies",
+    "Mr. Charles Parton OBE, Senior Associate Fellow, Royal United Services Institute",
+    "Mr. Peter Ludwig, Co-Founder and Chief Technology Officer, Applied Intuition"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-11-05-protecting-the-nation-s-communications-systems-f-242969",
    "status": "approved",
    "ingested_at": "2026-11-05T22:22:16Z",
@@ -3834,6 +4518,50 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-predatory-pricing-how-the-chinese-communist-part-562bd1",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:44:28Z",
+   "title": "Predatory Pricing: How the Chinese Communist Party Manipulates Global Mineral Prices to Maintain Its Dominance",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2025-11-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/predatory-pricing-how-the-chinese-communist-party-manipulates-global-mineral-prices-to-maintain-its-dominance",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "562bd1f9dc21979d1ca72aaf2af60bfa68dbb7152cabb95538dab389167776fd",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:44:28Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=4qN9XJZmv9s"
+   ],
+   "hearing_date": "2025-11-19",
+   "witnesses": [],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -4207,6 +4935,91 @@
    ]
   },
   {
+   "id": "2026-11-12-chairman-moolenaar-urges-local-leaders-to-end-ti-e9c6b1",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:46:13Z",
+   "title": "Chairman Moolenaar Urges Local Leaders to End Ties with Chinese Communist Party Front Groups",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2025-08-18",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairman-moolenaar-urges-local-leaders-to-end-ties-with-chinese-communist-party-front-groups",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "e9c6b11427d327c16d65eb446fe7b1d205aeced781fb1504b026631e55c9920b",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:46:20Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Montgomery County Executive Marc Elrich here., Des Moines Mayor Connie Boesen here.",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-chairman-moolenaar-urges-local-leaders-to-end-ti-e9c6b1/source-e9c6b114.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-chairman-moolenaar-senator-rick-scott-call-on-co-14cb4f",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:46:20Z",
+   "title": "Chairman Moolenaar, Senator Rick Scott Call on Commerce Department to Blacklist Communist China's Institute of Forensic Science",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2025-08-14",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairman-moolenaar-senator-rick-scott-call-on-commerce-department-to-blacklist-communist-china-s-institute-of-forensic-science",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "14cb4f108e4b5aed684f47223be3b67d22359aae332b4fce57961944f99e54ea",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:46:24Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Under Secretary of Commerce for Industry, Security Jeffrey Kessler thanking him for the administration’s efforts to protect American national security from advers",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-10-record-8a4ad9",
    "status": "approved",
    "ingested_at": "2026-09-10T00:09:19Z",
@@ -4306,6 +5119,50 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-united-we-stand-strategies-to-counter-prc-econom-2a4342",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:46:39Z",
+   "title": "United We Stand: Strategies to Counter PRC Economic Coercion Against Democracies",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2025-07-23",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/united-we-stand-strategies-to-counter-prc-economic-coercion-against-democracies-0",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "2a4342b0c3e224531fab7c42146c166d24d9b5a5ad31711b78d6a518b15f2b39",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:46:39Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=ngFXHc4U8J8"
+   ],
+   "hearing_date": "2025-07-23",
+   "witnesses": [],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -4521,6 +5378,50 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-ccp-on-campus-moolenaar-demands-universities-end-44d577",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:47:26Z",
+   "title": "CCP on Campus: Moolenaar Demands Universities End Joint Programs Tied to Chinese Tech Theft",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2025-07-09",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/ccp-on-campus-moolenaar-demands-universities-end-joint-programs-tied-to-chinese-tech-theft",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "44d577fdc51a512fcad54ad4209eca844377729a39c5fd51cdaff759536d56ad",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:47:34Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Dartmouth College here., Temple University here., University of California, Davis here., Irvine here., Riverside here., University of Notre Dame here., University of Tennessee here.",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-ccp-on-campus-moolenaar-demands-universities-end-44d577/source-44d577fd.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json",
+    "document.json"
    ]
   },
   {
@@ -4792,6 +5693,49 @@
    ]
   },
   {
+   "id": "2026-11-12-defense-federal-acquisition-regulation-supplemen-c82c85",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:47:47Z",
+   "title": "Defense Federal Acquisition Regulation Supplement (DFARS)",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2025-06-17",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/defense-federal-acquisition-regulation-supplement-dfars",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "c82c851184605f6c0f08f082968444c8b92e1b5bde0848fead6b39e3c29e6d0d",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T02:47:52Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-defense-federal-acquisition-regulation-supplemen-c82c85/source-c82c8511.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-10-12-order-regarding-the-proposed-acquisition-of-unit-a519b2",
    "status": "approved",
    "ingested_at": "2026-10-12T03:55:32Z",
@@ -5034,6 +5978,50 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-deterrence-amid-rising-tensions-preventing-ccp-a-067e7e",
+   "status": "approved",
+   "ingested_at": "2026-11-12T02:47:52Z",
+   "title": "Deterrence Amid Rising Tensions: Preventing CCP Aggression on Taiwan.",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2025-05-15",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/deterrence-amid-rising-tensions-preventing-ccp-aggression-on-taiwan-0",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "067e7ed33cf3142649e812e6f67861d3815a95dcbb1e0c54a10badf0bedcf7ea",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T02:47:52Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=F4SNU8qjsXc"
+   ],
+   "hearing_date": "2025-05-15",
+   "witnesses": [],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -5463,6 +6451,97 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-end-the-typhoons-how-to-deter-beijings-cyber-act-606cd3",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:30:46Z",
+   "title": "End the Typhoons: How to Deter Beijing’s Cyber Actions and Enhance America’s Lackluster Cyber Defenses",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2025-03-05",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/end-the-typhoons-how-to-deter-beijing-s-cyber-actions-and-enhance-america-s-lackluster-cyber-defenses-0",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "606cd393807c10a08c300cda98e16ac3fda9f5ff392f9eb9aa1e536a03d124e4",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:30:46Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=wUZX1qLmriU"
+   ],
+   "hearing_date": "2025-03-05",
+   "witnesses": [
+    "Mr. Rob Joyce, Former Director of Cybersecurity, National Security Agency",
+    "Dr. Emma M. Stewart, Chief Power Grid Scientist, National and Homeland Security, Idaho National Laboratory",
+    "Ms. Laura Galante, Former Director of the Cyber Threat Intelligence Integration Center, Office of the Director of National Intelligence"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-chairmen-moolenaar-and-smith-urge-uk-ambassador-47b5ee",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:32:10Z",
+   "title": "Chairmen Moolenaar and Smith Urge UK Ambassador to Reject CCP's Largest European Embassy Amid Human Rights Concerns",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2025-02-26",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-moolenaar-and-smith-urge-uk-ambassador-to-reject-ccp-s-largest-european-embassy-amid-human-rights-concerns",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "47b5ee2d231c45b96f0ea81e52a9829ecd0d167522cbcd40ed42d190f313d815",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:32:20Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Lord",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-chairmen-moolenaar-and-smith-urge-uk-ambassador-47b5ee/source-47b5ee2d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -5908,6 +6987,105 @@
    ]
   },
   {
+   "id": "2026-11-12-transcript-rebuilding-the-arsenal-of-democracy-t-50352d",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:33:34Z",
+   "title": "Transcript: Rebuilding the Arsenal of Democracy: The Imperative to Strengthen America’s Defense Industrial Base and Workforce",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-12-05",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/rebuilding-the-arsenal-of-democracy-the-imperative-to-strengthen-america-s-defense-industrial-base-and-workforce",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "50352d4fb0c6d4c494b9a6729dda969ae75299d72307b14001c248b7c94a26fd",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:33:41Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-rebuilding-the-arsenal-of-democracy-the-imperati-7ca455",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-12-05",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-rebuilding-the-arsenal-of-democracy-t-50352d/source-50352d4f.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-rebuilding-the-arsenal-of-democracy-the-imperati-7ca455",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:33:34Z",
+   "title": "Rebuilding the Arsenal of Democracy: The Imperative to Strengthen America’s Defense Industrial Base and Workforce",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-12-05",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/rebuilding-the-arsenal-of-democracy-the-imperative-to-strengthen-america-s-defense-industrial-base-and-workforce",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "7ca455a79a16df0f47ff3c6d7cde3b250722cc0a4b83e404a44c3c8518b3f6dd",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:33:41Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-rebuilding-the-arsenal-of-democracy-t-50352d",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=5c8JCa3ahxE"
+   ],
+   "hearing_date": "2024-12-05",
+   "witnesses": [
+    "Chris Brose, Chief Strategy Officer, Anduril Industries"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-10-04-record-c897b6",
    "status": "approved",
    "ingested_at": "2026-10-04T18:23:16Z",
@@ -5992,6 +7170,105 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-how-the-ccp-uses-the-law-to-silence-c-a60a1c",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:35:44Z",
+   "title": "Transcript: How the CCP Uses the Law to Silence Critics and Enforce its Rule",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-09-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/how-the-ccp-uses-the-law-to-silence-critics-and-enforce-its-rule",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "a60a1c52095dbf5f3143b13da7b1bd245b7a31224e522e20a6d83b749d0439c7",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:35:53Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-how-the-ccp-uses-the-law-to-silence-critics-and-c5c950",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-09-19",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-how-the-ccp-uses-the-law-to-silence-c-a60a1c/source-a60a1c52.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-how-the-ccp-uses-the-law-to-silence-critics-and-c5c950",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:35:44Z",
+   "title": "How the CCP Uses the Law to Silence Critics and Enforce its Rule",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-09-19",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/how-the-ccp-uses-the-law-to-silence-critics-and-enforce-its-rule",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "c5c950f648b53262d39cc0dc202bba27f5f68f20ca3ec5f86b9b2f0d7a62cfb9",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:35:53Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-how-the-ccp-uses-the-law-to-silence-c-a60a1c",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=b0Fxr18VhCs"
+   ],
+   "hearing_date": "2024-09-19",
+   "witnesses": [
+    "Mr. Jamil Jaffer, Founder and Executive Director, National Security Institute"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -6085,6 +7362,107 @@
    ]
   },
   {
+   "id": "2026-11-12-transcript-the-great-firewall-and-the-ccps-expor-1c3802",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:36:49Z",
+   "title": "Transcript: The Great Firewall and the CCP’s Export of its Techno-Authoritarian Surveillance State",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-07-23",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/great-firewall-and-ccps-export-its-techno-authoritarian-surveillance",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "1c380204298313f55dd57ffb66bf7fc8d6ca4db521d10b967792c76e749da6c6",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:36:54Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-the-great-firewall-and-the-ccps-export-of-its-te-eaffa3",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-07-23",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-the-great-firewall-and-the-ccps-expor-1c3802/source-1c380204.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-the-great-firewall-and-the-ccps-export-of-its-te-eaffa3",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:36:49Z",
+   "title": "The Great Firewall and the CCP’s Export of its Techno-Authoritarian Surveillance State",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-07-23",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/great-firewall-and-ccps-export-its-techno-authoritarian-surveillance",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "eaffa30fb7fca53d0a6423aaefad3a113f16770152a2fb90fbcc712c60120b15",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:36:54Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-the-great-firewall-and-the-ccps-expor-1c3802",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=6Bk7e-L7NGo"
+   ],
+   "hearing_date": "2024-07-23",
+   "witnesses": [
+    "Mr. Nat Kretchun, Senior Vice President for Programs, Open Technology Fund",
+    "Dr. Zack Cooper, Senior Fellow, American Enterprise Institute",
+    "Mr. Xiao Qiang, Founder and Editor-in-Chief, China Digital Times"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-04-covered-list-kaspersky-icts-hardware-61b775",
    "status": "approved",
    "ingested_at": "2026-09-04T08:02:22Z",
@@ -6132,6 +7510,105 @@
    ]
   },
   {
+   "id": "2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:37:22Z",
+   "title": "Transcript: From High Tech to Heavy Steel: Combatting the PRC's Strategy to Dominate Semiconductors, Shipbuilding, and Drones",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-06-26",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-high-tech-to-heavy-steel-combatting-the-prc-s-strategy-to-dominate-semiconductors-shipbuilding-and-drones",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "663dc4cef7d2c98cc22ab556599b012b6aeea3a62e3ebd51487820a27129bc43",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:37:30Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-from-high-tech-to-heavy-steel-combatting-the-prc-0ad281",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-06-26",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4/source-663dc4ce.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-from-high-tech-to-heavy-steel-combatting-the-prc-0ad281",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:37:22Z",
+   "title": "From High Tech to Heavy Steel: Combatting the PRC's Strategy to Dominate Semiconductors, Shipbuilding, and Drones",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-06-26",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/from-high-tech-to-heavy-steel-combatting-the-prc-s-strategy-to-dominate-semiconductors-shipbuilding-and-drones",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "0ad2815cc390d7e52d47d7191199545da54f80379a29735ac9b0b2e16ceb24b2",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:37:30Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-from-high-tech-to-heavy-steel-combatt-663dc4",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=598JDFGj-oA"
+   ],
+   "hearing_date": "2024-06-26",
+   "witnesses": [
+    "Mr. Adam Bry, Founder and Chief Executive Officer, Skydio"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-10-04-record-729f65",
    "status": "approved",
    "ingested_at": "2026-10-04T18:41:23Z",
@@ -6171,6 +7648,105 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:38:25Z",
+   "title": "Transcript: All Roads Lead to Beijing? The CCP's Global Development Offensive",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-05-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/all-roads-lead-to-beijing-the-ccp-s-global-development-offensive",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "4be9eb4deedf26bc00b2c62ff1eda4adbab7b89a281f1d0cd632a72939f19f93",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:38:31Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-all-roads-lead-to-beijing-the-ccp-s-global-devel-d4c2ba",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-05-16",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb/source-4be9eb4d.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-all-roads-lead-to-beijing-the-ccp-s-global-devel-d4c2ba",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:38:25Z",
+   "title": "All Roads Lead to Beijing? The CCP's Global Development Offensive",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-05-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/all-roads-lead-to-beijing-the-ccp-s-global-development-offensive",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "d4c2ba0e49e909e8c0c3ed7f686262a899dd535847db1ed848ce0f6ffdbbab6c",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:38:31Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-all-roads-lead-to-beijing-the-ccp-s-g-4be9eb",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=EE3yVQdIRE8"
+   ],
+   "hearing_date": "2024-05-16",
+   "witnesses": [
+    "Mr. David Trulio, President & Chief Executive Officer, Ronald Reagan Presidential Foundation and Institute"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -6259,6 +7835,49 @@
    ]
   },
   {
+   "id": "2026-11-12-calling-on-ftc-for-inquiry-into-whether-tiktok-b-02eed7",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:38:47Z",
+   "title": "Calling on FTC for Inquiry Into Whether TikTok Broke Child Privacy Laws",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2024-05-02",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/calling-on-ftc-for-inquiry-into-whether-tiktok-broke-child-privacy-laws",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "02eed761884cb17b1797e59013053daca61e30eb4a6a10eb1f50451857914f2a",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:38:52Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "FTC Chairwoman Kahn",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-calling-on-ftc-for-inquiry-into-whether-tiktok-b-02eed7/source-02eed761.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-09-19-element8-atlink-signed-loa-tt-23-039-to-040-5-2-58a8e1",
    "status": "approved",
    "ingested_at": "2026-09-19T19:09:11Z",
@@ -6299,6 +7918,105 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-the-ccps-role-in-the-fentanyl-crisis-080992",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:39:17Z",
+   "title": "Transcript: The CCP’s Role in the Fentanyl Crisis",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-04-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-ccp-s-role-in-the-fentanyl-crisis",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "0809920cd99e4231d9372593f651437fe16eebdc0db3e61bad553a701076bf08",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:39:23Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-the-ccps-role-in-the-fentanyl-crisis-4dc8fe",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-04-16",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-the-ccps-role-in-the-fentanyl-crisis-080992/source-0809920c.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-the-ccps-role-in-the-fentanyl-crisis-4dc8fe",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:39:17Z",
+   "title": "The CCP’s Role in the Fentanyl Crisis",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-04-16",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/the-ccp-s-role-in-the-fentanyl-crisis",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "4dc8fe0982ff932c55a0df262441c4aeec9a182d429dd53541d8370b4d6c7c6a",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:39:23Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-the-ccps-role-in-the-fentanyl-crisis-080992",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=bkzJ0nJEuus"
+   ],
+   "hearing_date": "2024-04-16",
+   "witnesses": [
+    "The Honorable William P. Barr, 77th and 85th United States Attorney General"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {
@@ -6400,6 +8118,387 @@
    ]
   },
   {
+   "id": "2026-11-12-chairmen-gallagher-green-comer-westerman-request-9f6c15",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:39:39Z",
+   "title": "Chairmen Gallagher, Green, Comer, Westerman Request Briefing From DHS, DOI, On Chinese Military Activity in Arctic Region",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2024-03-15",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/chairmen-gallagher-green-comer-westerman-request-briefing-from-dhs-doi-on-chinese-military-activity-in-arctic-region",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "9f6c15a1697a31caa012ce95be667ae827b3f1f20c5b2de3eed30e9ce6091fca",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:39:44Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Department of Homeland Security Secretary",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:39:58Z",
+   "title": "Transcript: Growing Stakes: The Bioeconomy and American National Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-03-07",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-growing-stakes-the-bioeconomy-and-american-national-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "865c8666e9a0edf4c9df93864fc53dc09d65f72602285bc900ae0745d595df88",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:40:05Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-growing-stakes-the-bioeconomy-and-american-natio-431877",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-03-07",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86/source-865c8666.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-growing-stakes-the-bioeconomy-and-american-natio-431877",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:39:58Z",
+   "title": "Growing Stakes: The Bioeconomy and American National Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-03-07",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-growing-stakes-the-bioeconomy-and-american-national-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "4318774994250dded283bff6e8cce3eb0bb89a3dc6d16e745c45279088fb3782",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:40:05Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=ZdggybflwtM"
+   ],
+   "hearing_date": "2024-03-07",
+   "witnesses": [
+    "Dr. Jason Kelly, CEO, Ginkgo Bioworks"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-gallagher-krishnamoorthi-lead-bipartisan-effort-6e57de",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:40:18Z",
+   "title": "Gallagher, Krishnamoorthi Lead Bipartisan Effort to Support U.S. Sanctions Against Chinese Entities Engaging in Illegal Fishing and Forced Labor",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2024-02-15",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/gallagher-krishnamoorthi-lead-bipartisan-effort-to-support-us-sanctions-against-chinese-entities-engaging-in-illegal-fishing-and-forced-labor",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "6e57de08e95cd04b54a461b132dd7e9167a62defb8cb47ce151f5b6e1d7b3a2f",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:40:23Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-the-ccp-cyber-threat-to-the-american-631f4e",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:40:53Z",
+   "title": "Transcript: The CCP Cyber Threat to the American Homeland and National Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-01-31",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-the-ccp-cyber-threat-to-the-american-homeland-and-national-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "631f4ed7f3af2b489644a8a83d0e6e19c53b2e6805f9f3d2c99acefb09fa0f86",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:41:01Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-the-ccp-cyber-threat-to-the-american-homeland-an-6e5a6b",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-01-31",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-the-ccp-cyber-threat-to-the-american-631f4e/source-631f4ed7.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-the-ccp-cyber-threat-to-the-american-homeland-an-6e5a6b",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:40:53Z",
+   "title": "The CCP Cyber Threat to the American Homeland and National Security",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-01-31",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-the-ccp-cyber-threat-to-the-american-homeland-and-national-security",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "6e5a6b9d593ffc9b0612173f1c7c921acfa7fb4c9c9551fcafa236b7599024ae",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:41:01Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-the-ccp-cyber-threat-to-the-american-631f4e",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=MJOX3cpHfUI"
+   ],
+   "hearing_date": "2024-01-31",
+   "witnesses": [
+    "General Paul Nakasone, Commander, United States Cyber Command"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:41:02Z",
+   "title": "Transcript: Authoritarian Alignment: The CCP's Support for America's Adversaries",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2024-01-30",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-authoritarian-alignment-the-ccp-s-support-for-america-s-adversaries",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "dba6dc223cd623db11d2d3a7c5d3460ba4f852cbb8cd2e0e2db461833a0a6f86",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:41:09Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-authoritarian-alignment-the-ccp-s-support-for-am-fc5e1d",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2024-01-30",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc/source-dba6dc22.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-authoritarian-alignment-the-ccp-s-support-for-am-fc5e1d",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:41:02Z",
+   "title": "Authoritarian Alignment: The CCP's Support for America's Adversaries",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2024-01-30",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-authoritarian-alignment-the-ccp-s-support-for-america-s-adversaries",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "fc5e1db2f1affb55b5bb0b5c77e8a698b03b33e598090fe3ae0005373b46a0e1",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:41:09Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-authoritarian-alignment-the-ccp-s-sup-dba6dc",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=2nD0SAxRc_g"
+   ],
+   "hearing_date": "2024-01-30",
+   "witnesses": [
+    "The Hon. Michael R. Pompeo, 70th U.S. Secretary of State"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
    "id": "2026-10-03-mashell-telecom-inc-d-b-a-rainier-connect-letter-8b839c",
    "status": "approved",
    "ingested_at": "2026-10-03T19:39:14Z",
@@ -6440,6 +8539,247 @@
    "files": [
     "meta.json",
     "summary.md"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-ccp-transnational-repression-the-part-cb0ea8",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:42:19Z",
+   "title": "Transcript: CCP Transnational Repression: The Party’s Effort to Silence and Coerce Critics Overseas",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2023-12-13",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-ccp-transnational-repression-the-party-s-effort-to-silence-and-coerce-critics-overseas",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "cb0ea879328b29503d7377290827ac374274551a092d795f259bc791e2068dbb",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:42:27Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-ccp-transnational-repression-the-partys-effort-t-e5c181",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2023-12-13",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-ccp-transnational-repression-the-part-cb0ea8/source-cb0ea879.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-ccp-transnational-repression-the-partys-effort-t-e5c181",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:42:19Z",
+   "title": "CCP Transnational Repression: The Party’s Effort to Silence and Coerce Critics Overseas",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2023-12-13",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-ccp-transnational-repression-the-party-s-effort-to-silence-and-coerce-critics-overseas",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "e5c1815725a2e724c375fcea149019155848c47a4b371f34e69ec985906a22c3",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:42:27Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-ccp-transnational-repression-the-part-cb0ea8",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=ROxHiFIxRm4"
+   ],
+   "hearing_date": "2023-12-13",
+   "witnesses": [
+    "Ms. Anna Kwok, Executive Director, Hong Kong Democracy Council"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:42:46Z",
+   "title": "Transcript: Discourse Power: The CCP's Strategy to Shape the Global Information Space",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing transcript",
+   "doc_date": "2023-11-30",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-discourse-power-the-ccp-s-strategy-to-shape-the-global-information-space",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "ceb651fe3d51a20dd58728558c5ee5c66f9297e4671634e765ed974b48303708",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:42:52Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-discourse-power-the-ccp-s-strategy-to-shape-the-1b0ed7",
+     "stage": "transcript of this hearing"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "2023-11-30",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651/source-ceb651fe.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-discourse-power-the-ccp-s-strategy-to-shape-the-1b0ed7",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:42:46Z",
+   "title": "Discourse Power: The CCP's Strategy to Shape the Global Information Space",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "hearing",
+   "doc_date": "2023-11-30",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-discourse-power-the-ccp-s-strategy-to-shape-the-global-information-space",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.html",
+   "sha256": "1b0ed7b9f29d7fee9a04e518ca4610e40b36de204724db4675cde0f495c9bc48",
+   "approved_at": "2026-11-14T13:19:00Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "template",
+   "drafted_at": "2026-11-12T13:42:52Z",
+   "fr_status": "",
+   "related": [
+    {
+     "id": "2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651",
+     "stage": "committee transcript"
+    }
+   ],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=S6wROUv3KOk"
+   ],
+   "hearing_date": "2023-11-30",
+   "witnesses": [
+    "Mr. John Garnaut, Senior Fellow, Australian Strategic Policy Institute"
+   ],
+   "addressee": "",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
+   ]
+  },
+  {
+   "id": "2026-11-12-gallagher-krishnamoorthi-colleagues-request-inve-50afd0",
+   "status": "approved",
+   "ingested_at": "2026-11-12T13:43:01Z",
+   "title": "Gallagher, Krishnamoorthi, Colleagues Request Investigation of All PRC LiDAR Technology Companies",
+   "issuing_body": "House Select Committee on the CCP",
+   "doc_type": "letter",
+   "doc_date": "2023-11-28",
+   "docket": "",
+   "lists": [
+    "select-committee"
+   ],
+   "entities": [],
+   "source_url": "https://chinaselectcommittee.house.gov/media/letters/gallagher-krishnamoorthi-colleagues-request-investigation-of-all-prc-lidar-technology-companies",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "50afd0ebc1902c0aaa229c0e7425b60cfa7b3222a399b4e703a96432cb30dedb",
+   "approved_at": "2026-11-14T13:19:01Z",
+   "published_at": "2026-11-14T13:19:35Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-12T13:43:09Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": true,
+   "summary_machine": true,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "Secretaries Gina Raimondo",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-gallagher-krishnamoorthi-colleagues-request-inve-50afd0/source-50afd0eb.pdf",
+   "files": [
+    "meta.json",
+    "summary.md",
+    "text.json"
    ]
   },
   {

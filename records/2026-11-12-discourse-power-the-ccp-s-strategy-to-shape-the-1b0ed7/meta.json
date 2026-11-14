@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-12-discourse-power-the-ccp-s-strategy-to-shape-the-1b0ed7",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:42:46Z",
+  "title": "Discourse Power: The CCP's Strategy to Shape the Global Information Space",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2023-11-30",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-notice-discourse-power-the-ccp-s-strategy-to-shape-the-global-information-space",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "1b0ed7b9f29d7fee9a04e518ca4610e40b36de204724db4675cde0f495c9bc48",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:42:52Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-transcript-discourse-power-the-ccp-s-strategy-to-ceb651",
+      "stage": "committee transcript"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=S6wROUv3KOk"
+  ],
+  "hearing_date": "2023-11-30",
+  "witnesses": [
+    "Mr. John Garnaut, Senior Fellow, Australian Strategic Policy Institute"
+  ],
+  "addressee": ""
+}

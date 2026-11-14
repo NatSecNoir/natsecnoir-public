@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-end-the-typhoons-how-to-deter-beijings-cyber-act-606cd3",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:30:46Z",
+  "title": "End the Typhoons: How to Deter Beijing’s Cyber Actions and Enhance America’s Lackluster Cyber Defenses",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2025-03-05",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/end-the-typhoons-how-to-deter-beijing-s-cyber-actions-and-enhance-america-s-lackluster-cyber-defenses-0",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "606cd393807c10a08c300cda98e16ac3fda9f5ff392f9eb9aa1e536a03d124e4",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T13:30:46Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=wUZX1qLmriU"
+  ],
+  "hearing_date": "2025-03-05",
+  "witnesses": [
+    "Mr. Rob Joyce, Former Director of Cybersecurity, National Security Agency",
+    "Dr. Emma M. Stewart, Chief Power Grid Scientist, National and Homeland Security, Idaho National Laboratory",
+    "Ms. Laura Galante, Former Director of the Cyber Threat Intelligence Integration Center, Office of the Director of National Intelligence"
+  ],
+  "addressee": ""
+}

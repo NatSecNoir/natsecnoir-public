@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86",
+  "status": "approved",
+  "ingested_at": "2026-11-12T13:39:58Z",
+  "title": "Transcript: Growing Stakes: The Bioeconomy and American National Security",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing transcript",
+  "doc_date": "2024-03-07",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/hearing-growing-stakes-the-bioeconomy-and-american-national-security",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.pdf",
+  "sha256": "865c8666e9a0edf4c9df93864fc53dc09d65f72602285bc900ae0745d595df88",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "openai/gpt-5.6-luna",
+  "drafted_at": "2026-11-12T13:40:05Z",
+  "fr_status": "",
+  "related": [
+    {
+      "id": "2026-11-12-growing-stakes-the-bioeconomy-and-american-natio-431877",
+      "stage": "transcript of this hearing"
+    }
+  ],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [],
+  "hearing_date": "2024-03-07",
+  "witnesses": [],
+  "addressee": "",
+  "copy_url": "https://docs.natsecnoir.com/records/2026-11-12-transcript-growing-stakes-the-bioeconomy-and-ame-865c86/source-865c8666.pdf"
+}

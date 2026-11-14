@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-12-import-controls-tools-to-counter-the-ccp-s-indus-ed580f",
+  "status": "approved",
+  "ingested_at": "2026-11-12T02:40:20Z",
+  "title": "Import Controls: Tools to Counter the CCP's Industrial Policy and Supply Chain Threats",
+  "issuing_body": "House Select Committee on the CCP",
+  "doc_type": "hearing",
+  "doc_date": "2026-09-16",
+  "docket": "",
+  "lists": [
+    "select-committee"
+  ],
+  "entities": [],
+  "source_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/import-controls-tools-to-counter-the-ccp-s-industrial-policy-and-supply-chain-threats",
+  "source_copy_public": true,
+  "notes": "",
+  "source_file": "source.html",
+  "sha256": "ed580f7fdbdd019a5a0b7e819cb9b8a384887e72b932ba68849df746ab35495d",
+  "approved_at": "2026-11-14T13:19:00Z",
+  "published_at": "2026-11-14T13:19:35Z",
+  "reason": "",
+  "error": "",
+  "duplicate_of": "",
+  "draft_model": "template",
+  "drafted_at": "2026-11-12T02:40:20Z",
+  "fr_status": "",
+  "related": [],
+  "federal_register": {},
+  "errata": [],
+  "archive": true,
+  "summary_machine": true,
+  "wayback_url": "",
+  "video_urls": [
+    "https://www.youtube.com/watch?v=kEr3lKIORYs"
+  ],
+  "hearing_date": "2026-09-16",
+  "witnesses": [
+    "Mr. Craig Singleton, China Program Senior Director, Foundation for Defense of Democracies",
+    "Mr. Oren Cass, Founder and Chief Economist, American Compass",
+    "Mr. Peter Harrell, Visiting Scholar, Georgetown University Institute of International Economic Law; Senior Fellow, Council on Foreign Relations"
+  ],
+  "addressee": ""
+}
