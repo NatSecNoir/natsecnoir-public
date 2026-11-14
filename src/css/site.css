@@ -90,7 +90,6 @@ nav.main .rcount { font-size: 11px; letter-spacing: .12em; color: var(--muted); 
   .mast .tag { font-size: 13px; }
   nav.main { font-size: 11px; }
   nav.main .tabs a { padding: 12px 12px 12px 0; margin-right: 12px; }
-  /* rail on phone: a few browse chips, newsletter without the descriptive line */
 }
 
 main.wrap { padding-bottom: 40px; }
@@ -132,16 +131,11 @@ footer .disc { font: 12px/1.5 var(--mono); color: var(--muted); }
 .rail section.letter { border-top: 0; padding-top: 0; margin: 34px 0; }
 .rail h2 { margin: 0 0 12px; font: 600 11px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
 .rail p { margin: 0 0 8px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
-.railchips { display: flex; flex-wrap: wrap; gap: 8px; }
-.railchips .chip { display: inline-block; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; font-size: 12px; color: var(--ink); }
-.railchips .chip:hover { border-color: var(--navy); color: var(--navy); text-decoration: none; }
-.lastfiled { margin: 12px 0 0; font-size: 11px; letter-spacing: .06em; color: var(--faint); text-transform: uppercase; }
 .counts { margin: 0; padding: 0; list-style: none; font-size: 14px; }
 .counts li { border-bottom: 1px solid var(--line); }
 .counts li a { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 6px 0; }
 .counts li a:hover { text-decoration: none; color: var(--navy); }
 .counts li .n { font-size: 12.5px; color: var(--muted); }
-a.more { display: inline-block; margin-top: 10px; font: 500 11px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--navy); }
 @media (max-width:1099px) { .page { grid-template-columns: 1fr; } .rail { max-width: 600px; padding-top: 0; } }
 
 /* ---- record & analysis pages: reading column + rail (records.njk, analysis.njk) ---- */
