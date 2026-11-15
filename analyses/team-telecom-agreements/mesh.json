@@ -617,58 +617,6 @@
       "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
-      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
-      "kind": "ingest",
-      "label": "FLAG Telecom Limited — Letter of Agreement",
-      "date": "2026-09-26T12:02:53Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Designate and maintain a U.S. law enforcement point of contact who can access U.S. Records and respond to lawful U.S. process.\nDesignate and maintain a non-dual U.S. citizen Security Officer residing in the United States.\nDo not provide U.S. Records, domestic communications infrastructure, or domestic communications to foreign governments, entities, or persons without required U.S. approval.\nReport known or suspected security incidents or material breaches to DOJ within 48 hours.\nProvide DOJ with lists of principal equipment and outsourced or offshored service providers for review.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "214 transfer",
-        "agencies": [
-          "DOJ",
-          "DHS",
-          "DoD"
-        ],
-        "country": "United Kingdom"
-      },
-      "citation": {
-        "record_id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-0d1ccd",
-        "page": 6,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
-      "kind": "ingest",
-      "label": "FLAG Telecom - FLAG Atlantic Cable System (FA-1) LOA",
-      "date": "2026-09-26T12:02:53Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Maintain a U.S.-citizen Security Officer residing in the United States and available to the agencies.\nProvide FA-1 cable-system information, equipment lists, and related operational details upon request.\nEnable prompt interruption of U.S. traffic on FA-1 and suspension of its communications functionality.\nReport qualifying incidents, breaches, and material violations to the agencies within 48 hours.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "214 transfer",
-        "agencies": [
-          "DHS",
-          "DoD",
-          "DOJ"
-        ],
-        "country": "United Kingdom"
-      },
-      "citation": {
-        "record_id": "2026-09-20-flag-telecom-limited-letter-of-agreement-team-te-cbc797",
-        "page": 4,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-09-20-ipc-systems-inc-letter-of-agreement-team-telecom-634f1f",
       "kind": "ingest",
       "label": "IPC Systems, Inc.",
@@ -1668,31 +1616,6 @@
       }
     },
     {
-      "key": "2026-10-03-computer-5-inc-letter-of-agreement-team-telecom-9f607b",
-      "kind": "ingest",
-      "label": "Northwest Fiber",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Comply with all lawful U.S. process, including electronic-surveillance process.\nKeep responsive information within the United States and provide it to requesting officials as required.\nDo not disclose U.S. records, domestic communications, or call content to unauthorized foreign governments or persons without prior written approval.\nMaintain a U.S. law-enforcement point of contact subject to DOJ and FBI approval.\nReport security incidents and breaches to DOJ within the specified timeframes.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "214 transfer",
-        "agencies": [
-          "DOJ"
-        ],
-        "country": ""
-      },
-      "record_id": "2026-10-03-computer-5-inc-letter-of-agreement-team-telecom-9f607b",
-      "citation": {
-        "record_id": "2026-10-03-computer-5-inc-letter-of-agreement-team-telecom-9f607b",
-        "page": 6,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-10-03-cwc-new-cayman-limited-letter-of-agreement-team-07dcc2",
       "kind": "ingest",
       "label": "Gemini Bermuda Cable System",
@@ -1743,31 +1666,6 @@
       }
     },
     {
-      "key": "2026-10-03-docomo-pacific-inc-letter-of-agreement-team-tele-9b6a05",
-      "kind": "ingest",
-      "label": "DOCOMO PACIFIC, INC.",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Designate U.S.-citizen security points of contact residing in the United States and keep one available 24/7.\nProvide DHS an updated principal equipment list within 60 business days of execution.\nGive DHS advance notice of material equipment modifications and vendor, contractor, or subcontractor changes.\nSubmit an annual compliance report to DHS with updated equipment, contact, compliance, policy, and network information.\nProtect the cable system from unauthorized access and report discovered unauthorized access, disruption, or corruption to DHS.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DHS"
-        ],
-        "country": "Japan"
-      },
-      "record_id": "2026-10-03-docomo-pacific-inc-letter-of-agreement-team-tele-9b6a05",
-      "citation": {
-        "record_id": "2026-10-03-docomo-pacific-inc-letter-of-agreement-team-tele-9b6a05",
-        "page": 1,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-10-03-dsci-llc-d-b-a-tpx-communications-letter-of-agre-e1a408",
       "kind": "ingest",
       "label": "DSCI, LLC d/b/a TPx Communications",
@@ -1789,32 +1687,6 @@
       "citation": {
         "record_id": "2026-10-03-dsci-llc-d-b-a-tpx-communications-letter-of-agre-e1a408",
         "page": 1,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-bbe3cc",
-      "kind": "ingest",
-      "label": "MAREA Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Designate U.S.-citizen security points of contact who are available around the clock.\nProvide requested cable-system information, including network maps, maintenance contracts, and restoration plans.\nMaintain the ability to interrupt U.S. traffic and suspend the cable system through the network operations center.\nScreen personnel with logical access to or responsibility for securing the domestic communications infrastructure.\nReport unauthorized access, disruptions, unlawful disclosures, and material breaches to the USG Parties.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DHS",
-          "DoD"
-        ],
-        "country": "Spain"
-      },
-      "record_id": "2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-bbe3cc",
-      "citation": {
-        "record_id": "2026-10-03-edge-cable-holdings-usa-letter-of-agreement-team-bbe3cc",
-        "page": 3,
         "paragraph": null,
         "quote": ""
       }
@@ -1891,31 +1763,6 @@
       "citation": {
         "record_id": "2026-10-03-flock-fz-llc-letter-of-agreement-team-telecom-do-133684",
         "page": null,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "2026-10-03-gci-communication-corp-letter-of-agreement-team-4e8a25",
-      "kind": "ingest",
-      "label": "AU-Aleutian Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Designate a U.S.-citizen security point of contact subject to DHS review and non-objection.\nProvide DHS with cable-system information and a Principal Equipment List, including vendors and contractors.\nGive DHS advance notice of material equipment modifications, vendor changes, and new equipment testing.\nImplement cybersecurity, physical-security, personnel-screening, and visitor-escort measures.\nReport security incidents, unauthorized access, and material breaches to DHS in writing within ten business days of discovery.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DHS"
-        ],
-        "country": ""
-      },
-      "record_id": "2026-10-03-gci-communication-corp-letter-of-agreement-team-4e8a25",
-      "citation": {
-        "record_id": "2026-10-03-gci-communication-corp-letter-of-agreement-team-4e8a25",
-        "page": 3,
         "paragraph": null,
         "quote": ""
       }
@@ -2186,33 +2033,6 @@
       "citation": {
         "record_id": "2026-10-03-gu-holdings-inc-letter-of-agreement-team-telecom-d8c6d8",
         "page": 5,
-        "paragraph": null,
-        "quote": ""
-      },
-      "hand_edited": "2026-11-07T15:49:00Z"
-    },
-    {
-      "key": "2026-10-03-hawaiian-telcom-inc-letter-of-agreement-team-tel-276db5",
-      "kind": "ingest",
-      "label": "Hawaiian Telcom, Inc.",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Cincinnati Bell commits to negotiate in good faith to update or modify the 2012 LOA and/or 2017 NSA if national security, law enforcement, or public safety concerns arise.\nCincinnati Bell commits to negotiate in a reasonably expedited fashion to update or modify the 2012 LOA and/or 2017 NSA if such concerns arise.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "214 transfer",
-        "agencies": [
-          "DOJ",
-          "DHS"
-        ],
-        "country": ""
-      },
-      "record_id": "2026-10-03-hawaiian-telcom-inc-letter-of-agreement-team-tel-276db5",
-      "citation": {
-        "record_id": "2026-10-03-hawaiian-telcom-inc-letter-of-agreement-team-tel-276db5",
-        "page": 1,
         "paragraph": null,
         "quote": ""
       },
@@ -3539,32 +3359,6 @@
       }
     },
     {
-      "key": "2026-10-03-telefonica-international-wholesale-services-usa-5f2477",
-      "kind": "ingest",
-      "label": "BRUSA Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Provide BRUSA Cable System information, including network maps, contracts, and restoration plans.\nMaintain the ability to promptly interrupt U.S. traffic on the cable system.\nReport unauthorized access, disruptions, disclosures, or material breaches within 10 business days of discovery.\nGive advance notice of material equipment modifications and changes to vendors or subcontractors.\nSubmit an annual compliance report to the USG Parties.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DHS",
-          "DoD"
-        ],
-        "country": "Spain"
-      },
-      "record_id": "2026-10-03-telefonica-international-wholesale-services-usa-5f2477",
-      "citation": {
-        "record_id": "2026-10-03-telefonica-international-wholesale-services-usa-5f2477",
-        "page": 3,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-10-03-telekomunikasi-indonesia-international-usa-inc-l-cd5d0a",
       "kind": "ingest",
       "label": "Telekomunikasi Indonesia International (USA) Inc.",
@@ -3616,60 +3410,6 @@
       "hand_edited": "2026-11-07T15:49:00Z"
     },
     {
-      "key": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-0944c3",
-      "kind": "ingest",
-      "label": "SAm-1 Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Maintain a U.S.-citizen Security Point of Contact available 24/7 for CMA concerns.\nProvide SAm-1 system information and updated peering and interconnection lists to the CMAs.\nMaintain the ability to promptly interrupt U.S. traffic on SAm-1.\nReport specified security incidents, breaches, and material LOA violations to the CMAs within 48 hours.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DOJ",
-          "DHS",
-          "DoD"
-        ],
-        "country": "Spain"
-      },
-      "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-0944c3",
-      "citation": {
-        "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-0944c3",
-        "page": 4,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-7cd3c0",
-      "kind": "ingest",
-      "label": "BRUSA Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Maintain a U.S.-citizen Security Point of Contact available 24/7 for national security or law-enforcement concerns.\nProvide BRUSA system information, including network maps, equipment, vendors, and restoration plans, upon required deadlines or CMA request.\nMaintain the ability to interrupt U.S.-bound or U.S.-originating traffic and suspend BRUSA communications functionality.\nReport specified security incidents, unauthorized access, disclosures, and material breaches to the CMAs within 48 hours.\nObtain DoD approval before deploying distributed acoustic sensing technology on the marine portion of the cable.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DOJ",
-          "DHS",
-          "DoD"
-        ],
-        "country": "Spain"
-      },
-      "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-7cd3c0",
-      "citation": {
-        "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-7cd3c0",
-        "page": 4,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-801826",
       "kind": "ingest",
       "label": "Telxius Cable Puerto Rico, Inc.",
@@ -3718,33 +3458,6 @@
       "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-89404f",
       "citation": {
         "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-89404f",
-        "page": 4,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-d9ea92",
-      "kind": "ingest",
-      "label": "MAREA Cable System",
-      "date": "2026-11-07T15:33:34Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Maintain a U.S.-citizen security point of contact available around the clock for national-security or law-enforcement concerns.\nProvide cable-system information, equipment lists, and vendor information to the compliance-monitoring agencies on the required schedule.\nMaintain the ability to interrupt traffic to and from the United States and configure the network operations center to suspend MAREA communications.\nReport qualifying security incidents, unauthorized access, and material breaches to the agencies within 48 hours.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "cable landing",
-        "agencies": [
-          "DHS",
-          "DOJ",
-          "DoD"
-        ],
-        "country": "Spain"
-      },
-      "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-d9ea92",
-      "citation": {
-        "record_id": "2026-10-03-telxius-cable-puerto-rico-inc-letter-of-agreemen-d9ea92",
         "page": 4,
         "paragraph": null,
         "quote": ""
@@ -4065,7 +3778,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-07T16:49:49Z",
+  "published_at": "2026-11-14T18:00:12Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-07T16:49:49Z"
+  "last_changed": "2026-11-15T00:41:24Z"
 }
