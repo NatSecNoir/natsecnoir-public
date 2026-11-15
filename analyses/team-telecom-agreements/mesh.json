@@ -274,32 +274,6 @@
       "hand_edited": "2026-11-07T15:00:25Z"
     },
     {
-      "key": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
-      "kind": "ingest",
-      "label": "Hummingbird IPC LOA Final",
-      "date": "2026-09-26T12:02:53Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Designate and maintain a U.S. law enforcement point of contact subject to DOJ/FBI approval.\nProvide U.S. Records promptly in response to Lawful U.S. Process, generally within five days.\nNotify DOJ of Security Incidents or specified breaches within 72 hours.\nObtain DOJ review or non-objection for specified foreign-person access, principal equipment, and service providers.",
-      "definitions": [],
-      "fields": {
-        "transaction_type": "214 transfer",
-        "agencies": [
-          "DOJ",
-          "DHS",
-          "DoD"
-        ],
-        "country": "United States"
-      },
-      "citation": {
-        "record_id": "2026-09-19-hummingbird-ipc-loa-final-634f1f",
-        "page": 6,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "2026-09-19-loa-lumos-t-mobile-eqt-tt-24-029-to-031-executed-ed23fd",
       "kind": "ingest",
       "label": "Lumos (T-Mobile - EQT)",
@@ -3778,7 +3752,7 @@
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-14T18:00:12Z",
+  "published_at": "2026-11-15T00:42:42Z",
   "currency_date": "2026-11-07",
-  "last_changed": "2026-11-15T00:41:24Z"
+  "last_changed": "2026-11-15T01:18:23Z"
 }
