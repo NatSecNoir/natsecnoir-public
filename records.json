@@ -2023,7 +2023,7 @@
    "federal_register": {},
    "errata": [],
    "archive": true,
-   "summary_machine": true,
+   "summary_machine": false,
    "wayback_url": "",
    "video_urls": [],
    "hearing_date": "",
