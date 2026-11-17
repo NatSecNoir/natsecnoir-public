@@ -1,6 +1,49 @@
 {
- "count": 550,
+ "count": 551,
  "records": [
+  {
+   "id": "2026-11-17-rin-0694-ak50-832986",
+   "status": "approved",
+   "ingested_at": "2026-11-17T00:43:47Z",
+   "title": "BIS Rescinds AI Diffusion Rule, Imposes New Data-Center and Diversion Controls Under 15 CFR § 744.24",
+   "issuing_body": "Commerce BIS",
+   "doc_type": "interim final rule",
+   "doc_date": "2026-11-16",
+   "docket": "RIN 0694-AK50",
+   "lists": [
+    "ai",
+    "bis"
+   ],
+   "entities": [],
+   "source_url": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf",
+   "source_copy_public": true,
+   "notes": "",
+   "source_file": "source.pdf",
+   "sha256": "8329860e901198e93b0ae83da1878cc0a193f3a3dc23726787981ea690e7e02e",
+   "approved_at": "2026-11-17T00:58:52Z",
+   "published_at": "2026-11-17T01:00:48Z",
+   "reason": "",
+   "error": "",
+   "duplicate_of": "",
+   "draft_model": "openai/gpt-5.6-luna",
+   "drafted_at": "2026-11-17T00:43:53Z",
+   "fr_status": "",
+   "related": [],
+   "federal_register": {},
+   "errata": [],
+   "archive": false,
+   "summary_machine": false,
+   "wayback_url": "",
+   "video_urls": [],
+   "hearing_date": "",
+   "witnesses": [],
+   "addressee": "",
+   "copy_url": "https://docs.natsecnoir.com/records/2026-11-17-rin-0694-ak50-832986/source-8329860e.pdf",
+   "files": [
+    "meta.json",
+    "summary.md"
+   ]
+  },
   {
    "id": "2026-11-14-rigging-the-game-how-china-undermined-western-ma-d113e9",
    "status": "approved",
