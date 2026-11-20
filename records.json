@@ -1,47 +1,6 @@
 {
- "count": 552,
+ "count": 551,
  "records": [
-  {
-   "id": "2026-11-18-anthropic-pbc-s-1-a-3-c9c405",
-   "status": "approved",
-   "ingested_at": "2026-11-18T12:31:56Z",
-   "title": "Anthropic IPO Filing - SEC S-1/A-3 (Amendment 3 to IPO filing)",
-   "issuing_body": "SEC",
-   "doc_type": "",
-   "doc_date": "2026-11-17",
-   "docket": "Registration No. 333-299633",
-   "lists": [
-    "ai"
-   ],
-   "entities": [],
-   "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
-   "source_copy_public": true,
-   "notes": "",
-   "source_file": "source.html",
-   "sha256": "c9c405fd2d602fc0913175584ffcbbd0e4c4ea3c7a7906f8bddc0054680ad0d4",
-   "approved_at": "2026-11-18T12:54:06Z",
-   "published_at": "2026-11-18T13:02:14Z",
-   "reason": "",
-   "error": "",
-   "duplicate_of": "",
-   "draft_model": "openai/gpt-5.6-luna",
-   "drafted_at": "2026-11-18T12:32:03Z",
-   "fr_status": "",
-   "related": [],
-   "federal_register": {},
-   "errata": [],
-   "archive": false,
-   "summary_machine": false,
-   "wayback_url": "",
-   "video_urls": [],
-   "hearing_date": "",
-   "witnesses": [],
-   "addressee": "",
-   "files": [
-    "meta.json",
-    "summary.md"
-   ]
-  },
   {
    "id": "2026-11-17-rin-0694-ak50-832986",
    "status": "approved",
