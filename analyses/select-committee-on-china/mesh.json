@@ -6862,11 +6862,37 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-11-20-investigation-details-how-western-government-pol-912ce6",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-20T14:12:24Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "report",
+      "definitions": [],
+      "fields": {
+        "date": "2026-11-19",
+        "type": "report",
+        "who": "",
+        "committee_url": "https://chinaselectcommittee.house.gov/media/reports/investigation-details-how-western-government-policy-enabled-china-s-rise-in-the-skies",
+        "video_urls": [],
+        "record_id": "2026-11-20-investigation-details-how-western-government-pol-912ce6"
+      },
+      "record_id": "2026-11-20-investigation-details-how-western-government-pol-912ce6",
+      "citation": {
+        "record_id": "2026-11-20-investigation-details-how-western-government-pol-912ce6",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
   "published_at": "2026-11-14T18:00:12Z",
-  "currency_date": "2026-11-14",
-  "last_changed": "2026-11-14T17:45:15Z"
+  "currency_date": "2026-11-20",
+  "last_changed": "2026-11-20T14:12:24Z"
 }
