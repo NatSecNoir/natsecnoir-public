@@ -1810,11 +1810,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-flyingbasket-s-r-i-uas",
+      "kind": "ingest",
+      "label": "FlyingBasket S.r.I.",
+      "date": "2026-11-20T15:06:36Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "FB3 uncrewed aircraft system",
+      "definitions": [],
+      "fields": {
+        "category": "uas",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
   "published_at": "2026-11-14T18:00:12Z",
-  "currency_date": "2026-11-16",
-  "last_changed": "2026-11-07T15:17:48Z"
+  "currency_date": "2026-11-20",
+  "last_changed": "2026-11-20T15:06:36Z"
 }
