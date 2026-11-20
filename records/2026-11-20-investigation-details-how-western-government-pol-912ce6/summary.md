@@ -1,0 +1,13 @@
+The House Select Committee on the CCP concludes that lawful Western commercial aerospace partnerships transferred technology, expertise, and industrial capacity into China’s military-civil fusion ecosystem, while existing export-control and investment safeguards failed to prevent or meaningfully unwind those transfers.
+
+**What it does** This report examines U.S. and allied relationships supporting China’s commercial and military aerospace sectors, focusing on joint ventures, technology licenses, co-development, manufacturing, and software partnerships. Case studies cover Honeywell Aerospace, GE Aerospace, and Collins Aerospace collaborations connected to COMAC’s C919 and ARJ21/C909 programs, as well as Airbus, Dassault Systèmes International, and Safran relationships with Chinese aerospace and defense entities. It identifies five findings concerning capability transfer, BIS licensing, company due diligence, CFIUS gaps, and allied “backfill.” The report proposes seven policy responses, including tighter export and outbound-investment controls, contractor disclosures, limits on certification of China-made aircraft, and heightened scrutiny of French acquisitions of U.S. aerospace companies.
+
+**Who it affects** The analysis concerns Western aerospace and defense contractors, Chinese entities including AVIC, COMAC, CASC, CETC, and designated military end users, and U.S. agencies responsible for export controls, defense procurement, investment review, and aviation certification. Proposed disclosure requirements would apply to Department of Defense contractors with covered aerospace contracts and relationships involving designated entities or their majority-owned affiliates.
+
+**Why it matters** The report argues that commercial aerospace capabilities are inherently dual-use and that joint ventures can build durable Chinese engineering, manufacturing, supplier, and systems-integration capacity outside the principal CFIUS framework. It also warns that unilateral U.S. restrictions may shift business to allied firms without denying China comparable technology. The report is investigative and recommendatory; it does not itself impose restrictions or establish violations.
+
+**Key dates and numbers**
+- The report is dated November 19, 2026; its Airbus oversight letter is dated August 14, 2025.
+- The report identifies five findings and makes seven policy recommendations.
+- The case studies identify at least six U.S.-China aerospace partnerships and describe French partnerships involving Airbus, Dassault, and Safran.
+- The proposed Aerospace Transparency Act would require disclosures, with DoD guidance due within 90 days of enactment and initial disclosures within 180 days after guidance.
