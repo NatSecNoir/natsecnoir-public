@@ -518,7 +518,14 @@
    "fr_status": "",
    "related": [],
    "federal_register": {},
-   "errata": [],
+   "errata": [
+    {
+     "label": "Erratum",
+     "url": "https://docs.fcc.gov/public/attachments/DOC-426772A1_Erratum.docx",
+     "issued": "2026-11-12",
+     "seen_at": "2026-11-21T09:06:33Z"
+    }
+   ],
    "archive": false,
    "summary_machine": false,
    "wayback_url": "",
