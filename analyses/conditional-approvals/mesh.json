@@ -1882,11 +1882,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-syncrobotic-co-ltd-robotics",
+      "kind": "ingest",
+      "label": "SYNCROBOTIC CO., LTD.",
+      "date": "2026-11-21T13:12:37Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "“Jeff” and “Adventure” quadruped robotic platforms",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-21T13:12:27Z",
+  "published_at": "2026-11-21T13:12:33Z",
   "currency_date": "2026-11-21",
-  "last_changed": "2026-11-21T13:12:33Z"
+  "last_changed": "2026-11-21T13:12:37Z"
 }
