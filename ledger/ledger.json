@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-21T13:15:02.192502+00:00",
+  "compiled_at": "2026-11-21T13:15:03.966040+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -84186,7 +84186,7 @@
     "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html",
     "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
     "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html",
-    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-a90e8123.html"
+    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-a90e8123.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
 }
