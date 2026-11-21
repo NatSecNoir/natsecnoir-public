@@ -531,6 +531,15 @@ for (const m of article.matchAll(/<a href="(https?:\/\/[^"]+)"/g)) {
   const ownArchive = u.hostname === "docs.natsecnoir.com" && u.pathname.startsWith("/ledger/archive/");
   assert.ok(u.protocol === "https:" && (ownArchive || /(^|\.)(gov|mil)$/i.test(u.hostname)), `source link is on the .gov/.mil allowlist: ${m[1]}`);
 }
+// A removal-register row (private plan 2026-11-20-001): removed date, reason and the notice's citation,
+// filed under its list's chip, with no expiry and no archive link needed.
+assert.match(flat, /Removed Example Co\., Ltd\. <span class="basis"> \(removed 2026-11-10\)<\/span>/, "removed row shows its removal date");
+assert.match(flat, /removed 2026-11-10 — Removed in compliance with a court order\./, "removal reason in the detail");
+assert.match(flat, /<a href="https:\/\/www\.federalregister\.gov\/citation\/91-FR-72536"/, "removal cite links the Federal Register");
+assert.match(ledger, /data-lists="1260h"[\s\S]{0,400}Removed Example Co/, "removed row sits under its list's chip");
+// A pipeline-fed membership names its parent and links its page in the official PDF.
+assert.match(flat, /listed under Parent Example Group/, "parent company shown for a subsidiary");
+assert.match(ledger, /href="https:\/\/www\.govinfo\.gov\/content\/pkg\/FR-2026-06-10\/pdf\/2026-11571\.pdf#page=3"[^>]*>91 FR 35191</, "page link labelled with its citation");
 // The interaction script is wired up and shipped.
 assert.match(ledger, /<script src="\/js\/ledger\.js" defer><\/script>/, "ledger.js is referenced");
 assert.ok(fs.existsSync(path.join(outFix, "js/ledger.js")), "ledger.js is published");
