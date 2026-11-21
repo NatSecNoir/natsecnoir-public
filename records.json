@@ -7917,7 +7917,7 @@
    "fr_status": "",
    "related": [],
    "federal_register": {
-    "updated_at": "2026-11-06T12:18:17Z",
+    "updated_at": "2026-11-21T09:07:33Z",
     "documents": [
      {
       "number": "2025-19657",
@@ -7960,6 +7960,20 @@
       "effective_partial": false,
       "first_seen": "2026-11-06T12:18:14Z",
       "changed_at": "2026-11-06T12:18:14Z"
+     },
+     {
+      "number": "2026-23255",
+      "type": "Rule",
+      "action": "Final rule; correcting amendment.",
+      "published": "2026-11-16",
+      "citation": "91 FR 73480",
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23255/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
+      "effective_on": "2026-11-16",
+      "comments_due": "",
+      "replies_due": "",
+      "effective_partial": false,
+      "first_seen": "2026-11-21T09:07:31Z",
+      "changed_at": "2026-11-21T09:07:31Z"
      }
     ]
    },
