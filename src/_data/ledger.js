@@ -28,7 +28,10 @@ export default function () {
     const v = (e.memberships || []).find((m) => m.verified);
     return {
       ...e,
-      list_slugs: (e.memberships || []).map((m) => m.list).join(" "),
+      // A removal-register row (private plan 2026-11-20-001) has no membership; its removals still
+      // place it under its list's chip.
+      list_slugs: [...(e.memberships || []).map((m) => m.list), ...(e.removals || []).map((r) => r.list)].join(" "),
+      first_removal: (e.removals || [])[0] || null,
       verified: v ? v.verified : null,
     };
   });

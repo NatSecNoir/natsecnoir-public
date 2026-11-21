@@ -72,17 +72,19 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
           <button class="expand" aria-expanded="false" aria-label="Show details">+</button>
           {{ e.canonical }}
           {% if e.verified %}<span class="vchk" title="Human-checked {{ e.verified.date }} — correct as listed{% if e.verified.note %}: {{ e.verified.note }}{% endif %}">✓</span>{% endif %}
-          {% if e.formerly_listed %}<span class="basis"> (formerly listed{% if e.last_archive_url %} —
+          {% if e.formerly_listed and e.first_removal %}<span class="basis"> (removed {{ e.removed_on }})</span>
+          {% elif e.formerly_listed %}<span class="basis"> (formerly listed{% if e.last_archive_url %} —
             <a href="{{ e.last_archive_url }}">last archive</a>{% endif %})</span>{% endif %}
           {% if e.subsidiaries_note %}<div class="basis">Includes named subsidiaries and affiliates:
             {{ e.subsidiaries | join(', ') }}.</div>{% endif %}
         </td>
         <td>{{ e.aka | join(', ') }}</td>
         <td>{{ e.country }}</td>
-        <td>{% for m in e.memberships %}<span class="tag">{{ m.list }}</span>{% endfor %}</td>
+        <td>{% for m in e.memberships %}<span class="tag">{{ m.list }}</span>{% endfor %}{% for r in e.removals or [] %}<span class="tag removed">{{ r.list }} (removed)</span>{% endfor %}</td>
         <td>{{ e.date_added_first }}</td>
-        <td>{% if first %}{{ first.cite | frcite | safe }}{% endif %}</td>
-        <td>{% set href = first.source_url | govsource if first else '' %}{% if href %}<a href="{{ href }}" target="_blank" rel="noopener noreferrer">source</a>{% endif %}</td>
+        <td>{% if first %}{{ first.cite | frcite | safe }}{% elif e.first_removal %}{{ e.first_removal.cite | frcite | safe }}{% endif %}</td>
+        {% set src = first.source_url if first else (e.first_removal.source_url if e.first_removal else '') %}
+        <td>{% set href = src | govsource if src else '' %}{% if href %}<a href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ "notice" if not first else "source" }}</a>{% endif %}</td>
       </tr>
       <tr class="detail" hidden><td colspan="7">
         <ul>
@@ -93,8 +95,16 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
             {% if m.cite %}· {{ m.cite | frcite | safe }}{% endif %}
             <span class="basis">· {{ m.listing_basis }}{% if m.basis_note %} ({{ m.basis_note }}){% endif %}</span>
             {% if m.verified %}<span class="vchk">· ✓ human-checked {{ m.verified.date }} — correct as listed{% if m.verified.note %}: {{ m.verified.note }}{% endif %}</span>{% endif %}
+            {% if m.parent %}· listed under {{ m.parent }}{% endif %}
             {% set href = m.source_url | govsource %}
-            {% if href %}· <a href="{{ href }}" target="_blank" rel="noopener noreferrer">source</a>{% endif %}
+            {% if href %}· <a href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ m.source_cite or "source" }}</a>{% endif %}
+          </li>
+        {% endfor %}
+        {% for r in e.removals or [] %}
+          <li><strong>{{ r.list }}</strong> · removed {{ r.removed_on }}{% if r.reason %} — {{ r.reason }}{% endif %}
+            {% if r.cite %}· {{ r.cite | frcite | safe }}{% endif %}
+            {% set rhref = r.source_url | govsource %}
+            {% if rhref %}· <a href="{{ rhref }}" target="_blank" rel="noopener noreferrer">notice</a>{% endif %}
           </li>
         {% endfor %}
         </ul>
