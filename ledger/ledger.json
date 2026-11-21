@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-21T13:15:03.966040+00:00",
+  "compiled_at": "2026-11-21T16:04:50.751049+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -51939,7 +51939,7 @@
         {
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
-          "date_added": "2026-11-10",
+          "date_added": "",
           "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
           "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
@@ -51949,7 +51949,7 @@
         }
       ],
       "search": "nio, inc. nio china dow § 1260h",
-      "date_added_first": "2026-11-10"
+      "date_added_first": ""
     },
     {
       "canonical": "NM-Tekh",
@@ -84186,7 +84186,7 @@
     "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html",
     "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
     "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html",
-    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
+    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html"
 }
