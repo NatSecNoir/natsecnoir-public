@@ -1834,11 +1834,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-engenius-technologies-inc-routers",
+      "kind": "ingest",
+      "label": "EnGenius Technologies, Inc.",
+      "date": "2026-11-21T13:12:27Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "EHR320 BE3600 and EHR330 BE14000 Wi-Fi 7 wireless routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-15",
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-14T18:00:12Z",
-  "currency_date": "2026-11-20",
-  "last_changed": "2026-11-20T15:06:36Z"
+  "published_at": "2026-11-20T15:06:36Z",
+  "currency_date": "2026-11-21",
+  "last_changed": "2026-11-21T13:12:27Z"
 }
