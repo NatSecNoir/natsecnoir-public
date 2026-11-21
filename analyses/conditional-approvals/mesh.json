@@ -1834,11 +1834,155 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-engenius-technologies-inc-routers",
+      "kind": "ingest",
+      "label": "EnGenius Technologies, Inc.",
+      "date": "2026-11-21T13:12:27Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "EHR320 BE3600 and EHR330 BE14000 Wi-Fi 7 wireless routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-15",
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1243-zyxel-communications-inc-routers",
+      "kind": "ingest",
+      "label": "Zyxel Communications Inc.",
+      "date": "2026-11-21T13:12:33Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "DX4510-B1 router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-16",
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1243-syncrobotic-co-ltd-robotics",
+      "kind": "ingest",
+      "label": "SYNCROBOTIC CO., LTD.",
+      "date": "2026-11-21T13:12:37Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "“Jeff” and “Adventure” quadruped robotic platforms",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1243-bluepath-robotics-inc-robotics",
+      "kind": "ingest",
+      "label": "BLUEPATH ROBOTICS, INC.",
+      "date": "2026-11-21T13:12:41Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "O1000 PLATFORM advanced mobile robot (AMR) and OM1500 TUNNEL AMR",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1243-engenius-technologies-inc-routers",
+      "kind": "ingest",
+      "label": "EnGenius Technologies, Inc.",
+      "date": "2026-11-21T13:12:44Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "EHR320 BE3600\nEHR330 BE14000 Wi-Fi 7 wireless routers",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-15",
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "da-26-1243-bluepath-robotics-inc-robotics",
+      "kind": "ingest",
+      "label": "BLUEPATH ROBOTICS, INC.",
+      "date": "2026-11-21T13:12:47Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "O1000 PLATFORM advanced mobile robot (AMR)\nOM1500 TUNNEL AMR",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-14T18:00:12Z",
-  "currency_date": "2026-11-20",
-  "last_changed": "2026-11-20T15:06:36Z"
+  "published_at": "2026-11-21T13:12:44Z",
+  "currency_date": "2026-11-21",
+  "last_changed": "2026-11-21T13:12:47Z"
 }

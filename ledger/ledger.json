@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-14T18:50:55.881556+00:00",
+  "compiled_at": "2026-11-21T13:15:03.966040+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -136,9 +136,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Technology Group Corporation"
         }
       ],
       "search": "14th research institute of cetc china dow § 1260h",
@@ -155,9 +159,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Technology Group Corporation"
         }
       ],
       "search": "15th research institute of cetc china dow § 1260h",
@@ -279,9 +287,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         }
       ],
       "search": "360 security technology inc. qihoo 360 china dow § 1260h",
@@ -1748,9 +1759,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "avic aerospace systems co., ltd. china dow § 1260h",
@@ -1767,9 +1782,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "avic airborne systems co., ltd. china dow § 1260h",
@@ -1805,9 +1824,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "avic asset management corporation ltd. china dow § 1260h",
@@ -1830,9 +1853,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -1849,7 +1876,7 @@
     {
       "canonical": "AVIC Chengdu Aircraft Co., Ltd.",
       "aka": [
-        "formerly Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC)"
+        "Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC)"
       ],
       "country": "China",
       "subsidiaries": [],
@@ -1859,12 +1886,16 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
-      "search": "avic chengdu aircraft co., ltd. formerly zhonghang electronic measuring instruments company limited (zemic) china dow § 1260h",
+      "search": "avic chengdu aircraft co., ltd. zhonghang electronic measuring instruments company limited (zemic) china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -1897,9 +1928,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "avic electromechanical systems co. ltd. china dow § 1260h",
@@ -1978,9 +2013,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -2047,9 +2086,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -3324,9 +3367,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Aerospace Science and Industry Corporation Limited"
         }
       ],
       "search": "addsino co., ltd. china dow § 1260h",
@@ -3681,9 +3728,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         },
         {
           "list": "ns-cmic",
@@ -3763,9 +3813,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Aerospace Science and Industry Corporation Limited"
         }
       ],
       "search": "aerospace precision products co., ltd. china dow § 1260h",
@@ -3782,9 +3836,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China SpaceSat Co., Ltd."
         }
       ],
       "search": "aerospace star space technology application co., ltd. china dow § 1260h",
@@ -3847,9 +3905,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         },
         {
           "list": "bis-entity-list",
@@ -4448,9 +4509,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Aerospace Science and Industry Corporation Limited"
         }
       ],
       "search": "aisino corporation china dow § 1260h",
@@ -5720,9 +5785,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         }
       ],
       "search": "alibaba group holding limited alibaba china dow § 1260h",
@@ -5739,9 +5807,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "align aerospace llc china dow § 1260h",
@@ -7611,9 +7683,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Mobile Communications Group Co., Ltd."
         }
       ],
       "search": "aspire technologies (shenzhen) limited china dow § 1260h",
@@ -7874,9 +7950,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         }
       ],
       "search": "autel intelligent technology corp., ltd. autel technology china dow § 1260h",
@@ -7920,9 +7999,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Autel Intelligent Technology Corp., Ltd."
         }
       ],
       "search": "autel robotics co., ltd. autel robotics china dow § 1260h",
@@ -8198,9 +8281,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189
         }
       ],
       "search": "aviation industry corporation of china ltd. avic china dow § 1260h",
@@ -8283,9 +8369,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -8303,7 +8393,7 @@
       "canonical": "Avic Xi'An Aircraft Industry Group Company Ltd.",
       "aka": [
         "AVIC Xi’an Aircraft Industry Group Company Ltd.",
-        "formerly Xi’an Aircraft Industry Group Co., Ltd.",
+        "Xi'an Aircraft Industry Group Co., Ltd.",
         "AVIC XiAn Aircraft Industry Group Co Ltd",
         "Xi'an Aircraft Industry Group Co Ltd",
         "AVIC Aircraft Co., Ltd.",
@@ -8317,9 +8407,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -8330,7 +8424,7 @@
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
         }
       ],
-      "search": "avic xi'an aircraft industry group company ltd. avic xi’an aircraft industry group company ltd. formerly xi’an aircraft industry group co., ltd. avic xian aircraft industry group co ltd xi'an aircraft industry group co ltd avic aircraft co., ltd. xi'an aircraft industrial corp. china dow § 1260h treasury ns-cmic",
+      "search": "avic xi'an aircraft industry group company ltd. avic xi’an aircraft industry group company ltd. xi'an aircraft industry group co., ltd. avic xian aircraft industry group co ltd xi'an aircraft industry group co ltd avic aircraft co., ltd. xi'an aircraft industrial corp. china dow § 1260h treasury ns-cmic",
       "date_added_first": ""
     },
     {
@@ -8344,9 +8438,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "avicopter plc china dow § 1260h",
@@ -8641,9 +8739,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "bgi americas corporation china dow § 1260h",
@@ -8662,9 +8764,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "bgi genomics co., ltd. bgi china dow § 1260h",
@@ -8681,9 +8787,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "bgi group china dow § 1260h",
@@ -8760,7 +8869,8 @@
     {
       "canonical": "BOE Technology Group Company Limited",
       "aka": [
-        "BOE"
+        "BOE",
+        "BOE Technology Group Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -8770,12 +8880,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
-      "search": "boe technology group company limited boe china dow § 1260h",
+      "search": "boe technology group company limited boe boe technology group co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -8872,9 +8985,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "byd company limited byd china dow § 1260h",
@@ -8939,9 +9055,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "baicells technologies co., ltd. baicells china dow § 1260h",
@@ -8960,9 +9079,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "baidu, inc. baidu china dow § 1260h",
@@ -9116,9 +9238,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "baoding tianwei baobian electric co., ltd. china dow § 1260h",
@@ -9512,9 +9638,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Commercial Aircraft Corporation of China Limited"
         }
       ],
       "search": "beijing aeronautical science & technology research institute china dow § 1260h",
@@ -9638,9 +9768,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "beijing beiji mechanical and electrical industry co., ltd. china dow § 1260h",
@@ -10502,9 +10636,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "SDIC Intelligence (Xiamen) Information Co., Ltd."
         }
       ],
       "search": "beijing meiya hongshu technology co., ltd. china dow § 1260h",
@@ -10878,9 +11016,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China United Network Communications Group Co., Ltd."
         }
       ],
       "search": "beijing telecom planning and designing institute company limited china dow § 1260h",
@@ -11235,9 +11377,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "beijing zhidao chuangyu information technology co., ltd. knownsec china dow § 1260h",
@@ -11602,9 +11747,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "better way enterprises limited china dow § 1260h",
@@ -12204,9 +12353,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "calb group co., ltd. calb china dow § 1260h",
@@ -12244,9 +12396,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "cccc design and consulting group co., ltd. china dow § 1260h",
@@ -12263,9 +12419,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "cccc first harbor engineering bureau co. ltd. china dow § 1260h",
@@ -12282,9 +12442,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "cccc second navigation engineering bureau co., ltd. china dow § 1260h",
@@ -12301,9 +12465,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "cccc third navigation engineering bureau co., ltd. china dow § 1260h",
@@ -12361,7 +12529,7 @@
     {
       "canonical": "CETC Cyberspace Security Technology Co., Ltd.",
       "aka": [
-        "formerly Chen Du Westone Information Industry Co., Ltd."
+        "Chen Du Westone Information Industry Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -12371,18 +12539,21 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
-      "search": "cetc cyberspace security technology co., ltd. formerly chen du westone information industry co., ltd. china dow § 1260h",
+      "search": "cetc cyberspace security technology co., ltd. chen du westone information industry co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
       "canonical": "CETC Digital Technology Co., Ltd.",
       "aka": [
-        "formerly Shanghai East China Computer Co., Ltd."
+        "Shanghai East China Computer Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -12392,12 +12563,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
-      "search": "cetc digital technology co., ltd. formerly shanghai east china computer co., ltd. china dow § 1260h",
+      "search": "cetc digital technology co., ltd. shanghai east china computer co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -12429,7 +12603,7 @@
     {
       "canonical": "CETC Potevio Science & Technology Co., Ltd",
       "aka": [
-        "formerly Guangzhou GCI Science & Technology Co., Ltd."
+        "Guangzhou GCI Science & Technology Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -12439,12 +12613,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
-      "search": "cetc potevio science & technology co., ltd formerly guangzhou gci science & technology co., ltd. china dow § 1260h",
+      "search": "cetc potevio science & technology co., ltd guangzhou gci science & technology co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -12458,9 +12635,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Technology Group Corporation"
         }
       ],
       "search": "cetc research institute 32 china dow § 1260h",
@@ -12804,9 +12985,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Commercial Aircraft Corporation of China Limited"
         }
       ],
       "search": "comac america corporation china dow § 1260h",
@@ -12823,9 +13008,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China COSCO SHIPPING Corporation Limited"
         }
       ],
       "search": "cosco shipping (north america) inc. china dow § 1260h",
@@ -12842,9 +13031,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China COSCO SHIPPING Corporation Limited"
         }
       ],
       "search": "cosco shipping logistics supply chain co., ltd. china dow § 1260h",
@@ -12867,6 +13060,17 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        }
+      ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "COSTAR GROUP CO., LTD.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
       ],
       "search": "costar group co., ltd. costar group co lida optical & electronic co., ltd. treasury ns-cmic",
@@ -12906,9 +13110,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "crrc corporation limited crrc china dow § 1260h",
@@ -12990,9 +13197,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         },
         {
           "list": "ns-cmic",
@@ -13648,9 +13858,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         },
         {
           "list": "ndaa-5949",
@@ -13680,9 +13893,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "changan us r&d center, inc. china dow § 1260h",
@@ -13739,9 +13956,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "changhe aircraft industries (group) co., ltd. china dow § 1260h",
@@ -14151,9 +14372,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35194",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35194",
+          "source_page": 35194,
+          "parent": "Zhejiang Dahua Technology Co., Ltd."
         }
       ],
       "search": "chengdu dahua wisdom information technology co., ltd. china dow § 1260h",
@@ -14367,9 +14592,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "chengdu jouav automation tech co., ltd. jouav china dow § 1260h",
@@ -14418,7 +14646,8 @@
     {
       "canonical": "Chengdu M&S Electronics Technology Co., Ltd.",
       "aka": [
-        "M&S Electronics"
+        "M&S Electronics",
+        "Chengdu Mengsheng Electronic Technology Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -14428,12 +14657,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
-      "search": "chengdu m&s electronics technology co., ltd. m&s electronics china dow § 1260h",
+      "search": "chengdu m&s electronics technology co., ltd. m&s electronics chengdu mengsheng electronic technology co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -15000,9 +15232,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Aerospace Science and Industry Corporation Limited"
         }
       ],
       "search": "china aerospace automotive co., ltd. china dow § 1260h",
@@ -15163,9 +15399,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         },
         {
           "list": "ns-cmic",
@@ -15840,9 +16079,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "china airport construction group corporation china dow § 1260h",
@@ -15901,9 +16144,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China National Offshore Oil Corporation"
         }
       ],
       "search": "china bluechemical limited china dow § 1260h",
@@ -15922,9 +16169,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china cosco shipping corporation limited cosco shipping china dow § 1260h",
@@ -15943,9 +16193,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         }
       ],
       "search": "china cargo airlines co., ltd. cca china dow § 1260h",
@@ -15962,9 +16215,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "china communications construction (usa) co., ltd. china dow § 1260h",
@@ -16030,9 +16287,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         },
         {
           "list": "ns-cmic",
@@ -16148,9 +16409,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190
         },
         {
           "list": "ns-cmic",
@@ -16175,9 +16439,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China State Construction Engineering Corporation Limited"
         }
       ],
       "search": "china construction america, inc. china dow § 1260h",
@@ -16196,9 +16464,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china construction technology co., ltd. cctc china dow § 1260h",
@@ -16314,9 +16585,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -16343,9 +16617,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17086,9 +17363,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17180,9 +17460,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "china ic capital co., ltd. china dow § 1260h",
@@ -17199,9 +17483,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Corporation"
         }
       ],
       "search": "china information security research institute china dow § 1260h",
@@ -17220,9 +17508,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china international marine containers (group) co., ltd. cimc china dow § 1260h",
@@ -17265,9 +17556,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17292,9 +17586,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Mobile Communications Group Co., Ltd."
         }
       ],
       "search": "china mobile hong kong (bvi) limited china dow § 1260h",
@@ -17338,9 +17636,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Mobile Communications Group Co., Ltd."
         },
         {
           "list": "ns-cmic",
@@ -17367,9 +17669,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china national chemical corporation ltd. chemchina china dow § 1260h",
@@ -17388,9 +17693,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china national chemical engineering group corporation cncec china dow § 1260h",
@@ -17411,9 +17719,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17441,9 +17752,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17492,9 +17806,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "china north chemical research academy group co., ltd. china dow § 1260h",
@@ -17518,9 +17836,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17564,9 +17885,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China COSCO SHIPPING Corporation Limited"
         }
       ],
       "search": "china ocean shipping company ltd. china dow § 1260h",
@@ -17627,9 +17952,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China State Shipbuilding Corporation Limited"
         }
       ],
       "search": "china shipbuilding trading co., ltd. cstc china dow § 1260h",
@@ -17650,9 +17979,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17677,9 +18009,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "china south industries group corporation no. 59 research institute co., ltd. china dow § 1260h",
@@ -17700,9 +18036,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -17729,9 +18068,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china state construction engineering corporation limited cscec china dow § 1260h",
@@ -17774,9 +18116,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -18447,9 +18792,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Telecom Group Co., Ltd."
         },
         {
           "list": "ns-cmic",
@@ -18476,9 +18825,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china telecom group co., ltd. china telecom china dow § 1260h",
@@ -18495,9 +18847,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Telecom Group Co., Ltd."
         }
       ],
       "search": "china telecom satellite communications co., ltd. china dow § 1260h",
@@ -18538,9 +18894,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         }
       ],
       "search": "china three gorges corporation ctg china dow § 1260h",
@@ -18557,9 +18916,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "china transportation materials co., ltd. china dow § 1260h",
@@ -18576,9 +18939,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China United Network Communications Group Co., Ltd."
         }
       ],
       "search": "china unicom (bvi) co., ltd. china dow § 1260h",
@@ -18595,9 +18962,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China United Network Communications Group Co., Ltd."
         }
       ],
       "search": "china unicom group corporation (bvi) co., ltd. china dow § 1260h",
@@ -18614,9 +18985,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China United Network Communications Group Co., Ltd."
         }
       ],
       "search": "china united network communications co., ltd. china dow § 1260h",
@@ -18655,17 +19030,24 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China United Network Communications Group Co., Ltd."
         },
         {
           "list": "ns-cmic",
@@ -18778,9 +19160,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "chinese academy of ordnance science china dow § 1260h",
@@ -19400,9 +19786,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "cirrus design corporation china dow § 1260h",
@@ -19600,9 +19990,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191
         },
         {
           "list": "ns-cmic",
@@ -19648,9 +20041,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "commercial aircraft corporation of china limited comac china dow § 1260h",
@@ -19705,9 +20101,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "complete genomics, inc. china dow § 1260h",
@@ -20400,9 +20800,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "contemporary amperex technology co., ltd. catl china dow § 1260h",
@@ -20419,9 +20822,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "continental aerospace technologies, inc. china dow § 1260h",
@@ -21319,9 +21726,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "dawning information industry co., ltd. sugon china dow § 1260h",
@@ -22923,7 +23333,9 @@
     },
     {
       "canonical": "EVE Energy Co., Ltd.",
-      "aka": [],
+      "aka": [
+        "EVE Energy"
+      ],
       "country": "China",
       "subsidiaries": [],
       "subsidiaries_note": false,
@@ -22932,12 +23344,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
-      "search": "eve energy co., ltd. china dow § 1260h",
+      "search": "eve energy co., ltd. eve energy china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -26256,9 +26671,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         },
         {
           "list": "bis-entity-list",
@@ -26672,9 +27091,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "gbi diagnostics, inc. china dow § 1260h",
@@ -26799,9 +27222,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Global Tone Communication Technology Co., Ltd."
         }
       ],
       "search": "gtcom technology corporation gtcom-us china dow § 1260h",
@@ -28289,9 +28716,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "global tone communication technology co., ltd. gtcom china dow § 1260h",
@@ -28921,9 +29351,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "CSSC Offshore & Marine Engineering (Group) Company Limited"
         }
       ],
       "search": "guangzhou wenchuan heavy industry co., ltd. china dow § 1260h",
@@ -29042,9 +29476,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "guizhou aviation technical development co., ltd. guizhou aviation tech china dow § 1260h",
@@ -29865,9 +30302,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         },
         {
           "list": "bis-entity-list",
@@ -29969,9 +30409,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "hangzhou yushu technology co., ltd. unitree china dow § 1260h",
@@ -30176,9 +30619,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "harbin first machinery group ltd. china dow § 1260h",
@@ -30758,9 +31205,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "heilongjiang northern tools co., ltd. china dow § 1260h",
@@ -30995,9 +31446,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "hesai group also known as hesai technology co., ltd. china dow § 1260h",
@@ -31719,9 +32173,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "CSSC Offshore & Marine Engineering (Group) Company Limited"
         }
       ],
       "search": "huacheng (tianjin) ship leasing co., ltd. china dow § 1260h",
@@ -32413,9 +32871,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         },
         {
           "list": "ns-cmic",
@@ -33118,9 +33579,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Huawei Investment & Holding Co., Ltd."
         },
         {
           "list": "bis-entity-list",
@@ -34977,9 +35442,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Corporation"
         }
       ],
       "search": "irico group company, ltd. china dow § 1260h",
@@ -35586,9 +36055,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         },
         {
           "list": "bis-entity-list",
@@ -35662,9 +36135,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "innomics inc. china dow § 1260h",
@@ -35903,9 +36380,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         },
         {
           "list": "bis-entity-list",
@@ -36963,9 +37443,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "ja solar technology co., ltd. ja solar china dow § 1260h",
@@ -37873,9 +38356,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         },
         {
           "list": "ns-cmic",
@@ -38301,9 +38788,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "john holland group pty ltd. china dow § 1260h",
@@ -38320,9 +38811,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "john holland services pty ltd. china dow § 1260h",
@@ -44469,9 +44964,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "kiekert usa inc. china dow § 1260h",
@@ -47429,9 +47928,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192
         }
       ],
       "search": "mgi tech co., ltd. mgi china dow § 1260h",
@@ -47711,9 +48213,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "magnificent tower limited china dow § 1260h",
@@ -49074,9 +49580,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "merit automotive electronics systems s.l.u china dow § 1260h",
@@ -51418,6 +51928,30 @@
       "date_added_first": "2011-10-31"
     },
     {
+      "canonical": "NIO, Inc.",
+      "aka": [
+        "NIO"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [
+        {
+          "list": "dow-1260h",
+          "category": "Chinese military company (Section 1260H)",
+          "date_added": "2026-11-10",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
+          "listing_basis": "direct",
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
+        }
+      ],
+      "search": "nio, inc. nio china dow § 1260h",
+      "date_added_first": "2026-11-10"
+    },
+    {
       "canonical": "NM-Tekh",
       "aka": [],
       "country": "",
@@ -53089,9 +53623,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "netposa technologies, ltd. netposa china dow § 1260h",
@@ -53231,9 +53768,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Telecom Group Co., Ltd."
         }
       ],
       "search": "new guomai digital culture co., ltd. china dow § 1260h",
@@ -53829,9 +54370,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "north petroleum international company limited china dow § 1260h",
@@ -54061,9 +54606,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "novogene company limited novogene china dow § 1260h",
@@ -56547,9 +57095,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China SpaceSat Co., Ltd."
         }
       ],
       "search": "oriental blue sky titanium technology co., ltd. china dow § 1260h",
@@ -56679,9 +57231,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "origincell technology co., ltd. origincell china dow § 1260h",
@@ -58049,7 +58604,7 @@
     {
       "canonical": "Phenix Optical Company Limited",
       "aka": [
-        "formerly Phoenix Optics Company Limited"
+        "Phoenix Optics Company Limited"
       ],
       "country": "China",
       "subsidiaries": [],
@@ -58059,12 +58614,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
-      "search": "phenix optical company limited formerly phoenix optics company limited china dow § 1260h",
+      "search": "phenix optical company limited phoenix optics company limited china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -59905,7 +60463,9 @@
     },
     {
       "canonical": "Quectel Wireless Solutions Co., Ltd.",
-      "aka": [],
+      "aka": [
+        "Quectel"
+      ],
       "country": "China",
       "subsidiaries": [],
       "subsidiaries_note": false,
@@ -59914,12 +60474,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
-      "search": "quectel wireless solutions co., ltd. china dow § 1260h",
+      "search": "quectel wireless solutions co., ltd. quectel china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -61167,9 +61730,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "robosense technology co., ltd. china dow § 1260h",
@@ -62149,7 +62715,9 @@
     },
     {
       "canonical": "SDIC Intelligence (Xiamen) Information Co., Ltd.",
-      "aka": [],
+      "aka": [
+        "SDIC Intelligence"
+      ],
       "country": "China",
       "subsidiaries": [],
       "subsidiaries_note": false,
@@ -62158,12 +62726,15 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
-      "search": "sdic intelligence (xiamen) information co., ltd. china dow § 1260h",
+      "search": "sdic intelligence (xiamen) information co., ltd. sdic intelligence china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -62369,9 +62940,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         },
         {
           "list": "bis-entity-list",
@@ -62441,9 +63016,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "smic semiconductor manufacturing (shanghai) co., ltd smic shanghai china dow § 1260h",
@@ -62481,9 +63060,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "smic, americas china dow § 1260h",
@@ -62697,9 +63280,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "BGI Group"
         }
       ],
       "search": "stomics americas ltd. china dow § 1260h",
@@ -64186,9 +64773,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         },
         {
           "list": "bis-entity-list",
@@ -64215,9 +64806,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         },
         {
           "list": "bis-entity-list",
@@ -64244,9 +64839,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         },
         {
           "list": "bis-entity-list",
@@ -64281,9 +64880,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         },
         {
           "list": "bis-entity-list",
@@ -64329,9 +64931,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "semiconductor manufacturing north china (beijing) corporation china dow § 1260h",
@@ -64354,9 +64960,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         },
         {
           "list": "bis-entity-list",
@@ -64409,9 +65019,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "sensetime group, inc. sensetime china dow § 1260h",
@@ -65367,9 +65980,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Commercial Aircraft Corporation of China Limited"
         },
         {
           "list": "bis-meu-list",
@@ -65413,9 +66030,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35192",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=4",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35192",
+          "source_page": 35192,
+          "parent": "Commercial Aircraft Corporation of China Limited"
         }
       ],
       "search": "shanghai aircraft manufacturing co., ltd. china dow § 1260h",
@@ -66346,9 +66967,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China COSCO SHIPPING Corporation Limited"
         }
       ],
       "search": "shanghai ship and shipping research china dow § 1260h",
@@ -66635,9 +67260,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "shanghai yitu network technology co., ltd. yitu china dow § 1260h",
@@ -66696,9 +67324,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "shanghai zhenhua shipping co. ltd. china dow § 1260h",
@@ -67149,9 +67781,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35189",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=1",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35189",
+          "source_page": 35189,
+          "parent": "Aviation Industry Corporation of China Ltd."
         }
       ],
       "search": "shenyang aircraft design institute china dow § 1260h",
@@ -67317,9 +67953,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Corporation"
         }
       ],
       "search": "shenzhen cec blue ocean holdings co., ltd. china dow § 1260h",
@@ -67394,9 +68034,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "shenzhen dji technology co., ltd. dji china dow § 1260h",
@@ -67413,9 +68056,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Shenzhen DJI Technology Co., Ltd."
         }
       ],
       "search": "shenzhen dajiang baiwang technology co., ltd. china dow § 1260h",
@@ -68604,9 +69251,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China South Industries Group Corporation"
         }
       ],
       "search": "sichuan jian’an industry co., ltd. china dow § 1260h",
@@ -68780,9 +69431,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "Semiconductor Manufacturing International Corporation"
         }
       ],
       "search": "siltech semiconductor corporation china dow § 1260h",
@@ -68998,9 +69653,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "sinotrans & csc holdings co., ltd. sinotrans china dow § 1260h",
@@ -72803,9 +73461,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "tp-link technologies co., ltd. tp-link china dow § 1260h",
@@ -74339,9 +75000,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "tencent holdings limited tencent china dow § 1260h",
@@ -74487,9 +75151,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Electronics Corporation"
         }
       ],
       "search": "the 6th research institute of cec china dow § 1260h",
@@ -75016,9 +75684,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "tianma microelectronics co., ltd. tianma china dow § 1260h",
@@ -75056,9 +75727,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Telecom Group Co., Ltd."
         }
       ],
       "search": "tianyi cloud technology co., ltd. china dow § 1260h",
@@ -75528,9 +76203,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "trina solar co., ltd. trina solar china dow § 1260h",
@@ -78470,9 +79148,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193
         }
       ],
       "search": "wuhan geosun navigation technology co., ltd. geosun china dow § 1260h",
@@ -79130,9 +79811,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35193",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=5",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35193",
+          "source_page": 35193,
+          "parent": "SDIC Intelligence (Xiamen) Information Co., Ltd."
         }
       ],
       "search": "xiamen meiya zhongmin electronic technology co., ltd. china dow § 1260h",
@@ -80667,9 +81352,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China SpaceSat Co., Ltd."
         }
       ],
       "search": "xi’an aerospace tianhua data technology co., ltd. china dow § 1260h",
@@ -81028,9 +81717,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35194",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35194",
+          "source_page": 35194
         },
         {
           "list": "bis-entity-list",
@@ -81594,9 +82286,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China North Industries Group Corporation Limited"
         }
       ],
       "search": "yunnan yuanjin optical instrument co., ltd. china dow § 1260h",
@@ -81952,9 +82648,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35190",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=2",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35190",
+          "source_page": 35190,
+          "parent": "China Communications Construction Group (Limited)"
         }
       ],
       "search": "zpmc north america, inc. china dow § 1260h",
@@ -82255,9 +82955,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35194",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35194",
+          "source_page": 35194
         }
       ],
       "search": "zhejiang dahua technology co., ltd. dahua dahua technology company zhejiang dahua technology co. zhejiang dahua vision technology co., ltd. zhejiang huaray technology co., ltd. dahua china dow § 1260h fcc covered list",
@@ -82476,9 +83179,12 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35194",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35194",
+          "source_page": 35194
         }
       ],
       "search": "zhongji innolight co., ltd. innolight china dow § 1260h",
@@ -82495,9 +83201,13 @@
           "list": "dow-1260h",
           "category": "Chinese military company (Section 1260H)",
           "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
+          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283; 91 FR 35191",
           "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=3",
+          "source_doc": "2026-11571",
+          "source_cite": "91 FR 35191",
+          "source_page": 35191,
+          "parent": "China Telecom Group Co., Ltd."
         }
       ],
       "search": "zhongjie communications co., ltd. china dow § 1260h",
@@ -83223,6 +83933,226 @@
       "date_added_first": ""
     },
     {
+      "canonical": "Anhui Sun Create Electronics Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Anhui Sun Create Electronics Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "anhui sun create electronics co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "CNOOC China Limited",
+      "aka": [
+        "CNOOC China Ltd."
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "CNOOC China Limited",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "cnooc china limited cnooc china ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "CNOOC International Trading Co., Ltd.",
+      "aka": [
+        "CNOOC International Trading"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "CNOOC International Trading Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "cnooc international trading co., ltd. cnooc international trading china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "COSCO SHIPPING Finance Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "COSCO SHIPPING Finance Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "cosco shipping finance co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "China International Information Services Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China International Information Services Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "china international information services ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "China National Chemical Engineering Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China National Chemical Engineering Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "china national chemical engineering co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "China Traffic Construction USA, Inc.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China Traffic Construction USA, Inc.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "china traffic construction usa, inc. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "GLARUN Technology Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "GLARUN Technology Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "glarun technology co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "Taiji Computer Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Taiji Computer Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "taiji computer co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
       "canonical": "WuXi AppTec Co., Ltd.",
       "aka": [
         "WuXi AppTec"
@@ -83230,22 +84160,23 @@
       "country": "China",
       "subsidiaries": [],
       "subsidiaries_note": false,
-      "memberships": [
+      "memberships": [],
+      "removals": [
         {
           "list": "dow-1260h",
-          "category": "Chinese military company (Section 1260H)",
-          "date_added": "",
-          "cite": "FY2021 NDAA § 1260H, Pub. L. 116-283",
-          "listing_basis": "direct",
-          "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF"
+          "label": "DoW § 1260H",
+          "name": "WuXi AppTec Co., Ltd.",
+          "removed_on": "2026-11-10",
+          "reason": "The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H. The entity delisted from the list of ``Chinese military companies'' is also identified in Mandarin and can be found in this notice's docket on https://www.regulations.gov. Search by the docket ID, DOD-2026-OS- 2410. The Mandarin version of the delisting notice is available for public viewing at the Supporting & Related Material tab. Any correspondence related to the 1260H List must be emailed to [email protected].",
+          "cite": "91 FR 72536",
+          "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company"
         }
       ],
       "formerly_listed": true,
-      "removed_on": "2026-11-14",
-      "last_archive": "archive/2026-11-07.html",
+      "removed_on": "2026-11-10",
+      "last_archive": "",
       "search": "wuxi apptec co., ltd. wuxi apptec china dow § 1260h",
-      "date_added_first": "",
-      "last_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html"
+      "date_added_first": ""
     }
   ],
   "archive_urls": {
@@ -83254,7 +84185,8 @@
     "2026-10-24.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-24-99210eaa.html",
     "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html",
     "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
-    "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html"
+    "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html",
+    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-3f2a4e1c.html"
 }
