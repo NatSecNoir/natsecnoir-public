@@ -1906,11 +1906,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-bluepath-robotics-inc-robotics",
+      "kind": "ingest",
+      "label": "BLUEPATH ROBOTICS, INC.",
+      "date": "2026-11-21T13:12:41Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "O1000 PLATFORM advanced mobile robot (AMR) and OM1500 TUNNEL AMR",
+      "definitions": [],
+      "fields": {
+        "category": "robotics",
+        "issuer": "DoW",
+        "termination_date": null,
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-21T13:12:33Z",
+  "published_at": "2026-11-21T13:12:37Z",
   "currency_date": "2026-11-21",
-  "last_changed": "2026-11-21T13:12:37Z"
+  "last_changed": "2026-11-21T13:12:41Z"
 }
