@@ -1858,11 +1858,35 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "da-26-1243-zyxel-communications-inc-routers",
+      "kind": "ingest",
+      "label": "Zyxel Communications Inc.",
+      "date": "2026-11-21T13:12:33Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "DX4510-B1 router",
+      "definitions": [],
+      "fields": {
+        "category": "routers",
+        "issuer": "DoW",
+        "termination_date": "2028-05-16",
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
+      },
+      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+      "citation": {
+        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
+        "page": 3,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-20T15:06:36Z",
+  "published_at": "2026-11-21T13:12:27Z",
   "currency_date": "2026-11-21",
-  "last_changed": "2026-11-21T13:12:27Z"
+  "last_changed": "2026-11-21T13:12:33Z"
 }
