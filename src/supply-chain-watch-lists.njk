@@ -11,6 +11,9 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
   <p class="sub">One deduped ledger — authoritative U.S. government
     (<code>.gov</code>/<code>.mil</code>) sources only.</p>
 
+{% if ledger.history %}
+  <p class="sub"><a href="/analyses/1260h/">DoW § 1260H: the list and every removal since 2021, in the government's own words →</a></p>
+{% endif %}
 {% if not ledger.present %}
   <p class="empty">The ledger has not been published yet.</p>
 {% else %}
@@ -105,6 +108,7 @@ description: One deduped ledger of U.S. government restricted-entity lists, asse
             {% if r.cite %}· {{ r.cite | frcite | safe }}{% endif %}
             {% set rhref = r.source_url | govsource %}
             {% if rhref %}· <a href="{{ rhref }}" target="_blank" rel="noopener noreferrer">notice</a>{% endif %}
+            {% if ledger.list_histories and ledger.list_histories[r.list] %}· <a href="/analyses/1260h/#removed-{{ r.name | slugify }}">removal history</a>{% endif %}
           </li>
         {% endfor %}
         </ul>

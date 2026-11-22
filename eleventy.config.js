@@ -29,6 +29,16 @@ export default function (eleventyConfig) {
       return u.protocol === "https:" && /(^|\.)(gov|mil)$/i.test(u.hostname) ? url : "";
     } catch { return ""; }
   });
+  // The Federal Register's plain-text edition writes quotation marks as `` and ''; its HTML edition
+  // prints them as curly quotes. Shown the HTML way; the saved quote is unchanged.
+  eleventyConfig.addFilter("frquotes", (s) => String(s || "").replace(/``/g, "\u201c").replace(/''/g, "\u201d"));
+  // An archived copy is allowed only as a Wayback capture of a .gov/.mil URL (private plan
+  // 2026-11-22-001 KD3: official link first, archived copy second). Anything else renders no link.
+  eleventyConfig.addFilter("archivesource", (url) => {
+    const m = /^https:\/\/web\.archive\.org\/web\/\d{14}\/(https:\/\/[^/#?]+)/.exec(String(url || ""));
+    if (!m) return "";
+    try { return /(^|\.)(gov|mil)$/i.test(new URL(m[1]).hostname) ? url : ""; } catch { return ""; }
+  });
   // A "cite" field can carry one or more Federal Register citations ("62 FR 35334; 84 FR 40241, …")
   // mixed with dates and parentheticals. Linkify each "<vol> FR <page>" token to the Federal Register
   // citation redirect (www.federalregister.gov — authoritative .gov), leaving everything else as plain
