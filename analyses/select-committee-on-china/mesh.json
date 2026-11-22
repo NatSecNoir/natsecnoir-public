@@ -6888,11 +6888,65 @@
         "paragraph": null,
         "quote": ""
       }
+    },
+    {
+      "key": "2026-11-21-outproducing-the-ccp-restoring-american-manufact-831765",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-22T07:15:20Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "hearing: Pat Gelsinger; Mark Widmar; Tom O'Leary; Owen Herrnstadt",
+      "definitions": [],
+      "fields": {
+        "date": "2026-11-20",
+        "type": "hearing",
+        "who": "Pat Gelsinger; Mark Widmar; Tom O'Leary; Owen Herrnstadt",
+        "committee_url": "https://chinaselectcommittee.house.gov/committee-activity/hearings/outproducing-the-ccp-restoring-american-manufacturing",
+        "video_urls": [
+          "https://www.youtube.com/watch?v=zj0XEwDZ5fs"
+        ],
+        "record_id": "2026-11-21-outproducing-the-ccp-restoring-american-manufact-831765"
+      },
+      "record_id": "2026-11-21-outproducing-the-ccp-restoring-american-manufact-831765",
+      "citation": {
+        "record_id": "2026-11-21-outproducing-the-ccp-restoring-american-manufact-831765",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
+    },
+    {
+      "key": "2026-11-21-joint-investigation-report-china-is-trying-to-ge-0b6719",
+      "kind": "ingest",
+      "label": "",
+      "date": "2026-11-22T07:15:20Z",
+      "updates": [],
+      "source": "run",
+      "nsd": null,
+      "text": "report",
+      "definitions": [],
+      "fields": {
+        "date": "2026-11-20",
+        "type": "report",
+        "who": "",
+        "committee_url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+        "video_urls": [],
+        "record_id": "2026-11-21-joint-investigation-report-china-is-trying-to-ge-0b6719"
+      },
+      "record_id": "2026-11-21-joint-investigation-report-china-is-trying-to-ge-0b6719",
+      "citation": {
+        "record_id": "2026-11-21-joint-investigation-report-china-is-trying-to-ge-0b6719",
+        "page": null,
+        "paragraph": null,
+        "quote": ""
+      }
     }
   ],
   "sources": {},
   "manifest": [],
   "published_at": "2026-11-20T14:12:27Z",
-  "currency_date": "2026-11-21",
-  "last_changed": "2026-11-20T14:12:24Z"
+  "currency_date": "2026-11-22",
+  "last_changed": "2026-11-22T07:15:20Z"
 }
