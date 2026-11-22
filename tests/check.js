@@ -560,13 +560,13 @@ assert.match(ledger, /href="\/analyses\/1260h\/#removed-removed-example-co-ltd">
 assert.match(ledger, /href="\/analyses\/1260h\/">DoW § 1260H: the list and every removal since 2021/, "the watch-lists page links the history page");
 // Quotes are verbatim and attributed; the FR's `` '' marks are shown as curly quotes.
 assert.match(hflat, /“No longer owned by SMIC”/, "an entity note is quoted word for word");
-assert.match(hflat, /DoW list PDF \(2024-01-31\), p\. 3<\/a> · <a href="https:\/\/web\.archive\.org\/web\/20240131194654\/https:\/\/media\.defense\.gov\/[^"]+#page=3"[^>]*>archived copy<\/a> · reason · entity note/, "a DoW PDF quote links the official page, then the archived copy, with role and scope");
-assert.match(hflat, /reason · group heading over 6 names/, "a group heading says how many names it covers");
+assert.match(hflat, /DoW list PDF \(2024-01-31\), p\. 3<\/a> · <a href="https:\/\/web\.archive\.org\/web\/20240131194654\/https:\/\/media\.defense\.gov\/[^"]+#page=3"[^>]*>archived copy<\/a> · stated ground · entity note/, "a DoW PDF quote links the official page, then the archived copy, with role and scope");
+assert.match(hflat, /stated ground · group heading over 6 names/, "a group heading says how many names it covers");
 for (const q of hart.matchAll(/<blockquote class="stmt">([\s\S]*?)<\/blockquote>/g))
   assert.doesNotMatch(q[1], /``|''/, "no Federal Register plain-text quotation marks in a quote");
 assert.match(hflat, /of “Chinese military companies” in accordance/, "FR quotation marks shown as curly quotes");
 // The site's own markers are bold and fixed; absences are stated as facts.
-assert.match(hflat, /<b>No reason stated in 89 FR 102868\.<\/b>/, "no-reason marker for a notice that gives none");
+assert.match(hflat, /<b>No specific reason stated in 89 FR 102868\.<\/b>/, "no-reason marker for a notice that gives none");
 assert.match(hflat, /<b>No removal notice; no reason stated\.<\/b>/, "marker for a company dropped with no notice");
 assert.match(hflat, /Not in the Federal Register version of this list \(89 FR 22698\)\./, "a removal only the DoW PDF prints says so");
 // Hesai: removed and re-listed, currently listed.
