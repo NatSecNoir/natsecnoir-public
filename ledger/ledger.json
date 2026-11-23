@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-23T00:22:04.062782+00:00",
+  "compiled_at": "2026-11-23T00:58:45.403832+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -84469,7 +84469,8 @@
             "Not in the Federal Register version of this list (89 FR 22698)."
           ],
           "last_verified": "2026-11-23",
-          "last_listed_in": "dow-2022-10-05"
+          "last_listed_in": "dow-2022-10-05",
+          "first_listed": "2022-10-05"
         },
         {
           "event": "removal",
@@ -84521,7 +84522,8 @@
             "Not in the Federal Register version of this list (89 FR 22698)."
           ],
           "last_verified": "2026-11-23",
-          "last_listed_in": "dow-2022-10-05"
+          "last_listed_in": "dow-2022-10-05",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -84573,7 +84575,8 @@
             "Not in the Federal Register version of this list (89 FR 22698)."
           ],
           "last_verified": "2026-11-23",
-          "last_listed_in": "dow-2022-10-05"
+          "last_listed_in": "dow-2022-10-05",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -84624,7 +84627,8 @@
           "reader_note": "Removed and designated again by notices published October 29, 2024 (89 FR 86230), which reprint, in the correct order, notices first published October 23, 2024 (89 FR 84555; 89 FR 84547, designation at 84548). The January 2025 list does not print Hesai among its names; its footnote 1 states that Hesai \"remains a Chinese military company\". The 2026 list prints \"Hesai Group (also known as Hesai Technology Co., Ltd.)\".",
           "last_verified": "2026-11-23",
           "decision": "hesai-2025-footnote",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "relisting",
@@ -84674,7 +84678,8 @@
           "reader_note": "Removed and designated again by notices published October 29, 2024 (89 FR 86230), which reprint, in the correct order, notices first published October 23, 2024 (89 FR 84555; 89 FR 84547, designation at 84548). The January 2025 list does not print Hesai among its names; its footnote 1 states that Hesai \"remains a Chinese military company\". The 2026 list prints \"Hesai Group (also known as Hesai Technology Co., Ltd.)\".",
           "last_verified": "2026-11-23",
           "decision": "hesai-2025-footnote",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "removal",
@@ -84707,7 +84712,8 @@
           "status": "removed",
           "reason": "No specific reason stated in 89 FR 102868.",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "removal",
@@ -84740,7 +84746,8 @@
           "status": "removed",
           "reason": "No specific reason stated in 89 FR 102868.",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "removal",
@@ -84791,7 +84798,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "removal",
@@ -84843,7 +84851,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -84894,7 +84903,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -84943,7 +84953,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2022-10-05"
         },
         {
           "event": "removal",
@@ -84992,7 +85003,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -85043,7 +85055,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2024-06895"
+          "last_listed_in": "2024-06895",
+          "first_listed": "2024-01-31"
         },
         {
           "event": "removal",
@@ -85092,7 +85105,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85143,7 +85157,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85194,7 +85209,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85243,7 +85259,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85294,7 +85311,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -85343,7 +85361,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85392,7 +85411,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85441,7 +85461,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85490,7 +85511,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85506,7 +85528,8 @@
           "reader_note": "Guangzhou Wenchong Shipyard Co., Ltd. — listed 2025 (90 FR 1106, under COMEC). Not printed in the 2026 list (91 FR 35192). No removal notice; no reason stated.",
           "last_verified": "2026-11-23",
           "decision": "wenchong-no-notice",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85555,7 +85578,8 @@
           "status": "removed",
           "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2025-00070"
+          "last_listed_in": "2025-00070",
+          "first_listed": "2025-01-07"
         },
         {
           "event": "removal",
@@ -85602,7 +85626,8 @@
           "status": "removed",
           "reason": "91 FR 72536: \"The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H.\"",
           "last_verified": "2026-11-23",
-          "last_listed_in": "2026-11571"
+          "last_listed_in": "2026-11571",
+          "first_listed": "2026-06-08"
         }
       ],
       "decisions": [
@@ -85784,6 +85809,1649 @@
           "archived_at": "2026-06-08T19:56:49Z",
           "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
         }
+      ],
+      "listed": [
+        {
+          "names": [
+            "Aerospace CH UA V Co., Ltd",
+            "Aerospace CH UAV Co., Ltd",
+            "S-SEA",
+            "CH UAV",
+            "Aerospace CH UAV Co., Ltd."
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Aerosun Corporation",
+            "Aerosun"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Aviation Industry Corporation of China, Ltd.",
+            "AVIC",
+            "Aviation Industry Corporation of China Ltd."
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "AVIC Aviation High-Technology Company Limited",
+            "AVIC Aviation Hi-Tech"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "AVIC Heavy Machinery Company Limited",
+            "AVIC Heavy Machinery"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "AVIC Jonhon Optronic Technology Co., Ltd.",
+            "AVIC Jonhon",
+            "AVIC JONHON Optronic Technology Co., Ltd."
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "AVIC Shenyang Aircraft Company Limited",
+            "AVIC Shenyang"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "AVIC Xi'an Aircraft Industry Group Company Ltd.",
+            "AVIC Xi'an",
+            "Xi'an Aircraft Industry Group Co., Ltd.",
+            "AVIC Xi’an Aircraft Industry Group Company Ltd."
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Aerospace Science and Industry Corporation Limited",
+            "CASIC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Communications Construction Company Limited",
+            "CCCC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Communications Construction Group (Limited)",
+            "CCCG"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Electronics Corporation",
+            "CEC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Electronics Technology Group Corporation",
+            "CETC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China General Nuclear Power Corporation",
+            "CGN"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Marine Information Electronics Company Limited",
+            "China Marine Info Elec"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Mobile Communications Group Co., Ltd.",
+            "China Mobile Comm"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Mobile Limited",
+            "China Mobile"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China National Nuclear Corporation",
+            "CNNC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China National Offshore Oil Corporation",
+            "CNOOC",
+            "CNOOC Limited"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China North Industries Group Corporation Limited",
+            "Norinco Group"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Railway Construction Corporation Limited",
+            "CRCC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China South Industries Group Corporation",
+            "CSGC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China SpaceSat Co., Ltd.",
+            "China SpaceSat"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China State Shipbuilding Corporation Limited",
+            "CSSC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Telecom Corporation Limited"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Telecommunications Corporation"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China Unicom (Hong Kong) Limited",
+            "China Unicom HK"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "China United Network Communications Group Co., Ltd.",
+            "China Unicom"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "CNOOC Limited"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Costar Group Co., Ltd.",
+            "Costar"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Fujian Torch Electron Technology Co., Ltd."
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Hangzhou Hikvision Digital Technology Co., Ltd.",
+            "Hikvision"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Huawei Investment & Holding Co., Ltd.",
+            "Huawei Holding"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Huawei Technologies Co., Ltd.",
+            "Huawei"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Inner Mongolia First Machinery Group Co., Ltd.",
+            "Inner Mongolia"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Inspur Group Co., Ltd.",
+            "Inspur"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Jiangxi Hongdu Aviation Industry Co., Ltd.",
+            "Hongdu Aviation"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Semiconductor Manufacturing International (Beijing) Corporation",
+            "SMIC Beijing"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Semiconductor Manufacturing International (Shenzhen) Corporation",
+            "SMIC Shenzhen"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Semiconductor Manufacturing International (Tianjin) Corporation",
+            "SMIC Tianjin"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Semiconductor Manufacturing International Corporation",
+            "SMIC"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Semiconductor Manufacturing South China Corporation",
+            "SMIC South China"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "SMIC Holdings Limited",
+            "SMIC Holdings"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "SMIC Hong Kong International Company Limited"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "SMIC Northern Integrated Circuit Manufacturing (Beijing) Co., Ltd",
+            "SMIC NICM",
+            "Semiconductor Manufacturing North China (Beijing) Corporation"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "SMIC Semiconductor Manufacturing (Shanghai) Co., Ltd",
+            "SMIC Shanghai"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Zhonghang Electronic Measuring Instruments Company Limited",
+            "ZEMIC",
+            "AVIC Chengdu Aircraft Co., Ltd.",
+            "Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC)"
+          ],
+          "first_listed": "2021-06-03",
+          "list": "2021"
+        },
+        {
+          "names": [
+            "Beijing Zhidao Chuangyu Information Technology Co., Ltd",
+            "Beijing Kownsec",
+            "Beijing Zhidao Chuangyu Information Technology Co., Ltd.",
+            "Knownsec"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "BGI Genomics Co., Ltd.",
+            "BGI"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "China International Engineering Consulting Corporation",
+            "CIECC"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "China National Chemical Corporation Ltd.",
+            "ChemChina"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "China National Chemical Engineering Group Corporation",
+            "CNCEC"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "China State Construction Group Co."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "CloudWalk Technology Co., Ltd",
+            "CloudWalk",
+            "CloudWalk Technology Co., Ltd."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "CRRC Corporation Limited",
+            "CRRC"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Dawning Information Industry Co., Ltd",
+            "Sugon",
+            "Dawning Information Industry Co., Ltd."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Global Tone Communication Technology Co Ltd",
+            "GTCOM",
+            "Global Tone Communication Technology Co Ltd.",
+            "Global Tone Communication Technology Co., Ltd."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Shenzhen DJI Innovation Technology Co., Ltd.",
+            "DJI",
+            "Shenzhen DJI Technology Co., Ltd."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Zhejiang Dahua Technology Co., Ltd.",
+            "Dahua"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "360 Security Technology Inc.",
+            "Qihoo 360",
+            "360 Security Technology, Inc."
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Advanced Micro-Fabrication Equipment Inc. China",
+            "AMEC"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Beijing Megvii Technology Co., Ltd.",
+            "Megvii"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Chengdu JOUAV Automation Tech Co., Ltd.",
+            "JOUAV"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Chengdu M&S Electronics Technology Co., Ltd.",
+            "M&S Electronics",
+            "Chengdu Mengsheng Electronic Technology Co., Ltd."
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "China Construction Technology Co., Ltd.",
+            "CCTC",
+            "China Construction Technology Co. Ltd."
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "China State Construction Engineering Corporation Limited",
+            "CSCEC"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "China Telecom Group Co., Ltd.",
+            "China Telecom"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "China Three Gorges Corporation",
+            "CTG"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Guizhou Aviation Technical Development Co., Ltd.",
+            "Guizhou Aviation Tech"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Hesai Technology Co., Ltd.",
+            "Hesai"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "IDG Capital Partners Co., Ltd.",
+            "IDG Capital"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "NetPosa Technologies, Ltd.",
+            "NetPosa"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Shanghai Yitu Network Technology Co., Ltd.",
+            "Yitu"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "ShenZhen Consys Science & Technology Co., Ltd.",
+            "Consys"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Wuhan Geosun Navigation Technology Co., Ltd.",
+            "Geosun"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Yangtze Memory Technologies Co., Ltd.",
+            "YMTC"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Autel Robotics Co., Ltd.",
+            "Autel Robotics"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "AVIC Aerospace Systems Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "AVIC Airborne Systems Co., Ltd.",
+            "China Avionics Systems Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "AVIC Asset Management Corporation Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "AVIC Electromechanical Systems Co. Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Changhe Aircraft Industries (Group) Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Shenyang Aircraft Design Institute"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Xi'an Aircraft Industry Group Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Baicells Technologies Co., Ltd.",
+            "Baicells"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "BGI Group"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Forensic Genomics International",
+            "FGI"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "MGI Tech Co., Ltd.",
+            "MGI"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "ChangXin Memory Technologies, Inc.",
+            "CXMT"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Addsino Co., Ltd.",
+            "Addisino Co., Ltd",
+            "Addisino Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Aerospace Precision Products Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Aisino Corporation"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Aerospace Automotive Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Cargo Airlines Co., Ltd.",
+            "CCA"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Airport Construction Group Corporation"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Communications Constructions USA, Inc.",
+            "China Communications Construction (USA) Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Traffic Construction USA, Inc."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "John Holland Group Pty Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "John Holland Services Pty Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China COSCO SHIPPING Corporation Limited",
+            "COSCO SHIPPING"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "COSCO SHIPPING (North America) Inc."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "COSCO SHIPPING Finance Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China International Information Services Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Anhui Sun Create Electronics Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Cheng Du Westone Information Industry Co., Ltd.",
+            "CETC Cyberspace Security Technology Co., Ltd.",
+            "Chen Du Westone Information Industry Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "GLARUN Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Guangzhou GCI Science & Technology Co., Ltd.",
+            "CETC Potevio Science & Technology Co., Ltd.",
+            "CETC Potevio Science & Technology Co., Ltd"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Phoenix Optics Company Limited",
+            "Phenix Optical Company Limited"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Shanghai East China Computer Co., Ltd.",
+            "CETC Digital Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Taiji Computer Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China International Marine Containers (Group) Co., Ltd.",
+            "CIMC"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China National Chemical Engineering Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "CNOOC China Limited",
+            "CNOOC China Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "CNOOC International Trading Co., Ltd.",
+            "CNOOC International Trading"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Harbin First Machinery Group Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Shipbuilding Trading Co., Ltd.",
+            "CSTC"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Heilongjiang Northern Tools Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Oriental Blue Sky Titanium Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Xi'an Aerospace Tianhua Data Technology Co., Ltd.",
+            "Xi’an Aerospace Tianhua Data Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Construction America, Inc."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Unicom (BVI) Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China Unicom Group (BVI) Co., Ltd.",
+            "China Unicom Group Corporation (BVI) Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China United Network Communications Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Commercial Aircraft Corporation of China Limited",
+            "COMAC"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Beijing Aeronautical Science & Technology Research Institute",
+            "Beijing Research Center"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "COMAC America Corporation",
+            "CAC"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Shanghai Aircraft Manufacturing Co., Ltd.",
+            "Assembly Manufacturing Center"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Contemporary Amperex Technology Co., Ltd.",
+            "CATL"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "CSSC Offshore & Marine Engineering (Group) Company Limited",
+            "COMEC"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Guangzhou Wenchong Shipyard Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Huacheng (Tianjin) Ship Leasing Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "GTCOM Technology Corporation",
+            "GTCOM-US"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Origincell Technology Co., Ltd.",
+            "Origincell"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Quectel Wireless Solutions Co., Ltd.",
+            "Quectel"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "SDIC Intelligence (Xiamen) Information Co., Ltd.",
+            "SDIC Intelligence"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Xiamen Meiya Zhongmin Electronic Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Better Way Enterprises Limited"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "China IC Capital Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Magnificent Tower Limited"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "SilTech Semiconductor Corporation"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "SMIC, Americas"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "SenseTime Group, Inc.",
+            "SenseTime"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Shenzhen Dajiang Baiwang Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Sinotrans & CSC Holdings Co., Ltd.",
+            "Sinotrans",
+            "SinoTrans"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Tencent Holdings Limited",
+            "Tencent"
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Chengdu Dahua Wisdom Information Technology Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
+        },
+        {
+          "names": [
+            "Alibaba Group Holding Limited",
+            "Alibaba"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Autel Intelligent Technology Corp., Ltd.",
+            "Autel Technology"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Align Aerospace LLC"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Avicopter PLC"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Cirrus Design Corporation"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Continental Aerospace Technologies, Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Baidu, Inc.",
+            "Baidu"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "BGI Americas Corporation"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Complete Genomics, Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "GBI Diagnostics, Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Innomics, Inc.",
+            "Innomics Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "STomics Americas, Ltd.",
+            "STOmics Americas Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "BOE Technology Group Co., Ltd.",
+            "BOE",
+            "BOE Technology Group Company Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "BYD Company Limited",
+            "BYD"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CALB Group Co., Ltd.",
+            "CALB"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CCCC Design and Consulting Group Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CCCC First Harbor Engineering Bureau Co. Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CCCC Second Navigation Engineering Bureau Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CCCC Third Navigation Engineering Bureau Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China Transportation Materials Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Shanghai Zhenhua Shipping Co. Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "ZPMC North America, Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China Ocean Shipping Company Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "COSCO SHIPPING Logistics Supply Chain Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Shanghai Ship and Shipping Research"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China Information Security Research Institute"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "IRICO Group Company, Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Shenzhen CEC Blue Ocean Holdings Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "The 6th Research Institute of CEC"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "14th Research Institute of CETC"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "15th Research Institute of CETC"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "CETC Research Institute 32"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Aspire Technologies (Shenzhen) Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China Mobile Hong Kong (BVI) Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China BlueChemical Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China North Chemical Research Academy Group Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Chinese Academy of Ordnance Science"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Kiekert USA Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Merit Automotive Electronics Systems S.L.U"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "North Petroleum International Company Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Yunnan Yuanjin Optical Instrument Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Baoding Tianwei Baobian Electric Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Beijing Beiji Mechanical and Electrical Industry Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Changan US R&D Center, Inc."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China South Industries Group Corporation No. 59 Research Institute Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Sichuan Jian'an Industry Co., Ltd.",
+            "Sichuan Jian’an Industry Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Aerospace Star Space Technology Application Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "China Telecom Satellite Communications Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "New Guomai Digital Culture Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Tianyi Cloud Technology Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Zhongjie Communications Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Beijing Telecom Planning and Designing Institute Company Limited"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Shanghai Aircraft Design and Research Institute"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Guangzhou Wenchuan Heavy Industry Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "EVE Energy Co., Ltd.",
+            "EVE Energy"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Hangzhou Yushu Technology Co., Ltd.",
+            "Unitree"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Hesai Group",
+            "also known as Hesai Technology Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "JA Solar Technology Co., Ltd.",
+            "JA Solar"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "NIO, Inc.",
+            "NIO"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Novogene Company Limited",
+            "Novogene"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "RoboSense Technology Co., Ltd.",
+            "Robosense Technology Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Beijing Meiya Hongshu Technology Co., Ltd."
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Tianma Microelectronics Co., Ltd.",
+            "Tianma"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "TP-Link Technologies Co., Ltd.",
+            "TP-Link"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Trina Solar Co., Ltd.",
+            "Trina Solar"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "WuXi AppTec Co., Ltd.",
+            "WuXi AppTec"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        },
+        {
+          "names": [
+            "Zhongji Innolight Co., Ltd.",
+            "Innolight"
+          ],
+          "first_listed": "2026-06-08",
+          "list": "2026"
+        }
       ]
     }
   },
@@ -85795,7 +87463,7 @@
     "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
     "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html",
     "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html",
-    "2026-11-23.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-e38c6ffc.html"
+    "2026-11-23.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-df2b1fd8.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-e38c6ffc.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-df2b1fd8.html"
 }
