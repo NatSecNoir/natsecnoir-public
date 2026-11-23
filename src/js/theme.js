@@ -1,5 +1,6 @@
-// Light / dark toggle for the public site. Light is the default (owner directive 2026-09-27):
-// the theme flips only on an explicit stored choice or a click, never from OS preference.
+// Light / dark toggle for the public site. Dark is the default (owner directive 2026-11-22, reversing
+// 2026-09-27): base.njk sets data-theme before paint; a click flips it and the choice is stored.
+// OS preference is never followed.
 // The button (#theme with #theme-label and .icon-sun/.icon-moon) is added to nav.main in U3;
 // this script no-ops on any page rendered before the button exists.
 (function () {
@@ -10,7 +11,7 @@
   var moon = btn.querySelector('.icon-moon');
   function effectiveTheme() {
     var set = document.documentElement.getAttribute('data-theme');
-    return (set === 'dark' || set === 'light') ? set : 'light';
+    return (set === 'dark' || set === 'light') ? set : 'dark';
   }
   function syncTheme() {
     var dark = effectiveTheme() === 'dark';

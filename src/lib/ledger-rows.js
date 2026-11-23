@@ -126,6 +126,10 @@ export function rowGrainRows(mesh, records, today) {
       return {
         record_id: a.record_id, page: a.page || "", note: a.note || "",
         da: daOfDocket(ar && ar.docket), record_url: ar ? ar.url : "", pdf_url: pdfOf(ar),
+        source_url: (ar && ar.source_url) || "",
+        // A notice that removed the end date (e.g. the 2026-07 DoW determination reported in DA 26-768)
+        // reads "end date lifted" in the Termination column; any other amendment reads "amended".
+        lifted: /^termination lifted/i.test(a.note || ""),
       };
     });
     const search = [entity, ...models, category, issuer, da].filter(Boolean).join(" ")

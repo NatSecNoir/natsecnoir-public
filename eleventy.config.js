@@ -10,6 +10,12 @@ export default function (eleventyConfig) {
   const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", (s) => md.render(s || ""));
+  // Conditional Approvals device categories: display labels (data keys stay as-is, e.g. "uas").
+  const CATEGORY_LABELS = { uas: "Drones" };
+  eleventyConfig.addFilter("categoryLabel", (c) => {
+    const k = String(c || "");
+    return CATEGORY_LABELS[k.toLowerCase()] || (k.charAt(0).toUpperCase() + k.slice(1));
+  });
   eleventyConfig.addFilter("head", (a, n) => (a || []).slice(0, n));
   // CSV row: quote a cell only when it holds a comma, quote, or newline (RFC 4180), doubling any
   // embedded quote. Used by src/analysis-approvals.csv.njk for the machine-readable export.
