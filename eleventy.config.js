@@ -32,6 +32,24 @@ export default function (eleventyConfig) {
   // The Federal Register's plain-text edition writes quotation marks as `` and ''; its HTML edition
   // prints them as curly quotes. Shown the HTML way; the saved quote is unchanged.
   eleventyConfig.addFilter("frquotes", (s) => String(s || "").replace(/``/g, "\u201c").replace(/''/g, "\u201d"));
+  // § 1260H history page: the one quote that best states why a company left the list, shortened
+  // for a table cell. A company's own note beats a heading over a group, and a stated ground beats
+  // the notice's operative text. Long quotes are cut to a verbatim excerpt with ellipses; the full
+  // text is one click away in the linked document. Returns null when there is nothing to quote.
+  eleventyConfig.addFilter("briefreason", (e) => {
+    const st = (e && e.statements) || [];
+    const rank = (x) => (x.role === "reason" ? 0 : 2) + (x.scope === "entity note" ? 0 : 1);
+    const best = [...st].sort((a, b) => rank(a) - rank(b))[0];
+    if (!best) return null;
+    let q = String(best.quote || "").replace(/``/g, "\u201c").replace(/''/g, "\u201d").replace(/\s+/g, " ").trim();
+    const max = 110;
+    if (q.length > max) {
+      const m = /\b((?:Because|in compliance with) .*?)(?:,? as Mandated\b|, which\b|$)/i.exec(q);
+      if (m && m[1].length <= 150) q = (m.index ? "\u2026 " : "") + m[1] + (m.index + m[1].length < q.length ? " \u2026" : "");
+      else q = q.slice(0, q.lastIndexOf(" ", max)).replace(/[,;:]$/, "") + " \u2026";
+    }
+    return { quote: q, role: best.role, scope: best.scope, over: best.over || 1 };
+  });
   // An archived copy is allowed only as a Wayback capture of a .gov/.mil URL (private plan
   // 2026-11-22-001 KD3: official link first, archived copy second). Anything else renders no link.
   eleventyConfig.addFilter("archivesource", (url) => {

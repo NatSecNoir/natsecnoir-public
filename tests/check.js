@@ -555,34 +555,52 @@ const hart = hist.slice(hist.indexOf('<article class="ledger-page history-page">
 // One table row per event, newest first, each with an anchor the shared ledger links to.
 const hevents = led.list_histories["1260h"].events;
 assert.equal((hart.match(/<tr id="(removed|relisted)-/g) || []).length, hevents.length, "one history row per event");
-assert.match(hist, /<tr id="removed-removed-example-co-ltd">/, "removal rows carry the anchor the ledger links to");
+assert.match(hist, /<tr id="removed-removed-example-co-ltd" data-date="2026-11-10" data-listed="2025-01-07">/, "removal rows carry the anchor the ledger links to");
 assert.match(ledger, /href="\/analyses\/1260h\/#removed-removed-example-co-ltd">removal history<\/a>/, "the shared ledger links a removed row to its history");
 assert.match(ledger, /href="\/analyses\/1260h\/">DoW § 1260H: the list and every removal since 2021/, "the watch-lists page links the history page");
 // Quotes are verbatim and attributed; the FR's `` '' marks are shown as curly quotes.
 assert.match(hflat, /“No longer owned by SMIC”/, "an entity note is quoted word for word");
-assert.match(hflat, /DoW list PDF \(2024-01-31\), p\. 3<\/a> · <a href="https:\/\/web\.archive\.org\/web\/20240131194654\/https:\/\/media\.defense\.gov\/[^"]+#page=3"[^>]*>archived copy<\/a> · stated ground · entity note/, "a DoW PDF quote links the official page, then the archived copy, with role and scope");
-assert.match(hflat, /stated ground · group heading over 6 names/, "a group heading says how many names it covers");
-for (const q of hart.matchAll(/<blockquote class="stmt">([\s\S]*?)<\/blockquote>/g))
-  assert.doesNotMatch(q[1], /``|''/, "no Federal Register plain-text quotation marks in a quote");
-assert.match(hflat, /of “Chinese military companies” in accordance/, "FR quotation marks shown as curly quotes");
+assert.match(hflat, /<td class="src"> <a href="https:\/\/media\.defense\.gov\/2024\/Jan\/31\/[^"]+#page=3"[^>]*>DoW list PDF \(2024-01-31\), p\. 3<\/a> <a href="https:\/\/web\.archive\.org\/web\/20240131194654\/https:\/\/media\.defense\.gov\/[^"]+#page=3"[^>]*>archived copy<\/a>/, "sources: the official page, then the archived copy");
+assert.match(hflat, /“No longer owned by SMIC”<span class="basis">stated ground · entity note<\/span>/, "an entity note beats the group heading, with role and scope");
+assert.match(hflat, /“… Because They Do Not Operate Directly or Indirectly in the United States …”<span class="basis">stated ground · group heading over 6 names<\/span>/, "a long heading is cut to a verbatim excerpt with ellipses");
+assert.doesNotMatch(hart, /<blockquote/, "no full-paragraph quotes on the page; the documents are linked");
+assert.doesNotMatch(hart, /``|''/, "no Federal Register plain-text quotation marks");
+// Removals come after the current list.
+assert.ok(hart.indexOf('id="current"') < hart.indexOf('id="removals"'), "the current list comes before the removals");
 // The site's own markers are bold and fixed; absences are stated as facts.
 assert.match(hflat, /<b>No specific reason stated in 89 FR 102868\.<\/b>/, "no-reason marker for a notice that gives none");
 assert.match(hflat, /<b>No removal notice; no reason stated\.<\/b>/, "marker for a company dropped with no notice");
 assert.match(hflat, /Not in the Federal Register version of this list \(89 FR 22698\)\./, "a removal only the DoW PDF prints says so");
 // Hesai: removed and re-listed, currently listed.
-assert.match(hist, /<tr id="relisted-hesai-technology-co-ltd">/, "a re-listing is its own row");
-assert.match(hflat, /Re-listed[\s\S]{0,4000}currently listed/, "a re-listed company shows as currently listed");
+assert.match(hist, /<tr id="relisted-hesai-technology-co-ltd" class="relist" data-date="2024-10-23" data-listed="2024-01-31">/, "a re-listing is its own row");
+assert.match(hflat, /currently listed<\/span><\/td> <td class="date">2024-01-31<\/td> <td class="date">re-listed /, "a re-listed company shows as currently listed");
 // No editor-internal material reaches the page.
 assert.doesNotMatch(hist, /internal_note|hkexnews|Annual Report 2021|outside_sources/, "internal notes and outside sources stay private");
 // Every link in the article is .gov/.mil, a Wayback capture of a .gov/.mil URL, or on this site.
 for (const m of hart.matchAll(/<a href="([^"]+)"/g)) {
-  if (m[1].startsWith("/")) continue;
+  if (m[1].startsWith("/") || m[1].startsWith("#")) continue;
   const u = new URL(m[1]);
   const wayback = /^https:\/\/web\.archive\.org\/web\/\d{14}\/https:\/\/[^/]+\.(gov|mil)\//i.test(m[1]);
   assert.ok(u.protocol === "https:" && (wayback || /(^|\.)(gov|mil)$/i.test(u.hostname)), `history link is .gov/.mil or a Wayback capture of one: ${m[1]}`);
 }
 assert.match(hflat, /SHA-256 [0-9a-f]{64}/, "each saved DoW PDF lists its SHA-256");
 assert.match(hflat, /On the list now <span class="meta">\(2\)<\/span>/, "current members of the list are shown");
+// Each current company sits under the parent it is listed under; a parent not on the list leaves
+// the company at the top level, still naming the parent.
+assert.equal((hart.match(/<tr id="c-[^"]+" class="d\d/g) || []).length, 2, "one current-list row per company");
+assert.match(hflat, /<span class="nm">Subsidiary Example Ltd\.<\/span><span class="basis">listed under Parent Example Group<\/span>/, "an unlisted parent is named on its company's row");
+// Filter boxes and sortable headers, wired by history-table.js.
+assert.match(hist, /<input class="tq" type="search" data-for="t-current"/, "the current list has a filter box");
+assert.match(hist, /<input class="tq" type="search" data-for="t-removals"/, "the removals have a filter box");
+assert.match(hist, /<th data-key="date" aria-sort="descending">/, "removals sort by date, newest first");
+assert.match(hist, /<script src="\/js\/history-table\.js" defer><\/script>/, "the table script is loaded");
+assert.ok(fs.existsSync(path.join(outFix, "js/history-table.js")), "history-table.js is published");
+// First-listed dates: from the event itself, or found by name (exact, else ignoring case and
+// punctuation) in the published "listed" chains; a company with no saved date shows none.
+assert.match(hflat, /<tr id="removed-smic-hong-kong-international-company-limited" data-date="2024-01-31" data-listed="2021-06-03">/, "an event's own first-listed date is used");
+assert.match(hflat, /data-listed="2022-10-05"[^>]*><td><span class="nm">Inspur Group Co\., Ltd\.<\/span>[\s\S]{0,200}<td class="date">2022-10-05<\/td>/, "a current company's date is found ignoring case and punctuation");
+assert.match(hflat, /data-listed=""[^>]*><td><span class="nm">Subsidiary Example Ltd\./, "no date is invented for a company without one");
+assert.match(hist, /<th data-key="listed"><span class="lab">Listed<\/span><\/th><th data-key="date" aria-sort="descending">/, "removals show Listed before Removed");
 
 // ---- record and analysis pages (editorial redesign, U4) ----
 assert.match(page, /<pre class="cite">NatSec Noir, "Fixture Order with &lt;b&gt;bold&lt;\/b&gt; in the title", 2026-01-01, https:\/\/natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/<\/pre>/, "citation block carries site, title, doc_date and canonical URL");
