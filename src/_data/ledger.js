@@ -35,9 +35,26 @@ export default function () {
       verified: v ? v.verified : null,
     };
   });
+  // The removal history of a pipeline-fed list (private plan 2026-11-22-001 U8): the events with
+  // their quoted statements, the editor's public notes, and the saved PDFs. One list has one today;
+  // the page takes the first. Its current members come from the same ledger rows.
+  const histories = led.list_histories || {};
+  const hslug = Object.keys(histories)[0] || "";
+  const history = hslug ? {
+    ...histories[hslug],
+    slug: hslug,
+    list: (led.lists || []).find((l) => l.slug === hslug) || null,
+    current: entities
+      .map((e) => ({ e, m: (e.memberships || []).find((m) => m.list === hslug) }))
+      .filter((x) => x.m)
+      .map(({ e, m }) => ({ name: e.canonical, aka: e.aka || [], parent: m.parent || "", cite: m.source_cite || m.cite || "",
+                            source_url: m.source_url || "" })),
+    removals: (histories[hslug].events || []).filter((x) => x.event === "removal").length,
+  } : null;
   return {
     present: true,
     ...led,
+    history,
     lists: led.lists || [],
     entities,
     archive_urls: led.archive_urls || {},

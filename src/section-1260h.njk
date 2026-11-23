@@ -1,0 +1,106 @@
+---
+layout: base.njk
+nav: analysis
+permalink: /analyses/1260h/
+title: "DoW § 1260H — Chinese military companies: list and removal history"
+description: The current Section 1260H list of Chinese military companies and every removal since the first list in June 2021, quoted from the government's own documents.
+---
+{% set h = ledger.history %}
+<article class="ledger-page history-page">
+  <div class="crumb"><a href="/">The file</a> › <a href="/analyses/">Analyses</a> › <a href="/analyses/supply-chain-watch-lists/">Watch lists</a></div>
+  <h1>DoW § 1260H — Chinese military companies</h1>
+  {% if not h %}
+  <p class="empty">The removal history has not been published yet.</p>
+  {% else %}
+  <p class="sub">The current list, and every company removed since the first list (June 2021), in the
+    government's own words. FY2021 NDAA § 1260H, 10 U.S.C. § 113 note.
+    {% if h.list %}As of {{ h.list.currency_date }}.
+    {% set lhref = h.list.source_url | govsource %}{% if lhref %}<a href="{{ lhref }}" target="_blank" rel="noopener noreferrer">Department of War list</a>.{% endif %}{% endif %}</p>
+
+  <details class="prov" id="method" open>
+    <summary>How to read this page</summary>
+    <ul class="method">
+      <li>Text in quotation marks is copied word for word from the saved government document named beside it; only line breaks are joined, and the Federal Register's plain-text quotation marks (<code>``</code> and <code>''</code>) are shown as “ and ”. Nothing is paraphrased.</li>
+      <li><b>Bold</b> markers — “No specific reason stated in …” and “No removal notice; no reason stated.” — are this site's. The absence of a stated reason implies nothing.</li>
+      <li>Each quote says whether the document prints it once over a group of names (<i>group heading</i> or <i>group sentence</i>, with how many) or beside one name (<i>entity note</i>).</li>
+      <li>The Federal Register and the Department of War's own list PDF do not always say the same thing. Both are shown; where one omits a removal, the page says so.</li>
+      <li>“Removed” is the date the removing document was published; the document's signing date is shown where it prints one.</li>
+      <li>Archived copies are Wayback Machine captures of the official file, kept because <code>media.defense.gov</code> may refuse automated access. The SHA-256 of each saved copy is listed below so you can confirm yours matches.</li>
+      <li>Notes in grey are the editor's, drawn only from the documents cited. A group heading gives one ground for the names under it; the documents give no facts for each company.</li>
+      <li>Not legal advice and not an official source. The Federal Register notices and the Department's own lists control. Leaving this list is not a finding about a company's status under any other list or restriction.</li>
+    </ul>
+  </details>
+
+  <h2 id="removals">Removals <span class="meta">({{ h.removals }})</span></h2>
+  <div class="scroll">
+  <table class="history">
+    <thead><tr><th>Company</th><th>Event</th><th>Published</th><th>What the documents say</th><th>Status</th></tr></thead>
+    <tbody>
+    {% for e in h.events | reverse %}
+      <tr id="{{ 'removed' if e.event == 'removal' else 'relisted' }}-{{ e.name | slugify }}">
+        <td>{{ e.name }}{% if e.aka and e.aka.length %}<div class="basis">also printed as {{ e.aka | join('; ') }}</div>{% endif %}</td>
+        <td>{{ "Removed" if e.event == "removal" else "Re-listed" }}</td>
+        <td>{{ e.removed_on or e.date }}{% if e.statements and e.statements[0].dated %}<div class="basis">signed {{ e.statements[0].dated }}</div>{% endif %}</td>
+        <td>
+          {% if e.cite %}<div class="removal-doc">{{ e.cite | frcite | safe }}{% set sh = e.source_url | govsource %}{% if sh %} · <a href="{{ sh }}" target="_blank" rel="noopener noreferrer">document</a>{% endif %}{% for d in e.also_in or [] %} · also {{ d }}{% endfor %}</div>{% endif %}
+          {% for x in e.statements %}
+          <blockquote class="stmt">
+            <p>“{{ x.quote | frquotes }}”</p>
+            <footer>
+              {% set off = (x.official_url or x.pdf_url) %}{% set offh = off | govsource %}
+              {% if offh %}<a href="{{ offh }}" target="_blank" rel="noopener noreferrer">{{ x.cite }}</a>{% else %}{{ x.cite }}{% endif %}
+              {% set arch = x.archived_url | archivesource %}{% if arch %} · <a href="{{ arch }}" target="_blank" rel="noopener noreferrer">archived copy</a>{% endif %}
+              · {{ "stated ground" if x.role == "reason" else "notice text" }} · {{ x.scope }}{% if x.over > 1 %} over {{ x.over }} names{% endif %}
+            </footer>
+          </blockquote>
+          {% endfor %}
+          {% if e.event == "removal" and not e.statements.length %}<p><b>{{ e.reason }}</b></p>
+          {% elif e.event == "removal" and e.reason and e.reason.startsWith("No specific reason stated") %}<p><b>{{ e.reason }}</b></p>{% endif %}
+          {% for a in e.absent_from or [] %}<p class="basis">{{ a }}</p>{% endfor %}
+          {% if e.reader_note %}<p class="basis">{{ e.reader_note }}</p>{% endif %}
+        </td>
+        <td>{{ e.status or "removed" }}{% if e.last_verified %}<div class="basis">checked {{ e.last_verified }}</div>{% endif %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+  {% if h.decisions.length %}
+  <h2 id="names">Names that changed between lists</h2>
+  <p class="basis">Companies printed on one list and not the next, where no document removes them. Each is shown with what the lists print.</p>
+  <ul class="names">
+    {% for d in h.decisions %}{% if d.kind != "no_notice" %}
+    <li id="name-{{ d.name | slugify }}"><b>{{ d.name }}</b>{% if d.to %} → {{ d.to }}{% endif %}
+      <span class="meta">· {{ {"rename": "renamed, as the list states", "different_name": "printed under a different name", "alias": "not printed; parent still listed (editor's decision)", "listed_elsewhere": "still listed"}[d.kind] }} · {{ d.transition }}</span>
+      <div class="basis">{{ d.reader_note }}</div></li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endif %}
+
+  <h2 id="current">On the list now <span class="meta">({{ h.current.length }})</span></h2>
+  <div class="scroll">
+  <table class="history current">
+    <thead><tr><th>Company</th><th>Listed under</th><th>Page</th></tr></thead>
+    <tbody>
+    {% for c in h.current %}
+      <tr><td>{{ c.name }}{% if c.aka.length %}<div class="basis">{{ c.aka | join('; ') }}</div>{% endif %}</td>
+        <td>{{ c.parent }}</td>
+        <td>{% set ch = c.source_url | govsource %}{% if ch %}<a href="{{ ch }}" target="_blank" rel="noopener noreferrer">{{ c.cite }}</a>{% else %}{{ c.cite }}{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+  {% if h.pdf_sources.length %}
+  <h2 id="sources">The Department of War's list PDFs</h2>
+  <ul class="sources">
+    {% for s in h.pdf_sources %}
+    <li>{{ s.release_date }} · {% set so = s.official_url | govsource %}{% if so %}<a href="{{ so }}" target="_blank" rel="noopener noreferrer">official PDF</a>{% endif %}
+      {% set sa = s.archived_url | archivesource %}{% if sa %} · <a href="{{ sa }}" target="_blank" rel="noopener noreferrer">archived copy</a> (captured {{ s.archived_at | head(10) }}){% endif %}
+      <div class="basis">SHA-256 {{ s.sha256 }}</div></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endif %}
+</article>
