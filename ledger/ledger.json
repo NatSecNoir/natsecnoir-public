@@ -1,6 +1,6 @@
 {
   "schema": "natsecnoir/ledger@1",
-  "compiled_at": "2026-11-21T16:04:50.751049+00:00",
+  "compiled_at": "2026-11-23T00:22:04.062782+00:00",
   "lists": [
     {
       "slug": "covered-list",
@@ -12529,7 +12529,8 @@
     {
       "canonical": "CETC Cyberspace Security Technology Co., Ltd.",
       "aka": [
-        "Chen Du Westone Information Industry Co., Ltd."
+        "Chen Du Westone Information Industry Co., Ltd.",
+        "Cheng Du Westone Information Industry Co., Ltd."
       ],
       "country": "China",
       "subsidiaries": [],
@@ -12547,7 +12548,7 @@
           "source_page": 35190
         }
       ],
-      "search": "cetc cyberspace security technology co., ltd. chen du westone information industry co., ltd. china dow § 1260h",
+      "search": "cetc cyberspace security technology co., ltd. chen du westone information industry co., ltd. cheng du westone information industry co., ltd. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -12733,6 +12734,17 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        }
+      ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "CHINA MARINE INFORMATION ELECTRONICS COMPANY LIMITED",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
         }
       ],
       "search": "china marine information electronics company limited china marine information electronics co ltd china shipbuilding industry group marine defense and information confrontation co., ltd. cec corecast corporation limited treasury ns-cmic",
@@ -13068,7 +13080,7 @@
           "label": "DoW § 1260H",
           "name": "COSTAR GROUP CO., LTD.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -17742,6 +17754,7 @@
       "canonical": "China National Offshore Oil Corporation",
       "aka": [
         "CNOOC",
+        "CNOOC Limited",
         "China National Offshore Oil Corp."
       ],
       "country": "China",
@@ -17768,7 +17781,7 @@
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
         }
       ],
-      "search": "china national offshore oil corporation cnooc china national offshore oil corp. china dow § 1260h treasury ns-cmic",
+      "search": "china national offshore oil corporation cnooc cnooc limited china national offshore oil corp. china dow § 1260h treasury ns-cmic",
       "date_added_first": ""
     },
     {
@@ -17913,6 +17926,17 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        }
+      ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China Railway Construction Corporation Limited",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
         }
       ],
       "search": "china railway construction corporation limited crcc treasury ns-cmic",
@@ -18876,6 +18900,17 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        }
+      ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China Telecommunications Corporation",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
         }
       ],
       "search": "china telecommunications corporation china telecom china telecom group co., ltd. treasury ns-cmic",
@@ -26957,6 +26992,17 @@
           "cite": "",
           "listing_basis": "direct",
           "source_url": "https://sanctionslist.ofac.treas.gov/Home/ConsolidatedList"
+        }
+      ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Fujian Torch Electron Technology Co., Ltd.",
+          "removed_on": "2024-01-31",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No apparent U.S. nexus\"",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3"
         }
       ],
       "search": "fujian torch electron technology co., ltd. fujian torch electron technology co., ltd. torch electron bis entity list treasury ns-cmic",
@@ -62978,6 +63024,17 @@
           "source_url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"
         }
       ],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "SMIC Hong Kong International Company Limited",
+          "removed_on": "2024-01-31",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No longer owned by SMIC\"",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3"
+        }
+      ],
       "search": "smic hong kong international company limited smic hong kong bis entity list",
       "date_added_first": "2020-12-22"
     },
@@ -83933,6 +83990,32 @@
       "date_added_first": ""
     },
     {
+      "canonical": "Advanced Micro-Fabrication Equipment Inc. China",
+      "aka": [
+        "AMEC"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Advanced Micro-Fabrication Equipment Inc. China",
+          "removed_on": "2024-12-18",
+          "reason": "No specific reason stated in 89 FR 102868.",
+          "cite": "89 FR 102868",
+          "source_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2024-12-18",
+      "last_archive": "",
+      "search": "advanced micro-fabrication equipment inc. china amec china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
       "canonical": "Anhui Sun Create Electronics Co., Ltd.",
       "aka": [],
       "country": "China",
@@ -83945,7 +84028,7 @@
           "label": "DoW § 1260H",
           "name": "Anhui Sun Create Electronics Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -83954,6 +84037,32 @@
       "removed_on": "2026-06-10",
       "last_archive": "",
       "search": "anhui sun create electronics co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "Beijing Megvii Technology Co., Ltd.",
+      "aka": [
+        "Megvii"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Beijing Megvii Technology Co., Ltd.",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2025-01-07",
+      "last_archive": "",
+      "search": "beijing megvii technology co., ltd. megvii china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -83971,7 +84080,7 @@
           "label": "DoW § 1260H",
           "name": "CNOOC China Limited",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -83997,7 +84106,7 @@
           "label": "DoW § 1260H",
           "name": "CNOOC International Trading Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84021,7 +84130,7 @@
           "label": "DoW § 1260H",
           "name": "COSCO SHIPPING Finance Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84030,6 +84139,32 @@
       "removed_on": "2026-06-10",
       "last_archive": "",
       "search": "cosco shipping finance co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "China International Engineering Consulting Corporation",
+      "aka": [
+        "CIECC"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China International Engineering Consulting Corporation",
+          "removed_on": "2024-01-31",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No apparent U.S. nexus\"",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2024-01-31",
+      "last_archive": "",
+      "search": "china international engineering consulting corporation ciecc china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -84045,7 +84180,7 @@
           "label": "DoW § 1260H",
           "name": "China International Information Services Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84069,7 +84204,7 @@
           "label": "DoW § 1260H",
           "name": "China National Chemical Engineering Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84078,6 +84213,30 @@
       "removed_on": "2026-06-10",
       "last_archive": "",
       "search": "china national chemical engineering co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "China State Construction Group Co.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "China State Construction Group Co.",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2025-01-07",
+      "last_archive": "",
+      "search": "china state construction group co. china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -84093,7 +84252,7 @@
           "label": "DoW § 1260H",
           "name": "China Traffic Construction USA, Inc.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84117,7 +84276,7 @@
           "label": "DoW § 1260H",
           "name": "GLARUN Technology Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84126,6 +84285,82 @@
       "removed_on": "2026-06-10",
       "last_archive": "",
       "search": "glarun technology co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "Guangzhou Wenchong Shipyard Co., Ltd.",
+      "aka": [],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "Guangzhou Wenchong Shipyard Co., Ltd.",
+          "removed_on": "2026-06-10",
+          "reason": "No removal notice; no reason stated.",
+          "cite": "91 FR 35189",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2026-06-10",
+      "last_archive": "",
+      "search": "guangzhou wenchong shipyard co., ltd. china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "IDG Capital Partners Co., Ltd.",
+      "aka": [
+        "IDG Capital"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "IDG Capital Partners Co., Ltd.",
+          "removed_on": "2024-12-18",
+          "reason": "No specific reason stated in 89 FR 102868.",
+          "cite": "89 FR 102868",
+          "source_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2024-12-18",
+      "last_archive": "",
+      "search": "idg capital partners co., ltd. idg capital china dow § 1260h",
+      "date_added_first": ""
+    },
+    {
+      "canonical": "ShenZhen Consys Science & Technology Co., Ltd.",
+      "aka": [
+        "Consys"
+      ],
+      "country": "China",
+      "subsidiaries": [],
+      "subsidiaries_note": false,
+      "memberships": [],
+      "removals": [
+        {
+          "list": "dow-1260h",
+          "label": "DoW § 1260H",
+          "name": "ShenZhen Consys Science & Technology Co., Ltd.",
+          "removed_on": "2025-01-07",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+        }
+      ],
+      "formerly_listed": true,
+      "removed_on": "2025-01-07",
+      "last_archive": "",
+      "search": "shenzhen consys science & technology co., ltd. consys china dow § 1260h",
       "date_added_first": ""
     },
     {
@@ -84141,7 +84376,7 @@
           "label": "DoW § 1260H",
           "name": "Taiji Computer Co., Ltd.",
           "removed_on": "2026-06-10",
-          "reason": "Removed when the annual list of 2026-06-10 was published.",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
           "cite": "91 FR 35194",
           "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
         }
@@ -84167,7 +84402,7 @@
           "label": "DoW § 1260H",
           "name": "WuXi AppTec Co., Ltd.",
           "removed_on": "2026-11-10",
-          "reason": "The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H. The entity delisted from the list of ``Chinese military companies'' is also identified in Mandarin and can be found in this notice's docket on https://www.regulations.gov. Search by the docket ID, DOD-2026-OS- 2410. The Mandarin version of the delisting notice is available for public viewing at the Supporting & Related Material tab. Any correspondence related to the 1260H List must be emailed to [email protected].",
+          "reason": "91 FR 72536: \"The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H.\"",
           "cite": "91 FR 72536",
           "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company"
         }
@@ -84179,6 +84414,1379 @@
       "date_added_first": ""
     }
   ],
+  "list_histories": {
+    "dow-1260h": {
+      "events": [
+        {
+          "event": "removal",
+          "name": "China International Engineering Consulting Corporation",
+          "aka": [
+            "CIECC"
+          ],
+          "removed_on": "2024-01-31",
+          "source_doc": "dow-2024-01-31",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "pdf_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "statements": [
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 3,
+              "quote": "The Following Entities Did Not Meet Some or All of the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283)",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            },
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "entity note",
+              "over": 1,
+              "quote": "No apparent U.S. nexus",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No apparent U.S. nexus\"",
+          "absent_from": [
+            "Not in the Federal Register version of this list (89 FR 22698)."
+          ],
+          "last_verified": "2026-11-23",
+          "last_listed_in": "dow-2022-10-05"
+        },
+        {
+          "event": "removal",
+          "name": "Fujian Torch Electron Technology Co., Ltd.",
+          "aka": [],
+          "removed_on": "2024-01-31",
+          "source_doc": "dow-2024-01-31",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "pdf_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "statements": [
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 3,
+              "quote": "The Following Entities Did Not Meet Some or All of the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283)",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            },
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "entity note",
+              "over": 1,
+              "quote": "No apparent U.S. nexus",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No apparent U.S. nexus\"",
+          "absent_from": [
+            "Not in the Federal Register version of this list (89 FR 22698)."
+          ],
+          "last_verified": "2026-11-23",
+          "last_listed_in": "dow-2022-10-05"
+        },
+        {
+          "event": "removal",
+          "name": "SMIC Hong Kong International Company Limited",
+          "aka": [],
+          "removed_on": "2024-01-31",
+          "source_doc": "dow-2024-01-31",
+          "cite": "DoW list PDF (2024-01-31), p. 3",
+          "source_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "pdf_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+          "statements": [
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 3,
+              "quote": "The Following Entities Did Not Meet Some or All of the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283)",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            },
+            {
+              "source_doc": "dow-2024-01-31",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2024-01-31), p. 3",
+              "page": 3,
+              "published": "2024-01-31",
+              "dated": "",
+              "role": "reason",
+              "scope": "entity note",
+              "over": 1,
+              "quote": "No longer owned by SMIC",
+              "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF#page=3",
+              "archived_at": "2024-01-31T19:46:54Z",
+              "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "DoW list PDF (2024-01-31), p. 3: \"No longer owned by SMIC\"",
+          "absent_from": [
+            "Not in the Federal Register version of this list (89 FR 22698)."
+          ],
+          "last_verified": "2026-11-23",
+          "last_listed_in": "dow-2022-10-05"
+        },
+        {
+          "event": "removal",
+          "name": "Hesai Technology Co., Ltd.",
+          "aka": [
+            "Hesai"
+          ],
+          "removed_on": "2024-10-23",
+          "source_doc": "2024-24726",
+          "cite": "89 FR 84555",
+          "source_url": "https://www.federalregister.gov/documents/2024/10/23/2024-24726/notice-of-removal-of-designated-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-23/pdf/2024-24726.pdf#page=1",
+          "statements": [
+            {
+              "source_doc": "2024-24726",
+              "source_kind": "federal_register",
+              "cite": "89 FR 84555",
+              "page": 84555,
+              "published": "2024-10-23",
+              "dated": "2024-10-21",
+              "role": "notice_text",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of Defense has decided to delist the following entity from the list of ``Chinese military companies'' in accordance with section 1260H, without prejudice to relisting the entity on additional or supplementary grounds:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-23/pdf/2024-24726.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2024/10/23/2024-24726/notice-of-removal-of-designated-chinese-military-companies"
+            },
+            {
+              "source_doc": "2024-25168",
+              "source_kind": "federal_register",
+              "cite": "89 FR 86230",
+              "page": 86230,
+              "published": "2024-10-29",
+              "dated": "2024-10-24",
+              "role": "notice_text",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of Defense has decided to delist the following entity from the list of ``Chinese military companies'' in accordance with section 1260H, without prejudice to relisting the entity on additional or supplementary grounds:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-29/pdf/2024-25168.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2024/10/29/2024-25168/notice-of-removal-of-designated-chinese-military-companies"
+            }
+          ],
+          "also_in": [
+            "2024-25168"
+          ],
+          "status": "currently listed",
+          "reason": "No specific reason stated in 89 FR 84555.",
+          "reader_note": "Removed and designated again by notices published October 29, 2024 (89 FR 86230), which reprint, in the correct order, notices first published October 23, 2024 (89 FR 84555; 89 FR 84547, designation at 84548). The January 2025 list does not print Hesai among its names; its footnote 1 states that Hesai \"remains a Chinese military company\". The 2026 list prints \"Hesai Group (also known as Hesai Technology Co., Ltd.)\".",
+          "last_verified": "2026-11-23",
+          "decision": "hesai-2025-footnote",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "relisting",
+          "name": "Hesai Technology Co., Ltd.",
+          "aka": [
+            "Hesai"
+          ],
+          "date": "2024-10-23",
+          "source_doc": "2024-24723",
+          "cite": "89 FR 84548",
+          "source_url": "https://www.federalregister.gov/documents/2024/10/23/2024-24723/notice-of-designation-of-chinese-military-company",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-23/pdf/2024-24723.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2024-24723",
+              "source_kind": "federal_register",
+              "cite": "89 FR 84548",
+              "page": 84548,
+              "published": "2024-10-23",
+              "dated": "2024-10-21",
+              "role": "notice_text",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of Defense has determined that the following entity qualifies as a ``Chinese military company'' in accordance with Section 1260H:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-23/pdf/2024-24723.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2024/10/23/2024-24723/notice-of-designation-of-chinese-military-company"
+            },
+            {
+              "source_doc": "2024-25169",
+              "source_kind": "federal_register",
+              "cite": "89 FR 86230",
+              "page": 86230,
+              "published": "2024-10-29",
+              "dated": "2024-10-24",
+              "role": "notice_text",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of Defense has determined that the following entity qualifies as a ``Chinese military company'' in accordance with section 1260H:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-29/pdf/2024-25169.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2024/10/29/2024-25169/notice-of-designation-of-chinese-military-company"
+            }
+          ],
+          "also_in": [
+            "2024-25169"
+          ],
+          "status": "currently listed",
+          "reader_note": "Removed and designated again by notices published October 29, 2024 (89 FR 86230), which reprint, in the correct order, notices first published October 23, 2024 (89 FR 84555; 89 FR 84547, designation at 84548). The January 2025 list does not print Hesai among its names; its footnote 1 states that Hesai \"remains a Chinese military company\". The 2026 list prints \"Hesai Group (also known as Hesai Technology Co., Ltd.)\".",
+          "last_verified": "2026-11-23",
+          "decision": "hesai-2025-footnote",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "Advanced Micro-Fabrication Equipment Inc. China",
+          "aka": [
+            "AMEC"
+          ],
+          "removed_on": "2024-12-18",
+          "source_doc": "2024-30018",
+          "cite": "89 FR 102868",
+          "source_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-18/pdf/2024-30018.pdf#page=1",
+          "statements": [
+            {
+              "source_doc": "2024-30018",
+              "source_kind": "federal_register",
+              "cite": "89 FR 102868",
+              "page": 102868,
+              "published": "2024-12-18",
+              "dated": "2024-12-13",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 2,
+              "quote": "The Deputy Secretary of Defense has determined that the following entities should be removed from the list of ``Chinese military companies,'' as set out in 89 FR 22698 (April 2, 2024), in accordance with Section 1260H of the William M. (Mac) Thornberry NDAA for FY 2021 (Pub. L. 116-283) based on current information:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-18/pdf/2024-30018.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "No specific reason stated in 89 FR 102868.",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "IDG Capital Partners Co., Ltd.",
+          "aka": [
+            "IDG Capital"
+          ],
+          "removed_on": "2024-12-18",
+          "source_doc": "2024-30018",
+          "cite": "89 FR 102868",
+          "source_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-18/pdf/2024-30018.pdf#page=1",
+          "statements": [
+            {
+              "source_doc": "2024-30018",
+              "source_kind": "federal_register",
+              "cite": "89 FR 102868",
+              "page": 102868,
+              "published": "2024-12-18",
+              "dated": "2024-12-13",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 2,
+              "quote": "The Deputy Secretary of Defense has determined that the following entities should be removed from the list of ``Chinese military companies,'' as set out in 89 FR 22698 (April 2, 2024), in accordance with Section 1260H of the William M. (Mac) Thornberry NDAA for FY 2021 (Pub. L. 116-283) based on current information:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-12-18/pdf/2024-30018.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2024/12/18/2024-30018/notice-of-removal-of-designated-chinese-military-companies"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "No specific reason stated in 89 FR 102868.",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "Beijing Megvii Technology Co., Ltd.",
+          "aka": [
+            "Megvii"
+          ],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "CHINA MARINE INFORMATION ELECTRONICS COMPANY LIMITED",
+          "aka": [
+            "China Marine Info Elec",
+            "China Marine Information Electronics Company Limited"
+          ],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "China Railway Construction Corporation Limited",
+          "aka": [
+            "CRCC"
+          ],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "China State Construction Group Co.",
+          "aka": [],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "China Telecommunications Corporation",
+          "aka": [],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "ShenZhen Consys Science & Technology Co., Ltd.",
+          "aka": [
+            "Consys"
+          ],
+          "removed_on": "2025-01-07",
+          "source_doc": "2025-00070",
+          "cite": "90 FR 1106",
+          "source_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+          "statements": [
+            {
+              "source_doc": "2025-00070",
+              "source_kind": "federal_register",
+              "cite": "90 FR 1106",
+              "page": 1106,
+              "published": "2025-01-07",
+              "dated": "2025-01-02",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 6,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 31, 2024:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-07/pdf/2025-00070.pdf#page=2",
+              "html_url": "https://www.federalregister.gov/documents/2025/01/07/2025-00070/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2025-01-07",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2025-01-07), p. 5",
+              "page": 5,
+              "published": "2025-01-07",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 6,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).",
+              "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF#page=5",
+              "archived_at": "2025-01-08T01:59:22Z",
+              "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+            }
+          ],
+          "also_in": [
+            "dow-2025-01-07"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2025-01-07), p. 5: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2024-06895"
+        },
+        {
+          "event": "removal",
+          "name": "Anhui Sun Create Electronics Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "CNOOC China Limited",
+          "aka": [
+            "CNOOC China Ltd."
+          ],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "CNOOC International Trading Co., Ltd.",
+          "aka": [
+            "CNOOC International Trading"
+          ],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "COSCO SHIPPING Finance Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "COSTAR GROUP CO., LTD.",
+          "aka": [
+            "Costar"
+          ],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "China International Information Services Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "China National Chemical Engineering Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "China Traffic Construction USA, Inc.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "GLARUN Technology Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "Guangzhou Wenchong Shipyard Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35189",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "statements": [],
+          "status": "removed",
+          "reason": "No removal notice; no reason stated.",
+          "reader_note": "Guangzhou Wenchong Shipyard Co., Ltd. — listed 2025 (90 FR 1106, under COMEC). Not printed in the 2026 list (91 FR 35192). No removal notice; no reason stated.",
+          "last_verified": "2026-11-23",
+          "decision": "wenchong-no-notice",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "Taiji Computer Co., Ltd.",
+          "aka": [],
+          "removed_on": "2026-06-10",
+          "source_doc": "2026-11571",
+          "cite": "91 FR 35194",
+          "source_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+          "statements": [
+            {
+              "source_doc": "2026-11571",
+              "source_kind": "federal_register",
+              "cite": "91 FR 35194",
+              "page": 35194,
+              "published": "2026-06-10",
+              "dated": "2026-06-05",
+              "role": "notice_text",
+              "scope": "group sentence",
+              "over": 10,
+              "quote": "The Deputy Secretary of Defense has determined that the following previously listed entities should be removed from the most recent Section 1260H List announced on January 7, 2025:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11571.pdf#page=6",
+              "html_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11571/notice-of-availability-of-designation-of-chinese-military-companies"
+            },
+            {
+              "source_doc": "dow-2026-06-08",
+              "source_kind": "dow_pdf",
+              "cite": "DoW list PDF (2026-06-08), p. 16",
+              "page": 16,
+              "published": "2026-06-08",
+              "dated": "",
+              "role": "reason",
+              "scope": "group heading",
+              "over": 10,
+              "quote": "The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).",
+              "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF#page=16",
+              "archived_at": "2026-06-08T19:56:49Z",
+              "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+            }
+          ],
+          "also_in": [
+            "dow-2026-06-08"
+          ],
+          "status": "removed",
+          "reason": "DoW list PDF (2026-06-08), p. 16: \"The Following Previously Listed Entities Did Not Meet the Requirements of Section 1260H of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal 2021 (Public Law 116-283) Because They Do Not Operate Directly or Indirectly in the United States as Mandated by Section 1260H(a), as amended (codified at 10 U.S.C. § 113 note).\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2025-00070"
+        },
+        {
+          "event": "removal",
+          "name": "WuXi AppTec Co., Ltd.",
+          "aka": [
+            "WuXi AppTec"
+          ],
+          "removed_on": "2026-11-10",
+          "source_doc": "2026-22840",
+          "cite": "91 FR 72536",
+          "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-10/pdf/2026-22840.pdf#page=1",
+          "statements": [
+            {
+              "source_doc": "2026-22840",
+              "source_kind": "federal_register",
+              "cite": "91 FR 72536",
+              "page": 72536,
+              "published": "2026-11-10",
+              "dated": "2026-11-05",
+              "role": "notice_text",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of Defense has decided to delist the following entity from the list of ``Chinese military companies'' in accordance with section 1260H, without prejudice to relisting the entity on additional or supplementary grounds:",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-10/pdf/2026-22840.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company"
+            },
+            {
+              "source_doc": "2026-22840",
+              "source_kind": "federal_register",
+              "cite": "91 FR 72536",
+              "page": 72536,
+              "published": "2026-11-10",
+              "dated": "2026-11-05",
+              "role": "reason",
+              "scope": "notice",
+              "over": 1,
+              "quote": "The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H.",
+              "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-10/pdf/2026-22840.pdf#page=1",
+              "html_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company"
+            }
+          ],
+          "also_in": [],
+          "status": "removed",
+          "reason": "91 FR 72536: \"The Deputy Secretary of War has determined that WuXi AppTec should be removed from the most recent Section 1260H List that was published in the Federal Register on June 10, 2026, in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec's Motion for Preliminary Injunction, which enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department's designation of WuXi AppTec as a Chinese military company under Section 1260H.\"",
+          "last_verified": "2026-11-23",
+          "last_listed_in": "2026-11571"
+        }
+      ],
+      "decisions": [
+        {
+          "kind": "alias",
+          "transition": "2024→2025",
+          "name": "CNOOC Limited",
+          "to": "China National Offshore Oil Corporation",
+          "reader_note": "Printed on the 2021 and 2024 lists. Not printed on the 2025 or 2026 list, and no notice removes it. The parent, China National Offshore Oil Corporation (CNOOC), remains listed. Shown under the parent by the editor's decision; the lists do not state that the parent's listing covers it.",
+          "evidence": [
+            {
+              "source_doc": "2024-06895",
+              "quote": "CNOOC Limited"
+            },
+            {
+              "source_doc": "2025-00070",
+              "quote": "China National Offshore Oil Corporation (CNOOC)"
+            }
+          ]
+        },
+        {
+          "kind": "listed_elsewhere",
+          "transition": "2024→2025",
+          "name": "Hesai Technology Co., Ltd.",
+          "to": "",
+          "reader_note": "Removed and designated again by notices published October 29, 2024 (89 FR 86230), which reprint, in the correct order, notices first published October 23, 2024 (89 FR 84555; 89 FR 84547, designation at 84548). The January 2025 list does not print Hesai among its names; its footnote 1 states that Hesai \"remains a Chinese military company\". The 2026 list prints \"Hesai Group (also known as Hesai Technology Co., Ltd.)\".",
+          "evidence": [
+            {
+              "source_doc": "2024-25167",
+              "quote": "to publicly reflect that Hesai Technology Co., Ltd. (Hesai), the designated company, was removed from the Chinese Military Companies list on the basis of the original listing record and then added to the list on a new record based on the latest information available."
+            },
+            {
+              "source_doc": "2024-25168",
+              "quote": "The Deputy Secretary of Defense has decided to delist the following entity from the list of ``Chinese military companies'' in accordance with section 1260H, without prejudice to relisting the entity on additional or supplementary grounds:"
+            },
+            {
+              "source_doc": "2024-25169",
+              "quote": "The Deputy Secretary of Defense has determined that the following entity qualifies as a ``Chinese military company'' in accordance with section 1260H:"
+            },
+            {
+              "source_doc": "2025-00070",
+              "quote": "Hesai Technology Co., Ltd. was previously identified as and remains a Chinese military company operating in the United States"
+            },
+            {
+              "source_doc": "2026-11571",
+              "quote": "Hesai Group (also known as Hesai Technology Co., Ltd.)"
+            }
+          ]
+        },
+        {
+          "kind": "different_name",
+          "transition": "2024→2025",
+          "name": "SMIC Northern Integrated Circuit Manufacturing (Beijing) Co., Ltd",
+          "to": "Semiconductor Manufacturing North China (Beijing) Corporation",
+          "reader_note": "The 2024 list prints \"SMIC Northern Integrated Circuit Manufacturing (Beijing) Co., Ltd (SMIC NICM)\"; the 2025 list prints \"Semiconductor Manufacturing North China (Beijing) Corporation\" among SMIC's entries and not the earlier name. No notice removes either. The lists do not state that these are the same company.",
+          "evidence": [
+            {
+              "source_doc": "2024-06895",
+              "quote": "SMIC Northern Integrated Circuit Manufacturing (Beijing) Co., Ltd (SMIC NICM)"
+            },
+            {
+              "source_doc": "2025-00070",
+              "quote": "Semiconductor Manufacturing North China (Beijing) Corporation"
+            }
+          ]
+        },
+        {
+          "kind": "rename",
+          "transition": "2025→2026",
+          "name": "Cheng Du Westone Information Industry Co., Ltd.",
+          "to": "CETC Cyberspace Security Technology Co., Ltd.",
+          "reader_note": "The 2026 list prints \"CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)\" [spelling as printed]; the 2025 list printed \"Cheng Du Westone Information Industry Co., Ltd.\" under CETC.",
+          "evidence": [
+            {
+              "source_doc": "2025-00070",
+              "quote": "Cheng Du Westone Information Industry Co., Ltd."
+            },
+            {
+              "source_doc": "2026-11571",
+              "quote": "CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)"
+            }
+          ]
+        },
+        {
+          "kind": "no_notice",
+          "transition": "2025→2026",
+          "name": "Guangzhou Wenchong Shipyard Co., Ltd.",
+          "to": "",
+          "reader_note": "Guangzhou Wenchong Shipyard Co., Ltd. — listed 2025 (90 FR 1106, under COMEC). Not printed in the 2026 list (91 FR 35192). No removal notice; no reason stated.",
+          "evidence": [
+            {
+              "source_doc": "2025-00070",
+              "quote": "Guangzhou Wenchong Shipyard Co., Ltd."
+            },
+            {
+              "source_doc": "2026-11571",
+              "quote": "COMEC subsidiaries: Guangzhou Wenchuan Heavy Industry Co., Ltd., and Huacheng (Tianjin) Ship Leasing Co., Ltd.)"
+            }
+          ]
+        },
+        {
+          "kind": "different_name",
+          "transition": "2025→2026",
+          "name": "China Communications Constructions USA, Inc.",
+          "to": "China Communications Construction (USA) Co., Ltd.",
+          "reader_note": "The 2025 list prints \"China Communications Constructions USA, Inc.\" under CCCG; the 2026 list prints \"China Communications Construction (USA) Co., Ltd.\" under CCCG. The 2026 list's removals name China Traffic Construction USA, Inc., not this company. The lists do not state a name change.",
+          "evidence": [
+            {
+              "source_doc": "2025-00070",
+              "quote": "China Communications Constructions USA, Inc."
+            },
+            {
+              "source_doc": "2026-11571",
+              "quote": "China Communications Construction (USA) Co., Ltd."
+            }
+          ]
+        },
+        {
+          "kind": "different_name",
+          "transition": "2025→2026",
+          "name": "China Unicom Group (BVI) Co., Ltd.",
+          "to": "China Unicom Group Corporation (BVI) Co., Ltd.",
+          "reader_note": "Printed as \"China Unicom Group (BVI) Co., Ltd.\" in 2025 and \"China Unicom Group Corporation (BVI) Co., Ltd.\" in 2026, in the same position among China Unicom's entries.",
+          "evidence": [
+            {
+              "source_doc": "2025-00070",
+              "quote": "China Unicom Group (BVI) Co., Ltd."
+            },
+            {
+              "source_doc": "2026-11571",
+              "quote": "China Unicom Group Corporation (BVI) Co., Ltd."
+            }
+          ]
+        }
+      ],
+      "pdf_sources": [
+        {
+          "document": "dow-2021-06-03",
+          "title": "Entities Identified as Chinese Military Companies Operating in the United States in Accordance with Section 1260H of the William M. (\"Mac\") Thornberry National Defense Authorization Act for Fiscal Year 2021 (PUBLIC LAW 116-283)",
+          "release_date": "2021-06-03",
+          "official_url": "https://media.defense.gov/2021/Jun/03/2002734519/-1/-1/0/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-US.PDF",
+          "archived_url": "https://web.archive.org/web/20210603231632/https://media.defense.gov/2021/Jun/03/2002734519/-1/-1/0/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-US.PDF",
+          "archived_at": "2021-06-03T23:16:32Z",
+          "sha256": "150ebacd1f1c4170109cbe6a23dfe7efc1c773b44baac916bee4479665e1d3c8"
+        },
+        {
+          "document": "dow-2022-10-05",
+          "title": "1260H Companies",
+          "release_date": "2022-10-05",
+          "official_url": "https://media.defense.gov/2022/Oct/05/2003091659/-1/-1/0/1260H%20COMPANIES.PDF",
+          "archived_url": "https://web.archive.org/web/20221005182056/https://media.defense.gov/2022/Oct/05/2003091659/-1/-1/0/1260H%20COMPANIES.PDF",
+          "archived_at": "2022-10-05T18:20:56Z",
+          "sha256": "a9626f3d9f55d36b9ba8eb213ff802e1e1d582b31b2d06e53672ff6e08182157"
+        },
+        {
+          "document": "dow-2024-01-31",
+          "title": "Entities Identified as Chinese Military Companies Operating in the United States in Accordance With Section 1260H of the William M. (“Mac”) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+          "release_date": "2024-01-31",
+          "official_url": "https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF",
+          "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF",
+          "archived_at": "2024-01-31T19:46:54Z",
+          "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+        },
+        {
+          "document": "dow-2025-01-07",
+          "title": "Entities Identified as Chinese Military Companies Operating in the United States",
+          "release_date": "2025-01-07",
+          "official_url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF",
+          "archived_url": "https://web.archive.org/web/20250108015922/https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF",
+          "archived_at": "2025-01-08T01:59:22Z",
+          "sha256": "1d9daf2a07698475a509be9d5a1e485ed6deb2d0375fa81fb9a2b17088bba9eb"
+        },
+        {
+          "document": "dow-2026-06-08",
+          "title": "Entities-Identified-as-Chinese-Military-Companies-Operating-in-the-United-States",
+          "release_date": "2026-06-08",
+          "official_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
+          "archived_url": "https://web.archive.org/web/20260608195649/https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
+          "archived_at": "2026-06-08T19:56:49Z",
+          "sha256": "cdbde593ef38e857b25bcaa522bc7781412ac7e858cc956c3333c6e080ff09bf"
+        }
+      ]
+    }
+  },
   "archive_urls": {
     "2026-09-13.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-13-1f5c06bd.html",
     "2026-09-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-09-14-55836652.html",
@@ -84186,7 +85794,8 @@
     "2026-10-26.html": "https://docs.natsecnoir.com/ledger/archive/2026-10-26-1abab30c.html",
     "2026-11-07.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-07-0bd22c8e.html",
     "2026-11-14.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-14-0d693c8f.html",
-    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html"
+    "2026-11-21.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html",
+    "2026-11-23.html": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-e38c6ffc.html"
   },
-  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-21-01576c9c.html"
+  "newest_archive_url": "https://docs.natsecnoir.com/ledger/archive/2026-11-23-e38c6ffc.html"
 }
