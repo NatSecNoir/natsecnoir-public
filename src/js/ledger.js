@@ -119,7 +119,15 @@
     var cols = Array.prototype.slice.call(colgroup.children);
     var ths = Array.prototype.slice.call(table.tHead.rows[0].cells);
     if (cols.length !== ths.length) return;
-    var STORE = "nsn-ledger-colw";
+    // One saved layout per page: the ledgers share a column count, so a single key let one page's
+    // widths squeeze another's last column to a sliver (seen on Conditional Approvals, 2026-11-22).
+    var STORE = "nsn-ledger-colw:" + location.pathname;
+    var LAST_MIN = 140; // px the auto-width last column always keeps
+    function keepLast() {
+      var sum = 0;
+      cols.forEach(function (c, i) { if (i < last) sum += parseFloat(c.style.width) || 0; });
+      table.style.minWidth = sum ? (sum + LAST_MIN) + "px" : "";
+    }
     function saved() { try { return JSON.parse(localStorage.getItem(STORE) || "null"); } catch (e) { return null; } }
     function store() {
       try { localStorage.setItem(STORE, JSON.stringify(cols.map(function (c) { return parseFloat(c.style.width) || 0; }))); } catch (e) {}
@@ -130,6 +138,7 @@
       // Restore every column but the last as a fixed width; the last stays
       // auto so it absorbs any slack and the table always fills 100%.
       cols.forEach(function (c, i) { if (i < last && init[i] > 0) c.style.width = init[i] + "px"; });
+      keepLast();
     }
     function freeze() {
       // Pin every column except the last to its current pixel width. Leaving
@@ -138,6 +147,7 @@
       // the scroll wrapper when a column grows past the available width.
       ths.forEach(function (th, i) { if (i < last) cols[i].style.width = th.getBoundingClientRect().width + "px"; });
       cols[last].style.width = "";
+      keepLast();
     }
     ths.forEach(function (th, i) {
       var grip = document.createElement("span");
@@ -152,7 +162,7 @@
         grip.classList.add("active");
         document.body.classList.add("col-resizing");
         try { grip.setPointerCapture(ev.pointerId); } catch (e) {}
-        function move(mv) { cols[i].style.width = Math.max(44, startW + (mv.clientX - startX)) + "px"; }
+        function move(mv) { cols[i].style.width = Math.max(44, startW + (mv.clientX - startX)) + "px"; keepLast(); }
         function up() {
           grip.classList.remove("active");
           document.body.classList.remove("col-resizing");
