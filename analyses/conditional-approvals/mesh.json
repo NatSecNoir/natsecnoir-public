@@ -1284,30 +1284,6 @@
       }
     },
     {
-      "key": "da-26-1130-micro-star-international-co-ltd-routers",
-      "kind": "ingest",
-      "label": "Micro-Star International Co., Ltd.",
-      "date": "2026-10-26T00:37:30Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "Radix series GRBE94 and GRBE36 routers",
-      "definitions": [],
-      "fields": {
-        "category": "routers",
-        "issuer": "DoW",
-        "termination_date": null,
-        "record_id": "2026-10-23-da-26-1130a1-7fca7e"
-      },
-      "record_id": "2026-10-23-da-26-1130a1-7fca7e",
-      "citation": {
-        "record_id": "2026-10-23-da-26-1130a1-7fca7e",
-        "page": 2,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "da-26-1130-vulcan-robotics-inc-robotics",
       "kind": "ingest",
       "label": "Vulcan Robotics Inc.",
@@ -1836,30 +1812,6 @@
       }
     },
     {
-      "key": "da-26-1243-engenius-technologies-inc-routers",
-      "kind": "ingest",
-      "label": "EnGenius Technologies, Inc.",
-      "date": "2026-11-21T13:12:27Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "EHR320 BE3600 and EHR330 BE14000 Wi-Fi 7 wireless routers",
-      "definitions": [],
-      "fields": {
-        "category": "routers",
-        "issuer": "DoW",
-        "termination_date": "2028-05-15",
-        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
-      },
-      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
-      "citation": {
-        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
-        "page": 3,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
       "key": "da-26-1243-zyxel-communications-inc-routers",
       "kind": "ingest",
       "label": "Zyxel Communications Inc.",
@@ -1892,30 +1844,6 @@
       "source": "run",
       "nsd": null,
       "text": "“Jeff” and “Adventure” quadruped robotic platforms",
-      "definitions": [],
-      "fields": {
-        "category": "robotics",
-        "issuer": "DoW",
-        "termination_date": null,
-        "record_id": "2026-11-20-da-26-1243a1-03a5bb"
-      },
-      "record_id": "2026-11-20-da-26-1243a1-03a5bb",
-      "citation": {
-        "record_id": "2026-11-20-da-26-1243a1-03a5bb",
-        "page": 3,
-        "paragraph": null,
-        "quote": ""
-      }
-    },
-    {
-      "key": "da-26-1243-bluepath-robotics-inc-robotics",
-      "kind": "ingest",
-      "label": "BLUEPATH ROBOTICS, INC.",
-      "date": "2026-11-21T13:12:41Z",
-      "updates": [],
-      "source": "run",
-      "nsd": null,
-      "text": "O1000 PLATFORM advanced mobile robot (AMR) and OM1500 TUNNEL AMR",
       "definitions": [],
       "fields": {
         "category": "robotics",
