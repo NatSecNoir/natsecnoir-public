@@ -20,7 +20,7 @@ description: The current Section 1260H list of Chinese military companies and ev
       <li>Reasons are quoted word for word from the document linked beside them. An ellipsis (…) marks words left out; the full text is in the linked document.</li>
       <li><b>Bold</b> markers — “No specific reason stated in …” and “No removal notice; no reason stated.” — are this site's. The absence of a stated reason implies nothing.</li>
       <li>A <i>group heading</i> is printed once over several names; an <i>entity note</i> is printed beside one name.</li>
-      <li>“Removed” is the date the removing document was published. Where the Federal Register and the Department's list PDF differ, both are linked.</li>
+      <li>“Listed” is the date the Department released the first list that prints the company, followed through renames; a company removed and listed again keeps its first date. “Removed” is the date the removing document was published. Where the Federal Register and the Department's list PDF differ, both are linked.</li>
       <li>Archived copies are Wayback Machine captures, kept because <code>media.defense.gov</code> may refuse automated access.</li>
       <li>Not legal advice and not an official source. Leaving this list is not a finding about a company's status under any other list.</li>
     </ul>
@@ -33,14 +33,20 @@ description: The current Section 1260H list of Chinese military companies and ev
   </details>
 
   <h2 id="current">On the list now <span class="meta">({{ h.current.length }})</span></h2>
+  <div class="controls">
+    <input class="tq" type="search" data-for="t-current" placeholder="Filter by name, aka, or parent…" aria-label="Filter the current list">
+    <span class="count" data-for="t-current"></span>
+  </div>
   <div class="scroll">
-  <table class="ltable current">
-    <colgroup><col style="width:48%"><col style="width:34%"><col style="width:18%"></colgroup>
-    <thead><tr><th>Entity</th><th>AKA</th><th>Cite</th></tr></thead>
+  <table class="ltable current" id="t-current" data-noun="companies">
+    <colgroup><col style="width:42%"><col style="width:30%"><col style="width:12%"><col style="width:16%"></colgroup>
+    <thead><tr><th data-key="name"><span class="lab">Entity</span></th><th data-key="aka"><span class="lab">AKA</span></th><th data-key="listed"><span class="lab">Listed</span></th><th data-key="cite"><span class="lab">Cite</span></th></tr></thead>
     <tbody>
     {% for c in h.current_tree %}
-      <tr class="d{{ c.depth if c.depth < 3 else 3 }}{% if c.children %} parent{% endif %}"><td>{% if c.depth %}<span class="sub-mark" aria-hidden="true">↳</span>{% endif %}{{ c.name }}{% if c.children %} <span class="kids">{{ c.children }} listed under</span>{% endif %}{% if c.orphan %}<span class="basis">listed under {{ c.parent }}</span>{% endif %}</td>
+      <tr id="c-{{ c.name | slugify }}" class="d{{ c.depth if c.depth < 3 else 3 }}{% if c.children %} parent{% endif %}" data-anc="{% for a in c.anc %}c-{{ a | slugify }} {% endfor %}"
+          data-listed="{{ c.first_listed }}" data-search="{{ (c.name ~ ' ' ~ (c.aka | join(' ')) ~ ' ' ~ c.parent ~ ' ' ~ c.first_listed) | lower }}"><td>{% if c.depth %}<span class="sub-mark" aria-hidden="true">↳</span>{% endif %}<span class="nm">{{ c.name }}</span>{% if c.depth %}<span class="basis under">under {{ c.parent }}</span>{% endif %}{% if c.children %} <span class="kids">{{ c.children }} listed under</span>{% endif %}{% if c.orphan %}<span class="basis">listed under {{ c.parent }}</span>{% endif %}</td>
         <td>{{ c.aka | join('; ') }}</td>
+        <td class="date">{{ c.first_listed }}</td>
         <td>{% set ch = c.source_url | govsource %}{% if ch %}<a href="{{ ch }}" target="_blank" rel="noopener noreferrer">{{ c.cite }}</a>{% else %}{{ c.cite }}{% endif %}</td></tr>
     {% endfor %}
     </tbody>
@@ -48,16 +54,21 @@ description: The current Section 1260H list of Chinese military companies and ev
   </div>
 
   <h2 id="removals">Removals <span class="meta">({{ h.removals }})</span></h2>
+  <div class="controls">
+    <input class="tq" type="search" data-for="t-removals" placeholder="Filter by name, date, reason, or source…" aria-label="Filter the removals">
+    <span class="count" data-for="t-removals"></span>
+  </div>
   <div class="scroll">
-  <table class="ltable history">
-    <colgroup><col style="width:28%"><col style="width:12%"><col style="width:40%"><col style="width:20%"></colgroup>
-    <thead><tr><th>Entity</th><th>Removed</th><th>Reason</th><th>Sources</th></tr></thead>
+  <table class="ltable history" id="t-removals" data-noun="rows">
+    <colgroup><col style="width:25%"><col style="width:10%"><col style="width:11%"><col style="width:36%"><col style="width:18%"></colgroup>
+    <thead><tr><th data-key="name"><span class="lab">Entity</span></th><th data-key="listed"><span class="lab">Listed</span></th><th data-key="date" aria-sort="descending"><span class="lab">Removed</span></th><th data-key="reason"><span class="lab">Reason</span></th><th data-key="src"><span class="lab">Sources</span></th></tr></thead>
     <tbody>
     {% for e in h.events | reverse %}
       {% set r = e | briefreason %}
-      <tr id="{{ 'removed' if e.event == 'removal' else 'relisted' }}-{{ e.name | slugify }}"{% if e.event != 'removal' %} class="relist"{% endif %}>
+      <tr id="{{ 'removed' if e.event == 'removal' else 'relisted' }}-{{ e.name | slugify }}"{% if e.event != 'removal' %} class="relist"{% endif %} data-date="{{ e.removed_on or e.date }}" data-listed="{{ e.first_listed }}">
         <td>{{ e.name }}{% if e.aka and e.aka.length %}<span class="basis">also {{ e.aka | join('; ') }}</span>{% endif %}
           {% if e.status and e.status != "removed" %}<span class="basis">{{ e.status }}</span>{% endif %}</td>
+        <td class="date">{{ e.first_listed }}</td>
         <td class="date">{% if e.event == "removal" %}{{ e.removed_on }}{% else %}re-listed {{ e.date }}{% endif %}</td>
         <td>
           {% if e.event == "removal" and e.reason and (e.reason.startsWith("No specific reason stated") or not e.statements.length) %}<b>{{ e.reason }}</b>
@@ -96,3 +107,4 @@ description: The current Section 1260H list of Chinese military companies and ev
   {% endif %}
   {% endif %}
 </article>
+<script src="/js/history-table.js" defer></script>

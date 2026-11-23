@@ -492,4 +492,17 @@ article.fulltext.structured :target { background: var(--raised); outline: 3px so
 .history-page .ltable.current tr.parent td:first-child { font-weight: 600; }
 .history-page .ltable.current tr.d0 td { border-top: 1px solid color-mix(in srgb, var(--ink) 35%, transparent); }
 .history-page .ltable.current .kids { font: 400 11px var(--mono); color: var(--muted); white-space: nowrap; }
+.history-page .controls .tq { flex: 1 1 280px; max-width: 460px; background: transparent; border: 1px solid var(--line); color: var(--ink); font: 14px var(--sans); padding: 8px 11px; }
+.history-page .controls .tq::placeholder { color: var(--muted); } .history-page .controls .tq:focus { outline: none; border-color: var(--ink); }
+.history-page .ltable thead th[data-key] { cursor: pointer; user-select: none; position: sticky; }
+.history-page .ltable thead th[aria-sort="ascending"] .lab::after { content: " ▲"; font-size: 9px; }
+.history-page .ltable thead th[aria-sort="descending"] .lab::after { content: " ▼"; font-size: 9px; }
+/* the "under <parent>" line shows only once a sort or filter breaks the grouping */
+.history-page .ltable.current .under { display: none; }
+.history-page .ltable.current.flat .under { display: block; }
+.history-page .ltable.current.flat tr td:first-child { padding-left: 10px; font-weight: 400; }
+.history-page .ltable.current.flat .sub-mark, .history-page .ltable.current.flat .kids { display: none; }
+.history-page .ltable.current.flat tr.d0 td { border-top: 0; }
+.history-page .ltable .noresults td { color: var(--muted); text-align: center; padding: 22px; }
 @media (max-width: 820px) { .history-page .ltable { min-width: 760px; } }
+.history-page .ltable.current tr.ctx td { color: var(--muted); }

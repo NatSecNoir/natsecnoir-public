@@ -185,7 +185,8 @@
             "Not in the Federal Register version of this list (89 FR 22698)."
           ],
           "last_verified": "2026-11-22",
-          "last_listed_in": "dow-2022-10-05"
+          "last_listed_in": "dow-2022-10-05",
+          "first_listed": "2021-06-03"
         },
         {
           "event": "removal",
@@ -574,6 +575,31 @@
           "archived_url": "https://web.archive.org/web/20240131194654/https://media.defense.gov/2024/Jan/31/2003384819/-1/-1/0/1260H-LIST.PDF",
           "archived_at": "2024-01-31T19:46:54Z",
           "sha256": "1dea7f7c798ce13beb024738e377b8b914cfb9308755a9c06e5c00dcaaac912f"
+        }
+      ],
+      "listed": [
+        {
+          "names": [
+            "INSPUR GROUP CO., LTD.",
+            "Inspur"
+          ],
+          "first_listed": "2022-10-05",
+          "list": "2022"
+        },
+        {
+          "names": [
+            "Hesai Technology Co., Ltd.",
+            "Hesai"
+          ],
+          "first_listed": "2024-01-31",
+          "list": "2024"
+        },
+        {
+          "names": [
+            "Removed Example Co., Ltd."
+          ],
+          "first_listed": "2025-01-07",
+          "list": "2025"
         }
       ]
     }
