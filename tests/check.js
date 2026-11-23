@@ -585,6 +585,10 @@ for (const m of hart.matchAll(/<a href="([^"]+)"/g)) {
 }
 assert.match(hflat, /SHA-256 [0-9a-f]{64}/, "each saved DoW PDF lists its SHA-256");
 assert.match(hflat, /On the list now <span class="meta">\(2\)<\/span>/, "current members of the list are shown");
+// Each current company sits under the parent it is listed under; a parent not on the list leaves
+// the company at the top level, still naming the parent.
+assert.equal((hart.match(/<tr class="d\d/g) || []).length, 2, "one current-list row per company");
+assert.match(hflat, /<tr class="d0"><td>Subsidiary Example Ltd\.<span class="basis">listed under Parent Example Group<\/span>/, "an unlisted parent is named on its company's row");
 
 // ---- record and analysis pages (editorial redesign, U4) ----
 assert.match(page, /<pre class="cite">NatSec Noir, "Fixture Order with &lt;b&gt;bold&lt;\/b&gt; in the title", 2026-01-01, https:\/\/natsecnoir\.com\/records\/2026-01-01-fixture-order-aaaaaa\/<\/pre>/, "citation block carries site, title, doc_date and canonical URL");

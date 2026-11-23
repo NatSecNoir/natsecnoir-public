@@ -51,6 +51,33 @@ export default function () {
                             source_url: m.source_url || "" })),
     removals: (histories[hslug].events || []).filter((x) => x.event === "removal").length,
   } : null;
+  // The current list as printed: each company directly under the parent it is listed under
+  // (matched by name or aka), parents alphabetical, children alphabetical, any depth. A parent that
+  // is not itself on the list leaves its child at the top level, still showing "listed under".
+  if (history) {
+    const byName = new Map();
+    for (const c of history.current) for (const n of [c.name, ...c.aka]) byName.set(n.toLowerCase(), c);
+    const kids = new Map();
+    const tops = [];
+    for (const c of history.current) {
+      const p = c.parent && byName.get(c.parent.toLowerCase());
+      if (p && p !== c) { if (!kids.has(p)) kids.set(p, []); kids.get(p).push(c); }
+      else tops.push(c);
+    }
+    const by = (a, b) => a.name.localeCompare(b.name);
+    const rows = [];
+    const walk = (c, depth, seen) => {
+      if (seen.has(c)) return;
+      seen.add(c);
+      const ch = (kids.get(c) || []).sort(by);
+      rows.push({ ...c, depth, children: ch.length, orphan: depth === 0 && !!c.parent });
+      for (const k of ch) walk(k, depth + 1, seen);
+    };
+    const seen = new Set();
+    for (const c of tops.sort(by)) walk(c, 0, seen);
+    for (const c of history.current) if (!seen.has(c)) walk(c, 0, seen);  // a parent cycle, if ever
+    history.current_tree = rows;
+  }
   return {
     present: true,
     ...led,

@@ -485,4 +485,11 @@ article.fulltext.structured :target { background: var(--raised); outline: 3px so
 .history-page tr:target > td { background: color-mix(in srgb, var(--ink) 8%, transparent); }
 .history-page ul.names { padding-left: 18px; max-width: 86ch; font-size: 14px; }
 .history-page ul.names li { margin: 8px 0; }
+.history-page .ltable.current tr.d1 td:first-child { padding-left: 30px; }
+.history-page .ltable.current tr.d2 td:first-child { padding-left: 50px; }
+.history-page .ltable.current tr.d3 td:first-child { padding-left: 70px; }
+.history-page .ltable.current .sub-mark { margin: 0 6px 0 -16px; color: var(--muted); }
+.history-page .ltable.current tr.parent td:first-child { font-weight: 600; }
+.history-page .ltable.current tr.d0 td { border-top: 1px solid color-mix(in srgb, var(--ink) 35%, transparent); }
+.history-page .ltable.current .kids { font: 400 11px var(--mono); color: var(--muted); white-space: nowrap; }
 @media (max-width: 820px) { .history-page .ltable { min-width: 760px; } }

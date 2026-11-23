@@ -35,13 +35,12 @@ description: The current Section 1260H list of Chinese military companies and ev
   <h2 id="current">On the list now <span class="meta">({{ h.current.length }})</span></h2>
   <div class="scroll">
   <table class="ltable current">
-    <colgroup><col style="width:34%"><col style="width:26%"><col style="width:24%"><col style="width:16%"></colgroup>
-    <thead><tr><th>Entity</th><th>AKA</th><th>Listed under</th><th>Cite</th></tr></thead>
+    <colgroup><col style="width:48%"><col style="width:34%"><col style="width:18%"></colgroup>
+    <thead><tr><th>Entity</th><th>AKA</th><th>Cite</th></tr></thead>
     <tbody>
-    {% for c in h.current %}
-      <tr><td>{{ c.name }}</td>
+    {% for c in h.current_tree %}
+      <tr class="d{{ c.depth if c.depth < 3 else 3 }}{% if c.children %} parent{% endif %}"><td>{% if c.depth %}<span class="sub-mark" aria-hidden="true">↳</span>{% endif %}{{ c.name }}{% if c.children %} <span class="kids">{{ c.children }} listed under</span>{% endif %}{% if c.orphan %}<span class="basis">listed under {{ c.parent }}</span>{% endif %}</td>
         <td>{{ c.aka | join('; ') }}</td>
-        <td>{{ c.parent }}</td>
         <td>{% set ch = c.source_url | govsource %}{% if ch %}<a href="{{ ch }}" target="_blank" rel="noopener noreferrer">{{ c.cite }}</a>{% else %}{{ c.cite }}{% endif %}</td></tr>
     {% endfor %}
     </tbody>
