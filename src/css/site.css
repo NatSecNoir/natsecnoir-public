@@ -2,13 +2,15 @@
    toggle. The design reference is mockups/natsecnoir-index.html and mockups/v2-public-record.html in the
    corpus repo (their <head> comment blocks are the spec: tokens, type roles, theme, vocabulary).
    Retone through the :root tokens only; tests/check.js whitelists the intentional navy hexes and rejects
-   any other non-greyscale colour literal in this file. Light is the default (owner directive 2026-09-27);
-   dark is reached only via the #theme toggle, never by OS preference.
+   any other non-greyscale colour literal in this file. Dark is the default (owner directive 2026-11-22,
+   reversing 2026-09-27); light is reached via the #theme toggle and remembered, never by OS preference.
    Text uses --ink / --muted (both >=4.5:1 on --paper and --raised); --faint is for rules and decoration only. */
 :root {
   /* colour tokens (KTD1). Text: --ink, --muted. Decorative/rules: --faint, --line. Accent: --navy. */
   --paper:#FFFFFF; --raised:#F7F7F7; --ink:#0C0F14; --muted:#5B6270; --faint:#8E96A3;
   --line:#E2E2E2; --navy:#24406B; --topband:#090B0F; --topband-ink:#F1F4F7;
+  /* table row hover: a cool blue-grey in light, a faint navy wash in dark (owner directive 2026-11-22) */
+  --row-hover:#EEF1F5;
   /* status semantic colours (U6, Conditional Approvals) — the one non-greyscale/navy exception,
      used only on exemption-status badges; the palette guard whitelists exactly these. */
   --ok:#1B7A47; --ok-bg:rgba(27,122,71,.10); --warn:#8A5A00; --warn-bg:rgba(138,90,0,.12);
@@ -23,13 +25,14 @@
   /* measures */
   --page:1240px; --gut:48px; --rail:300px; --railgap:56px;
 }
-/* dark theme — explicit opt-in only; no prefers-color-scheme auto-dark (owner directive 2026-09-27) */
+/* dark theme — the default (set before first paint in base.njk); no prefers-color-scheme (owner directive 2026-11-22) */
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper:#0D1015; --raised:#13161C; --ink:#E8ECF1; --muted:#9AA3B0; --faint:#68717F;
   --line:rgba(255,255,255,0.10); --navy:#6F9BD8; --topband:#04060A; --topband-ink:#F1F4F7;
   --ok:#5BC49A; --ok-bg:rgba(91,196,154,.14); --warn:#E0B04A; --warn-bg:rgba(224,176,74,.14);
   --bad:#EC7A6E; --bad-bg:rgba(236,122,110,.14);
+  --row-hover:rgba(111,155,216,.07);
 }
 @media (max-width:640px){ :root{ --gut:16px; } }
 * { box-sizing: border-box; }
@@ -327,7 +330,7 @@ tr.detail .vchk { font-size: inherit; cursor: default; }
   background: var(--paper); border-bottom: 1px solid var(--ink); font: 600 11px/1.3 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
 #ledger thead th[aria-sort="ascending"] .lab::after { content: " ▲"; font-size: 9px; }
 #ledger thead th[aria-sort="descending"] .lab::after { content: " ▼"; font-size: 9px; }
-#ledger tbody tr.row:hover > td { background: rgba(0,0,0,.03); }
+#ledger tbody tr.row:hover > td { background: var(--row-hover); }
 #ledger tbody tr.former td { color: var(--muted); }
 #ledger .tag { display: inline-block; font: 11px var(--mono); padding: 1px 6px; margin: 0 4px 3px 0; border: 1px solid var(--line); color: var(--ink); white-space: nowrap; }
 .expand { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; flex: 0 0 auto; background: transparent; border: 1px solid var(--line); color: var(--ink); font: 500 15px var(--sans); line-height: 1; padding: 0; margin-right: 7px; cursor: pointer; vertical-align: -2px; }
@@ -411,8 +414,14 @@ body.col-resizing { cursor: col-resize; user-select: none; }
 .approvals-page .asof-banner { display: none; margin-top: 16px; border: 1px solid var(--warn); background: var(--warn-bg); border-radius: 8px; padding: 11px 16px; font-size: 14px; color: var(--ink); }
 .approvals-page .asof-banner.on { display: block; }
 .approvals-page .asof-banner code { font-family: var(--mono); }
-.approvals-page .exports { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
-.approvals-page .exports a { font-weight: 600; }
+.approvals-page .lhead.lhead-plain { display: block; }
+.approvals-page .lhead-plain h1 { margin-bottom: 14px; }
+.approvals-page .lhead-plain .lede { font: 400 19px/1.55 var(--text); color: var(--ink); max-width: 62ch; margin: 0 0 12px; }
+.approvals-page .lhead-plain .fine { font-size: 13.5px; color: var(--muted); margin: 0; max-width: none; }
+.approvals-page .lhead-plain .fine a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.approvals-page .lhead-plain .dot { margin: 0 6px; opacity: .6; }
+.approvals-page .amend-link { margin-left: 4px; font-size: 12.5px; color: var(--muted); white-space: nowrap; text-decoration: underline dotted; text-underline-offset: 3px; }
+.approvals-page .ledger-foot { font-size: 13px; color: var(--muted); margin: 28px 0 60px; max-width: 70ch; }
 .approvals-page .chip-group { display: inline-flex; align-items: center; gap: 6px; }
 .approvals-page .grp-lbl { font: 500 9.5px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--faint); margin-right: 2px; }
 .approvals-page .chip-sep { display: inline-block; width: 1px; height: 18px; background: var(--line); }
@@ -478,7 +487,7 @@ article.fulltext.structured :target { background: var(--raised); outline: 3px so
 .history-page .ltable th, .history-page .ltable td { text-align: left; padding: 7px 10px; vertical-align: top; overflow-wrap: anywhere; border-bottom: 1px solid var(--line); }
 .history-page .ltable thead th { position: sticky; top: 0; z-index: 2; white-space: nowrap; background: var(--paper); border-bottom: 1px solid var(--ink);
   font: 600 11px/1.3 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
-.history-page .ltable tbody tr:hover > td { background: rgba(0,0,0,.03); }
+.history-page .ltable tbody tr:hover > td { background: var(--row-hover); }
 .history-page .ltable td.date { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
 .history-page .ltable td.src a, .history-page .ltable td.src span { display: block; font: 12px/1.5 var(--mono); }
 .history-page .ltable tr.relist td { color: var(--muted); }

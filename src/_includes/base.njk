@@ -6,10 +6,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Gelasio:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script>
-  /* Apply a stored theme before first paint to avoid a flash of the wrong palette. Light is the
-     default: only an explicit stored choice switches to dark; OS preference is not followed. */
-  try { var t = localStorage.getItem('theme');
-    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  /* Set the theme before first paint to avoid a flash of the wrong palette. Dark is the default
+     (owner directive 2026-11-22); a stored choice of light, made with the toggle, is kept. OS
+     preference is not followed. */
+  var t = 'dark';
+  try { if (localStorage.getItem('theme') === 'light') t = 'light'; } catch (e) {}
+  document.documentElement.setAttribute('data-theme', t);
 </script>
 <link rel="stylesheet" href="/css/site.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">

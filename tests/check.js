@@ -332,7 +332,7 @@ assert.equal(ordJson.rows.find((r) => r.id.includes("hiefo")).deadline_date, "20
 assert.ok(!fs.readFileSync(path.join(outFix, "analyses/fixture-orders/index.html"), "utf8").includes("Docket / TT case"), "orders page is not the TT template");
 
 // ---- wide ledger header on every ledger page (editor decision 2026-10-11) ----
-for (const id of ["fixture-ledger", "fixture-approvals", "fixture-orders"]) {
+for (const id of ["fixture-ledger", "fixture-orders"]) {
   const html = fs.readFileSync(path.join(outFix, `analyses/${id}/index.html`), "utf8");
   assert.match(html, /<header class="lhead">[\s\S]*?<h1>[\s\S]*?<div class="meta-col">[\s\S]*?<p class="stamp">[\s\S]*?<\/header>/, `${id} renders the wide two-column header`);
 }
@@ -447,10 +447,14 @@ assert.equal(approvalsRows[0].id, PN2, "the newest PN (the placeholder) sorts fi
 
 // ---- Conditional Approvals public page + exports (U6) ----
 const appv = fs.readFileSync(path.join(outFix, "analyses/fixture-approvals/index.html"), "utf8");
-// R11: the authority callout carries the fcc.gov link and the "derivative / FCC governs" wording.
-assert.match(appv, /href="https:\/\/www\.fcc\.gov\/supplychain\/coveredlist"/, "authority callout links the fcc.gov Covered List");
-assert.match(appv, /reviewed, reader-friendly derivative/, "authority callout carries the derivative wording");
-assert.match(appv, /the FCC tab governs/, "authority callout states the FCC tab governs (R11)");
+// R11 (plain header, editor decision 2026-11-22): one standfirst in the notices' own wording, then a
+// single line linking the fcc.gov Covered List, which governs. No breadcrumb, eyebrow or currency column.
+assert.match(appv, /href="https:\/\/www\.fcc\.gov\/supplychain\/coveredlist"/, "the header links the fcc.gov Covered List");
+assert.match(appv, /which governs if the two differ/, "the header states the FCC list governs (R11)");
+assert.match(appv, /foreign-produced devices are exempt from the FCC Covered List because the Department of War/, "the standfirst uses the notices' wording");
+assert.ok(!/class="crumb"|class="eyebrow"|class="meta-col"|reader-friendly derivative/.test(appv), "the approvals header carries no breadcrumb, eyebrow, currency column or derivative callout");
+assert.match(appv, /data-list="uas" aria-pressed="false">Drones<\/button>/, "the uas chip is labelled Drones");
+assert.ok(!/>Uas</.test(appv), "no cell or chip reads Uas");
 // The approvals fixture is rendered once (one article <h1>), not double-rendered by the record-grain template.
 assert.equal((appv.match(/<h1>Conditional Approvals \(fixture\)<\/h1>/g) || []).length, 1, "the approvals fixture renders exactly one title h1");
 // R6: an accepted row carries data-terminates equal to its fixture date and a build-time status cell.
@@ -647,6 +651,10 @@ for (const f of walk(outFix)) {
   assert.doesNotMatch(html, /<div class="sub"/, `no secondary nav sub-row on ${path.relative(outFix, f)}`);
 }
 assert.ok(fs.existsSync(path.join(outFix, "js/theme.js")), "theme.js is published");
+// Dark is the default (owner directive 2026-11-22): the pre-paint script sets dark unless light was stored.
+const indexHtml = fs.readFileSync(path.join(outFix, "index.html"), "utf8");
+assert.match(indexHtml, /var t = 'dark';/, "the pre-paint script defaults to dark");
+assert.match(fs.readFileSync(path.join(outFix, "js/theme.js"), "utf8"), /: 'dark';/, "theme.js treats an unset theme as dark");
 
 // ---- masthead spire band (2026-09-26) ----
 // Every page opens with one black masthead band carrying the spire svg and the folded
@@ -684,10 +692,13 @@ const css = fs.readFileSync(path.join(root, "src/css/site.css"), "utf8").replace
 // literal must still be greyscale (equal-channel hex, equal-channel rgb()/rgba(), or transparent).
 const allowed = new Set(["ffffff","f7f7f7","0c0f14","5b6270","8e96a3","e2e2e2","24406b","090b0f","f1f4f7","0d1015","13161c","e8ecf1","9aa3b0","68717f","6f9bd8","04060a",
   // U6 exemption-status badges — the deliberate semantic-colour exception (light + dark ok/warn/bad).
-  "1b7a47","8a5a00","a23a32","5bc49a","e0b04a","ec7a6e"]);
+  "1b7a47","8a5a00","a23a32","5bc49a","e0b04a","ec7a6e",
+  // table row hover, light theme (cool blue-grey, 2026-11-22).
+  "eef1f5"]);
 // The status badges also carry tinted backgrounds; these exact rgb triples are the only
 // non-greyscale rgba() allowed (used only for --ok-bg/--warn-bg/--bad-bg).
-const allowedRgb = new Set(["27,122,71","138,90,0","162,58,50","91,196,154","224,176,74","236,122,110"]);
+const allowedRgb = new Set(["27,122,71","138,90,0","162,58,50","91,196,154","224,176,74","236,122,110",
+  "111,155,216"]); // --navy (dark) at 7%: the dark-theme row hover (2026-11-22)
 const offenders = [];
 for (const m of css.matchAll(/#([0-9a-f]{3,8})\b/gi)) {
   const h = m[1].toLowerCase();
@@ -700,6 +711,7 @@ for (const m of css.matchAll(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/gi)) {
   if (!(m[1] === m[2] && m[2] === m[3])) offenders.push(m[0]);
 }
 assert.deepEqual(offenders, [], "site.css uses only greyscale colour literals");
+assert.match(css, /tr\.row:hover > td \{ background: var\(--row-hover\); \}/, "ledger rows hover with the --row-hover token");
 assert.doesNotMatch(css, /\.strip[^{]*\{[^}]*position:\s*sticky/, "the strip is not sticky");
 
 // ---- litigation full text: text.json gets its own page, linked from the record rail ----
