@@ -1838,7 +1838,7 @@
     {
       "key": "da-26-1243-syncrobotic-co-ltd-robotics",
       "kind": "ingest",
-      "label": "SYNCROBOTIC CO., LTD.",
+      "label": "Syncrobotic Co., Ltd.",
       "date": "2026-11-21T13:12:37Z",
       "updates": [],
       "source": "run",
@@ -1857,7 +1857,8 @@
         "page": 3,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-23T03:32:17Z"
     },
     {
       "key": "da-26-1243-engenius-technologies-inc-routers",
@@ -1886,7 +1887,7 @@
     {
       "key": "da-26-1243-bluepath-robotics-inc-robotics",
       "kind": "ingest",
-      "label": "BLUEPATH ROBOTICS, INC.",
+      "label": "Bluepath Robotics, Inc.",
       "date": "2026-11-21T13:12:47Z",
       "updates": [],
       "source": "run",
@@ -1905,12 +1906,13 @@
         "page": 3,
         "paragraph": null,
         "quote": ""
-      }
+      },
+      "hand_edited": "2026-11-23T03:32:17Z"
     }
   ],
   "sources": {},
   "manifest": [],
-  "published_at": "2026-11-21T13:12:47Z",
+  "published_at": "2026-11-23T03:25:11Z",
   "currency_date": "2026-11-21",
-  "last_changed": "2026-11-21T13:12:47Z"
+  "last_changed": "2026-11-23T03:32:17Z"
 }
