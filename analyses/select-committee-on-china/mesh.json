@@ -6922,7 +6922,9 @@
       "kind": "ingest",
       "label": "",
       "date": "2026-11-22T07:15:20Z",
-      "updates": [],
+      "updates": [
+        "2026-11-24T07:13:22Z"
+      ],
       "source": "run",
       "nsd": null,
       "text": "report",
@@ -6931,7 +6933,7 @@
         "date": "2026-11-20",
         "type": "report",
         "who": "",
-        "committee_url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+        "committee_url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2026.11.16-joint-report-prc-ai-models-signed-final-1.pdf",
         "video_urls": [],
         "record_id": "2026-11-21-joint-investigation-report-china-is-trying-to-ge-0b6719"
       },
@@ -6947,6 +6949,6 @@
   "sources": {},
   "manifest": [],
   "published_at": "2026-11-22T07:15:20Z",
-  "currency_date": "2026-11-22",
-  "last_changed": "2026-11-22T07:15:20Z"
+  "currency_date": "2026-11-24",
+  "last_changed": "2026-11-24T07:13:22Z"
 }
